@@ -20,9 +20,11 @@ This is available for public use at: https://art-bd.shinyapps.io/covid19canada/
 
 
 # Specific Contributors
-Isha Berry, University of Toronto
-Jean-Paul R. Soucy, University of Toronto
-James E. Wright, SickKids
+Name | Organization | Email | Twitter
+--- | --- | --- | ---
+Isha Berry | University of Toronto  | isha.berry@mail.utoronto.ca | @ishaberry2
+Jean-Paul R. Soucy | University of Toronto | jeanpaul.soucy@mail.utoronto.ca | @JPSoucy
+James E. Wright | SickKids | jamese.wright@sickkids.ca | @JWright159
 
 
 # Citation
