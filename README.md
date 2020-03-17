@@ -1,4 +1,4 @@
-# Epidemiological Data from the Covid-19 Outbreak in Canada
+# Epidemiological Data from the COVID-19 Outbreak in Canada
 We are collecting publicly available information on confirmed and presumptive postive cases during the ongoing COVID-19 outbreak in Canada. Data are entered in a spreadsheet with each line representing a unique case, including age, sex, health region location, and history of travel where available. Sources are included as a reference for each entry. All data are exclusively collected from publicly available sources including government reports and news media.
 
 
@@ -28,5 +28,5 @@ James E. Wright | SickKids | jamese.wright@sickkids.ca | @JWright159
 
 
 # Citation
-Covid-19 Canada Open Data Working Group. Epidemiological Data from the Covid-19 Outbreak in Canada. https://github.com/ishaberry/Covid19Canada. (Access Date). 
+Covid-19 Canada Open Data Working Group. Epidemiological Data from the COVID-19 Outbreak in Canada. https://github.com/ishaberry/Covid19Canada. (Access Date). 
 
