@@ -28,5 +28,5 @@ James E. Wright | SickKids | jamese.wright@sickkids.ca | @JWright159
 
 
 # Citation
-Covid-19 Canada Open Data Working Group. Epidemiological Data from the COVID-19 Outbreak in Canada. https://github.com/ishaberry/Covid19Canada. (Access Date). 
+COVID-19 Canada Open Data Working Group. Epidemiological Data from the COVID-19 Outbreak in Canada. https://github.com/ishaberry/Covid19Canada. (Access Date). 
 
