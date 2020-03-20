@@ -25,12 +25,12 @@ Name | Organization | Email | Twitter
 Isha Berry | University of Toronto  | isha.berry@mail.utoronto.ca | @ishaberry2
 Jean-Paul R. Soucy | University of Toronto | jeanpaul.soucy@mail.utoronto.ca | @JPSoucy
 James E. Wright | SickKids | jamese.wright@sickkids.ca | @JWright159
-Kamal Acharya | | |
-Gabrielle Brankston | | |
-Thivya Naganathan | | |
-Lindsay Obress | | |
-Tanya Rossi | | |
-Wendy Xie | | |
+Kamal Acharya | University of Guelph | |
+Gabrielle Brankston | University of Guelph | |
+Thivya Naganathan | University of Guelph | |
+Lindsay Obress | University of Guelph | |
+Tanya Rossi | University of Guelph | |
+Wendy Xie | University of Guelph | |
 
 # Citation
 COVID-19 Canada Open Data Working Group. Epidemiological Data from the COVID-19 Outbreak in Canada. https://github.com/ishaberry/Covid19Canada. (Access Date). 
