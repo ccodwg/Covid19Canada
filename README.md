@@ -14,7 +14,7 @@ We aim to continue making updates daily.
 
 
 # Dashboard
-We have also created an interactive dahsboard for up-to-date visual analytics and epidemiological analyses. 
+We have also created an interactive dashboard for up-to-date visual analytics and epidemiological analyses. 
 
 This is available for public use at: https://art-bd.shinyapps.io/covid19canada/
 
