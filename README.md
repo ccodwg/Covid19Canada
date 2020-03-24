@@ -1,3 +1,11 @@
+# Forked from https://github.com/ishaberry/Covid19Canada
+we take a snapshot of the dataset each day and rename it so we can do time series
+1. install anaconda https://www.anaconda.com/distribution/
+2. start jupyter notebook
+3. run .ipynb scripts
+
+from https://github.com/ishaberry/Covid19Canada
+
 # Epidemiological Data from the COVID-19 Outbreak in Canada
 We are collecting publicly available information on confirmed and presumptive postive cases during the ongoing COVID-19 outbreak in Canada. Data are entered in a spreadsheet with each line representing a unique case, including age, sex, health region location, and history of travel where available. Sources are included as a reference for each entry. All data are exclusively collected from publicly available sources including government reports and news media.
 
