@@ -26,12 +26,14 @@ Name | Organization | Email | Twitter
 --- | --- | --- | ---
 Isha Berry | University of Toronto  | isha.berry@mail.utoronto.ca | @ishaberry2
 Jean-Paul R. Soucy | University of Toronto | jeanpaul.soucy@mail.utoronto.ca | @JPSoucy
-James E. Wright | SickKids | jamese.wright@sickkids.ca | @JWright159
 Kamal Acharya | University of Guelph | |
 Gabrielle Brankston | University of Guelph | |
+Vinyas Harish | University of Toronto | |
 Thivya Naganathan | University of Guelph | |
 Lindsay Obress | University of Guelph | |
+Meghan O'Neill | University of Toronto | |
 Tanya Rossi | University of Guelph | |
+James E. Wright | SickKids | jamese.wright@sickkids.ca | @JWright159
 Wendy Xie | University of Guelph | |
 
 # Citation
