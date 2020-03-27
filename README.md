@@ -29,6 +29,7 @@ Jean-Paul R. Soucy | University of Toronto | jeanpaul.soucy@mail.utoronto.ca | @
 Kamal Acharya | University of Guelph | acharyak@uoguelph.ca | @Kamalraj_ach
 Gabrielle Brankston | University of Guelph | brankstg@uoguelph.ca | @GBrankston
 Vinyas Harish | University of Toronto | v.harish@mail.utoronto.ca | @VinyasHarish
+Kathy Kornas | University of Toronto  | kathy.kornas@utoronto.ca | 
 Thivya Naganathan | University of Guelph | |
 Lindsay Obress | University of Guelph | |
 Meghan O'Neill | University of Toronto | meghan.oneill@utoronto.ca |@_MeghanONeill
