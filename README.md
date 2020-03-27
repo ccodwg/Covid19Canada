@@ -26,13 +26,13 @@ Name | Organization | Email | Twitter
 --- | --- | --- | ---
 Isha Berry | University of Toronto  | isha.berry@mail.utoronto.ca | @ishaberry2
 Jean-Paul R. Soucy | University of Toronto | jeanpaul.soucy@mail.utoronto.ca | @JPSoucy
-Kamal Acharya | University of Guelph | |
-Gabrielle Brankston | University of Guelph | |
-Vinyas Harish | University of Toronto | |
+Kamal Acharya | University of Guelph | acharyak@uoguelph.ca | @Kamalraj_ach
+Gabrielle Brankston | University of Guelph | brankstg@uoguelph.ca | @GBrankston
+Vinyas Harish | University of Toronto | v.harish@mail.utoronto.ca | @VinyasHarish
 Thivya Naganathan | University of Guelph | |
 Lindsay Obress | University of Guelph | |
-Meghan O'Neill | University of Toronto | |
-Tanya Rossi | University of Guelph | |
+Meghan O'Neill | University of Toronto | meghan.oneill@utoronto.ca |@_MeghanONeill
+Tanya Rossi | University of Guelph | rossit@uoguelph.ca | @DrTanyaRossi
 James E. Wright | SickKids | jamese.wright@sickkids.ca | @JWright159
 Wendy Xie | University of Guelph | |
 
