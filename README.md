@@ -12,6 +12,13 @@ https://docs.google.com/spreadsheets/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJ
 
 Alternatively, the data may be downloaded in a machine-readable format directly from this repository.
 
+* cases.csv: Individual-level cases
+* codebook.csv: Explanations for each variable in the dataset
+* mortality.csv: Individual-level mortality
+* recovered.csv: Time series of cumulative recovered
+* testing_cumulative.csv: Time series of cumulative testing
+* update_time.txt: Date and time of update
+
 We aim to continue making updates daily. 
 
 
