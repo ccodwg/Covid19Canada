@@ -20,6 +20,9 @@ We have also created an interactive dashboard for up-to-date visual analytics an
 
 This is available for public use at: https://art-bd.shinyapps.io/covid19canada/
 
+# Citation
+COVID-19 Canada Open Data Working Group. Epidemiological Data from the COVID-19 Outbreak in Canada. https://github.com/ishaberry/Covid19Canada. (Access Date). 
+
 
 # Specific Contributors
 Name | Organization | Email | Twitter
@@ -36,7 +39,4 @@ Meghan O'Neill | University of Toronto | meghan.oneill@utoronto.ca |@_MeghanONei
 Tanya Rossi | University of Guelph | rossit@uoguelph.ca | @DrTanyaRossi
 James E. Wright | SickKids | jamese.wright@sickkids.ca | @JWright159
 Wendy Xie | University of Guelph | |
-
-# Citation
-COVID-19 Canada Open Data Working Group. Epidemiological Data from the COVID-19 Outbreak in Canada. https://github.com/ishaberry/Covid19Canada. (Access Date). 
 
