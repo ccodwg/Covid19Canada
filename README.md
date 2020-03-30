@@ -8,7 +8,9 @@ We want to thank all individuals and organizations across Canada who have been w
 
 # Dataset
 The line list of cases is posted and updated at:
-https://docs.google.com/spreadsheets/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo/edit?usp=sharing (direct download link: https://docs.google.com/spreadsheets/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo/export?format=xlsx). Alternatively, the data may be downloaded in a machine-readable format directly from this repository.
+https://docs.google.com/spreadsheets/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo/edit?usp=sharing ([direct download link](https://docs.google.com/spreadsheets/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo/export?format=xlsx)).
+
+Alternatively, the data may be downloaded in a machine-readable format directly from this repository.
 
 We aim to continue making updates daily. 
 
