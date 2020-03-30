@@ -1,3 +1,5 @@
+"Last update: 29 March 2020, 20:00 EST",,
+Please see the recommended citation for this dataset on the Contributors tab,,
 Variable,Description,Label
 case_id,National Case ID Number,
 provincial_case_id,Provincial Case ID Number,
@@ -19,4 +21,4 @@ death_source,Source website for death information,
 date_recovered,Time series of recovery dates,
 cumulative_recovered,Cumulative number of recoveries,
 date_testing,Time series of testing dates,
-cumulative_testing,Cumulative number of tests,
+cumulative_testing,Cumulative number of tests (* denotes a change in reported testing definition),
