@@ -8,6 +8,10 @@ We want to thank all individuals and organizations across Canada who have been w
 Please see below for a recommended citation of this dataset. A number of individuals have contributed to the specific data added here and their names and details are listed below, as well as in the contributors tab of the spreadsheet. 
 
 
+# Citation
+COVID-19 Canada Open Data Working Group. Epidemiological Data from the COVID-19 Outbreak in Canada. https://github.com/ishaberry/Covid19Canada. (Access Date). 
+
+
 # Dataset
 The line list of cases is posted and updated at:
 https://docs.google.com/spreadsheets/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo/edit?usp=sharing ([direct download link](https://docs.google.com/spreadsheets/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo/export?format=xlsx)).
@@ -28,9 +32,6 @@ We aim to continue making updates daily.
 We have also created an interactive dashboard for up-to-date visual analytics and epidemiological analyses. 
 
 This is available for public use at: https://art-bd.shinyapps.io/covid19canada/
-
-# Citation
-COVID-19 Canada Open Data Working Group. Epidemiological Data from the COVID-19 Outbreak in Canada. https://github.com/ishaberry/Covid19Canada. (Access Date). 
 
 
 # Specific Contributors
