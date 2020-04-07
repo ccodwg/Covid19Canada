@@ -44,9 +44,9 @@ Gabrielle Brankston | University of Guelph | brankstg@uoguelph.ca | @GBrankston
 Vinyas Harish | University of Toronto | v.harish@mail.utoronto.ca | @VinyasHarish
 Kathy Kornas | University of Toronto  | kathy.kornas@utoronto.ca | 
 Thivya Naganathan | University of Guelph | |
-Lindsay Obress | University of Guelph | |
+Lindsay Obress | University of Guelph | lobress@uoguelph.ca |
 Meghan O'Neill | University of Toronto | meghan.oneill@utoronto.ca |@_MeghanONeill
 Tanya Rossi | University of Guelph | rossit@uoguelph.ca | @DrTanyaRossi
 James E. Wright | SickKids | jamese.wright@sickkids.ca | @JWright159
-Wendy Xie | University of Guelph | |
+Wendy Xie | University of Guelph | xxie03@uoguelph.ca |
 
