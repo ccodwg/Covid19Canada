@@ -47,6 +47,8 @@ Thivya Naganathan | University of Guelph | |
 Lindsay Obress | University of Guelph | lobress@uoguelph.ca |
 Meghan O'Neill | University of Toronto | meghan.oneill@utoronto.ca |@_MeghanONeill
 Tanya Rossi | University of Guelph | rossit@uoguelph.ca | @DrTanyaRossi
+Shelby Sturrock | University of Toronto | shelby.sturrock@mail.utoronto.ca| @shelbysturrock
+Matthew Van Camp | University of Guelph | vancampm@uoguelph.ca | 
 James E. Wright | SickKids | jamese.wright@sickkids.ca | @JWright159
 Wendy Xie | University of Guelph | xxie03@uoguelph.ca |
 
