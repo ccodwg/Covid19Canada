@@ -1,5 +1,3 @@
-"Last update: 02 April 2020, 22:00 EST",,
-Please see the recommended citation for this dataset on the Contributors tab,,
 Variable,Description,Label
 case_id,National Case ID Number,
 provincial_case_id,Provincial Case ID Number,
@@ -21,5 +19,6 @@ death_source,Source website for death information,
 date_recovered,Time series of recovery dates,
 cumulative_recovered,Cumulative number of recoveries,
 date_testing,Time series of testing dates,
-cumulative_testing,Cumulative number of tests (* denotes a change in reported testing definition),
+cumulative_testing,Cumulative number of tests,
+testing_info,"Additional information to contextualize cumulative number of tests (e.g., explain reason why cumulative number of tests decreased)",
 method_note,Methodological notes,"0 = as reported, 1 = assumed/redistributed health region, 2 = new ID, 3 = modification in other variable base on additional sources "
