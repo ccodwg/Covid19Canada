@@ -19,13 +19,15 @@ https://docs.google.com/spreadsheets/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJ
 Alternatively, the data may be downloaded in a machine-readable format directly from this repository.
 
 * cases.csv: Individual-level cases
-* cases_timeseries.csv: Province-level daily and cumulative case time series
 * codebook.csv: Explanations for each variable in the dataset
 * mortality.csv: Individual-level mortality
-* mortality_timeseries.csv: Province-level daily and cumulative death time series
 * recovered_cumulative.csv: Province-level cumulative recovered time series
 * testing_cumulative.csv: Province-level cumulative testing time series
 * update_time.txt: Date and time of update
+* timeseries_hr/cases_timeseries_hr.csv: Health region-level daily and cumulative case time series
+* timeseries_hr/mortality_timeseries_hr.csv: Health region-level daily and cumulative death time series
+* timeseries_prov/cases_timeseries_prov.csv: Province-level daily and cumulative case time series
+* timeseries_prov/mortality_timeseries_prov.csv: Province-level daily and cumulative death time series
 
 We aim to continue making updates daily. 
 
