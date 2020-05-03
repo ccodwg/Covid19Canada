@@ -47,7 +47,7 @@ Kamal Acharya | University of Guelph | acharyak@uoguelph.ca | @Kamalraj_ach
 Gabrielle Brankston | University of Guelph | brankstg@uoguelph.ca | @GBrankston
 Vinyas Harish | University of Toronto | v.harish@mail.utoronto.ca | @VinyasHarish
 Kathy Kornas | University of Toronto  | kathy.kornas@utoronto.ca | 
-Thivya Naganathan | University of Guelph | |
+Thivya Naganathan | University of Guelph |tnaganat@uoguelph.ca |
 Lindsay Obress | University of Guelph | lobress@uoguelph.ca |
 Meghan O'Neill | University of Toronto | meghan.oneill@utoronto.ca |@_MeghanONeill
 Tanya Rossi | University of Guelph | rossit@uoguelph.ca | @DrTanyaRossi
@@ -55,5 +55,5 @@ Alison Simmons | University of Toronto | alison.simmons@mail.utoronto.ca | @alis
 Shelby Sturrock | University of Toronto | shelby.sturrock@mail.utoronto.ca| @shelbysturrock
 Matthew Van Camp | University of Guelph | vancampm@uoguelph.ca | 
 James E. Wright | SickKids | jamese.wright@sickkids.ca | @JWright159
-Wendy Xie | University of Guelph | xxie03@uoguelph.ca |
+Wendy Xie | University of Guelph | xxie03@uoguelph.ca | @XiaotingXie
 
