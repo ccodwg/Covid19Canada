@@ -28,6 +28,9 @@ Alternatively, the data may be downloaded in a machine-readable format directly 
 * timeseries_hr/mortality_timeseries_hr.csv: Health region-level daily and cumulative death time series
 * timeseries_prov/cases_timeseries_prov.csv: Province-level daily and cumulative case time series
 * timeseries_prov/mortality_timeseries_prov.csv: Province-level daily and cumulative death time series
+* timeseries_prov/recovered_timeseries_prov.csv: Province-level daily and cumulative recovered time series
+* timeseries_prov/testing_timeseries_prov.csv: Province-level daily and cumulative testing time series
+* timeseries_prov/active_timeseries_prov.csv: Province-level current and change in active cases time series
 
 We aim to continue making updates daily. 
 
