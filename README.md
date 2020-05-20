@@ -9,7 +9,7 @@ Please see below for a recommended citation of this dataset. A number of individ
 
 
 # Citation
-Berry I, Soucy J-PR, Tuite A, Fisman D. Open access epidemiologic data and an interactive dashboard to monitor the COVID-19 outbreak in Canada. CMAJ. 2020 Apr 14;192(15):E420. doi: https://doi.org/10.1503/cmaj.75262
+Berry I, Soucy J-PR, Tuite A, Fisman D, CCODWG. Open access epidemiologic data and an interactive dashboard to monitor the COVID-19 outbreak in Canada. CMAJ. 2020 Apr 14;192(15):E420. doi: https://doi.org/10.1503/cmaj.75262
 
 
 # Datasets
