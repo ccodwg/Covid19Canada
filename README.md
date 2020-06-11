@@ -37,6 +37,8 @@ The full data may be downloaded in a machine-readable format directly from this 
 * **Daily and cumulative testing**: timeseries_prov/testing_timeseries_prov.csv
 * **Current and change in active cases**: timeseries_prov/active_timeseries_prov.csv
 
+### Other Files
+* **Correspondence between health region names used in our dataset and HRUID values given in Esri Canada's [health region map](https://resources-covid19canada.hub.arcgis.com/datasets/regionalhealthboundaries-1), with [2018 population values](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1710013401)**: other/hr_map.csv
 
 # Dashboard
 We have also created an interactive dashboard for up-to-date visual analytics and epidemiological analyses. 
