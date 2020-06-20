@@ -47,21 +47,21 @@ This is available for public use at: https://art-bd.shinyapps.io/covid19canada/
 
 
 # Specific Contributors
-Name | Organization | Email | Twitter
---- | --- | --- | ---
-Isha Berry | University of Toronto  | isha.berry@mail.utoronto.ca | @ishaberry2
-Jean-Paul R. Soucy | University of Toronto | jeanpaul.soucy@mail.utoronto.ca | @JPSoucy
-Kamal Acharya | University of Guelph | acharyak@uoguelph.ca | @Kamalraj_ach
-Gabrielle Brankston | University of Guelph | brankstg@uoguelph.ca | @GBrankston
-Vinyas Harish | University of Toronto | v.harish@mail.utoronto.ca | @VinyasHarish
-Kathy Kornas | University of Toronto  | kathy.kornas@utoronto.ca | 
-Thivya Naganathan | University of Guelph |tnaganat@uoguelph.ca |
-Lindsay Obress | University of Guelph | lobress@uoguelph.ca |
-Meghan O'Neill | University of Toronto | meghan.oneill@utoronto.ca |@_MeghanONeill
-Tanya Rossi | University of Guelph | rossit@uoguelph.ca | @DrTanyaRossi
-Alison Simmons | University of Toronto | alison.simmons@mail.utoronto.ca | @alisonesimmons
-Shelby Sturrock | University of Toronto | shelby.sturrock@mail.utoronto.ca| @shelbysturrock
-Matthew Van Camp | University of Guelph | vancampm@uoguelph.ca | 
-James E. Wright | SickKids | jamese.wright@sickkids.ca | @JWright159
-Wendy Xie | University of Guelph | xxie03@uoguelph.ca | @XiaotingXie
+Name | Role | Organization | Email | Twitter
+--- | --- | --- | --- | ---
+Isha Berry | Founder | University of Toronto  | isha.berry@mail.utoronto.ca | @ishaberry2
+Jean-Paul R. Soucy | Founder | University of Toronto | jeanpaul.soucy@mail.utoronto.ca | @JPSoucy
+Meghan O'Neill | Data Lead | University of Toronto | meghan.oneill@utoronto.ca |@_MeghanONeill
+Shelby Sturrock | Data Lead | University of Toronto | shelby.sturrock@mail.utoronto.ca| @shelbysturrock
+James E. Wright | Data Lead | SickKids | jamese.wright@sickkids.ca | @JWright159
+Kamal Acharya | Contributor | University of Guelph | acharyak@uoguelph.ca | @Kamalraj_ach
+Gabrielle Brankston | Contributor |  University of Guelph | brankstg@uoguelph.ca | @GBrankston
+Vinyas Harish | Contributor |  University of Toronto | v.harish@mail.utoronto.ca | @VinyasHarish
+Kathy Kornas | Contributor | University of Toronto  | kathy.kornas@utoronto.ca | 
+Thivya Naganathan | Contributor |  University of Guelph |tnaganat@uoguelph.ca |
+Lindsay Obress | Contributor |  University of Guelph | lobress@uoguelph.ca |
+Tanya Rossi | Contributor |  University of Guelph | rossit@uoguelph.ca | @DrTanyaRossi
+Alison Simmons | Contributor | University of Toronto | alison.simmons@mail.utoronto.ca | @alisonesimmons
+Matthew Van Camp | Contributor |  University of Guelph | vancampm@uoguelph.ca | 
+Wendy Xie | Contributor |  University of Guelph | xxie03@uoguelph.ca | @XiaotingXie
 
