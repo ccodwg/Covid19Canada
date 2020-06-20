@@ -29,13 +29,18 @@ The full data may be downloaded in a machine-readable format directly from this 
 * **Daily and cumulative mortality**: timeseries_hr/mortality_timeseries_hr.csv
 
 ### Province-level Time Series
-* **Cumulative recovered**: recovered_cumulative.csv
-* **Cumulative testing**: testing_cumulative.csv
 * **Daily and cumulative cases**: timeseries_prov/cases_timeseries_prov.csv
 * **Daily and cumulative mortality**: timeseries_prov/mortality_timeseries_prov.csv
 * **Daily and cumulative recovered**: timeseries_prov/recovered_timeseries_prov.csv
 * **Daily and cumulative testing**: timeseries_prov/testing_timeseries_prov.csv
 * **Current and change in active cases**: timeseries_prov/active_timeseries_prov.csv
+
+### Canada-level Time Series
+* **Daily and cumulative cases**: timeseries_canada/cases_timeseries_canada.csv
+* **Daily and cumulative mortality**: timeseries_canada/mortality_timeseries_canada.csv
+* **Daily and cumulative recovered**: timeseries_canada/recovered_timeseries_canada.csv
+* **Daily and cumulative testing**: timeseries_canada/testing_timeseries_canada.csv
+* **Current and change in active cases**: timeseries_canada/active_timeseries_canada.csv
 
 ### Other Files
 * **Correspondence between health region names used in our dataset and HRUID values given in Esri Canada's [health region map](https://resources-covid19canada.hub.arcgis.com/datasets/regionalhealthboundaries-1), with [2018 population values](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1710013401)**: other/hr_map.csv
