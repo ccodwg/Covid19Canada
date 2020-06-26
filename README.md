@@ -45,11 +45,14 @@ The full data may be downloaded in a machine-readable format directly from this 
 ### Other Files
 * **Correspondence between health region names used in our dataset and HRUID values given in Esri Canada's [health region map](https://resources-covid19canada.hub.arcgis.com/datasets/regionalhealthboundaries-1), with [2018 population values](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1710013401)**: other/hr_map.csv
 
-# Dashboard
+# Data dashboard
 We have also created an interactive dashboard for up-to-date visual analytics and epidemiological analyses. 
 
-This is available for public use at: https://art-bd.shinyapps.io/covid19canada/
+This is available for public use at: [https://art-bd.shinyapps.io/covid19canada/](https://art-bd.shinyapps.io/covid19canada/)
 
+# Methodology and data notes
+
+Our data collection methodology as well as specific notes about the data are listed on the "About the data" tab on our [dashboard](https://art-bd.shinyapps.io/covid19canada/).
 
 # Specific Contributors
 Name | Role | Organization | Email | Twitter
