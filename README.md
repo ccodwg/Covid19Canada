@@ -73,4 +73,4 @@ Tanya Rossi | Contributor |  University of Guelph | rossit@uoguelph.ca | [@DrTan
 Alison Simmons | Contributor | University of Toronto | alison.simmons@mail.utoronto.ca | [@alisonesimmons](https://twitter.com/alisonesimmons)
 Matthew Van Camp | Contributor |  University of Guelph | vancampm@uoguelph.ca | 
 Wendy Xie | Contributor |  University of Guelph | xxie03@uoguelph.ca | [@XiaotingXie](https://twitter.com/XiaotingXie)
-
+Nika Maani | Contributor | University of Toronto | nika.maani@mail.utoronto.ca |
