@@ -46,6 +46,10 @@ The full data may be downloaded in a machine-readable format directly from this 
 * **Correspondence between health region names used in our dataset and HRUID values given in Esri Canada's [health region map](https://resources-covid19canada.hub.arcgis.com/datasets/regionalhealthboundaries-1), with [2018 population values](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1710013401)**: other/hr_map.csv
 * **Correspondence between ages given in the individual-level case data and age groups displayed on the data dashboard**: other/age_map_cases.csv
 
+### Scripts
+* **Data update (script used to prepare the data update each day)**: scripts/data_update.R
+* **Data update validation (script used to help check the data update each day prior to release)**: scripts/data_update_validation.R
+
 # Data dashboard
 We have also created an interactive dashboard for up-to-date visual analytics and epidemiological analyses. 
 
