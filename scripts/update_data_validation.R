@@ -207,7 +207,11 @@ ts_hr <- function() {
         diff_hr <- diff_prov %>%
           filter(health_region == hr)
         if (nrow(filter(diff_hr, !!sym(date_var) == update_date & chng_type == "+")) == 0) {
-          cat(bgRed(paste0(hr, " (", prov, ") ", type, ": no update today?")), fill = TRUE)
+          if (hr == "Not reported") {
+            cat(bgRed(paste0(hr, " (", prov, ") ", type, ": no update today?")), fill = TRUE) 
+          } else {
+            cat(bgRed(paste0(hr, " (", prov, ") ", type, ": Not Reported series deleted. Did they all get assigned a health region?.")), fill = TRUE)
+          }
         } else if (nrow(diff_hr) == 1 & nrow(filter(diff_hr, !(!!sym(date_var) == update_date & chng_type == "+"))) == 0) {
           # cat(green(paste0(hr, " (", prov, ") ", type, ": regular update.")), fill = TRUE) # don't report successes
         } else {
