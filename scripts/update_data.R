@@ -268,7 +268,9 @@ testing_ts_canada <- testing_ts %>%
   mutate(province = "Canada") %>%
   group_by(province, date_testing) %>%
   ### if there is any testing info for any province on a particular day, it will be flagged
-  summarise(testing = sum(testing), cumulative_testing = sum(cumulative_testing), testing_info = paste0(unique(testing_info)), .groups = "drop_last") %>%
+  summarise(testing = sum(testing), cumulative_testing = sum(cumulative_testing), testing_info = paste0(unique(testing_info)), .groups = "keep") %>%
+  arrange(date_testing, testing_info) %>%
+  slice_tail(n = 1) %>%
   ### keep original order
   arrange(match(date_testing, testing_ts$date_testing))
 
