@@ -113,7 +113,7 @@ check_ages_cases <- function() {
 ## Canadian data
 ts_canada <- function() {
   
-  cat("\nTesting Canada time series...", fill = TRUE)
+  cat("\nChecking Canada time series...", fill = TRUE)
   
   for (type in types) {
     
@@ -141,7 +141,7 @@ ts_canada <- function() {
 ## provincial data
 ts_prov <- function() {
   
-  cat("\nTesting provincial time series...\n", fill = TRUE)
+  cat("\nChecking provincial time series...\n", fill = TRUE)
   
   for (type in types) {
   
@@ -181,7 +181,7 @@ ts_prov <- function() {
 ### for a province that did not previously have this.
 ts_hr <- function() {
   
-  cat("\nTesting health region time series...\n", fill = TRUE)
+  cat("\nChecking health region time series...\n", fill = TRUE)
   
   for (type in types_hr) {
     
