@@ -196,7 +196,7 @@ ts_hr <- function() {
     ### loop through provinces
     for (prov in unique(get(new_file)$province)) {
       
-      cat("Testing ", type, " from health regions in ", prov, "...\n", sep = "", fill = TRUE)
+      cat("Checking ", type, " from health regions in ", prov, "...\n", sep = "", fill = TRUE)
       diff_prov <- diff %>%
         filter(province == prov)
       
