@@ -71,10 +71,11 @@ Kamal Acharya | Contributor | University of Guelph | acharyak@uoguelph.ca | [@Ka
 Gabrielle Brankston | Contributor |  University of Guelph | brankstg@uoguelph.ca | [@GBrankston](https://twitter.com/GBrankston)
 Vinyas Harish | Contributor |  University of Toronto | v.harish@mail.utoronto.ca | [@VinyasHarish](https://twitter.com/VinyasHarish)
 Kathy Kornas | Contributor | University of Toronto  | kathy.kornas@utoronto.ca | 
+Nika Maani | Contributor | University of Toronto | nika.maani@mail.utoronto.ca |
 Thivya Naganathan | Contributor |  University of Guelph |tnaganat@uoguelph.ca |
 Lindsay Obress | Contributor |  University of Guelph | lobress@uoguelph.ca |
 Tanya Rossi | Contributor |  University of Guelph | rossit@uoguelph.ca | [@DrTanyaRossi](https://twitter.com/DrTanyaRossi)
 Alison Simmons | Contributor | University of Toronto | alison.simmons@mail.utoronto.ca | [@alisonesimmons](https://twitter.com/alisonesimmons)
 Matthew Van Camp | Contributor |  University of Guelph | vancampm@uoguelph.ca | 
 Wendy Xie | Contributor |  University of Guelph | xxie03@uoguelph.ca | [@XiaotingXie](https://twitter.com/XiaotingXie)
-Nika Maani | Contributor | University of Toronto | nika.maani@mail.utoronto.ca |
+
