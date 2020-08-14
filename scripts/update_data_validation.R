@@ -99,7 +99,7 @@ check_ages_cases <- function() {
     )
   
   ### check for new ages
-  if (sum(is.na(cases$age_transform)) == 0) {
+  if (sum(is.na(cases$age_map)) == 0) {
     cat(green("No new ages."), fill = TRUE)
   } else {
     ### report new ages
