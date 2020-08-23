@@ -4,7 +4,7 @@
 # Download and process updated COVID-19 Canada data files from Google Sheets
 # Spreadsheet link: https://docs.google.com/spreadsheets/u/1/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo
 
-# Note: This script assumes the working directory is set to the root directory
+# Note: This script assumes the working directory is set to the root directory of the project
 # This is most easily achieved by using the provided Covid19Canada.Rproj in RStudio
 
 # load libraries
