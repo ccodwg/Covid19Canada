@@ -31,6 +31,10 @@ if (identical(old_update_time, update_time)) stop("Update times for old and new 
 ## print today's cumulative numbers and daily changes
 print_cumulative_today()
 
+## check validity of health names in individual-level case and mortality data
+check_hr("cases")
+check_hr("mortality")
+
 ## check ages in individual-level case data
 check_ages_cases()
 

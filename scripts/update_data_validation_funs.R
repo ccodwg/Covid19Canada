@@ -70,6 +70,32 @@ print_cumulative_today <- function() {
 
 # define functions for individual-level data
 
+## check health regions in case and mortality data
+check_hr <- function(type) {
+  
+  ### match argument
+  match.arg(type, choices = c("cases", "mortality"))
+  
+  ### load data
+  dat <- get(type)
+  
+  ### check health regions
+  bad_hr <- dat %>%
+    select(health_region) %>%
+    distinct %>%
+    filter(!health_region %in% c(hr_map$health_region, "Not Reported"))
+  
+  ### report results
+  if (nrow(bad_hr) == 0) {
+    cat(green(paste0("All health region names in ", type, ".csv are valid.")), fill = TRUE)
+  } else {
+    ### report invalid health regions
+    cat(bgRed(paste0("Invalid health region names in ", type, ".csv: ",
+              paste(bad_hr[, "health_region"], collapse = ", "))), sep = "", fill = TRUE)
+  }
+  
+}
+
 ## check ages in case data
 check_ages_cases <- function() {
   
