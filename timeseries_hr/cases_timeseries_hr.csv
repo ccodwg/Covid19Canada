@@ -215,9 +215,10 @@
 "Alberta","Calgary","25-08-2020",18,7156
 "Alberta","Calgary","26-08-2020",49,7205
 "Alberta","Calgary","27-08-2020",38,7243
-"Alberta","Calgary","28-08-2020",91,7334
-"Alberta","Calgary","29-08-2020",0,7334
-"Alberta","Calgary","30-08-2020",0,7334
+"Alberta","Calgary","28-08-2020",95,7338
+"Alberta","Calgary","29-08-2020",0,7338
+"Alberta","Calgary","30-08-2020",0,7338
+"Alberta","Calgary","31-08-2020",187,7525
 "Alberta","Central","25-01-2020",0,0
 "Alberta","Central","26-01-2020",0,0
 "Alberta","Central","27-01-2020",0,0
@@ -437,6 +438,7 @@
 "Alberta","Central","28-08-2020",2,576
 "Alberta","Central","29-08-2020",0,576
 "Alberta","Central","30-08-2020",0,576
+"Alberta","Central","31-08-2020",12,588
 "Alberta","Edmonton","25-01-2020",0,0
 "Alberta","Edmonton","26-01-2020",0,0
 "Alberta","Edmonton","27-01-2020",0,0
@@ -656,6 +658,7 @@
 "Alberta","Edmonton","28-08-2020",33,2922
 "Alberta","Edmonton","29-08-2020",0,2922
 "Alberta","Edmonton","30-08-2020",0,2922
+"Alberta","Edmonton","31-08-2020",171,3093
 "Alberta","North","25-01-2020",0,0
 "Alberta","North","26-01-2020",0,0
 "Alberta","North","27-01-2020",0,0
@@ -875,6 +878,7 @@
 "Alberta","North","28-08-2020",21,876
 "Alberta","North","29-08-2020",0,876
 "Alberta","North","30-08-2020",0,876
+"Alberta","North","31-08-2020",48,924
 "Alberta","Not Reported","25-01-2020",0,0
 "Alberta","Not Reported","26-01-2020",0,0
 "Alberta","Not Reported","27-01-2020",0,0
@@ -1091,9 +1095,10 @@
 "Alberta","Not Reported","25-08-2020",0,31
 "Alberta","Not Reported","26-08-2020",0,31
 "Alberta","Not Reported","27-08-2020",0,31
-"Alberta","Not Reported","28-08-2020",5,36
-"Alberta","Not Reported","29-08-2020",0,36
-"Alberta","Not Reported","30-08-2020",0,36
+"Alberta","Not Reported","28-08-2020",1,32
+"Alberta","Not Reported","29-08-2020",0,32
+"Alberta","Not Reported","30-08-2020",0,32
+"Alberta","Not Reported","31-08-2020",0,32
 "Alberta","South","25-01-2020",0,0
 "Alberta","South","26-01-2020",0,0
 "Alberta","South","27-01-2020",0,0
@@ -1313,6 +1318,7 @@
 "Alberta","South","28-08-2020",6,1732
 "Alberta","South","29-08-2020",0,1732
 "Alberta","South","30-08-2020",0,1732
+"Alberta","South","31-08-2020",8,1740
 "BC","Fraser","25-01-2020",0,0
 "BC","Fraser","26-01-2020",0,0
 "BC","Fraser","27-01-2020",0,0
@@ -1521,17 +1527,18 @@
 "BC","Fraser","17-08-2020",151,2423
 "BC","Fraser","18-08-2020",48,2471
 "BC","Fraser","19-08-2020",20,2491
-"BC","Fraser","20-08-2020",41,2532
-"BC","Fraser","21-08-2020",38,2570
-"BC","Fraser","22-08-2020",1,2571
-"BC","Fraser","23-08-2020",0,2571
-"BC","Fraser","24-08-2020",166,2737
-"BC","Fraser","25-08-2020",26,2763
-"BC","Fraser","26-08-2020",33,2796
-"BC","Fraser","27-08-2020",21,2817
-"BC","Fraser","28-08-2020",61,2878
-"BC","Fraser","29-08-2020",0,2878
-"BC","Fraser","30-08-2020",0,2878
+"BC","Fraser","20-08-2020",40,2531
+"BC","Fraser","21-08-2020",38,2569
+"BC","Fraser","22-08-2020",1,2570
+"BC","Fraser","23-08-2020",0,2570
+"BC","Fraser","24-08-2020",165,2735
+"BC","Fraser","25-08-2020",26,2761
+"BC","Fraser","26-08-2020",33,2794
+"BC","Fraser","27-08-2020",21,2815
+"BC","Fraser","28-08-2020",60,2875
+"BC","Fraser","29-08-2020",0,2875
+"BC","Fraser","30-08-2020",0,2875
+"BC","Fraser","31-08-2020",167,3042
 "BC","Interior","25-01-2020",0,0
 "BC","Interior","26-01-2020",0,0
 "BC","Interior","27-01-2020",0,0
@@ -1740,17 +1747,18 @@
 "BC","Interior","17-08-2020",3,407
 "BC","Interior","18-08-2020",1,408
 "BC","Interior","19-08-2020",3,411
-"BC","Interior","20-08-2020",0,411
-"BC","Interior","21-08-2020",8,419
-"BC","Interior","22-08-2020",0,419
-"BC","Interior","23-08-2020",0,419
-"BC","Interior","24-08-2020",6,425
-"BC","Interior","25-08-2020",1,426
-"BC","Interior","26-08-2020",3,429
-"BC","Interior","27-08-2020",0,429
-"BC","Interior","28-08-2020",4,433
-"BC","Interior","29-08-2020",0,433
-"BC","Interior","30-08-2020",0,433
+"BC","Interior","20-08-2020",1,412
+"BC","Interior","21-08-2020",8,420
+"BC","Interior","22-08-2020",0,420
+"BC","Interior","23-08-2020",0,420
+"BC","Interior","24-08-2020",6,426
+"BC","Interior","25-08-2020",1,427
+"BC","Interior","26-08-2020",3,430
+"BC","Interior","27-08-2020",1,431
+"BC","Interior","28-08-2020",4,435
+"BC","Interior","29-08-2020",0,435
+"BC","Interior","30-08-2020",0,435
+"BC","Interior","31-08-2020",5,440
 "BC","Island","25-01-2020",0,0
 "BC","Island","26-01-2020",0,0
 "BC","Island","27-01-2020",0,0
@@ -1967,9 +1975,10 @@
 "BC","Island","25-08-2020",2,168
 "BC","Island","26-08-2020",2,170
 "BC","Island","27-08-2020",3,173
-"BC","Island","28-08-2020",1,174
-"BC","Island","29-08-2020",0,174
-"BC","Island","30-08-2020",0,174
+"BC","Island","28-08-2020",0,173
+"BC","Island","29-08-2020",0,173
+"BC","Island","30-08-2020",0,173
+"BC","Island","31-08-2020",2,175
 "BC","Northern","25-01-2020",0,0
 "BC","Northern","26-01-2020",0,0
 "BC","Northern","27-01-2020",0,0
@@ -2189,6 +2198,7 @@
 "BC","Northern","28-08-2020",5,142
 "BC","Northern","29-08-2020",0,142
 "BC","Northern","30-08-2020",0,142
+"BC","Northern","31-08-2020",12,154
 "BC","Not Reported","25-01-2020",0,0
 "BC","Not Reported","26-01-2020",0,0
 "BC","Not Reported","27-01-2020",0,0
@@ -2405,9 +2415,10 @@
 "BC","Not Reported","25-08-2020",1,77
 "BC","Not Reported","26-08-2020",1,78
 "BC","Not Reported","27-08-2020",0,78
-"BC","Not Reported","28-08-2020",0,78
-"BC","Not Reported","29-08-2020",0,78
-"BC","Not Reported","30-08-2020",0,78
+"BC","Not Reported","28-08-2020",1,79
+"BC","Not Reported","29-08-2020",0,79
+"BC","Not Reported","30-08-2020",0,79
+"BC","Not Reported","31-08-2020",0,79
 "BC","Vancouver Coastal","25-01-2020",0,0
 "BC","Vancouver Coastal","26-01-2020",0,0
 "BC","Vancouver Coastal","27-01-2020",0,0
@@ -2620,13 +2631,14 @@
 "BC","Vancouver Coastal","21-08-2020",41,1568
 "BC","Vancouver Coastal","22-08-2020",0,1568
 "BC","Vancouver Coastal","23-08-2020",0,1568
-"BC","Vancouver Coastal","24-08-2020",85,1653
-"BC","Vancouver Coastal","25-08-2020",27,1680
-"BC","Vancouver Coastal","26-08-2020",18,1698
-"BC","Vancouver Coastal","27-08-2020",40,1738
-"BC","Vancouver Coastal","28-08-2020",53,1791
-"BC","Vancouver Coastal","29-08-2020",0,1791
-"BC","Vancouver Coastal","30-08-2020",0,1791
+"BC","Vancouver Coastal","24-08-2020",86,1654
+"BC","Vancouver Coastal","25-08-2020",27,1681
+"BC","Vancouver Coastal","26-08-2020",18,1699
+"BC","Vancouver Coastal","27-08-2020",39,1738
+"BC","Vancouver Coastal","28-08-2020",54,1792
+"BC","Vancouver Coastal","29-08-2020",0,1792
+"BC","Vancouver Coastal","30-08-2020",0,1792
+"BC","Vancouver Coastal","31-08-2020",108,1900
 "Manitoba","Interlake-Eastern","25-01-2020",0,0
 "Manitoba","Interlake-Eastern","26-01-2020",0,0
 "Manitoba","Interlake-Eastern","27-01-2020",0,0
@@ -2846,6 +2858,7 @@
 "Manitoba","Interlake-Eastern","28-08-2020",1,74
 "Manitoba","Interlake-Eastern","29-08-2020",0,74
 "Manitoba","Interlake-Eastern","30-08-2020",1,75
+"Manitoba","Interlake-Eastern","31-08-2020",2,77
 "Manitoba","Northern","25-01-2020",0,0
 "Manitoba","Northern","26-01-2020",0,0
 "Manitoba","Northern","27-01-2020",0,0
@@ -3065,6 +3078,7 @@
 "Manitoba","Northern","28-08-2020",0,4
 "Manitoba","Northern","29-08-2020",0,4
 "Manitoba","Northern","30-08-2020",0,4
+"Manitoba","Northern","31-08-2020",0,4
 "Manitoba","Prairie Mountain","25-01-2020",0,0
 "Manitoba","Prairie Mountain","26-01-2020",0,0
 "Manitoba","Prairie Mountain","27-01-2020",0,0
@@ -3284,6 +3298,7 @@
 "Manitoba","Prairie Mountain","28-08-2020",17,390
 "Manitoba","Prairie Mountain","29-08-2020",31,421
 "Manitoba","Prairie Mountain","30-08-2020",12,433
+"Manitoba","Prairie Mountain","31-08-2020",13,446
 "Manitoba","Southern Health","25-01-2020",0,0
 "Manitoba","Southern Health","26-01-2020",0,0
 "Manitoba","Southern Health","27-01-2020",0,0
@@ -3503,6 +3518,7 @@
 "Manitoba","Southern Health","28-08-2020",6,247
 "Manitoba","Southern Health","29-08-2020",5,252
 "Manitoba","Southern Health","30-08-2020",5,257
+"Manitoba","Southern Health","31-08-2020",6,263
 "Manitoba","Winnipeg","25-01-2020",0,0
 "Manitoba","Winnipeg","26-01-2020",0,0
 "Manitoba","Winnipeg","27-01-2020",0,0
@@ -3722,6 +3738,7 @@
 "Manitoba","Winnipeg","28-08-2020",8,381
 "Manitoba","Winnipeg","29-08-2020",19,400
 "Manitoba","Winnipeg","30-08-2020",17,417
+"Manitoba","Winnipeg","31-08-2020",7,424
 "New Brunswick","Zone 1 (Moncton area)","25-01-2020",0,0
 "New Brunswick","Zone 1 (Moncton area)","26-01-2020",0,0
 "New Brunswick","Zone 1 (Moncton area)","27-01-2020",0,0
@@ -3941,6 +3958,7 @@
 "New Brunswick","Zone 1 (Moncton area)","28-08-2020",0,42
 "New Brunswick","Zone 1 (Moncton area)","29-08-2020",0,42
 "New Brunswick","Zone 1 (Moncton area)","30-08-2020",0,42
+"New Brunswick","Zone 1 (Moncton area)","31-08-2020",0,42
 "New Brunswick","Zone 2 (Saint John area)","25-01-2020",0,0
 "New Brunswick","Zone 2 (Saint John area)","26-01-2020",0,0
 "New Brunswick","Zone 2 (Saint John area)","27-01-2020",0,0
@@ -4160,6 +4178,7 @@
 "New Brunswick","Zone 2 (Saint John area)","28-08-2020",1,28
 "New Brunswick","Zone 2 (Saint John area)","29-08-2020",0,28
 "New Brunswick","Zone 2 (Saint John area)","30-08-2020",0,28
+"New Brunswick","Zone 2 (Saint John area)","31-08-2020",0,28
 "New Brunswick","Zone 3 (Fredericton area)","25-01-2020",0,0
 "New Brunswick","Zone 3 (Fredericton area)","26-01-2020",0,0
 "New Brunswick","Zone 3 (Fredericton area)","27-01-2020",0,0
@@ -4379,6 +4398,7 @@
 "New Brunswick","Zone 3 (Fredericton area)","28-08-2020",0,57
 "New Brunswick","Zone 3 (Fredericton area)","29-08-2020",0,57
 "New Brunswick","Zone 3 (Fredericton area)","30-08-2020",0,57
+"New Brunswick","Zone 3 (Fredericton area)","31-08-2020",0,57
 "New Brunswick","Zone 4 (Edmundston area)","25-01-2020",0,0
 "New Brunswick","Zone 4 (Edmundston area)","26-01-2020",0,0
 "New Brunswick","Zone 4 (Edmundston area)","27-01-2020",0,0
@@ -4598,6 +4618,7 @@
 "New Brunswick","Zone 4 (Edmundston area)","28-08-2020",0,7
 "New Brunswick","Zone 4 (Edmundston area)","29-08-2020",0,7
 "New Brunswick","Zone 4 (Edmundston area)","30-08-2020",0,7
+"New Brunswick","Zone 4 (Edmundston area)","31-08-2020",0,7
 "New Brunswick","Zone 5 (Campbellton area)","25-01-2020",0,0
 "New Brunswick","Zone 5 (Campbellton area)","26-01-2020",0,0
 "New Brunswick","Zone 5 (Campbellton area)","27-01-2020",0,0
@@ -4817,6 +4838,7 @@
 "New Brunswick","Zone 5 (Campbellton area)","28-08-2020",0,53
 "New Brunswick","Zone 5 (Campbellton area)","29-08-2020",0,53
 "New Brunswick","Zone 5 (Campbellton area)","30-08-2020",0,53
+"New Brunswick","Zone 5 (Campbellton area)","31-08-2020",0,53
 "New Brunswick","Zone 6 (Bathurst area)","25-01-2020",0,0
 "New Brunswick","Zone 6 (Bathurst area)","26-01-2020",0,0
 "New Brunswick","Zone 6 (Bathurst area)","27-01-2020",0,0
@@ -5036,6 +5058,7 @@
 "New Brunswick","Zone 6 (Bathurst area)","28-08-2020",0,2
 "New Brunswick","Zone 6 (Bathurst area)","29-08-2020",0,2
 "New Brunswick","Zone 6 (Bathurst area)","30-08-2020",0,2
+"New Brunswick","Zone 6 (Bathurst area)","31-08-2020",0,2
 "New Brunswick","Zone 7 (Miramichi area)","25-01-2020",0,0
 "New Brunswick","Zone 7 (Miramichi area)","26-01-2020",0,0
 "New Brunswick","Zone 7 (Miramichi area)","27-01-2020",0,0
@@ -5255,6 +5278,7 @@
 "New Brunswick","Zone 7 (Miramichi area)","28-08-2020",0,2
 "New Brunswick","Zone 7 (Miramichi area)","29-08-2020",0,2
 "New Brunswick","Zone 7 (Miramichi area)","30-08-2020",0,2
+"New Brunswick","Zone 7 (Miramichi area)","31-08-2020",0,2
 "NL","Central","25-01-2020",0,0
 "NL","Central","26-01-2020",0,0
 "NL","Central","27-01-2020",0,0
@@ -5474,6 +5498,7 @@
 "NL","Central","28-08-2020",0,12
 "NL","Central","29-08-2020",0,12
 "NL","Central","30-08-2020",0,12
+"NL","Central","31-08-2020",0,12
 "NL","Eastern","25-01-2020",0,0
 "NL","Eastern","26-01-2020",0,0
 "NL","Eastern","27-01-2020",0,0
@@ -5693,6 +5718,7 @@
 "NL","Eastern","28-08-2020",1,247
 "NL","Eastern","29-08-2020",0,247
 "NL","Eastern","30-08-2020",0,247
+"NL","Eastern","31-08-2020",0,247
 "NL","Labrador-Grenfell","25-01-2020",0,0
 "NL","Labrador-Grenfell","26-01-2020",0,0
 "NL","Labrador-Grenfell","27-01-2020",0,0
@@ -5912,6 +5938,7 @@
 "NL","Labrador-Grenfell","28-08-2020",0,6
 "NL","Labrador-Grenfell","29-08-2020",0,6
 "NL","Labrador-Grenfell","30-08-2020",0,6
+"NL","Labrador-Grenfell","31-08-2020",0,6
 "NL","Western","25-01-2020",0,0
 "NL","Western","26-01-2020",0,0
 "NL","Western","27-01-2020",0,0
@@ -6131,225 +6158,7 @@
 "NL","Western","28-08-2020",0,4
 "NL","Western","29-08-2020",0,4
 "NL","Western","30-08-2020",0,4
-"Nova Scotia","Not Reported","25-01-2020",0,0
-"Nova Scotia","Not Reported","26-01-2020",0,0
-"Nova Scotia","Not Reported","27-01-2020",0,0
-"Nova Scotia","Not Reported","28-01-2020",0,0
-"Nova Scotia","Not Reported","29-01-2020",0,0
-"Nova Scotia","Not Reported","30-01-2020",0,0
-"Nova Scotia","Not Reported","31-01-2020",0,0
-"Nova Scotia","Not Reported","01-02-2020",0,0
-"Nova Scotia","Not Reported","02-02-2020",0,0
-"Nova Scotia","Not Reported","03-02-2020",0,0
-"Nova Scotia","Not Reported","04-02-2020",0,0
-"Nova Scotia","Not Reported","05-02-2020",0,0
-"Nova Scotia","Not Reported","06-02-2020",0,0
-"Nova Scotia","Not Reported","07-02-2020",0,0
-"Nova Scotia","Not Reported","08-02-2020",0,0
-"Nova Scotia","Not Reported","09-02-2020",0,0
-"Nova Scotia","Not Reported","10-02-2020",0,0
-"Nova Scotia","Not Reported","11-02-2020",0,0
-"Nova Scotia","Not Reported","12-02-2020",0,0
-"Nova Scotia","Not Reported","13-02-2020",0,0
-"Nova Scotia","Not Reported","14-02-2020",0,0
-"Nova Scotia","Not Reported","15-02-2020",0,0
-"Nova Scotia","Not Reported","16-02-2020",0,0
-"Nova Scotia","Not Reported","17-02-2020",0,0
-"Nova Scotia","Not Reported","18-02-2020",0,0
-"Nova Scotia","Not Reported","19-02-2020",0,0
-"Nova Scotia","Not Reported","20-02-2020",0,0
-"Nova Scotia","Not Reported","21-02-2020",0,0
-"Nova Scotia","Not Reported","22-02-2020",0,0
-"Nova Scotia","Not Reported","23-02-2020",0,0
-"Nova Scotia","Not Reported","24-02-2020",0,0
-"Nova Scotia","Not Reported","25-02-2020",0,0
-"Nova Scotia","Not Reported","26-02-2020",0,0
-"Nova Scotia","Not Reported","27-02-2020",0,0
-"Nova Scotia","Not Reported","28-02-2020",0,0
-"Nova Scotia","Not Reported","29-02-2020",0,0
-"Nova Scotia","Not Reported","01-03-2020",0,0
-"Nova Scotia","Not Reported","02-03-2020",0,0
-"Nova Scotia","Not Reported","03-03-2020",0,0
-"Nova Scotia","Not Reported","04-03-2020",0,0
-"Nova Scotia","Not Reported","05-03-2020",0,0
-"Nova Scotia","Not Reported","06-03-2020",0,0
-"Nova Scotia","Not Reported","07-03-2020",0,0
-"Nova Scotia","Not Reported","08-03-2020",0,0
-"Nova Scotia","Not Reported","09-03-2020",0,0
-"Nova Scotia","Not Reported","10-03-2020",0,0
-"Nova Scotia","Not Reported","11-03-2020",0,0
-"Nova Scotia","Not Reported","12-03-2020",0,0
-"Nova Scotia","Not Reported","13-03-2020",0,0
-"Nova Scotia","Not Reported","14-03-2020",0,0
-"Nova Scotia","Not Reported","15-03-2020",0,0
-"Nova Scotia","Not Reported","16-03-2020",0,0
-"Nova Scotia","Not Reported","17-03-2020",2,2
-"Nova Scotia","Not Reported","18-03-2020",5,7
-"Nova Scotia","Not Reported","19-03-2020",2,9
-"Nova Scotia","Not Reported","20-03-2020",1,10
-"Nova Scotia","Not Reported","21-03-2020",6,16
-"Nova Scotia","Not Reported","22-03-2020",7,23
-"Nova Scotia","Not Reported","23-03-2020",13,36
-"Nova Scotia","Not Reported","24-03-2020",10,46
-"Nova Scotia","Not Reported","25-03-2020",17,63
-"Nova Scotia","Not Reported","26-03-2020",5,68
-"Nova Scotia","Not Reported","27-03-2020",17,85
-"Nova Scotia","Not Reported","28-03-2020",20,105
-"Nova Scotia","Not Reported","29-03-2020",12,117
-"Nova Scotia","Not Reported","30-03-2020",5,122
-"Nova Scotia","Not Reported","31-03-2020",20,142
-"Nova Scotia","Not Reported","01-04-2020",26,168
-"Nova Scotia","Not Reported","02-04-2020",0,168
-"Nova Scotia","Not Reported","03-04-2020",0,168
-"Nova Scotia","Not Reported","04-04-2020",0,168
-"Nova Scotia","Not Reported","05-04-2020",0,168
-"Nova Scotia","Not Reported","06-04-2020",0,168
-"Nova Scotia","Not Reported","07-04-2020",0,168
-"Nova Scotia","Not Reported","08-04-2020",0,168
-"Nova Scotia","Not Reported","09-04-2020",0,168
-"Nova Scotia","Not Reported","10-04-2020",0,168
-"Nova Scotia","Not Reported","11-04-2020",0,168
-"Nova Scotia","Not Reported","12-04-2020",0,168
-"Nova Scotia","Not Reported","13-04-2020",0,168
-"Nova Scotia","Not Reported","14-04-2020",0,168
-"Nova Scotia","Not Reported","15-04-2020",0,168
-"Nova Scotia","Not Reported","16-04-2020",0,168
-"Nova Scotia","Not Reported","17-04-2020",0,168
-"Nova Scotia","Not Reported","18-04-2020",0,168
-"Nova Scotia","Not Reported","19-04-2020",0,168
-"Nova Scotia","Not Reported","20-04-2020",0,168
-"Nova Scotia","Not Reported","21-04-2020",0,168
-"Nova Scotia","Not Reported","22-04-2020",0,168
-"Nova Scotia","Not Reported","23-04-2020",0,168
-"Nova Scotia","Not Reported","24-04-2020",0,168
-"Nova Scotia","Not Reported","25-04-2020",0,168
-"Nova Scotia","Not Reported","26-04-2020",0,168
-"Nova Scotia","Not Reported","27-04-2020",0,168
-"Nova Scotia","Not Reported","28-04-2020",0,168
-"Nova Scotia","Not Reported","29-04-2020",0,168
-"Nova Scotia","Not Reported","30-04-2020",0,168
-"Nova Scotia","Not Reported","01-05-2020",0,168
-"Nova Scotia","Not Reported","02-05-2020",0,168
-"Nova Scotia","Not Reported","03-05-2020",0,168
-"Nova Scotia","Not Reported","04-05-2020",0,168
-"Nova Scotia","Not Reported","05-05-2020",0,168
-"Nova Scotia","Not Reported","06-05-2020",0,168
-"Nova Scotia","Not Reported","07-05-2020",0,168
-"Nova Scotia","Not Reported","08-05-2020",0,168
-"Nova Scotia","Not Reported","09-05-2020",0,168
-"Nova Scotia","Not Reported","10-05-2020",0,168
-"Nova Scotia","Not Reported","11-05-2020",0,168
-"Nova Scotia","Not Reported","12-05-2020",0,168
-"Nova Scotia","Not Reported","13-05-2020",0,168
-"Nova Scotia","Not Reported","14-05-2020",0,168
-"Nova Scotia","Not Reported","15-05-2020",0,168
-"Nova Scotia","Not Reported","16-05-2020",0,168
-"Nova Scotia","Not Reported","17-05-2020",0,168
-"Nova Scotia","Not Reported","18-05-2020",0,168
-"Nova Scotia","Not Reported","19-05-2020",0,168
-"Nova Scotia","Not Reported","20-05-2020",0,168
-"Nova Scotia","Not Reported","21-05-2020",0,168
-"Nova Scotia","Not Reported","22-05-2020",0,168
-"Nova Scotia","Not Reported","23-05-2020",0,168
-"Nova Scotia","Not Reported","24-05-2020",0,168
-"Nova Scotia","Not Reported","25-05-2020",0,168
-"Nova Scotia","Not Reported","26-05-2020",0,168
-"Nova Scotia","Not Reported","27-05-2020",0,168
-"Nova Scotia","Not Reported","28-05-2020",0,168
-"Nova Scotia","Not Reported","29-05-2020",0,168
-"Nova Scotia","Not Reported","30-05-2020",0,168
-"Nova Scotia","Not Reported","31-05-2020",0,168
-"Nova Scotia","Not Reported","01-06-2020",0,168
-"Nova Scotia","Not Reported","02-06-2020",0,168
-"Nova Scotia","Not Reported","03-06-2020",0,168
-"Nova Scotia","Not Reported","04-06-2020",0,168
-"Nova Scotia","Not Reported","05-06-2020",0,168
-"Nova Scotia","Not Reported","06-06-2020",0,168
-"Nova Scotia","Not Reported","07-06-2020",0,168
-"Nova Scotia","Not Reported","08-06-2020",0,168
-"Nova Scotia","Not Reported","09-06-2020",0,168
-"Nova Scotia","Not Reported","10-06-2020",1,169
-"Nova Scotia","Not Reported","11-06-2020",0,169
-"Nova Scotia","Not Reported","12-06-2020",0,169
-"Nova Scotia","Not Reported","13-06-2020",0,169
-"Nova Scotia","Not Reported","14-06-2020",0,169
-"Nova Scotia","Not Reported","15-06-2020",0,169
-"Nova Scotia","Not Reported","16-06-2020",0,169
-"Nova Scotia","Not Reported","17-06-2020",0,169
-"Nova Scotia","Not Reported","18-06-2020",0,169
-"Nova Scotia","Not Reported","19-06-2020",0,169
-"Nova Scotia","Not Reported","20-06-2020",0,169
-"Nova Scotia","Not Reported","21-06-2020",0,169
-"Nova Scotia","Not Reported","22-06-2020",0,169
-"Nova Scotia","Not Reported","23-06-2020",0,169
-"Nova Scotia","Not Reported","24-06-2020",0,169
-"Nova Scotia","Not Reported","25-06-2020",0,169
-"Nova Scotia","Not Reported","26-06-2020",0,169
-"Nova Scotia","Not Reported","27-06-2020",0,169
-"Nova Scotia","Not Reported","28-06-2020",0,169
-"Nova Scotia","Not Reported","29-06-2020",0,169
-"Nova Scotia","Not Reported","30-06-2020",0,169
-"Nova Scotia","Not Reported","01-07-2020",0,169
-"Nova Scotia","Not Reported","02-07-2020",0,169
-"Nova Scotia","Not Reported","03-07-2020",0,169
-"Nova Scotia","Not Reported","04-07-2020",0,169
-"Nova Scotia","Not Reported","05-07-2020",0,169
-"Nova Scotia","Not Reported","06-07-2020",0,169
-"Nova Scotia","Not Reported","07-07-2020",0,169
-"Nova Scotia","Not Reported","08-07-2020",0,169
-"Nova Scotia","Not Reported","09-07-2020",0,169
-"Nova Scotia","Not Reported","10-07-2020",0,169
-"Nova Scotia","Not Reported","11-07-2020",0,169
-"Nova Scotia","Not Reported","12-07-2020",0,169
-"Nova Scotia","Not Reported","13-07-2020",0,169
-"Nova Scotia","Not Reported","14-07-2020",0,169
-"Nova Scotia","Not Reported","15-07-2020",0,169
-"Nova Scotia","Not Reported","16-07-2020",0,169
-"Nova Scotia","Not Reported","17-07-2020",0,169
-"Nova Scotia","Not Reported","18-07-2020",0,169
-"Nova Scotia","Not Reported","19-07-2020",0,169
-"Nova Scotia","Not Reported","20-07-2020",0,169
-"Nova Scotia","Not Reported","21-07-2020",0,169
-"Nova Scotia","Not Reported","22-07-2020",0,169
-"Nova Scotia","Not Reported","23-07-2020",0,169
-"Nova Scotia","Not Reported","24-07-2020",0,169
-"Nova Scotia","Not Reported","25-07-2020",0,169
-"Nova Scotia","Not Reported","26-07-2020",0,169
-"Nova Scotia","Not Reported","27-07-2020",0,169
-"Nova Scotia","Not Reported","28-07-2020",0,169
-"Nova Scotia","Not Reported","29-07-2020",0,169
-"Nova Scotia","Not Reported","30-07-2020",0,169
-"Nova Scotia","Not Reported","31-07-2020",0,169
-"Nova Scotia","Not Reported","01-08-2020",0,169
-"Nova Scotia","Not Reported","02-08-2020",0,169
-"Nova Scotia","Not Reported","03-08-2020",0,169
-"Nova Scotia","Not Reported","04-08-2020",0,169
-"Nova Scotia","Not Reported","05-08-2020",0,169
-"Nova Scotia","Not Reported","06-08-2020",0,169
-"Nova Scotia","Not Reported","07-08-2020",0,169
-"Nova Scotia","Not Reported","08-08-2020",0,169
-"Nova Scotia","Not Reported","09-08-2020",0,169
-"Nova Scotia","Not Reported","10-08-2020",0,169
-"Nova Scotia","Not Reported","11-08-2020",0,169
-"Nova Scotia","Not Reported","12-08-2020",0,169
-"Nova Scotia","Not Reported","13-08-2020",0,169
-"Nova Scotia","Not Reported","14-08-2020",0,169
-"Nova Scotia","Not Reported","15-08-2020",0,169
-"Nova Scotia","Not Reported","16-08-2020",0,169
-"Nova Scotia","Not Reported","17-08-2020",0,169
-"Nova Scotia","Not Reported","18-08-2020",0,169
-"Nova Scotia","Not Reported","19-08-2020",0,169
-"Nova Scotia","Not Reported","20-08-2020",0,169
-"Nova Scotia","Not Reported","21-08-2020",0,169
-"Nova Scotia","Not Reported","22-08-2020",0,169
-"Nova Scotia","Not Reported","23-08-2020",0,169
-"Nova Scotia","Not Reported","24-08-2020",0,169
-"Nova Scotia","Not Reported","25-08-2020",0,169
-"Nova Scotia","Not Reported","26-08-2020",0,169
-"Nova Scotia","Not Reported","27-08-2020",0,169
-"Nova Scotia","Not Reported","28-08-2020",0,169
-"Nova Scotia","Not Reported","29-08-2020",0,169
-"Nova Scotia","Not Reported","30-08-2020",0,169
+"NL","Western","31-08-2020",0,4
 "Nova Scotia","Zone 1 - Western","25-01-2020",0,0
 "Nova Scotia","Zone 1 - Western","26-01-2020",0,0
 "Nova Scotia","Zone 1 - Western","27-01-2020",0,0
@@ -6402,173 +6211,174 @@
 "Nova Scotia","Zone 1 - Western","14-03-2020",0,0
 "Nova Scotia","Zone 1 - Western","15-03-2020",1,1
 "Nova Scotia","Zone 1 - Western","16-03-2020",0,1
-"Nova Scotia","Zone 1 - Western","17-03-2020",0,1
-"Nova Scotia","Zone 1 - Western","18-03-2020",0,1
-"Nova Scotia","Zone 1 - Western","19-03-2020",0,1
-"Nova Scotia","Zone 1 - Western","20-03-2020",0,1
-"Nova Scotia","Zone 1 - Western","21-03-2020",0,1
-"Nova Scotia","Zone 1 - Western","22-03-2020",0,1
-"Nova Scotia","Zone 1 - Western","23-03-2020",0,1
-"Nova Scotia","Zone 1 - Western","24-03-2020",0,1
-"Nova Scotia","Zone 1 - Western","25-03-2020",0,1
-"Nova Scotia","Zone 1 - Western","26-03-2020",0,1
-"Nova Scotia","Zone 1 - Western","27-03-2020",0,1
-"Nova Scotia","Zone 1 - Western","28-03-2020",0,1
-"Nova Scotia","Zone 1 - Western","29-03-2020",0,1
-"Nova Scotia","Zone 1 - Western","30-03-2020",0,1
-"Nova Scotia","Zone 1 - Western","31-03-2020",0,1
-"Nova Scotia","Zone 1 - Western","01-04-2020",0,1
-"Nova Scotia","Zone 1 - Western","02-04-2020",1,2
-"Nova Scotia","Zone 1 - Western","03-04-2020",1,3
-"Nova Scotia","Zone 1 - Western","04-04-2020",2,5
-"Nova Scotia","Zone 1 - Western","05-04-2020",3,8
-"Nova Scotia","Zone 1 - Western","06-04-2020",3,11
-"Nova Scotia","Zone 1 - Western","07-04-2020",1,12
-"Nova Scotia","Zone 1 - Western","08-04-2020",0,12
-"Nova Scotia","Zone 1 - Western","09-04-2020",2,14
-"Nova Scotia","Zone 1 - Western","10-04-2020",0,14
-"Nova Scotia","Zone 1 - Western","11-04-2020",1,15
-"Nova Scotia","Zone 1 - Western","12-04-2020",0,15
-"Nova Scotia","Zone 1 - Western","13-04-2020",1,16
-"Nova Scotia","Zone 1 - Western","14-04-2020",0,16
-"Nova Scotia","Zone 1 - Western","15-04-2020",0,16
-"Nova Scotia","Zone 1 - Western","16-04-2020",2,18
-"Nova Scotia","Zone 1 - Western","17-04-2020",0,18
-"Nova Scotia","Zone 1 - Western","18-04-2020",1,19
-"Nova Scotia","Zone 1 - Western","19-04-2020",0,19
-"Nova Scotia","Zone 1 - Western","20-04-2020",4,23
-"Nova Scotia","Zone 1 - Western","21-04-2020",1,24
-"Nova Scotia","Zone 1 - Western","22-04-2020",0,24
-"Nova Scotia","Zone 1 - Western","23-04-2020",0,24
-"Nova Scotia","Zone 1 - Western","24-04-2020",0,24
-"Nova Scotia","Zone 1 - Western","25-04-2020",0,24
-"Nova Scotia","Zone 1 - Western","26-04-2020",0,24
-"Nova Scotia","Zone 1 - Western","27-04-2020",0,24
-"Nova Scotia","Zone 1 - Western","28-04-2020",0,24
-"Nova Scotia","Zone 1 - Western","29-04-2020",0,24
-"Nova Scotia","Zone 1 - Western","30-04-2020",0,24
-"Nova Scotia","Zone 1 - Western","01-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","02-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","03-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","04-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","05-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","06-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","07-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","08-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","09-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","10-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","11-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","12-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","13-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","14-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","15-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","16-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","17-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","18-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","19-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","20-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","21-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","22-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","23-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","24-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","25-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","26-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","27-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","28-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","29-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","30-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","31-05-2020",0,24
-"Nova Scotia","Zone 1 - Western","01-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","02-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","03-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","04-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","05-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","06-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","07-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","08-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","09-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","10-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","11-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","12-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","13-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","14-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","15-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","16-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","17-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","18-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","19-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","20-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","21-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","22-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","23-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","24-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","25-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","26-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","27-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","28-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","29-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","30-06-2020",0,24
-"Nova Scotia","Zone 1 - Western","01-07-2020",0,24
-"Nova Scotia","Zone 1 - Western","02-07-2020",1,25
-"Nova Scotia","Zone 1 - Western","03-07-2020",0,25
-"Nova Scotia","Zone 1 - Western","04-07-2020",0,25
-"Nova Scotia","Zone 1 - Western","05-07-2020",0,25
-"Nova Scotia","Zone 1 - Western","06-07-2020",0,25
-"Nova Scotia","Zone 1 - Western","07-07-2020",0,25
-"Nova Scotia","Zone 1 - Western","08-07-2020",1,26
-"Nova Scotia","Zone 1 - Western","09-07-2020",0,26
-"Nova Scotia","Zone 1 - Western","10-07-2020",0,26
-"Nova Scotia","Zone 1 - Western","11-07-2020",0,26
-"Nova Scotia","Zone 1 - Western","12-07-2020",0,26
-"Nova Scotia","Zone 1 - Western","13-07-2020",0,26
-"Nova Scotia","Zone 1 - Western","14-07-2020",0,26
-"Nova Scotia","Zone 1 - Western","15-07-2020",0,26
-"Nova Scotia","Zone 1 - Western","16-07-2020",0,26
-"Nova Scotia","Zone 1 - Western","17-07-2020",0,26
-"Nova Scotia","Zone 1 - Western","18-07-2020",0,26
-"Nova Scotia","Zone 1 - Western","19-07-2020",0,26
-"Nova Scotia","Zone 1 - Western","20-07-2020",0,26
-"Nova Scotia","Zone 1 - Western","21-07-2020",0,26
-"Nova Scotia","Zone 1 - Western","22-07-2020",0,26
-"Nova Scotia","Zone 1 - Western","23-07-2020",0,26
-"Nova Scotia","Zone 1 - Western","24-07-2020",0,26
-"Nova Scotia","Zone 1 - Western","25-07-2020",0,26
-"Nova Scotia","Zone 1 - Western","26-07-2020",0,26
-"Nova Scotia","Zone 1 - Western","27-07-2020",0,26
-"Nova Scotia","Zone 1 - Western","28-07-2020",0,26
-"Nova Scotia","Zone 1 - Western","29-07-2020",0,26
-"Nova Scotia","Zone 1 - Western","30-07-2020",0,26
-"Nova Scotia","Zone 1 - Western","31-07-2020",0,26
-"Nova Scotia","Zone 1 - Western","01-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","02-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","03-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","04-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","05-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","06-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","07-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","08-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","09-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","10-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","11-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","12-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","13-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","14-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","15-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","16-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","17-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","18-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","19-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","20-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","21-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","22-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","23-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","24-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","25-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","26-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","27-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","28-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","29-08-2020",0,26
-"Nova Scotia","Zone 1 - Western","30-08-2020",0,26
+"Nova Scotia","Zone 1 - Western","17-03-2020",1,2
+"Nova Scotia","Zone 1 - Western","18-03-2020",2,4
+"Nova Scotia","Zone 1 - Western","19-03-2020",0,4
+"Nova Scotia","Zone 1 - Western","20-03-2020",0,4
+"Nova Scotia","Zone 1 - Western","21-03-2020",1,5
+"Nova Scotia","Zone 1 - Western","22-03-2020",0,5
+"Nova Scotia","Zone 1 - Western","23-03-2020",3,8
+"Nova Scotia","Zone 1 - Western","24-03-2020",2,10
+"Nova Scotia","Zone 1 - Western","25-03-2020",0,10
+"Nova Scotia","Zone 1 - Western","26-03-2020",0,10
+"Nova Scotia","Zone 1 - Western","27-03-2020",5,15
+"Nova Scotia","Zone 1 - Western","28-03-2020",1,16
+"Nova Scotia","Zone 1 - Western","29-03-2020",2,18
+"Nova Scotia","Zone 1 - Western","30-03-2020",0,18
+"Nova Scotia","Zone 1 - Western","31-03-2020",2,20
+"Nova Scotia","Zone 1 - Western","01-04-2020",10,30
+"Nova Scotia","Zone 1 - Western","02-04-2020",1,31
+"Nova Scotia","Zone 1 - Western","03-04-2020",1,32
+"Nova Scotia","Zone 1 - Western","04-04-2020",1,33
+"Nova Scotia","Zone 1 - Western","05-04-2020",4,37
+"Nova Scotia","Zone 1 - Western","06-04-2020",2,39
+"Nova Scotia","Zone 1 - Western","07-04-2020",1,40
+"Nova Scotia","Zone 1 - Western","08-04-2020",0,40
+"Nova Scotia","Zone 1 - Western","09-04-2020",2,42
+"Nova Scotia","Zone 1 - Western","10-04-2020",0,42
+"Nova Scotia","Zone 1 - Western","11-04-2020",1,43
+"Nova Scotia","Zone 1 - Western","12-04-2020",0,43
+"Nova Scotia","Zone 1 - Western","13-04-2020",1,44
+"Nova Scotia","Zone 1 - Western","14-04-2020",0,44
+"Nova Scotia","Zone 1 - Western","15-04-2020",0,44
+"Nova Scotia","Zone 1 - Western","16-04-2020",1,45
+"Nova Scotia","Zone 1 - Western","17-04-2020",1,46
+"Nova Scotia","Zone 1 - Western","18-04-2020",1,47
+"Nova Scotia","Zone 1 - Western","19-04-2020",0,47
+"Nova Scotia","Zone 1 - Western","20-04-2020",4,51
+"Nova Scotia","Zone 1 - Western","21-04-2020",1,52
+"Nova Scotia","Zone 1 - Western","22-04-2020",0,52
+"Nova Scotia","Zone 1 - Western","23-04-2020",0,52
+"Nova Scotia","Zone 1 - Western","24-04-2020",0,52
+"Nova Scotia","Zone 1 - Western","25-04-2020",0,52
+"Nova Scotia","Zone 1 - Western","26-04-2020",0,52
+"Nova Scotia","Zone 1 - Western","27-04-2020",0,52
+"Nova Scotia","Zone 1 - Western","28-04-2020",0,52
+"Nova Scotia","Zone 1 - Western","29-04-2020",0,52
+"Nova Scotia","Zone 1 - Western","30-04-2020",0,52
+"Nova Scotia","Zone 1 - Western","01-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","02-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","03-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","04-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","05-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","06-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","07-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","08-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","09-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","10-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","11-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","12-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","13-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","14-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","15-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","16-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","17-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","18-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","19-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","20-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","21-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","22-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","23-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","24-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","25-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","26-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","27-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","28-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","29-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","30-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","31-05-2020",0,52
+"Nova Scotia","Zone 1 - Western","01-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","02-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","03-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","04-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","05-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","06-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","07-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","08-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","09-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","10-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","11-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","12-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","13-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","14-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","15-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","16-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","17-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","18-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","19-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","20-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","21-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","22-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","23-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","24-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","25-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","26-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","27-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","28-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","29-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","30-06-2020",0,52
+"Nova Scotia","Zone 1 - Western","01-07-2020",0,52
+"Nova Scotia","Zone 1 - Western","02-07-2020",1,53
+"Nova Scotia","Zone 1 - Western","03-07-2020",0,53
+"Nova Scotia","Zone 1 - Western","04-07-2020",0,53
+"Nova Scotia","Zone 1 - Western","05-07-2020",0,53
+"Nova Scotia","Zone 1 - Western","06-07-2020",0,53
+"Nova Scotia","Zone 1 - Western","07-07-2020",0,53
+"Nova Scotia","Zone 1 - Western","08-07-2020",1,54
+"Nova Scotia","Zone 1 - Western","09-07-2020",0,54
+"Nova Scotia","Zone 1 - Western","10-07-2020",0,54
+"Nova Scotia","Zone 1 - Western","11-07-2020",0,54
+"Nova Scotia","Zone 1 - Western","12-07-2020",0,54
+"Nova Scotia","Zone 1 - Western","13-07-2020",0,54
+"Nova Scotia","Zone 1 - Western","14-07-2020",0,54
+"Nova Scotia","Zone 1 - Western","15-07-2020",0,54
+"Nova Scotia","Zone 1 - Western","16-07-2020",0,54
+"Nova Scotia","Zone 1 - Western","17-07-2020",0,54
+"Nova Scotia","Zone 1 - Western","18-07-2020",0,54
+"Nova Scotia","Zone 1 - Western","19-07-2020",0,54
+"Nova Scotia","Zone 1 - Western","20-07-2020",0,54
+"Nova Scotia","Zone 1 - Western","21-07-2020",0,54
+"Nova Scotia","Zone 1 - Western","22-07-2020",0,54
+"Nova Scotia","Zone 1 - Western","23-07-2020",0,54
+"Nova Scotia","Zone 1 - Western","24-07-2020",0,54
+"Nova Scotia","Zone 1 - Western","25-07-2020",0,54
+"Nova Scotia","Zone 1 - Western","26-07-2020",0,54
+"Nova Scotia","Zone 1 - Western","27-07-2020",0,54
+"Nova Scotia","Zone 1 - Western","28-07-2020",0,54
+"Nova Scotia","Zone 1 - Western","29-07-2020",0,54
+"Nova Scotia","Zone 1 - Western","30-07-2020",0,54
+"Nova Scotia","Zone 1 - Western","31-07-2020",0,54
+"Nova Scotia","Zone 1 - Western","01-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","02-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","03-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","04-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","05-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","06-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","07-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","08-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","09-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","10-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","11-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","12-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","13-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","14-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","15-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","16-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","17-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","18-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","19-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","20-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","21-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","22-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","23-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","24-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","25-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","26-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","27-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","28-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","29-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","30-08-2020",0,54
+"Nova Scotia","Zone 1 - Western","31-08-2020",1,55
 "Nova Scotia","Zone 2 - Northern","25-01-2020",0,0
 "Nova Scotia","Zone 2 - Northern","26-01-2020",0,0
 "Nova Scotia","Zone 2 - Northern","27-01-2020",0,0
@@ -6626,168 +6436,169 @@
 "Nova Scotia","Zone 2 - Northern","19-03-2020",0,0
 "Nova Scotia","Zone 2 - Northern","20-03-2020",0,0
 "Nova Scotia","Zone 2 - Northern","21-03-2020",0,0
-"Nova Scotia","Zone 2 - Northern","22-03-2020",0,0
-"Nova Scotia","Zone 2 - Northern","23-03-2020",0,0
-"Nova Scotia","Zone 2 - Northern","24-03-2020",0,0
-"Nova Scotia","Zone 2 - Northern","25-03-2020",0,0
-"Nova Scotia","Zone 2 - Northern","26-03-2020",0,0
-"Nova Scotia","Zone 2 - Northern","27-03-2020",0,0
-"Nova Scotia","Zone 2 - Northern","28-03-2020",0,0
-"Nova Scotia","Zone 2 - Northern","29-03-2020",0,0
-"Nova Scotia","Zone 2 - Northern","30-03-2020",0,0
-"Nova Scotia","Zone 2 - Northern","31-03-2020",0,0
-"Nova Scotia","Zone 2 - Northern","01-04-2020",0,0
-"Nova Scotia","Zone 2 - Northern","02-04-2020",4,4
-"Nova Scotia","Zone 2 - Northern","03-04-2020",0,4
-"Nova Scotia","Zone 2 - Northern","04-04-2020",2,6
-"Nova Scotia","Zone 2 - Northern","05-04-2020",1,7
-"Nova Scotia","Zone 2 - Northern","06-04-2020",3,10
-"Nova Scotia","Zone 2 - Northern","07-04-2020",2,12
-"Nova Scotia","Zone 2 - Northern","08-04-2020",2,14
-"Nova Scotia","Zone 2 - Northern","09-04-2020",1,15
-"Nova Scotia","Zone 2 - Northern","10-04-2020",1,16
-"Nova Scotia","Zone 2 - Northern","11-04-2020",0,16
-"Nova Scotia","Zone 2 - Northern","12-04-2020",0,16
-"Nova Scotia","Zone 2 - Northern","13-04-2020",0,16
-"Nova Scotia","Zone 2 - Northern","14-04-2020",0,16
-"Nova Scotia","Zone 2 - Northern","15-04-2020",1,17
-"Nova Scotia","Zone 2 - Northern","16-04-2020",0,17
-"Nova Scotia","Zone 2 - Northern","17-04-2020",1,18
-"Nova Scotia","Zone 2 - Northern","18-04-2020",0,18
-"Nova Scotia","Zone 2 - Northern","19-04-2020",0,18
-"Nova Scotia","Zone 2 - Northern","20-04-2020",1,19
-"Nova Scotia","Zone 2 - Northern","21-04-2020",0,19
-"Nova Scotia","Zone 2 - Northern","22-04-2020",0,19
-"Nova Scotia","Zone 2 - Northern","23-04-2020",1,20
-"Nova Scotia","Zone 2 - Northern","24-04-2020",0,20
-"Nova Scotia","Zone 2 - Northern","25-04-2020",0,20
-"Nova Scotia","Zone 2 - Northern","26-04-2020",0,20
-"Nova Scotia","Zone 2 - Northern","27-04-2020",1,21
-"Nova Scotia","Zone 2 - Northern","28-04-2020",0,21
-"Nova Scotia","Zone 2 - Northern","29-04-2020",0,21
-"Nova Scotia","Zone 2 - Northern","30-04-2020",0,21
-"Nova Scotia","Zone 2 - Northern","01-05-2020",0,21
-"Nova Scotia","Zone 2 - Northern","02-05-2020",1,22
-"Nova Scotia","Zone 2 - Northern","03-05-2020",1,23
-"Nova Scotia","Zone 2 - Northern","04-05-2020",0,23
-"Nova Scotia","Zone 2 - Northern","05-05-2020",0,23
-"Nova Scotia","Zone 2 - Northern","06-05-2020",2,25
-"Nova Scotia","Zone 2 - Northern","07-05-2020",0,25
-"Nova Scotia","Zone 2 - Northern","08-05-2020",0,25
-"Nova Scotia","Zone 2 - Northern","09-05-2020",0,25
-"Nova Scotia","Zone 2 - Northern","10-05-2020",0,25
-"Nova Scotia","Zone 2 - Northern","11-05-2020",1,26
-"Nova Scotia","Zone 2 - Northern","12-05-2020",0,26
-"Nova Scotia","Zone 2 - Northern","13-05-2020",0,26
-"Nova Scotia","Zone 2 - Northern","14-05-2020",0,26
-"Nova Scotia","Zone 2 - Northern","15-05-2020",0,26
-"Nova Scotia","Zone 2 - Northern","16-05-2020",0,26
-"Nova Scotia","Zone 2 - Northern","17-05-2020",0,26
-"Nova Scotia","Zone 2 - Northern","18-05-2020",0,26
-"Nova Scotia","Zone 2 - Northern","19-05-2020",0,26
-"Nova Scotia","Zone 2 - Northern","20-05-2020",0,26
-"Nova Scotia","Zone 2 - Northern","21-05-2020",0,26
-"Nova Scotia","Zone 2 - Northern","22-05-2020",0,26
-"Nova Scotia","Zone 2 - Northern","23-05-2020",0,26
-"Nova Scotia","Zone 2 - Northern","24-05-2020",0,26
-"Nova Scotia","Zone 2 - Northern","25-05-2020",0,26
-"Nova Scotia","Zone 2 - Northern","26-05-2020",0,26
-"Nova Scotia","Zone 2 - Northern","27-05-2020",0,26
-"Nova Scotia","Zone 2 - Northern","28-05-2020",1,27
-"Nova Scotia","Zone 2 - Northern","29-05-2020",0,27
-"Nova Scotia","Zone 2 - Northern","30-05-2020",0,27
-"Nova Scotia","Zone 2 - Northern","31-05-2020",0,27
-"Nova Scotia","Zone 2 - Northern","01-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","02-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","03-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","04-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","05-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","06-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","07-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","08-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","09-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","10-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","11-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","12-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","13-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","14-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","15-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","16-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","17-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","18-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","19-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","20-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","21-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","22-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","23-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","24-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","25-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","26-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","27-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","28-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","29-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","30-06-2020",0,27
-"Nova Scotia","Zone 2 - Northern","01-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","02-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","03-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","04-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","05-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","06-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","07-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","08-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","09-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","10-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","11-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","12-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","13-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","14-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","15-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","16-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","17-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","18-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","19-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","20-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","21-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","22-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","23-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","24-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","25-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","26-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","27-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","28-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","29-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","30-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","31-07-2020",0,27
-"Nova Scotia","Zone 2 - Northern","01-08-2020",0,27
-"Nova Scotia","Zone 2 - Northern","02-08-2020",0,27
-"Nova Scotia","Zone 2 - Northern","03-08-2020",0,27
-"Nova Scotia","Zone 2 - Northern","04-08-2020",0,27
-"Nova Scotia","Zone 2 - Northern","05-08-2020",0,27
-"Nova Scotia","Zone 2 - Northern","06-08-2020",0,27
-"Nova Scotia","Zone 2 - Northern","07-08-2020",0,27
-"Nova Scotia","Zone 2 - Northern","08-08-2020",0,27
-"Nova Scotia","Zone 2 - Northern","09-08-2020",0,27
-"Nova Scotia","Zone 2 - Northern","10-08-2020",0,27
-"Nova Scotia","Zone 2 - Northern","11-08-2020",0,27
-"Nova Scotia","Zone 2 - Northern","12-08-2020",0,27
-"Nova Scotia","Zone 2 - Northern","13-08-2020",0,27
-"Nova Scotia","Zone 2 - Northern","14-08-2020",1,28
-"Nova Scotia","Zone 2 - Northern","15-08-2020",2,30
-"Nova Scotia","Zone 2 - Northern","16-08-2020",0,30
-"Nova Scotia","Zone 2 - Northern","17-08-2020",1,31
-"Nova Scotia","Zone 2 - Northern","18-08-2020",0,31
-"Nova Scotia","Zone 2 - Northern","19-08-2020",1,32
-"Nova Scotia","Zone 2 - Northern","20-08-2020",0,32
-"Nova Scotia","Zone 2 - Northern","21-08-2020",0,32
-"Nova Scotia","Zone 2 - Northern","22-08-2020",0,32
-"Nova Scotia","Zone 2 - Northern","23-08-2020",2,34
-"Nova Scotia","Zone 2 - Northern","24-08-2020",0,34
-"Nova Scotia","Zone 2 - Northern","25-08-2020",0,34
-"Nova Scotia","Zone 2 - Northern","26-08-2020",1,35
-"Nova Scotia","Zone 2 - Northern","27-08-2020",0,35
-"Nova Scotia","Zone 2 - Northern","28-08-2020",2,37
-"Nova Scotia","Zone 2 - Northern","29-08-2020",0,37
-"Nova Scotia","Zone 2 - Northern","30-08-2020",0,37
+"Nova Scotia","Zone 2 - Northern","22-03-2020",2,2
+"Nova Scotia","Zone 2 - Northern","23-03-2020",0,2
+"Nova Scotia","Zone 2 - Northern","24-03-2020",0,2
+"Nova Scotia","Zone 2 - Northern","25-03-2020",6,8
+"Nova Scotia","Zone 2 - Northern","26-03-2020",1,9
+"Nova Scotia","Zone 2 - Northern","27-03-2020",1,10
+"Nova Scotia","Zone 2 - Northern","28-03-2020",3,13
+"Nova Scotia","Zone 2 - Northern","29-03-2020",3,16
+"Nova Scotia","Zone 2 - Northern","30-03-2020",1,17
+"Nova Scotia","Zone 2 - Northern","31-03-2020",6,23
+"Nova Scotia","Zone 2 - Northern","01-04-2020",5,28
+"Nova Scotia","Zone 2 - Northern","02-04-2020",3,31
+"Nova Scotia","Zone 2 - Northern","03-04-2020",0,31
+"Nova Scotia","Zone 2 - Northern","04-04-2020",3,34
+"Nova Scotia","Zone 2 - Northern","05-04-2020",1,35
+"Nova Scotia","Zone 2 - Northern","06-04-2020",4,39
+"Nova Scotia","Zone 2 - Northern","07-04-2020",2,41
+"Nova Scotia","Zone 2 - Northern","08-04-2020",2,43
+"Nova Scotia","Zone 2 - Northern","09-04-2020",1,44
+"Nova Scotia","Zone 2 - Northern","10-04-2020",1,45
+"Nova Scotia","Zone 2 - Northern","11-04-2020",0,45
+"Nova Scotia","Zone 2 - Northern","12-04-2020",0,45
+"Nova Scotia","Zone 2 - Northern","13-04-2020",0,45
+"Nova Scotia","Zone 2 - Northern","14-04-2020",0,45
+"Nova Scotia","Zone 2 - Northern","15-04-2020",1,46
+"Nova Scotia","Zone 2 - Northern","16-04-2020",0,46
+"Nova Scotia","Zone 2 - Northern","17-04-2020",1,47
+"Nova Scotia","Zone 2 - Northern","18-04-2020",0,47
+"Nova Scotia","Zone 2 - Northern","19-04-2020",1,48
+"Nova Scotia","Zone 2 - Northern","20-04-2020",1,49
+"Nova Scotia","Zone 2 - Northern","21-04-2020",0,49
+"Nova Scotia","Zone 2 - Northern","22-04-2020",0,49
+"Nova Scotia","Zone 2 - Northern","23-04-2020",2,51
+"Nova Scotia","Zone 2 - Northern","24-04-2020",0,51
+"Nova Scotia","Zone 2 - Northern","25-04-2020",0,51
+"Nova Scotia","Zone 2 - Northern","26-04-2020",0,51
+"Nova Scotia","Zone 2 - Northern","27-04-2020",1,52
+"Nova Scotia","Zone 2 - Northern","28-04-2020",0,52
+"Nova Scotia","Zone 2 - Northern","29-04-2020",0,52
+"Nova Scotia","Zone 2 - Northern","30-04-2020",0,52
+"Nova Scotia","Zone 2 - Northern","01-05-2020",0,52
+"Nova Scotia","Zone 2 - Northern","02-05-2020",0,52
+"Nova Scotia","Zone 2 - Northern","03-05-2020",0,52
+"Nova Scotia","Zone 2 - Northern","04-05-2020",0,52
+"Nova Scotia","Zone 2 - Northern","05-05-2020",0,52
+"Nova Scotia","Zone 2 - Northern","06-05-2020",2,54
+"Nova Scotia","Zone 2 - Northern","07-05-2020",1,55
+"Nova Scotia","Zone 2 - Northern","08-05-2020",0,55
+"Nova Scotia","Zone 2 - Northern","09-05-2020",0,55
+"Nova Scotia","Zone 2 - Northern","10-05-2020",0,55
+"Nova Scotia","Zone 2 - Northern","11-05-2020",1,56
+"Nova Scotia","Zone 2 - Northern","12-05-2020",0,56
+"Nova Scotia","Zone 2 - Northern","13-05-2020",0,56
+"Nova Scotia","Zone 2 - Northern","14-05-2020",0,56
+"Nova Scotia","Zone 2 - Northern","15-05-2020",0,56
+"Nova Scotia","Zone 2 - Northern","16-05-2020",0,56
+"Nova Scotia","Zone 2 - Northern","17-05-2020",0,56
+"Nova Scotia","Zone 2 - Northern","18-05-2020",0,56
+"Nova Scotia","Zone 2 - Northern","19-05-2020",0,56
+"Nova Scotia","Zone 2 - Northern","20-05-2020",0,56
+"Nova Scotia","Zone 2 - Northern","21-05-2020",0,56
+"Nova Scotia","Zone 2 - Northern","22-05-2020",0,56
+"Nova Scotia","Zone 2 - Northern","23-05-2020",0,56
+"Nova Scotia","Zone 2 - Northern","24-05-2020",0,56
+"Nova Scotia","Zone 2 - Northern","25-05-2020",0,56
+"Nova Scotia","Zone 2 - Northern","26-05-2020",0,56
+"Nova Scotia","Zone 2 - Northern","27-05-2020",0,56
+"Nova Scotia","Zone 2 - Northern","28-05-2020",1,57
+"Nova Scotia","Zone 2 - Northern","29-05-2020",0,57
+"Nova Scotia","Zone 2 - Northern","30-05-2020",0,57
+"Nova Scotia","Zone 2 - Northern","31-05-2020",0,57
+"Nova Scotia","Zone 2 - Northern","01-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","02-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","03-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","04-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","05-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","06-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","07-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","08-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","09-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","10-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","11-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","12-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","13-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","14-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","15-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","16-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","17-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","18-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","19-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","20-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","21-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","22-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","23-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","24-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","25-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","26-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","27-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","28-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","29-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","30-06-2020",0,57
+"Nova Scotia","Zone 2 - Northern","01-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","02-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","03-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","04-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","05-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","06-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","07-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","08-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","09-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","10-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","11-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","12-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","13-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","14-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","15-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","16-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","17-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","18-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","19-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","20-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","21-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","22-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","23-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","24-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","25-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","26-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","27-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","28-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","29-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","30-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","31-07-2020",0,57
+"Nova Scotia","Zone 2 - Northern","01-08-2020",0,57
+"Nova Scotia","Zone 2 - Northern","02-08-2020",0,57
+"Nova Scotia","Zone 2 - Northern","03-08-2020",0,57
+"Nova Scotia","Zone 2 - Northern","04-08-2020",0,57
+"Nova Scotia","Zone 2 - Northern","05-08-2020",0,57
+"Nova Scotia","Zone 2 - Northern","06-08-2020",0,57
+"Nova Scotia","Zone 2 - Northern","07-08-2020",0,57
+"Nova Scotia","Zone 2 - Northern","08-08-2020",0,57
+"Nova Scotia","Zone 2 - Northern","09-08-2020",0,57
+"Nova Scotia","Zone 2 - Northern","10-08-2020",0,57
+"Nova Scotia","Zone 2 - Northern","11-08-2020",0,57
+"Nova Scotia","Zone 2 - Northern","12-08-2020",0,57
+"Nova Scotia","Zone 2 - Northern","13-08-2020",0,57
+"Nova Scotia","Zone 2 - Northern","14-08-2020",1,58
+"Nova Scotia","Zone 2 - Northern","15-08-2020",2,60
+"Nova Scotia","Zone 2 - Northern","16-08-2020",0,60
+"Nova Scotia","Zone 2 - Northern","17-08-2020",1,61
+"Nova Scotia","Zone 2 - Northern","18-08-2020",0,61
+"Nova Scotia","Zone 2 - Northern","19-08-2020",1,62
+"Nova Scotia","Zone 2 - Northern","20-08-2020",0,62
+"Nova Scotia","Zone 2 - Northern","21-08-2020",0,62
+"Nova Scotia","Zone 2 - Northern","22-08-2020",0,62
+"Nova Scotia","Zone 2 - Northern","23-08-2020",2,64
+"Nova Scotia","Zone 2 - Northern","24-08-2020",0,64
+"Nova Scotia","Zone 2 - Northern","25-08-2020",0,64
+"Nova Scotia","Zone 2 - Northern","26-08-2020",1,65
+"Nova Scotia","Zone 2 - Northern","27-08-2020",0,65
+"Nova Scotia","Zone 2 - Northern","28-08-2020",2,67
+"Nova Scotia","Zone 2 - Northern","29-08-2020",0,67
+"Nova Scotia","Zone 2 - Northern","30-08-2020",0,67
+"Nova Scotia","Zone 2 - Northern","31-08-2020",0,67
 "Nova Scotia","Zone 3 - Eastern","25-01-2020",0,0
 "Nova Scotia","Zone 3 - Eastern","26-01-2020",0,0
 "Nova Scotia","Zone 3 - Eastern","27-01-2020",0,0
@@ -6841,172 +6652,173 @@
 "Nova Scotia","Zone 3 - Eastern","15-03-2020",0,0
 "Nova Scotia","Zone 3 - Eastern","16-03-2020",0,0
 "Nova Scotia","Zone 3 - Eastern","17-03-2020",0,0
-"Nova Scotia","Zone 3 - Eastern","18-03-2020",0,0
-"Nova Scotia","Zone 3 - Eastern","19-03-2020",0,0
-"Nova Scotia","Zone 3 - Eastern","20-03-2020",0,0
-"Nova Scotia","Zone 3 - Eastern","21-03-2020",0,0
-"Nova Scotia","Zone 3 - Eastern","22-03-2020",0,0
-"Nova Scotia","Zone 3 - Eastern","23-03-2020",0,0
-"Nova Scotia","Zone 3 - Eastern","24-03-2020",0,0
-"Nova Scotia","Zone 3 - Eastern","25-03-2020",0,0
-"Nova Scotia","Zone 3 - Eastern","26-03-2020",0,0
-"Nova Scotia","Zone 3 - Eastern","27-03-2020",0,0
-"Nova Scotia","Zone 3 - Eastern","28-03-2020",0,0
-"Nova Scotia","Zone 3 - Eastern","29-03-2020",0,0
-"Nova Scotia","Zone 3 - Eastern","30-03-2020",0,0
-"Nova Scotia","Zone 3 - Eastern","31-03-2020",0,0
-"Nova Scotia","Zone 3 - Eastern","01-04-2020",0,0
-"Nova Scotia","Zone 3 - Eastern","02-04-2020",3,3
-"Nova Scotia","Zone 3 - Eastern","03-04-2020",1,4
-"Nova Scotia","Zone 3 - Eastern","04-04-2020",1,5
-"Nova Scotia","Zone 3 - Eastern","05-04-2020",1,6
-"Nova Scotia","Zone 3 - Eastern","06-04-2020",3,9
-"Nova Scotia","Zone 3 - Eastern","07-04-2020",3,12
-"Nova Scotia","Zone 3 - Eastern","08-04-2020",3,15
-"Nova Scotia","Zone 3 - Eastern","09-04-2020",1,16
-"Nova Scotia","Zone 3 - Eastern","10-04-2020",3,19
-"Nova Scotia","Zone 3 - Eastern","11-04-2020",0,19
-"Nova Scotia","Zone 3 - Eastern","12-04-2020",1,20
-"Nova Scotia","Zone 3 - Eastern","13-04-2020",2,22
-"Nova Scotia","Zone 3 - Eastern","14-04-2020",0,22
-"Nova Scotia","Zone 3 - Eastern","15-04-2020",2,24
-"Nova Scotia","Zone 3 - Eastern","16-04-2020",1,25
-"Nova Scotia","Zone 3 - Eastern","17-04-2020",1,26
-"Nova Scotia","Zone 3 - Eastern","18-04-2020",1,27
-"Nova Scotia","Zone 3 - Eastern","19-04-2020",0,27
-"Nova Scotia","Zone 3 - Eastern","20-04-2020",1,28
-"Nova Scotia","Zone 3 - Eastern","21-04-2020",0,28
-"Nova Scotia","Zone 3 - Eastern","22-04-2020",1,29
-"Nova Scotia","Zone 3 - Eastern","23-04-2020",1,30
-"Nova Scotia","Zone 3 - Eastern","24-04-2020",1,31
-"Nova Scotia","Zone 3 - Eastern","25-04-2020",1,32
-"Nova Scotia","Zone 3 - Eastern","26-04-2020",0,32
-"Nova Scotia","Zone 3 - Eastern","27-04-2020",0,32
-"Nova Scotia","Zone 3 - Eastern","28-04-2020",0,32
-"Nova Scotia","Zone 3 - Eastern","29-04-2020",0,32
-"Nova Scotia","Zone 3 - Eastern","30-04-2020",0,32
-"Nova Scotia","Zone 3 - Eastern","01-05-2020",0,32
-"Nova Scotia","Zone 3 - Eastern","02-05-2020",0,32
-"Nova Scotia","Zone 3 - Eastern","03-05-2020",0,32
-"Nova Scotia","Zone 3 - Eastern","04-05-2020",0,32
-"Nova Scotia","Zone 3 - Eastern","05-05-2020",0,32
-"Nova Scotia","Zone 3 - Eastern","06-05-2020",0,32
-"Nova Scotia","Zone 3 - Eastern","07-05-2020",0,32
-"Nova Scotia","Zone 3 - Eastern","08-05-2020",0,32
-"Nova Scotia","Zone 3 - Eastern","09-05-2020",0,32
-"Nova Scotia","Zone 3 - Eastern","10-05-2020",1,33
-"Nova Scotia","Zone 3 - Eastern","11-05-2020",0,33
-"Nova Scotia","Zone 3 - Eastern","12-05-2020",0,33
-"Nova Scotia","Zone 3 - Eastern","13-05-2020",0,33
-"Nova Scotia","Zone 3 - Eastern","14-05-2020",0,33
-"Nova Scotia","Zone 3 - Eastern","15-05-2020",0,33
-"Nova Scotia","Zone 3 - Eastern","16-05-2020",0,33
-"Nova Scotia","Zone 3 - Eastern","17-05-2020",0,33
-"Nova Scotia","Zone 3 - Eastern","18-05-2020",0,33
-"Nova Scotia","Zone 3 - Eastern","19-05-2020",0,33
-"Nova Scotia","Zone 3 - Eastern","20-05-2020",0,33
-"Nova Scotia","Zone 3 - Eastern","21-05-2020",0,33
-"Nova Scotia","Zone 3 - Eastern","22-05-2020",0,33
-"Nova Scotia","Zone 3 - Eastern","23-05-2020",0,33
-"Nova Scotia","Zone 3 - Eastern","24-05-2020",0,33
-"Nova Scotia","Zone 3 - Eastern","25-05-2020",0,33
-"Nova Scotia","Zone 3 - Eastern","26-05-2020",0,33
-"Nova Scotia","Zone 3 - Eastern","27-05-2020",0,33
-"Nova Scotia","Zone 3 - Eastern","28-05-2020",0,33
-"Nova Scotia","Zone 3 - Eastern","29-05-2020",0,33
-"Nova Scotia","Zone 3 - Eastern","30-05-2020",0,33
-"Nova Scotia","Zone 3 - Eastern","31-05-2020",0,33
-"Nova Scotia","Zone 3 - Eastern","01-06-2020",0,33
-"Nova Scotia","Zone 3 - Eastern","02-06-2020",0,33
-"Nova Scotia","Zone 3 - Eastern","03-06-2020",1,34
-"Nova Scotia","Zone 3 - Eastern","04-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","05-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","06-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","07-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","08-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","09-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","10-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","11-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","12-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","13-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","14-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","15-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","16-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","17-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","18-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","19-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","20-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","21-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","22-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","23-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","24-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","25-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","26-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","27-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","28-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","29-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","30-06-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","01-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","02-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","03-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","04-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","05-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","06-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","07-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","08-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","09-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","10-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","11-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","12-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","13-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","14-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","15-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","16-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","17-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","18-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","19-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","20-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","21-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","22-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","23-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","24-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","25-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","26-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","27-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","28-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","29-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","30-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","31-07-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","01-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","02-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","03-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","04-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","05-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","06-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","07-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","08-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","09-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","10-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","11-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","12-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","13-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","14-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","15-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","16-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","17-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","18-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","19-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","20-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","21-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","22-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","23-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","24-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","25-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","26-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","27-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","28-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","29-08-2020",0,34
-"Nova Scotia","Zone 3 - Eastern","30-08-2020",0,34
+"Nova Scotia","Zone 3 - Eastern","18-03-2020",1,1
+"Nova Scotia","Zone 3 - Eastern","19-03-2020",1,2
+"Nova Scotia","Zone 3 - Eastern","20-03-2020",0,2
+"Nova Scotia","Zone 3 - Eastern","21-03-2020",0,2
+"Nova Scotia","Zone 3 - Eastern","22-03-2020",0,2
+"Nova Scotia","Zone 3 - Eastern","23-03-2020",0,2
+"Nova Scotia","Zone 3 - Eastern","24-03-2020",2,4
+"Nova Scotia","Zone 3 - Eastern","25-03-2020",2,6
+"Nova Scotia","Zone 3 - Eastern","26-03-2020",1,7
+"Nova Scotia","Zone 3 - Eastern","27-03-2020",0,7
+"Nova Scotia","Zone 3 - Eastern","28-03-2020",6,13
+"Nova Scotia","Zone 3 - Eastern","29-03-2020",0,13
+"Nova Scotia","Zone 3 - Eastern","30-03-2020",0,13
+"Nova Scotia","Zone 3 - Eastern","31-03-2020",1,14
+"Nova Scotia","Zone 3 - Eastern","01-04-2020",2,16
+"Nova Scotia","Zone 3 - Eastern","02-04-2020",3,19
+"Nova Scotia","Zone 3 - Eastern","03-04-2020",1,20
+"Nova Scotia","Zone 3 - Eastern","04-04-2020",2,22
+"Nova Scotia","Zone 3 - Eastern","05-04-2020",1,23
+"Nova Scotia","Zone 3 - Eastern","06-04-2020",3,26
+"Nova Scotia","Zone 3 - Eastern","07-04-2020",3,29
+"Nova Scotia","Zone 3 - Eastern","08-04-2020",4,33
+"Nova Scotia","Zone 3 - Eastern","09-04-2020",2,35
+"Nova Scotia","Zone 3 - Eastern","10-04-2020",3,38
+"Nova Scotia","Zone 3 - Eastern","11-04-2020",0,38
+"Nova Scotia","Zone 3 - Eastern","12-04-2020",1,39
+"Nova Scotia","Zone 3 - Eastern","13-04-2020",2,41
+"Nova Scotia","Zone 3 - Eastern","14-04-2020",0,41
+"Nova Scotia","Zone 3 - Eastern","15-04-2020",2,43
+"Nova Scotia","Zone 3 - Eastern","16-04-2020",1,44
+"Nova Scotia","Zone 3 - Eastern","17-04-2020",1,45
+"Nova Scotia","Zone 3 - Eastern","18-04-2020",1,46
+"Nova Scotia","Zone 3 - Eastern","19-04-2020",0,46
+"Nova Scotia","Zone 3 - Eastern","20-04-2020",1,47
+"Nova Scotia","Zone 3 - Eastern","21-04-2020",0,47
+"Nova Scotia","Zone 3 - Eastern","22-04-2020",1,48
+"Nova Scotia","Zone 3 - Eastern","23-04-2020",1,49
+"Nova Scotia","Zone 3 - Eastern","24-04-2020",1,50
+"Nova Scotia","Zone 3 - Eastern","25-04-2020",1,51
+"Nova Scotia","Zone 3 - Eastern","26-04-2020",0,51
+"Nova Scotia","Zone 3 - Eastern","27-04-2020",0,51
+"Nova Scotia","Zone 3 - Eastern","28-04-2020",0,51
+"Nova Scotia","Zone 3 - Eastern","29-04-2020",0,51
+"Nova Scotia","Zone 3 - Eastern","30-04-2020",0,51
+"Nova Scotia","Zone 3 - Eastern","01-05-2020",0,51
+"Nova Scotia","Zone 3 - Eastern","02-05-2020",0,51
+"Nova Scotia","Zone 3 - Eastern","03-05-2020",0,51
+"Nova Scotia","Zone 3 - Eastern","04-05-2020",0,51
+"Nova Scotia","Zone 3 - Eastern","05-05-2020",0,51
+"Nova Scotia","Zone 3 - Eastern","06-05-2020",0,51
+"Nova Scotia","Zone 3 - Eastern","07-05-2020",0,51
+"Nova Scotia","Zone 3 - Eastern","08-05-2020",0,51
+"Nova Scotia","Zone 3 - Eastern","09-05-2020",0,51
+"Nova Scotia","Zone 3 - Eastern","10-05-2020",1,52
+"Nova Scotia","Zone 3 - Eastern","11-05-2020",0,52
+"Nova Scotia","Zone 3 - Eastern","12-05-2020",0,52
+"Nova Scotia","Zone 3 - Eastern","13-05-2020",0,52
+"Nova Scotia","Zone 3 - Eastern","14-05-2020",0,52
+"Nova Scotia","Zone 3 - Eastern","15-05-2020",0,52
+"Nova Scotia","Zone 3 - Eastern","16-05-2020",0,52
+"Nova Scotia","Zone 3 - Eastern","17-05-2020",0,52
+"Nova Scotia","Zone 3 - Eastern","18-05-2020",0,52
+"Nova Scotia","Zone 3 - Eastern","19-05-2020",0,52
+"Nova Scotia","Zone 3 - Eastern","20-05-2020",0,52
+"Nova Scotia","Zone 3 - Eastern","21-05-2020",0,52
+"Nova Scotia","Zone 3 - Eastern","22-05-2020",0,52
+"Nova Scotia","Zone 3 - Eastern","23-05-2020",0,52
+"Nova Scotia","Zone 3 - Eastern","24-05-2020",0,52
+"Nova Scotia","Zone 3 - Eastern","25-05-2020",0,52
+"Nova Scotia","Zone 3 - Eastern","26-05-2020",0,52
+"Nova Scotia","Zone 3 - Eastern","27-05-2020",0,52
+"Nova Scotia","Zone 3 - Eastern","28-05-2020",0,52
+"Nova Scotia","Zone 3 - Eastern","29-05-2020",0,52
+"Nova Scotia","Zone 3 - Eastern","30-05-2020",0,52
+"Nova Scotia","Zone 3 - Eastern","31-05-2020",0,52
+"Nova Scotia","Zone 3 - Eastern","01-06-2020",0,52
+"Nova Scotia","Zone 3 - Eastern","02-06-2020",0,52
+"Nova Scotia","Zone 3 - Eastern","03-06-2020",1,53
+"Nova Scotia","Zone 3 - Eastern","04-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","05-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","06-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","07-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","08-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","09-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","10-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","11-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","12-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","13-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","14-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","15-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","16-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","17-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","18-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","19-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","20-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","21-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","22-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","23-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","24-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","25-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","26-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","27-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","28-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","29-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","30-06-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","01-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","02-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","03-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","04-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","05-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","06-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","07-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","08-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","09-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","10-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","11-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","12-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","13-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","14-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","15-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","16-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","17-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","18-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","19-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","20-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","21-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","22-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","23-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","24-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","25-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","26-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","27-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","28-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","29-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","30-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","31-07-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","01-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","02-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","03-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","04-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","05-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","06-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","07-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","08-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","09-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","10-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","11-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","12-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","13-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","14-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","15-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","16-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","17-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","18-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","19-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","20-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","21-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","22-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","23-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","24-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","25-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","26-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","27-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","28-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","29-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","30-08-2020",0,53
+"Nova Scotia","Zone 3 - Eastern","31-08-2020",1,54
 "Nova Scotia","Zone 4 - Central","25-01-2020",0,0
 "Nova Scotia","Zone 4 - Central","26-01-2020",0,0
 "Nova Scotia","Zone 4 - Central","27-01-2020",0,0
@@ -7059,173 +6871,174 @@
 "Nova Scotia","Zone 4 - Central","14-03-2020",0,0
 "Nova Scotia","Zone 4 - Central","15-03-2020",2,2
 "Nova Scotia","Zone 4 - Central","16-03-2020",2,4
-"Nova Scotia","Zone 4 - Central","17-03-2020",0,4
-"Nova Scotia","Zone 4 - Central","18-03-2020",0,4
-"Nova Scotia","Zone 4 - Central","19-03-2020",0,4
-"Nova Scotia","Zone 4 - Central","20-03-2020",0,4
-"Nova Scotia","Zone 4 - Central","21-03-2020",0,4
-"Nova Scotia","Zone 4 - Central","22-03-2020",0,4
-"Nova Scotia","Zone 4 - Central","23-03-2020",0,4
-"Nova Scotia","Zone 4 - Central","24-03-2020",0,4
-"Nova Scotia","Zone 4 - Central","25-03-2020",0,4
-"Nova Scotia","Zone 4 - Central","26-03-2020",0,4
-"Nova Scotia","Zone 4 - Central","27-03-2020",0,4
-"Nova Scotia","Zone 4 - Central","28-03-2020",0,4
-"Nova Scotia","Zone 4 - Central","29-03-2020",0,4
-"Nova Scotia","Zone 4 - Central","30-03-2020",0,4
-"Nova Scotia","Zone 4 - Central","31-03-2020",0,4
-"Nova Scotia","Zone 4 - Central","01-04-2020",0,4
-"Nova Scotia","Zone 4 - Central","02-04-2020",12,16
-"Nova Scotia","Zone 4 - Central","03-04-2020",12,28
-"Nova Scotia","Zone 4 - Central","04-04-2020",24,52
-"Nova Scotia","Zone 4 - Central","05-04-2020",21,73
-"Nova Scotia","Zone 4 - Central","06-04-2020",22,95
-"Nova Scotia","Zone 4 - Central","07-04-2020",11,106
-"Nova Scotia","Zone 4 - Central","08-04-2020",27,133
-"Nova Scotia","Zone 4 - Central","09-04-2020",27,160
-"Nova Scotia","Zone 4 - Central","10-04-2020",30,190
-"Nova Scotia","Zone 4 - Central","11-04-2020",20,210
-"Nova Scotia","Zone 4 - Central","12-04-2020",16,226
-"Nova Scotia","Zone 4 - Central","13-04-2020",26,252
-"Nova Scotia","Zone 4 - Central","14-04-2020",43,295
-"Nova Scotia","Zone 4 - Central","15-04-2020",29,324
-"Nova Scotia","Zone 4 - Central","16-04-2020",27,351
-"Nova Scotia","Zone 4 - Central","17-04-2020",25,376
-"Nova Scotia","Zone 4 - Central","18-04-2020",41,417
-"Nova Scotia","Zone 4 - Central","19-04-2020",26,443
-"Nova Scotia","Zone 4 - Central","20-04-2020",40,483
-"Nova Scotia","Zone 4 - Central","21-04-2020",15,498
-"Nova Scotia","Zone 4 - Central","22-04-2020",34,532
-"Nova Scotia","Zone 4 - Central","23-04-2020",53,585
-"Nova Scotia","Zone 4 - Central","24-04-2020",22,607
-"Nova Scotia","Zone 4 - Central","25-04-2020",14,621
-"Nova Scotia","Zone 4 - Central","26-04-2020",8,629
-"Nova Scotia","Zone 4 - Central","27-04-2020",26,655
-"Nova Scotia","Zone 4 - Central","28-04-2020",15,670
-"Nova Scotia","Zone 4 - Central","29-04-2020",20,690
-"Nova Scotia","Zone 4 - Central","30-04-2020",12,702
-"Nova Scotia","Zone 4 - Central","01-05-2020",12,714
-"Nova Scotia","Zone 4 - Central","02-05-2020",3,717
-"Nova Scotia","Zone 4 - Central","03-05-2020",7,724
-"Nova Scotia","Zone 4 - Central","04-05-2020",14,738
-"Nova Scotia","Zone 4 - Central","05-05-2020",6,744
-"Nova Scotia","Zone 4 - Central","06-05-2020",5,749
-"Nova Scotia","Zone 4 - Central","07-05-2020",9,758
-"Nova Scotia","Zone 4 - Central","08-05-2020",1,759
-"Nova Scotia","Zone 4 - Central","09-05-2020",3,762
-"Nova Scotia","Zone 4 - Central","10-05-2020",6,768
-"Nova Scotia","Zone 4 - Central","11-05-2020",0,768
-"Nova Scotia","Zone 4 - Central","12-05-2020",1,769
-"Nova Scotia","Zone 4 - Central","13-05-2020",4,773
-"Nova Scotia","Zone 4 - Central","14-05-2020",2,775
-"Nova Scotia","Zone 4 - Central","15-05-2020",8,783
-"Nova Scotia","Zone 4 - Central","16-05-2020",3,786
-"Nova Scotia","Zone 4 - Central","17-05-2020",3,789
-"Nova Scotia","Zone 4 - Central","18-05-2020",3,792
-"Nova Scotia","Zone 4 - Central","19-05-2020",1,793
-"Nova Scotia","Zone 4 - Central","20-05-2020",1,794
-"Nova Scotia","Zone 4 - Central","21-05-2020",1,795
-"Nova Scotia","Zone 4 - Central","22-05-2020",1,796
-"Nova Scotia","Zone 4 - Central","23-05-2020",1,797
-"Nova Scotia","Zone 4 - Central","24-05-2020",1,798
-"Nova Scotia","Zone 4 - Central","25-05-2020",1,799
-"Nova Scotia","Zone 4 - Central","26-05-2020",2,801
-"Nova Scotia","Zone 4 - Central","27-05-2020",1,802
-"Nova Scotia","Zone 4 - Central","28-05-2020",1,803
-"Nova Scotia","Zone 4 - Central","29-05-2020",0,803
-"Nova Scotia","Zone 4 - Central","30-05-2020",1,804
-"Nova Scotia","Zone 4 - Central","31-05-2020",0,804
-"Nova Scotia","Zone 4 - Central","01-06-2020",1,805
-"Nova Scotia","Zone 4 - Central","02-06-2020",0,805
-"Nova Scotia","Zone 4 - Central","03-06-2020",0,805
-"Nova Scotia","Zone 4 - Central","04-06-2020",0,805
-"Nova Scotia","Zone 4 - Central","05-06-2020",0,805
-"Nova Scotia","Zone 4 - Central","06-06-2020",0,805
-"Nova Scotia","Zone 4 - Central","07-06-2020",1,806
-"Nova Scotia","Zone 4 - Central","08-06-2020",0,806
-"Nova Scotia","Zone 4 - Central","09-06-2020",1,807
-"Nova Scotia","Zone 4 - Central","10-06-2020",0,807
-"Nova Scotia","Zone 4 - Central","11-06-2020",0,807
-"Nova Scotia","Zone 4 - Central","12-06-2020",0,807
-"Nova Scotia","Zone 4 - Central","13-06-2020",0,807
-"Nova Scotia","Zone 4 - Central","14-06-2020",0,807
-"Nova Scotia","Zone 4 - Central","15-06-2020",0,807
-"Nova Scotia","Zone 4 - Central","16-06-2020",0,807
-"Nova Scotia","Zone 4 - Central","17-06-2020",0,807
-"Nova Scotia","Zone 4 - Central","18-06-2020",0,807
-"Nova Scotia","Zone 4 - Central","19-06-2020",0,807
-"Nova Scotia","Zone 4 - Central","20-06-2020",0,807
-"Nova Scotia","Zone 4 - Central","21-06-2020",0,807
-"Nova Scotia","Zone 4 - Central","22-06-2020",0,807
-"Nova Scotia","Zone 4 - Central","23-06-2020",0,807
-"Nova Scotia","Zone 4 - Central","24-06-2020",0,807
-"Nova Scotia","Zone 4 - Central","25-06-2020",0,807
-"Nova Scotia","Zone 4 - Central","26-06-2020",0,807
-"Nova Scotia","Zone 4 - Central","27-06-2020",0,807
-"Nova Scotia","Zone 4 - Central","28-06-2020",0,807
-"Nova Scotia","Zone 4 - Central","29-06-2020",0,807
-"Nova Scotia","Zone 4 - Central","30-06-2020",1,808
-"Nova Scotia","Zone 4 - Central","01-07-2020",1,809
-"Nova Scotia","Zone 4 - Central","02-07-2020",0,809
-"Nova Scotia","Zone 4 - Central","03-07-2020",0,809
-"Nova Scotia","Zone 4 - Central","04-07-2020",0,809
-"Nova Scotia","Zone 4 - Central","05-07-2020",0,809
-"Nova Scotia","Zone 4 - Central","06-07-2020",1,810
-"Nova Scotia","Zone 4 - Central","07-07-2020",0,810
-"Nova Scotia","Zone 4 - Central","08-07-2020",0,810
-"Nova Scotia","Zone 4 - Central","09-07-2020",0,810
-"Nova Scotia","Zone 4 - Central","10-07-2020",0,810
-"Nova Scotia","Zone 4 - Central","11-07-2020",0,810
-"Nova Scotia","Zone 4 - Central","12-07-2020",0,810
-"Nova Scotia","Zone 4 - Central","13-07-2020",0,810
-"Nova Scotia","Zone 4 - Central","14-07-2020",0,810
-"Nova Scotia","Zone 4 - Central","15-07-2020",1,811
-"Nova Scotia","Zone 4 - Central","16-07-2020",0,811
-"Nova Scotia","Zone 4 - Central","17-07-2020",0,811
-"Nova Scotia","Zone 4 - Central","18-07-2020",0,811
-"Nova Scotia","Zone 4 - Central","19-07-2020",0,811
-"Nova Scotia","Zone 4 - Central","20-07-2020",0,811
-"Nova Scotia","Zone 4 - Central","21-07-2020",0,811
-"Nova Scotia","Zone 4 - Central","22-07-2020",0,811
-"Nova Scotia","Zone 4 - Central","23-07-2020",0,811
-"Nova Scotia","Zone 4 - Central","24-07-2020",0,811
-"Nova Scotia","Zone 4 - Central","25-07-2020",0,811
-"Nova Scotia","Zone 4 - Central","26-07-2020",0,811
-"Nova Scotia","Zone 4 - Central","27-07-2020",0,811
-"Nova Scotia","Zone 4 - Central","28-07-2020",0,811
-"Nova Scotia","Zone 4 - Central","29-07-2020",0,811
-"Nova Scotia","Zone 4 - Central","30-07-2020",0,811
-"Nova Scotia","Zone 4 - Central","31-07-2020",2,813
-"Nova Scotia","Zone 4 - Central","01-08-2020",0,813
-"Nova Scotia","Zone 4 - Central","02-08-2020",2,815
-"Nova Scotia","Zone 4 - Central","03-08-2020",0,815
-"Nova Scotia","Zone 4 - Central","04-08-2020",0,815
-"Nova Scotia","Zone 4 - Central","05-08-2020",0,815
-"Nova Scotia","Zone 4 - Central","06-08-2020",0,815
-"Nova Scotia","Zone 4 - Central","07-08-2020",0,815
-"Nova Scotia","Zone 4 - Central","08-08-2020",0,815
-"Nova Scotia","Zone 4 - Central","09-08-2020",0,815
-"Nova Scotia","Zone 4 - Central","10-08-2020",0,815
-"Nova Scotia","Zone 4 - Central","11-08-2020",0,815
-"Nova Scotia","Zone 4 - Central","12-08-2020",0,815
-"Nova Scotia","Zone 4 - Central","13-08-2020",0,815
-"Nova Scotia","Zone 4 - Central","14-08-2020",0,815
-"Nova Scotia","Zone 4 - Central","15-08-2020",0,815
-"Nova Scotia","Zone 4 - Central","16-08-2020",0,815
-"Nova Scotia","Zone 4 - Central","17-08-2020",0,815
-"Nova Scotia","Zone 4 - Central","18-08-2020",0,815
-"Nova Scotia","Zone 4 - Central","19-08-2020",0,815
-"Nova Scotia","Zone 4 - Central","20-08-2020",1,816
-"Nova Scotia","Zone 4 - Central","21-08-2020",0,816
-"Nova Scotia","Zone 4 - Central","22-08-2020",1,817
-"Nova Scotia","Zone 4 - Central","23-08-2020",0,817
-"Nova Scotia","Zone 4 - Central","24-08-2020",0,817
-"Nova Scotia","Zone 4 - Central","25-08-2020",0,817
-"Nova Scotia","Zone 4 - Central","26-08-2020",0,817
-"Nova Scotia","Zone 4 - Central","27-08-2020",0,817
-"Nova Scotia","Zone 4 - Central","28-08-2020",0,817
-"Nova Scotia","Zone 4 - Central","29-08-2020",0,817
-"Nova Scotia","Zone 4 - Central","30-08-2020",0,817
+"Nova Scotia","Zone 4 - Central","17-03-2020",1,5
+"Nova Scotia","Zone 4 - Central","18-03-2020",2,7
+"Nova Scotia","Zone 4 - Central","19-03-2020",1,8
+"Nova Scotia","Zone 4 - Central","20-03-2020",1,9
+"Nova Scotia","Zone 4 - Central","21-03-2020",5,14
+"Nova Scotia","Zone 4 - Central","22-03-2020",5,19
+"Nova Scotia","Zone 4 - Central","23-03-2020",10,29
+"Nova Scotia","Zone 4 - Central","24-03-2020",6,35
+"Nova Scotia","Zone 4 - Central","25-03-2020",9,44
+"Nova Scotia","Zone 4 - Central","26-03-2020",3,47
+"Nova Scotia","Zone 4 - Central","27-03-2020",11,58
+"Nova Scotia","Zone 4 - Central","28-03-2020",10,68
+"Nova Scotia","Zone 4 - Central","29-03-2020",7,75
+"Nova Scotia","Zone 4 - Central","30-03-2020",4,79
+"Nova Scotia","Zone 4 - Central","31-03-2020",11,90
+"Nova Scotia","Zone 4 - Central","01-04-2020",9,99
+"Nova Scotia","Zone 4 - Central","02-04-2020",13,112
+"Nova Scotia","Zone 4 - Central","03-04-2020",12,124
+"Nova Scotia","Zone 4 - Central","04-04-2020",23,147
+"Nova Scotia","Zone 4 - Central","05-04-2020",20,167
+"Nova Scotia","Zone 4 - Central","06-04-2020",22,189
+"Nova Scotia","Zone 4 - Central","07-04-2020",11,200
+"Nova Scotia","Zone 4 - Central","08-04-2020",26,226
+"Nova Scotia","Zone 4 - Central","09-04-2020",26,252
+"Nova Scotia","Zone 4 - Central","10-04-2020",30,282
+"Nova Scotia","Zone 4 - Central","11-04-2020",20,302
+"Nova Scotia","Zone 4 - Central","12-04-2020",16,318
+"Nova Scotia","Zone 4 - Central","13-04-2020",26,344
+"Nova Scotia","Zone 4 - Central","14-04-2020",43,387
+"Nova Scotia","Zone 4 - Central","15-04-2020",29,416
+"Nova Scotia","Zone 4 - Central","16-04-2020",28,444
+"Nova Scotia","Zone 4 - Central","17-04-2020",24,468
+"Nova Scotia","Zone 4 - Central","18-04-2020",41,509
+"Nova Scotia","Zone 4 - Central","19-04-2020",25,534
+"Nova Scotia","Zone 4 - Central","20-04-2020",40,574
+"Nova Scotia","Zone 4 - Central","21-04-2020",15,589
+"Nova Scotia","Zone 4 - Central","22-04-2020",34,623
+"Nova Scotia","Zone 4 - Central","23-04-2020",52,675
+"Nova Scotia","Zone 4 - Central","24-04-2020",22,697
+"Nova Scotia","Zone 4 - Central","25-04-2020",14,711
+"Nova Scotia","Zone 4 - Central","26-04-2020",8,719
+"Nova Scotia","Zone 4 - Central","27-04-2020",26,745
+"Nova Scotia","Zone 4 - Central","28-04-2020",15,760
+"Nova Scotia","Zone 4 - Central","29-04-2020",20,780
+"Nova Scotia","Zone 4 - Central","30-04-2020",12,792
+"Nova Scotia","Zone 4 - Central","01-05-2020",12,804
+"Nova Scotia","Zone 4 - Central","02-05-2020",4,808
+"Nova Scotia","Zone 4 - Central","03-05-2020",8,816
+"Nova Scotia","Zone 4 - Central","04-05-2020",14,830
+"Nova Scotia","Zone 4 - Central","05-05-2020",6,836
+"Nova Scotia","Zone 4 - Central","06-05-2020",5,841
+"Nova Scotia","Zone 4 - Central","07-05-2020",8,849
+"Nova Scotia","Zone 4 - Central","08-05-2020",1,850
+"Nova Scotia","Zone 4 - Central","09-05-2020",3,853
+"Nova Scotia","Zone 4 - Central","10-05-2020",6,859
+"Nova Scotia","Zone 4 - Central","11-05-2020",0,859
+"Nova Scotia","Zone 4 - Central","12-05-2020",1,860
+"Nova Scotia","Zone 4 - Central","13-05-2020",4,864
+"Nova Scotia","Zone 4 - Central","14-05-2020",2,866
+"Nova Scotia","Zone 4 - Central","15-05-2020",8,874
+"Nova Scotia","Zone 4 - Central","16-05-2020",3,877
+"Nova Scotia","Zone 4 - Central","17-05-2020",3,880
+"Nova Scotia","Zone 4 - Central","18-05-2020",3,883
+"Nova Scotia","Zone 4 - Central","19-05-2020",1,884
+"Nova Scotia","Zone 4 - Central","20-05-2020",1,885
+"Nova Scotia","Zone 4 - Central","21-05-2020",1,886
+"Nova Scotia","Zone 4 - Central","22-05-2020",1,887
+"Nova Scotia","Zone 4 - Central","23-05-2020",1,888
+"Nova Scotia","Zone 4 - Central","24-05-2020",1,889
+"Nova Scotia","Zone 4 - Central","25-05-2020",1,890
+"Nova Scotia","Zone 4 - Central","26-05-2020",2,892
+"Nova Scotia","Zone 4 - Central","27-05-2020",1,893
+"Nova Scotia","Zone 4 - Central","28-05-2020",1,894
+"Nova Scotia","Zone 4 - Central","29-05-2020",0,894
+"Nova Scotia","Zone 4 - Central","30-05-2020",1,895
+"Nova Scotia","Zone 4 - Central","31-05-2020",0,895
+"Nova Scotia","Zone 4 - Central","01-06-2020",1,896
+"Nova Scotia","Zone 4 - Central","02-06-2020",0,896
+"Nova Scotia","Zone 4 - Central","03-06-2020",0,896
+"Nova Scotia","Zone 4 - Central","04-06-2020",0,896
+"Nova Scotia","Zone 4 - Central","05-06-2020",0,896
+"Nova Scotia","Zone 4 - Central","06-06-2020",0,896
+"Nova Scotia","Zone 4 - Central","07-06-2020",1,897
+"Nova Scotia","Zone 4 - Central","08-06-2020",0,897
+"Nova Scotia","Zone 4 - Central","09-06-2020",1,898
+"Nova Scotia","Zone 4 - Central","10-06-2020",1,899
+"Nova Scotia","Zone 4 - Central","11-06-2020",0,899
+"Nova Scotia","Zone 4 - Central","12-06-2020",0,899
+"Nova Scotia","Zone 4 - Central","13-06-2020",0,899
+"Nova Scotia","Zone 4 - Central","14-06-2020",0,899
+"Nova Scotia","Zone 4 - Central","15-06-2020",0,899
+"Nova Scotia","Zone 4 - Central","16-06-2020",0,899
+"Nova Scotia","Zone 4 - Central","17-06-2020",0,899
+"Nova Scotia","Zone 4 - Central","18-06-2020",0,899
+"Nova Scotia","Zone 4 - Central","19-06-2020",0,899
+"Nova Scotia","Zone 4 - Central","20-06-2020",0,899
+"Nova Scotia","Zone 4 - Central","21-06-2020",0,899
+"Nova Scotia","Zone 4 - Central","22-06-2020",0,899
+"Nova Scotia","Zone 4 - Central","23-06-2020",0,899
+"Nova Scotia","Zone 4 - Central","24-06-2020",0,899
+"Nova Scotia","Zone 4 - Central","25-06-2020",0,899
+"Nova Scotia","Zone 4 - Central","26-06-2020",0,899
+"Nova Scotia","Zone 4 - Central","27-06-2020",0,899
+"Nova Scotia","Zone 4 - Central","28-06-2020",0,899
+"Nova Scotia","Zone 4 - Central","29-06-2020",0,899
+"Nova Scotia","Zone 4 - Central","30-06-2020",1,900
+"Nova Scotia","Zone 4 - Central","01-07-2020",1,901
+"Nova Scotia","Zone 4 - Central","02-07-2020",0,901
+"Nova Scotia","Zone 4 - Central","03-07-2020",0,901
+"Nova Scotia","Zone 4 - Central","04-07-2020",0,901
+"Nova Scotia","Zone 4 - Central","05-07-2020",0,901
+"Nova Scotia","Zone 4 - Central","06-07-2020",1,902
+"Nova Scotia","Zone 4 - Central","07-07-2020",0,902
+"Nova Scotia","Zone 4 - Central","08-07-2020",0,902
+"Nova Scotia","Zone 4 - Central","09-07-2020",0,902
+"Nova Scotia","Zone 4 - Central","10-07-2020",0,902
+"Nova Scotia","Zone 4 - Central","11-07-2020",0,902
+"Nova Scotia","Zone 4 - Central","12-07-2020",0,902
+"Nova Scotia","Zone 4 - Central","13-07-2020",0,902
+"Nova Scotia","Zone 4 - Central","14-07-2020",0,902
+"Nova Scotia","Zone 4 - Central","15-07-2020",1,903
+"Nova Scotia","Zone 4 - Central","16-07-2020",0,903
+"Nova Scotia","Zone 4 - Central","17-07-2020",0,903
+"Nova Scotia","Zone 4 - Central","18-07-2020",0,903
+"Nova Scotia","Zone 4 - Central","19-07-2020",0,903
+"Nova Scotia","Zone 4 - Central","20-07-2020",0,903
+"Nova Scotia","Zone 4 - Central","21-07-2020",0,903
+"Nova Scotia","Zone 4 - Central","22-07-2020",0,903
+"Nova Scotia","Zone 4 - Central","23-07-2020",0,903
+"Nova Scotia","Zone 4 - Central","24-07-2020",0,903
+"Nova Scotia","Zone 4 - Central","25-07-2020",0,903
+"Nova Scotia","Zone 4 - Central","26-07-2020",0,903
+"Nova Scotia","Zone 4 - Central","27-07-2020",0,903
+"Nova Scotia","Zone 4 - Central","28-07-2020",0,903
+"Nova Scotia","Zone 4 - Central","29-07-2020",0,903
+"Nova Scotia","Zone 4 - Central","30-07-2020",0,903
+"Nova Scotia","Zone 4 - Central","31-07-2020",2,905
+"Nova Scotia","Zone 4 - Central","01-08-2020",0,905
+"Nova Scotia","Zone 4 - Central","02-08-2020",2,907
+"Nova Scotia","Zone 4 - Central","03-08-2020",0,907
+"Nova Scotia","Zone 4 - Central","04-08-2020",0,907
+"Nova Scotia","Zone 4 - Central","05-08-2020",0,907
+"Nova Scotia","Zone 4 - Central","06-08-2020",0,907
+"Nova Scotia","Zone 4 - Central","07-08-2020",0,907
+"Nova Scotia","Zone 4 - Central","08-08-2020",0,907
+"Nova Scotia","Zone 4 - Central","09-08-2020",0,907
+"Nova Scotia","Zone 4 - Central","10-08-2020",0,907
+"Nova Scotia","Zone 4 - Central","11-08-2020",0,907
+"Nova Scotia","Zone 4 - Central","12-08-2020",0,907
+"Nova Scotia","Zone 4 - Central","13-08-2020",0,907
+"Nova Scotia","Zone 4 - Central","14-08-2020",0,907
+"Nova Scotia","Zone 4 - Central","15-08-2020",0,907
+"Nova Scotia","Zone 4 - Central","16-08-2020",0,907
+"Nova Scotia","Zone 4 - Central","17-08-2020",0,907
+"Nova Scotia","Zone 4 - Central","18-08-2020",0,907
+"Nova Scotia","Zone 4 - Central","19-08-2020",0,907
+"Nova Scotia","Zone 4 - Central","20-08-2020",1,908
+"Nova Scotia","Zone 4 - Central","21-08-2020",0,908
+"Nova Scotia","Zone 4 - Central","22-08-2020",1,909
+"Nova Scotia","Zone 4 - Central","23-08-2020",0,909
+"Nova Scotia","Zone 4 - Central","24-08-2020",0,909
+"Nova Scotia","Zone 4 - Central","25-08-2020",0,909
+"Nova Scotia","Zone 4 - Central","26-08-2020",0,909
+"Nova Scotia","Zone 4 - Central","27-08-2020",0,909
+"Nova Scotia","Zone 4 - Central","28-08-2020",0,909
+"Nova Scotia","Zone 4 - Central","29-08-2020",0,909
+"Nova Scotia","Zone 4 - Central","30-08-2020",0,909
+"Nova Scotia","Zone 4 - Central","31-08-2020",0,909
 "NWT","NWT","25-01-2020",0,0
 "NWT","NWT","26-01-2020",0,0
 "NWT","NWT","27-01-2020",0,0
@@ -7445,6 +7258,7 @@
 "NWT","NWT","28-08-2020",0,5
 "NWT","NWT","29-08-2020",0,5
 "NWT","NWT","30-08-2020",0,5
+"NWT","NWT","31-08-2020",0,5
 "Ontario","Algoma","25-01-2020",0,0
 "Ontario","Algoma","26-01-2020",0,0
 "Ontario","Algoma","27-01-2020",0,0
@@ -7664,6 +7478,7 @@
 "Ontario","Algoma","28-08-2020",0,27
 "Ontario","Algoma","29-08-2020",0,27
 "Ontario","Algoma","30-08-2020",0,27
+"Ontario","Algoma","31-08-2020",0,27
 "Ontario","Brant","25-01-2020",0,0
 "Ontario","Brant","26-01-2020",0,0
 "Ontario","Brant","27-01-2020",0,0
@@ -7883,6 +7698,7 @@
 "Ontario","Brant","28-08-2020",0,160
 "Ontario","Brant","29-08-2020",0,160
 "Ontario","Brant","30-08-2020",1,161
+"Ontario","Brant","31-08-2020",0,161
 "Ontario","Chatham-Kent","25-01-2020",0,0
 "Ontario","Chatham-Kent","26-01-2020",0,0
 "Ontario","Chatham-Kent","27-01-2020",0,0
@@ -8102,6 +7918,7 @@
 "Ontario","Chatham-Kent","28-08-2020",0,362
 "Ontario","Chatham-Kent","29-08-2020",0,362
 "Ontario","Chatham-Kent","30-08-2020",0,362
+"Ontario","Chatham-Kent","31-08-2020",1,363
 "Ontario","Durham","25-01-2020",0,0
 "Ontario","Durham","26-01-2020",0,0
 "Ontario","Durham","27-01-2020",0,0
@@ -8321,6 +8138,7 @@
 "Ontario","Durham","28-08-2020",9,1888
 "Ontario","Durham","29-08-2020",0,1888
 "Ontario","Durham","30-08-2020",0,1888
+"Ontario","Durham","31-08-2020",10,1898
 "Ontario","Eastern","25-01-2020",0,0
 "Ontario","Eastern","26-01-2020",0,0
 "Ontario","Eastern","27-01-2020",0,0
@@ -8540,6 +8358,7 @@
 "Ontario","Eastern","28-08-2020",0,194
 "Ontario","Eastern","29-08-2020",0,194
 "Ontario","Eastern","30-08-2020",0,194
+"Ontario","Eastern","31-08-2020",4,198
 "Ontario","Grey Bruce","25-01-2020",0,0
 "Ontario","Grey Bruce","26-01-2020",0,0
 "Ontario","Grey Bruce","27-01-2020",0,0
@@ -8759,6 +8578,7 @@
 "Ontario","Grey Bruce","28-08-2020",0,127
 "Ontario","Grey Bruce","29-08-2020",0,127
 "Ontario","Grey Bruce","30-08-2020",0,127
+"Ontario","Grey Bruce","31-08-2020",1,128
 "Ontario","Haldimand-Norfolk","25-01-2020",0,0
 "Ontario","Haldimand-Norfolk","26-01-2020",0,0
 "Ontario","Haldimand-Norfolk","27-01-2020",0,0
@@ -8978,6 +8798,7 @@
 "Ontario","Haldimand-Norfolk","28-08-2020",0,475
 "Ontario","Haldimand-Norfolk","29-08-2020",0,475
 "Ontario","Haldimand-Norfolk","30-08-2020",0,475
+"Ontario","Haldimand-Norfolk","31-08-2020",4,479
 "Ontario","Haliburton Kawartha Pineridge","25-01-2020",0,0
 "Ontario","Haliburton Kawartha Pineridge","26-01-2020",0,0
 "Ontario","Haliburton Kawartha Pineridge","27-01-2020",0,0
@@ -9197,6 +9018,7 @@
 "Ontario","Haliburton Kawartha Pineridge","28-08-2020",1,224
 "Ontario","Haliburton Kawartha Pineridge","29-08-2020",0,224
 "Ontario","Haliburton Kawartha Pineridge","30-08-2020",0,224
+"Ontario","Haliburton Kawartha Pineridge","31-08-2020",2,226
 "Ontario","Halton","25-01-2020",0,0
 "Ontario","Halton","26-01-2020",0,0
 "Ontario","Halton","27-01-2020",0,0
@@ -9416,6 +9238,7 @@
 "Ontario","Halton","28-08-2020",3,883
 "Ontario","Halton","29-08-2020",0,883
 "Ontario","Halton","30-08-2020",0,883
+"Ontario","Halton","31-08-2020",6,889
 "Ontario","Hamilton","25-01-2020",0,0
 "Ontario","Hamilton","26-01-2020",0,0
 "Ontario","Hamilton","27-01-2020",0,0
@@ -9635,6 +9458,7 @@
 "Ontario","Hamilton","28-08-2020",2,980
 "Ontario","Hamilton","29-08-2020",0,980
 "Ontario","Hamilton","30-08-2020",0,980
+"Ontario","Hamilton","31-08-2020",8,988
 "Ontario","Hastings Prince Edward","25-01-2020",0,0
 "Ontario","Hastings Prince Edward","26-01-2020",0,0
 "Ontario","Hastings Prince Edward","27-01-2020",0,0
@@ -9854,6 +9678,7 @@
 "Ontario","Hastings Prince Edward","28-08-2020",0,49
 "Ontario","Hastings Prince Edward","29-08-2020",0,49
 "Ontario","Hastings Prince Edward","30-08-2020",0,49
+"Ontario","Hastings Prince Edward","31-08-2020",0,49
 "Ontario","Huron Perth","25-01-2020",0,0
 "Ontario","Huron Perth","26-01-2020",0,0
 "Ontario","Huron Perth","27-01-2020",0,0
@@ -10073,6 +9898,7 @@
 "Ontario","Huron Perth","28-08-2020",1,116
 "Ontario","Huron Perth","29-08-2020",0,116
 "Ontario","Huron Perth","30-08-2020",0,116
+"Ontario","Huron Perth","31-08-2020",4,120
 "Ontario","Kingston Frontenac Lennox & Addington","25-01-2020",0,0
 "Ontario","Kingston Frontenac Lennox & Addington","26-01-2020",0,0
 "Ontario","Kingston Frontenac Lennox & Addington","27-01-2020",0,0
@@ -10292,6 +10118,7 @@
 "Ontario","Kingston Frontenac Lennox & Addington","28-08-2020",0,112
 "Ontario","Kingston Frontenac Lennox & Addington","29-08-2020",0,112
 "Ontario","Kingston Frontenac Lennox & Addington","30-08-2020",0,112
+"Ontario","Kingston Frontenac Lennox & Addington","31-08-2020",0,112
 "Ontario","Lambton","25-01-2020",0,0
 "Ontario","Lambton","26-01-2020",0,0
 "Ontario","Lambton","27-01-2020",0,0
@@ -10511,6 +10338,7 @@
 "Ontario","Lambton","28-08-2020",0,338
 "Ontario","Lambton","29-08-2020",0,338
 "Ontario","Lambton","30-08-2020",0,338
+"Ontario","Lambton","31-08-2020",0,338
 "Ontario","Leeds Grenville and Lanark","25-01-2020",0,0
 "Ontario","Leeds Grenville and Lanark","26-01-2020",0,0
 "Ontario","Leeds Grenville and Lanark","27-01-2020",0,0
@@ -10730,6 +10558,7 @@
 "Ontario","Leeds Grenville and Lanark","28-08-2020",3,366
 "Ontario","Leeds Grenville and Lanark","29-08-2020",0,366
 "Ontario","Leeds Grenville and Lanark","30-08-2020",0,366
+"Ontario","Leeds Grenville and Lanark","31-08-2020",0,366
 "Ontario","Middlesex-London","25-01-2020",0,0
 "Ontario","Middlesex-London","26-01-2020",0,0
 "Ontario","Middlesex-London","27-01-2020",0,0
@@ -10949,6 +10778,7 @@
 "Ontario","Middlesex-London","28-08-2020",0,726
 "Ontario","Middlesex-London","29-08-2020",2,728
 "Ontario","Middlesex-London","30-08-2020",0,728
+"Ontario","Middlesex-London","31-08-2020",2,730
 "Ontario","Niagara","25-01-2020",0,0
 "Ontario","Niagara","26-01-2020",0,0
 "Ontario","Niagara","27-01-2020",0,0
@@ -11168,6 +10998,7 @@
 "Ontario","Niagara","28-08-2020",2,935
 "Ontario","Niagara","29-08-2020",2,937
 "Ontario","Niagara","30-08-2020",0,937
+"Ontario","Niagara","31-08-2020",1,938
 "Ontario","North Bay Parry Sound","25-01-2020",0,0
 "Ontario","North Bay Parry Sound","26-01-2020",0,0
 "Ontario","North Bay Parry Sound","27-01-2020",0,0
@@ -11387,6 +11218,7 @@
 "Ontario","North Bay Parry Sound","28-08-2020",0,35
 "Ontario","North Bay Parry Sound","29-08-2020",0,35
 "Ontario","North Bay Parry Sound","30-08-2020",0,35
+"Ontario","North Bay Parry Sound","31-08-2020",0,35
 "Ontario","Northwestern","25-01-2020",0,0
 "Ontario","Northwestern","26-01-2020",0,0
 "Ontario","Northwestern","27-01-2020",0,0
@@ -11606,6 +11438,7 @@
 "Ontario","Northwestern","28-08-2020",0,46
 "Ontario","Northwestern","29-08-2020",0,46
 "Ontario","Northwestern","30-08-2020",0,46
+"Ontario","Northwestern","31-08-2020",0,46
 "Ontario","Ottawa","25-01-2020",0,0
 "Ontario","Ottawa","26-01-2020",0,0
 "Ontario","Ottawa","27-01-2020",0,0
@@ -11825,6 +11658,7 @@
 "Ontario","Ottawa","28-08-2020",17,2910
 "Ontario","Ottawa","29-08-2020",20,2930
 "Ontario","Ottawa","30-08-2020",16,2946
+"Ontario","Ottawa","31-08-2020",21,2967
 "Ontario","Peel","25-01-2020",0,0
 "Ontario","Peel","26-01-2020",0,0
 "Ontario","Peel","27-01-2020",0,0
@@ -12044,6 +11878,7 @@
 "Ontario","Peel","28-08-2020",32,7601
 "Ontario","Peel","29-08-2020",25,7626
 "Ontario","Peel","30-08-2020",15,7641
+"Ontario","Peel","31-08-2020",20,7661
 "Ontario","Peterborough","25-01-2020",0,0
 "Ontario","Peterborough","26-01-2020",0,0
 "Ontario","Peterborough","27-01-2020",0,0
@@ -12263,6 +12098,7 @@
 "Ontario","Peterborough","28-08-2020",0,103
 "Ontario","Peterborough","29-08-2020",0,103
 "Ontario","Peterborough","30-08-2020",1,104
+"Ontario","Peterborough","31-08-2020",0,104
 "Ontario","Porcupine","25-01-2020",0,0
 "Ontario","Porcupine","26-01-2020",0,0
 "Ontario","Porcupine","27-01-2020",0,0
@@ -12482,6 +12318,7 @@
 "Ontario","Porcupine","28-08-2020",0,73
 "Ontario","Porcupine","29-08-2020",0,73
 "Ontario","Porcupine","30-08-2020",0,73
+"Ontario","Porcupine","31-08-2020",0,73
 "Ontario","Renfrew","25-01-2020",0,0
 "Ontario","Renfrew","26-01-2020",0,0
 "Ontario","Renfrew","27-01-2020",0,0
@@ -12701,6 +12538,7 @@
 "Ontario","Renfrew","28-08-2020",1,32
 "Ontario","Renfrew","29-08-2020",0,32
 "Ontario","Renfrew","30-08-2020",0,32
+"Ontario","Renfrew","31-08-2020",1,33
 "Ontario","Simcoe Muskoka","25-01-2020",0,0
 "Ontario","Simcoe Muskoka","26-01-2020",0,0
 "Ontario","Simcoe Muskoka","27-01-2020",0,0
@@ -12916,10 +12754,11 @@
 "Ontario","Simcoe Muskoka","24-08-2020",6,686
 "Ontario","Simcoe Muskoka","25-08-2020",2,688
 "Ontario","Simcoe Muskoka","26-08-2020",5,693
-"Ontario","Simcoe Muskoka","27-08-2020",2,695
-"Ontario","Simcoe Muskoka","28-08-2020",8,703
-"Ontario","Simcoe Muskoka","29-08-2020",0,703
-"Ontario","Simcoe Muskoka","30-08-2020",0,703
+"Ontario","Simcoe Muskoka","27-08-2020",1,694
+"Ontario","Simcoe Muskoka","28-08-2020",8,702
+"Ontario","Simcoe Muskoka","29-08-2020",0,702
+"Ontario","Simcoe Muskoka","30-08-2020",0,702
+"Ontario","Simcoe Muskoka","31-08-2020",6,708
 "Ontario","Southwestern","25-01-2020",0,0
 "Ontario","Southwestern","26-01-2020",0,0
 "Ontario","Southwestern","27-01-2020",0,0
@@ -13139,6 +12978,7 @@
 "Ontario","Southwestern","28-08-2020",0,254
 "Ontario","Southwestern","29-08-2020",0,254
 "Ontario","Southwestern","30-08-2020",0,254
+"Ontario","Southwestern","31-08-2020",0,254
 "Ontario","Sudbury","25-01-2020",0,0
 "Ontario","Sudbury","26-01-2020",0,0
 "Ontario","Sudbury","27-01-2020",0,0
@@ -13358,6 +13198,7 @@
 "Ontario","Sudbury","28-08-2020",0,94
 "Ontario","Sudbury","29-08-2020",0,94
 "Ontario","Sudbury","30-08-2020",0,94
+"Ontario","Sudbury","31-08-2020",0,94
 "Ontario","Thunder Bay","25-01-2020",0,0
 "Ontario","Thunder Bay","26-01-2020",0,0
 "Ontario","Thunder Bay","27-01-2020",0,0
@@ -13577,6 +13418,7 @@
 "Ontario","Thunder Bay","28-08-2020",0,103
 "Ontario","Thunder Bay","29-08-2020",0,103
 "Ontario","Thunder Bay","30-08-2020",0,103
+"Ontario","Thunder Bay","31-08-2020",0,103
 "Ontario","Timiskaming","25-01-2020",0,0
 "Ontario","Timiskaming","26-01-2020",0,0
 "Ontario","Timiskaming","27-01-2020",0,0
@@ -13796,6 +13638,7 @@
 "Ontario","Timiskaming","28-08-2020",0,19
 "Ontario","Timiskaming","29-08-2020",0,19
 "Ontario","Timiskaming","30-08-2020",0,19
+"Ontario","Timiskaming","31-08-2020",0,19
 "Ontario","Toronto","25-01-2020",1,1
 "Ontario","Toronto","26-01-2020",0,1
 "Ontario","Toronto","27-01-2020",1,2
@@ -14015,6 +13858,7 @@
 "Ontario","Toronto","28-08-2020",26,15925
 "Ontario","Toronto","29-08-2020",40,15965
 "Ontario","Toronto","30-08-2020",39,16004
+"Ontario","Toronto","31-08-2020",40,16044
 "Ontario","Waterloo","25-01-2020",0,0
 "Ontario","Waterloo","26-01-2020",0,0
 "Ontario","Waterloo","27-01-2020",0,0
@@ -14234,6 +14078,7 @@
 "Ontario","Waterloo","28-08-2020",1,1446
 "Ontario","Waterloo","29-08-2020",0,1446
 "Ontario","Waterloo","30-08-2020",0,1446
+"Ontario","Waterloo","31-08-2020",7,1453
 "Ontario","Wellington Dufferin Guelph","25-01-2020",0,0
 "Ontario","Wellington Dufferin Guelph","26-01-2020",0,0
 "Ontario","Wellington Dufferin Guelph","27-01-2020",0,0
@@ -14453,6 +14298,7 @@
 "Ontario","Wellington Dufferin Guelph","28-08-2020",0,556
 "Ontario","Wellington Dufferin Guelph","29-08-2020",0,556
 "Ontario","Wellington Dufferin Guelph","30-08-2020",0,556
+"Ontario","Wellington Dufferin Guelph","31-08-2020",3,559
 "Ontario","Windsor-Essex","25-01-2020",0,0
 "Ontario","Windsor-Essex","26-01-2020",0,0
 "Ontario","Windsor-Essex","27-01-2020",0,0
@@ -14672,6 +14518,7 @@
 "Ontario","Windsor-Essex","28-08-2020",4,2493
 "Ontario","Windsor-Essex","29-08-2020",18,2511
 "Ontario","Windsor-Essex","30-08-2020",6,2517
+"Ontario","Windsor-Essex","31-08-2020",4,2521
 "Ontario","York","25-01-2020",0,0
 "Ontario","York","26-01-2020",0,0
 "Ontario","York","27-01-2020",0,0
@@ -14891,6 +14738,7 @@
 "Ontario","York","28-08-2020",7,3434
 "Ontario","York","29-08-2020",7,3441
 "Ontario","York","30-08-2020",10,3451
+"Ontario","York","31-08-2020",14,3465
 "PEI","Prince Edward Island","25-01-2020",0,0
 "PEI","Prince Edward Island","26-01-2020",0,0
 "PEI","Prince Edward Island","27-01-2020",0,0
@@ -15110,6 +14958,7 @@
 "PEI","Prince Edward Island","28-08-2020",0,44
 "PEI","Prince Edward Island","29-08-2020",0,44
 "PEI","Prince Edward Island","30-08-2020",0,44
+"PEI","Prince Edward Island","31-08-2020",0,44
 "Quebec","Abitibi-Témiscamingue","25-01-2020",0,0
 "Quebec","Abitibi-Témiscamingue","26-01-2020",0,0
 "Quebec","Abitibi-Témiscamingue","27-01-2020",0,0
@@ -15329,6 +15178,7 @@
 "Quebec","Abitibi-Témiscamingue","28-08-2020",0,180
 "Quebec","Abitibi-Témiscamingue","29-08-2020",1,181
 "Quebec","Abitibi-Témiscamingue","30-08-2020",0,181
+"Quebec","Abitibi-Témiscamingue","31-08-2020",2,183
 "Quebec","Bas-Saint-Laurent","25-01-2020",0,0
 "Quebec","Bas-Saint-Laurent","26-01-2020",0,0
 "Quebec","Bas-Saint-Laurent","27-01-2020",0,0
@@ -15548,6 +15398,7 @@
 "Quebec","Bas-Saint-Laurent","28-08-2020",0,74
 "Quebec","Bas-Saint-Laurent","29-08-2020",0,74
 "Quebec","Bas-Saint-Laurent","30-08-2020",0,74
+"Quebec","Bas-Saint-Laurent","31-08-2020",0,74
 "Quebec","Capitale-Nationale","25-01-2020",0,0
 "Quebec","Capitale-Nationale","26-01-2020",0,0
 "Quebec","Capitale-Nationale","27-01-2020",0,0
@@ -15767,6 +15618,7 @@
 "Quebec","Capitale-Nationale","28-08-2020",2,2031
 "Quebec","Capitale-Nationale","29-08-2020",10,2041
 "Quebec","Capitale-Nationale","30-08-2020",5,2046
+"Quebec","Capitale-Nationale","31-08-2020",16,2062
 "Quebec","Chaudière-Appalaches","25-01-2020",0,0
 "Quebec","Chaudière-Appalaches","26-01-2020",0,0
 "Quebec","Chaudière-Appalaches","27-01-2020",0,0
@@ -15986,6 +15838,7 @@
 "Quebec","Chaudière-Appalaches","28-08-2020",2,601
 "Quebec","Chaudière-Appalaches","29-08-2020",2,603
 "Quebec","Chaudière-Appalaches","30-08-2020",2,605
+"Quebec","Chaudière-Appalaches","31-08-2020",5,610
 "Quebec","Côte-Nord","25-01-2020",0,0
 "Quebec","Côte-Nord","26-01-2020",0,0
 "Quebec","Côte-Nord","27-01-2020",0,0
@@ -16205,6 +16058,7 @@
 "Quebec","Côte-Nord","28-08-2020",0,127
 "Quebec","Côte-Nord","29-08-2020",0,127
 "Quebec","Côte-Nord","30-08-2020",0,127
+"Quebec","Côte-Nord","31-08-2020",0,127
 "Quebec","Estrie","25-01-2020",0,0
 "Quebec","Estrie","26-01-2020",0,0
 "Quebec","Estrie","27-01-2020",0,0
@@ -16424,6 +16278,7 @@
 "Quebec","Estrie","28-08-2020",8,1207
 "Quebec","Estrie","29-08-2020",6,1213
 "Quebec","Estrie","30-08-2020",17,1230
+"Quebec","Estrie","31-08-2020",20,1250
 "Quebec","Gaspésie-Îles-de-la-Madeleine","25-01-2020",0,0
 "Quebec","Gaspésie-Îles-de-la-Madeleine","26-01-2020",0,0
 "Quebec","Gaspésie-Îles-de-la-Madeleine","27-01-2020",0,0
@@ -16643,6 +16498,7 @@
 "Quebec","Gaspésie-Îles-de-la-Madeleine","28-08-2020",0,211
 "Quebec","Gaspésie-Îles-de-la-Madeleine","29-08-2020",0,211
 "Quebec","Gaspésie-Îles-de-la-Madeleine","30-08-2020",1,212
+"Quebec","Gaspésie-Îles-de-la-Madeleine","31-08-2020",1,213
 "Quebec","Lanaudière","25-01-2020",0,0
 "Quebec","Lanaudière","26-01-2020",0,0
 "Quebec","Lanaudière","27-01-2020",0,0
@@ -16862,6 +16718,7 @@
 "Quebec","Lanaudière","28-08-2020",7,4817
 "Quebec","Lanaudière","29-08-2020",14,4831
 "Quebec","Lanaudière","30-08-2020",8,4839
+"Quebec","Lanaudière","31-08-2020",16,4855
 "Quebec","Laurentides","25-01-2020",0,0
 "Quebec","Laurentides","26-01-2020",0,0
 "Quebec","Laurentides","27-01-2020",0,0
@@ -17081,6 +16938,7 @@
 "Quebec","Laurentides","28-08-2020",10,4202
 "Quebec","Laurentides","29-08-2020",16,4218
 "Quebec","Laurentides","30-08-2020",11,4229
+"Quebec","Laurentides","31-08-2020",8,4237
 "Quebec","Laval","25-01-2020",0,0
 "Quebec","Laval","26-01-2020",0,0
 "Quebec","Laval","27-01-2020",0,0
@@ -17300,6 +17158,7 @@
 "Quebec","Laval","28-08-2020",11,6275
 "Quebec","Laval","29-08-2020",10,6285
 "Quebec","Laval","30-08-2020",3,6288
+"Quebec","Laval","31-08-2020",11,6299
 "Quebec","Mauricie","25-01-2020",0,0
 "Quebec","Mauricie","26-01-2020",0,0
 "Quebec","Mauricie","27-01-2020",0,0
@@ -17519,6 +17378,7 @@
 "Quebec","Mauricie","28-08-2020",4,2138
 "Quebec","Mauricie","29-08-2020",0,2138
 "Quebec","Mauricie","30-08-2020",1,2139
+"Quebec","Mauricie","31-08-2020",7,2146
 "Quebec","Montérégie","25-01-2020",0,0
 "Quebec","Montérégie","26-01-2020",0,0
 "Quebec","Montérégie","27-01-2020",0,0
@@ -17738,6 +17598,7 @@
 "Quebec","Montérégie","28-08-2020",16,9271
 "Quebec","Montérégie","29-08-2020",18,9289
 "Quebec","Montérégie","30-08-2020",15,9304
+"Quebec","Montérégie","31-08-2020",18,9322
 "Quebec","Montréal","25-01-2020",0,0
 "Quebec","Montréal","26-01-2020",0,0
 "Quebec","Montréal","27-01-2020",0,0
@@ -17957,6 +17818,7 @@
 "Quebec","Montréal","28-08-2020",0,29745
 "Quebec","Montréal","29-08-2020",25,29770
 "Quebec","Montréal","30-08-2020",46,29816
+"Quebec","Montréal","31-08-2020",25,29841
 "Quebec","Nord-du-Québec","25-01-2020",0,0
 "Quebec","Nord-du-Québec","26-01-2020",0,0
 "Quebec","Nord-du-Québec","27-01-2020",0,0
@@ -18176,6 +18038,7 @@
 "Quebec","Nord-du-Québec","28-08-2020",0,8
 "Quebec","Nord-du-Québec","29-08-2020",0,8
 "Quebec","Nord-du-Québec","30-08-2020",0,8
+"Quebec","Nord-du-Québec","31-08-2020",0,8
 "Quebec","Not Reported","25-01-2020",0,0
 "Quebec","Not Reported","26-01-2020",0,0
 "Quebec","Not Reported","27-01-2020",0,0
@@ -18395,6 +18258,7 @@
 "Quebec","Not Reported","28-08-2020",0,29
 "Quebec","Not Reported","29-08-2020",0,29
 "Quebec","Not Reported","30-08-2020",0,29
+"Quebec","Not Reported","31-08-2020",0,29
 "Quebec","Nunavik","25-01-2020",0,0
 "Quebec","Nunavik","26-01-2020",0,0
 "Quebec","Nunavik","27-01-2020",0,0
@@ -18614,6 +18478,7 @@
 "Quebec","Nunavik","28-08-2020",0,17
 "Quebec","Nunavik","29-08-2020",0,17
 "Quebec","Nunavik","30-08-2020",0,17
+"Quebec","Nunavik","31-08-2020",0,17
 "Quebec","Outaouais","25-01-2020",0,0
 "Quebec","Outaouais","26-01-2020",0,0
 "Quebec","Outaouais","27-01-2020",0,0
@@ -18833,6 +18698,7 @@
 "Quebec","Outaouais","28-08-2020",8,805
 "Quebec","Outaouais","29-08-2020",5,810
 "Quebec","Outaouais","30-08-2020",11,821
+"Quebec","Outaouais","31-08-2020",11,832
 "Quebec","Saguenay","25-01-2020",0,0
 "Quebec","Saguenay","26-01-2020",0,0
 "Quebec","Saguenay","27-01-2020",0,0
@@ -19052,6 +18918,7 @@
 "Quebec","Saguenay","28-08-2020",0,376
 "Quebec","Saguenay","29-08-2020",1,377
 "Quebec","Saguenay","30-08-2020",0,377
+"Quebec","Saguenay","31-08-2020",0,377
 "Quebec","Terres-Cries-de-la-Baie-James","25-01-2020",0,0
 "Quebec","Terres-Cries-de-la-Baie-James","26-01-2020",0,0
 "Quebec","Terres-Cries-de-la-Baie-James","27-01-2020",0,0
@@ -19271,6 +19138,7 @@
 "Quebec","Terres-Cries-de-la-Baie-James","28-08-2020",0,10
 "Quebec","Terres-Cries-de-la-Baie-James","29-08-2020",0,10
 "Quebec","Terres-Cries-de-la-Baie-James","30-08-2020",0,10
+"Quebec","Terres-Cries-de-la-Baie-James","31-08-2020",0,10
 "Repatriated","Not Reported","25-01-2020",0,0
 "Repatriated","Not Reported","26-01-2020",0,0
 "Repatriated","Not Reported","27-01-2020",0,0
@@ -19490,6 +19358,7 @@
 "Repatriated","Not Reported","28-08-2020",0,13
 "Repatriated","Not Reported","29-08-2020",0,13
 "Repatriated","Not Reported","30-08-2020",0,13
+"Repatriated","Not Reported","31-08-2020",0,13
 "Saskatchewan","Central","25-01-2020",0,0
 "Saskatchewan","Central","26-01-2020",0,0
 "Saskatchewan","Central","27-01-2020",0,0
@@ -19709,6 +19578,7 @@
 "Saskatchewan","Central","28-08-2020",0,172
 "Saskatchewan","Central","29-08-2020",0,172
 "Saskatchewan","Central","30-08-2020",0,172
+"Saskatchewan","Central","31-08-2020",1,173
 "Saskatchewan","Far North","25-01-2020",0,0
 "Saskatchewan","Far North","26-01-2020",0,0
 "Saskatchewan","Far North","27-01-2020",0,0
@@ -19928,6 +19798,7 @@
 "Saskatchewan","Far North","28-08-2020",1,349
 "Saskatchewan","Far North","29-08-2020",0,349
 "Saskatchewan","Far North","30-08-2020",0,349
+"Saskatchewan","Far North","31-08-2020",0,349
 "Saskatchewan","North","25-01-2020",0,0
 "Saskatchewan","North","26-01-2020",0,0
 "Saskatchewan","North","27-01-2020",0,0
@@ -20147,6 +20018,7 @@
 "Saskatchewan","North","28-08-2020",0,240
 "Saskatchewan","North","29-08-2020",0,240
 "Saskatchewan","North","30-08-2020",0,240
+"Saskatchewan","North","31-08-2020",0,240
 "Saskatchewan","Regina","25-01-2020",0,0
 "Saskatchewan","Regina","26-01-2020",0,0
 "Saskatchewan","Regina","27-01-2020",0,0
@@ -20366,6 +20238,7 @@
 "Saskatchewan","Regina","28-08-2020",0,135
 "Saskatchewan","Regina","29-08-2020",0,135
 "Saskatchewan","Regina","30-08-2020",0,135
+"Saskatchewan","Regina","31-08-2020",0,135
 "Saskatchewan","Saskatoon","25-01-2020",0,0
 "Saskatchewan","Saskatoon","26-01-2020",0,0
 "Saskatchewan","Saskatoon","27-01-2020",0,0
@@ -20585,6 +20458,7 @@
 "Saskatchewan","Saskatoon","28-08-2020",1,297
 "Saskatchewan","Saskatoon","29-08-2020",2,299
 "Saskatchewan","Saskatoon","30-08-2020",0,299
+"Saskatchewan","Saskatoon","31-08-2020",1,300
 "Saskatchewan","South","25-01-2020",0,0
 "Saskatchewan","South","26-01-2020",0,0
 "Saskatchewan","South","27-01-2020",0,0
@@ -20804,6 +20678,7 @@
 "Saskatchewan","South","28-08-2020",0,418
 "Saskatchewan","South","29-08-2020",2,420
 "Saskatchewan","South","30-08-2020",0,420
+"Saskatchewan","South","31-08-2020",2,422
 "Yukon","Yukon","25-01-2020",0,0
 "Yukon","Yukon","26-01-2020",0,0
 "Yukon","Yukon","27-01-2020",0,0
@@ -21023,3 +20898,4 @@
 "Yukon","Yukon","28-08-2020",0,15
 "Yukon","Yukon","29-08-2020",0,15
 "Yukon","Yukon","30-08-2020",0,15
+"Yukon","Yukon","31-08-2020",0,15
