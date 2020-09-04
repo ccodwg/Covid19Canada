@@ -6,7 +6,7 @@
 "health_region","Health region, name of the lowest administrative division in which the case is reported. If no health region is provided or if a case is labelled as Out of Province, Not Reported is used. This variable can be retrospectively updated as and when new information is provided.",""
 "province","Name of Province/Territory where case is reported. Note that out of provinces may be re-allocated between regions. ",""
 "country","Name of country in which the case is reported (all Canada). Note that imported cases will be assigned to the country in which confirmation occurred - this is typically in the arrival country, rather than the site of infection. Travel_history_country will describe locations of travel for such instances.",""
-"date_report","Reported date (i.e. public announcement date) of case,"DD-MM-YYYY"
+"date_report","Reported date (i.e. public announcement date) of case","DD-MM-YYYY"
 "report_week","Week of Report (Sundays are 1st day of week)","DD-MM-YYYY"
 "travel_yn","Whether the case had a reported travel history.","0=no, 1=yes, Not Reported"
 "travel_history_country","Open field listing country/countries of travel for those with a yes to travel_yn",""
