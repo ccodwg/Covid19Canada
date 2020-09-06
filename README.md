@@ -51,6 +51,7 @@ The full data may be downloaded in a machine-readable format directly from this 
 * **Data update (script used to prepare the data update each day)**: scripts/data_update.R
 * **Data update validation (script used to help check the data update each day prior to release)**: scripts/data_update_validation.R
 * **Functions for data update validation**: scripts/data_update_validation_funs.R
+* **API testing** (verify consistency between GitHub data and data returned by API): scripts/api_test.R
 
 # Data dashboard
 We have also created an interactive dashboard for up-to-date visual analytics and epidemiological analyses. 
