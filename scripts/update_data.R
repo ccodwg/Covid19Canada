@@ -52,6 +52,12 @@ cat(paste0(update_time, "\n"), file = "update_time.txt")
 ## define provinces (alphabetical order)
 provinces_repatriated <- c("Alberta", "BC", "Manitoba", "New Brunswick", "NL", "Nova Scotia", "Nunavut", "NWT", "Ontario", "PEI", "Repatriated", "Quebec", "Saskatchewan", "Yukon")
 provinces <- c("Alberta", "BC", "Manitoba", "New Brunswick", "NL", "Nova Scotia", "Nunavut", "NWT", "Ontario", "PEI", "Quebec", "Saskatchewan", "Yukon")
+provinces_repatriated_not_single_hr <- c("Alberta", "BC", "Manitoba", "New Brunswick", "NL", "Nova Scotia", "Ontario", "Repatriated", "Quebec", "Saskatchewan")
+
+## define health regions
+hr_map <- read.csv("https://raw.githubusercontent.com/ishaberry/Covid19Canada/master/other/hr_map.csv",
+                   header = TRUE,
+                   stringsAsFactors = FALSE)
 
 ## convert cases to standard date format for data manipulation
 cases <- cases %>%
@@ -86,7 +92,8 @@ cases_ts_hr <- cases %>%
   right_join(
     data.frame(
       slice({
-        distinct(select(., province, health_region))
+        select(.data = hr_map, province, health_region) %>%
+          rbind(data.frame(province = provinces_repatriated_not_single_hr, health_region = "Not Reported", stringsAsFactors = FALSE))
       }, rep(1:n(), each = length(seq.Date(from = min_date_cases, to = max_date_cases, by = "day")))),
       date_report = seq.Date(from = min_date_cases, to = max_date_cases, by = "day"),
       stringsAsFactors = FALSE
@@ -134,7 +141,8 @@ mortality_ts_hr <- mortality %>%
   right_join(
     data.frame(
       slice({
-        distinct(select(., province, health_region))
+        select(.data = hr_map, province, health_region) %>%
+                   rbind(data.frame(province = provinces_repatriated_not_single_hr, health_region = "Not Reported", stringsAsFactors = FALSE))
       }, rep(1:n(), each = length(seq.Date(from = min_date_mortality, to = max_date_mortality, by = "day")))),
       date_death_report = seq.Date(from = min_date_mortality, to = max_date_mortality, by = "day"),
       stringsAsFactors = FALSE
