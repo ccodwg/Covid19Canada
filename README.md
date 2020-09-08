@@ -2,10 +2,10 @@
 The **COVID-19 Canada Open Data Working Group** is collecting publicly available information on confirmed and presumptive positive cases during the ongoing COVID-19 outbreak in Canada. Data are entered in a spreadsheet with each line representing a unique case, including age, sex, health region location, and history of travel where available. Sources are included as a reference for each entry. All data are exclusively collected from publicly available sources including government reports and news media. We aim to continue making updates daily. 
 
 
-# Acknowledgements
-We want to thank all individuals and organizations across Canada who have been willing and able to report data in as open and timely a manner as possible. 
+# Methodology, Data Notes & Dashboard 
+Detailed information on our data collection methodology, answers to frequently asked data questions, specific data notes, and more information about the **COVID-19 Canada Open Data Working Group** is available on our [website](https://opencovid.ca/).
 
-Please see below for a recommended citation of this dataset. A number of individuals have contributed to the specific data added here and their names and details are listed below, as well as in the contributors tab of the spreadsheet. 
+We have also created an interactive dashboard for up-to-date visual analytics and epidemiological analyses. This is available for public use at: [https://art-bd.shinyapps.io/covid19canada/](https://art-bd.shinyapps.io/covid19canada/)
 
 
 # Citation
@@ -53,14 +53,12 @@ The full data may be downloaded in a machine-readable format directly from this 
 * **Functions for data update validation**: scripts/data_update_validation_funs.R
 * **API testing** (verify consistency between GitHub data and data returned by API): scripts/api_test.R
 
-# Data dashboard
-We have also created an interactive dashboard for up-to-date visual analytics and epidemiological analyses. 
 
-This is available for public use at: [https://art-bd.shinyapps.io/covid19canada/](https://art-bd.shinyapps.io/covid19canada/)
+# Acknowledgements
+We want to thank all individuals and organizations across Canada who have been willing and able to report data in as open and timely a manner as possible. 
 
-# Methodology and data notes
+Please see below for a recommended citation of this dataset. A number of individuals have contributed to the specific data added here and their names and details are listed below, as well as on our [website] (https://opencovid.ca/about/). 
 
-Our data collection methodology as well as specific notes about the data are listed on the "About the data" tab on our [dashboard](https://art-bd.shinyapps.io/covid19canada/).
 
 # Specific Contributors
 Name | Role | Organization | Email | Twitter
