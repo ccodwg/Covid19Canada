@@ -3,7 +3,7 @@ The **COVID-19 Canada Open Data Working Group** is collecting publicly available
 
 
 # Methodology, Data Notes & Dashboard 
-Detailed information on our data collection methodology, answers to frequently asked data questions, specific data notes, and more information about the **COVID-19 Canada Open Data Working Group** is available on our [website](https://opencovid.ca/).
+Detailed information about our data collection methodology & sources, answers to frequently asked data questions, specific data notes, and more information about the **COVID-19 Canada Open Data Working Group** is available on our [website](https://opencovid.ca/).
 
 We have also created an interactive dashboard for up-to-date visual analytics and epidemiological analyses. This is available for public use at: [https://art-bd.shinyapps.io/covid19canada/](https://art-bd.shinyapps.io/covid19canada/)
 
