@@ -3,7 +3,7 @@ The **COVID-19 Canada Open Data Working Group** is collecting publicly available
 
 
 # Methodology, Data Notes & Dashboard 
-Detailed information about our data collection methodology & sources, answers to frequently asked data questions, specific data notes, and more information about the **COVID-19 Canada Open Data Working Group** is available on our [website](https://opencovid.ca/).
+Detailed information about our [data collection methodology](https://opencovid.ca/work/dataset/) and [sources](https://opencovid.ca/work/data-sources/), answers to [frequently asked data questions](https://opencovid.ca/work/data-faq/), specific data notes, and more information about the **COVID-19 Canada Open Data Working Group** is available on our [website](https://opencovid.ca/).
 
 We have also created an interactive dashboard for up-to-date visual analytics and epidemiological analyses. This is available for public use at: [https://art-bd.shinyapps.io/covid19canada/](https://art-bd.shinyapps.io/covid19canada/)
 
@@ -13,10 +13,8 @@ Berry I, Soucy J-PR, Tuite A, Fisman D. Open access epidemiologic data and an in
 
 
 # Datasets
-The line list of cases is posted and updated at:
+The full dataset may be downloaded may be downloaded from this repository. Alternatively, the line list of cases and deaths are also available at:
 https://docs.google.com/spreadsheets/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo/edit?usp=sharing ([direct download link](https://docs.google.com/spreadsheets/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo/export?format=xlsx)).
-
-The full data may be downloaded in a machine-readable format directly from this repository.
 
 ### Individual-level Data
 * **Codebook**: codebook.csv
