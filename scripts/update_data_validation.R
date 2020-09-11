@@ -28,8 +28,8 @@ convert_dates()
 # stop running script if old update time and new update time are the same
 if (identical(old_update_time, update_time)) stop("Update times for old and new data are the same.")
 
-## print today's cumulative numbers and daily changes
-print_cumulative_today()
+## print today's summary of cumulative and daily numbers
+print_summary_today()
 
 ## check validity of health names in individual-level case and mortality data
 check_hr("cases")
@@ -46,3 +46,6 @@ ts_prov()
 
 ## check health region time series
 ts_hr()
+
+## report zeros and negatives in time series
+report_zeros_negatives(report_non_zero = FALSE, report_hr = FALSE)
