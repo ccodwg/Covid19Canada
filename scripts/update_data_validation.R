@@ -35,8 +35,9 @@ print_summary_today()
 check_hr("cases")
 check_hr("mortality")
 
-## check ages in individual-level case data
+## check ages in individual-level case and mortality data
 check_ages_cases()
+check_ages_mortality()
 
 ## check Canadian time series
 ts_canada()

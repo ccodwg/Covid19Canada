@@ -73,7 +73,7 @@ print_summary_today <- function() {
 ## check health regions in case and mortality data
 check_hr <- function(type) {
   
-  cat("\nChecking ages in", type, "data...", fill = TRUE)
+  cat("\nChecking health region names in", type, "data...", fill = TRUE)
   
   ### match argument
   match.arg(type, choices = c("cases", "mortality"))
@@ -122,7 +122,7 @@ check_ages_cases <- function() {
           "70-79",
           "80-89",
           "90-99",
-          "100-109",
+          "100+",
           "NR"
         )
       )
@@ -134,6 +134,45 @@ check_ages_cases <- function() {
   } else {
     ### report new ages
     cat(bgRed("New ages:", paste(unique(cases[is.na(cases$age_map), "age"]), collapse = ", ")), fill = TRUE)
+  }
+  
+}
+
+check_ages_mortality <- function() {
+  
+  cat("\nChecking ages in mortality data...", fill = TRUE)
+  
+  ### transform age map mortality
+  age_map_mortality <- setNames(age_map_mortality$age_display, age_map_mortality$age) # to pass to recode()
+  
+  ### transform case data
+  mortality <- mortality %>%
+    select(case_id, age) %>%
+    mutate(
+      age_map = factor(
+        recode(age, !!!age_map_mortality),
+        c(
+          "<20",
+          "20-29",
+          "30-39",
+          "40-49",
+          "50-59",
+          "60-69",
+          "70-79",
+          "80-89",
+          "90-99",
+          "100+",
+          "NR"
+        )
+      )
+    )
+  
+  ### check for new ages
+  if (sum(is.na(mortality$age_map)) == 0) {
+    cat(green("No new ages."), fill = TRUE)
+  } else {
+    ### report new ages
+    cat(bgRed("New ages:", paste(unique(mortality[is.na(mortality$age_map), "age"]), collapse = ", ")), fill = TRUE)
   }
   
 }
