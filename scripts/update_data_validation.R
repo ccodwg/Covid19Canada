@@ -35,6 +35,10 @@ print_summary_today()
 check_hr("cases")
 check_hr("mortality")
 
+## check sexes in individual-level case and mortality data
+check_sexes("cases")
+check_sexes("mortality")
+
 ## check ages in individual-level case and mortality data
 check_ages_cases()
 check_ages_mortality()

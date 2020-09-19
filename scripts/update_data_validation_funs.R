@@ -98,6 +98,31 @@ check_hr <- function(type) {
   
 }
 
+## check sexes in case and mortality data
+check_sexes <- function(type) {
+  
+  cat("\nChecking sexes in", type, "data...", fill = TRUE)
+  
+  ### match argument
+  match.arg(type, choices = c("cases", "mortality"))
+  
+  ### load data
+  dat <- get(type)
+  
+  ## check sexes
+  new_sexes <- dat %>%
+    filter(!sex %in% c("Male", "Female", "Not Reported")) %>%
+    pull(sex) %>%
+    unique
+  if (length(new_sexes) == 0) {
+    cat(green("No new sexes."), fill = TRUE)
+  } else {
+    ### report new ages
+    cat(bgRed("New sexes:", paste(new_sexes, collapse = ", ")), fill = TRUE)
+  }
+  
+}
+
 ## check ages in case data
 check_ages_cases <- function() {
   
