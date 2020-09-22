@@ -12,7 +12,7 @@ library(dplyr) # data manipulation
 library(tidyr) # data manipulation
 
 # read update time from public recovered sheet
-update_time <- read.csv("https://docs.google.com/spreadsheets/u/1/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo/export?format=csv&id=1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo&gid=2036294689",
+update_time <- read.csv("https://docs.google.com/spreadsheets/u/1/d/1GrX5kiDA-rj3L9K0Q2IY1H-D7unAd7lfGAF7CMjhdVw/export?format=csv&id=1GrX5kiDA-rj3L9K0Q2IY1H-D7unAd7lfGAF7CMjhdVw&gid=2036294689",
                         header = FALSE, stringsAsFactors = FALSE)[1, 1] %>%
   sub("Last update: ", "", .) %>%
   {paste0(as.Date(sub(",*$", "", .), "%d %B %Y"), sub(".*,", "", .))}
@@ -22,19 +22,19 @@ cases <- read.csv("https://docs.google.com/spreadsheets/u/1/d/1D6okqtBS3S2NRC7GF
                   header = TRUE,
                   stringsAsFactors = FALSE,
                   skip = 3)
-mortality <- read.csv("https://docs.google.com/spreadsheets/u/0/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo/export?format=csv&id=1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo&gid=823945927",
+mortality <- read.csv("https://docs.google.com/spreadsheets/u/0/d/1GrX5kiDA-rj3L9K0Q2IY1H-D7unAd7lfGAF7CMjhdVw/export?format=csv&id=1GrX5kiDA-rj3L9K0Q2IY1H-D7unAd7lfGAF7CMjhdVw&gid=823945927",
                       header = TRUE,
                       stringsAsFactors = FALSE,
                       skip = 3)
-recovered_cum <- read.csv("https://docs.google.com/spreadsheets/u/1/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo/export?format=csv&id=1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo&gid=2036294689",
+recovered_cum <- read.csv("https://docs.google.com/spreadsheets/u/1/d/1GrX5kiDA-rj3L9K0Q2IY1H-D7unAd7lfGAF7CMjhdVw/export?format=csv&id=1GrX5kiDA-rj3L9K0Q2IY1H-D7unAd7lfGAF7CMjhdVw&gid=2036294689",
                           header = TRUE,
                           stringsAsFactors = FALSE,
                           skip = 3)[, 1:3]
-testing_cum <- read.csv("https://docs.google.com/spreadsheets/u/1/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo/export?format=csv&id=1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo&gid=2106589546",
+testing_cum <- read.csv("https://docs.google.com/spreadsheets/u/1/d/1GrX5kiDA-rj3L9K0Q2IY1H-D7unAd7lfGAF7CMjhdVw/export?format=csv&id=1GrX5kiDA-rj3L9K0Q2IY1H-D7unAd7lfGAF7CMjhdVw&gid=2106589546",
                         header = TRUE,
                         stringsAsFactors = FALSE,
                         skip = 3)[, 1:4]
-codebook <- read.csv("https://docs.google.com/spreadsheets/u/1/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo/export?format=csv&id=1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo&gid=0",
+codebook <- read.csv("https://docs.google.com/spreadsheets/u/1/d/1GrX5kiDA-rj3L9K0Q2IY1H-D7unAd7lfGAF7CMjhdVw/export?format=csv&id=1GrX5kiDA-rj3L9K0Q2IY1H-D7unAd7lfGAF7CMjhdVw&gid=0",
                      header = TRUE,
                      stringsAsFactors = FALSE,
                      skip = 2)
