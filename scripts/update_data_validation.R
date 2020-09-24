@@ -10,6 +10,7 @@
 # load libraries
 library(dplyr) # data manipulation
 library(stringr) # manipulate strings
+library(lubridate) # better dates
 library(compareDF) # compare data frames
 library(crayon) # colourful output in console
 
@@ -31,17 +32,9 @@ if (identical(old_update_time, update_time)) stop("Update times for old and new 
 ## print today's summary of cumulative and daily numbers
 print_summary_today()
 
-## check validity of health names in individual-level case and mortality data
-check_hr("cases")
-check_hr("mortality")
-
-## check sexes in individual-level case and mortality data
-check_sexes("cases")
-check_sexes("mortality")
-
-## check ages in individual-level case and mortality data
-check_ages_cases()
-check_ages_mortality()
+## check individual-level data (IDs, dates, health region names, sexes, ages)
+check_individual_data("cases")
+check_individual_data("mortality")
 
 ## check Canadian time series
 ts_canada()

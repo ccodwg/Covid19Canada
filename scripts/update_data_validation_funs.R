@@ -70,7 +70,69 @@ print_summary_today <- function() {
 
 # define functions for individual-level data
 
-## check health regions in case and mortality data
+## check IDs
+check_ids <- function(type) {
+  
+  cat("\nChecking IDs in", type, "data...", fill = TRUE)
+  
+  ### match argument
+  match.arg(type, choices = c("cases", "mortality"))
+  
+  ### load data
+  dat <- get(type)
+  
+  ## rename ID columns
+  dat <- dat %>%
+    {if (type == "cases") rename(., id = case_id) else if (type == "mortality") rename(., id = death_id)} %>%
+    {if (type == "cases") rename(., province_id = provincial_case_id) else if (type == "mortality") rename(., province_id = province_death_id)}
+  
+  
+  # check national IDs
+  tab_national <- table(dat$id)
+  if (max(tab_national) > 1) {
+    cat(bgRed(paste0("Duplicate provincial IDs in ", type, ".csv: ",
+                     paste(names(tab_national[tab_national > 1]), collapse = ", "))), sep = "", fill = TRUE)
+  } else {
+    cat(green(paste0("No duplicate national IDs are present in ", type, ".csv.")), fill = TRUE)
+  }
+  
+  ## check provincial IDs within provinces
+  ## ...
+  
+}
+
+
+## check dates
+check_dates <- function(type) {
+  
+  cat("\nChecking dates in", type, "data...", fill = TRUE)
+  
+  ### match argument
+  match.arg(type, choices = c("cases", "mortality"))
+  
+  ### load data
+  dat <- get(type)
+  
+  ## rename date columns
+  dat <- dat %>%
+    {if (type == "cases") rename(., date = date_report) else if (type == "mortality") rename(., date = date_death_report)} %>%
+    {if (type == "cases") rename(., week = report_week) %>% mutate(., week = as.Date(week, "%d-%m-%Y")) else .}
+  
+  ## check there are no dates in the future
+  bad_dates <- dat %>% filter(date > update_date) %>% pull(date) %>% unique
+  if (length(bad_dates) == 0) {
+    cat(green(paste0("No future dates are present in ", type, ".csv.")), fill = TRUE)
+  } else {
+    cat(bgRed(paste0("Future dates are present in ", type, ".csv: ",
+                     paste(bad_dates, collapse = ", "))), sep = "", fill = TRUE)
+  }
+  
+  ## check there are no mismatches between date and week
+  ## ...
+  
+}
+
+## check health region names in case and mortality data
 check_hr <- function(type) {
   
   cat("\nChecking health region names in", type, "data...", fill = TRUE)
@@ -123,82 +185,62 @@ check_sexes <- function(type) {
   
 }
 
-## check ages in case data
-check_ages_cases <- function() {
+## check ages in case and mortality data
+check_ages <- function(type) {
   
-  cat("\nChecking ages in case data...", fill = TRUE)
+  cat("\nChecking ages in", type, "data...", fill = TRUE)
   
-  ### transform age map cases
-  age_map_cases <- setNames(age_map_cases$age_display, age_map_cases$age) # to pass to recode()
+  ### match argument
+  match.arg(type, choices = c("cases", "mortality"))
+  
+  ### load data
+  dat <- get(type)
+  age_map <- get(paste0("age_map_", type))
+  age_levels <- unique(age_map$age_display)
+  
+  ### transform age map=
+  age_map <- setNames(age_map$age_display, age_map$age) # to pass to recode()
   
   ### transform case data
-  cases <- cases %>%
+  dat <- dat %>%
     select(case_id, age) %>%
     mutate(
       age_map = factor(
-        recode(age, !!!age_map_cases),
-        c(
-          "<20",
-          "20-29",
-          "30-39",
-          "40-49",
-          "50-59",
-          "60-69",
-          "70-79",
-          "80-89",
-          "90-99",
-          "100+",
-          "NR"
-        )
+        recode(age, !!!age_map),
+        age_levels
       )
     )
   
   ### check for new ages
-  if (sum(is.na(cases$age_map)) == 0) {
+  if (sum(is.na(dat$age_map)) == 0) {
     cat(green("No new ages."), fill = TRUE)
   } else {
     ### report new ages
-    cat(bgRed("New ages:", paste(unique(cases[is.na(cases$age_map), "age"]), collapse = ", ")), fill = TRUE)
+    cat(bgRed("New ages:", paste(unique(dat[is.na(dat$age_map), "age"]), collapse = ", ")), fill = TRUE)
   }
   
 }
 
-check_ages_mortality <- function() {
+## call all individual-level data validation functions
+check_individual_data <- function(type) {
   
-  cat("\nChecking ages in mortality data...", fill = TRUE)
+  ### match argument
+  match.arg(type, choices = c("cases", "mortality"))
   
-  ### transform age map mortality
-  age_map_mortality <- setNames(age_map_mortality$age_display, age_map_mortality$age) # to pass to recode()
+  ## check IDs
+  check_ids(type)
   
-  ### transform case data
-  mortality <- mortality %>%
-    select(case_id, age) %>%
-    mutate(
-      age_map = factor(
-        recode(age, !!!age_map_mortality),
-        c(
-          "<20",
-          "20-29",
-          "30-39",
-          "40-49",
-          "50-59",
-          "60-69",
-          "70-79",
-          "80-89",
-          "90-99",
-          "100+",
-          "NR"
-        )
-      )
-    )
+  ## check dates
+  check_dates(type)
   
-  ### check for new ages
-  if (sum(is.na(mortality$age_map)) == 0) {
-    cat(green("No new ages."), fill = TRUE)
-  } else {
-    ### report new ages
-    cat(bgRed("New ages:", paste(unique(mortality[is.na(mortality$age_map), "age"]), collapse = ", ")), fill = TRUE)
-  }
+  ## check health region names
+  check_hr(type)
+  
+  ## check sexes
+  check_sexes(type)
+  
+  ## check ages
+  check_ages(type)
   
 }
 
