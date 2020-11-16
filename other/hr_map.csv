@@ -1,93 +1,93 @@
-"HR_UID","province","province_full","province_short","health_region","pop"
-4832,"Alberta","Alberta","AB","Calgary",1680755
-4833,"Alberta","Alberta","AB","Central",479601
-4834,"Alberta","Alberta","AB","Edmonton",1443597
-4835,"Alberta","Alberta","AB","North",460964
-4831,"Alberta","Alberta","AB","South",306399
-591,"BC","British Columbia","BC","Fraser",1902586
-592,"BC","British Columbia","BC","Interior",805216
-593,"BC","British Columbia","BC","Island",846030
-594,"BC","British Columbia","BC","Northern",298068
-595,"BC","British Columbia","BC","Vancouver Coastal",1219436
-4603,"Manitoba","Manitoba","MB","Interlake-Eastern",133882
-4604,"Manitoba","Manitoba","MB","Northern",75783
-4602,"Manitoba","Manitoba","MB","Prairie Mountain",171368
-4605,"Manitoba","Manitoba","MB","Southern Health",208018
-4601,"Manitoba","Manitoba","MB","Winnipeg",780414
-1301,"New Brunswick","New Brunswick","NB","Zone 1 (Moncton area)",222694
-1302,"New Brunswick","New Brunswick","NB","Zone 2 (Saint John area)",176280
-1303,"New Brunswick","New Brunswick","NB","Zone 3 (Fredericton area)",183421
-1304,"New Brunswick","New Brunswick","NB","Zone 4 (Edmundston area)",48254
-1305,"New Brunswick","New Brunswick","NB","Zone 5 (Campbellton area)",25199
-1306,"New Brunswick","New Brunswick","NB","Zone 6 (Bathurst area)",76763
-1307,"New Brunswick","New Brunswick","NB","Zone 7 (Miramichi area)",44216
-1012,"NL","Newfoundland and Labrador","NL","Central",91201
-1011,"NL","Newfoundland and Labrador","NL","Eastern",317664
-1014,"NL","Newfoundland and Labrador","NL","Labrador-Grenfell",36069
-1013,"NL","Newfoundland and Labrador","NL","Western",76608
-1201,"Nova Scotia","Nova Scotia","NS","Zone 1 - Western",199165
-1202,"Nova Scotia","Nova Scotia","NS","Zone 2 - Northern",148470
-1203,"Nova Scotia","Nova Scotia","NS","Zone 3 - Eastern",162088
-1204,"Nova Scotia","Nova Scotia","NS","Zone 4 - Central",461672
-6201,"Nunavut","Nunavut","NU","Nunavut",38780
-6101,"NWT","Northwest Territories","NT","NWT",44826
-3526,"Ontario","Ontario","ON","Algoma",117036
-3527,"Ontario","Ontario","ON","Brant",151034
-3540,"Ontario","Ontario","ON","Chatham-Kent",106091
-3530,"Ontario","Ontario","ON","Durham",697355
-3558,"Ontario","Ontario","ON","Eastern",213064
-3533,"Ontario","Ontario","ON","Grey Bruce",173372
-3534,"Ontario","Ontario","ON","Haldimand-Norfolk",119146
-3535,"Ontario","Ontario","ON","Haliburton Kawartha Pineridge",189982
-3536,"Ontario","Ontario","ON","Halton",596363
-3537,"Ontario","Ontario","ON","Hamilton",574263
-3538,"Ontario","Ontario","ON","Hastings Prince Edward",170793
-3539,"Ontario","Ontario","ON","Huron Perth",144801
-3541,"Ontario","Ontario","ON","Kingston Frontenac Lennox & Addington",208613
-3542,"Ontario","Ontario","ON","Lambton",132243
-3543,"Ontario","Ontario","ON","Leeds Grenville and Lanark",177605
-3544,"Ontario","Ontario","ON","Middlesex-London",506008
-3546,"Ontario","Ontario","ON","Niagara",479183
-3547,"Ontario","Ontario","ON","North Bay Parry Sound",129642
-3549,"Ontario","Ontario","ON","Northwestern",81472
-3551,"Ontario","Ontario","ON","Ottawa",1028514
-3553,"Ontario","Ontario","ON","Peel",1542001
-3555,"Ontario","Ontario","ON","Peterborough",147908
-3556,"Ontario","Ontario","ON","Porcupine",85422
-3557,"Ontario","Ontario","ON","Renfrew",107955
-3560,"Ontario","Ontario","ON","Simcoe Muskoka",594494
-3575,"Ontario","Ontario","ON","Southwestern",215401
-3561,"Ontario","Ontario","ON","Sudbury",204640
-3562,"Ontario","Ontario","ON","Thunder Bay",158165
-3563,"Ontario","Ontario","ON","Timiskaming",33800
-3595,"Ontario","Ontario","ON","Toronto",2965712
-3565,"Ontario","Ontario","ON","Waterloo",595465
-3566,"Ontario","Ontario","ON","Wellington Dufferin Guelph",308963
-3568,"Ontario","Ontario","ON","Windsor-Essex",428556
-3570,"Ontario","Ontario","ON","York",1181485
-1100,"PEI","Prince Edward Island","PE","Prince Edward Island",156947
-2408,"Quebec","Quebec","QC","Abitibi-Témiscamingue",147542
-2401,"Quebec","Quebec","QC","Bas-Saint-Laurent",197322
-2403,"Quebec","Quebec","QC","Capitale-Nationale",750645
-2412,"Quebec","Quebec","QC","Chaudière-Appalaches",428618
-2409,"Quebec","Quebec","QC","Côte-Nord",90704
-2405,"Quebec","Quebec","QC","Estrie",489479
-2411,"Quebec","Quebec","QC","Gaspésie-Îles-de-la-Madeleine",90334
-2414,"Quebec","Quebec","QC","Lanaudière",515448
-2415,"Quebec","Quebec","QC","Laurentides",620264
-2413,"Quebec","Quebec","QC","Laval",438973
-2404,"Quebec","Quebec","QC","Mauricie",520285
-2416,"Quebec","Quebec","QC","Montérégie",1421586
-2406,"Quebec","Quebec","QC","Montréal",2052910
-2410,"Quebec","Quebec","QC","Nord-du-Québec",13633
-2417,"Quebec","Quebec","QC","Nunavik",14102
-2407,"Quebec","Quebec","QC","Outaouais",397193
-2402,"Quebec","Quebec","QC","Saguenay",277796
-2418,"Quebec","Quebec","QC","Terres-Cries-de-la-Baie-James",18131
-473,"Saskatchewan","Saskatchewan","SK","Central",98566
-471,"Saskatchewan","Saskatchewan","SK","Far North",37811
-472,"Saskatchewan","Saskatchewan","SK","North",196246
-475,"Saskatchewan","Saskatchewan","SK","Regina",304261
-474,"Saskatchewan","Saskatchewan","SK","Saskatoon",380403
-476,"Saskatchewan","Saskatchewan","SK","South",157175
-6001,"Yukon","Yukon","YT","Yukon",40854
+"HR_UID","province","province_full","province_short","health_region","health_region_esri","pop"
+"4832","Alberta","Alberta","AB","Calgary","Calgary Zone",1680755
+"4833","Alberta","Alberta","AB","Central","Central Zone",479601
+"4834","Alberta","Alberta","AB","Edmonton","Edmonton Zone",1443597
+"4835","Alberta","Alberta","AB","North","North Zone",460964
+"4831","Alberta","Alberta","AB","South","South Zone",306399
+"591","BC","British Columbia","BC","Fraser","Fraser Health",1902586
+"592","BC","British Columbia","BC","Interior","Interior Health",805216
+"593","BC","British Columbia","BC","Island","Vancouver Island Health",846030
+"594","BC","British Columbia","BC","Northern","Northern Health",298068
+"595","BC","British Columbia","BC","Vancouver Coastal","Vancouver  Coastal Health",1219436
+"4603","Manitoba","Manitoba","MB","Interlake-Eastern","Interlake-Eastern Regional Health Authority",133882
+"4604","Manitoba","Manitoba","MB","Northern","Northern Regional Health Authority",75783
+"4602","Manitoba","Manitoba","MB","Prairie Mountain","Prairie Mountain Health",171368
+"4605","Manitoba","Manitoba","MB","Southern Health","Southern Health—Santé Sud",208018
+"4601","Manitoba","Manitoba","MB","Winnipeg","Winnipeg Regional Health Authority",780414
+"1301","New Brunswick","New Brunswick","NB","Zone 1 (Moncton area)","Zone 1 (Moncton area)",222694
+"1302","New Brunswick","New Brunswick","NB","Zone 2 (Saint John area)","Zone 2 (Saint John area)",176280
+"1303","New Brunswick","New Brunswick","NB","Zone 3 (Fredericton area)","Zone 3 (Fredericton area)",183421
+"1304","New Brunswick","New Brunswick","NB","Zone 4 (Edmundston area)","Zone 4 (Edmundston area)",48254
+"1305","New Brunswick","New Brunswick","NB","Zone 5 (Campbellton area)","Zone 5 (Campbellton area)",25199
+"1306","New Brunswick","New Brunswick","NB","Zone 6 (Bathurst area)","Zone 6 (Bathurst area)",76763
+"1307","New Brunswick","New Brunswick","NB","Zone 7 (Miramichi area)","Zone 7 (Miramichi area)",44216
+"1012","NL","Newfoundland and Labrador","NL","Central","Central Regional Health Authority",91201
+"1011","NL","Newfoundland and Labrador","NL","Eastern","Eastern Regional Health Authority",317664
+"1014","NL","Newfoundland and Labrador","NL","Labrador-Grenfell","Labrador-Grenfell Regional Health Authority",36069
+"1013","NL","Newfoundland and Labrador","NL","Western","Western Regional Health Authority",76608
+"1201","Nova Scotia","Nova Scotia","NS","Zone 1 - Western","Zone 1 - Western",199165
+"1202","Nova Scotia","Nova Scotia","NS","Zone 2 - Northern","Zone 2 - Northern",148470
+"1203","Nova Scotia","Nova Scotia","NS","Zone 3 - Eastern","Zone 3 - Eastern",162088
+"1204","Nova Scotia","Nova Scotia","NS","Zone 4 - Central","Zone 4 - Central",461672
+"6201","Nunavut","Nunavut","NU","Nunavut","Nunavut",38780
+"6101","NWT","Northwest Territories","NT","NWT","Northwest Territories",44826
+"3526","Ontario","Ontario","ON","Algoma","The District of Algoma Health Unit",117036
+"3527","Ontario","Ontario","ON","Brant","Brant County Health Unit",151034
+"3540","Ontario","Ontario","ON","Chatham-Kent","Chatham-Kent Health Unit",106091
+"3530","Ontario","Ontario","ON","Durham","Durham Regional Health Unit",697355
+"3558","Ontario","Ontario","ON","Eastern","The Eastern Ontario Health Unit",213064
+"3533","Ontario","Ontario","ON","Grey Bruce","Grey Bruce Health Unit",173372
+"3534","Ontario","Ontario","ON","Haldimand-Norfolk","Haldimand-Norfolk Health Unit",119146
+"3535","Ontario","Ontario","ON","Haliburton Kawartha Pineridge","Haliburton, Kawartha, Pine Ridge District Health Unit",189982
+"3536","Ontario","Ontario","ON","Halton","Halton Regional Health Unit",596363
+"3537","Ontario","Ontario","ON","Hamilton","City of Hamilton Health Unit",574263
+"3538","Ontario","Ontario","ON","Hastings Prince Edward","Hastings and Prince Edward Counties Health Unit",170793
+"3539","Ontario","Ontario","ON","Huron Perth","Huron Perth Public Health Unit",144801
+"3541","Ontario","Ontario","ON","Kingston Frontenac Lennox & Addington","Kingston, Frontenac and Lennox and Addington Health Unit",208613
+"3542","Ontario","Ontario","ON","Lambton","Lambton Health Unit",132243
+"3543","Ontario","Ontario","ON","Leeds Grenville and Lanark","Leeds, Grenville and Lanark District Health Unit",177605
+"3544","Ontario","Ontario","ON","Middlesex-London","Middlesex-London Health Unit",506008
+"3546","Ontario","Ontario","ON","Niagara","Niagara Regional Area Health Unit",479183
+"3547","Ontario","Ontario","ON","North Bay Parry Sound","North Bay Parry Sound District Health Unit",129642
+"3549","Ontario","Ontario","ON","Northwestern","Northwestern Health Unit",81472
+"3551","Ontario","Ontario","ON","Ottawa","City of Ottawa Health Unit",1028514
+"3553","Ontario","Ontario","ON","Peel","Peel Regional Health Unit",1542001
+"3555","Ontario","Ontario","ON","Peterborough","Peterborough County–City Health Unit",147908
+"3556","Ontario","Ontario","ON","Porcupine","Porcupine Health Unit",85422
+"3557","Ontario","Ontario","ON","Renfrew","Renfrew County and District Health Unit",107955
+"3560","Ontario","Ontario","ON","Simcoe Muskoka","Simcoe Muskoka District Health Unit",594494
+"3575","Ontario","Ontario","ON","Southwestern","Southwestern Health Unit",215401
+"3561","Ontario","Ontario","ON","Sudbury","Sudbury and District Health Unit",204640
+"3562","Ontario","Ontario","ON","Thunder Bay","Thunder Bay District Health Unit",158165
+"3563","Ontario","Ontario","ON","Timiskaming","Timiskaming Health Unit",33800
+"3595","Ontario","Ontario","ON","Toronto","City of Toronto Health Unit",2965712
+"3565","Ontario","Ontario","ON","Waterloo","Waterloo Health Unit",595465
+"3566","Ontario","Ontario","ON","Wellington Dufferin Guelph","Wellington-Dufferin-Guelph Health Unit",308963
+"3568","Ontario","Ontario","ON","Windsor-Essex","Windsor-Essex County Health Unit",428556
+"3570","Ontario","Ontario","ON","York","York Regional Health Unit",1181485
+"1100","PEI","Prince Edward Island","PE","Prince Edward Island","Prince Edward Island",156947
+"2408","Quebec","Quebec","QC","Abitibi-Témiscamingue","Région de l'Abitibi-Témiscamingue",147542
+"2401","Quebec","Quebec","QC","Bas-Saint-Laurent","Région du Bas-Saint-Laurent",197322
+"2403","Quebec","Quebec","QC","Capitale-Nationale","Région de la Capitale-Nationale",750645
+"2412","Quebec","Quebec","QC","Chaudière-Appalaches","Région de la Chaudière-Appalaches",428618
+"2409","Quebec","Quebec","QC","Côte-Nord","Région de la Côte-Nord",90704
+"2405","Quebec","Quebec","QC","Estrie","Région de l'Estrie",489479
+"2411","Quebec","Quebec","QC","Gaspésie-Îles-de-la-Madeleine","Région de la Gaspésie—Îles-de-la-Madeleine",90334
+"2414","Quebec","Quebec","QC","Lanaudière","Région de Lanaudière",515448
+"2415","Quebec","Quebec","QC","Laurentides","Région des Laurentides",620264
+"2413","Quebec","Quebec","QC","Laval","Région de Laval",438973
+"2404","Quebec","Quebec","QC","Mauricie","Région de la Mauricie et du Centre-du-Québec",520285
+"2416","Quebec","Quebec","QC","Montérégie","Région de la Montérégie",1421586
+"2406","Quebec","Quebec","QC","Montréal","Région de Montréal",2052910
+"2410","Quebec","Quebec","QC","Nord-du-Québec","Région du Nord-du-Québec",13633
+"2417","Quebec","Quebec","QC","Nunavik","Région du Nunavik",14102
+"2407","Quebec","Quebec","QC","Outaouais","Région de l'Outaouais",397193
+"2402","Quebec","Quebec","QC","Saguenay","Région du Saguenay—Lac-Saint-Jean",277796
+"2418","Quebec","Quebec","QC","Terres-Cries-de-la-Baie-James","Région des Terres-Cries-de-la-Baie-James",18131
+"473","Saskatchewan","Saskatchewan","SK","Central","Central",98566
+"471","Saskatchewan","Saskatchewan","SK","Far North","Far North",37811
+"472","Saskatchewan","Saskatchewan","SK","North","North",196246
+"475","Saskatchewan","Saskatchewan","SK","Regina","Regina",304261
+"474","Saskatchewan","Saskatchewan","SK","Saskatoon","Saskatoon",380403
+"476","Saskatchewan","Saskatchewan","SK","South","South",157175
+"6001","Yukon","Yukon","YT","Yukon","Yukon",40854
