@@ -7,45 +7,40 @@
 # Note: This script assumes the working directory is set to the root directory of the project
 # This is most easily achieved by using the provided Covid19Canada.Rproj in RStudio
 
+# Authentication: You must authenticate your Google account before running the rest of the script. You may be asked to give "Tidyverse API Packages" read/write access to your Google account.
+
+# authenticate your Google account before running the rest of the script
+library(googledrive) # interface with Google drive
+drive_auth()
+
 # load libraries
 library(dplyr) # data manipulation
 library(tidyr) # data manipulation
+library(lubridate) # better dates
 
-# read update time from public recovered sheet
-update_time <- read.csv("https://docs.google.com/spreadsheets/u/1/d/1GrX5kiDA-rj3L9K0Q2IY1H-D7unAd7lfGAF7CMjhdVw/export?format=csv&id=1GrX5kiDA-rj3L9K0Q2IY1H-D7unAd7lfGAF7CMjhdVw&gid=2036294689",
-                        header = FALSE, stringsAsFactors = FALSE)[1, 1] %>%
-  sub("Last update: ", "", .) %>%
-  {paste0(as.Date(sub(",*$", "", .), "%d %B %Y"), sub(".*,", "", .))}
+# update time: current date and time in America/Toronto time zone
+update_time <- with_tz(Sys.time(), tzone = "America/Toronto") %>%
+  format.Date("%Y-%m-%d %H:%M %Z")
+cat(paste0(update_time, "\n"), file = "update_time.txt") # write update_time
 
-# download files from public sheets and process
-cases <- read.csv("https://docs.google.com/spreadsheets/u/1/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo/export?format=csv&id=1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo&gid=942958991",
-                  header = TRUE,
-                  stringsAsFactors = FALSE,
-                  skip = 3)
-mortality <- read.csv("https://docs.google.com/spreadsheets/u/0/d/1GrX5kiDA-rj3L9K0Q2IY1H-D7unAd7lfGAF7CMjhdVw/export?format=csv&id=1GrX5kiDA-rj3L9K0Q2IY1H-D7unAd7lfGAF7CMjhdVw&gid=823945927",
-                      header = TRUE,
-                      stringsAsFactors = FALSE,
-                      skip = 3)
-recovered_cum <- read.csv("https://docs.google.com/spreadsheets/u/1/d/1GrX5kiDA-rj3L9K0Q2IY1H-D7unAd7lfGAF7CMjhdVw/export?format=csv&id=1GrX5kiDA-rj3L9K0Q2IY1H-D7unAd7lfGAF7CMjhdVw&gid=2036294689",
-                          header = TRUE,
-                          stringsAsFactors = FALSE,
-                          skip = 3)[, 1:3]
-testing_cum <- read.csv("https://docs.google.com/spreadsheets/u/1/d/1GrX5kiDA-rj3L9K0Q2IY1H-D7unAd7lfGAF7CMjhdVw/export?format=csv&id=1GrX5kiDA-rj3L9K0Q2IY1H-D7unAd7lfGAF7CMjhdVw&gid=2106589546",
-                        header = TRUE,
-                        stringsAsFactors = FALSE,
-                        skip = 3)[, 1:4]
-codebook <- read.csv("https://docs.google.com/spreadsheets/u/1/d/1GrX5kiDA-rj3L9K0Q2IY1H-D7unAd7lfGAF7CMjhdVw/export?format=csv&id=1GrX5kiDA-rj3L9K0Q2IY1H-D7unAd7lfGAF7CMjhdVw&gid=0",
-                     header = TRUE,
-                     stringsAsFactors = FALSE,
-                     skip = 2)
+# list files in Google Drive data folder
+files <- drive_ls("Public_List")
 
-# write files and update time
-write.csv(cases, "cases.csv", row.names = FALSE)
-write.csv(mortality, "mortality.csv", row.names = FALSE)
-write.csv(recovered_cum, "recovered_cumulative.csv", row.names = FALSE)
-write.csv(testing_cum, "testing_cumulative.csv", row.names = FALSE)
-write.csv(codebook, "codebook.csv", row.names = FALSE)
-cat(paste0(update_time, "\n"), file = "update_time.txt")
+# download sheets and copy into project folder
+files %>% filter(name == "cases.csv") %>% drive_download(overwrite = TRUE)
+files %>% filter(name == "mortality.csv") %>% drive_download(overwrite = TRUE)
+files %>% filter(name == "recovered_cumulative.csv") %>% drive_download(overwrite = TRUE)
+files %>% filter(name == "testing_cumulative.csv") %>% drive_download(overwrite = TRUE)
+
+# read downloaded sheets
+cases <- read.csv("cases.csv",
+                  stringsAsFactors = FALSE)
+mortality <- read.csv("mortality.csv",
+                      stringsAsFactors = FALSE)
+recovered_cum <- read.csv("recovered_cumulative.csv",
+                          stringsAsFactors = FALSE)
+testing_cum <- read.csv("testing_cumulative.csv",
+                        stringsAsFactors = FALSE)
 
 # create time series of cases
 
