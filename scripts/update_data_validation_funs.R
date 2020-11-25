@@ -90,7 +90,7 @@ check_ids <- function(type) {
   # check national IDs
   tab_national <- table(dat$id)
   if (max(tab_national) > 1) {
-    cat(bgRed(paste0("Duplicate provincial IDs in ", type, ".csv: ",
+    cat(bgRed(paste0("Duplicate national IDs in ", type, ".csv: ",
                      paste(names(tab_national[tab_national > 1]), collapse = ", "))), sep = "", fill = TRUE)
   } else {
     cat(green(paste0("No duplicate national IDs are present in ", type, ".csv.")), fill = TRUE)
