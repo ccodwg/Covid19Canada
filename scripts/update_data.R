@@ -1,8 +1,7 @@
 # COVID-19 Canada Open Data Working Group Data Update Script #
 # Author: Jean-Paul R. Soucy #
 
-# Download and process updated COVID-19 Canada data files from Google Sheets
-# Spreadsheet link: https://docs.google.com/spreadsheets/u/1/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo
+# Download and process updated COVID-19 Canada data files from Google Drive
 
 # Note: This script assumes the working directory is set to the root directory of the project
 # This is most easily achieved by using the provided Covid19Canada.Rproj in RStudio
@@ -17,6 +16,9 @@ drive_auth()
 library(dplyr) # data manipulation
 library(tidyr) # data manipulation
 library(lubridate) # better dates
+
+# load functions
+source("scripts/update_data_funs.R")
 
 # update time: current date and time in America/Toronto time zone
 update_time <- with_tz(Sys.time(), tzone = "America/Toronto") %>%
@@ -42,17 +44,43 @@ recovered_cum <- read.csv("recovered_cumulative.csv",
 testing_cum <- read.csv("testing_cumulative.csv",
                         stringsAsFactors = FALSE)
 
+# load other files
+
+## province names and short names
+map_prov <- read.csv("other/prov_map.csv",
+                     stringsAsFactors = FALSE) %>%
+  select(province, province_short)
+
+## health regions
+hr_map <- read.csv("other/hr_map.csv",
+                   stringsAsFactors = FALSE)
+
+## case_source abbreviation table
+cases_case_source <- read.csv("cases_case_source.csv",
+                              stringsAsFactors = FALSE,
+                              colClasses = c(
+                                "province" = "character",
+                                "case_source_id" = "integer",
+                                "case_source_short" = "character",
+                                "case_source_full" = "character"
+                              ))
+
+## death_source abbreviation table
+mortality_death_source <- read.csv("mortality_death_source.csv",
+                                   stringsAsFactors = FALSE,
+                                   colClasses = c(
+                                     "province" = "character",
+                                     "death_source_id" = "integer",
+                                     "death_source_short" = "character",
+                                     "death_source_full" = "character"
+                                   ))
+
 # create time series of cases
 
 ## define provinces (alphabetical order)
 provinces_repatriated <- c("Alberta", "BC", "Manitoba", "New Brunswick", "NL", "Nova Scotia", "Nunavut", "NWT", "Ontario", "PEI", "Repatriated", "Quebec", "Saskatchewan", "Yukon")
 provinces <- c("Alberta", "BC", "Manitoba", "New Brunswick", "NL", "Nova Scotia", "Nunavut", "NWT", "Ontario", "PEI", "Quebec", "Saskatchewan", "Yukon")
 provinces_repatriated_not_single_hr <- c("Alberta", "BC", "Manitoba", "New Brunswick", "NL", "Nova Scotia", "Ontario", "Repatriated", "Quebec", "Saskatchewan")
-
-## define health regions
-hr_map <- read.csv("https://raw.githubusercontent.com/ishaberry/Covid19Canada/master/other/hr_map.csv",
-                   header = TRUE,
-                   stringsAsFactors = FALSE)
 
 ## convert cases to standard date format for data manipulation
 cases <- cases %>%
@@ -287,6 +315,12 @@ active_ts_canada <- active_ts %>%
   arrange(match(date_active, active_ts$date_active))
 
 # write generated files
+write.csv(cases, "cases.csv", row.names = FALSE)
+write.csv(cases_case_source, "cases_case_source.csv", row.names = FALSE)
+write.csv(mortality, "mortality.csv", row.names = FALSE)
+write.csv(mortality_death_source, "mortality_death_source.csv", row.names = FALSE)
+write.csv(recovered_cum, "recovered_cumulative.csv", row.names = FALSE)
+write.csv(testing_cum, "testing_cumulative.csv", row.names = FALSE)
 write.csv(cases_ts, "timeseries_prov/cases_timeseries_prov.csv", row.names = FALSE)
 write.csv(cases_ts_hr, "timeseries_hr/cases_timeseries_hr.csv", row.names = FALSE)
 write.csv(cases_ts_canada, "timeseries_canada/cases_timeseries_canada.csv", row.names = FALSE)
