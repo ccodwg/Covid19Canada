@@ -56,7 +56,7 @@ hr_map <- read.csv("other/hr_map.csv",
                    stringsAsFactors = FALSE)
 
 ## case_source abbreviation table
-cases_case_source <- read.csv("cases_case_source.csv",
+cases_case_source <- read.csv("cases_extra/cases_case_source.csv",
                               stringsAsFactors = FALSE,
                               colClasses = c(
                                 "province" = "character",
@@ -66,7 +66,7 @@ cases_case_source <- read.csv("cases_case_source.csv",
                               ))
 
 ## death_source abbreviation table
-mortality_death_source <- read.csv("mortality_death_source.csv",
+mortality_death_source <- read.csv("mortality_extra/mortality_death_source.csv",
                                    stringsAsFactors = FALSE,
                                    colClasses = c(
                                      "province" = "character",
@@ -314,11 +314,33 @@ active_ts_canada <- active_ts %>%
   ### keep original order
   arrange(match(date_active, active_ts$date_active))
 
+# abbreviate "case_source" (cases.csv) and "death_source" (mortality.csv)
+abbreviate_source(cases, cases_case_source, "case_source")
+abbreviate_source(mortality, mortality_death_source, "death_source")
+
+# return other files to non-standard date format for saving
+cases <- cases %>%
+  mutate(
+    date_report = format(date_report, "%d-%m-%Y")
+  )
+mortality <- mortality %>%
+  mutate(
+    date_death_report = format(date_death_report, "%d-%m-%Y")
+  )
+recovered_cum <- recovered_cum %>%
+  mutate(
+    date_recovered = format(date_recovered, "%d-%m-%Y")
+  )
+testing_cum <- testing_cum %>%
+  mutate(
+    date_testing = format(date_testing, "%d-%m-%Y")
+  )
+
 # write generated files
 write.csv(cases, "cases.csv", row.names = FALSE)
-write.csv(cases_case_source, "cases_case_source.csv", row.names = FALSE)
+write.csv(cases_case_source, "cases_extra/cases_case_source.csv", row.names = FALSE)
 write.csv(mortality, "mortality.csv", row.names = FALSE)
-write.csv(mortality_death_source, "mortality_death_source.csv", row.names = FALSE)
+write.csv(mortality_death_source, "mortality_extra/mortality_death_source.csv", row.names = FALSE)
 write.csv(recovered_cum, "recovered_cumulative.csv", row.names = FALSE)
 write.csv(testing_cum, "testing_cumulative.csv", row.names = FALSE)
 write.csv(cases_ts, "timeseries_prov/cases_timeseries_prov.csv", row.names = FALSE)

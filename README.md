@@ -22,6 +22,10 @@ The full dataset may be downloaded in CSV format from this repository. The full 
 * **Mortality**: mortality.csv
 * **Date and time of update**: update_time.txt
 
+### Individual-level Data - Extra columns
+* **Cases: case source**: cases_extra/cases_case_source.csv (join with cases.csv by joining case_source with case_source_short)
+* **Mortality: death source**: mortality_extra/mortality_death_source.csv (join with mortality.csv by joining death_source with death_source_short)
+
 ### Health Region-level Time Series
 * **Daily and cumulative cases**: timeseries_hr/cases_timeseries_hr.csv
 * **Daily and cumulative mortality**: timeseries_hr/mortality_timeseries_hr.csv
