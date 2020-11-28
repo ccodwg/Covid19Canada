@@ -29,7 +29,7 @@ abbreviate_source <- function(dat, abbrev, var_source) {
       var_source_full = !!sym(var_source)
     ) %>%
     ### drop source var values already in the abbreviation table
-    filter(!var_source_full %in% (cases_case_source %>% pull(case_source_full)))
+    filter(!var_source_full %in% (abbrev %>% pull(!!sym(paste0(var_source, "_full")))))
   
   ## check if there are any source var values values to add (otherwise skip to the end)
   if (nrow(abbrev_new) != 0) {
