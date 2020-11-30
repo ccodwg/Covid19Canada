@@ -93,7 +93,7 @@ abbreviate_source <- function(dat, abbrev, var_source) {
     select(-!!sym(var_source)) %>%
     rename(!!sym(var_source) := !!sym(paste0(var_source, "_short"))) %>%
     ### return columns to original order
-    select(dat_cols)
+    select(all_of(dat_cols))
   
   # final file verification before writing
   if (sum(is.na(dat[, var_source])) != 0) {
