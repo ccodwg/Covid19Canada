@@ -13,7 +13,7 @@ Berry I, Soucy J-PR, Tuite A, Fisman D. Open access epidemiologic data and an in
 
 
 # Datasets
-The full dataset may be downloaded in CSV format from this repository. The full dataset is also available in JSON format from our [API](https://opencovid.ca/api/). A subset of the data are available on our [public case spreadsheet](https://docs.google.com/spreadsheets/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo/edit?usp=sharing) [(direct download link)](https://docs.google.com/spreadsheets/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo/export?format=xlsx) and our [public mortality, testing, recovery spreadsheet](https://docs.google.com/spreadsheets/d/1GrX5kiDA-rj3L9K0Q2IY1H-D7unAd7lfGAF7CMjhdVw/edit).
+The full dataset may be downloaded in CSV format from this repository. The full dataset is also available in JSON format from our [API](https://opencovid.ca/api/).
 
 
 ### Individual-level Data
