@@ -23,6 +23,7 @@ source("scripts/update_data_funs.R")
 # update time: current date and time in America/Toronto time zone
 update_time <- with_tz(Sys.time(), tzone = "America/Toronto") %>%
   format.Date("%Y-%m-%d %H:%M %Z")
+update_date <- as.Date(update_time)
 cat(paste0(update_time, "\n"), file = "update_time.txt") # write update_time
 
 # list files in Google Drive data folder
@@ -48,11 +49,10 @@ testing_cum <- read.csv("testing_cumulative.csv",
 
 ## province names and short names
 map_prov <- read.csv("other/prov_map.csv",
-                     stringsAsFactors = FALSE) %>%
-  select(province, province_short)
+                     stringsAsFactors = FALSE)
 
 ## health regions
-hr_map <- read.csv("other/hr_map.csv",
+map_hr <- read.csv("other/hr_map.csv",
                    stringsAsFactors = FALSE)
 
 ## case_source abbreviation table
@@ -75,266 +75,55 @@ mortality_death_source <- read.csv("mortality_extra/mortality_death_source.csv",
                                      "death_source_full" = "character"
                                    ))
 
-# create time series of cases
+# convert dates to standard format for manipulation
+convert_dates("cases", "mortality", "recovered_cum", "testing_cum", date_format_out = "%Y-%m-%d")
 
-## define provinces (alphabetical order)
-provinces_repatriated <- c("Alberta", "BC", "Manitoba", "New Brunswick", "NL", "Nova Scotia", "Nunavut", "NWT", "Ontario", "PEI", "Repatriated", "Quebec", "Saskatchewan", "Yukon")
-provinces <- c("Alberta", "BC", "Manitoba", "New Brunswick", "NL", "Nova Scotia", "Nunavut", "NWT", "Ontario", "PEI", "Quebec", "Saskatchewan", "Yukon")
-provinces_repatriated_not_single_hr <- c("Alberta", "BC", "Manitoba", "New Brunswick", "NL", "Nova Scotia", "Ontario", "Repatriated", "Quebec", "Saskatchewan")
+# define parameters
 
-## convert cases to standard date format for data manipulation
-cases <- cases %>%
-  mutate(date_report = as.Date(date_report, "%d-%m-%Y"))
+## provinces and health regions
+provs <- map_prov$province
+hrs <- map_hr$health_region
 
-## define min and max dates
-min_date_cases <- min(cases$date_report, na.rm = TRUE)
-max_date_cases <- max(cases$date_report, na.rm = TRUE)
+## min dates
+date_min_cases <- min(cases$date_report)
+date_min_mortality <- min(mortality$date_death_report)
+date_min_recovered <- min(recovered_cum$date_recovered)
+date_min_testing <- min(testing_cum$date_testing)
 
-## create time series by province
-cases_ts <- cases %>%
-  group_by(province, date_report) %>%
-  summarise(cases = n(), .groups = "drop_last") %>%
-  right_join(
-    data.frame(
-      "province" = rep(provinces_repatriated, each = as.integer(max_date_cases - min_date_cases) + 1),
-      "date_report" = seq.Date(from = min_date_cases, to = max_date_cases, by = "day"),
-      stringsAsFactors = FALSE
-    ), by = c("province", "date_report")) %>%
-  arrange(province, date_report) %>%
-  replace_na(list(cases = 0)) %>%
-  mutate(cumulative_cases = cumsum(cases)) %>%
-  ### return to non-standard date format for saving
-  mutate(
-    date_report = format(date_report, "%d-%m-%Y")
-  )
+# create time series
 
-## create time series by health region
-cases_ts_hr <- cases %>%
-  group_by(province, health_region, date_report) %>%
-  summarise(cases = n(), .groups = "drop_last") %>%
-  right_join(
-    data.frame(
-      slice({
-        select(.data = hr_map, province, health_region) %>%
-          rbind(data.frame(province = provinces_repatriated_not_single_hr, health_region = "Not Reported", stringsAsFactors = FALSE))
-      }, rep(1:n(), each = length(seq.Date(from = min_date_cases, to = max_date_cases, by = "day")))),
-      date_report = seq.Date(from = min_date_cases, to = max_date_cases, by = "day"),
-      stringsAsFactors = FALSE
-    ), by = c("province", "health_region", "date_report")) %>%
-  arrange(province, health_region, date_report) %>%
-  replace_na(list(cases = 0)) %>%
-  mutate(cumulative_cases = cumsum(cases)) %>%
-  ### return to non-standard date format for saving
-  mutate(
-    date_report = format(date_report, "%d-%m-%Y")
-  )
+## cases time series
+cases_ts_hr <- create_ts(cases, "cases", "hr", date_min_cases)
+cases_ts_prov <- create_ts(cases, "cases", "prov", date_min_cases)
+cases_ts_canada <- create_ts(cases, "cases", "canada", date_min_cases)
 
-# create time series of mortality
+## mortality time series
+mortality_ts_hr <- create_ts(mortality, "mortality", "hr", date_min_mortality)
+mortality_ts_prov <- create_ts(mortality, "mortality", "prov", date_min_mortality)
+mortality_ts_canada <- create_ts(mortality, "mortality", "canada", date_min_mortality)
 
-## convert mortality to standard date format
-mortality <- mortality %>%
-  mutate(date_death_report = as.Date(date_death_report, "%d-%m-%Y"))
+## recovered time series
+recovered_ts_prov <- create_ts(recovered_cum, "recovered", "prov", date_min_recovered)
+recovered_ts_canada <- create_ts(recovered_cum, "recovered", "canada", date_min_recovered)
 
-## define min and max dates
-min_date_mortality <- min(mortality$date_death_report, na.rm = TRUE)
-max_date_mortality <- max(mortality$date_death_report, na.rm = TRUE)
+## testing time series
+testing_ts_prov <- create_ts(testing_cum, "testing", "prov", date_min_testing)
+testing_ts_canada <- create_ts(testing_cum, "testing", "canada", date_min_testing)
 
-## create time series by province
-mortality_ts <- mortality %>%
-  group_by(province, date_death_report) %>%
-  summarise(deaths = n(), .groups = "drop_last") %>%
-  right_join(
-    data.frame(
-      "province" = rep(provinces, each = as.integer(max_date_mortality - min_date_mortality) + 1),
-      "date_death_report" = seq.Date(from = min_date_mortality, to = max_date_mortality, by = "day"),
-      stringsAsFactors = FALSE
-    ), by = c("province", "date_death_report")) %>%
-  arrange(province, date_death_report) %>%
-  replace_na(list(deaths = 0)) %>%
-  mutate(cumulative_deaths = cumsum(deaths)) %>%
-  ### return to non-standard date format for saving
-  mutate(
-    date_death_report = format(date_death_report, "%d-%m-%Y")
-  )
-
-## create time series by health region
-mortality_ts_hr <- mortality %>%
-  group_by(province, health_region, date_death_report) %>%
-  summarise(deaths = n(), .groups = "drop_last") %>%
-  right_join(
-    data.frame(
-      slice({
-        select(.data = hr_map, province, health_region) %>%
-                   rbind(data.frame(province = provinces_repatriated_not_single_hr, health_region = "Not Reported", stringsAsFactors = FALSE))
-      }, rep(1:n(), each = length(seq.Date(from = min_date_mortality, to = max_date_mortality, by = "day")))),
-      date_death_report = seq.Date(from = min_date_mortality, to = max_date_mortality, by = "day"),
-      stringsAsFactors = FALSE
-    ), by = c("province", "health_region", "date_death_report")) %>%
-  arrange(province, health_region, date_death_report) %>%
-  replace_na(list(deaths = 0)) %>%
-  mutate(cumulative_deaths = cumsum(deaths)) %>%
-  ### return to non-standard date format for saving
-  mutate(
-    date_death_report = format(date_death_report, "%d-%m-%Y")
-  )
-
-# create full time series of recovered
-
-## convert recovered to standard date format
-recovered_cum <- recovered_cum %>%
-  mutate(date_recovered = as.Date(date_recovered, "%d-%m-%Y"))
-
-## define min and max dates
-min_date_recovered <- min(recovered_cum$date_recovered, na.rm = TRUE)
-max_date_recovered <- max(recovered_cum$date_recovered, na.rm = TRUE)
-
-## create time series by province
-recovered_ts <- recovered_cum %>%
-  group_by(province, date_recovered) %>%
-  right_join(
-    data.frame(
-      "province" = rep(c(provinces, "Repatriated"), each = as.integer(max_date_recovered - min_date_recovered) + 1),
-      "date_recovered" = seq.Date(from = min_date_recovered, to = max_date_recovered, by = "day"),
-      stringsAsFactors = FALSE
-    ), by = c("province", "date_recovered")) %>%
-  arrange(province, date_recovered) %>%
-  replace_na(list(cumulative_recovered = 0)) %>%
-  ### calculate daily number of tests
-  group_by(province) %>%
-  mutate(
-    recovered = c(cumulative_recovered[1], diff(cumulative_recovered))
-  ) %>%
-  select(province, date_recovered, recovered, cumulative_recovered) %>%
-  ### return to non-standard date format for saving
-  mutate(
-    date_recovered = format(date_recovered, "%d-%m-%Y")
-  )
-
-# create full time series of testing
-
-## convert testing to standard date format
-testing_cum <- testing_cum %>%
-  mutate(date_testing = as.Date(date_testing, "%d-%m-%Y"))
-
-## define min and max dates
-min_date_testing <- min(testing_cum$date_testing, na.rm = TRUE)
-max_date_testing <- max(testing_cum$date_testing, na.rm = TRUE)
-
-## create time series by province
-testing_ts <- testing_cum %>%
-  group_by(province, date_testing) %>%
-  right_join(
-    data.frame(
-      "province" = rep(provinces, each = as.integer(max_date_testing - min_date_testing) + 1),
-      "date_testing" = seq.Date(from = min_date_testing, to = max_date_testing, by = "day"),
-      stringsAsFactors = FALSE
-    ), by = c("province", "date_testing")) %>%
-  arrange(province, date_testing) %>%
-  replace_na(list(cumulative_testing = 0)) %>%
-  ### calculate daily number of tests
-  group_by(province) %>%
-  mutate(
-    testing = c(cumulative_testing[1], diff(cumulative_testing))
-  ) %>%
-  select(province, date_testing, testing, cumulative_testing, testing_info) %>%
-  ### return to non-standard date format for saving
-  mutate(
-    date_testing = format(date_testing, "%d-%m-%Y")
-  )
-
-# create time series of active cases
-
-## join cases and recovered
-active_ts <- left_join(
-  cases_ts %>% rename(date = date_report) %>% select(-cases),
-  recovered_ts %>% rename(date = date_recovered) %>% select(-recovered),
-  by = c("province", "date")
-) %>%
-  left_join(
-    mortality_ts %>% rename(date = date_death_report) %>% select(-deaths),
-    by = c("province", "date")
-  ) %>%
-  ## replace recovered = NA with 0
-  replace_na(list(cumulative_recovered = 0, cumulative_deaths = 0)) %>%
-  ## calculate active cases
-  mutate(active_cases = cumulative_cases - cumulative_recovered - cumulative_deaths) %>%
-  group_by(province) %>%
-  mutate(active_cases_change = c(active_cases[1], diff(active_cases))) %>%
-  rename(
-    date_active = date
-  )
-
-# create time series for all of Canada combined
-
-## cases
-cases_ts_canada <- cases_ts %>%
-  ungroup %>%
-  mutate(province = "Canada") %>%
-  group_by(province, date_report) %>%
-  summarise_all(sum) %>%
-  ### keep original order
-  arrange(match(date_report, cases_ts$date_report))
-
-## mortality
-mortality_ts_canada <- mortality_ts %>%
-  ungroup %>%
-  mutate(province = "Canada") %>%
-  group_by(province, date_death_report) %>%
-  summarise_all(sum) %>%
-  ### keep original order
-  arrange(match(date_death_report, mortality_ts$date_death_report))
-
-## recovered
-recovered_ts_canada <- recovered_ts %>%
-  ungroup %>%
-  mutate(province = "Canada") %>%
-  group_by(province, date_recovered) %>%
-  summarise_all(sum) %>%
-  ### keep original order
-  arrange(match(date_recovered, recovered_ts$date_recovered))
-
-## testing
-testing_ts_canada <- testing_ts %>%
-  ungroup %>%
-  mutate(province = "Canada") %>%
-  group_by(province, date_testing) %>%
-  ### if there is any testing info for any province on a particular day, it will be flagged
-  summarise(testing = sum(testing), cumulative_testing = sum(cumulative_testing), testing_info = paste0(unique(testing_info)), .groups = "keep") %>%
-  arrange(date_testing, testing_info) %>%
-  slice_tail(n = 1) %>%
-  ### keep original order
-  arrange(match(date_testing, testing_ts$date_testing))
-
-## active cases
-active_ts_canada <- active_ts %>%
-  ungroup %>%
-  mutate(province = "Canada") %>%
-  group_by(province, date_active) %>%
-  summarise_all(sum) %>%
-  ### keep original order
-  arrange(match(date_active, active_ts$date_active))
+## active cases time series
+active_ts_prov <- create_ts_active(cases_ts_prov, recovered_ts_prov, mortality_ts_prov, "prov")
+active_ts_canada <- create_ts_active(cases_ts_canada, recovered_ts_canada, mortality_ts_canada, "canada")
 
 # abbreviate "case_source" (cases.csv) and "death_source" (mortality.csv)
 abbreviate_source(cases, cases_case_source, "case_source")
 abbreviate_source(mortality, mortality_death_source, "death_source")
 
-# return other files to non-standard date format for saving
-cases <- cases %>%
-  mutate(
-    date_report = format(date_report, "%d-%m-%Y")
-  )
-mortality <- mortality %>%
-  mutate(
-    date_death_report = format(date_death_report, "%d-%m-%Y")
-  )
-recovered_cum <- recovered_cum %>%
-  mutate(
-    date_recovered = format(date_recovered, "%d-%m-%Y")
-  )
-testing_cum <- testing_cum %>%
-  mutate(
-    date_testing = format(date_testing, "%d-%m-%Y")
-  )
+# convert dates to non-standard date format for writing
+convert_dates("cases", "mortality", "recovered_cum", "testing_cum",
+              "cases_ts_canada", "mortality_ts_canada", "recovered_ts_canada", "testing_ts_canada", "active_ts_canada",
+              "cases_ts_prov", "mortality_ts_prov", "recovered_ts_prov", "testing_ts_prov", "active_ts_prov",
+              "cases_ts_hr", "mortality_ts_hr",
+              date_format_out = "%d-%m-%Y")
 
 # write generated files
 write.csv(cases, "cases.csv", row.names = FALSE)
@@ -343,15 +132,15 @@ write.csv(mortality, "mortality.csv", row.names = FALSE)
 write.csv(mortality_death_source, "mortality_extra/mortality_death_source.csv", row.names = FALSE)
 write.csv(recovered_cum, "recovered_cumulative.csv", row.names = FALSE)
 write.csv(testing_cum, "testing_cumulative.csv", row.names = FALSE)
-write.csv(cases_ts, "timeseries_prov/cases_timeseries_prov.csv", row.names = FALSE)
+write.csv(cases_ts_prov, "timeseries_prov/cases_timeseries_prov.csv", row.names = FALSE)
 write.csv(cases_ts_hr, "timeseries_hr/cases_timeseries_hr.csv", row.names = FALSE)
 write.csv(cases_ts_canada, "timeseries_canada/cases_timeseries_canada.csv", row.names = FALSE)
-write.csv(mortality_ts, "timeseries_prov/mortality_timeseries_prov.csv", row.names = FALSE)
+write.csv(mortality_ts_prov, "timeseries_prov/mortality_timeseries_prov.csv", row.names = FALSE)
 write.csv(mortality_ts_hr, "timeseries_hr/mortality_timeseries_hr.csv", row.names = FALSE)
 write.csv(mortality_ts_canada, "timeseries_canada/mortality_timeseries_canada.csv", row.names = FALSE)
-write.csv(recovered_ts, "timeseries_prov/recovered_timeseries_prov.csv", row.names = FALSE)
+write.csv(recovered_ts_prov, "timeseries_prov/recovered_timeseries_prov.csv", row.names = FALSE)
 write.csv(recovered_ts_canada, "timeseries_canada/recovered_timeseries_canada.csv", row.names = FALSE)
-write.csv(testing_ts, "timeseries_prov/testing_timeseries_prov.csv", row.names = FALSE)
+write.csv(testing_ts_prov, "timeseries_prov/testing_timeseries_prov.csv", row.names = FALSE)
 write.csv(testing_ts_canada, "timeseries_canada/testing_timeseries_canada.csv", row.names = FALSE)
-write.csv(active_ts, "timeseries_prov/active_timeseries_prov.csv", row.names = FALSE)
+write.csv(active_ts_prov, "timeseries_prov/active_timeseries_prov.csv", row.names = FALSE)
 write.csv(active_ts_canada, "timeseries_canada/active_timeseries_canada.csv", row.names = FALSE)
