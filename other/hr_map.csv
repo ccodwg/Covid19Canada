@@ -4,16 +4,19 @@
 "4834","Alberta","Alberta","AB","Edmonton","Edmonton Zone",1443597
 "4835","Alberta","Alberta","AB","North","North Zone",460964
 "4831","Alberta","Alberta","AB","South","South Zone",306399
+9999,"Alberta","Alberta","AB","Not Reported",,
 "591","BC","British Columbia","BC","Fraser","Fraser Health",1902586
 "592","BC","British Columbia","BC","Interior","Interior Health",805216
 "593","BC","British Columbia","BC","Island","Vancouver Island Health",846030
 "594","BC","British Columbia","BC","Northern","Northern Health",298068
 "595","BC","British Columbia","BC","Vancouver Coastal","Vancouver  Coastal Health",1219436
+9999,"BC","British Columbia","BC","Not Reported",,
 "4603","Manitoba","Manitoba","MB","Interlake-Eastern","Interlake-Eastern Regional Health Authority",133882
 "4604","Manitoba","Manitoba","MB","Northern","Northern Regional Health Authority",75783
 "4602","Manitoba","Manitoba","MB","Prairie Mountain","Prairie Mountain Health",171368
 "4605","Manitoba","Manitoba","MB","Southern Health","Southern Health—Santé Sud",208018
 "4601","Manitoba","Manitoba","MB","Winnipeg","Winnipeg Regional Health Authority",780414
+9999,"Manitoba","Manitoba","MB","Not Reported",,
 "1301","New Brunswick","New Brunswick","NB","Zone 1 (Moncton area)","Zone 1 (Moncton area)",222694
 "1302","New Brunswick","New Brunswick","NB","Zone 2 (Saint John area)","Zone 2 (Saint John area)",176280
 "1303","New Brunswick","New Brunswick","NB","Zone 3 (Fredericton area)","Zone 3 (Fredericton area)",183421
@@ -21,14 +24,17 @@
 "1305","New Brunswick","New Brunswick","NB","Zone 5 (Campbellton area)","Zone 5 (Campbellton area)",25199
 "1306","New Brunswick","New Brunswick","NB","Zone 6 (Bathurst area)","Zone 6 (Bathurst area)",76763
 "1307","New Brunswick","New Brunswick","NB","Zone 7 (Miramichi area)","Zone 7 (Miramichi area)",44216
+9999,"New Brunswick","New Brunswick","NB","Not Reported",,
 "1012","NL","Newfoundland and Labrador","NL","Central","Central Regional Health Authority",91201
 "1011","NL","Newfoundland and Labrador","NL","Eastern","Eastern Regional Health Authority",317664
 "1014","NL","Newfoundland and Labrador","NL","Labrador-Grenfell","Labrador-Grenfell Regional Health Authority",36069
 "1013","NL","Newfoundland and Labrador","NL","Western","Western Regional Health Authority",76608
+9999,"NL","Newfoundland and Labrador","NL","Not Reported",,
 "1201","Nova Scotia","Nova Scotia","NS","Zone 1 - Western","Zone 1 - Western",199165
 "1202","Nova Scotia","Nova Scotia","NS","Zone 2 - Northern","Zone 2 - Northern",148470
 "1203","Nova Scotia","Nova Scotia","NS","Zone 3 - Eastern","Zone 3 - Eastern",162088
 "1204","Nova Scotia","Nova Scotia","NS","Zone 4 - Central","Zone 4 - Central",461672
+9999,"Nova Scotia","Nova Scotia","NS","Not Reported",,
 "6201","Nunavut","Nunavut","NU","Nunavut","Nunavut",38780
 "6101","NWT","Northwest Territories","NT","NWT","Northwest Territories",44826
 "3526","Ontario","Ontario","ON","Algoma","The District of Algoma Health Unit",117036
@@ -65,6 +71,7 @@
 "3566","Ontario","Ontario","ON","Wellington Dufferin Guelph","Wellington-Dufferin-Guelph Health Unit",308963
 "3568","Ontario","Ontario","ON","Windsor-Essex","Windsor-Essex County Health Unit",428556
 "3570","Ontario","Ontario","ON","York","York Regional Health Unit",1181485
+9999,"Ontario","Ontario","ON","Not Reported",,
 "1100","PEI","Prince Edward Island","PE","Prince Edward Island","Prince Edward Island",156947
 "2408","Quebec","Quebec","QC","Abitibi-Témiscamingue","Région de l'Abitibi-Témiscamingue",147542
 "2401","Quebec","Quebec","QC","Bas-Saint-Laurent","Région du Bas-Saint-Laurent",197322
@@ -84,10 +91,13 @@
 "2407","Quebec","Quebec","QC","Outaouais","Région de l'Outaouais",397193
 "2402","Quebec","Quebec","QC","Saguenay","Région du Saguenay—Lac-Saint-Jean",277796
 "2418","Quebec","Quebec","QC","Terres-Cries-de-la-Baie-James","Région des Terres-Cries-de-la-Baie-James",18131
+9999,"Quebec","Quebec","QC","Not Reported",,
 "473","Saskatchewan","Saskatchewan","SK","Central","Central",98566
 "471","Saskatchewan","Saskatchewan","SK","Far North","Far North",37811
 "472","Saskatchewan","Saskatchewan","SK","North","North",196246
 "475","Saskatchewan","Saskatchewan","SK","Regina","Regina",304261
 "474","Saskatchewan","Saskatchewan","SK","Saskatoon","Saskatoon",380403
 "476","Saskatchewan","Saskatchewan","SK","South","South",157175
+9999,"Saskatchewan","Saskatchewan","SK","Not Reported",,
 "6001","Yukon","Yukon","YT","Yukon","Yukon",40854
+9999,"Repatriated","Repatriated","RP","Not Reported",,
