@@ -39,8 +39,8 @@ convert_dates <- function() {
  
   for (df in names(which(unlist(eapply(.GlobalEnv, is.data.frame))))) {
     assign(df, get(df) %>%
-             mutate_at(
-               vars(contains("date")), as.Date, format = "%d-%m-%Y"),
+             mutate(
+               across(starts_with("date_"), as.Date, format = "%d-%m-%Y")),
            envir = .GlobalEnv
     )
   }
@@ -108,7 +108,7 @@ check_dates <- function(type) {
   cat("\nChecking dates in", type, "data...", fill = TRUE)
   
   ### match argument
-  match.arg(type, choices = c("cases", "mortality"))
+  match.arg(type, choices = c("cases", "mortality"), several.ok = FALSE)
   
   ### load data
   dat <- get(type)
