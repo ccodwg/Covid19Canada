@@ -60,7 +60,7 @@ The full dataset may be downloaded in CSV format from this repository. The full 
 # Acknowledgements
 We want to thank all individuals and organizations across Canada who have been willing and able to report data in as open and timely a manner as possible. 
 
-Please see below for a recommended citation of this dataset. A number of individuals have contributed to the specific data added here and their names and details are listed below, as well as on our [website] (https://opencovid.ca/about/). 
+Please see below for a recommended citation of this dataset. A number of individuals have contributed to the specific data added here and their names and details are listed below, as well as on our [website](https://opencovid.ca/about/). 
 
 
 # Specific Contributors
