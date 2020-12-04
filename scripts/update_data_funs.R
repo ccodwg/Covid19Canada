@@ -54,7 +54,8 @@ abbreviate_source <- function(dat, abbrev, var_source) {
     distinct %>%
     ### join province short names
     left_join(
-      map_prov,
+      map_prov %>%
+        select(province, province_short),
       by = "province"
     ) %>%
     ### rename column
