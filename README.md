@@ -4,7 +4,7 @@ The **COVID-19 Canada Open Data Working Group** is collecting publicly available
 # [PLEASE READ] Dataset Changes - Recent and Upcoming
 Several changes have been made recently to the datasets or will be made in the future. These are detailed below, along with tips at repairing your data pipelines that may have been affected by these changes.
 
-## Upcoming Changes
+## Upcoming Changes (specific dates to be announced soon)
 
 - Additional columns will be added to the time series datasets to make them easier to work with. The purpose of these changes is to make joining provincial data to other/prov_map.csv and health region data to other/hr_map.csv redundant. These datasets contain alternate province and health region names as well as population data.
   - other/prov_map.csv: Column "pop" renamed to "pop_province"
