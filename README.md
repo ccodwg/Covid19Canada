@@ -1,6 +1,23 @@
 # Epidemiological Data from the COVID-19 Outbreak in Canada
 The **COVID-19 Canada Open Data Working Group** is collecting publicly available information on confirmed and presumptive positive cases during the ongoing COVID-19 outbreak in Canada. Data are entered in a spreadsheet with each line representing a unique case, including age, sex, health region location, and history of travel where available. Sources are included as a reference for each entry. All data are exclusively collected from publicly available sources including government reports and news media. We aim to continue making updates daily. 
 
+# [PLEASE READ] Dataset Changes - Recent and Upcoming
+Several changes have been made recently to the datasets or will be made in the future. These are detailed below, along with tips at repairing your data pipelines that may have been affected by these changes.
+
+## Upcoming Changes
+
+- Additional columns will be added to the time series datasets to make them easier to work with. The purpose of these changes is to make joining provincial data to other/prov_map.csv and health region data to other/hr_map.csv redundant. These datasets contain alternate province and health region names as well as population data.
+  - other/prov_map.csv: Column "pop" renamed to "pop_province"
+  - other/hr_map.csv: Column "pop" renamed to "pop_health_region"
+  - timeseries_canada: pop_province
+  - timeseries_province: province_short, province_full, pop_province
+  - timeseries_hr: province_short, province_full, pop_province, HR_UID, health_region_esri, pop_health_region
+  - The simplest way to mitigate the effects of this change is to simply drop these additional columns (or rename them, in the case of prov_map.csv and hr_map.csv) immediately after loading the datasets. This will return the datasets to their state prior to this change.
+
+## Recent Changes
+- 2020-12-03: "Repatriated" now appears in the testing time series. For now, they are given 0 values. The correct values (from PHAC data) will be added soon. "Repatriated" now also appears in the mortality time series (all 0 values, which is correct).
+- 2020-11-27: The columns "case_source" (cases.csv) and "death_source" (mortality.csv) are now abbreviated to reduce the file size. They can be joined to the full source links via cases_extra/cases_case_source.csv and mortality_extra/mortality_death_source.csv. Instructions can be found in [README.md](#individual-level-data---extra-columns).
+
 
 # Methodology, Data Notes & Dashboard 
 Detailed information about our [data collection methodology](https://opencovid.ca/work/dataset/) and [sources](https://opencovid.ca/work/data-sources/), answers to [frequently asked data questions](https://opencovid.ca/work/data-faq/), specific data notes, and more information about the **COVID-19 Canada Open Data Working Group** is available on our [website](https://opencovid.ca/).
