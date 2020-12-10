@@ -12790,7 +12790,7 @@
 12789,7264,NA,"Not Reported","Not Reported","Gaspésie-Îles-de-la-Madeleine","Quebec","Canada","07-12-2020","QC13",NA,"https://www.inspq.qc.ca/covid-19/donnees/regions"
 12790,7265,NA,"Not Reported","Not Reported","Lanaudière","Quebec","Canada","07-12-2020","QC13",NA,"https://www.inspq.qc.ca/covid-19/donnees/regions"
 12791,7266,NA,"Not Reported","Not Reported","Lanaudière","Quebec","Canada","07-12-2020","QC13",NA,"https://www.inspq.qc.ca/covid-19/donnees/regions"
-12792,7267,NA,"Not Reported","Not Reported","Lanaudière","Quebec","Canada","07-12-2020","QC13",NA,"https://www.inspq.qc.ca/covid-19/donnees/regions"
+12792,7267,NA,"Not Reported","Not Reported","Lanaudière","Quebec","Canada","07-12-2020","QC13","09-12-2020: Updated to ltch mortality","https://www.inspq.qc.ca/covid-19/donnees/regions"
 12793,7268,NA,"Not Reported","Not Reported","Lanaudière","Quebec","Canada","07-12-2020","QC13",NA,"https://www.inspq.qc.ca/covid-19/donnees/regions"
 12794,7269,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","07-12-2020","QC13",NA,"https://www.inspq.qc.ca/covid-19/donnees/regions"
 12795,7270,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","07-12-2020","QC13","08-12-2020: Updated to ltch mortality","https://www.inspq.qc.ca/covid-19/donnees/regions"
@@ -12825,22 +12825,22 @@
 12824,638,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","08-12-2020","AB5",NA,NA
 12825,639,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","08-12-2020","AB5",NA,NA
 12826,640,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","08-12-2020","AB5",NA,NA
-12827,528,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","08-12-2020","BC138",NA,NA
-12828,529,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","08-12-2020","BC138",NA,NA
-12829,530,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","08-12-2020","BC138",NA,NA
-12830,531,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","08-12-2020","BC138",NA,NA
-12831,532,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","08-12-2020","BC138",NA,NA
-12832,533,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","08-12-2020","BC138",NA,NA
-12833,534,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","08-12-2020","BC138",NA,NA
-12834,535,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","08-12-2020","BC138",NA,NA
-12835,536,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","08-12-2020","BC138",NA,NA
-12836,537,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","08-12-2020","BC138",NA,NA
-12837,538,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","08-12-2020","BC138",NA,NA
-12838,539,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","08-12-2020","BC138",NA,NA
-12839,540,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","08-12-2020","BC138",NA,NA
-12840,541,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","08-12-2020","BC138",NA,NA
-12841,542,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","08-12-2020","BC138",NA,NA
-12842,543,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","08-12-2020","BC138",NA,NA
+12827,528,NA,"Not Reported","Not Reported","Fraser","BC","Canada","08-12-2020","BC138",NA,NA
+12828,529,NA,"Not Reported","Not Reported","Fraser","BC","Canada","08-12-2020","BC138",NA,NA
+12829,530,NA,"Not Reported","Not Reported","Fraser","BC","Canada","08-12-2020","BC138",NA,NA
+12830,531,NA,"Not Reported","Not Reported","Fraser","BC","Canada","08-12-2020","BC138",NA,NA
+12831,532,NA,"Not Reported","Not Reported","Fraser","BC","Canada","08-12-2020","BC138",NA,NA
+12832,533,NA,"Not Reported","Not Reported","Fraser","BC","Canada","08-12-2020","BC138",NA,NA
+12833,534,NA,"Not Reported","Not Reported","Fraser","BC","Canada","08-12-2020","BC138",NA,NA
+12834,535,NA,"Not Reported","Not Reported","Fraser","BC","Canada","08-12-2020","BC138",NA,NA
+12835,536,NA,"Not Reported","Not Reported","Fraser","BC","Canada","08-12-2020","BC138",NA,NA
+12836,537,NA,"Not Reported","Not Reported","Fraser","BC","Canada","08-12-2020","BC138",NA,NA
+12837,538,NA,"Not Reported","Not Reported","Vancouver Coastal","BC","Canada","08-12-2020","BC138",NA,NA
+12838,539,NA,"Not Reported","Not Reported","Vancouver Coastal","BC","Canada","08-12-2020","BC138",NA,NA
+12839,540,NA,"Not Reported","Not Reported","Vancouver Coastal","BC","Canada","08-12-2020","BC138",NA,NA
+12840,541,NA,"Not Reported","Not Reported","Vancouver Coastal","BC","Canada","08-12-2020","BC138",NA,NA
+12841,542,NA,"Not Reported","Not Reported","Vancouver Coastal","BC","Canada","08-12-2020","BC138",NA,NA
+12842,543,NA,"Not Reported","Not Reported","Northern","BC","Canada","08-12-2020","BC138",NA,NA
 12843,408,NA,"40-49","Male","Winnipeg","Manitoba","Canada","08-12-2020","MB7",NA,NA
 12844,409,NA,"70-79","Male","Winnipeg","Manitoba","Canada","08-12-2020","MB7","linked to the outbreak at the Charleswood Care Centre;",NA
 12845,410,NA,"80-89","Female","Winnipeg","Manitoba","Canada","08-12-2020","MB7","linked to the outbreak at the Charleswood Care Centre;",NA
@@ -12912,3 +12912,126 @@
 12911,3852,NA,"Not Reported","Not Reported","York","Ontario","Canada","08-12-2020","ON19",NA,NA
 12912,3853,NA,"Not Reported","Not Reported","York","Ontario","Canada","08-12-2020","ON19",NA,NA
 12913,3854,NA,"Not Reported","Not Reported","York","Ontario","Canada","08-12-2020","ON19",NA,NA
+12914,641,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","09-12-2020","AB8",NA,NA
+12915,642,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","09-12-2020","AB8",NA,NA
+12916,643,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","09-12-2020","AB8",NA,NA
+12917,644,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","09-12-2020","AB8",NA,NA
+12918,645,NA,"Not Reported","Not Reported","Central","Alberta","Canada","09-12-2020","AB8",NA,NA
+12919,646,NA,"Not Reported","Not Reported","Central","Alberta","Canada","09-12-2020","AB8",NA,NA
+12920,647,NA,"Not Reported","Not Reported","Central","Alberta","Canada","09-12-2020","AB8",NA,NA
+12921,648,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","09-12-2020","AB8",NA,NA
+12922,649,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","09-12-2020","AB8",NA,NA
+12923,650,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","09-12-2020","AB8",NA,NA
+12924,651,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","09-12-2020","AB8",NA,NA
+12925,652,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","09-12-2020","AB8",NA,NA
+12926,653,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","09-12-2020","AB8",NA,NA
+12927,544,NA,"Not Reported","Not Reported","Fraser","BC","Canada","09-12-2020","BC139",NA,NA
+12928,545,NA,"Not Reported","Not Reported","Fraser","BC","Canada","09-12-2020","BC139",NA,NA
+12929,546,NA,"Not Reported","Not Reported","Fraser","BC","Canada","09-12-2020","BC139",NA,NA
+12930,547,NA,"Not Reported","Not Reported","Fraser","BC","Canada","09-12-2020","BC139",NA,NA
+12931,548,NA,"Not Reported","Not Reported","Fraser","BC","Canada","09-12-2020","BC139",NA,NA
+12932,549,NA,"Not Reported","Not Reported","Fraser","BC","Canada","09-12-2020","BC139",NA,NA
+12933,550,NA,"Not Reported","Not Reported","Fraser","BC","Canada","09-12-2020","BC139",NA,NA
+12934,551,NA,"Not Reported","Not Reported","Fraser","BC","Canada","09-12-2020","BC139",NA,NA
+12935,552,NA,"Not Reported","Not Reported","Fraser","BC","Canada","09-12-2020","BC139",NA,NA
+12936,553,NA,"Not Reported","Not Reported","Fraser","BC","Canada","09-12-2020","BC139",NA,NA
+12937,554,NA,"Not Reported","Not Reported","Fraser","BC","Canada","09-12-2020","BC139",NA,NA
+12938,555,NA,"Not Reported","Not Reported","Fraser","BC","Canada","09-12-2020","BC139",NA,NA
+12939,556,NA,"Not Reported","Not Reported","Vancouver Coastal","BC","Canada","09-12-2020","BC139",NA,NA
+12940,557,NA,"Not Reported","Not Reported","Vancouver Coastal","BC","Canada","09-12-2020","BC139",NA,NA
+12941,558,NA,"Not Reported","Not Reported","Vancouver Coastal","BC","Canada","09-12-2020","BC139",NA,NA
+12942,559,NA,"Not Reported","Not Reported","Vancouver Coastal","BC","Canada","09-12-2020","BC139",NA,NA
+12943,421,NA,"40-49","Male","Winnipeg","Manitoba","Canada","09-12-2020","MB7",NA,NA
+12944,422,NA,"50-59","Female","Winnipeg","Manitoba","Canada","09-12-2020","MB7",NA,NA
+12945,423,NA,"50-59","Female","Winnipeg","Manitoba","Canada","09-12-2020","MB7","linked to the outbreak at the Health Science Centre unit GA3",NA
+12946,424,NA,"60-69","Female","Winnipeg","Manitoba","Canada","09-12-2020","MB7",NA,NA
+12947,425,NA,"60-69","Male","Southern Health","Manitoba","Canada","09-12-2020","MB7",NA,NA
+12948,426,NA,"70-79","Male","Winnipeg","Manitoba","Canada","09-12-2020","MB7",NA,NA
+12949,427,NA,"70-79","Female","Southern Health","Manitoba","Canada","09-12-2020","MB7",NA,NA
+12950,428,NA,"70-79","Female","Winnipeg","Manitoba","Canada","09-12-2020","MB7",NA,NA
+12951,429,NA,"70-79","Female","Winnipeg","Manitoba","Canada","09-12-2020","MB7","linked to the outbreak at the Victoria General Hospital unit 4S;",NA
+12952,430,NA,"80-89","Male","Winnipeg","Manitoba","Canada","09-12-2020","MB7","linked to the outbreak at the Maples Long Term Care Home",NA
+12953,431,NA,"80-89","Male","Winnipeg","Manitoba","Canada","09-12-2020","MB7","linked to the outbreak at the Park Manor Care Home",NA
+12954,432,NA,"80-89","Female","Prairie Mountain","Manitoba","Canada","09-12-2020","MB7","linked to the outbreak at Grandview Personal Care Home",NA
+12955,433,NA,"80-89","Male","Southern Health","Manitoba","Canada","09-12-2020","MB7",NA,NA
+12956,434,NA,"80-89","Female","Winnipeg","Manitoba","Canada","09-12-2020","MB7","linked to the outbreak at the Misericordia Health Centre's Transitional Unit",NA
+12957,435,NA,"80-89","Female","Winnipeg","Manitoba","Canada","09-12-2020","MB7","linked to the outbreak at the St. Norbert Personal Care Home",NA
+12958,436,NA,"90-99","Female","Winnipeg","Manitoba","Canada","09-12-2020","MB7","outbreak at the Charleswood Care Centre",NA
+12959,437,NA,"90-99","Female","Winnipeg","Manitoba","Canada","09-12-2020","MB7","linked to the outbreak at Park Manor Care Home",NA
+12960,438,NA,"90-99","Male","Winnipeg","Manitoba","Canada","09-12-2020","MB7","linked to the outbreak at the Holy Family Personal Care Home",NA
+12961,67,NA,">80","Not Reported","Regina","Saskatchewan","Canada","09-12-2020","SK8",NA,"https://www.weyburnreview.com/"
+12962,68,NA,">80","Not Reported","Regina","Saskatchewan","Canada","09-12-2020","SK8",NA,"https://www.weyburnreview.com/"
+12963,69,NA,">80","Not Reported","Regina","Saskatchewan","Canada","09-12-2020","SK8",NA,"https://www.weyburnreview.com/"
+12964,70,NA,">80","Not Reported","Regina","Saskatchewan","Canada","09-12-2020","SK8",NA,"https://www.weyburnreview.com/"
+12965,71,NA,">80","Not Reported","Regina","Saskatchewan","Canada","09-12-2020","SK8",NA,"https://www.weyburnreview.com/"
+12966,7314,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","09-12-2020","QC16",NA,NA
+12967,7315,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","09-12-2020","QC16",NA,NA
+12968,7316,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","09-12-2020","QC16",NA,NA
+12969,7317,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","09-12-2020","QC16",NA,NA
+12970,7318,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","09-12-2020","QC16",NA,NA
+12971,7319,NA,"Not Reported","Not Reported","Chaudière-Appalaches","Quebec","Canada","09-12-2020","QC16",NA,NA
+12972,7320,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","09-12-2020","QC16",NA,NA
+12973,7321,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","09-12-2020","QC16",NA,NA
+12974,7322,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","09-12-2020","QC16",NA,NA
+12975,7323,NA,"Not Reported","Not Reported","Laurentides","Quebec","Canada","09-12-2020","QC16",NA,NA
+12976,7324,NA,"Not Reported","Not Reported","Laval","Quebec","Canada","09-12-2020","QC16",NA,NA
+12977,7325,NA,"Not Reported","Not Reported","Mauricie","Quebec","Canada","09-12-2020","QC16",NA,NA
+12978,7326,NA,"Not Reported","Not Reported","Mauricie","Quebec","Canada","09-12-2020","QC16",NA,NA
+12979,7327,NA,"Not Reported","Not Reported","Mauricie","Quebec","Canada","09-12-2020","QC16",NA,NA
+12980,7328,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","09-12-2020","QC16",NA,NA
+12981,7329,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","09-12-2020","QC16",NA,NA
+12982,7330,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","09-12-2020","QC16",NA,NA
+12983,7331,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","09-12-2020","QC16",NA,NA
+12984,7332,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","09-12-2020","QC16",NA,NA
+12985,7333,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","09-12-2020","QC16",NA,NA
+12986,7334,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","09-12-2020","QC16",NA,NA
+12987,7335,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","09-12-2020","QC16",NA,NA
+12988,7336,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","09-12-2020","QC16",NA,NA
+12989,7337,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","09-12-2020","QC16",NA,NA
+12990,7338,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","09-12-2020","QC16",NA,NA
+12991,7339,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","09-12-2020","QC16",NA,NA
+12992,7340,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","09-12-2020","QC16",NA,NA
+12993,7341,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","09-12-2020","QC16",NA,NA
+12994,7342,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","09-12-2020","QC16",NA,NA
+12995,7343,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","09-12-2020","QC16",NA,NA
+12996,7344,NA,"Not Reported","Not Reported","Outaouais","Quebec","Canada","09-12-2020","QC16",NA,NA
+12997,7345,NA,"Not Reported","Not Reported","Saguenay","Quebec","Canada","09-12-2020","QC16",NA,NA
+12998,7346,NA,"Not Reported","Not Reported","Saguenay","Quebec","Canada","09-12-2020","QC16",NA,NA
+12999,7347,NA,"Not Reported","Not Reported","Saguenay","Quebec","Canada","09-12-2020","QC16",NA,NA
+13000,7348,NA,"Not Reported","Not Reported","Saguenay","Quebec","Canada","09-12-2020","QC16",NA,NA
+13001,7349,NA,"Not Reported","Not Reported","Saguenay","Quebec","Canada","09-12-2020","QC16",NA,NA
+13002,3855,NA,"Not Reported","Not Reported","Ottawa","Ontario","Canada","09-12-2020","ON93",NA,NA
+13003,3856,NA,"Not Reported","Not Reported","Thunder Bay","Ontario","Canada","09-12-2020","ON110",NA,NA
+13004,3857,NA,"Not Reported","Not Reported","Windsor-Essex","Ontario","Canada","09-12-2020","ON41",NA,NA
+13005,3858,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","09-12-2020","ON75",NA,NA
+13006,3859,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","09-12-2020","ON75",NA,NA
+13007,3860,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","09-12-2020","ON75",NA,NA
+13008,3861,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","09-12-2020","ON75",NA,NA
+13009,3862,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","09-12-2020","ON75",NA,NA
+13010,3863,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","09-12-2020","ON75",NA,NA
+13011,3864,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","09-12-2020","ON75",NA,NA
+13012,3865,NA,"Not Reported","Not Reported","Waterloo","Ontario","Canada","09-12-2020","ON51",NA,NA
+13013,3866,NA,"Not Reported","Not Reported","Halton","Ontario","Canada","09-12-2020","ON105",NA,NA
+13014,3867,NA,"Not Reported","Not Reported","Halton","Ontario","Canada","09-12-2020","ON105",NA,NA
+13015,3868,NA,"Not Reported","Not Reported","Halton","Ontario","Canada","09-12-2020","ON105",NA,NA
+13016,3869,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","09-12-2020","ON68",NA,NA
+13017,3870,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","09-12-2020","ON68",NA,NA
+13018,3871,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","09-12-2020","ON68",NA,NA
+13019,3872,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","09-12-2020","ON68",NA,NA
+13020,3873,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","09-12-2020","ON68",NA,NA
+13021,3874,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","09-12-2020","ON68",NA,NA
+13022,3875,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","09-12-2020","ON68",NA,NA
+13023,3876,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","09-12-2020","ON68",NA,NA
+13024,3877,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","09-12-2020","ON68",NA,NA
+13025,3878,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","09-12-2020","ON68",NA,NA
+13026,3879,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","09-12-2020","ON68",NA,NA
+13027,3880,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","09-12-2020","ON68",NA,NA
+13028,3881,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","09-12-2020","ON26",NA,NA
+13029,3882,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","09-12-2020","ON26",NA,NA
+13030,3883,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","09-12-2020","ON26",NA,NA
+13031,3884,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","09-12-2020","ON26",NA,NA
+13032,3885,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","09-12-2020","ON26",NA,NA
+13033,3886,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","09-12-2020","ON26",NA,NA
+13034,3887,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","09-12-2020","ON26",NA,NA
+13035,3888,NA,"Not Reported","Not Reported","York","Ontario","Canada","09-12-2020","ON139",NA,NA
+13036,3889,NA,"Not Reported","Not Reported","York","Ontario","Canada","09-12-2020","ON139",NA,NA
