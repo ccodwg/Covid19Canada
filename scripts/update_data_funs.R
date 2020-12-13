@@ -17,7 +17,7 @@ convert_dates <- function(..., date_format_out = c("%Y-%m-%d", "%d-%m-%Y")) {
   ### convert date and write to global environment
   if (date_format_out == "%Y-%m-%d") {
     for (i in inputs) {
-      assign(i, get(i) %>%
+      assign(i, get(i, envir = parent.frame()) %>%
                mutate(
                  across(matches("^date_|_week$"), as.Date, format = "%d-%m-%Y")),
              envir = .GlobalEnv
@@ -25,7 +25,7 @@ convert_dates <- function(..., date_format_out = c("%Y-%m-%d", "%d-%m-%Y")) {
     }
   } else if (date_format_out == "%d-%m-%Y") {
     for (i in inputs) {
-      assign(i, get(i) %>%
+      assign(i, get(i, envir = parent.frame()) %>%
                mutate(
                  across(matches("^date_|_week$"), format.Date, format = "%d-%m-%Y")),
              envir = .GlobalEnv
