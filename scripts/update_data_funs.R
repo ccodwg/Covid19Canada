@@ -20,7 +20,7 @@ convert_dates <- function(..., date_format_out = c("%Y-%m-%d", "%d-%m-%Y")) {
       assign(i, get(i, envir = parent.frame()) %>%
                mutate(
                  across(matches("^date_|_week$"), as.Date, format = "%d-%m-%Y")),
-             envir = .GlobalEnv
+             envir = parent.frame()
       )
     }
   } else if (date_format_out == "%d-%m-%Y") {
@@ -28,7 +28,7 @@ convert_dates <- function(..., date_format_out = c("%Y-%m-%d", "%d-%m-%Y")) {
       assign(i, get(i, envir = parent.frame()) %>%
                mutate(
                  across(matches("^date_|_week$"), format.Date, format = "%d-%m-%Y")),
-             envir = .GlobalEnv
+             envir = parent.frame()
       )
     }
   }
