@@ -92,7 +92,74 @@ convert_official_sk_new_hr <- function() {
   write.csv(mortality_timeseries_prov, "official_datasets/sk/sk_new_hr_mortality_timeseries_prov.csv", row.names = FALSE)
 }
 
-# official Saskatchewan dataset: old health region boundaries (no longer updated)
+# combine CCODWG dataset (before 2020-08-04) & official Saskatchewan dataset (new health region boundaries, 2020-08-04 and after)
+combine_ccodwg_official_sk_new_hr <- function(stat = c("cases", "mortality"), loc = c("prov", "hr")) {
+    
+    ### check statistic
+    match.arg(stat,
+              choices = c("cases", "mortality"),
+              several.ok = FALSE)
+    
+    ### check spatial scale
+    match.arg(loc,
+              choices = c("prov", "hr"),
+              several.ok = FALSE)
+    
+    ### load CCODWG dataset
+    switch(
+      paste(stat, loc),
+      "cases prov" = {path_ccodwg <- "timeseries_prov/cases_timeseries_prov.csv"},
+      "cases hr" = {path_ccodwg <- "timeseries_hr/cases_timeseries_hr.csv"},
+      "mortality prov" = {path_ccodwg <- "timeseries_prov/mortality_timeseries_prov.csv"},
+      "mortality hr" = {path_ccodwg <- "timeseries_hr/mortality_timeseries_hr.csv"}
+    )
+    dat_ccodwg <- read.csv(path_ccodwg,
+                           stringsAsFactors = FALSE)
+    
+    ### load SK official dataset (new health region boundaries)
+    switch(
+      paste(stat, loc),
+      "cases prov" = {path_official <- "official_datasets/sk/sk_new_hr_cases_timeseries_prov.csv"; var_date <- "date_report"},
+      "cases hr" = {path_official <- "official_datasets/sk/sk_new_hr_cases_timeseries_hr.csv"; var_date <- "date_report"},
+      "mortality prov" = {path_official <- "official_datasets/sk/sk_new_hr_mortality_timeseries_prov.csv"; var_date <- "date_death_report"},
+      "mortality hr" = {path_official <- "official_datasets/sk/sk_new_hr_mortality_timeseries_hr.csv"; var_date <- "date_death_report"}
+    )
+    dat_official <- read.csv(path_official,
+                             stringsAsFactors = FALSE)
+    
+    ### convert dates to standard format for manipulation
+    convert_dates("dat_ccodwg", "dat_official",
+                  date_format_out = "%Y-%m-%d")
+    
+    ### combine data
+    dat_combined <- bind_rows(
+      dat_ccodwg %>%
+        filter(
+          province == "Saskatchewan" &
+          !!sym(var_date) <= as.Date("2020-08-03")
+          ),
+      dat_official
+    )
+    
+    ### arrange data
+    if (loc == "prov") {
+      dat_combined <- dat_combined %>%
+        arrange(province, !!sym(var_date))
+    } else if (loc == "hr") {
+      dat_combined <- dat_combined %>%
+        arrange(province, health_region, !!sym(var_date))
+    }
+    
+    ### convert dates to non-standard date format for writing
+    convert_dates("dat_combined",
+                  date_format_out = "%d-%m-%Y")
+    
+    ### write generated file
+    out_name <- paste0("official_datasets/sk/sk_combined_ccodwg_official_new_hr_", stat, "_timeseries_", loc, ".csv")
+    write.csv(dat_combined, out_name, row.names = FALSE)
+}
+
+# convert official Saskatchewan dataset: old health region boundaries (no longer updated)
 convert_official_sk_data_old_hr <- function() {
   
   ### download final SK dataset with old health region boundaries
