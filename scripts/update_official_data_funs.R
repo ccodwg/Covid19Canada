@@ -4,7 +4,7 @@
 # import functions from update_data.R
 source("scripts/update_data_funs.R")
 
-# official Saskatchewan dataset: new health region boundaries
+# convert official Saskatchewan dataset: new health region boundaries
 convert_official_sk_new_hr <- function() {
   ### grab URL for newest SK case dataset
   sk_cases_url <- paste0("https://dashboard.saskatchewan.ca", read_html("https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases") %>% html_node("body") %>% as.character %>% str_extract("(?<=href=\").*(?=\">CSV)"))
@@ -89,7 +89,7 @@ convert_official_sk_new_hr <- function() {
   write.csv(cases_timeseries_hr, "official_datasets/sk/sk_new_hr_cases_timeseries_hr.csv", row.names = FALSE)
   write.csv(cases_timeseries_prov, "official_datasets/sk/sk_new_hr_cases_timeseries_prov.csv", row.names = FALSE)
   write.csv(mortality_timeseries_hr, "official_datasets/sk/sk_new_hr_mortality_timeseries_hr.csv", row.names = FALSE)
-  write.csv(mortality_timeseries_prov, "official_datasets/sk/sk_hr_new_mortality_timeseries_prov.csv", row.names = FALSE)
+  write.csv(mortality_timeseries_prov, "official_datasets/sk/sk_new_hr_mortality_timeseries_prov.csv", row.names = FALSE)
 }
 
 # official Saskatchewan dataset: old health region boundaries (no longer updated)
