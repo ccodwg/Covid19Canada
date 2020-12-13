@@ -12,6 +12,11 @@
 library(dplyr) # data manipulation
 library(tidyr) # data manipulation
 library(lubridate) # better dates
+library(stringr) # string manipulation
+library(rvest) # web scraping
 
 # load functions
 source("scripts/update_official_data_funs.R")
+
+# official Saskatchewan dataset: new health region boundaries
+convert_official_sk_new_hr()
