@@ -21,8 +21,6 @@ source("scripts/update_official_data_funs.R")
 # official Saskatchewan dataset: new health region boundaries
 convert_official_sk_new_hr()
 
-# combined dataset: CCODWG dataset (before 2020-08-04) & official Saskatchewan dataset (new health region boundaries, 2020-08-04 and after)
-combine_ccodwg_official_sk_new_hr(stat = "cases", loc = "prov")
+# combined dataset: CCODWG dataset 
 combine_ccodwg_official_sk_new_hr(stat = "cases", loc = "hr")
-combine_ccodwg_official_sk_new_hr(stat = "mortality", loc = "prov")
 combine_ccodwg_official_sk_new_hr(stat = "mortality", loc = "hr")

@@ -86,10 +86,10 @@ convert_official_sk_new_hr <- function() {
                 date_format_out = "%d-%m-%Y")
   
   ### write generated files
-  write.csv(cases_timeseries_hr, "official_datasets/sk/sk_new_hr_cases_timeseries_hr.csv", row.names = FALSE)
-  write.csv(cases_timeseries_prov, "official_datasets/sk/sk_new_hr_cases_timeseries_prov.csv", row.names = FALSE)
-  write.csv(mortality_timeseries_hr, "official_datasets/sk/sk_new_hr_mortality_timeseries_hr.csv", row.names = FALSE)
-  write.csv(mortality_timeseries_prov, "official_datasets/sk/sk_new_hr_mortality_timeseries_prov.csv", row.names = FALSE)
+  write.csv(cases_timeseries_hr, "official_datasets/sk/timeseries_hr/sk_new_cases_timeseries_hr.csv", row.names = FALSE)
+  write.csv(cases_timeseries_prov, "official_datasets/sk/timeseries_prov/sk_new_cases_timeseries_prov.csv", row.names = FALSE)
+  write.csv(mortality_timeseries_hr, "official_datasets/sk/timeseries_hr/sk_new_mortality_timeseries_hr.csv", row.names = FALSE)
+  write.csv(mortality_timeseries_prov, "official_datasets/sk/timeseries_prov/sk_new_mortality_timeseries_prov.csv", row.names = FALSE)
 }
 
 # combine CCODWG dataset (before 2020-08-04) & official Saskatchewan dataset (new health region boundaries, 2020-08-04 and after)
@@ -119,10 +119,10 @@ combine_ccodwg_official_sk_new_hr <- function(stat = c("cases", "mortality"), lo
     ### load SK official dataset (new health region boundaries)
     switch(
       paste(stat, loc),
-      "cases prov" = {path_official <- "official_datasets/sk/sk_new_hr_cases_timeseries_prov.csv"; var_date <- "date_report"},
-      "cases hr" = {path_official <- "official_datasets/sk/sk_new_hr_cases_timeseries_hr.csv"; var_date <- "date_report"},
-      "mortality prov" = {path_official <- "official_datasets/sk/sk_new_hr_mortality_timeseries_prov.csv"; var_date <- "date_death_report"},
-      "mortality hr" = {path_official <- "official_datasets/sk/sk_new_hr_mortality_timeseries_hr.csv"; var_date <- "date_death_report"}
+      "cases prov" = {path_official <- "official_datasets/sk/timeseries_prov/sk_new_cases_timeseries_prov.csv"; var_date <- "date_report"},
+      "cases hr" = {path_official <- "official_datasets/sk/timeseries_hr/sk_new_cases_timeseries_hr.csv"; var_date <- "date_report"},
+      "mortality prov" = {path_official <- "official_datasets/sk/timeseries_prov/sk_new_mortality_timeseries_prov.csv"; var_date <- "date_death_report"},
+      "mortality hr" = {path_official <- "official_datasets/sk/timeseries_hr/sk_new_mortality_timeseries_hr.csv"; var_date <- "date_death_report"}
     )
     dat_official <- read.csv(path_official,
                              stringsAsFactors = FALSE)
@@ -131,15 +131,17 @@ combine_ccodwg_official_sk_new_hr <- function(stat = c("cases", "mortality"), lo
     convert_dates("dat_ccodwg", "dat_official",
                   date_format_out = "%Y-%m-%d")
     
+    ### get minimum date of official dataset
+    date_official_min <- min(dat_official[, var_date])
+    
     ### combine data
     dat_combined <- bind_rows(
       dat_ccodwg %>%
-        filter(
-          province == "Saskatchewan" &
-          !!sym(var_date) <= as.Date("2020-08-03")
-          ),
+        filter(province != "Saskatchewan"),
       dat_official
-    )
+    ) %>%
+      ### dataset begins on first date of official dataset
+      filter(!!sym(var_date) >= date_official_min)
     
     ### arrange data
     if (loc == "prov") {
@@ -155,7 +157,7 @@ combine_ccodwg_official_sk_new_hr <- function(stat = c("cases", "mortality"), lo
                   date_format_out = "%d-%m-%Y")
     
     ### write generated file
-    out_name <- paste0("official_datasets/sk/sk_combined_ccodwg_official_new_hr_", stat, "_timeseries_", loc, ".csv")
+    out_name <- paste0("timeseries_hr_sk_new/sk_new_", stat, "_timeseries_", loc, "_combined.csv")
     write.csv(dat_combined, out_name, row.names = FALSE)
 }
 
