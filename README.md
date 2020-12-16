@@ -1,18 +1,16 @@
 # Epidemiological Data from the COVID-19 Outbreak in Canada
 The **COVID-19 Canada Open Data Working Group** is collecting publicly available information on confirmed and presumptive positive cases during the ongoing COVID-19 outbreak in Canada. Data are entered in a spreadsheet with each line representing a unique case, including age, sex, health region location, and history of travel where available. Sources are included as a reference for each entry. All data are exclusively collected from publicly available sources including government reports and news media. We aim to continue making updates daily. 
 
-# [PLEASE READ] Dataset Changes - Recent and Upcoming
+# [PLEASE READ] Vaccines Datasets & Dataset Changes - Recent and Upcoming
 Several changes have been made recently to the datasets or will be made in the future. These are detailed below, along with tips at repairing your data pipelines that may have been affected by these changes.
+
+## Vaccine Datasets
+
+- 2020-12-15: We have added two vaccine datasets to the repository, vaccine_administration_cumulative.csv and vaccine_distribution_cumulative.csv. These data should be considered preliminary and are subject to change and revision. The format of these new datasets may also change at any time as the data situation evolves.
 
 ## Upcoming Changes (specific dates to be announced soon)
 
-- Additional columns will be added to the time series datasets to make them easier to work with. The purpose of these changes is to make joining provincial data to other/prov_map.csv and health region data to other/hr_map.csv redundant. These datasets contain alternate province and health region names as well as population data.
-  - other/prov_map.csv: Column "pop" renamed to "pop_province"
-  - other/hr_map.csv: Column "pop" renamed to "pop_health_region"
-  - timeseries_canada: pop_province
-  - timeseries_province: province_short, province_full, pop_province
-  - timeseries_hr: province_short, province_full, pop_province, HR_UID, health_region_esri, pop_health_region
-  - The simplest way to mitigate the effects of this change is to simply drop these additional columns (or rename them, in the case of prov_map.csv and hr_map.csv) immediately after loading the datasets. This will return the datasets to their state prior to this change.
+- The data structure of time series data will change in response to user feedback. This will only consist of adding additional columns to make the data easier to work with. The core columns will remain the same, for now. More details to follow. Initially, the updated dataset will be provided alongside the new dataset. After a time, the new data format will completely replace the old format.
 
 ## Recent Changes
 - 2020-12-03: "Repatriated" now appears in the testing time series. For now, they are given 0 values. The correct values (from PHAC data) will be added soon. "Repatriated" now also appears in the mortality time series (all 0 values, which is correct).
