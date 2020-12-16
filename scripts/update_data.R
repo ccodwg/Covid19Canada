@@ -34,6 +34,8 @@ files %>% filter(name == "cases.csv") %>% drive_download(overwrite = TRUE)
 files %>% filter(name == "mortality.csv") %>% drive_download(overwrite = TRUE)
 files %>% filter(name == "recovered_cumulative.csv") %>% drive_download(overwrite = TRUE)
 files %>% filter(name == "testing_cumulative.csv") %>% drive_download(overwrite = TRUE)
+files %>% filter(name == "vaccine_administration_cumulative.csv") %>% drive_download(overwrite = TRUE)
+files %>% filter(name == "vaccine_distribution_cumulative.csv") %>% drive_download(overwrite = TRUE)
 
 # read downloaded sheets
 cases <- read.csv("cases.csv",
@@ -44,6 +46,10 @@ recovered_cum <- read.csv("recovered_cumulative.csv",
                           stringsAsFactors = FALSE)
 testing_cum <- read.csv("testing_cumulative.csv",
                         stringsAsFactors = FALSE)
+vaccine_administration_cumulative <- read.csv("vaccine_administration_cumulative.csv",
+                                              stringsAsFactors = FALSE)
+vaccine_distribution_cumulative <- read.csv("vaccine_distribution_cumulative.csv",
+                                            stringsAsFactors = FALSE)
 
 # load other files
 
@@ -76,7 +82,7 @@ mortality_death_source <- read.csv("mortality_extra/mortality_death_source.csv",
                                    ))
 
 # convert dates to standard format for manipulation
-convert_dates("cases", "mortality", "recovered_cum", "testing_cum", date_format_out = "%Y-%m-%d")
+convert_dates("cases", "mortality", "recovered_cum", "testing_cum", "vaccine_administration_cumulative", "vaccine_distribution_cumulative", date_format_out = "%Y-%m-%d")
 
 # define parameters
 
@@ -122,7 +128,7 @@ abbreviate_source(mortality, mortality_death_source, "death_source")
 convert_dates("cases", "mortality", "recovered_cum", "testing_cum",
               "cases_ts_canada", "mortality_ts_canada", "recovered_ts_canada", "testing_ts_canada", "active_ts_canada",
               "cases_ts_prov", "mortality_ts_prov", "recovered_ts_prov", "testing_ts_prov", "active_ts_prov",
-              "cases_ts_hr", "mortality_ts_hr",
+              "cases_ts_hr", "mortality_ts_hr", "vaccine_administration_cumulative", "vaccine_distribution_cumulative",
               date_format_out = "%d-%m-%Y")
 
 # write generated files
@@ -144,3 +150,5 @@ write.csv(testing_ts_prov, "timeseries_prov/testing_timeseries_prov.csv", row.na
 write.csv(testing_ts_canada, "timeseries_canada/testing_timeseries_canada.csv", row.names = FALSE)
 write.csv(active_ts_prov, "timeseries_prov/active_timeseries_prov.csv", row.names = FALSE)
 write.csv(active_ts_canada, "timeseries_canada/active_timeseries_canada.csv", row.names = FALSE)
+write.csv(vaccine_administration_cumulative, "vaccine_administration_cumulative.csv", row.names = FALSE)
+write.csv(vaccine_distribution_cumulative, "vaccine_distribution_cumulative.csv", row.names = FALSE)
