@@ -138,7 +138,9 @@ abbreviate_source(mortality, mortality_death_source, "death_source")
 convert_dates("cases", "mortality", "recovered_cum", "testing_cum",
               "cases_ts_canada", "mortality_ts_canada", "recovered_ts_canada", "testing_ts_canada", "active_ts_canada",
               "cases_ts_prov", "mortality_ts_prov", "recovered_ts_prov", "testing_ts_prov", "active_ts_prov",
-              "cases_ts_hr", "mortality_ts_hr", "vaccine_administration_cum", "vaccine_distribution_cum",
+              "cases_ts_hr", "mortality_ts_hr",
+              "vaccine_administration_cum", "vaccine_administration_ts_prov", "vaccine_administration_ts_canada",
+              "vaccine_distribution_cum", "vaccine_distribution_ts_prov", "vaccine_distribution_ts_canada",
               date_format_out = "%d-%m-%Y")
 
 # write generated files
