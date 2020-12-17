@@ -46,10 +46,10 @@ recovered_cum <- read.csv("recovered_cumulative.csv",
                           stringsAsFactors = FALSE)
 testing_cum <- read.csv("testing_cumulative.csv",
                         stringsAsFactors = FALSE)
-vaccine_administration_cumulative <- read.csv("vaccine_administration_cumulative.csv",
-                                              stringsAsFactors = FALSE)
-vaccine_distribution_cumulative <- read.csv("vaccine_distribution_cumulative.csv",
-                                            stringsAsFactors = FALSE)
+vaccine_administration_cum <- read.csv("vaccine_administration_cumulative.csv",
+                                       stringsAsFactors = FALSE)
+vaccine_distribution_cum <- read.csv("vaccine_distribution_cumulative.csv",
+                                     stringsAsFactors = FALSE)
 
 # load other files
 
@@ -82,7 +82,7 @@ mortality_death_source <- read.csv("mortality_extra/mortality_death_source.csv",
                                    ))
 
 # convert dates to standard format for manipulation
-convert_dates("cases", "mortality", "recovered_cum", "testing_cum", "vaccine_administration_cumulative", "vaccine_distribution_cumulative", date_format_out = "%Y-%m-%d")
+convert_dates("cases", "mortality", "recovered_cum", "testing_cum", "vaccine_administration_cum", "vaccine_distribution_cum", date_format_out = "%Y-%m-%d")
 
 # define parameters
 
@@ -95,6 +95,8 @@ date_min_cases <- min(cases$date_report)
 date_min_mortality <- min(mortality$date_death_report)
 date_min_recovered <- min(recovered_cum$date_recovered)
 date_min_testing <- min(testing_cum$date_testing)
+date_min_vaccine_administration <- min(vaccine_administration_cum$date_vaccine_administered)
+date_min_vaccine_distribution <- min(vaccine_distribution_cum$date_vaccine_distributed)
 
 # create time series
 
@@ -120,6 +122,14 @@ testing_ts_canada <- create_ts(testing_cum, "testing", "canada", date_min_testin
 active_ts_prov <- create_ts_active(cases_ts_prov, recovered_ts_prov, mortality_ts_prov, "prov")
 active_ts_canada <- create_ts_active(cases_ts_canada, recovered_ts_canada, mortality_ts_canada, "canada")
 
+## vaccine administration time series
+vaccine_administration_ts_prov <- create_ts(vaccine_administration_cum, "vaccine_administration", "prov", date_min_vaccine_administration)
+vaccine_administration_ts_canada <- create_ts(vaccine_administration_cum, "vaccine_administration", "canada", date_min_vaccine_administration)
+
+## vaccine distribution time series
+vaccine_distribution_ts_prov <- create_ts(vaccine_distribution_cum, "vaccine_distribution", "prov", date_min_vaccine_distribution)
+vaccine_distribution_ts_canada <- create_ts(vaccine_distribution_cum, "vaccine_distribution", "canada", date_min_vaccine_distribution)
+
 # abbreviate "case_source" (cases.csv) and "death_source" (mortality.csv)
 abbreviate_source(cases, cases_case_source, "case_source")
 abbreviate_source(mortality, mortality_death_source, "death_source")
@@ -128,7 +138,7 @@ abbreviate_source(mortality, mortality_death_source, "death_source")
 convert_dates("cases", "mortality", "recovered_cum", "testing_cum",
               "cases_ts_canada", "mortality_ts_canada", "recovered_ts_canada", "testing_ts_canada", "active_ts_canada",
               "cases_ts_prov", "mortality_ts_prov", "recovered_ts_prov", "testing_ts_prov", "active_ts_prov",
-              "cases_ts_hr", "mortality_ts_hr", "vaccine_administration_cumulative", "vaccine_distribution_cumulative",
+              "cases_ts_hr", "mortality_ts_hr", "vaccine_administration_cum", "vaccine_distribution_cum",
               date_format_out = "%d-%m-%Y")
 
 # write generated files
@@ -150,5 +160,9 @@ write.csv(testing_ts_prov, "timeseries_prov/testing_timeseries_prov.csv", row.na
 write.csv(testing_ts_canada, "timeseries_canada/testing_timeseries_canada.csv", row.names = FALSE)
 write.csv(active_ts_prov, "timeseries_prov/active_timeseries_prov.csv", row.names = FALSE)
 write.csv(active_ts_canada, "timeseries_canada/active_timeseries_canada.csv", row.names = FALSE)
-write.csv(vaccine_administration_cumulative, "vaccine_administration_cumulative.csv", row.names = FALSE)
-write.csv(vaccine_distribution_cumulative, "vaccine_distribution_cumulative.csv", row.names = FALSE)
+write.csv(vaccine_administration_cum, "vaccine_administration_cumulative.csv", row.names = FALSE)
+write.csv(vaccine_administration_ts_prov, "timeseries_prov/vaccine_administration_prov.csv", row.names = FALSE)
+write.csv(vaccine_administration_ts_canada, "timeseries_canada/vaccine_administration_canada.csv", row.names = FALSE)
+write.csv(vaccine_distribution_cum, "vaccine_distribution_cumulative.csv", row.names = FALSE)
+write.csv(vaccine_distribution_ts_prov, "timeseries_prov/vaccine_distribution_prov.csv", row.names = FALSE)
+write.csv(vaccine_distribution_ts_canada, "timeseries_canada/vaccine_distribution_canada.csv", row.names = FALSE)
