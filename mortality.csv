@@ -13980,17 +13980,17 @@
 13979,813,NA,"Not Reported","Not Reported","North","Alberta","Canada","18-12-2020","AB8",NA,NA
 13980,814,NA,"Not Reported","Not Reported","South","Alberta","Canada","18-12-2020","AB8",NA,NA
 13981,815,NA,"Not Reported","Not Reported","North","Alberta","Canada","18-12-2020","AB8",NA,NA
-13982,714,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","18-12-2020","BC162",NA,NA
-13983,715,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","18-12-2020","BC163",NA,NA
-13984,716,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","18-12-2020","BC164",NA,NA
-13985,717,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","18-12-2020","BC165",NA,NA
-13986,718,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","18-12-2020","BC166",NA,NA
-13987,719,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","18-12-2020","BC167",NA,NA
-13988,720,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","18-12-2020","BC168",NA,NA
-13989,721,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","18-12-2020","BC169",NA,NA
-13990,722,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","18-12-2020","BC170",NA,NA
-13991,723,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","18-12-2020","BC171",NA,NA
-13992,724,NA,"Not Reported","Not Reported","Not Reported","BC","Canada","18-12-2020","BC172",NA,NA
+13982,714,NA,"Not Reported","Not Reported","Fraser","BC","Canada","18-12-2020","BC162",NA,NA
+13983,715,NA,"Not Reported","Not Reported","Fraser","BC","Canada","18-12-2020","BC163",NA,NA
+13984,716,NA,"Not Reported","Not Reported","Fraser","BC","Canada","18-12-2020","BC164",NA,NA
+13985,717,NA,"Not Reported","Not Reported","Fraser","BC","Canada","18-12-2020","BC165",NA,NA
+13986,718,NA,"Not Reported","Not Reported","Fraser","BC","Canada","18-12-2020","BC166",NA,NA
+13987,719,NA,"Not Reported","Not Reported","Fraser","BC","Canada","18-12-2020","BC167",NA,NA
+13988,720,NA,"Not Reported","Not Reported","Vancouver Coastal","BC","Canada","18-12-2020","BC168",NA,NA
+13989,721,NA,"Not Reported","Not Reported","Vancouver Coastal","BC","Canada","18-12-2020","BC169",NA,NA
+13990,722,NA,"Not Reported","Not Reported","Vancouver Coastal","BC","Canada","18-12-2020","BC170",NA,NA
+13991,723,NA,"Not Reported","Not Reported","Vancouver Coastal","BC","Canada","18-12-2020","BC171",NA,NA
+13992,724,NA,"Not Reported","Not Reported","Island","BC","Canada","18-12-2020","BC172",NA,NA
 13993,538,NA,"40-49","Male","Southern Health","Manitoba","Canada","18-12-2020","MB7",NA,NA
 13994,539,NA,"50-59","Male","Southern Health","Manitoba","Canada","18-12-2020","MB7","Morris General Hospital",NA
 13995,540,NA,"60-69","Female","Winnipeg","Manitoba","Canada","18-12-2020","MB7",NA,NA
@@ -14070,3 +14070,130 @@
 14069,4127,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","18-12-2020","ON79",NA,NA
 14070,4128,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","18-12-2020","ON26",NA,NA
 14071,4129,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","18-12-2020","ON26",NA,NA
+14072,816,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","19-12-2020","AB8",NA,NA
+14073,817,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","19-12-2020","AB8",NA,NA
+14074,818,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","19-12-2020","AB8",NA,NA
+14075,819,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","19-12-2020","AB8",NA,NA
+14076,820,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","19-12-2020","AB8",NA,NA
+14077,821,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","19-12-2020","AB8",NA,NA
+14078,822,NA,"Not Reported","Not Reported","Central","Alberta","Canada","19-12-2020","AB8",NA,NA
+14079,823,NA,"Not Reported","Not Reported","North","Alberta","Canada","19-12-2020","AB8",NA,NA
+14080,824,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","19-12-2020","AB8",NA,NA
+14081,825,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","19-12-2020","AB8",NA,NA
+14082,826,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","19-12-2020","AB8",NA,NA
+14083,827,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","19-12-2020","AB8",NA,NA
+14084,828,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","19-12-2020","AB8",NA,NA
+14085,829,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","19-12-2020","AB8",NA,NA
+14086,830,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","19-12-2020","AB8",NA,NA
+14087,831,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","19-12-2020","AB8",NA,NA
+14088,832,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","19-12-2020","AB8",NA,NA
+14089,833,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","19-12-2020","AB8",NA,NA
+14090,834,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","19-12-2020","AB8",NA,NA
+14091,835,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","19-12-2020","AB8",NA,NA
+14092,836,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","19-12-2020","AB8",NA,NA
+14093,837,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","19-12-2020","AB8",NA,NA
+14094,838,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","19-12-2020","AB8",NA,NA
+14095,839,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","19-12-2020","AB8",NA,NA
+14096,840,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","19-12-2020","AB8",NA,NA
+14097,841,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","19-12-2020","AB8",NA,NA
+14098,548,NA,"70-79","Female","Interlake-Eastern","Manitoba","Canada","19-12-2020","MB7",NA,NA
+14099,549,NA,"60-69","Female","Northern","Manitoba","Canada","19-12-2020","MB7",NA,NA
+14100,550,NA,"70-79","Female","Southern Health","Manitoba","Canada","19-12-2020","MB7","linked to an outbreak at Morris General Hospital;",NA
+14101,551,NA,"50-59","Female","Winnipeg","Manitoba","Canada","19-12-2020","MB7",NA,NA
+14102,552,NA,"70-79","Female","Winnipeg","Manitoba","Canada","19-12-2020","MB7","linked to an outbreak at Fred Douglas Lodge;",NA
+14103,553,NA,"80-89","Female","Winnipeg","Manitoba","Canada","19-12-2020","MB7",NA,NA
+14104,554,NA,"80-89","Female","Winnipeg","Manitoba","Canada","19-12-2020","MB7","linked to an outbreak at Fred Douglas Lodge;",NA
+14105,555,NA,"80-89","Male","Winnipeg","Manitoba","Canada","19-12-2020","MB7",NA,NA
+14106,556,NA,"90-99","Female","Winnipeg","Manitoba","Canada","19-12-2020","MB7","linked to an outbreak at Park Manor Care.",NA
+14107,108,NA,"50-59","Not Reported","North","Saskatchewan","Canada","19-12-2020","SK173","North Central",NA
+14108,109,NA,"60-69","Not Reported","North","Saskatchewan","Canada","19-12-2020","SK173","North Central",NA
+14109,110,NA,"70-79","Not Reported","Saskatoon","Saskatchewan","Canada","19-12-2020","SK173",NA,NA
+14110,111,NA,"70-79","Not Reported","Regina","Saskatchewan","Canada","19-12-2020","SK173",NA,NA
+14111,112,NA,"70-79","Not Reported","Regina","Saskatchewan","Canada","19-12-2020","SK173",NA,NA
+14112,113,NA,"80-89","Not Reported","Saskatoon","Saskatchewan","Canada","19-12-2020","SK173",NA,NA
+14113,114,NA,"80-89","Not Reported","Regina","Saskatchewan","Canada","19-12-2020","SK173","South Central",NA
+14114,115,NA,"80-89","Not Reported","South","Saskatchewan","Canada","19-12-2020","SK173",NA,NA
+14115,7672,NA,"Not Reported","Not Reported","Saguenay","Quebec","Canada","19-12-2020","QC16",NA,NA
+14116,7673,NA,"Not Reported","Not Reported","Outaouais","Quebec","Canada","19-12-2020","QC16",NA,NA
+14117,7674,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-12-2020","QC16",NA,NA
+14118,7675,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-12-2020","QC16",NA,NA
+14119,7676,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-12-2020","QC16",NA,NA
+14120,7677,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-12-2020","QC16",NA,NA
+14121,7678,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-12-2020","QC16",NA,NA
+14122,7679,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-12-2020","QC16",NA,NA
+14123,7680,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-12-2020","QC16",NA,NA
+14124,7681,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-12-2020","QC16",NA,NA
+14125,7682,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","19-12-2020","QC16",NA,NA
+14126,7683,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","19-12-2020","QC16",NA,NA
+14127,7684,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","19-12-2020","QC16",NA,NA
+14128,7685,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","19-12-2020","QC16",NA,NA
+14129,7686,NA,"Not Reported","Not Reported","Mauricie","Quebec","Canada","19-12-2020","QC16",NA,NA
+14130,7687,NA,"Not Reported","Not Reported","Mauricie","Quebec","Canada","19-12-2020","QC16",NA,NA
+14131,7688,NA,"Not Reported","Not Reported","Mauricie","Quebec","Canada","19-12-2020","QC16",NA,NA
+14132,7689,NA,"Not Reported","Not Reported","Mauricie","Quebec","Canada","19-12-2020","QC16",NA,NA
+14133,7690,NA,"Not Reported","Not Reported","Mauricie","Quebec","Canada","19-12-2020","QC16",NA,NA
+14134,7691,NA,"Not Reported","Not Reported","Mauricie","Quebec","Canada","19-12-2020","QC16",NA,NA
+14135,7692,NA,"Not Reported","Not Reported","Laval","Quebec","Canada","19-12-2020","QC16",NA,NA
+14136,7693,NA,"Not Reported","Not Reported","Laurentides","Quebec","Canada","19-12-2020","QC16",NA,NA
+14137,7694,NA,"Not Reported","Not Reported","Laurentides","Quebec","Canada","19-12-2020","QC16",NA,NA
+14138,7695,NA,"Not Reported","Not Reported","Lanaudière","Quebec","Canada","19-12-2020","QC16",NA,NA
+14139,7696,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","19-12-2020","QC16",NA,NA
+14140,7697,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","19-12-2020","QC16",NA,NA
+14141,7698,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","19-12-2020","QC16",NA,NA
+14142,7699,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","19-12-2020","QC16",NA,NA
+14143,7700,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","19-12-2020","QC16",NA,NA
+14144,7701,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","19-12-2020","QC16",NA,NA
+14145,7702,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","19-12-2020","QC16",NA,NA
+14146,7703,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","19-12-2020","QC16",NA,NA
+14147,7704,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","19-12-2020","QC16",NA,NA
+14148,7705,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","19-12-2020","QC16",NA,NA
+14149,7706,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","19-12-2020","QC16",NA,NA
+14150,7707,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","19-12-2020","QC16",NA,NA
+14151,7708,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","19-12-2020","QC16",NA,NA
+14152,7709,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","19-12-2020","QC16",NA,NA
+14153,7710,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","19-12-2020","QC16",NA,NA
+14154,7711,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","19-12-2020","QC16",NA,NA
+14155,7712,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","19-12-2020","QC16",NA,NA
+14156,7713,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","19-12-2020","QC16",NA,NA
+14157,7714,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","19-12-2020","QC16",NA,NA
+14158,7715,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","19-12-2020","QC16",NA,NA
+14159,4130,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","19-12-2020","ON26",NA,NA
+14160,4131,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","19-12-2020","ON129",NA,NA
+14161,4132,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","19-12-2020","ON130",NA,NA
+14162,4133,NA,"Not Reported","Not Reported","Halton","Ontario","Canada","19-12-2020","ON105",NA,NA
+14163,4134,NA,"Not Reported","Not Reported","Halton","Ontario","Canada","19-12-2020","ON105",NA,NA
+14164,4135,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","19-12-2020","ON79",NA,NA
+14165,4136,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","19-12-2020","ON79",NA,NA
+14166,4137,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","19-12-2020","ON79",NA,NA
+14167,4138,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","19-12-2020","ON79",NA,NA
+14168,4139,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","19-12-2020","ON79",NA,NA
+14169,4140,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","19-12-2020","ON79",NA,NA
+14170,4141,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","19-12-2020","ON79",NA,NA
+14171,4142,NA,"Not Reported","Not Reported","Lambton","Ontario","Canada","19-12-2020","ON42",NA,NA
+14172,4143,NA,"Not Reported","Not Reported","Middlesex-London","Ontario","Canada","19-12-2020","ON109",NA,NA
+14173,4144,NA,"Not Reported","Not Reported","Middlesex-London","Ontario","Canada","19-12-2020","ON173",NA,NA
+14174,4145,NA,"Not Reported","Not Reported","Middlesex-London","Ontario","Canada","19-12-2020","ON174",NA,NA
+14175,4146,NA,"Not Reported","Not Reported","Middlesex-London","Ontario","Canada","19-12-2020","ON175",NA,NA
+14176,4147,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","19-12-2020","ON75",NA,NA
+14177,4148,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","19-12-2020","ON68",NA,NA
+14178,4149,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","19-12-2020","ON68",NA,NA
+14179,4150,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","19-12-2020","ON68",NA,NA
+14180,4151,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","19-12-2020","ON68",NA,NA
+14181,4152,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","19-12-2020","ON68",NA,NA
+14182,4153,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","19-12-2020","ON68",NA,NA
+14183,4154,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","19-12-2020","ON68",NA,NA
+14184,4155,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","19-12-2020","ON68",NA,NA
+14185,4156,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","19-12-2020","ON68",NA,NA
+14186,4157,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","19-12-2020","ON68",NA,NA
+14187,4158,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","19-12-2020","ON68",NA,NA
+14188,4159,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","19-12-2020","ON68",NA,NA
+14189,4160,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","19-12-2020","ON68",NA,NA
+14190,4161,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","19-12-2020","ON68",NA,NA
+14191,4162,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","19-12-2020","ON68",NA,NA
+14192,4163,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","19-12-2020","ON68",NA,NA
+14193,4164,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","19-12-2020","ON68",NA,NA
+14194,4165,NA,"Not Reported","Not Reported","York","Ontario","Canada","19-12-2020","ON176",NA,NA
+14195,4166,NA,"Not Reported","Not Reported","York","Ontario","Canada","19-12-2020","ON176",NA,NA
+14196,4167,NA,"Not Reported","Not Reported","York","Ontario","Canada","19-12-2020","ON176",NA,NA
+14197,4168,NA,"Not Reported","Not Reported","York","Ontario","Canada","19-12-2020","ON176",NA,NA
+14198,4169,NA,"Not Reported","Not Reported","Waterloo","Ontario","Canada","19-12-2020","ON51",NA,NA
