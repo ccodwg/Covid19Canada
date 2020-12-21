@@ -685,10 +685,15 @@
 "Saskatchewan","Central East","18-12-2020",0,496
 "Saskatchewan","Central East","18-12-2020",2,496
 "Saskatchewan","Central East","19-12-2020",1,496
-"Saskatchewan","Central East","19-12-2020",17,158
-"Saskatchewan","Central East","19-12-2020",3,158
-"Saskatchewan","Central East","19-12-2020",2,158
-"Saskatchewan","Central East","19-12-2020",1,158
+"Saskatchewan","Central East","19-12-2020",17,526
+"Saskatchewan","Central East","19-12-2020",3,526
+"Saskatchewan","Central East","19-12-2020",2,526
+"Saskatchewan","Central East","19-12-2020",1,526
+"Saskatchewan","Central East","20-12-2020",0,526
+"Saskatchewan","Central East","20-12-2020",9,158
+"Saskatchewan","Central East","20-12-2020",9,158
+"Saskatchewan","Central East","20-12-2020",2,158
+"Saskatchewan","Central East","20-12-2020",10,158
 "Saskatchewan","Central West","04-08-2020",0,158
 "Saskatchewan","Central West","04-08-2020",0,159
 "Saskatchewan","Central West","05-08-2020",1,159
@@ -964,7 +969,9 @@
 "Saskatchewan","Central West","18-12-2020",3,325
 "Saskatchewan","Central West","18-12-2020",2,330
 "Saskatchewan","Central West","19-12-2020",3,330
-"Saskatchewan","Central West","19-12-2020",2,0
+"Saskatchewan","Central West","19-12-2020",2,330
+"Saskatchewan","Central West","20-12-2020",0,330
+"Saskatchewan","Central West","20-12-2020",0,0
 "Saskatchewan","Far North Central","04-08-2020",0,0
 "Saskatchewan","Far North Central","05-08-2020",0,0
 "Saskatchewan","Far North Central","06-08-2020",0,0
@@ -1103,6 +1110,7 @@
 "Saskatchewan","Far North Central","17-12-2020",1,97
 "Saskatchewan","Far North Central","18-12-2020",1,99
 "Saskatchewan","Far North Central","19-12-2020",3,102
+"Saskatchewan","Far North Central","20-12-2020",0,103
 "Saskatchewan","Far North East","04-08-2020",0,6
 "Saskatchewan","Far North East","04-08-2020",0,6
 "Saskatchewan","Far North East","05-08-2020",0,6
@@ -1378,7 +1386,9 @@
 "Saskatchewan","Far North East","18-12-2020",24,486
 "Saskatchewan","Far North East","18-12-2020",4,504
 "Saskatchewan","Far North East","19-12-2020",12,504
-"Saskatchewan","Far North East","19-12-2020",5,346
+"Saskatchewan","Far North East","19-12-2020",5,519
+"Saskatchewan","Far North East","20-12-2020",10,519
+"Saskatchewan","Far North East","20-12-2020",5,346
 "Saskatchewan","Far North West","04-08-2020",0,346
 "Saskatchewan","Far North West","04-08-2020",0,346
 "Saskatchewan","Far North West","05-08-2020",0,346
@@ -1654,7 +1664,9 @@
 "Saskatchewan","Far North West","18-12-2020",2,810
 "Saskatchewan","Far North West","18-12-2020",10,819
 "Saskatchewan","Far North West","19-12-2020",2,819
-"Saskatchewan","Far North West","19-12-2020",7,63
+"Saskatchewan","Far North West","19-12-2020",7,825
+"Saskatchewan","Far North West","20-12-2020",3,825
+"Saskatchewan","Far North West","20-12-2020",3,63
 "Saskatchewan","North Central","04-08-2020",1,63
 "Saskatchewan","North Central","04-08-2020",0,63
 "Saskatchewan","North Central","04-08-2020",0,63
@@ -2067,8 +2079,11 @@
 "Saskatchewan","North Central","18-12-2020",13,1406
 "Saskatchewan","North Central","18-12-2020",0,1406
 "Saskatchewan","North Central","19-12-2020",8,1406
-"Saskatchewan","North Central","19-12-2020",24,62
-"Saskatchewan","North Central","19-12-2020",10,62
+"Saskatchewan","North Central","19-12-2020",24,1446
+"Saskatchewan","North Central","19-12-2020",10,1446
+"Saskatchewan","North Central","20-12-2020",5,1446
+"Saskatchewan","North Central","20-12-2020",20,62
+"Saskatchewan","North Central","20-12-2020",13,62
 "Saskatchewan","North East","04-08-2020",0,62
 "Saskatchewan","North East","04-08-2020",0,65
 "Saskatchewan","North East","04-08-2020",0,65
@@ -2481,8 +2496,11 @@
 "Saskatchewan","North East","18-12-2020",10,438
 "Saskatchewan","North East","18-12-2020",2,438
 "Saskatchewan","North East","19-12-2020",3,438
-"Saskatchewan","North East","19-12-2020",6,96
-"Saskatchewan","North East","19-12-2020",3,96
+"Saskatchewan","North East","19-12-2020",6,443
+"Saskatchewan","North East","19-12-2020",3,443
+"Saskatchewan","North East","20-12-2020",1,443
+"Saskatchewan","North East","20-12-2020",4,96
+"Saskatchewan","North East","20-12-2020",0,96
 "Saskatchewan","North West","04-08-2020",0,96
 "Saskatchewan","North West","04-08-2020",0,98
 "Saskatchewan","North West","04-08-2020",0,98
@@ -3032,9 +3050,13 @@
 "Saskatchewan","North West","18-12-2020",15,1180
 "Saskatchewan","North West","18-12-2020",8,1180
 "Saskatchewan","North West","19-12-2020",5,1180
-"Saskatchewan","North West","19-12-2020",30,99
-"Saskatchewan","North West","19-12-2020",3,99
-"Saskatchewan","North West","19-12-2020",3,99
+"Saskatchewan","North West","19-12-2020",30,1210
+"Saskatchewan","North West","19-12-2020",3,1210
+"Saskatchewan","North West","19-12-2020",3,1210
+"Saskatchewan","North West","20-12-2020",7,1210
+"Saskatchewan","North West","20-12-2020",10,99
+"Saskatchewan","North West","20-12-2020",9,99
+"Saskatchewan","North West","20-12-2020",4,99
 "Saskatchewan","Regina","04-08-2020",4,99
 "Saskatchewan","Regina","05-08-2020",2,100
 "Saskatchewan","Regina","06-08-2020",0,100
@@ -3173,6 +3195,7 @@
 "Saskatchewan","Regina","17-12-2020",40,2564
 "Saskatchewan","Regina","18-12-2020",42,2606
 "Saskatchewan","Regina","19-12-2020",29,2635
+"Saskatchewan","Regina","20-12-2020",32,2668
 "Saskatchewan","Saskatoon","04-08-2020",2,216
 "Saskatchewan","Saskatoon","05-08-2020",2,217
 "Saskatchewan","Saskatoon","06-08-2020",1,218
@@ -3311,6 +3334,7 @@
 "Saskatchewan","Saskatoon","17-12-2020",81,3790
 "Saskatchewan","Saskatoon","18-12-2020",46,3836
 "Saskatchewan","Saskatoon","19-12-2020",57,3896
+"Saskatchewan","Saskatoon","20-12-2020",55,3951
 "Saskatchewan","South Central","04-08-2020",0,134
 "Saskatchewan","South Central","04-08-2020",0,134
 "Saskatchewan","South Central","05-08-2020",0,134
@@ -3586,7 +3610,9 @@
 "Saskatchewan","South Central","18-12-2020",1,510
 "Saskatchewan","South Central","18-12-2020",6,514
 "Saskatchewan","South Central","19-12-2020",3,514
-"Saskatchewan","South Central","19-12-2020",1,11
+"Saskatchewan","South Central","19-12-2020",1,519
+"Saskatchewan","South Central","20-12-2020",0,519
+"Saskatchewan","South Central","20-12-2020",5,11
 "Saskatchewan","South East","04-08-2020",0,11
 "Saskatchewan","South East","04-08-2020",0,11
 "Saskatchewan","South East","04-08-2020",0,11
@@ -4136,9 +4162,13 @@
 "Saskatchewan","South East","18-12-2020",0,418
 "Saskatchewan","South East","18-12-2020",0,418
 "Saskatchewan","South East","19-12-2020",2,418
-"Saskatchewan","South East","19-12-2020",1,149
-"Saskatchewan","South East","19-12-2020",0,149
-"Saskatchewan","South East","19-12-2020",1,149
+"Saskatchewan","South East","19-12-2020",1,424
+"Saskatchewan","South East","19-12-2020",0,424
+"Saskatchewan","South East","19-12-2020",1,424
+"Saskatchewan","South East","20-12-2020",6,424
+"Saskatchewan","South East","20-12-2020",0,149
+"Saskatchewan","South East","20-12-2020",0,149
+"Saskatchewan","South East","20-12-2020",0,149
 "Saskatchewan","South West","04-08-2020",1,149
 "Saskatchewan","South West","04-08-2020",0,149
 "Saskatchewan","South West","05-08-2020",0,149
@@ -4414,4 +4444,6 @@
 "Saskatchewan","South West","18-12-2020",0,547
 "Saskatchewan","South West","18-12-2020",2,549
 "Saskatchewan","South West","19-12-2020",1,549
-"Saskatchewan","South West","19-12-2020",1,NA
+"Saskatchewan","South West","19-12-2020",1,549
+"Saskatchewan","South West","20-12-2020",0,549
+"Saskatchewan","South West","20-12-2020",0,NA
