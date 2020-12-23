@@ -3048,7 +3048,7 @@
 3047,1759,NA,"Not Reported","Not Reported","Lanaudière","Quebec","Canada","29-04-2020","QC15",NA,NA
 3048,1760,NA,"Not Reported","Not Reported","Lanaudière","Quebec","Canada","29-04-2020","QC15",NA,NA
 3049,1761,NA,"Not Reported","Not Reported","Lanaudière","Quebec","Canada","29-04-2020","QC15",NA,NA
-3050,6,NA,"80-89","Female","Saskatoon","Saskatchewan","Canada","29-04-2020","SK4",NA,"https://www.cbc.ca/news/canada/saskatchewan/covid-sask-deaths-1.5530862"
+3050,6,NA,"80-89","Female","Far North","Saskatchewan","Canada","29-04-2020","SK4","22-12-2020: reassigned from Saskatoon to Far North West as per change on website","https://www.cbc.ca/news/canada/saskatchewan/covid-sask-deaths-1.5530862"
 3051,1051,NA,"Not Reported","Not Reported","Halton","Ontario","Canada","29-04-2020","ON76",NA,NA
 3052,1052,NA,"Not Reported","Not Reported","Hastings Prince Edward","Ontario","Canada","29-04-2020","ON78",NA,NA
 3053,1053,NA,"70-79","Male","Middlesex-London","Ontario","Canada","29-04-2020","ON46",NA,NA
@@ -14372,3 +14372,107 @@
 14371,4205,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","21-12-2020","ON79",NA,NA
 14372,4206,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","21-12-2020","ON79",NA,NA
 14373,4207,NA,"Not Reported","Not Reported","Simcoe Muskoka","Ontario","Canada","21-12-2020","ON52",NA,NA
+14374,861,NA,"70-79","Female","Calgary","Alberta","Canada","22-12-2020","AB8","linked to outbreak at Agecare Walden Heights","https://globalnews.ca/news/7537416/alberta-covid-19-update-december-22/"
+14375,862,NA,"40-49","Male","Central","Alberta","Canada","22-12-2020","AB8",NA,"https://globalnews.ca/news/7537416/alberta-covid-19-update-december-22/"
+14376,863,NA,"60-69","Male","Central","Alberta","Canada","22-12-2020","AB8","linked to outbreak at Points West Living","https://globalnews.ca/news/7537416/alberta-covid-19-update-december-22/"
+14377,864,NA,"80-89","Male","Calgary","Alberta","Canada","22-12-2020","AB8","linked to outbreak at Clifton Manor Care Home","https://globalnews.ca/news/7537416/alberta-covid-19-update-december-22/"
+14378,865,NA,"80-89","Female","Edmonton","Alberta","Canada","22-12-2020","AB8","linked to outbreak at Salem Manor","https://globalnews.ca/news/7537416/alberta-covid-19-update-december-22/"
+14379,866,NA,"70-79","Male","Edmonton","Alberta","Canada","22-12-2020","AB8","linked to outbreak at Miller Crossing Care Centre","https://globalnews.ca/news/7537416/alberta-covid-19-update-december-22/"
+14380,867,NA,"70-79","Male","Edmonton","Alberta","Canada","22-12-2020","AB8","linked to outbreak at Rivercrest Care Home","https://globalnews.ca/news/7537416/alberta-covid-19-update-december-22/"
+14381,868,NA,"80-89","Male","Edmonton","Alberta","Canada","22-12-2020","AB8","linked to outbreak at Rosedale Estates","https://globalnews.ca/news/7537416/alberta-covid-19-update-december-22/"
+14382,869,NA,"90-99","Female","North","Alberta","Canada","22-12-2020","AB8","linked to outbreak at Jasper Alpine Summit Seniors Lodge","https://globalnews.ca/news/7537416/alberta-covid-19-update-december-22/"
+14383,870,NA,">100","Female","North","Alberta","Canada","22-12-2020","AB8","linked to outbreak at Jasper Alpine Summit Seniors Lodge","https://globalnews.ca/news/7537416/alberta-covid-19-update-december-22/"
+14384,871,NA,"70-79","Female","South","Alberta","Canada","22-12-2020","AB8",NA,"https://globalnews.ca/news/7537416/alberta-covid-19-update-december-22/"
+14385,766,NA,"Not Reported","Not Reported","Vancouver Coastal","BC","Canada","22-12-2020","BC178",NA,NA
+14386,767,NA,"Not Reported","Not Reported","Vancouver Coastal","BC","Canada","22-12-2020","BC178",NA,NA
+14387,768,NA,"Not Reported","Not Reported","Northern","BC","Canada","22-12-2020","BC178",NA,NA
+14388,769,NA,"Not Reported","Not Reported","Fraser","BC","Canada","22-12-2020","BC178",NA,NA
+14389,770,NA,"Not Reported","Not Reported","Fraser","BC","Canada","22-12-2020","BC178",NA,NA
+14390,771,NA,"Not Reported","Not Reported","Fraser","BC","Canada","22-12-2020","BC178",NA,NA
+14391,772,NA,"Not Reported","Not Reported","Fraser","BC","Canada","22-12-2020","BC178",NA,NA
+14392,773,NA,"Not Reported","Not Reported","Fraser","BC","Canada","22-12-2020","BC178",NA,NA
+14393,774,NA,"Not Reported","Not Reported","Fraser","BC","Canada","22-12-2020","BC178",NA,NA
+14394,775,NA,"Not Reported","Not Reported","Fraser","BC","Canada","22-12-2020","BC178",NA,NA
+14395,776,NA,"Not Reported","Not Reported","Fraser","BC","Canada","22-12-2020","BC178",NA,NA
+14396,777,NA,"Not Reported","Not Reported","Fraser","BC","Canada","22-12-2020","BC178",NA,NA
+14397,574,NA,"80-89","Female","Interlake-Eastern","Manitoba","Canada","22-12-2020","MB7","linked to outbreak at Kin Place",NA
+14398,575,NA,"80-89","Female","Prairie Mountain","Manitoba","Canada","22-12-2020","MB7","linked to outbreak at Fairview Home",NA
+14399,576,NA,"90-99","Female","Prairie Mountain","Manitoba","Canada","22-12-2020","MB7","linked to outbreak at Grandview Personal Care",NA
+14400,577,NA,"100-109","Female","Southern Health","Manitoba","Canada","22-12-2020","MB7",NA,NA
+14401,578,NA,"60-69","Female","Winnipeg","Manitoba","Canada","22-12-2020","MB7","linked to outbreak at Charleswood Care Centre",NA
+14402,579,NA,"70-79","Male","Winnipeg","Manitoba","Canada","22-12-2020","MB7",NA,NA
+14403,580,NA,"70-79","Male","Winnipeg","Manitoba","Canada","22-12-2020","MB7",NA,NA
+14404,581,NA,"80-89","Female","Winnipeg","Manitoba","Canada","22-12-2020","MB7",NA,NA
+14405,582,NA,"80-89","Female","Winnipeg","Manitoba","Canada","22-12-2020","MB7","linked to oubreak at Oakview Place",NA
+14406,583,NA,"80-89","Male","Winnipeg","Manitoba","Canada","22-12-2020","MB7","linked to oubreak at Oakview Place",NA
+14407,584,NA,"80-89","Male","Winnipeg","Manitoba","Canada","22-12-2020","MB7","linked to outbreak at St. Norbert Personal Care home",NA
+14408,585,NA,"90-99","Female","Winnipeg","Manitoba","Canada","22-12-2020","MB7",NA,NA
+14409,586,NA,"90-99","Female","Winnipeg","Manitoba","Canada","22-12-2020","MB7","linked to outbreak at Oakview Place personal care home",NA
+14410,587,NA,"90-99","Female","Winnipeg","Manitoba","Canada","22-12-2020","MB7","linked to outbreak at Oakview Place personal care home",NA
+14411,588,NA,"90-99","Female","Winnipeg","Manitoba","Canada","22-12-2020","MB7","linked to outbreak at Oakview Place personal care home",NA
+14412,589,NA,"90-99","Female","Winnipeg","Manitoba","Canada","22-12-2020","MB7","linked to outbreak at Concordia Hospital (N3E Family Med Unit)",NA
+14413,590,NA,"90-99","Female","Winnipeg","Manitoba","Canada","22-12-2020","MB7","linked to oubreak at Oakview Place personal care home",NA
+14414,591,NA,"90-99","Male","Winnipeg","Manitoba","Canada","22-12-2020","MB7","linked to outbreak at Oakview Place personal care home",NA
+14415,123,NA,">80","Not Reported","Regina","Saskatchewan","Canada","22-12-2020","SK8",NA,"https://globalnews.ca/news/7537682/coronavirus-deaths-cases-covid-19-saskatchewan-dec-22/"
+14416,124,NA,">80","Not Reported","Regina","Saskatchewan","Canada","22-12-2020","SK8",NA,"https://globalnews.ca/news/7537682/coronavirus-deaths-cases-covid-19-saskatchewan-dec-22/"
+14417,125,NA,">80","Not Reported","North","Saskatchewan","Canada","22-12-2020","SK8","North West","https://globalnews.ca/news/7537682/coronavirus-deaths-cases-covid-19-saskatchewan-dec-22/"
+14418,7767,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","22-12-2020","QC16",NA,NA
+14419,7768,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","22-12-2020","QC16",NA,NA
+14420,7769,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","22-12-2020","QC16",NA,NA
+14421,7770,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","22-12-2020","QC16",NA,NA
+14422,7771,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","22-12-2020","QC16",NA,NA
+14423,7772,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","22-12-2020","QC16",NA,NA
+14424,7773,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","22-12-2020","QC16",NA,NA
+14425,7774,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","22-12-2020","QC16",NA,NA
+14426,7775,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","22-12-2020","QC16",NA,NA
+14427,7776,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","22-12-2020","QC16",NA,NA
+14428,7777,NA,"Not Reported","Not Reported","Chaudière-Appalaches","Quebec","Canada","22-12-2020","QC16",NA,NA
+14429,7778,NA,"Not Reported","Not Reported","Chaudière-Appalaches","Quebec","Canada","22-12-2020","QC16",NA,NA
+14430,7779,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","22-12-2020","QC16",NA,NA
+14431,7780,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","22-12-2020","QC16",NA,NA
+14432,7781,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","22-12-2020","QC16",NA,NA
+14433,7782,NA,"Not Reported","Not Reported","Lanaudière","Quebec","Canada","22-12-2020","QC16",NA,NA
+14434,7783,NA,"Not Reported","Not Reported","Mauricie","Quebec","Canada","22-12-2020","QC16",NA,NA
+14435,7784,NA,"Not Reported","Not Reported","Mauricie","Quebec","Canada","22-12-2020","QC16",NA,NA
+14436,7785,NA,"Not Reported","Not Reported","Mauricie","Quebec","Canada","22-12-2020","QC16",NA,NA
+14437,7786,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","22-12-2020","QC16",NA,NA
+14438,7787,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","22-12-2020","QC16",NA,NA
+14439,7788,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","22-12-2020","QC16",NA,NA
+14440,7789,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","22-12-2020","QC16",NA,NA
+14441,7790,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","22-12-2020","QC16",NA,NA
+14442,7791,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-12-2020","QC16",NA,NA
+14443,7792,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-12-2020","QC16",NA,NA
+14444,7793,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-12-2020","QC16",NA,NA
+14445,7794,NA,"Not Reported","Not Reported","Saguenay","Quebec","Canada","22-12-2020","QC16",NA,NA
+14446,4208,NA,"Not Reported","Not Reported","Haldimand-Norfolk","Ontario","Canada","22-12-2020","ON143",NA,NA
+14447,4209,NA,"Not Reported","Not Reported","Middlesex-London","Ontario","Canada","22-12-2020","ON109",NA,NA
+14448,4210,NA,"Not Reported","Not Reported","Middlesex-London","Ontario","Canada","22-12-2020","ON109",NA,NA
+14449,4211,NA,"Not Reported","Not Reported","Thunder Bay","Ontario","Canada","22-12-2020","ON110",NA,NA
+14450,4212,NA,"Not Reported","Not Reported","Windsor-Essex","Ontario","Canada","22-12-2020","ON41",NA,NA
+14451,4213,NA,"Not Reported","Not Reported","Windsor-Essex","Ontario","Canada","22-12-2020","ON41",NA,NA
+14452,4214,NA,"Not Reported","Not Reported","Windsor-Essex","Ontario","Canada","22-12-2020","ON41",NA,NA
+14453,4215,NA,"Not Reported","Not Reported","Windsor-Essex","Ontario","Canada","22-12-2020","ON41",NA,NA
+14454,4216,NA,"Not Reported","Not Reported","Halton","Ontario","Canada","22-12-2020","ON105",NA,NA
+14455,4217,NA,"Not Reported","Not Reported","Halton","Ontario","Canada","22-12-2020","ON105",NA,NA
+14456,4218,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","22-12-2020","ON79",NA,NA
+14457,4219,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","22-12-2020","ON79",NA,NA
+14458,4220,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","22-12-2020","ON79",NA,NA
+14459,4221,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","22-12-2020","ON75",NA,NA
+14460,4222,NA,"Not Reported","Not Reported","Simcoe Muskoka","Ontario","Canada","22-12-2020","ON102",NA,NA
+14461,4223,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-12-2020","ON68",NA,NA
+14462,4224,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-12-2020","ON68",NA,NA
+14463,4225,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-12-2020","ON68",NA,NA
+14464,4226,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-12-2020","ON68",NA,NA
+14465,4227,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-12-2020","ON68",NA,NA
+14466,4228,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-12-2020","ON68",NA,NA
+14467,4229,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-12-2020","ON68",NA,NA
+14468,4230,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-12-2020","ON68",NA,NA
+14469,4231,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-12-2020","ON68",NA,NA
+14470,4232,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-12-2020","ON68",NA,NA
+14471,4233,NA,"Not Reported","Not Reported","Waterloo","Ontario","Canada","22-12-2020","ON107",NA,NA
+14472,4234,NA,"Not Reported","Not Reported","Waterloo","Ontario","Canada","22-12-2020","ON107",NA,NA
+14473,4235,NA,"Not Reported","Not Reported","Waterloo","Ontario","Canada","22-12-2020","ON107",NA,NA
+14474,4236,NA,"Not Reported","Not Reported","Waterloo","Ontario","Canada","22-12-2020","ON107",NA,NA
+14475,4237,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","22-12-2020","ON26",NA,NA
+14476,4238,NA,"Not Reported","Not Reported","York","Ontario","Canada","22-12-2020","ON178",NA,NA
+14477,4239,NA,"Not Reported","Not Reported","York","Ontario","Canada","22-12-2020","ON178",NA,NA
