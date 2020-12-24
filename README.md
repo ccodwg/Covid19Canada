@@ -1,12 +1,17 @@
 # Epidemiological Data from the COVID-19 Outbreak in Canada
 The **COVID-19 Canada Open Data Working Group** is collecting publicly available information on confirmed and presumptive positive cases during the ongoing COVID-19 outbreak in Canada. Data are entered in a spreadsheet with each line representing a unique case, including age, sex, health region location, and history of travel where available. Sources are included as a reference for each entry. All data are exclusively collected from publicly available sources including government reports and news media. We aim to continue making updates daily. 
 
-# [PLEASE READ] Vaccines Datasets & Dataset Changes - Recent and Upcoming
+# [PLEASE READ] Vaccine Datasets
+
+- 2020-12-17: Vaccination data have been added as time series in timeseries_prov and timeseries_hr.
+- 2020-12-15: We have added two vaccine datasets to the repository, vaccine_administration_cumulative.csv and vaccine_distribution_cumulative.csv.
+
+**Data usage notes**: **Vaccine data should be considered preliminary and are subject to revision.** The format of these new datasets may also change at any time as the data situation evolves. At present, vaccine distribution data are updates less frequently than vaccine administration data. These numbers should be considered an underestimate of the number of doses distributed, and in some cases the number of doses administered may appear to exceed the number of doses distributed.
+
+
+# [PLEASE READ] Dataset Changes - Recent and Upcoming
 Several changes have been made recently to the datasets or will be made in the future. These are detailed below, along with tips at repairing your data pipelines that may have been affected by these changes.
-
-## Vaccine Datasets
-
-- 2020-12-15: We have added two vaccine datasets to the repository, vaccine_administration_cumulative.csv and vaccine_distribution_cumulative.csv. These data should be considered preliminary and are subject to change and revision. The format of these new datasets may also change at any time as the data situation evolves.
+sidered preliminary and are subject to change and revision. The format of these new datasets may also change at any time as the data situation evolves.
 
 ## Upcoming Changes (specific dates to be announced soon)
 
