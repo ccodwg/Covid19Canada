@@ -63,8 +63,12 @@ print_summary_today <- function() {
   cat("Deaths today:", mortality_timeseries_canada %>% filter(date_death_report == update_date) %>% pull(deaths), fill = TRUE)
   cat("Total recovered:", recovered_timeseries_canada %>% filter(date_recovered == update_date) %>% pull(cumulative_recovered), fill = TRUE)
   cat("Recovered today:", recovered_timeseries_canada %>% filter(date_recovered == update_date) %>% pull(recovered), fill = TRUE)
-  cat("Total testing:", testing_timeseries_canada %>% filter(date_testing == update_date) %>% pull(cumulative_testing), fill = TRUE) # number repeats?
-  cat("Testing today:", testing_timeseries_canada %>% filter(date_testing == update_date) %>% pull(testing), fill = TRUE) # number repeats?
+  cat("Total testing:", testing_timeseries_canada %>% filter(date_testing == update_date) %>% pull(cumulative_testing), fill = TRUE)
+  cat("Testing today:", testing_timeseries_canada %>% filter(date_testing == update_date) %>% pull(testing), fill = TRUE)
+  cat("Vaccine administration today: ", vaccine_administration_timeseries_canada %>% filter(date_vaccine_administered == update_date) %>% pull(avaccine), fill = TRUE)
+  cat("Total vaccine administration: ", vaccine_administration_timeseries_canada %>% filter(date_vaccine_administered == update_date) %>% pull(cumulative_avaccine), fill = TRUE)
+  cat("Vaccine distribution today: ", vaccine_distribution_timeseries_canada %>% filter(date_vaccine_distributed == update_date) %>% pull(dvaccine), fill = TRUE)
+  cat("Total vaccine distribution: ", vaccine_distribution_timeseries_canada %>% filter(date_vaccine_distributed == update_date) %>% pull(cumulative_dvaccine), fill = TRUE)
   
 }
 
