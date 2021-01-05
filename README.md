@@ -56,6 +56,8 @@ The full dataset may be downloaded in CSV format from this repository. The full 
 * **Daily and cumulative recovered**: timeseries_prov/recovered_timeseries_prov.csv
 * **Daily and cumulative testing**: timeseries_prov/testing_timeseries_prov.csv
 * **Current and change in active cases**: timeseries_prov/active_timeseries_prov.csv
+* **Daily and cumulative vaccine doses delivered**: timeseries_prov/vaccine_distribution_timeseries_prov.csv
+* **Daily and cumulative vaccine doses administered**: timeseries_prov/vaccine_administration_timeseries_prov.csv
 
 ### Canada-level Time Series
 * **Daily and cumulative cases**: timeseries_canada/cases_timeseries_canada.csv
