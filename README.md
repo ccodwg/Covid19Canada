@@ -12,11 +12,13 @@ We have also created an interactive dashboard for up-to-date visual analytics an
 Berry I, Soucy J-PR, Tuite A, Fisman D. Open access epidemiologic data and an interactive dashboard to monitor the COVID-19 outbreak in Canada. CMAJ. 2020 Apr 14;192(15):E420. doi: https://doi.org/10.1503/cmaj.75262
 
 
-# [PLEASE READ] Dataset Changes - Recent and Upcoming
+# [PLEASE READ] Vaccine Data and Recent and Upcoming Changes to the Dataset
+
 Several changes have been made recently to the datasets or will be made in the future. These are detailed below, along with tips at repairing your data pipelines that may have been affected by these changes.
-sidered preliminary and are subject to change and revision. The format of these new datasets may also change at any time as the data situation evolves.
 
 ## Vaccine Datasets
+
+Sources for our vaccine data are summarized here: [https://docs.google.com/spreadsheets/d/1zebsxvOPw8gJ-38r9Wbs_tY0Sk5lvfr0khun9_p3gmY/htmlview](https://docs.google.com/spreadsheets/d/1zebsxvOPw8gJ-38r9Wbs_tY0Sk5lvfr0khun9_p3gmY/htmlview)
 
 - 2020-12-17: Vaccination data have been added as time series in timeseries_prov and timeseries_hr.
 - 2020-12-15: We have added two vaccine datasets to the repository, vaccine_administration_cumulative.csv and vaccine_distribution_cumulative.csv.
