@@ -1,26 +1,6 @@
 # Epidemiological Data from the COVID-19 Outbreak in Canada
 The [**COVID-19 Canada Open Data Working Group**](https://opencovid.ca/) is collecting publicly available information on confirmed and presumptive positive cases during the ongoing COVID-19 outbreak in Canada. Data are entered in a spreadsheet with each line representing a unique case, including age, sex, health region location, and history of travel where available. Sources are included as a reference for each entry. All data are exclusively collected from publicly available sources including government reports and news media. We aim to continue making updates daily.
 
-# [PLEASE READ] Vaccine Datasets
-
-- 2020-12-17: Vaccination data have been added as time series in timeseries_prov and timeseries_hr.
-- 2020-12-15: We have added two vaccine datasets to the repository, vaccine_administration_cumulative.csv and vaccine_distribution_cumulative.csv.
-
-**Data usage notes**: **Vaccine data should be considered preliminary and are subject to revision.** The format of these new datasets may also change at any time as the data situation evolves. At present, vaccine distribution data are updates less frequently than vaccine administration data. These numbers should be considered an underestimate of the number of doses distributed, and in some cases the number of doses administered may appear to exceed the number of doses distributed.
-
-
-# [PLEASE READ] Dataset Changes - Recent and Upcoming
-Several changes have been made recently to the datasets or will be made in the future. These are detailed below, along with tips at repairing your data pipelines that may have been affected by these changes.
-sidered preliminary and are subject to change and revision. The format of these new datasets may also change at any time as the data situation evolves.
-
-## Upcoming Changes (specific dates to be announced soon)
-
-- The data structure of time series data will change in response to user feedback. This will only consist of adding additional columns to make the data easier to work with. The core columns will remain the same, for now. More details to follow. Initially, the updated dataset will be provided alongside the new dataset. After a time, the new data format will completely replace the old format.
-
-## Recent Changes
-- 2020-12-03: "Repatriated" now appears in the testing time series. For now, they are given 0 values. The correct values (from PHAC data) will be added soon. "Repatriated" now also appears in the mortality time series (all 0 values, which is correct).
-- 2020-11-27: The columns "case_source" (cases.csv) and "death_source" (mortality.csv) are now abbreviated to reduce the file size. They can be joined to the full source links via cases_extra/cases_case_source.csv and mortality_extra/mortality_death_source.csv. Instructions can be found in [README.md](#individual-level-data---extra-columns).
-
 
 # Methodology, Data Notes & Dashboard 
 Detailed information about our [data collection methodology](https://opencovid.ca/work/dataset/) and [sources](https://opencovid.ca/work/data-sources/), answers to [frequently asked data questions](https://opencovid.ca/work/data-faq/), specific data notes, and more information about the **COVID-19 Canada Open Data Working Group** is available on our [website](https://opencovid.ca/).
@@ -30,6 +10,26 @@ We have also created an interactive dashboard for up-to-date visual analytics an
 
 # Citation
 Berry I, Soucy J-PR, Tuite A, Fisman D. Open access epidemiologic data and an interactive dashboard to monitor the COVID-19 outbreak in Canada. CMAJ. 2020 Apr 14;192(15):E420. doi: https://doi.org/10.1503/cmaj.75262
+
+
+# [PLEASE READ] Dataset Changes - Recent and Upcoming
+Several changes have been made recently to the datasets or will be made in the future. These are detailed below, along with tips at repairing your data pipelines that may have been affected by these changes.
+sidered preliminary and are subject to change and revision. The format of these new datasets may also change at any time as the data situation evolves.
+
+## Vaccine Datasets
+
+- 2020-12-17: Vaccination data have been added as time series in timeseries_prov and timeseries_hr.
+- 2020-12-15: We have added two vaccine datasets to the repository, vaccine_administration_cumulative.csv and vaccine_distribution_cumulative.csv.
+
+**Data usage notes**: **Vaccine data should be considered preliminary and are subject to revision.** The format of these new datasets may also change at any time as the data situation evolves. At present, vaccine distribution data are updates less frequently than vaccine administration data. These numbers should be considered an underestimate of the number of doses distributed, and in some cases the number of doses administered may appear to exceed the number of doses distributed.
+
+## Upcoming Changes (specific dates to be announced soon)
+
+- The data structure of time series data will change in response to user feedback. This will only consist of adding additional columns to make the data easier to work with. The core columns will remain the same, for now. More details to follow. Initially, the updated dataset will be provided alongside the new dataset. After a time, the new data format will completely replace the old format.
+
+## Recent Changes
+- 2020-12-03: "Repatriated" now appears in the testing time series. For now, they are given 0 values. The correct values (from PHAC data) will be added soon. "Repatriated" now also appears in the mortality time series (all 0 values, which is correct).
+- 2020-11-27: The columns "case_source" (cases.csv) and "death_source" (mortality.csv) are now abbreviated to reduce the file size. They can be joined to the full source links via cases_extra/cases_case_source.csv and mortality_extra/mortality_death_source.csv. Instructions can be found in [README.md](#individual-level-data---extra-columns).
 
 
 # Datasets
