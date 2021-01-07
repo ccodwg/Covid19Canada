@@ -16159,11 +16159,11 @@
 16158,693,NA,"80-89","Male","Winnipeg","Manitoba","Canada","05-01-2021","MB199","outbreak at the River East Personal Care Home;",NA
 16159,694,NA,"90-99","Female","Winnipeg","Manitoba","Canada","05-01-2021","MB199","linked to the outbreak at the River East Personal Care Home; and",NA
 16160,695,NA,"90-99","Male","Winnipeg","Manitoba","Canada","05-01-2021","MB199","linked to the outbreak at the Holy Family Personal Care Home.",NA
-16161,160,NA,">80","Not Reported","North","Saskatchewan","Canada","05-01-2021","SK199","North Central",NA
-16162,160,NA,">80","Not Reported","North","Saskatchewan","Canada","05-01-2021","SK199","North East",NA
-16163,160,NA,">80","Not Reported","South","Saskatchewan","Canada","05-01-2021","SK199","South Central",NA
-16164,160,NA,">80","Not Reported","Regina","Saskatchewan","Canada","05-01-2021","SK199",NA,NA
-16165,160,NA,">80","Not Reported","Regina","Saskatchewan","Canada","05-01-2021","SK199",NA,NA
+16161,161,NA,">80","Not Reported","North","Saskatchewan","Canada","05-01-2021","SK199","North Central",NA
+16162,162,NA,">80","Not Reported","North","Saskatchewan","Canada","05-01-2021","SK199","North East",NA
+16163,163,NA,">80","Not Reported","South","Saskatchewan","Canada","05-01-2021","SK199","South Central",NA
+16164,164,NA,">80","Not Reported","Regina","Saskatchewan","Canada","05-01-2021","SK199",NA,NA
+16165,165,NA,">80","Not Reported","Regina","Saskatchewan","Canada","05-01-2021","SK199",NA,NA
 16166,8380,NA,"Not Reported","Not Reported","Abitibi-Témiscamingue","Quebec","Canada","05-01-2021","QC16",NA,"https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/"
 16167,8381,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","05-01-2021","QC16",NA,"https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/"
 16168,8382,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","05-01-2021","QC16",NA,"https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/"
@@ -16281,3 +16281,175 @@
 16280,4776,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","05-01-2021","ON68",NA,NA
 16281,4777,NA,"Not Reported","Not Reported","York","Ontario","Canada","05-01-2021","ON19",NA,NA
 16282,4778,NA,"Not Reported","Not Reported","York","Ontario","Canada","05-01-2021","ON19",NA,NA
+16283,1169,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","06-01-2021","AB8",NA,NA
+16284,1170,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","06-01-2021","AB8",NA,NA
+16285,1171,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","06-01-2021","AB8",NA,NA
+16286,1172,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","06-01-2021","AB8",NA,NA
+16287,1173,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","06-01-2021","AB8",NA,NA
+16288,1174,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","06-01-2021","AB8",NA,NA
+16289,1175,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","06-01-2021","AB8",NA,NA
+16290,1176,NA,"Not Reported","Not Reported","Central","Alberta","Canada","06-01-2021","AB8",NA,NA
+16291,1177,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","06-01-2021","AB8",NA,NA
+16292,1178,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","06-01-2021","AB8",NA,NA
+16293,1179,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","06-01-2021","AB8",NA,NA
+16294,1180,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","06-01-2021","AB8",NA,NA
+16295,1181,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","06-01-2021","AB8",NA,NA
+16296,1182,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","06-01-2021","AB8",NA,NA
+16297,1183,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","06-01-2021","AB8",NA,NA
+16298,1184,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","06-01-2021","AB8",NA,NA
+16299,1185,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","06-01-2021","AB8",NA,NA
+16300,1186,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","06-01-2021","AB8",NA,NA
+16301,1187,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","06-01-2021","AB8",NA,NA
+16302,1188,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","06-01-2021","AB8",NA,NA
+16303,1189,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","06-01-2021","AB8",NA,NA
+16304,1190,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","06-01-2021","AB8",NA,NA
+16305,1191,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","06-01-2021","AB8",NA,NA
+16306,1192,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","06-01-2021","AB8",NA,NA
+16307,1193,NA,"Not Reported","Not Reported","North","Alberta","Canada","06-01-2021","AB8",NA,NA
+16308,955,NA,"Not Reported","Not Reported","Interior","BC","Canada","06-01-2021","BC200",NA,NA
+16309,956,NA,"Not Reported","Not Reported","Fraser","BC","Canada","06-01-2021","BC200",NA,NA
+16310,957,NA,"Not Reported","Not Reported","Fraser","BC","Canada","06-01-2021","BC200",NA,NA
+16311,958,NA,"Not Reported","Not Reported","Fraser","BC","Canada","06-01-2021","BC200",NA,NA
+16312,959,NA,"Not Reported","Not Reported","Fraser","BC","Canada","06-01-2021","BC200",NA,NA
+16313,960,NA,"Not Reported","Not Reported","Fraser","BC","Canada","06-01-2021","BC200",NA,NA
+16314,961,NA,"Not Reported","Not Reported","Fraser","BC","Canada","06-01-2021","BC200",NA,NA
+16315,962,NA,"Not Reported","Not Reported","Northern","BC","Canada","06-01-2021","BC200",NA,NA
+16316,696,NA,"40-49","Female","Northern","Manitoba","Canada","06-01-2021","MB7",NA,NA
+16317,697,NA,"70-79","Male","Interlake-Eastern","Manitoba","Canada","06-01-2021","MB7",NA,NA
+16318,698,NA,"70-79","Male","Winnipeg","Manitoba","Canada","06-01-2021","MB7","linked to the outbreak at Golden Links Lodge",NA
+16319,699,NA,"80-89","Female","Winnipeg","Manitoba","Canada","06-01-2021","MB7","linked to the outbreak at Seven Oaks Hospital 4U8-12",NA
+16320,700,NA,"80-89","Male","Winnipeg","Manitoba","Canada","06-01-2021","MB7","linked to the outbreak at Seven Oaks Hospital 4U8-12",NA
+16321,701,NA,"80-89","Male","Winnipeg","Manitoba","Canada","06-01-2021","MB7",NA,NA
+16322,702,NA,"90-99","Female","Winnipeg","Manitoba","Canada","06-01-2021","MB7","linked to the outbreak at Seven Oaks Hospital 4U8-12",NA
+16323,703,NA,"90-99","Female","Winnipeg","Manitoba","Canada","06-01-2021","MB7",NA,NA
+16324,704,NA,"90-99","Female","Winnipeg","Manitoba","Canada","06-01-2021","MB7",NA,NA
+16325,705,NA,"90-99","Male","Winnipeg","Manitoba","Canada","06-01-2021","MB7",NA,NA
+16326,166,NA,"60-69","Not Reported","Central","Saskatchewan","Canada","06-01-2021","SK200","Central west",NA
+16327,167,NA,">80","Not Reported","South","Saskatchewan","Canada","06-01-2021","SK200","South East",NA
+16328,168,NA,">80","Not Reported","South","Saskatchewan","Canada","06-01-2021","SK200","South East",NA
+16329,169,NA,">80","Not Reported","Regina","Saskatchewan","Canada","06-01-2021","SK200",NA,NA
+16330,170,NA,">80","Not Reported","Regina","Saskatchewan","Canada","06-01-2021","SK200",NA,NA
+16331,171,NA,"20-29","Not Reported","Regina","Saskatchewan","Canada","06-01-2021","SK200",NA,NA
+16332,172,NA,">80","Not Reported","North","Saskatchewan","Canada","06-01-2021","SK200",NA,NA
+16333,173,NA,"50-59","Not Reported","Saskatoon","Saskatchewan","Canada","06-01-2021","SK200","North Central",NA
+16334,174,NA,"60-69","Not Reported","Saskatoon","Saskatchewan","Canada","06-01-2021","SK200",NA,NA
+16335,8442,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","06-01-2021","QC16",NA,NA
+16336,8443,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","06-01-2021","QC16",NA,NA
+16337,8444,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","06-01-2021","QC16",NA,NA
+16338,8445,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","06-01-2021","QC16",NA,NA
+16339,8446,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","06-01-2021","QC16",NA,NA
+16340,8447,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","06-01-2021","QC16",NA,NA
+16341,8448,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","06-01-2021","QC16",NA,NA
+16342,8449,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","06-01-2021","QC16",NA,NA
+16343,8450,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","06-01-2021","QC16",NA,NA
+16344,8451,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","06-01-2021","QC16",NA,NA
+16345,8452,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","06-01-2021","QC16",NA,NA
+16346,8453,NA,"Not Reported","Not Reported","Chaudière-Appalaches","Quebec","Canada","06-01-2021","QC16",NA,NA
+16347,8454,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","06-01-2021","QC16",NA,NA
+16348,8455,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","06-01-2021","QC16",NA,NA
+16349,8456,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","06-01-2021","QC16",NA,NA
+16350,8457,NA,"Not Reported","Not Reported","Lanaudière","Quebec","Canada","06-01-2021","QC16",NA,NA
+16351,8458,NA,"Not Reported","Not Reported","Laval","Quebec","Canada","06-01-2021","QC16",NA,NA
+16352,8459,NA,"Not Reported","Not Reported","Laval","Quebec","Canada","06-01-2021","QC16",NA,NA
+16353,8460,NA,"Not Reported","Not Reported","Mauricie","Quebec","Canada","06-01-2021","QC16",NA,NA
+16354,8461,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","06-01-2021","QC16",NA,NA
+16355,8462,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","06-01-2021","QC16",NA,NA
+16356,8463,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","06-01-2021","QC16",NA,NA
+16357,8464,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","06-01-2021","QC16",NA,NA
+16358,8465,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","06-01-2021","QC16",NA,NA
+16359,8466,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","06-01-2021","QC16",NA,NA
+16360,8467,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","06-01-2021","QC16",NA,NA
+16361,8468,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","06-01-2021","QC16",NA,NA
+16362,8469,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","06-01-2021","QC16",NA,NA
+16363,8470,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","06-01-2021","QC16",NA,NA
+16364,8471,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","06-01-2021","QC16",NA,NA
+16365,8472,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","06-01-2021","QC16",NA,NA
+16366,8473,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","06-01-2021","QC16",NA,NA
+16367,8474,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","06-01-2021","QC16",NA,NA
+16368,8475,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","06-01-2021","QC16",NA,NA
+16369,8476,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","06-01-2021","QC16",NA,NA
+16370,8477,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","06-01-2021","QC16",NA,NA
+16371,8478,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","06-01-2021","QC16",NA,NA
+16372,8479,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","06-01-2021","QC16",NA,NA
+16373,8480,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","06-01-2021","QC16",NA,NA
+16374,8481,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","06-01-2021","QC16",NA,NA
+16375,8482,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","06-01-2021","QC16",NA,NA
+16376,8483,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","06-01-2021","QC16",NA,NA
+16377,8484,NA,"Not Reported","Not Reported","Outaouais","Quebec","Canada","06-01-2021","QC16",NA,NA
+16378,8485,NA,"Not Reported","Not Reported","Outaouais","Quebec","Canada","06-01-2021","QC16",NA,NA
+16379,8486,NA,"Not Reported","Not Reported","Outaouais","Quebec","Canada","06-01-2021","QC16",NA,NA
+16380,8487,NA,"Not Reported","Not Reported","Saguenay","Quebec","Canada","06-01-2021","QC16",NA,NA
+16381,8488,NA,"Not Reported","Not Reported","Saguenay","Quebec","Canada","06-01-2021","QC16",NA,NA
+16382,4779,NA,"90-99","Female","Middlesex-London","Ontario","Canada","06-01-2021","ON109",NA,NA
+16383,4780,NA,"70-79","Male","Middlesex-London","Ontario","Canada","06-01-2021","ON109",NA,NA
+16384,4781,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16385,4782,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16386,4783,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16387,4784,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16388,4785,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16389,4786,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16390,4787,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16391,4788,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16392,4789,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16393,4790,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16394,4791,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16395,4792,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16396,4793,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16397,4794,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16398,4795,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16399,4796,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16400,4797,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16401,4798,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16402,4799,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16403,4800,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16404,4801,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16405,4802,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16406,4803,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16407,4804,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16408,4805,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16409,4806,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16410,4807,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16411,4808,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16412,4809,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","06-01-2021","ON95","Deaths occured between 04-01-2021 and 06-01-2021","https://www.thoroldnews.com/coronavirus-covid-19-local-news/breaking-29-deaths-since-monday-110-cases-of-covid-19-reported-in-niagara-today-3238018"
+16413,4810,NA,"Not Reported","Not Reported","Thunder Bay","Ontario","Canada","06-01-2021","ON110",NA,NA
+16414,4811,NA,"70-79","Male","Windsor-Essex","Ontario","Canada","06-01-2021","ON41",NA,"https://windsorite.ca/2021/01/17-new-deaths-170-new-cases-of-covid-19-in-windsor-essex-on-wednesday/"
+16415,4812,NA,"80-89","Female","Windsor-Essex","Ontario","Canada","06-01-2021","ON41",NA,"https://windsorite.ca/2021/01/17-new-deaths-170-new-cases-of-covid-19-in-windsor-essex-on-wednesday/"
+16416,4813,NA,"80-89","Female","Windsor-Essex","Ontario","Canada","06-01-2021","ON41",NA,"https://windsorite.ca/2021/01/17-new-deaths-170-new-cases-of-covid-19-in-windsor-essex-on-wednesday/"
+16417,4814,NA,"80-89","Female","Windsor-Essex","Ontario","Canada","06-01-2021","ON41",NA,"https://windsorite.ca/2021/01/17-new-deaths-170-new-cases-of-covid-19-in-windsor-essex-on-wednesday/"
+16418,4815,NA,"80-89","Female","Windsor-Essex","Ontario","Canada","06-01-2021","ON41",NA,"https://windsorite.ca/2021/01/17-new-deaths-170-new-cases-of-covid-19-in-windsor-essex-on-wednesday/"
+16419,4816,NA,"80-89","Male","Windsor-Essex","Ontario","Canada","06-01-2021","ON41",NA,"https://windsorite.ca/2021/01/17-new-deaths-170-new-cases-of-covid-19-in-windsor-essex-on-wednesday/"
+16420,4817,NA,"80-89","Male","Windsor-Essex","Ontario","Canada","06-01-2021","ON41",NA,"https://windsorite.ca/2021/01/17-new-deaths-170-new-cases-of-covid-19-in-windsor-essex-on-wednesday/"
+16421,4818,NA,"90-99","Female","Windsor-Essex","Ontario","Canada","06-01-2021","ON41",NA,"https://windsorite.ca/2021/01/17-new-deaths-170-new-cases-of-covid-19-in-windsor-essex-on-wednesday/"
+16422,4819,NA,"90-99","Female","Windsor-Essex","Ontario","Canada","06-01-2021","ON41",NA,"https://windsorite.ca/2021/01/17-new-deaths-170-new-cases-of-covid-19-in-windsor-essex-on-wednesday/"
+16423,4820,NA,"90-99","Female","Windsor-Essex","Ontario","Canada","06-01-2021","ON41",NA,"https://windsorite.ca/2021/01/17-new-deaths-170-new-cases-of-covid-19-in-windsor-essex-on-wednesday/"
+16424,4821,NA,"90-99","Female","Windsor-Essex","Ontario","Canada","06-01-2021","ON41",NA,"https://windsorite.ca/2021/01/17-new-deaths-170-new-cases-of-covid-19-in-windsor-essex-on-wednesday/"
+16425,4822,NA,"90-99","Male","Windsor-Essex","Ontario","Canada","06-01-2021","ON41",NA,"https://windsorite.ca/2021/01/17-new-deaths-170-new-cases-of-covid-19-in-windsor-essex-on-wednesday/"
+16426,4823,NA,"90-99","Male","Windsor-Essex","Ontario","Canada","06-01-2021","ON41",NA,"https://windsorite.ca/2021/01/17-new-deaths-170-new-cases-of-covid-19-in-windsor-essex-on-wednesday/"
+16427,4824,NA,"100-109","Female","Windsor-Essex","Ontario","Canada","06-01-2021","ON41",NA,"https://windsorite.ca/2021/01/17-new-deaths-170-new-cases-of-covid-19-in-windsor-essex-on-wednesday/"
+16428,4825,NA,"70-79","Male","Windsor-Essex","Ontario","Canada","06-01-2021","ON41",NA,"https://windsorite.ca/2021/01/17-new-deaths-170-new-cases-of-covid-19-in-windsor-essex-on-wednesday/"
+16429,4826,NA,"80-89","Male","Windsor-Essex","Ontario","Canada","06-01-2021","ON41",NA,"https://windsorite.ca/2021/01/17-new-deaths-170-new-cases-of-covid-19-in-windsor-essex-on-wednesday/"
+16430,4827,NA,"90-99","Female","Windsor-Essex","Ontario","Canada","06-01-2021","ON41",NA,"https://windsorite.ca/2021/01/17-new-deaths-170-new-cases-of-covid-19-in-windsor-essex-on-wednesday/"
+16431,4828,NA,"Not Reported","Not Reported","Waterloo","Ontario","Canada","06-01-2021","ON51",NA,NA
+16432,4829,NA,"Not Reported","Not Reported","Waterloo","Ontario","Canada","06-01-2021","ON51",NA,NA
+16433,4830,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","06-01-2021","ON68",NA,NA
+16434,4831,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","06-01-2021","ON68",NA,NA
+16435,4832,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","06-01-2021","ON68",NA,NA
+16436,4833,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","06-01-2021","ON68",NA,NA
+16437,4834,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","06-01-2021","ON75",NA,NA
+16438,4835,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","06-01-2021","ON75",NA,NA
+16439,4836,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","06-01-2021","ON75",NA,NA
+16440,4837,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","06-01-2021","ON79",NA,NA
+16441,4838,NA,"Not Reported","Not Reported","Halton","Ontario","Canada","06-01-2021","ON105",NA,NA
+16442,4839,NA,"Not Reported","Not Reported","Halton","Ontario","Canada","06-01-2021","ON105",NA,NA
+16443,4840,NA,"Not Reported","Not Reported","Halton","Ontario","Canada","06-01-2021","ON105",NA,NA
+16444,4841,NA,"Not Reported","Not Reported","Halton","Ontario","Canada","06-01-2021","ON105",NA,NA
+16445,4842,NA,"Not Reported","Not Reported","Eastern","Ontario","Canada","06-01-2021","ON82",NA,NA
+16446,4843,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","06-01-2021","ON26",NA,NA
+16447,4844,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","06-01-2021","ON26",NA,NA
+16448,4845,NA,"Not Reported","Not Reported","York","Ontario","Canada","06-01-2021","ON19",NA,NA
+16449,4846,NA,"Not Reported","Not Reported","York","Ontario","Canada","06-01-2021","ON19",NA,NA
+16450,4847,NA,"Not Reported","Not Reported","York","Ontario","Canada","06-01-2021","ON19",NA,NA
+16451,4848,NA,"Not Reported","Not Reported","York","Ontario","Canada","06-01-2021","ON19",NA,NA
+16452,4849,NA,"Not Reported","Not Reported","York","Ontario","Canada","06-01-2021","ON19",NA,NA
+16453,4850,NA,"Not Reported","Not Reported","York","Ontario","Canada","06-01-2021","ON19",NA,NA
+16454,4851,NA,"Not Reported","Not Reported","Haliburton Kawartha Pineridge","Ontario","Canada","06-01-2021","ON180",NA,NA
