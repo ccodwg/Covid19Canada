@@ -62,7 +62,7 @@ map_hr <- read.csv("other/hr_map.csv",
                    stringsAsFactors = FALSE)
 
 ## case_source abbreviation table
-cases_case_source <- read.csv("cases_extra/cases_case_source.csv",
+cases_case_source <- read.csv("other/cases_extra/cases_case_source.csv",
                               stringsAsFactors = FALSE,
                               colClasses = c(
                                 "province" = "character",
@@ -72,7 +72,7 @@ cases_case_source <- read.csv("cases_extra/cases_case_source.csv",
                               ))
 
 ## death_source abbreviation table
-mortality_death_source <- read.csv("mortality_extra/mortality_death_source.csv",
+mortality_death_source <- read.csv("other/mortality_extra/mortality_death_source.csv",
                                    stringsAsFactors = FALSE,
                                    colClasses = c(
                                      "province" = "character",
@@ -145,9 +145,9 @@ convert_dates("cases", "mortality", "recovered_cum", "testing_cum",
 
 # write generated files
 write.csv(cases, "cases.csv", row.names = FALSE)
-write.csv(cases_case_source, "cases_extra/cases_case_source.csv", row.names = FALSE)
+write.csv(cases_case_source, "other/cases_extra/cases_case_source.csv", row.names = FALSE)
 write.csv(mortality, "mortality.csv", row.names = FALSE)
-write.csv(mortality_death_source, "mortality_extra/mortality_death_source.csv", row.names = FALSE)
+write.csv(mortality_death_source, "other/mortality_extra/mortality_death_source.csv", row.names = FALSE)
 write.csv(recovered_cum, "recovered_cumulative.csv", row.names = FALSE)
 write.csv(testing_cum, "testing_cumulative.csv", row.names = FALSE)
 write.csv(cases_ts_prov, "timeseries_prov/cases_timeseries_prov.csv", row.names = FALSE)
