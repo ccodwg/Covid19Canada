@@ -789,6 +789,11 @@
 "Saskatchewan","Central East","08-01-2021",NA,NA
 "Saskatchewan","Central East","08-01-2021",NA,NA
 "Saskatchewan","Central East","08-01-2021",NA,NA
+"Saskatchewan","Central East","09-01-2021",NA,3
+"Saskatchewan","Central East","09-01-2021",NA,NA
+"Saskatchewan","Central East","09-01-2021",NA,NA
+"Saskatchewan","Central East","09-01-2021",NA,NA
+"Saskatchewan","Central East","09-01-2021",NA,NA
 "Saskatchewan","Central West","04-08-2020",0,0
 "Saskatchewan","Central West","04-08-2020",NA,NA
 "Saskatchewan","Central West","05-08-2020",NA,0
@@ -1105,6 +1110,8 @@
 "Saskatchewan","Central West","07-01-2021",NA,NA
 "Saskatchewan","Central West","08-01-2021",NA,3
 "Saskatchewan","Central West","08-01-2021",NA,NA
+"Saskatchewan","Central West","09-01-2021",NA,3
+"Saskatchewan","Central West","09-01-2021",NA,NA
 "Saskatchewan","Far North Central","04-08-2020",0,0
 "Saskatchewan","Far North Central","05-08-2020",0,0
 "Saskatchewan","Far North Central","06-08-2020",0,0
@@ -1263,6 +1270,7 @@
 "Saskatchewan","Far North Central","06-01-2021",0,0
 "Saskatchewan","Far North Central","07-01-2021",0,0
 "Saskatchewan","Far North Central","08-01-2021",0,0
+"Saskatchewan","Far North Central","09-01-2021",0,0
 "Saskatchewan","Far North East","04-08-2020",0,0
 "Saskatchewan","Far North East","04-08-2020",NA,NA
 "Saskatchewan","Far North East","05-08-2020",NA,0
@@ -1579,6 +1587,8 @@
 "Saskatchewan","Far North East","07-01-2021",NA,NA
 "Saskatchewan","Far North East","08-01-2021",NA,2
 "Saskatchewan","Far North East","08-01-2021",NA,NA
+"Saskatchewan","Far North East","09-01-2021",NA,2
+"Saskatchewan","Far North East","09-01-2021",NA,NA
 "Saskatchewan","Far North West","04-08-2020",0,7
 "Saskatchewan","Far North West","04-08-2020",NA,NA
 "Saskatchewan","Far North West","05-08-2020",NA,7
@@ -1895,6 +1905,8 @@
 "Saskatchewan","Far North West","07-01-2021",NA,NA
 "Saskatchewan","Far North West","08-01-2021",NA,11
 "Saskatchewan","Far North West","08-01-2021",NA,NA
+"Saskatchewan","Far North West","09-01-2021",NA,11
+"Saskatchewan","Far North West","09-01-2021",NA,NA
 "Saskatchewan","North Central","04-08-2020",0,1
 "Saskatchewan","North Central","04-08-2020",NA,NA
 "Saskatchewan","North Central","04-08-2020",NA,NA
@@ -2369,6 +2381,9 @@
 "Saskatchewan","North Central","08-01-2021",NA,21
 "Saskatchewan","North Central","08-01-2021",NA,NA
 "Saskatchewan","North Central","08-01-2021",NA,NA
+"Saskatchewan","North Central","09-01-2021",NA,25
+"Saskatchewan","North Central","09-01-2021",NA,NA
+"Saskatchewan","North Central","09-01-2021",NA,NA
 "Saskatchewan","North East","04-08-2020",0,0
 "Saskatchewan","North East","04-08-2020",NA,NA
 "Saskatchewan","North East","04-08-2020",NA,NA
@@ -2843,6 +2858,9 @@
 "Saskatchewan","North East","08-01-2021",NA,6
 "Saskatchewan","North East","08-01-2021",NA,NA
 "Saskatchewan","North East","08-01-2021",NA,NA
+"Saskatchewan","North East","09-01-2021",NA,6
+"Saskatchewan","North East","09-01-2021",NA,NA
+"Saskatchewan","North East","09-01-2021",NA,NA
 "Saskatchewan","North West","04-08-2020",0,4
 "Saskatchewan","North West","04-08-2020",NA,NA
 "Saskatchewan","North West","04-08-2020",NA,NA
@@ -3475,6 +3493,10 @@
 "Saskatchewan","North West","08-01-2021",NA,NA
 "Saskatchewan","North West","08-01-2021",NA,NA
 "Saskatchewan","North West","08-01-2021",NA,NA
+"Saskatchewan","North West","09-01-2021",NA,20
+"Saskatchewan","North West","09-01-2021",NA,NA
+"Saskatchewan","North West","09-01-2021",NA,NA
+"Saskatchewan","North West","09-01-2021",NA,NA
 "Saskatchewan","Regina","04-08-2020",0,1
 "Saskatchewan","Regina","05-08-2020",0,1
 "Saskatchewan","Regina","06-08-2020",1,2
@@ -3633,6 +3655,7 @@
 "Saskatchewan","Regina","06-01-2021",3,53
 "Saskatchewan","Regina","07-01-2021",2,55
 "Saskatchewan","Regina","08-01-2021",4,59
+"Saskatchewan","Regina","09-01-2021",2,61
 "Saskatchewan","Saskatoon","04-08-2020",0,2
 "Saskatchewan","Saskatoon","05-08-2020",0,2
 "Saskatchewan","Saskatoon","06-08-2020",0,2
@@ -3791,6 +3814,7 @@
 "Saskatchewan","Saskatoon","06-01-2021",2,32
 "Saskatchewan","Saskatoon","07-01-2021",0,32
 "Saskatchewan","Saskatoon","08-01-2021",0,32
+"Saskatchewan","Saskatoon","09-01-2021",0,32
 "Saskatchewan","South Central","04-08-2020",0,2
 "Saskatchewan","South Central","04-08-2020",NA,NA
 "Saskatchewan","South Central","05-08-2020",NA,2
@@ -4107,6 +4131,8 @@
 "Saskatchewan","South Central","07-01-2021",NA,NA
 "Saskatchewan","South Central","08-01-2021",NA,9
 "Saskatchewan","South Central","08-01-2021",NA,NA
+"Saskatchewan","South Central","09-01-2021",NA,9
+"Saskatchewan","South Central","09-01-2021",NA,NA
 "Saskatchewan","South East","04-08-2020",0,0
 "Saskatchewan","South East","04-08-2020",NA,NA
 "Saskatchewan","South East","04-08-2020",NA,NA
@@ -4739,6 +4765,10 @@
 "Saskatchewan","South East","08-01-2021",NA,NA
 "Saskatchewan","South East","08-01-2021",NA,NA
 "Saskatchewan","South East","08-01-2021",NA,NA
+"Saskatchewan","South East","09-01-2021",NA,17
+"Saskatchewan","South East","09-01-2021",NA,NA
+"Saskatchewan","South East","09-01-2021",NA,NA
+"Saskatchewan","South East","09-01-2021",NA,NA
 "Saskatchewan","South West","04-08-2020",0,0
 "Saskatchewan","South West","04-08-2020",NA,NA
 "Saskatchewan","South West","05-08-2020",NA,0
@@ -5055,3 +5085,5 @@
 "Saskatchewan","South West","07-01-2021",NA,NA
 "Saskatchewan","South West","08-01-2021",NA,2
 "Saskatchewan","South West","08-01-2021",NA,NA
+"Saskatchewan","South West","09-01-2021",NA,2
+"Saskatchewan","South West","09-01-2021",NA,NA
