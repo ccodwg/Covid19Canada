@@ -20,6 +20,7 @@ Several changes have been made recently to the datasets or will be made in the f
 
 Sources for our vaccine data are summarized here: [https://docs.google.com/spreadsheets/d/1zebsxvOPw8gJ-38r9Wbs_tY0Sk5lvfr0khun9_p3gmY/htmlview](https://docs.google.com/spreadsheets/d/1zebsxvOPw8gJ-38r9Wbs_tY0Sk5lvfr0khun9_p3gmY/htmlview)
 
+- 2021-01-11: Our Ontario vaccine dataset has changed. Previously, we used two datasets: the MoH Daily Situation Report (https://www.oha.com/news/updates-on-the-novel-coronavirus), which is released weekdays in the evenings, and the “COVID-19 Vaccine Data in Ontario” dataset (https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario), which is released every day in the mornings. Because the Daily Situation Report is released later in the day, it has more up-to-date numbers. However, since it is not available on weekends, this leads to an artificial “dip” in numbers on Saturday and “jump” on Monday due to the transition betwen data sources. We will now exclusively use the daily “COVID-19 Vaccine Data in Ontario” dataset. Although our numbers will be slightly less timely, the daily values will be consistent. We have replaced our historical dataset with “COVID-19 Vaccine Data in Ontario” as far back as they are available.
 - 2020-12-17: Vaccination data have been added as time series in timeseries_prov and timeseries_hr.
 - 2020-12-15: We have added two vaccine datasets to the repository, vaccine_administration_cumulative.csv and vaccine_distribution_cumulative.csv.
 
