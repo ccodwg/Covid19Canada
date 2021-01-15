@@ -31,10 +31,22 @@ convert_official_sk_new_hr <- function() {
       recovered = Recovered.Cases,
       cumulative_deaths = Deaths
     ) %>%
+    ### merge subzone data into one line per health region
+    ### see https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan/index-of-communities
+    group_by(date, province, health_region) %>%
+    summarize(
+      cases = sum(cases, na.rm = TRUE),
+      across(c(cumulative_cases, active_cases, hosp,
+               icu, recovered, cumulative_deaths),
+             function(x) {
+               ifelse(
+                 all(is.na(x)), 0, max(x, na.rm = TRUE)
+               )
+             }),
+      .groups = "drop"
+    ) %>%
     ### arrange data
-    arrange(province, health_region, date) %>%
-    ### fix NAs in cumulative_cases
-    fill(cumulative_cases, .direction = "up")
+    arrange(province, health_region, date)
   
   ### create cases time series - health region
   cases_timeseries_hr <- dat %>%
