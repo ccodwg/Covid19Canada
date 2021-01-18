@@ -17845,8 +17845,8 @@
 17844,9001,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","16-01-2021","QC16",NA,NA
 17845,9002,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","16-01-2021","QC16",NA,NA
 17846,9003,NA,"Not Reported","Not Reported","Outaouais","Quebec","Canada","16-01-2021","QC16",NA,NA
-17847,9004,NA,"Not Reported","Not Reported","Outaouais","Quebec","Canada","16-01-2021","QC16",NA,NA
-17848,9005,NA,"Not Reported","Not Reported","Saguenay","Quebec","Canada","16-01-2021","QC16",NA,NA
+17847,9004,NA,"Not Reported","Not Reported","Outaouais","Quebec","Canada","16-01-2021","QC16","17-01-2021: Updated to ltch mortality",NA
+17848,9005,NA,"Not Reported","Not Reported","Saguenay","Quebec","Canada","16-01-2021","QC16","17-01-2021: Updated to ltch mortality",NA
 17849,5323,NA,"Not Reported","Not Reported","Southwestern","Ontario","Canada","16-01-2021","ON111",NA,NA
 17850,5324,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","16-01-2021","ON75",NA,NA
 17851,5325,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","16-01-2021","ON75",NA,NA
@@ -17905,3 +17905,151 @@
 17904,5378,NA,"Not Reported","Not Reported","York","Ontario","Canada","16-01-2021","ON19",NA,NA
 17905,5379,NA,"Not Reported","Not Reported","York","Ontario","Canada","16-01-2021","ON19",NA,NA
 17906,5380,NA,"Not Reported","Not Reported","Peterborough","Ontario","Canada","16-01-2021","ON106",NA,NA
+17907,1418,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","17-01-2021","AB8",NA,NA
+17908,1419,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","17-01-2021","AB8",NA,NA
+17909,1420,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","17-01-2021","AB8",NA,NA
+17910,1421,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","17-01-2021","AB8",NA,NA
+17911,1422,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","17-01-2021","AB8",NA,NA
+17912,1423,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","17-01-2021","AB8",NA,NA
+17913,1424,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","17-01-2021","AB8",NA,NA
+17914,1425,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","17-01-2021","AB8",NA,NA
+17915,1426,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","17-01-2021","AB8",NA,NA
+17916,1427,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","17-01-2021","AB8",NA,NA
+17917,1428,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","17-01-2021","AB8",NA,NA
+17918,1429,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","17-01-2021","AB8",NA,NA
+17919,1430,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","17-01-2021","AB8",NA,NA
+17920,1431,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","17-01-2021","AB8",NA,NA
+17921,1432,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","17-01-2021","AB8",NA,NA
+17922,1433,NA,"Not Reported","Not Reported","Central","Alberta","Canada","17-01-2021","AB8",NA,NA
+17923,1434,NA,"Not Reported","Not Reported","Central","Alberta","Canada","17-01-2021","AB8",NA,NA
+17924,1435,NA,"Not Reported","Not Reported","North","Alberta","Canada","17-01-2021","AB8",NA,NA
+17925,1436,NA,"Not Reported","Not Reported","North","Alberta","Canada","17-01-2021","AB8",NA,NA
+17926,762,NA,"30-39","Male","Winnipeg","Manitoba","Canada","17-01-2021","MB7",NA,NA
+17927,763,NA,"70-79","Male","Northern","Manitoba","Canada","17-01-2021","MB7",NA,NA
+17928,764,NA,"70-79","Female","Winnipeg","Manitoba","Canada","17-01-2021","MB7","linked to an outbreak at Health Sciences Centre GA4;",NA
+17929,765,NA,"70-79","Male","Winnipeg","Manitoba","Canada","17-01-2021","MB7",NA,NA
+17930,766,NA,"70-79","Male","Winnipeg","Manitoba","Canada","17-01-2021","MB7",NA,NA
+17931,767,NA,"70-79","Male","Winnipeg","Manitoba","Canada","17-01-2021","MB7","linked to an outbreak at the Southeast Personal Care Home;",NA
+17932,768,NA,"90-99","Female","Winnipeg","Manitoba","Canada","17-01-2021","MB7",NA,NA
+17933,769,NA,"90-99","Female","Winnipeg","Manitoba","Canada","17-01-2021","MB7",NA,NA
+17934,9006,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","17-01-2021","QC16",NA,NA
+17935,9007,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","17-01-2021","QC16",NA,NA
+17936,9008,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","17-01-2021","QC16",NA,NA
+17937,9009,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","17-01-2021","QC16",NA,NA
+17938,9010,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","17-01-2021","QC16",NA,NA
+17939,9011,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","17-01-2021","QC16",NA,NA
+17940,9012,NA,"Not Reported","Not Reported","Chaudière-Appalaches","Quebec","Canada","17-01-2021","QC16",NA,NA
+17941,9013,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","17-01-2021","QC16",NA,NA
+17942,9014,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","17-01-2021","QC16",NA,NA
+17943,9015,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","17-01-2021","QC16",NA,NA
+17944,9016,NA,"Not Reported","Not Reported","Gaspésie-Îles-de-la-Madeleine","Quebec","Canada","17-01-2021","QC16",NA,NA
+17945,9017,NA,"Not Reported","Not Reported","Lanaudière","Quebec","Canada","17-01-2021","QC16",NA,NA
+17946,9018,NA,"Not Reported","Not Reported","Lanaudière","Quebec","Canada","17-01-2021","QC16",NA,NA
+17947,9019,NA,"Not Reported","Not Reported","Lanaudière","Quebec","Canada","17-01-2021","QC16",NA,NA
+17948,9020,NA,"Not Reported","Not Reported","Laurentides","Quebec","Canada","17-01-2021","QC16",NA,NA
+17949,9021,NA,"Not Reported","Not Reported","Laurentides","Quebec","Canada","17-01-2021","QC16",NA,NA
+17950,9022,NA,"Not Reported","Not Reported","Laval","Quebec","Canada","17-01-2021","QC16",NA,NA
+17951,9023,NA,"Not Reported","Not Reported","Laval","Quebec","Canada","17-01-2021","QC16",NA,NA
+17952,9024,NA,"Not Reported","Not Reported","Mauricie","Quebec","Canada","17-01-2021","QC16",NA,NA
+17953,9025,NA,"Not Reported","Not Reported","Mauricie","Quebec","Canada","17-01-2021","QC16",NA,NA
+17954,9026,NA,"Not Reported","Not Reported","Mauricie","Quebec","Canada","17-01-2021","QC16",NA,NA
+17955,9027,NA,"Not Reported","Not Reported","Mauricie","Quebec","Canada","17-01-2021","QC16",NA,NA
+17956,9028,NA,"Not Reported","Not Reported","Mauricie","Quebec","Canada","17-01-2021","QC16",NA,NA
+17957,9029,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","17-01-2021","QC16",NA,NA
+17958,9030,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","17-01-2021","QC16",NA,NA
+17959,9031,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","17-01-2021","QC16",NA,NA
+17960,9032,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","17-01-2021","QC16",NA,NA
+17961,9033,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","17-01-2021","QC16",NA,NA
+17962,9034,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","17-01-2021","QC16",NA,NA
+17963,9035,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","17-01-2021","QC16",NA,NA
+17964,9036,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","17-01-2021","QC16",NA,NA
+17965,9037,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","17-01-2021","QC16",NA,NA
+17966,9038,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","17-01-2021","QC16",NA,NA
+17967,9039,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","17-01-2021","QC16",NA,NA
+17968,9040,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","17-01-2021","QC16",NA,NA
+17969,9041,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","17-01-2021","QC16",NA,NA
+17970,9042,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","17-01-2021","QC16",NA,NA
+17971,9043,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","17-01-2021","QC16",NA,NA
+17972,9044,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","17-01-2021","QC16",NA,NA
+17973,9045,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","17-01-2021","QC16",NA,NA
+17974,9046,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","17-01-2021","QC16",NA,NA
+17975,9047,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","17-01-2021","QC16",NA,NA
+17976,9048,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","17-01-2021","QC16",NA,NA
+17977,9049,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","17-01-2021","QC16",NA,NA
+17978,9050,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","17-01-2021","QC16",NA,NA
+17979,9051,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","17-01-2021","QC16",NA,NA
+17980,9052,NA,"Not Reported","Not Reported","Outaouais","Quebec","Canada","17-01-2021","QC16",NA,NA
+17981,9053,NA,"Not Reported","Not Reported","Saguenay","Quebec","Canada","17-01-2021","QC16",NA,NA
+17982,9054,NA,"Not Reported","Not Reported","Saguenay","Quebec","Canada","17-01-2021","QC16",NA,NA
+17983,9055,NA,"Not Reported","Not Reported","Saguenay","Quebec","Canada","17-01-2021","QC16",NA,NA
+17984,213,NA,"60-69","Not Reported","Far North","Saskatchewan","Canada","17-01-2021","SK12","Far North West","https://leaderpost.com/news/saskatchewan/covid-19-two-more-deaths-270-new-cases-and-nearly-3000-vaccines-administered"
+17985,214,NA,">80","Not Reported","North","Saskatchewan","Canada","17-01-2021","SK12","North Central","https://leaderpost.com/news/saskatchewan/covid-19-two-more-deaths-270-new-cases-and-nearly-3000-vaccines-administered"
+17986,215,NA,">80","Not Reported","Regina","Saskatchewan","Canada","17-01-2021","SK12",NA,"https://leaderpost.com/news/saskatchewan/covid-19-two-more-deaths-270-new-cases-and-nearly-3000-vaccines-administered"
+17987,5381,NA,"Not Reported","Not Reported","Haldimand-Norfolk","Ontario","Canada","17-01-2021","ON143",NA,NA
+17988,5382,NA,"Not Reported","Not Reported","Halton","Ontario","Canada","17-01-2021","ON105",NA,NA
+17989,5383,NA,"Not Reported","Not Reported","Halton","Ontario","Canada","17-01-2021","ON105",NA,NA
+17990,5384,NA,"Not Reported","Not Reported","Halton","Ontario","Canada","17-01-2021","ON105",NA,NA
+17991,5385,NA,"Not Reported","Not Reported","Halton","Ontario","Canada","17-01-2021","ON105",NA,NA
+17992,5386,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","17-01-2021","ON79",NA,NA
+17993,5387,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","17-01-2021","ON79",NA,NA
+17994,5388,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","17-01-2021","ON79",NA,NA
+17995,5389,NA,"70-79","Male","Middlesex-London","Ontario","Canada","17-01-2021","ON109","Associated with a long-term care home",NA
+17996,5390,NA,"70-79","Male","Middlesex-London","Ontario","Canada","17-01-2021","ON109","Associated with a long-term care home",NA
+17997,5391,NA,"80-89","Female","Middlesex-London","Ontario","Canada","17-01-2021","ON109","Associated with a long-term care home",NA
+17998,5392,NA,"90-99","Female","Middlesex-London","Ontario","Canada","17-01-2021","ON109","Associated with a long-term care home",NA
+17999,5393,NA,"90-99","Female","Middlesex-London","Ontario","Canada","17-01-2021","ON109","Associated with a long-term care home",NA
+18000,5394,NA,"90-99","Male","Middlesex-London","Ontario","Canada","17-01-2021","ON109","Associated with a long-term care home",NA
+18001,5395,NA,"90-99","Male","Middlesex-London","Ontario","Canada","17-01-2021","ON109",NA,NA
+18002,5396,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","17-01-2021","ON95",NA,NA
+18003,5397,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","17-01-2021","ON95",NA,NA
+18004,5398,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","17-01-2021","ON95",NA,NA
+18005,5399,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","17-01-2021","ON95",NA,NA
+18006,5400,NA,"Not Reported","Not Reported","Ottawa","Ontario","Canada","17-01-2021","ON93",NA,NA
+18007,5401,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","17-01-2021","ON75",NA,NA
+18008,5402,NA,"Not Reported","Not Reported","Southwestern","Ontario","Canada","17-01-2021","ON111",NA,NA
+18009,5403,NA,"Not Reported","Not Reported","Southwestern","Ontario","Canada","17-01-2021","ON111",NA,NA
+18010,5404,NA,"Not Reported","Not Reported","Thunder Bay","Ontario","Canada","17-01-2021","ON110",NA,NA
+18011,5405,NA,"Not Reported","Not Reported","Thunder Bay","Ontario","Canada","17-01-2021","ON110",NA,NA
+18012,5406,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","17-01-2021","ON26",NA,NA
+18013,5407,NA,"Not Reported","Not Reported","Sudbury","Ontario","Canada","17-01-2021","ON210",NA,NA
+18014,5408,NA,"Not Reported","Not Reported","Sudbury","Ontario","Canada","17-01-2021","ON210",NA,NA
+18015,5409,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18016,5410,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18017,5411,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18018,5412,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18019,5413,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18020,5414,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18021,5415,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18022,5416,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18023,5417,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18024,5418,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18025,5419,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18026,5420,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18027,5421,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18028,5422,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18029,5423,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18030,5424,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18031,5425,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18032,5426,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18033,5427,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18034,5428,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18035,5429,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18036,5430,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18037,5431,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18038,5432,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18039,5433,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18040,5434,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18041,5435,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18042,5436,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18043,5437,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18044,5438,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18045,5439,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18046,5440,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18047,5441,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18048,5442,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18049,5443,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18050,5444,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18051,5445,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18052,5446,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18053,5447,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
+18054,5448,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","17-01-2021","ON68",NA,NA
