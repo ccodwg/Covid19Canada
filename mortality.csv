@@ -18112,7 +18112,7 @@
 18111,9062,NA,"Not Reported","Not Reported","Lanaudière","Quebec","Canada","18-01-2021","QC16","Of those 32 deaths, nine occurred in the last 24 hours and 23 happened between Jan. 11 and 16.",NA
 18112,9063,NA,"Not Reported","Not Reported","Laurentides","Quebec","Canada","18-01-2021","QC16","Of those 32 deaths, nine occurred in the last 24 hours and 23 happened between Jan. 11 and 16.",NA
 18113,9064,NA,"Not Reported","Not Reported","Laurentides","Quebec","Canada","18-01-2021","QC16","Of those 32 deaths, nine occurred in the last 24 hours and 23 happened between Jan. 11 and 16.",NA
-18114,9065,NA,"Not Reported","Not Reported","Laval","Quebec","Canada","18-01-2021","QC16","Of those 32 deaths, nine occurred in the last 24 hours and 23 happened between Jan. 11 and 16.",NA
+18114,9065,NA,"Not Reported","Not Reported","Laval","Quebec","Canada","18-01-2021","QC16","19-01-2021: Updated to a ltch mortality. Of those 32 deaths, nine occurred in the last 24 hours and 23 happened between Jan. 11 and 16.",NA
 18115,9066,NA,"Not Reported","Not Reported","Mauricie","Quebec","Canada","18-01-2021","QC16","Of those 32 deaths, nine occurred in the last 24 hours and 23 happened between Jan. 11 and 16.",NA
 18116,9067,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","18-01-2021","QC16","Of those 32 deaths, nine occurred in the last 24 hours and 23 happened between Jan. 11 and 16.",NA
 18117,9068,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","18-01-2021","QC16","Of those 32 deaths, nine occurred in the last 24 hours and 23 happened between Jan. 11 and 16.",NA
@@ -18167,6 +18167,163 @@
 18166,5478,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","18-01-2021","ON26",NA,NA
 18167,5479,NA,"Not Reported","Not Reported","York","Ontario","Canada","18-01-2021","ON212",NA,NA
 18168,5480,NA,"Not Reported","Not Reported","Simcoe Muskoka","Ontario","Canada","18-01-2021","ON102",NA,NA
-18169,5480,NA,"Not Reported","Not Reported","Simcoe Muskoka","Ontario","Canada","18-01-2021","ON102",NA,NA
-18170,5481,NA,"Not Reported","Not Reported","Simcoe Muskoka","Ontario","Canada","18-01-2021","ON102",NA,NA
-18171,5481,NA,"Not Reported","Not Reported","Simcoe Muskoka","Ontario","Canada","18-01-2021","ON102",NA,NA
+18169,5481,NA,"Not Reported","Not Reported","Simcoe Muskoka","Ontario","Canada","18-01-2021","ON102",NA,NA
+18170,5482,NA,"Not Reported","Not Reported","Simcoe Muskoka","Ontario","Canada","18-01-2021","ON102",NA,NA
+18171,5483,NA,"Not Reported","Not Reported","Simcoe Muskoka","Ontario","Canada","18-01-2021","ON102",NA,NA
+18172,1448,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","19-01-2021","AB8",NA,NA
+18173,1449,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","19-01-2021","AB8",NA,NA
+18174,1450,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","19-01-2021","AB8",NA,NA
+18175,1451,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","19-01-2021","AB8",NA,NA
+18176,1452,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","19-01-2021","AB8",NA,NA
+18177,1453,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","19-01-2021","AB8",NA,NA
+18178,1454,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","19-01-2021","AB8",NA,NA
+18179,1455,NA,"Not Reported","Not Reported","Central","Alberta","Canada","19-01-2021","AB8",NA,NA
+18180,1456,NA,"Not Reported","Not Reported","Central","Alberta","Canada","19-01-2021","AB8",NA,NA
+18181,1457,NA,"Not Reported","Not Reported","Central","Alberta","Canada","19-01-2021","AB8",NA,NA
+18182,1458,NA,"Not Reported","Not Reported","Central","Alberta","Canada","19-01-2021","AB8",NA,NA
+18183,1459,NA,"Not Reported","Not Reported","Central","Alberta","Canada","19-01-2021","AB8",NA,NA
+18184,1460,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","19-01-2021","AB8",NA,NA
+18185,1461,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","19-01-2021","AB8",NA,NA
+18186,1462,NA,"Not Reported","Not Reported","North","Alberta","Canada","19-01-2021","AB8",NA,NA
+18187,1463,NA,"Not Reported","Not Reported","North","Alberta","Canada","19-01-2021","AB8",NA,NA
+18188,1079,NA,"Not Reported","Not Reported","Fraser","BC","Canada","19-01-2021","BC213",NA,NA
+18189,1080,NA,"Not Reported","Not Reported","Fraser","BC","Canada","19-01-2021","BC213",NA,NA
+18190,1081,NA,"Not Reported","Not Reported","Fraser","BC","Canada","19-01-2021","BC213",NA,NA
+18191,1082,NA,"Not Reported","Not Reported","Fraser","BC","Canada","19-01-2021","BC213",NA,NA
+18192,1083,NA,"Not Reported","Not Reported","Fraser","BC","Canada","19-01-2021","BC213",NA,NA
+18193,1084,NA,"Not Reported","Not Reported","Fraser","BC","Canada","19-01-2021","BC213",NA,NA
+18194,1085,NA,"Not Reported","Not Reported","Fraser","BC","Canada","19-01-2021","BC213",NA,NA
+18195,1086,NA,"Not Reported","Not Reported","Interior","BC","Canada","19-01-2021","BC213",NA,NA
+18196,1087,NA,"Not Reported","Not Reported","Interior","BC","Canada","19-01-2021","BC213",NA,NA
+18197,1088,NA,"Not Reported","Not Reported","Vancouver Coastal","BC","Canada","19-01-2021","BC213",NA,NA
+18198,1089,NA,"Not Reported","Not Reported","Vancouver Coastal","BC","Canada","19-01-2021","BC213",NA,NA
+18199,1090,NA,"Not Reported","Not Reported","Northern","BC","Canada","19-01-2021","BC213",NA,NA
+18200,774,NA,"50-59","Female","Prairie Mountain","Manitoba","Canada","19-01-2021","MB7",NA,NA
+18201,775,NA,"80-89","Male","Southern Health","Manitoba","Canada","19-01-2021","MB7","McCreary/Alonsa Health Centre;",NA
+18202,776,NA,"80-89","Male","Southern Health","Manitoba","Canada","19-01-2021","MB7",NA,NA
+18203,777,NA,"90-99","Male","Winnipeg","Manitoba","Canada","19-01-2021","MB7","Heritage Life Personal Care Home",NA
+18204,778,NA,"50-59","Male","Winnipeg","Manitoba","Canada","19-01-2021","MB7",NA,NA
+18205,779,NA,"60-69","Male","Winnipeg","Manitoba","Canada","19-01-2021","MB7","Southeast Personal Care Home",NA
+18206,780,NA,"70-79","Male","Winnipeg","Manitoba","Canada","19-01-2021","MB7",NA,NA
+18207,781,NA,"80-89","Female","Winnipeg","Manitoba","Canada","19-01-2021","MB7","Deer Lodge Centre, Lodge 4 West",NA
+18208,782,NA,"90-99","Male","Winnipeg","Manitoba","Canada","19-01-2021","MB7","Concordia Place",NA
+18209,783,NA,"90-99","Male","Winnipeg","Manitoba","Canada","19-01-2021","MB7",NA,NA
+18210,784,NA,"90-99","Female","Winnipeg","Manitoba","Canada","19-01-2021","MB7",NA,NA
+18211,13,NA,"80-89","Not Reported","Zone 2 (Saint John area)","New Brunswick","Canada","19-01-2021","NB213","resident of Lily Court of Parkland Saint John’s Tucker Hall.",NA
+18212,220,NA,"60-69","Not Reported","Central","Saskatchewan","Canada","19-01-2021","SK213",NA,"https://www.cbc.ca/news/canada/saskatchewan/covid-19-in-sask-january-19-1.5879210"
+18213,221,NA,"80-89","Not Reported","Regina","Saskatchewan","Canada","19-01-2021","SK213",NA,"https://www.cbc.ca/news/canada/saskatchewan/covid-19-in-sask-january-19-1.5879210"
+18214,222,NA,"80-89","Not Reported","Regina","Saskatchewan","Canada","19-01-2021","SK213",NA,"https://www.cbc.ca/news/canada/saskatchewan/covid-19-in-sask-january-19-1.5879210"
+18215,223,NA,"80-89","Not Reported","South","Saskatchewan","Canada","19-01-2021","SK213",NA,"https://www.cbc.ca/news/canada/saskatchewan/covid-19-in-sask-january-19-1.5879210"
+18216,224,NA,"80-89","Not Reported","South","Saskatchewan","Canada","19-01-2021","SK213",NA,"https://www.cbc.ca/news/canada/saskatchewan/covid-19-in-sask-january-19-1.5879210"
+18217,225,NA,"80-89","Not Reported","Saskatoon","Saskatchewan","Canada","19-01-2021","SK213",NA,"https://www.cbc.ca/news/canada/saskatchewan/covid-19-in-sask-january-19-1.5879210"
+18218,9088,NA,"Not Reported","Not Reported","Saguenay","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18219,9089,NA,"Not Reported","Not Reported","Saguenay","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18220,9090,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18221,9091,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18222,9092,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18223,9093,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18224,9094,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18225,9095,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18226,9096,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18227,9097,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18228,9098,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18229,9099,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18230,9100,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18231,9101,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18232,9102,NA,"Not Reported","Not Reported","Lanaudière","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18233,9103,NA,"Not Reported","Not Reported","Lanaudière","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18234,9104,NA,"Not Reported","Not Reported","Lanaudière","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18235,9105,NA,"Not Reported","Not Reported","Lanaudière","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18236,9106,NA,"Not Reported","Not Reported","Laurentides","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18237,9107,NA,"Not Reported","Not Reported","Laurentides","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18238,9108,NA,"Not Reported","Not Reported","Laval","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18239,9109,NA,"Not Reported","Not Reported","Laval","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18240,9110,NA,"Not Reported","Not Reported","Laval","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18241,9111,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18242,9112,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18243,9113,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18244,9114,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18245,9115,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18246,9116,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18247,9117,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18248,9118,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18249,9119,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18250,9120,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18251,9121,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18252,9122,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18253,9123,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18254,9124,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18255,9125,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18256,9126,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18257,9127,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18258,9128,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18259,9129,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18260,9130,NA,"Not Reported","Not Reported","Chaudière-Appalaches","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18261,9131,NA,"Not Reported","Not Reported","Chaudière-Appalaches","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18262,9132,NA,"Not Reported","Not Reported","Chaudière-Appalaches","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18263,9133,NA,"Not Reported","Not Reported","Chaudière-Appalaches","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18264,9134,NA,"Not Reported","Not Reported","Chaudière-Appalaches","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18265,9135,NA,"Not Reported","Not Reported","Chaudière-Appalaches","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18266,9136,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18267,9137,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18268,9138,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18269,9139,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18270,9140,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18271,9141,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18272,9142,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","19-01-2021","QC16","Among those 55 deaths, 16 occurred in the last 24 hours, 33 between Jan. 12 and 17 and six happened before Jan. 12.",NA
+18273,5484,NA,"60-69","Male","Windsor-Essex","Ontario","Canada","19-01-2021","ON41",NA,"https://windsorite.ca/2021/01/15-new-deaths-173-new-cases-of-covid-19-in-windsor-essex-on-tuesday/"
+18274,5485,NA,"70-79","Male","Windsor-Essex","Ontario","Canada","19-01-2021","ON41",NA,"https://windsorite.ca/2021/01/15-new-deaths-173-new-cases-of-covid-19-in-windsor-essex-on-tuesday/"
+18275,5486,NA,"80-89","Male","Windsor-Essex","Ontario","Canada","19-01-2021","ON41",NA,"https://windsorite.ca/2021/01/15-new-deaths-173-new-cases-of-covid-19-in-windsor-essex-on-tuesday/"
+18276,5487,NA,"90-99","Female","Windsor-Essex","Ontario","Canada","19-01-2021","ON41",NA,"https://windsorite.ca/2021/01/15-new-deaths-173-new-cases-of-covid-19-in-windsor-essex-on-tuesday/"
+18277,5488,NA,"90-99","Female","Windsor-Essex","Ontario","Canada","19-01-2021","ON41",NA,"https://windsorite.ca/2021/01/15-new-deaths-173-new-cases-of-covid-19-in-windsor-essex-on-tuesday/"
+18278,5489,NA,"90-99","Female","Windsor-Essex","Ontario","Canada","19-01-2021","ON41",NA,"https://windsorite.ca/2021/01/15-new-deaths-173-new-cases-of-covid-19-in-windsor-essex-on-tuesday/"
+18279,5490,NA,"50-59","Male","Windsor-Essex","Ontario","Canada","19-01-2021","ON41",NA,"https://windsorite.ca/2021/01/15-new-deaths-173-new-cases-of-covid-19-in-windsor-essex-on-tuesday/"
+18280,5491,NA,"60-69","Male","Windsor-Essex","Ontario","Canada","19-01-2021","ON41",NA,"https://windsorite.ca/2021/01/15-new-deaths-173-new-cases-of-covid-19-in-windsor-essex-on-tuesday/"
+18281,5492,NA,"60-69","Male","Windsor-Essex","Ontario","Canada","19-01-2021","ON41",NA,"https://windsorite.ca/2021/01/15-new-deaths-173-new-cases-of-covid-19-in-windsor-essex-on-tuesday/"
+18282,5493,NA,"60-69","Female","Windsor-Essex","Ontario","Canada","19-01-2021","ON41",NA,"https://windsorite.ca/2021/01/15-new-deaths-173-new-cases-of-covid-19-in-windsor-essex-on-tuesday/"
+18283,5494,NA,"70-79","Female","Windsor-Essex","Ontario","Canada","19-01-2021","ON41",NA,"https://windsorite.ca/2021/01/15-new-deaths-173-new-cases-of-covid-19-in-windsor-essex-on-tuesday/"
+18284,5495,NA,"70-79","Female","Windsor-Essex","Ontario","Canada","19-01-2021","ON41",NA,"https://windsorite.ca/2021/01/15-new-deaths-173-new-cases-of-covid-19-in-windsor-essex-on-tuesday/"
+18285,5496,NA,"70-79","Female","Windsor-Essex","Ontario","Canada","19-01-2021","ON41",NA,"https://windsorite.ca/2021/01/15-new-deaths-173-new-cases-of-covid-19-in-windsor-essex-on-tuesday/"
+18286,5497,NA,"70-79","Male","Windsor-Essex","Ontario","Canada","19-01-2021","ON41",NA,"https://windsorite.ca/2021/01/15-new-deaths-173-new-cases-of-covid-19-in-windsor-essex-on-tuesday/"
+18287,5498,NA,"80-89","Female","Windsor-Essex","Ontario","Canada","19-01-2021","ON41",NA,"https://windsorite.ca/2021/01/15-new-deaths-173-new-cases-of-covid-19-in-windsor-essex-on-tuesday/"
+18288,5499,NA,"Not Reported","Not Reported","Wellington Dufferin Guelph","Ontario","Canada","19-01-2021","ON61",NA,NA
+18289,5500,NA,"Not Reported","Not Reported","Wellington Dufferin Guelph","Ontario","Canada","19-01-2021","ON61",NA,NA
+18290,5501,NA,"Not Reported","Not Reported","Southwestern","Ontario","Canada","19-01-2021","ON111",NA,NA
+18291,5502,NA,"Not Reported","Not Reported","Southwestern","Ontario","Canada","19-01-2021","ON111",NA,NA
+18292,5503,NA,"Not Reported","Not Reported","Ottawa","Ontario","Canada","19-01-2021","ON93",NA,NA
+18293,5504,NA,"Not Reported","Not Reported","Ottawa","Ontario","Canada","19-01-2021","ON93",NA,NA
+18294,5505,NA,"70-79","Male","Middlesex-London","Ontario","Canada","19-01-2021","ON109",NA,NA
+18295,5506,NA,"100-109","Female","Middlesex-London","Ontario","Canada","19-01-2021","ON109",NA,NA
+18296,5507,NA,"60-69","Female","Middlesex-London","Ontario","Canada","19-01-2021","ON109",NA,NA
+18297,5508,NA,"60-69","Male","Middlesex-London","Ontario","Canada","19-01-2021","ON109",NA,NA
+18298,5509,NA,"Not Reported","Not Reported","Huron Perth","Ontario","Canada","19-01-2021","ON63",NA,NA
+18299,5510,NA,"Not Reported","Not Reported","Eastern","Ontario","Canada","19-01-2021","ON82",NA,NA
+18300,5511,NA,"Not Reported","Not Reported","Eastern","Ontario","Canada","19-01-2021","ON82",NA,NA
+18301,5512,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","19-01-2021","ON75",NA,NA
+18302,5513,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","19-01-2021","ON75",NA,NA
+18303,5514,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","19-01-2021","ON75",NA,NA
+18304,5515,NA,"Not Reported","Not Reported","Waterloo","Ontario","Canada","19-01-2021","ON107",NA,NA
+18305,5516,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","19-01-2021","ON79",NA,NA
+18306,5517,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","19-01-2021","ON79",NA,NA
+18307,5518,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","19-01-2021","ON79",NA,NA
+18308,5519,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","19-01-2021","ON79",NA,NA
+18309,5520,NA,"Not Reported","Not Reported","Algoma","Ontario","Canada","19-01-2021","ON213",NA,NA
+18310,5521,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","19-01-2021","ON26",NA,NA
+18311,5522,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","19-01-2021","ON26",NA,NA
+18312,5523,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","19-01-2021","ON26",NA,NA
+18313,5524,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","19-01-2021","ON26",NA,NA
+18314,5525,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","19-01-2021","ON26",NA,NA
+18315,5526,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","19-01-2021","ON26",NA,NA
+18316,5527,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","19-01-2021","ON26",NA,NA
+18317,5528,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","19-01-2021","ON68",NA,NA
+18318,5529,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","19-01-2021","ON68",NA,NA
+18319,5530,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","19-01-2021","ON68",NA,NA
+18320,5531,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","19-01-2021","ON68",NA,NA
+18321,5532,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","19-01-2021","ON68",NA,NA
+18322,5533,NA,"Not Reported","Not Reported","Simcoe Muskoka","Ontario","Canada","19-01-2021","ON102",NA,NA
+18323,5534,NA,"Not Reported","Not Reported","Halton","Ontario","Canada","19-01-2021","ON105",NA,NA
+18324,5535,NA,"Not Reported","Not Reported","Halton","Ontario","Canada","19-01-2021","ON105",NA,NA
+18325,5536,NA,"Not Reported","Not Reported","Halton","Ontario","Canada","19-01-2021","ON105",NA,NA
+18326,5537,NA,"Not Reported","Not Reported","Sudbury","Ontario","Canada","19-01-2021","ON210",NA,NA
+18327,5538,NA,"Not Reported","Not Reported","York","Ontario","Canada","19-01-2021","ON19",NA,NA
+18328,5539,NA,"Not Reported","Not Reported","York","Ontario","Canada","19-01-2021","ON19",NA,NA
