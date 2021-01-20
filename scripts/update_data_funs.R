@@ -144,14 +144,14 @@ abbreviate_source <- function(dat, abbrev, var_source) {
 
 ## create time series (cases, mortality, recovered, testing)
 create_ts <- function(dat,
-                      stat = c("cases", "mortality", "recovered", "testing", "vaccine_administration", "vaccine_distribution"),
+                      stat = c("cases", "mortality", "recovered", "testing", "vaccine_administration", "vaccine_distribution", "vaccine_completion"),
                       loc = c("canada", "prov", "hr"),
                       date_min) {
   
   
   ### check statistic
   match.arg(stat,
-            choices = c("cases", "mortality", "recovered", "testing", "vaccine_administration", "vaccine_distribution"),
+            choices = c("cases", "mortality", "recovered", "testing", "vaccine_administration", "vaccine_distribution", "vaccine_completion"),
             several.ok = FALSE)
   
   ### check spatial scale
@@ -167,7 +167,8 @@ create_ts <- function(dat,
     "recovered" = {var_date <- "date_recovered"; var_val <- "recovered"; var_val_cum <- "cumulative_recovered"},
     "testing" = {var_date <- "date_testing"; var_val <- "testing"; var_val_cum <- "cumulative_testing"},
     "vaccine_administration" = {var_date <- "date_vaccine_administered"; var_val <- "avaccine"; var_val_cum <- "cumulative_avaccine"},
-    "vaccine_distribution" = {var_date <- "date_vaccine_distributed"; var_val <- "dvaccine"; var_val_cum <- "cumulative_dvaccine"}
+    "vaccine_distribution" = {var_date <- "date_vaccine_distributed"; var_val <- "dvaccine"; var_val_cum <- "cumulative_dvaccine"},
+    "vaccine_completion" = {var_date <- "date_vaccine_completed"; var_val <- "cvaccine"; var_val_cum <- "cumulative_cvaccine"}
   )
   
   ### keep extra info for later joining (if applicable)
@@ -235,7 +236,7 @@ create_ts <- function(dat,
           )
       )
     }
-  } else if (stat %in% c("recovered", "testing", "vaccine_administration", "vaccine_distribution")) {
+  } else if (stat %in% c("recovered", "testing", "vaccine_administration", "vaccine_distribution", "vaccine_completion")) {
     ### build provincial time series as baseline
     dat <- dat %>%
       select(province, !!sym(var_date), !!sym(var_val_cum)) %>%
@@ -261,7 +262,7 @@ create_ts <- function(dat,
       ) %>%
       ungroup
     ### remove "Repatriated"
-    if (stat %in%  c("vaccine_administration", "vaccine_distribution")) {
+    if (stat %in%  c("vaccine_administration", "vaccine_distribution", "vaccine_completion")) {
       dat <- dat %>%
         filter(province != "Repatriated")
     }

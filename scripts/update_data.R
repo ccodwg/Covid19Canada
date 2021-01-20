@@ -36,6 +36,7 @@ files %>% filter(name == "recovered_cumulative.csv") %>% drive_download(overwrit
 files %>% filter(name == "testing_cumulative.csv") %>% drive_download(overwrite = TRUE)
 files %>% filter(name == "vaccine_administration_cumulative.csv") %>% drive_download(overwrite = TRUE)
 files %>% filter(name == "vaccine_distribution_cumulative.csv") %>% drive_download(overwrite = TRUE)
+files %>% filter(name == "vaccine_completion_cumulative.csv") %>% drive_download(overwrite = TRUE)
 
 # read downloaded sheets
 cases <- read.csv("cases.csv",
@@ -50,6 +51,8 @@ vaccine_administration_cum <- read.csv("vaccine_administration_cumulative.csv",
                                        stringsAsFactors = FALSE)
 vaccine_distribution_cum <- read.csv("vaccine_distribution_cumulative.csv",
                                      stringsAsFactors = FALSE)
+vaccine_completion_cum <- read.csv("vaccine_completion_cumulative.csv",
+                                   stringsAsFactors = FALSE)
 
 # load other files
 
@@ -82,7 +85,7 @@ mortality_death_source <- read.csv("other/mortality_extra/mortality_death_source
                                    ))
 
 # convert dates to standard format for manipulation
-convert_dates("cases", "mortality", "recovered_cum", "testing_cum", "vaccine_administration_cum", "vaccine_distribution_cum", date_format_out = "%Y-%m-%d")
+convert_dates("cases", "mortality", "recovered_cum", "testing_cum", "vaccine_administration_cum", "vaccine_distribution_cum", "vaccine_completion_cum", date_format_out = "%Y-%m-%d")
 
 # define parameters
 
@@ -97,6 +100,7 @@ date_min_recovered <- min(recovered_cum$date_recovered)
 date_min_testing <- min(testing_cum$date_testing)
 date_min_vaccine_administration <- min(vaccine_administration_cum$date_vaccine_administered)
 date_min_vaccine_distribution <- min(vaccine_distribution_cum$date_vaccine_distributed)
+date_min_vaccine_completion <- min(vaccine_completion_cum$date_vaccine_completed)
 
 # create time series
 
@@ -130,6 +134,10 @@ vaccine_administration_ts_canada <- create_ts(vaccine_administration_cum, "vacci
 vaccine_distribution_ts_prov <- create_ts(vaccine_distribution_cum, "vaccine_distribution", "prov", date_min_vaccine_distribution)
 vaccine_distribution_ts_canada <- create_ts(vaccine_distribution_cum, "vaccine_distribution", "canada", date_min_vaccine_distribution)
 
+## vaccine completion time series
+vaccine_completion_ts_prov <- create_ts(vaccine_completion_cum, "vaccine_completion", "prov", date_min_vaccine_completion)
+vaccine_completion_ts_canada <- create_ts(vaccine_completion_cum, "vaccine_completion", "canada", date_min_vaccine_completion)
+
 # abbreviate "case_source" (cases.csv) and "death_source" (mortality.csv)
 abbreviate_source(cases, cases_case_source, "case_source")
 abbreviate_source(mortality, mortality_death_source, "death_source")
@@ -141,6 +149,7 @@ convert_dates("cases", "mortality", "recovered_cum", "testing_cum",
               "cases_ts_hr", "mortality_ts_hr",
               "vaccine_administration_cum", "vaccine_administration_ts_prov", "vaccine_administration_ts_canada",
               "vaccine_distribution_cum", "vaccine_distribution_ts_prov", "vaccine_distribution_ts_canada",
+              "vaccine_completion_cum", "vaccine_completion_ts_prov", "vaccine_completion_ts_canada",
               date_format_out = "%d-%m-%Y")
 
 # write generated files
@@ -168,3 +177,6 @@ write.csv(vaccine_administration_ts_canada, "timeseries_canada/vaccine_administr
 write.csv(vaccine_distribution_cum, "vaccine_distribution_cumulative.csv", row.names = FALSE)
 write.csv(vaccine_distribution_ts_prov, "timeseries_prov/vaccine_distribution_timeseries_prov.csv", row.names = FALSE)
 write.csv(vaccine_distribution_ts_canada, "timeseries_canada/vaccine_distribution_timeseries_canada.csv", row.names = FALSE)
+write.csv(vaccine_completion_cum, "vaccine_completion_cumulative.csv", row.names = FALSE)
+write.csv(vaccine_completion_ts_prov, "timeseries_prov/vaccine_completion_timeseries_prov.csv", row.names = FALSE)
+write.csv(vaccine_completion_ts_canada, "timeseries_canada/vaccine_completion_timeseries_canada.csv", row.names = FALSE)

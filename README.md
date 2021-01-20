@@ -20,6 +20,7 @@ Several changes have been made recently to the datasets or will be made in the f
 
 Sources for our vaccine data are summarized here: [https://docs.google.com/spreadsheets/d/1zebsxvOPw8gJ-38r9Wbs_tY0Sk5lvfr0khun9_p3gmY/htmlview](https://docs.google.com/spreadsheets/d/1zebsxvOPw8gJ-38r9Wbs_tY0Sk5lvfr0khun9_p3gmY/htmlview)
 
+- 2021-01-19: Fully vaccinated data have been added (vaccine_completion_cumulative.csv, timeseries_prov/vaccine_completion_timeseries_prov.csv, timeseries_canada/vaccine_completion_timeseries_canada.csv). Note that this value is not currently reported by all provinces (some provinces have all 0s).
 - 2021-01-11: Our Ontario vaccine dataset has changed. Previously, we used two datasets: the MoH Daily Situation Report (https://www.oha.com/news/updates-on-the-novel-coronavirus), which is released weekdays in the evenings, and the “COVID-19 Vaccine Data in Ontario” dataset (https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario), which is released every day in the mornings. Because the Daily Situation Report is released later in the day, it has more up-to-date numbers. However, since it is not available on weekends, this leads to an artificial “dip” in numbers on Saturday and “jump” on Monday due to the transition betwen data sources. We will now exclusively use the daily “COVID-19 Vaccine Data in Ontario” dataset. Although our numbers will be slightly less timely, the daily values will be consistent. We have replaced our historical dataset with “COVID-19 Vaccine Data in Ontario” as far back as they are available.
 - 2020-12-17: Vaccination data have been added as time series in timeseries_prov and timeseries_hr.
 - 2020-12-15: We have added two vaccine datasets to the repository, vaccine_administration_cumulative.csv and vaccine_distribution_cumulative.csv.
@@ -58,6 +59,7 @@ The full dataset may be downloaded in CSV format from this repository. The full 
 * **Current and change in active cases**: timeseries_prov/active_timeseries_prov.csv
 * **Daily and cumulative vaccine doses delivered**: timeseries_prov/vaccine_distribution_timeseries_prov.csv
 * **Daily and cumulative vaccine doses administered**: timeseries_prov/vaccine_administration_timeseries_prov.csv
+* **Daily and cumulative people fully vaccinated**: timeseries_prov/vaccine_completion_timeseries_prov.csv
 
 ### Canada-level Time Series
 * **Daily and cumulative cases**: timeseries_canada/cases_timeseries_canada.csv
@@ -65,6 +67,9 @@ The full dataset may be downloaded in CSV format from this repository. The full 
 * **Daily and cumulative recovered**: timeseries_canada/recovered_timeseries_canada.csv
 * **Daily and cumulative testing**: timeseries_canada/testing_timeseries_canada.csv
 * **Current and change in active cases**: timeseries_canada/active_timeseries_canada.csv
+* **Daily and cumulative vaccine doses delivered**: timeseries_canada/vaccine_distribution_timeseries_canada.csv
+* **Daily and cumulative vaccine doses administered**: timeseries_canada/vaccine_administration_timeseries_canada.csv
+* **Daily and cumulative people fully vaccinated**: timeseries_canada/vaccine_completion_timeseries_canada.csv
 
 ### Other Files
 * **Correspondence between health region names used in our dataset and HRUID values given in Esri Canada's [health region map](https://resources-covid19canada.hub.arcgis.com/datasets/regionalhealthboundaries-1), with [2018 population values](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1710013401)**: other/hr_map.csv
