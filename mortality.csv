@@ -17925,8 +17925,8 @@
 17924,1435,NA,"Not Reported","Not Reported","North","Alberta","Canada","17-01-2021","AB8",NA,NA
 17925,1436,NA,"Not Reported","Not Reported","North","Alberta","Canada","17-01-2021","AB8",NA,NA
 17926,762,NA,"30-39","Male","Winnipeg","Manitoba","Canada","17-01-2021","MB7",NA,NA
-17927,763,NA,"70-79","Male","Northern","Manitoba","Canada","17-01-2021","MB7",NA,NA
-17928,764,NA,"70-79","Female","Winnipeg","Manitoba","Canada","17-01-2021","MB7","linked to an outbreak at Health Sciences Centre GA4;",NA
+17927,763,NA,"80-89","Female","Southern Health","Manitoba","Canada","22-01-2021","MB7","22-01-2021: 2 deaths removed. No indication which (date, region or demographics). As a result, we have removed the two most recent deaths from Northern to better approximate regional totals on the Manitoba dashboard. Replaced with deaths from today and date updated accordingly (Heritage Life Personal Care Home)",NA
+17928,764,NA,"70-79","Female","Winnipeg","Manitoba","Canada","17-01-2021","MB7","linked to an outbreak at Health Sciences Centre GA4",NA
 17929,765,NA,"70-79","Male","Winnipeg","Manitoba","Canada","17-01-2021","MB7",NA,NA
 17930,766,NA,"70-79","Male","Winnipeg","Manitoba","Canada","17-01-2021","MB7",NA,NA
 17931,767,NA,"70-79","Male","Winnipeg","Manitoba","Canada","17-01-2021","MB7","linked to an outbreak at the Southeast Personal Care Home;",NA
@@ -18095,7 +18095,7 @@
 18094,1076,NA,"Not Reported","Not Reported","Fraser","BC","Canada","18-01-2021","BC212",NA,NA
 18095,1077,NA,"Not Reported","Not Reported","Fraser","BC","Canada","18-01-2021","BC212",NA,NA
 18096,1078,NA,"Not Reported","Not Reported","Fraser","BC","Canada","18-01-2021","BC212",NA,NA
-18097,770,NA,"80-89","Male","Northern","Manitoba","Canada","18-01-2021","MB7","McGillivary Memorial Care Home",NA
+18097,770,NA,"80-89","Male","Winnipeg","Manitoba","Canada","22-01-2021","MB7","22-01-2021: 2 deaths removed. No indication which (date, region or demographics). As a result, we have removed the two most recent deaths from Northern to better approximate regional totals on the Manitoba dashboard. Replaced with deaths from today and date updated accordingly (Southeast Personal Care Home)",NA
 18098,771,NA,"60-69","Male","Winnipeg","Manitoba","Canada","18-01-2021","MB7","Southeast Personal Care Home",NA
 18099,772,NA,"70-79","Female","Winnipeg","Manitoba","Canada","18-01-2021","MB7","Concordia Place",NA
 18100,773,NA,"80-89","Female","Winnipeg","Manitoba","Canada","18-01-2021","MB7","Health Science Centre WRS3",NA
@@ -18686,3 +18686,191 @@
 18685,5674,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","21-01-2021","ON68",NA,NA
 18686,5675,NA,"Not Reported","Not Reported","York","Ontario","Canada","21-01-2021","ON19",NA,NA
 18687,5676,NA,"Not Reported","Not Reported","Peterborough","Ontario","Canada","21-01-2021","ON106",NA,NA
+18688,1501,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","22-01-2021","AB8",NA,NA
+18689,1502,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","22-01-2021","AB8",NA,NA
+18690,1503,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","22-01-2021","AB8",NA,NA
+18691,1504,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","22-01-2021","AB8",NA,NA
+18692,1505,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","22-01-2021","AB8",NA,NA
+18693,1506,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","22-01-2021","AB8",NA,NA
+18694,1507,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","22-01-2021","AB8",NA,NA
+18695,1508,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","22-01-2021","AB8",NA,NA
+18696,1509,NA,"Not Reported","Not Reported","Central","Alberta","Canada","22-01-2021","AB8",NA,NA
+18697,1510,NA,"Not Reported","Not Reported","Central","Alberta","Canada","22-01-2021","AB8",NA,NA
+18698,1511,NA,"Not Reported","Not Reported","Central","Alberta","Canada","22-01-2021","AB8",NA,NA
+18699,1512,NA,"Not Reported","Not Reported","North","Alberta","Canada","22-01-2021","AB8",NA,NA
+18700,1120,NA,"Not Reported","Not Reported","Fraser","BC","Canada","22-01-2021","BC216",NA,NA
+18701,1121,NA,"Not Reported","Not Reported","Fraser","BC","Canada","22-01-2021","BC216",NA,NA
+18702,1122,NA,"Not Reported","Not Reported","Fraser","BC","Canada","22-01-2021","BC216",NA,NA
+18703,1123,NA,"Not Reported","Not Reported","Fraser","BC","Canada","22-01-2021","BC216",NA,NA
+18704,1124,NA,"Not Reported","Not Reported","Interior","BC","Canada","22-01-2021","BC216",NA,NA
+18705,1125,NA,"Not Reported","Not Reported","Interior","BC","Canada","22-01-2021","BC216",NA,NA
+18706,1126,NA,"Not Reported","Not Reported","Vancouver Coastal","BC","Canada","22-01-2021","BC216",NA,NA
+18707,1127,NA,"Not Reported","Not Reported","Vancouver Coastal","BC","Canada","22-01-2021","BC216",NA,NA
+18708,1128,NA,"Not Reported","Not Reported","Northern","BC","Canada","22-01-2021","BC216",NA,NA
+18709,240,NA,"40-49","Not Reported","Regina","Saskatchewan","Canada","22-01-2021","SK216",NA,NA
+18710,241,NA,"60-69","Not Reported","Regina","Saskatchewan","Canada","22-01-2021","SK216",NA,NA
+18711,242,NA,"70-79","Not Reported","Regina","Saskatchewan","Canada","22-01-2021","SK216",NA,NA
+18712,243,NA,">80","Not Reported","Regina","Saskatchewan","Canada","22-01-2021","SK216",NA,NA
+18713,244,NA,">80","Not Reported","Regina","Saskatchewan","Canada","22-01-2021","SK216",NA,NA
+18714,245,NA,">80","Not Reported","Regina","Saskatchewan","Canada","22-01-2021","SK216",NA,NA
+18715,246,NA,">80","Not Reported","Central","Saskatchewan","Canada","22-01-2021","SK216","Central East",NA
+18716,247,NA,"60-69","Not Reported","Saskatoon","Saskatchewan","Canada","22-01-2021","SK216",NA,NA
+18717,9274,NA,"Not Reported","Not Reported","Bas-Saint-Laurent","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18718,9275,NA,"Not Reported","Not Reported","Saguenay","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18719,9276,NA,"Not Reported","Not Reported","Saguenay","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18720,9277,NA,"Not Reported","Not Reported","Saguenay","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18721,9278,NA,"Not Reported","Not Reported","Saguenay","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18722,9279,NA,"Not Reported","Not Reported","Saguenay","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18723,9280,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18724,9281,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18725,9282,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18726,9283,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18727,9284,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18728,9285,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18729,9286,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18730,9287,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18731,9288,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18732,9289,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18733,9290,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18734,9291,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18735,9292,NA,"Not Reported","Not Reported","Mauricie","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18736,9293,NA,"Not Reported","Not Reported","Mauricie","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18737,9294,NA,"Not Reported","Not Reported","Mauricie","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18738,9295,NA,"Not Reported","Not Reported","Mauricie","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18739,9296,NA,"Not Reported","Not Reported","Mauricie","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18740,9297,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18741,9298,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18742,9299,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18743,9300,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18744,9301,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18745,9302,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18746,9303,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18747,9304,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18748,9305,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18749,9306,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18750,9307,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18751,9308,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18752,9309,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18753,9310,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18754,9311,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18755,9312,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18756,9313,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18757,9314,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18758,9315,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18759,9316,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18760,9317,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18761,9318,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18762,9319,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18763,9320,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18764,9321,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18765,9322,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18766,9323,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18767,9324,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18768,9325,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18769,9326,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18770,9327,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18771,9328,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18772,9329,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18773,9330,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18774,9331,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18775,9332,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18776,9333,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18777,9334,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18778,9335,NA,"Not Reported","Not Reported","Chaudière-Appalaches","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18779,9336,NA,"Not Reported","Not Reported","Chaudière-Appalaches","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18780,9337,NA,"Not Reported","Not Reported","Chaudière-Appalaches","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18781,9338,NA,"Not Reported","Not Reported","Laval","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18782,9339,NA,"Not Reported","Not Reported","Laval","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18783,9340,NA,"Not Reported","Not Reported","Laval","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18784,9341,NA,"Not Reported","Not Reported","Laval","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18785,9342,NA,"Not Reported","Not Reported","Lanaudière","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18786,9343,NA,"Not Reported","Not Reported","Lanaudière","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18787,9344,NA,"Not Reported","Not Reported","Lanaudière","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18788,9345,NA,"Not Reported","Not Reported","Lanaudière","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18789,9346,NA,"Not Reported","Not Reported","Laurentides","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18790,9347,NA,"Not Reported","Not Reported","Laurentides","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18791,9348,NA,"Not Reported","Not Reported","Laurentides","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18792,9349,NA,"Not Reported","Not Reported","Laurentides","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18793,9350,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18794,9351,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18795,9352,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18796,9353,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18797,9354,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18798,9355,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18799,9356,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18800,9357,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18801,9358,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18802,9359,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18803,9360,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18804,9361,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","22-01-2021","QC215","Out of those 88 deaths, 18 occurred in the last 24 hours, 33 between Jan. 15 and Jan. 20, another 33 before Jan. 15, and four happened at an unknown date.",NA
+18805,5677,NA,"70-79","Male","Windsor-Essex","Ontario","Canada","22-01-2021","ON41",NA,"https://windsorite.ca/2021/01/8-new-deaths-99-new-cases-of-covid-19-in-windsor-essex-on-friday/"
+18806,5678,NA,"80-89","Female","Windsor-Essex","Ontario","Canada","22-01-2021","ON41",NA,"https://windsorite.ca/2021/01/8-new-deaths-99-new-cases-of-covid-19-in-windsor-essex-on-friday/"
+18807,5679,NA,"90-99","Male","Windsor-Essex","Ontario","Canada","22-01-2021","ON41",NA,"https://windsorite.ca/2021/01/8-new-deaths-99-new-cases-of-covid-19-in-windsor-essex-on-friday/"
+18808,5680,NA,"90-99","Male","Windsor-Essex","Ontario","Canada","22-01-2021","ON41",NA,"https://windsorite.ca/2021/01/8-new-deaths-99-new-cases-of-covid-19-in-windsor-essex-on-friday/"
+18809,5681,NA,"90-99","Female","Windsor-Essex","Ontario","Canada","22-01-2021","ON41",NA,"https://windsorite.ca/2021/01/8-new-deaths-99-new-cases-of-covid-19-in-windsor-essex-on-friday/"
+18810,5682,NA,"60-69","Male","Windsor-Essex","Ontario","Canada","22-01-2021","ON41",NA,"https://windsorite.ca/2021/01/8-new-deaths-99-new-cases-of-covid-19-in-windsor-essex-on-friday/"
+18811,5683,NA,"80-89","Male","Windsor-Essex","Ontario","Canada","22-01-2021","ON41",NA,"https://windsorite.ca/2021/01/8-new-deaths-99-new-cases-of-covid-19-in-windsor-essex-on-friday/"
+18812,5684,NA,"80-89","Female","Windsor-Essex","Ontario","Canada","22-01-2021","ON41",NA,"https://windsorite.ca/2021/01/8-new-deaths-99-new-cases-of-covid-19-in-windsor-essex-on-friday/"
+18813,5685,NA,"Not Reported","Not Reported","Wellington Dufferin Guelph","Ontario","Canada","22-01-2021","ON61",NA,NA
+18814,5686,NA,"Not Reported","Not Reported","Wellington Dufferin Guelph","Ontario","Canada","22-01-2021","ON61",NA,NA
+18815,5687,NA,"90-99","Female","Middlesex-London","Ontario","Canada","22-01-2021","ON109",NA,NA
+18816,5688,NA,"90-99","Male","Middlesex-London","Ontario","Canada","22-01-2021","ON109",NA,NA
+18817,5689,NA,"70-79","Female","Middlesex-London","Ontario","Canada","22-01-2021","ON109","Other association",NA
+18818,5690,NA,"Not Reported","Not Reported","Brant","Ontario","Canada","22-01-2021","ON70",NA,NA
+18819,5691,NA,"Not Reported","Not Reported","Porcupine","Ontario","Canada","22-01-2021","ON216",NA,NA
+18820,5692,NA,"Not Reported","Not Reported","Ottawa","Ontario","Canada","22-01-2021","ON93",NA,NA
+18821,5693,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","22-01-2021","ON95",NA,NA
+18822,5694,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","22-01-2021","ON95",NA,NA
+18823,5695,NA,"Not Reported","Not Reported","Lambton","Ontario","Canada","22-01-2021","ON42",NA,NA
+18824,5696,NA,"Not Reported","Not Reported","Lambton","Ontario","Canada","22-01-2021","ON42",NA,NA
+18825,5697,NA,"Not Reported","Not Reported","Eastern","Ontario","Canada","22-01-2021","ON82",NA,NA
+18826,5698,NA,"Not Reported","Not Reported","Eastern","Ontario","Canada","22-01-2021","ON82",NA,NA
+18827,5699,NA,"Not Reported","Not Reported","Halton","Ontario","Canada","22-01-2021","ON105",NA,NA
+18828,5700,NA,"Not Reported","Not Reported","Halton","Ontario","Canada","22-01-2021","ON105",NA,NA
+18829,5701,NA,"Not Reported","Not Reported","Halton","Ontario","Canada","22-01-2021","ON105",NA,NA
+18830,5702,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","22-01-2021","ON79",NA,NA
+18831,5703,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","22-01-2021","ON79",NA,NA
+18832,5704,NA,"Not Reported","Not Reported","Huron Perth","Ontario","Canada","22-01-2021","ON63",NA,NA
+18833,5705,NA,"Not Reported","Not Reported","Huron Perth","Ontario","Canada","22-01-2021","ON63",NA,NA
+18834,5706,NA,"Not Reported","Not Reported","Huron Perth","Ontario","Canada","22-01-2021","ON63",NA,NA
+18835,5707,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","22-01-2021","ON75",NA,NA
+18836,5708,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","22-01-2021","ON75",NA,NA
+18837,5709,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","22-01-2021","ON75",NA,NA
+18838,5710,NA,"Not Reported","Not Reported","Simcoe Muskoka","Ontario","Canada","22-01-2021","ON102",NA,NA
+18839,5711,NA,"Not Reported","Not Reported","Simcoe Muskoka","Ontario","Canada","22-01-2021","ON102",NA,NA
+18840,5712,NA,"Not Reported","Not Reported","Simcoe Muskoka","Ontario","Canada","22-01-2021","ON102",NA,NA
+18841,5713,NA,"Not Reported","Not Reported","Simcoe Muskoka","Ontario","Canada","22-01-2021","ON102",NA,NA
+18842,5714,NA,"Not Reported","Not Reported","Simcoe Muskoka","Ontario","Canada","22-01-2021","ON102",NA,NA
+18843,5715,NA,"Not Reported","Not Reported","Simcoe Muskoka","Ontario","Canada","22-01-2021","ON102",NA,NA
+18844,5716,NA,"Not Reported","Not Reported","Simcoe Muskoka","Ontario","Canada","22-01-2021","ON102",NA,NA
+18845,5717,NA,"Not Reported","Not Reported","Waterloo","Ontario","Canada","22-01-2021","ON51",NA,NA
+18846,5718,NA,"Not Reported","Not Reported","Sudbury","Ontario","Canada","22-01-2021","ON210",NA,NA
+18847,5719,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-01-2021","ON68",NA,NA
+18848,5720,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-01-2021","ON68",NA,NA
+18849,5721,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-01-2021","ON68",NA,NA
+18850,5722,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-01-2021","ON68",NA,NA
+18851,5723,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-01-2021","ON68",NA,NA
+18852,5724,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-01-2021","ON68",NA,NA
+18853,5725,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-01-2021","ON68",NA,NA
+18854,5726,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-01-2021","ON68",NA,NA
+18855,5727,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-01-2021","ON68",NA,NA
+18856,5728,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-01-2021","ON68",NA,NA
+18857,5729,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-01-2021","ON68",NA,NA
+18858,5730,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-01-2021","ON68",NA,NA
+18859,5731,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-01-2021","ON68",NA,NA
+18860,5732,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-01-2021","ON68",NA,NA
+18861,5733,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-01-2021","ON68",NA,NA
+18862,5734,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-01-2021","ON68",NA,NA
+18863,5735,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-01-2021","ON68",NA,NA
+18864,5736,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-01-2021","ON68",NA,NA
+18865,5737,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-01-2021","ON68",NA,NA
+18866,5738,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-01-2021","ON68",NA,NA
+18867,5739,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","22-01-2021","ON68",NA,NA
+18868,5740,NA,"Not Reported","Not Reported","York","Ontario","Canada","22-01-2021","ON19",NA,NA
+18869,5741,NA,"Not Reported","Not Reported","York","Ontario","Canada","22-01-2021","ON19",NA,NA
+18870,5742,NA,"Not Reported","Not Reported","York","Ontario","Canada","22-01-2021","ON19",NA,NA
+18871,5743,NA,"Not Reported","Not Reported","York","Ontario","Canada","22-01-2021","ON19",NA,NA
+18872,5744,NA,"Not Reported","Not Reported","York","Ontario","Canada","22-01-2021","ON19",NA,NA
+18873,5745,NA,"Not Reported","Not Reported","York","Ontario","Canada","22-01-2021","ON19",NA,NA
+18874,5746,NA,"Not Reported","Not Reported","York","Ontario","Canada","22-01-2021","ON19",NA,NA
+18875,5747,NA,"Not Reported","Not Reported","York","Ontario","Canada","22-01-2021","ON19",NA,NA
