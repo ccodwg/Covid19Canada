@@ -32,6 +32,8 @@ Sources for our vaccine data are summarized here: [https://docs.google.com/sprea
 - The data structure of time series data will change in response to user feedback. This will only consist of adding additional columns to make the data easier to work with. The core columns will remain the same, for now. More details to follow. Initially, the updated dataset will be provided alongside the new dataset. After a time, the new data format will completely replace the old format.
 
 ## Recent Changes
+
+- 2021-01-24: The columns "additional_info" and "additional_source" in cases.csv and mortality.csv have been abbreviated similar to "case_source" and "death_source". See note in README.md from 2021-11-27 and 2021-01-08.
 - 2021-01-08: The directories cases_extra and mortality_extra have been moved to other/cases_extra and other/mortality_extra.
 - 2020-12-03: "Repatriated" now appears in the testing time series. For now, they are given 0 values. The correct values (from PHAC data) will be added soon. "Repatriated" now also appears in the mortality time series (all 0 values, which is correct).
 - 2020-11-27: The columns "case_source" (cases.csv) and "death_source" (mortality.csv) are now abbreviated to reduce the file size. They can be joined to the full source links via cases_extra/cases_case_source.csv and mortality_extra/mortality_death_source.csv. Instructions can be found in [README.md](#individual-level-data---extra-columns).
@@ -79,7 +81,11 @@ The full dataset may be downloaded in CSV format from this repository. The full 
 
 ### Other Files: Individual-level Data - Extra columns
 * **Cases: case source**: other/cases_extra/cases_case_source.csv (join with cases.csv by joining case_source with case_source_short)
+* **Cases: additional info**: other/cases_extra/cases_additional_info.csv (join with cases.csv by joining additional_info with additional_info_short)
+* **Cases: additional source**: other/cases_extra/cases_additional_source.csv (join with cases.csv by joining additional_source with additional_source_short)
 * **Mortality: death source**: other/mortality_extra/mortality_death_source.csv (join with mortality.csv by joining death_source with death_source_short)
+* **Mortality: additional info**: other/mortality_extra/mortality_additional_info.csv (join with mortality.csv by joining additional_info with additional_info_short)
+* **Mortality: additional source**: other/mortality_extra/mortality_additional_source.csv (join with mortality.csv by joining additional_source with additional_source_short)
 
 ### Scripts
 * **Data update (script used to prepare the data update each day)**: scripts/data_update.R

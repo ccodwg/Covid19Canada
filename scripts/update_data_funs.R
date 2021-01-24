@@ -140,6 +140,108 @@ abbreviate_source <- function(dat, abbrev, var_source) {
   
 }
 
+## abbreviate other variables (which allow missing values, unlike case source/death source)
+## in individual-level data and export unique values to an abbreviation table
+abbreviate_other <- function(dat, abbrev, var_abbrev) {
+  
+  # save dataset names
+  dat_name <- deparse(substitute(dat))
+  abbrev_name <- deparse(substitute(abbrev))
+  
+  # save dataset column order
+  dat_cols <- names(dat)
+  
+  # generate abbreviations
+  
+  ## get unique var values and drop values already in the abbreviation table
+  abbrev_new <- dat %>%
+    select(province, !!sym(var_abbrev)) %>%
+    distinct %>%
+    ### drop NA (missing value)---abbreviating this would take up MORE space
+    filter(!is.na(!!sym(var_abbrev))) %>%
+    ### join province short names
+    left_join(
+      map_prov %>%
+        select(province, province_short),
+      by = "province"
+    ) %>%
+    ### rename column
+    rename(
+      var_abbrev_full = !!sym(var_abbrev)
+    ) %>%
+    ### drop var values already in the abbreviation table
+    filter(!var_abbrev_full %in% (abbrev %>% pull(!!sym(paste0(var_abbrev, "_full")))))
+  
+  ## check if there are any var values values to add (otherwise skip to the end)
+  if (nrow(abbrev_new) != 0) {
+    ## assemble new additions to the abbreviation table
+    abbrev_new <- abbrev_new %>%
+      ### group by province
+      group_by(province) %>%
+      ### generate IDs and then abbreviations by province
+      mutate(
+        var_abbrev_id = row_number() +
+          ifelse(
+            province %in% (abbrev %>%
+                             pull(province)),
+            max(
+              abbrev %>%
+                filter(province == .$province) %>%
+                pull(!!sym(paste0(var_abbrev, "_id")))
+            ),
+            0
+          ),
+        var_abbrev_short = paste0(province_short, var_abbrev_id)
+      ) %>%
+      ### drop province_short
+      select(-province_short) %>%
+      ungroup %>%
+      ### rename columns
+      rename(
+        !!sym(paste0(var_abbrev, "_id")) := var_abbrev_id,
+        !!sym(paste0(var_abbrev, "_short")) := var_abbrev_short,
+        !!sym(paste0(var_abbrev, "_full")) := var_abbrev_full
+      )
+    
+    ## join new abbreviations to abbreviation table
+    abbrev <- bind_rows(abbrev, abbrev_new) %>%
+      arrange(province, !!sym(paste0(var_abbrev, "_id")))
+    
+    ## verify there are no duplicated abbreviations
+    if (sum(table(abbrev[, paste0(var_abbrev, "_short")]) > 1) != 0) {
+      stop("There are duplicated abbreviations.")
+    }
+    
+    ## verify there are no missing values in the abbreviation table
+    if (sum(is.na(abbrev)) != 0) {
+      stop("There are missing values in the abbreviation table.")
+    }
+  }
+  
+  # data: replace source var with the abbreviated source var
+  
+  ## column names for join
+  join_cols <- setNames(c("province", paste0(var_abbrev, "_full")), c("province", eval(var_abbrev)))
+  
+  ## join
+  dat <- dat %>%
+    left_join(
+      abbrev %>%
+        select(province, !!sym(paste0(var_abbrev, "_short")), !!sym(paste0(var_abbrev, "_full"))),
+      by = join_cols
+    ) %>%
+    ### replace source var with abbreviated source var
+    select(-!!sym(var_abbrev)) %>%
+    rename(!!sym(var_abbrev) := !!sym(paste0(var_abbrev, "_short"))) %>%
+    ### return columns to original order
+    select(all_of(dat_cols))
+  
+  # write data and updated abbreviation table to global environment
+  assign(dat_name, dat, envir = .GlobalEnv)
+  assign(abbrev_name, abbrev, envir = .GlobalEnv)
+  
+}
+
 # define functions for time series data
 
 ## create time series (cases, mortality, recovered, testing)

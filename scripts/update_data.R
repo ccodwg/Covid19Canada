@@ -84,6 +84,46 @@ mortality_death_source <- read.csv("other/mortality_extra/mortality_death_source
                                      "death_source_full" = "character"
                                    ))
 
+## cases: additional_info abbreviation table
+cases_additional_info <- read.csv("other/cases_extra/cases_additional_info.csv",
+                              stringsAsFactors = FALSE,
+                              colClasses = c(
+                                "province" = "character",
+                                "additional_info_id" = "integer",
+                                "additional_info_short" = "character",
+                                "additional_info_full" = "character"
+                              ))
+
+## mortality: additional_info abbreviation table
+mortality_additional_info <- read.csv("other/mortality_extra/mortality_additional_info.csv",
+                                  stringsAsFactors = FALSE,
+                                  colClasses = c(
+                                    "province" = "character",
+                                    "additional_info_id" = "integer",
+                                    "additional_info_short" = "character",
+                                    "additional_info_full" = "character"
+                                  ))
+
+## cases: additional_source abbreviation table
+cases_additional_source <- read.csv("other/cases_extra/cases_additional_source.csv",
+                                  stringsAsFactors = FALSE,
+                                  colClasses = c(
+                                    "province" = "character",
+                                    "additional_source_id" = "integer",
+                                    "additional_source_short" = "character",
+                                    "additional_source_full" = "character"
+                                  ))
+
+## mortality: additional_source abbreviation table
+mortality_additional_source <- read.csv("other/mortality_extra/mortality_additional_source.csv",
+                                    stringsAsFactors = FALSE,
+                                    colClasses = c(
+                                      "province" = "character",
+                                      "additional_source_id" = "integer",
+                                      "additional_source_short" = "character",
+                                      "additional_source_full" = "character"
+                                    ))
+
 # convert dates to standard format for manipulation
 convert_dates("cases", "mortality", "recovered_cum", "testing_cum", "vaccine_administration_cum", "vaccine_distribution_cum", "vaccine_completion_cum", date_format_out = "%Y-%m-%d")
 
@@ -141,6 +181,14 @@ vaccine_completion_ts_canada <- create_ts(vaccine_completion_cum, "vaccine_compl
 # abbreviate "case_source" (cases.csv) and "death_source" (mortality.csv)
 abbreviate_source(cases, cases_case_source, "case_source")
 abbreviate_source(mortality, mortality_death_source, "death_source")
+
+# abbreviate "additional_info" (cases.csv) and "additional_info" (mortality.csv)
+abbreviate_other(cases, cases_additional_info, "additional_info")
+abbreviate_other(mortality, mortality_additional_info, "additional_info")
+
+# abbreviate "additional_source" (cases.csv) and "additional_source" (mortality.csv)
+abbreviate_other(cases, cases_additional_source, "additional_source")
+abbreviate_other(mortality, mortality_additional_source, "additional_source")
 
 # convert dates to non-standard date format for writing
 convert_dates("cases", "mortality", "recovered_cum", "testing_cum",
