@@ -203,8 +203,12 @@ convert_dates("cases", "mortality", "recovered_cum", "testing_cum",
 # write generated files
 write.csv(cases, "cases.csv", row.names = FALSE)
 write.csv(cases_case_source, "other/cases_extra/cases_case_source.csv", row.names = FALSE)
+write.csv(cases_additional_info, "other/cases_extra/cases_additional_info.csv", row.names = FALSE)
+write.csv(cases_additional_source, "other/cases_extra/cases_additional_source.csv", row.names = FALSE)
 write.csv(mortality, "mortality.csv", row.names = FALSE)
 write.csv(mortality_death_source, "other/mortality_extra/mortality_death_source.csv", row.names = FALSE)
+write.csv(mortality_additional_info, "other/mortality_extra/mortality_additional_info.csv", row.names = FALSE)
+write.csv(mortality_additional_source, "other/mortality_extra/mortality_additional_source.csv", row.names = FALSE)
 write.csv(recovered_cum, "recovered_cumulative.csv", row.names = FALSE)
 write.csv(testing_cum, "testing_cumulative.csv", row.names = FALSE)
 write.csv(cases_ts_prov, "timeseries_prov/cases_timeseries_prov.csv", row.names = FALSE)
