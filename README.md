@@ -12,9 +12,17 @@ We have also created an interactive dashboard for up-to-date visual analytics an
 Berry I, Soucy J-PR, Tuite A, Fisman D. Open access epidemiologic data and an interactive dashboard to monitor the COVID-19 outbreak in Canada. CMAJ. 2020 Apr 14;192(15):E420. doi: https://doi.org/10.1503/cmaj.75262
 
 
-# [PLEASE READ] Vaccine Data and Recent and Upcoming Changes to the Dataset
+# [PLEASE READ] Upcoming Changes, Recent Changes and Vaccine Datasets
 
-Several changes have been made recently to the datasets or will be made in the future. These are detailed below, along with tips at repairing your data pipelines that may have been affected by these changes.
+## Upcoming Changes (to be made 2021-01-27)
+
+2021-01-25: Due to the limit on file sizes in GitHub, we will implementing changes to the dataset on Wednesday, January 27, 2021, mostly impacting individual-level data (cases and mortality). Changes below:
+
+1) Individual-level data (cases.csv and mortality.csv) will be moved to a new directory in the root directory entitled “individual_level”. These files will be split by calendar year and named as follows: cases_2020.csv, cases_2021.csv, mortality_2020.csv, mortality_2021.csv. The directories “other/cases_extra” and “other/mortality_extra” will also be moved into the “individual_level” directory.
+2) Redundant datasets will be removed from the root directory. These files include: recovered_cumulative.csv, testing_cumulative.csv, vaccine_administration_cumulative.csv, vaccine_distribution_cumulative.csv, vaccine_completion_cumulative.csv. All of these datasets are currently available as time series in the directory “timeseries_prov”.
+3) The file codebook.csv will be moved to the directory “other”.
+
+We appreciate your patience and hope these changes cause minimal disruption. We do not anticipate making any other large scale updates to the datasets in the near future. If you have any further questions, please open an issue on GitHub or reach out to us by email at ccodwg [at] gmail [dot] com. Thank you for using the COVID-19 Canada Open Data Working Group datasets.
 
 ## Vaccine Datasets
 
@@ -26,10 +34,6 @@ Sources for our vaccine data are summarized here: [https://docs.google.com/sprea
 - 2020-12-15: We have added two vaccine datasets to the repository, vaccine_administration_cumulative.csv and vaccine_distribution_cumulative.csv.
 
 **Data usage notes**: **Vaccine data should be considered preliminary and are subject to revision.** The format of these new datasets may also change at any time as the data situation evolves. At present, vaccine distribution data are updates less frequently than vaccine administration data. These numbers should be considered an underestimate of the number of doses distributed, and in some cases the number of doses administered may appear to exceed the number of doses distributed.
-
-## Upcoming Changes (specific dates to be announced soon)
-
-- The data structure of time series data will change in response to user feedback. This will only consist of adding additional columns to make the data easier to work with. The core columns will remain the same, for now. More details to follow. Initially, the updated dataset will be provided alongside the new dataset. After a time, the new data format will completely replace the old format.
 
 ## Recent Changes
 
