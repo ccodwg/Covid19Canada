@@ -2,3 +2,12 @@
 .Rhistory
 .RData
 .Ruserdata
+
+# redundant data files
+cases.csv
+mortality.csv
+recovered_cumulative.csv
+testing_cumulative.csv
+vaccine_administration_cumulative.csv
+vaccine_distribution_cumulative.csv
+vaccine_completion_cumulative.csv

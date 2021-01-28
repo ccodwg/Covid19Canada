@@ -2,7 +2,7 @@
 # Author: Jean-Paul R. Soucy #
 
 # Compare updated data files (from update_data.R) to the current version in the GitHub repository
-# GitHub repository: https://github.com/ishaberry/Covid19Canada
+# GitHub repository: https://github.com/ccodwg/Covid19Canada
 
 # Note: This script assumes the working directory is set to the root directory of the project
 # This is most easily achieved by using the provided Covid19Canada.Rproj in RStudio

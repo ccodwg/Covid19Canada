@@ -65,7 +65,7 @@ map_hr <- read.csv("other/hr_map.csv",
                    stringsAsFactors = FALSE)
 
 ## case_source abbreviation table
-cases_case_source <- read.csv("other/cases_extra/cases_case_source.csv",
+cases_case_source <- read.csv("individual_level/cases_extra/cases_case_source.csv",
                               stringsAsFactors = FALSE,
                               colClasses = c(
                                 "province" = "character",
@@ -75,7 +75,7 @@ cases_case_source <- read.csv("other/cases_extra/cases_case_source.csv",
                               ))
 
 ## death_source abbreviation table
-mortality_death_source <- read.csv("other/mortality_extra/mortality_death_source.csv",
+mortality_death_source <- read.csv("individual_level/mortality_extra/mortality_death_source.csv",
                                    stringsAsFactors = FALSE,
                                    colClasses = c(
                                      "province" = "character",
@@ -85,7 +85,7 @@ mortality_death_source <- read.csv("other/mortality_extra/mortality_death_source
                                    ))
 
 ## cases: additional_info abbreviation table
-cases_additional_info <- read.csv("other/cases_extra/cases_additional_info.csv",
+cases_additional_info <- read.csv("individual_level/cases_extra/cases_additional_info.csv",
                               stringsAsFactors = FALSE,
                               colClasses = c(
                                 "province" = "character",
@@ -95,7 +95,7 @@ cases_additional_info <- read.csv("other/cases_extra/cases_additional_info.csv",
                               ))
 
 ## mortality: additional_info abbreviation table
-mortality_additional_info <- read.csv("other/mortality_extra/mortality_additional_info.csv",
+mortality_additional_info <- read.csv("individual_level/mortality_extra/mortality_additional_info.csv",
                                   stringsAsFactors = FALSE,
                                   colClasses = c(
                                     "province" = "character",
@@ -105,7 +105,7 @@ mortality_additional_info <- read.csv("other/mortality_extra/mortality_additiona
                                   ))
 
 ## cases: additional_source abbreviation table
-cases_additional_source <- read.csv("other/cases_extra/cases_additional_source.csv",
+cases_additional_source <- read.csv("individual_level/cases_extra/cases_additional_source.csv",
                                   stringsAsFactors = FALSE,
                                   colClasses = c(
                                     "province" = "character",
@@ -115,7 +115,7 @@ cases_additional_source <- read.csv("other/cases_extra/cases_additional_source.c
                                   ))
 
 ## mortality: additional_source abbreviation table
-mortality_additional_source <- read.csv("other/mortality_extra/mortality_additional_source.csv",
+mortality_additional_source <- read.csv("individual_level/mortality_extra/mortality_additional_source.csv",
                                     stringsAsFactors = FALSE,
                                     colClasses = c(
                                       "province" = "character",
@@ -190,27 +190,39 @@ abbreviate_other(mortality, mortality_additional_info, "additional_info")
 abbreviate_other(cases, cases_additional_source, "additional_source")
 abbreviate_other(mortality, mortality_additional_source, "additional_source")
 
+# split individual-level data for writing
+cases_2020 <- cases %>%
+  filter(date_report >= as.Date("2020-01-01") & date_report <= as.Date("2020-12-31"))
+cases_2021 <- cases %>%
+  filter(date_report >= as.Date("2021-01-01") & date_report <= as.Date("2021-12-31"))
+mortality_2020 <- mortality %>%
+  filter(date_death_report >= as.Date("2020-01-01") & date_death_report <= as.Date("2020-12-31"))
+mortality_2021 <- mortality %>%
+  filter(date_death_report >= as.Date("2021-01-01") & date_death_report <= as.Date("2021-12-31"))
+
 # convert dates to non-standard date format for writing
-convert_dates("cases", "mortality", "recovered_cum", "testing_cum",
+convert_dates("cases_2020", "cases_2021", "mortality_2020", "mortality_2021",
               "cases_ts_canada", "mortality_ts_canada", "recovered_ts_canada", "testing_ts_canada", "active_ts_canada",
               "cases_ts_prov", "mortality_ts_prov", "recovered_ts_prov", "testing_ts_prov", "active_ts_prov",
               "cases_ts_hr", "mortality_ts_hr",
-              "vaccine_administration_cum", "vaccine_administration_ts_prov", "vaccine_administration_ts_canada",
-              "vaccine_distribution_cum", "vaccine_distribution_ts_prov", "vaccine_distribution_ts_canada",
-              "vaccine_completion_cum", "vaccine_completion_ts_prov", "vaccine_completion_ts_canada",
+              "vaccine_administration_ts_prov", "vaccine_administration_ts_canada",
+              "vaccine_distribution_ts_prov", "vaccine_distribution_ts_canada",
+              "vaccine_completion_ts_prov", "vaccine_completion_ts_canada",
               date_format_out = "%d-%m-%Y")
 
-# write generated files
-write.csv(cases, "cases.csv", row.names = FALSE)
-write.csv(cases_case_source, "other/cases_extra/cases_case_source.csv", row.names = FALSE)
-write.csv(cases_additional_info, "other/cases_extra/cases_additional_info.csv", row.names = FALSE)
-write.csv(cases_additional_source, "other/cases_extra/cases_additional_source.csv", row.names = FALSE)
-write.csv(mortality, "mortality.csv", row.names = FALSE)
-write.csv(mortality_death_source, "other/mortality_extra/mortality_death_source.csv", row.names = FALSE)
-write.csv(mortality_additional_info, "other/mortality_extra/mortality_additional_info.csv", row.names = FALSE)
-write.csv(mortality_additional_source, "other/mortality_extra/mortality_additional_source.csv", row.names = FALSE)
-write.csv(recovered_cum, "recovered_cumulative.csv", row.names = FALSE)
-write.csv(testing_cum, "testing_cumulative.csv", row.names = FALSE)
+# write individual-level files
+write.csv(cases_2020, "individual_level/cases_2020.csv", row.names = FALSE)
+write.csv(cases_2021, "individual_level/cases_2021.csv", row.names = FALSE)
+write.csv(mortality_2020, "individual_level/mortality_2020.csv", row.names = FALSE)
+write.csv(mortality_2021, "individual_level/mortality_2021.csv", row.names = FALSE)
+write.csv(cases_case_source, "individual_level/cases_extra/cases_case_source.csv", row.names = FALSE)
+write.csv(cases_additional_info, "individual_level/cases_extra/cases_additional_info.csv", row.names = FALSE)
+write.csv(cases_additional_source, "individual_level/cases_extra/cases_additional_source.csv", row.names = FALSE)
+write.csv(mortality_death_source, "individual_level/mortality_extra/mortality_death_source.csv", row.names = FALSE)
+write.csv(mortality_additional_info, "individual_level/mortality_extra/mortality_additional_info.csv", row.names = FALSE)
+write.csv(mortality_additional_source, "individual_level/mortality_extra/mortality_additional_source.csv", row.names = FALSE)
+
+# write time series files
 write.csv(cases_ts_prov, "timeseries_prov/cases_timeseries_prov.csv", row.names = FALSE)
 write.csv(cases_ts_hr, "timeseries_hr/cases_timeseries_hr.csv", row.names = FALSE)
 write.csv(cases_ts_canada, "timeseries_canada/cases_timeseries_canada.csv", row.names = FALSE)
@@ -223,12 +235,9 @@ write.csv(testing_ts_prov, "timeseries_prov/testing_timeseries_prov.csv", row.na
 write.csv(testing_ts_canada, "timeseries_canada/testing_timeseries_canada.csv", row.names = FALSE)
 write.csv(active_ts_prov, "timeseries_prov/active_timeseries_prov.csv", row.names = FALSE)
 write.csv(active_ts_canada, "timeseries_canada/active_timeseries_canada.csv", row.names = FALSE)
-write.csv(vaccine_administration_cum, "vaccine_administration_cumulative.csv", row.names = FALSE)
 write.csv(vaccine_administration_ts_prov, "timeseries_prov/vaccine_administration_timeseries_prov.csv", row.names = FALSE)
 write.csv(vaccine_administration_ts_canada, "timeseries_canada/vaccine_administration_timeseries_canada.csv", row.names = FALSE)
-write.csv(vaccine_distribution_cum, "vaccine_distribution_cumulative.csv", row.names = FALSE)
 write.csv(vaccine_distribution_ts_prov, "timeseries_prov/vaccine_distribution_timeseries_prov.csv", row.names = FALSE)
 write.csv(vaccine_distribution_ts_canada, "timeseries_canada/vaccine_distribution_timeseries_canada.csv", row.names = FALSE)
-write.csv(vaccine_completion_cum, "vaccine_completion_cumulative.csv", row.names = FALSE)
 write.csv(vaccine_completion_ts_prov, "timeseries_prov/vaccine_completion_timeseries_prov.csv", row.names = FALSE)
 write.csv(vaccine_completion_ts_canada, "timeseries_canada/vaccine_completion_timeseries_canada.csv", row.names = FALSE)

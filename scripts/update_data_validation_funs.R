@@ -8,7 +8,7 @@ download_current_data <- function() {
   
   temp <- tempfile()
   tempd <- tempdir()
-  download.file("https://github.com/ishaberry/Covid19Canada/archive/master.zip", temp, mode = "wb")
+  download.file("https://github.com/ccodwg/Covid19Canada/archive/master.zip", temp, mode = "wb")
   unzip(temp, exdir = tempd)
   old_files <- list.files(path = tempd, pattern = "*.csv", full.names = TRUE, recursive = TRUE)
   invisible(list2env(
