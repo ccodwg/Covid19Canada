@@ -12,8 +12,8 @@
 library(dplyr) # data manipulation
 library(tidyr) # data manipulation
 library(lubridate) # better dates
-library(stringr) # string manipulation
-library(rvest) # web scraping
+# devtools::install_github("jeanpaulrsoucy/Covid19CanadaData")
+library(Covid19CanadaData) # load official datasets
 
 # load functions
 source("scripts/update_official_data_funs.R")

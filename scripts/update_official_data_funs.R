@@ -6,12 +6,9 @@ source("scripts/update_data_funs.R")
 
 # convert official Saskatchewan dataset: new health region boundaries
 convert_official_sk_new_hr <- function() {
-  ### grab URL for newest SK case dataset
-  sk_cases_url <- paste0("https://dashboard.saskatchewan.ca", read_html("https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases") %>% html_node("body") %>% as.character %>% str_extract("(?<=href=\").*(?=\">CSV)"))
   
   ### download current SK dataset
-  dat <- read.csv(sk_cases_url,
-                  stringsAsFactors = FALSE)
+  dat <- Covid19CanadaData::dl_current("61cfdd06-7749-4ae6-9975-d8b4f10d5651")
   
   ### convert data to CCODWG dataset format
   dat <- dat %>%
