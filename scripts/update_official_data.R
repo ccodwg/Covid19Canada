@@ -18,6 +18,9 @@ library(Covid19CanadaData) # load official datasets
 # load functions
 source("scripts/update_official_data_funs.R")
 
+# official Quebec dataset (incomplete, testing only)
+convert_official_qc()
+
 # official Saskatchewan dataset: new health region boundaries
 convert_official_sk_new_hr()
 
