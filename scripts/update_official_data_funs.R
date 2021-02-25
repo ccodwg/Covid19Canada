@@ -9,8 +9,8 @@ source("scripts/update_data_funs.R")
 convert_official_qc <- function() {
   
   ## download current QC datasets
-  dat <- Covid19CanadaData::dl_current("3b93b663-4b3f-43b4-a23d-cbf6d149d2c5") # covid19-hist.csv
-  dat2 <- Covid19CanadaData::dl_current("b78d46c8-9a56-4b75-94c5-4ace36e014f5") # manual-data.csv
+  dat <- Covid19CanadaData::dl_dataset("3b93b663-4b3f-43b4-a23d-cbf6d149d2c5") # covid19-hist.csv
+  dat2 <- Covid19CanadaData::dl_dataset("b78d46c8-9a56-4b75-94c5-4ace36e014f5") # manual-data.csv
   
   ## convert data into CCODWG dataset format
   dat <- dat %>%
@@ -95,7 +95,7 @@ convert_official_qc <- function() {
 convert_official_sk_new_hr <- function() {
   
   ### download current SK dataset
-  dat <- Covid19CanadaData::dl_current("61cfdd06-7749-4ae6-9975-d8b4f10d5651")
+  dat <- Covid19CanadaData::dl_dataset("61cfdd06-7749-4ae6-9975-d8b4f10d5651")
   
   ### convert data to CCODWG dataset format
   dat <- dat %>%
