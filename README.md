@@ -73,6 +73,8 @@ The full dataset may be downloaded in CSV format from this repository. The full 
 * **Codebook**: other/codebook.csv
 * **Correspondence between health region names used in our dataset and HRUID values given in Esri Canada's [health region map](https://resources-covid19canada.hub.arcgis.com/datasets/regionalhealthboundaries-1), with [2019 population values](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1710013401)**: other/hr_map.csv
 * **Correspondece between province names used in our dataset and full province names and two-letter abbreviations, with [2019 population values](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1710013401)**: other/prov_map.csv
+* **Correspondece between province names used in our dataset and full province names and two-letter abbreviations, with [2019 population values](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1710013401) and new Saskatchewan health regions**: other/prov_map_sk_new.csv
+    * The new Saskatchewan health regions (13 health regions versus 6 in the original data) use *unofficial estimates* of 2020 population values provided by Statistics Canada and may differ from official data released by Statistics Canada at a later date
 * **Correspondence between ages given in the individual-level case data and age groups displayed on the data dashboard**: other/age_map_cases.csv
 * **Correspondence between ages given in the individual-level mortality data and age groups displayed on the data dashboard**: other/age_map_mortality.csv
 
