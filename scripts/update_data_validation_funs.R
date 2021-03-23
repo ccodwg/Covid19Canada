@@ -178,7 +178,7 @@ check_sexes <- function(type) {
   
   ## check sexes
   new_sexes <- dat %>%
-    filter(!sex %in% c("Male", "Female", "Not Reported")) %>%
+    filter(!sex %in% c("Male", "Female", "Not Reported", "Transgender")) %>%
     pull(sex) %>%
     unique
   if (length(new_sexes) == 0) {
