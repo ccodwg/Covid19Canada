@@ -227,9 +227,10 @@
 "Alberta","Calgary","17-03-2021",193,53401
 "Alberta","Calgary","18-03-2021",220,53621
 "Alberta","Calgary","19-03-2021",307,53928
-"Alberta","Calgary","20-03-2021",241,54169
-"Alberta","Calgary","21-03-2021",240,54409
-"Alberta","Calgary","22-03-2021",241,54650
+"Alberta","Calgary","20-03-2021",247,54175
+"Alberta","Calgary","21-03-2021",240,54415
+"Alberta","Calgary","22-03-2021",241,54656
+"Alberta","Calgary","23-03-2021",250,54906
 "Alberta","Central","04-08-2020",28,481
 "Alberta","Central","05-08-2020",1,482
 "Alberta","Central","06-08-2020",4,486
@@ -461,6 +462,7 @@
 "Alberta","Central","20-03-2021",48,10942
 "Alberta","Central","21-03-2021",59,11001
 "Alberta","Central","22-03-2021",33,11034
+"Alberta","Central","23-03-2021",37,11071
 "Alberta","Edmonton","04-08-2020",105,1752
 "Alberta","Edmonton","05-08-2020",50,1802
 "Alberta","Edmonton","06-08-2020",33,1835
@@ -692,6 +694,7 @@
 "Alberta","Edmonton","20-03-2021",97,55587
 "Alberta","Edmonton","21-03-2021",111,55698
 "Alberta","Edmonton","22-03-2021",88,55786
+"Alberta","Edmonton","23-03-2021",79,55865
 "Alberta","North","04-08-2020",47,613
 "Alberta","North","05-08-2020",10,623
 "Alberta","North","06-08-2020",2,625
@@ -923,6 +926,7 @@
 "Alberta","North","20-03-2021",67,13126
 "Alberta","North","21-03-2021",71,13197
 "Alberta","North","22-03-2021",51,13248
+"Alberta","North","23-03-2021",37,13285
 "Alberta","Not Reported","04-08-2020",0,15
 "Alberta","Not Reported","05-08-2020",0,15
 "Alberta","Not Reported","06-08-2020",0,15
@@ -1151,9 +1155,10 @@
 "Alberta","Not Reported","17-03-2021",0,108
 "Alberta","Not Reported","18-03-2021",5,113
 "Alberta","Not Reported","19-03-2021",3,116
-"Alberta","Not Reported","20-03-2021",13,129
-"Alberta","Not Reported","21-03-2021",0,129
-"Alberta","Not Reported","22-03-2021",0,129
+"Alberta","Not Reported","20-03-2021",7,123
+"Alberta","Not Reported","21-03-2021",0,123
+"Alberta","Not Reported","22-03-2021",0,123
+"Alberta","Not Reported","23-03-2021",0,123
 "Alberta","South","04-08-2020",23,1672
 "Alberta","South","05-08-2020",3,1675
 "Alberta","South","06-08-2020",3,1678
@@ -1385,6 +1390,7 @@
 "Alberta","South","20-03-2021",90,7426
 "Alberta","South","21-03-2021",74,7500
 "Alberta","South","22-03-2021",43,7543
+"Alberta","South","23-03-2021",62,7605
 "BC","Fraser","04-08-2020",100,1988
 "BC","Fraser","05-08-2020",24,2012
 "BC","Fraser","06-08-2020",30,2042
@@ -1612,10 +1618,11 @@
 "BC","Fraser","16-03-2021",337,52042
 "BC","Fraser","17-03-2021",296,52338
 "BC","Fraser","18-03-2021",311,52649
-"BC","Fraser","19-03-2021",425,53074
-"BC","Fraser","20-03-2021",0,53074
-"BC","Fraser","21-03-2021",0,53074
-"BC","Fraser","22-03-2021",1002,54076
+"BC","Fraser","19-03-2021",426,53075
+"BC","Fraser","20-03-2021",0,53075
+"BC","Fraser","21-03-2021",0,53075
+"BC","Fraser","22-03-2021",1002,54077
+"BC","Fraser","23-03-2021",332,54409
 "BC","Interior","04-08-2020",7,379
 "BC","Interior","05-08-2020",7,386
 "BC","Interior","06-08-2020",1,387
@@ -1847,6 +1854,7 @@
 "BC","Interior","20-03-2021",0,7965
 "BC","Interior","21-03-2021",0,7965
 "BC","Interior","22-03-2021",86,8051
+"BC","Interior","23-03-2021",76,8127
 "BC","Island","04-08-2020",2,146
 "BC","Island","05-08-2020",0,146
 "BC","Island","06-08-2020",0,146
@@ -2074,10 +2082,11 @@
 "BC","Island","16-03-2021",27,2788
 "BC","Island","17-03-2021",13,2801
 "BC","Island","18-03-2021",34,2835
-"BC","Island","19-03-2021",37,2872
-"BC","Island","20-03-2021",0,2872
-"BC","Island","21-03-2021",0,2872
-"BC","Island","22-03-2021",84,2956
+"BC","Island","19-03-2021",36,2871
+"BC","Island","20-03-2021",0,2871
+"BC","Island","21-03-2021",0,2871
+"BC","Island","22-03-2021",84,2955
+"BC","Island","23-03-2021",20,2975
 "BC","Northern","04-08-2020",3,91
 "BC","Northern","05-08-2020",0,91
 "BC","Northern","06-08-2020",2,93
@@ -2309,6 +2318,7 @@
 "BC","Northern","20-03-2021",0,5427
 "BC","Northern","21-03-2021",0,5427
 "BC","Northern","22-03-2021",149,5576
+"BC","Northern","23-03-2021",23,5599
 "BC","Not Reported","04-08-2020",2,63
 "BC","Not Reported","05-08-2020",1,64
 "BC","Not Reported","06-08-2020",3,67
@@ -2540,6 +2550,7 @@
 "BC","Not Reported","20-03-2021",0,165
 "BC","Not Reported","21-03-2021",0,165
 "BC","Not Reported","22-03-2021",0,165
+"BC","Not Reported","23-03-2021",2,167
 "BC","Vancouver Coastal","04-08-2020",31,1121
 "BC","Vancouver Coastal","05-08-2020",14,1135
 "BC","Vancouver Coastal","06-08-2020",11,1146
@@ -2771,6 +2782,7 @@
 "BC","Vancouver Coastal","20-03-2021",0,21283
 "BC","Vancouver Coastal","21-03-2021",0,21283
 "BC","Vancouver Coastal","22-03-2021",464,21747
+"BC","Vancouver Coastal","23-03-2021",229,21976
 "Manitoba","Interlake-Eastern","04-08-2020",2,62
 "Manitoba","Interlake-Eastern","05-08-2020",0,62
 "Manitoba","Interlake-Eastern","06-08-2020",0,62
@@ -3001,7 +3013,8 @@
 "Manitoba","Interlake-Eastern","19-03-2021",4,2464
 "Manitoba","Interlake-Eastern","20-03-2021",2,2466
 "Manitoba","Interlake-Eastern","21-03-2021",0,2466
-"Manitoba","Interlake-Eastern","22-03-2021",0,2466
+"Manitoba","Interlake-Eastern","22-03-2021",2,2468
+"Manitoba","Interlake-Eastern","23-03-2021",3,2471
 "Manitoba","Northern","04-08-2020",0,3
 "Manitoba","Northern","05-08-2020",0,3
 "Manitoba","Northern","06-08-2020",0,3
@@ -3232,7 +3245,8 @@
 "Manitoba","Northern","19-03-2021",38,5562
 "Manitoba","Northern","20-03-2021",45,5607
 "Manitoba","Northern","21-03-2021",31,5638
-"Manitoba","Northern","22-03-2021",17,5655
+"Manitoba","Northern","22-03-2021",18,5656
+"Manitoba","Northern","23-03-2021",31,5687
 "Manitoba","Not Reported","04-08-2020",0,0
 "Manitoba","Not Reported","05-08-2020",0,0
 "Manitoba","Not Reported","06-08-2020",0,0
@@ -3464,6 +3478,7 @@
 "Manitoba","Not Reported","20-03-2021",0,0
 "Manitoba","Not Reported","21-03-2021",0,0
 "Manitoba","Not Reported","22-03-2021",0,0
+"Manitoba","Not Reported","23-03-2021",0,0
 "Manitoba","Prairie Mountain","04-08-2020",10,53
 "Manitoba","Prairie Mountain","05-08-2020",0,53
 "Manitoba","Prairie Mountain","06-08-2020",18,71
@@ -3694,7 +3709,8 @@
 "Manitoba","Prairie Mountain","19-03-2021",18,2128
 "Manitoba","Prairie Mountain","20-03-2021",5,2133
 "Manitoba","Prairie Mountain","21-03-2021",9,2142
-"Manitoba","Prairie Mountain","22-03-2021",0,2142
+"Manitoba","Prairie Mountain","22-03-2021",2,2144
+"Manitoba","Prairie Mountain","23-03-2021",4,2148
 "Manitoba","Southern Health","04-08-2020",12,70
 "Manitoba","Southern Health","05-08-2020",0,70
 "Manitoba","Southern Health","06-08-2020",11,81
@@ -3926,6 +3942,7 @@
 "Manitoba","Southern Health","20-03-2021",5,4872
 "Manitoba","Southern Health","21-03-2021",7,4879
 "Manitoba","Southern Health","22-03-2021",4,4883
+"Manitoba","Southern Health","23-03-2021",3,4886
 "Manitoba","Winnipeg","04-08-2020",3,254
 "Manitoba","Winnipeg","05-08-2020",2,256
 "Manitoba","Winnipeg","06-08-2020",1,257
@@ -4156,7 +4173,8 @@
 "Manitoba","Winnipeg","19-03-2021",18,18153
 "Manitoba","Winnipeg","20-03-2021",32,18185
 "Manitoba","Winnipeg","21-03-2021",42,18227
-"Manitoba","Winnipeg","22-03-2021",45,18272
+"Manitoba","Winnipeg","22-03-2021",35,18262
+"Manitoba","Winnipeg","23-03-2021",57,18319
 "New Brunswick","Not Reported","04-08-2020",0,0
 "New Brunswick","Not Reported","05-08-2020",0,0
 "New Brunswick","Not Reported","06-08-2020",0,0
@@ -4388,6 +4406,7 @@
 "New Brunswick","Not Reported","20-03-2021",0,0
 "New Brunswick","Not Reported","21-03-2021",0,0
 "New Brunswick","Not Reported","22-03-2021",0,0
+"New Brunswick","Not Reported","23-03-2021",0,0
 "New Brunswick","Zone 1 (Moncton area)","04-08-2020",0,29
 "New Brunswick","Zone 1 (Moncton area)","05-08-2020",4,33
 "New Brunswick","Zone 1 (Moncton area)","06-08-2020",2,35
@@ -4619,6 +4638,7 @@
 "New Brunswick","Zone 1 (Moncton area)","20-03-2021",0,346
 "New Brunswick","Zone 1 (Moncton area)","21-03-2021",1,347
 "New Brunswick","Zone 1 (Moncton area)","22-03-2021",3,350
+"New Brunswick","Zone 1 (Moncton area)","23-03-2021",3,353
 "New Brunswick","Zone 2 (Saint John area)","04-08-2020",0,27
 "New Brunswick","Zone 2 (Saint John area)","05-08-2020",0,27
 "New Brunswick","Zone 2 (Saint John area)","06-08-2020",0,27
@@ -4850,6 +4870,7 @@
 "New Brunswick","Zone 2 (Saint John area)","20-03-2021",0,224
 "New Brunswick","Zone 2 (Saint John area)","21-03-2021",0,224
 "New Brunswick","Zone 2 (Saint John area)","22-03-2021",1,225
+"New Brunswick","Zone 2 (Saint John area)","23-03-2021",0,225
 "New Brunswick","Zone 3 (Fredericton area)","04-08-2020",0,51
 "New Brunswick","Zone 3 (Fredericton area)","05-08-2020",0,51
 "New Brunswick","Zone 3 (Fredericton area)","06-08-2020",0,51
@@ -5081,6 +5102,7 @@
 "New Brunswick","Zone 3 (Fredericton area)","20-03-2021",0,245
 "New Brunswick","Zone 3 (Fredericton area)","21-03-2021",0,245
 "New Brunswick","Zone 3 (Fredericton area)","22-03-2021",1,246
+"New Brunswick","Zone 3 (Fredericton area)","23-03-2021",0,246
 "New Brunswick","Zone 4 (Edmundston area)","04-08-2020",0,7
 "New Brunswick","Zone 4 (Edmundston area)","05-08-2020",0,7
 "New Brunswick","Zone 4 (Edmundston area)","06-08-2020",0,7
@@ -5312,6 +5334,7 @@
 "New Brunswick","Zone 4 (Edmundston area)","20-03-2021",3,438
 "New Brunswick","Zone 4 (Edmundston area)","21-03-2021",0,438
 "New Brunswick","Zone 4 (Edmundston area)","22-03-2021",3,441
+"New Brunswick","Zone 4 (Edmundston area)","23-03-2021",4,445
 "New Brunswick","Zone 5 (Campbellton area)","04-08-2020",0,53
 "New Brunswick","Zone 5 (Campbellton area)","05-08-2020",0,53
 "New Brunswick","Zone 5 (Campbellton area)","06-08-2020",0,53
@@ -5543,6 +5566,7 @@
 "New Brunswick","Zone 5 (Campbellton area)","20-03-2021",0,182
 "New Brunswick","Zone 5 (Campbellton area)","21-03-2021",0,182
 "New Brunswick","Zone 5 (Campbellton area)","22-03-2021",0,182
+"New Brunswick","Zone 5 (Campbellton area)","23-03-2021",0,182
 "New Brunswick","Zone 6 (Bathurst area)","04-08-2020",0,1
 "New Brunswick","Zone 6 (Bathurst area)","05-08-2020",0,1
 "New Brunswick","Zone 6 (Bathurst area)","06-08-2020",0,1
@@ -5774,6 +5798,7 @@
 "New Brunswick","Zone 6 (Bathurst area)","20-03-2021",0,29
 "New Brunswick","Zone 6 (Bathurst area)","21-03-2021",0,29
 "New Brunswick","Zone 6 (Bathurst area)","22-03-2021",0,29
+"New Brunswick","Zone 6 (Bathurst area)","23-03-2021",0,29
 "New Brunswick","Zone 7 (Miramichi area)","04-08-2020",0,2
 "New Brunswick","Zone 7 (Miramichi area)","05-08-2020",0,2
 "New Brunswick","Zone 7 (Miramichi area)","06-08-2020",0,2
@@ -6005,6 +6030,7 @@
 "New Brunswick","Zone 7 (Miramichi area)","20-03-2021",0,25
 "New Brunswick","Zone 7 (Miramichi area)","21-03-2021",0,25
 "New Brunswick","Zone 7 (Miramichi area)","22-03-2021",0,25
+"New Brunswick","Zone 7 (Miramichi area)","23-03-2021",0,25
 "NL","Central","04-08-2020",0,11
 "NL","Central","05-08-2020",0,11
 "NL","Central","06-08-2020",0,11
@@ -6236,6 +6262,7 @@
 "NL","Central","20-03-2021",0,45
 "NL","Central","21-03-2021",0,45
 "NL","Central","22-03-2021",0,45
+"NL","Central","23-03-2021",0,45
 "NL","Eastern","04-08-2020",0,245
 "NL","Eastern","05-08-2020",0,245
 "NL","Eastern","06-08-2020",0,245
@@ -6467,6 +6494,7 @@
 "NL","Eastern","20-03-2021",0,922
 "NL","Eastern","21-03-2021",0,922
 "NL","Eastern","22-03-2021",0,922
+"NL","Eastern","23-03-2021",0,922
 "NL","Labrador-Grenfell","04-08-2020",0,6
 "NL","Labrador-Grenfell","05-08-2020",0,6
 "NL","Labrador-Grenfell","06-08-2020",0,6
@@ -6698,6 +6726,7 @@
 "NL","Labrador-Grenfell","20-03-2021",0,9
 "NL","Labrador-Grenfell","21-03-2021",0,9
 "NL","Labrador-Grenfell","22-03-2021",0,9
+"NL","Labrador-Grenfell","23-03-2021",0,9
 "NL","Not Reported","04-08-2020",0,0
 "NL","Not Reported","05-08-2020",0,0
 "NL","Not Reported","06-08-2020",0,0
@@ -6929,6 +6958,7 @@
 "NL","Not Reported","20-03-2021",0,0
 "NL","Not Reported","21-03-2021",0,0
 "NL","Not Reported","22-03-2021",0,0
+"NL","Not Reported","23-03-2021",0,0
 "NL","Western","04-08-2020",0,4
 "NL","Western","05-08-2020",0,4
 "NL","Western","06-08-2020",0,4
@@ -7160,6 +7190,7 @@
 "NL","Western","20-03-2021",0,38
 "NL","Western","21-03-2021",0,38
 "NL","Western","22-03-2021",0,38
+"NL","Western","23-03-2021",0,38
 "Nova Scotia","Not Reported","04-08-2020",0,0
 "Nova Scotia","Not Reported","05-08-2020",0,0
 "Nova Scotia","Not Reported","06-08-2020",0,0
@@ -7391,6 +7422,7 @@
 "Nova Scotia","Not Reported","20-03-2021",0,0
 "Nova Scotia","Not Reported","21-03-2021",0,0
 "Nova Scotia","Not Reported","22-03-2021",0,0
+"Nova Scotia","Not Reported","23-03-2021",0,0
 "Nova Scotia","Zone 1 - Western","04-08-2020",0,54
 "Nova Scotia","Zone 1 - Western","05-08-2020",0,54
 "Nova Scotia","Zone 1 - Western","06-08-2020",0,54
@@ -7622,6 +7654,7 @@
 "Nova Scotia","Zone 1 - Western","20-03-2021",0,106
 "Nova Scotia","Zone 1 - Western","21-03-2021",0,106
 "Nova Scotia","Zone 1 - Western","22-03-2021",0,106
+"Nova Scotia","Zone 1 - Western","23-03-2021",0,106
 "Nova Scotia","Zone 2 - Northern","04-08-2020",0,57
 "Nova Scotia","Zone 2 - Northern","05-08-2020",0,57
 "Nova Scotia","Zone 2 - Northern","06-08-2020",0,57
@@ -7853,6 +7886,7 @@
 "Nova Scotia","Zone 2 - Northern","20-03-2021",0,132
 "Nova Scotia","Zone 2 - Northern","21-03-2021",0,132
 "Nova Scotia","Zone 2 - Northern","22-03-2021",0,132
+"Nova Scotia","Zone 2 - Northern","23-03-2021",0,132
 "Nova Scotia","Zone 3 - Eastern","04-08-2020",0,53
 "Nova Scotia","Zone 3 - Eastern","05-08-2020",0,53
 "Nova Scotia","Zone 3 - Eastern","06-08-2020",0,53
@@ -8084,6 +8118,7 @@
 "Nova Scotia","Zone 3 - Eastern","20-03-2021",0,87
 "Nova Scotia","Zone 3 - Eastern","21-03-2021",2,89
 "Nova Scotia","Zone 3 - Eastern","22-03-2021",0,89
+"Nova Scotia","Zone 3 - Eastern","23-03-2021",1,90
 "Nova Scotia","Zone 4 - Central","04-08-2020",0,907
 "Nova Scotia","Zone 4 - Central","05-08-2020",0,907
 "Nova Scotia","Zone 4 - Central","06-08-2020",0,907
@@ -8315,6 +8350,7 @@
 "Nova Scotia","Zone 4 - Central","20-03-2021",2,1357
 "Nova Scotia","Zone 4 - Central","21-03-2021",4,1361
 "Nova Scotia","Zone 4 - Central","22-03-2021",2,1363
+"Nova Scotia","Zone 4 - Central","23-03-2021",0,1363
 "Nunavut","Nunavut","04-08-2020",0,0
 "Nunavut","Nunavut","05-08-2020",0,0
 "Nunavut","Nunavut","06-08-2020",0,0
@@ -8546,6 +8582,7 @@
 "Nunavut","Nunavut","20-03-2021",0,395
 "Nunavut","Nunavut","21-03-2021",0,395
 "Nunavut","Nunavut","22-03-2021",0,395
+"Nunavut","Nunavut","23-03-2021",0,395
 "NWT","NWT","04-08-2020",0,5
 "NWT","NWT","05-08-2020",0,5
 "NWT","NWT","06-08-2020",0,5
@@ -8777,6 +8814,7 @@
 "NWT","NWT","20-03-2021",0,47
 "NWT","NWT","21-03-2021",0,47
 "NWT","NWT","22-03-2021",0,47
+"NWT","NWT","23-03-2021",0,47
 "Ontario","Algoma","04-08-2020",0,27
 "Ontario","Algoma","05-08-2020",0,27
 "Ontario","Algoma","06-08-2020",0,27
@@ -9008,6 +9046,7 @@
 "Ontario","Algoma","20-03-2021",0,221
 "Ontario","Algoma","21-03-2021",1,222
 "Ontario","Algoma","22-03-2021",0,222
+"Ontario","Algoma","23-03-2021",2,224
 "Ontario","Brant","04-08-2020",0,148
 "Ontario","Brant","05-08-2020",0,148
 "Ontario","Brant","06-08-2020",0,148
@@ -9239,6 +9278,7 @@
 "Ontario","Brant","20-03-2021",14,1670
 "Ontario","Brant","21-03-2021",9,1679
 "Ontario","Brant","22-03-2021",12,1691
+"Ontario","Brant","23-03-2021",4,1695
 "Ontario","Chatham-Kent","04-08-2020",40,288
 "Ontario","Chatham-Kent","05-08-2020",11,299
 "Ontario","Chatham-Kent","06-08-2020",9,308
@@ -9470,6 +9510,7 @@
 "Ontario","Chatham-Kent","20-03-2021",0,1496
 "Ontario","Chatham-Kent","21-03-2021",0,1496
 "Ontario","Chatham-Kent","22-03-2021",38,1534
+"Ontario","Chatham-Kent","23-03-2021",8,1542
 "Ontario","Durham","04-08-2020",16,1819
 "Ontario","Durham","05-08-2020",2,1821
 "Ontario","Durham","06-08-2020",0,1821
@@ -9701,6 +9742,7 @@
 "Ontario","Durham","20-03-2021",81,12822
 "Ontario","Durham","21-03-2021",95,12917
 "Ontario","Durham","22-03-2021",88,13005
+"Ontario","Durham","23-03-2021",100,13105
 "Ontario","Eastern","04-08-2020",0,179
 "Ontario","Eastern","05-08-2020",0,179
 "Ontario","Eastern","06-08-2020",0,179
@@ -9932,6 +9974,7 @@
 "Ontario","Eastern","20-03-2021",0,3062
 "Ontario","Eastern","21-03-2021",0,3062
 "Ontario","Eastern","22-03-2021",72,3134
+"Ontario","Eastern","23-03-2021",6,3140
 "Ontario","Grey Bruce","04-08-2020",0,120
 "Ontario","Grey Bruce","05-08-2020",0,120
 "Ontario","Grey Bruce","06-08-2020",0,120
@@ -10163,6 +10206,7 @@
 "Ontario","Grey Bruce","20-03-2021",11,748
 "Ontario","Grey Bruce","21-03-2021",6,754
 "Ontario","Grey Bruce","22-03-2021",15,769
+"Ontario","Grey Bruce","23-03-2021",1,770
 "Ontario","Haldimand-Norfolk","04-08-2020",0,463
 "Ontario","Haldimand-Norfolk","05-08-2020",0,463
 "Ontario","Haldimand-Norfolk","06-08-2020",0,463
@@ -10394,6 +10438,7 @@
 "Ontario","Haldimand-Norfolk","20-03-2021",2,1530
 "Ontario","Haldimand-Norfolk","21-03-2021",5,1535
 "Ontario","Haldimand-Norfolk","22-03-2021",7,1542
+"Ontario","Haldimand-Norfolk","23-03-2021",17,1559
 "Ontario","Haliburton Kawartha Pineridge","04-08-2020",0,214
 "Ontario","Haliburton Kawartha Pineridge","05-08-2020",1,215
 "Ontario","Haliburton Kawartha Pineridge","06-08-2020",0,215
@@ -10625,6 +10670,7 @@
 "Ontario","Haliburton Kawartha Pineridge","20-03-2021",2,1104
 "Ontario","Haliburton Kawartha Pineridge","21-03-2021",0,1104
 "Ontario","Haliburton Kawartha Pineridge","22-03-2021",7,1111
+"Ontario","Haliburton Kawartha Pineridge","23-03-2021",1,1112
 "Ontario","Halton","04-08-2020",1,828
 "Ontario","Halton","05-08-2020",3,831
 "Ontario","Halton","06-08-2020",1,832
@@ -10856,6 +10902,7 @@
 "Ontario","Halton","20-03-2021",50,9972
 "Ontario","Halton","21-03-2021",48,10020
 "Ontario","Halton","22-03-2021",40,10060
+"Ontario","Halton","23-03-2021",60,10120
 "Ontario","Hamilton","04-08-2020",8,894
 "Ontario","Hamilton","05-08-2020",0,894
 "Ontario","Hamilton","06-08-2020",2,896
@@ -11087,6 +11134,7 @@
 "Ontario","Hamilton","20-03-2021",121,11734
 "Ontario","Hamilton","21-03-2021",105,11839
 "Ontario","Hamilton","22-03-2021",93,11932
+"Ontario","Hamilton","23-03-2021",80,12012
 "Ontario","Hastings Prince Edward","04-08-2020",0,44
 "Ontario","Hastings Prince Edward","05-08-2020",0,44
 "Ontario","Hastings Prince Edward","06-08-2020",0,44
@@ -11318,6 +11366,7 @@
 "Ontario","Hastings Prince Edward","20-03-2021",1,443
 "Ontario","Hastings Prince Edward","21-03-2021",0,443
 "Ontario","Hastings Prince Edward","22-03-2021",1,444
+"Ontario","Hastings Prince Edward","23-03-2021",0,444
 "Ontario","Huron Perth","04-08-2020",2,74
 "Ontario","Huron Perth","05-08-2020",0,74
 "Ontario","Huron Perth","06-08-2020",0,74
@@ -11549,6 +11598,7 @@
 "Ontario","Huron Perth","20-03-2021",2,1397
 "Ontario","Huron Perth","21-03-2021",0,1397
 "Ontario","Huron Perth","22-03-2021",4,1401
+"Ontario","Huron Perth","23-03-2021",0,1401
 "Ontario","Kingston Frontenac Lennox & Addington","04-08-2020",0,109
 "Ontario","Kingston Frontenac Lennox & Addington","05-08-2020",0,109
 "Ontario","Kingston Frontenac Lennox & Addington","06-08-2020",0,109
@@ -11780,6 +11830,7 @@
 "Ontario","Kingston Frontenac Lennox & Addington","20-03-2021",0,828
 "Ontario","Kingston Frontenac Lennox & Addington","21-03-2021",0,828
 "Ontario","Kingston Frontenac Lennox & Addington","22-03-2021",34,862
+"Ontario","Kingston Frontenac Lennox & Addington","23-03-2021",6,868
 "Ontario","Lambton","04-08-2020",1,319
 "Ontario","Lambton","05-08-2020",0,319
 "Ontario","Lambton","06-08-2020",0,319
@@ -12011,6 +12062,7 @@
 "Ontario","Lambton","20-03-2021",51,2565
 "Ontario","Lambton","21-03-2021",21,2586
 "Ontario","Lambton","22-03-2021",40,2626
+"Ontario","Lambton","23-03-2021",17,2643
 "Ontario","Leeds Grenville and Lanark","04-08-2020",0,355
 "Ontario","Leeds Grenville and Lanark","05-08-2020",0,355
 "Ontario","Leeds Grenville and Lanark","06-08-2020",0,355
@@ -12242,6 +12294,7 @@
 "Ontario","Leeds Grenville and Lanark","20-03-2021",0,1061
 "Ontario","Leeds Grenville and Lanark","21-03-2021",0,1061
 "Ontario","Leeds Grenville and Lanark","22-03-2021",76,1137
+"Ontario","Leeds Grenville and Lanark","23-03-2021",13,1150
 "Ontario","Middlesex-London","04-08-2020",0,679
 "Ontario","Middlesex-London","05-08-2020",1,680
 "Ontario","Middlesex-London","06-08-2020",1,681
@@ -12473,6 +12526,7 @@
 "Ontario","Middlesex-London","20-03-2021",25,6562
 "Ontario","Middlesex-London","21-03-2021",31,6593
 "Ontario","Middlesex-London","22-03-2021",20,6613
+"Ontario","Middlesex-London","23-03-2021",24,6637
 "Ontario","Niagara","04-08-2020",2,869
 "Ontario","Niagara","05-08-2020",8,877
 "Ontario","Niagara","06-08-2020",1,878
@@ -12704,6 +12758,7 @@
 "Ontario","Niagara","20-03-2021",41,9160
 "Ontario","Niagara","21-03-2021",23,9183
 "Ontario","Niagara","22-03-2021",27,9210
+"Ontario","Niagara","23-03-2021",42,9252
 "Ontario","North Bay Parry Sound","04-08-2020",0,35
 "Ontario","North Bay Parry Sound","05-08-2020",0,35
 "Ontario","North Bay Parry Sound","06-08-2020",0,35
@@ -12935,6 +12990,7 @@
 "Ontario","North Bay Parry Sound","20-03-2021",0,277
 "Ontario","North Bay Parry Sound","21-03-2021",0,277
 "Ontario","North Bay Parry Sound","22-03-2021",9,286
+"Ontario","North Bay Parry Sound","23-03-2021",0,286
 "Ontario","Northwestern","04-08-2020",0,44
 "Ontario","Northwestern","05-08-2020",0,44
 "Ontario","Northwestern","06-08-2020",0,44
@@ -13166,6 +13222,7 @@
 "Ontario","Northwestern","20-03-2021",15,634
 "Ontario","Northwestern","21-03-2021",9,643
 "Ontario","Northwestern","22-03-2021",0,643
+"Ontario","Northwestern","23-03-2021",2,645
 "Ontario","Not Reported","04-08-2020",0,0
 "Ontario","Not Reported","05-08-2020",0,0
 "Ontario","Not Reported","06-08-2020",0,0
@@ -13397,6 +13454,7 @@
 "Ontario","Not Reported","20-03-2021",0,0
 "Ontario","Not Reported","21-03-2021",0,0
 "Ontario","Not Reported","22-03-2021",0,0
+"Ontario","Not Reported","23-03-2021",0,0
 "Ontario","Ottawa","04-08-2020",1,2560
 "Ontario","Ottawa","05-08-2020",16,2576
 "Ontario","Ottawa","06-08-2020",19,2595
@@ -13628,6 +13686,7 @@
 "Ontario","Ottawa","20-03-2021",107,16021
 "Ontario","Ottawa","21-03-2021",86,16107
 "Ontario","Ottawa","22-03-2021",81,16188
+"Ontario","Ottawa","23-03-2021",64,16252
 "Ontario","Peel","04-08-2020",10,7105
 "Ontario","Peel","05-08-2020",9,7114
 "Ontario","Peel","06-08-2020",13,7127
@@ -13859,6 +13918,7 @@
 "Ontario","Peel","20-03-2021",365,67223
 "Ontario","Peel","21-03-2021",338,67561
 "Ontario","Peel","22-03-2021",327,67888
+"Ontario","Peel","23-03-2021",339,68227
 "Ontario","Peterborough","04-08-2020",0,99
 "Ontario","Peterborough","05-08-2020",0,99
 "Ontario","Peterborough","06-08-2020",0,99
@@ -14090,6 +14150,7 @@
 "Ontario","Peterborough","20-03-2021",1,810
 "Ontario","Peterborough","21-03-2021",3,813
 "Ontario","Peterborough","22-03-2021",4,817
+"Ontario","Peterborough","23-03-2021",5,822
 "Ontario","Porcupine","04-08-2020",0,71
 "Ontario","Porcupine","05-08-2020",0,71
 "Ontario","Porcupine","06-08-2020",0,71
@@ -14321,6 +14382,7 @@
 "Ontario","Porcupine","20-03-2021",0,346
 "Ontario","Porcupine","21-03-2021",0,346
 "Ontario","Porcupine","22-03-2021",0,346
+"Ontario","Porcupine","23-03-2021",0,346
 "Ontario","Renfrew","04-08-2020",0,30
 "Ontario","Renfrew","05-08-2020",0,30
 "Ontario","Renfrew","06-08-2020",0,30
@@ -14552,6 +14614,7 @@
 "Ontario","Renfrew","20-03-2021",3,399
 "Ontario","Renfrew","21-03-2021",1,400
 "Ontario","Renfrew","22-03-2021",4,404
+"Ontario","Renfrew","23-03-2021",1,405
 "Ontario","Simcoe Muskoka","04-08-2020",4,657
 "Ontario","Simcoe Muskoka","05-08-2020",1,658
 "Ontario","Simcoe Muskoka","06-08-2020",2,660
@@ -14782,7 +14845,8 @@
 "Ontario","Simcoe Muskoka","19-03-2021",48,7160
 "Ontario","Simcoe Muskoka","20-03-2021",0,7160
 "Ontario","Simcoe Muskoka","21-03-2021",0,7160
-"Ontario","Simcoe Muskoka","22-03-2021",141,7301
+"Ontario","Simcoe Muskoka","22-03-2021",139,7299
+"Ontario","Simcoe Muskoka","23-03-2021",38,7337
 "Ontario","Southwestern","04-08-2020",12,178
 "Ontario","Southwestern","05-08-2020",2,180
 "Ontario","Southwestern","06-08-2020",6,186
@@ -15014,6 +15078,7 @@
 "Ontario","Southwestern","20-03-2021",0,2671
 "Ontario","Southwestern","21-03-2021",0,2671
 "Ontario","Southwestern","22-03-2021",28,2699
+"Ontario","Southwestern","23-03-2021",17,2716
 "Ontario","Sudbury","04-08-2020",0,89
 "Ontario","Sudbury","05-08-2020",1,90
 "Ontario","Sudbury","06-08-2020",0,90
@@ -15245,6 +15310,7 @@
 "Ontario","Sudbury","20-03-2021",34,1164
 "Ontario","Sudbury","21-03-2021",26,1190
 "Ontario","Sudbury","22-03-2021",23,1213
+"Ontario","Sudbury","23-03-2021",29,1242
 "Ontario","Thunder Bay","04-08-2020",0,98
 "Ontario","Thunder Bay","05-08-2020",0,98
 "Ontario","Thunder Bay","06-08-2020",1,99
@@ -15476,6 +15542,7 @@
 "Ontario","Thunder Bay","20-03-2021",32,2603
 "Ontario","Thunder Bay","21-03-2021",20,2623
 "Ontario","Thunder Bay","22-03-2021",9,2632
+"Ontario","Thunder Bay","23-03-2021",29,2661
 "Ontario","Timiskaming","04-08-2020",0,16
 "Ontario","Timiskaming","05-08-2020",0,16
 "Ontario","Timiskaming","06-08-2020",0,16
@@ -15707,6 +15774,7 @@
 "Ontario","Timiskaming","20-03-2021",1,114
 "Ontario","Timiskaming","21-03-2021",2,116
 "Ontario","Timiskaming","22-03-2021",0,116
+"Ontario","Timiskaming","23-03-2021",4,120
 "Ontario","Toronto","04-08-2020",12,15432
 "Ontario","Toronto","05-08-2020",19,15451
 "Ontario","Toronto","06-08-2020",21,15472
@@ -15938,6 +16006,7 @@
 "Ontario","Toronto","20-03-2021",577,105488
 "Ontario","Toronto","21-03-2021",501,105989
 "Ontario","Toronto","22-03-2021",474,106463
+"Ontario","Toronto","23-03-2021",490,106953
 "Ontario","Waterloo","04-08-2020",1,1394
 "Ontario","Waterloo","05-08-2020",0,1394
 "Ontario","Waterloo","06-08-2020",0,1394
@@ -16169,6 +16238,7 @@
 "Ontario","Waterloo","20-03-2021",19,11478
 "Ontario","Waterloo","21-03-2021",35,11513
 "Ontario","Waterloo","22-03-2021",25,11538
+"Ontario","Waterloo","23-03-2021",39,11577
 "Ontario","Wellington Dufferin Guelph","04-08-2020",1,528
 "Ontario","Wellington Dufferin Guelph","05-08-2020",0,528
 "Ontario","Wellington Dufferin Guelph","06-08-2020",0,528
@@ -16400,6 +16470,7 @@
 "Ontario","Wellington Dufferin Guelph","20-03-2021",0,5000
 "Ontario","Wellington Dufferin Guelph","21-03-2021",0,5000
 "Ontario","Wellington Dufferin Guelph","22-03-2021",54,5054
+"Ontario","Wellington Dufferin Guelph","23-03-2021",17,5071
 "Ontario","Windsor-Essex","04-08-2020",10,2350
 "Ontario","Windsor-Essex","05-08-2020",1,2351
 "Ontario","Windsor-Essex","06-08-2020",5,2356
@@ -16631,6 +16702,7 @@
 "Ontario","Windsor-Essex","20-03-2021",30,13564
 "Ontario","Windsor-Essex","21-03-2021",31,13595
 "Ontario","Windsor-Essex","22-03-2021",11,13606
+"Ontario","Windsor-Essex","23-03-2021",21,13627
 "Ontario","York","04-08-2020",5,3303
 "Ontario","York","05-08-2020",0,3303
 "Ontario","York","06-08-2020",5,3308
@@ -16862,6 +16934,7 @@
 "Ontario","York","20-03-2021",167,31334
 "Ontario","York","21-03-2021",153,31487
 "Ontario","York","22-03-2021",162,31649
+"Ontario","York","23-03-2021",155,31804
 "PEI","Prince Edward Island","04-08-2020",0,36
 "PEI","Prince Edward Island","05-08-2020",0,36
 "PEI","Prince Edward Island","06-08-2020",0,36
@@ -17093,6 +17166,7 @@
 "PEI","Prince Edward Island","20-03-2021",0,148
 "PEI","Prince Edward Island","21-03-2021",0,148
 "PEI","Prince Edward Island","22-03-2021",2,150
+"PEI","Prince Edward Island","23-03-2021",2,152
 "Quebec","Abitibi-Témiscamingue","04-08-2020",0,179
 "Quebec","Abitibi-Témiscamingue","05-08-2020",0,179
 "Quebec","Abitibi-Témiscamingue","06-08-2020",0,179
@@ -17324,6 +17398,7 @@
 "Quebec","Abitibi-Témiscamingue","20-03-2021",3,904
 "Quebec","Abitibi-Témiscamingue","21-03-2021",8,912
 "Quebec","Abitibi-Témiscamingue","22-03-2021",2,914
+"Quebec","Abitibi-Témiscamingue","23-03-2021",0,914
 "Quebec","Bas-Saint-Laurent","04-08-2020",0,70
 "Quebec","Bas-Saint-Laurent","05-08-2020",0,70
 "Quebec","Bas-Saint-Laurent","06-08-2020",0,70
@@ -17555,6 +17630,7 @@
 "Quebec","Bas-Saint-Laurent","20-03-2021",7,1644
 "Quebec","Bas-Saint-Laurent","21-03-2021",6,1650
 "Quebec","Bas-Saint-Laurent","22-03-2021",18,1668
+"Quebec","Bas-Saint-Laurent","23-03-2021",11,1679
 "Quebec","Capitale-Nationale","04-08-2020",0,1959
 "Quebec","Capitale-Nationale","05-08-2020",0,1959
 "Quebec","Capitale-Nationale","06-08-2020",3,1962
@@ -17786,6 +17862,7 @@
 "Quebec","Capitale-Nationale","20-03-2021",51,23139
 "Quebec","Capitale-Nationale","21-03-2021",36,23175
 "Quebec","Capitale-Nationale","22-03-2021",35,23210
+"Quebec","Capitale-Nationale","23-03-2021",45,23255
 "Quebec","Chaudière-Appalaches","04-08-2020",0,570
 "Quebec","Chaudière-Appalaches","05-08-2020",2,572
 "Quebec","Chaudière-Appalaches","06-08-2020",1,573
@@ -18017,6 +18094,7 @@
 "Quebec","Chaudière-Appalaches","20-03-2021",18,11931
 "Quebec","Chaudière-Appalaches","21-03-2021",16,11947
 "Quebec","Chaudière-Appalaches","22-03-2021",6,11953
+"Quebec","Chaudière-Appalaches","23-03-2021",33,11986
 "Quebec","Côte-Nord","04-08-2020",0,124
 "Quebec","Côte-Nord","05-08-2020",0,124
 "Quebec","Côte-Nord","06-08-2020",0,124
@@ -18248,6 +18326,7 @@
 "Quebec","Côte-Nord","20-03-2021",0,359
 "Quebec","Côte-Nord","21-03-2021",0,359
 "Quebec","Côte-Nord","22-03-2021",0,359
+"Quebec","Côte-Nord","23-03-2021",1,360
 "Quebec","Estrie","04-08-2020",3,1069
 "Quebec","Estrie","05-08-2020",5,1074
 "Quebec","Estrie","06-08-2020",10,1084
@@ -18479,6 +18558,7 @@
 "Quebec","Estrie","20-03-2021",15,11860
 "Quebec","Estrie","21-03-2021",6,11866
 "Quebec","Estrie","22-03-2021",1,11867
+"Quebec","Estrie","23-03-2021",1,11868
 "Quebec","Gaspésie-Îles-de-la-Madeleine","04-08-2020",0,209
 "Quebec","Gaspésie-Îles-de-la-Madeleine","05-08-2020",1,210
 "Quebec","Gaspésie-Îles-de-la-Madeleine","06-08-2020",0,210
@@ -18710,6 +18790,7 @@
 "Quebec","Gaspésie-Îles-de-la-Madeleine","20-03-2021",0,1746
 "Quebec","Gaspésie-Îles-de-la-Madeleine","21-03-2021",0,1746
 "Quebec","Gaspésie-Îles-de-la-Madeleine","22-03-2021",0,1746
+"Quebec","Gaspésie-Îles-de-la-Madeleine","23-03-2021",0,1746
 "Quebec","Lanaudière","04-08-2020",17,4544
 "Quebec","Lanaudière","05-08-2020",18,4562
 "Quebec","Lanaudière","06-08-2020",11,4573
@@ -18941,6 +19022,7 @@
 "Quebec","Lanaudière","20-03-2021",48,21342
 "Quebec","Lanaudière","21-03-2021",33,21375
 "Quebec","Lanaudière","22-03-2021",21,21396
+"Quebec","Lanaudière","23-03-2021",28,21424
 "Quebec","Laurentides","04-08-2020",24,3961
 "Quebec","Laurentides","05-08-2020",29,3990
 "Quebec","Laurentides","06-08-2020",13,4003
@@ -19172,6 +19254,7 @@
 "Quebec","Laurentides","20-03-2021",44,17366
 "Quebec","Laurentides","21-03-2021",41,17407
 "Quebec","Laurentides","22-03-2021",40,17447
+"Quebec","Laurentides","23-03-2021",40,17487
 "Quebec","Laval","04-08-2020",10,6084
 "Quebec","Laval","05-08-2020",7,6091
 "Quebec","Laval","06-08-2020",12,6103
@@ -19403,6 +19486,7 @@
 "Quebec","Laval","20-03-2021",95,26272
 "Quebec","Laval","21-03-2021",65,26337
 "Quebec","Laval","22-03-2021",106,26443
+"Quebec","Laval","23-03-2021",70,26513
 "Quebec","Mauricie","04-08-2020",9,2093
 "Quebec","Mauricie","05-08-2020",3,2096
 "Quebec","Mauricie","06-08-2020",0,2096
@@ -19634,6 +19718,7 @@
 "Quebec","Mauricie","20-03-2021",16,13019
 "Quebec","Mauricie","21-03-2021",10,13029
 "Quebec","Mauricie","22-03-2021",18,13047
+"Quebec","Mauricie","23-03-2021",27,13074
 "Quebec","Montérégie","04-08-2020",20,8882
 "Quebec","Montérégie","05-08-2020",29,8911
 "Quebec","Montérégie","06-08-2020",27,8938
@@ -19865,6 +19950,7 @@
 "Quebec","Montérégie","20-03-2021",78,43205
 "Quebec","Montérégie","21-03-2021",64,43269
 "Quebec","Montérégie","22-03-2021",70,43339
+"Quebec","Montérégie","23-03-2021",85,43424
 "Quebec","Montréal","04-08-2020",40,28989
 "Quebec","Montréal","05-08-2020",58,29047
 "Quebec","Montréal","06-08-2020",50,29097
@@ -20096,6 +20182,7 @@
 "Quebec","Montréal","20-03-2021",297,112443
 "Quebec","Montréal","21-03-2021",264,112707
 "Quebec","Montréal","22-03-2021",320,113027
+"Quebec","Montréal","23-03-2021",240,113267
 "Quebec","Nord-du-Québec","04-08-2020",0,8
 "Quebec","Nord-du-Québec","05-08-2020",0,8
 "Quebec","Nord-du-Québec","06-08-2020",0,8
@@ -20327,6 +20414,7 @@
 "Quebec","Nord-du-Québec","20-03-2021",0,88
 "Quebec","Nord-du-Québec","21-03-2021",0,88
 "Quebec","Nord-du-Québec","22-03-2021",0,88
+"Quebec","Nord-du-Québec","23-03-2021",0,88
 "Quebec","Not Reported","04-08-2020",0,27
 "Quebec","Not Reported","05-08-2020",0,27
 "Quebec","Not Reported","06-08-2020",0,27
@@ -20558,6 +20646,7 @@
 "Quebec","Not Reported","20-03-2021",2,273
 "Quebec","Not Reported","21-03-2021",0,273
 "Quebec","Not Reported","22-03-2021",4,277
+"Quebec","Not Reported","23-03-2021",0,277
 "Quebec","Nunavik","04-08-2020",0,17
 "Quebec","Nunavik","05-08-2020",0,17
 "Quebec","Nunavik","06-08-2020",0,17
@@ -20789,6 +20878,7 @@
 "Quebec","Nunavik","20-03-2021",0,46
 "Quebec","Nunavik","21-03-2021",0,46
 "Quebec","Nunavik","22-03-2021",0,46
+"Quebec","Nunavik","23-03-2021",0,46
 "Quebec","Outaouais","04-08-2020",0,682
 "Quebec","Outaouais","05-08-2020",3,685
 "Quebec","Outaouais","06-08-2020",6,691
@@ -21020,6 +21110,7 @@
 "Quebec","Outaouais","20-03-2021",48,6827
 "Quebec","Outaouais","21-03-2021",53,6880
 "Quebec","Outaouais","22-03-2021",37,6917
+"Quebec","Outaouais","23-03-2021",50,6967
 "Quebec","Saguenay","04-08-2020",0,368
 "Quebec","Saguenay","05-08-2020",0,368
 "Quebec","Saguenay","06-08-2020",0,368
@@ -21251,6 +21342,7 @@
 "Quebec","Saguenay","20-03-2021",53,9108
 "Quebec","Saguenay","21-03-2021",46,9154
 "Quebec","Saguenay","22-03-2021",34,9188
+"Quebec","Saguenay","23-03-2021",25,9213
 "Quebec","Terres-Cries-de-la-Baie-James","04-08-2020",0,10
 "Quebec","Terres-Cries-de-la-Baie-James","05-08-2020",0,10
 "Quebec","Terres-Cries-de-la-Baie-James","06-08-2020",0,10
@@ -21482,6 +21574,7 @@
 "Quebec","Terres-Cries-de-la-Baie-James","20-03-2021",0,119
 "Quebec","Terres-Cries-de-la-Baie-James","21-03-2021",0,119
 "Quebec","Terres-Cries-de-la-Baie-James","22-03-2021",0,119
+"Quebec","Terres-Cries-de-la-Baie-James","23-03-2021",0,119
 "Repatriated","Not Reported","04-08-2020",0,13
 "Repatriated","Not Reported","05-08-2020",0,13
 "Repatriated","Not Reported","06-08-2020",0,13
@@ -21713,6 +21806,7 @@
 "Repatriated","Not Reported","20-03-2021",0,13
 "Repatriated","Not Reported","21-03-2021",0,13
 "Repatriated","Not Reported","22-03-2021",0,13
+"Repatriated","Not Reported","23-03-2021",0,13
 "Saskatchewan","Central East","04-08-2020",0,28
 "Saskatchewan","Central East","05-08-2020",0,28
 "Saskatchewan","Central East","06-08-2020",0,28
@@ -21944,6 +22038,7 @@
 "Saskatchewan","Central East","20-03-2021",12,1381
 "Saskatchewan","Central East","21-03-2021",6,1387
 "Saskatchewan","Central East","22-03-2021",7,1394
+"Saskatchewan","Central East","23-03-2021",8,1402
 "Saskatchewan","Central West","04-08-2020",0,158
 "Saskatchewan","Central West","05-08-2020",1,159
 "Saskatchewan","Central West","06-08-2020",0,159
@@ -22175,6 +22270,7 @@
 "Saskatchewan","Central West","20-03-2021",2,563
 "Saskatchewan","Central West","21-03-2021",1,564
 "Saskatchewan","Central West","22-03-2021",1,565
+"Saskatchewan","Central West","23-03-2021",0,565
 "Saskatchewan","Far North Central","04-08-2020",0,0
 "Saskatchewan","Far North Central","05-08-2020",0,0
 "Saskatchewan","Far North Central","06-08-2020",0,0
@@ -22406,6 +22502,7 @@
 "Saskatchewan","Far North Central","20-03-2021",0,351
 "Saskatchewan","Far North Central","21-03-2021",0,351
 "Saskatchewan","Far North Central","22-03-2021",0,351
+"Saskatchewan","Far North Central","23-03-2021",1,352
 "Saskatchewan","Far North East","04-08-2020",0,6
 "Saskatchewan","Far North East","05-08-2020",0,6
 "Saskatchewan","Far North East","06-08-2020",0,6
@@ -22637,6 +22734,7 @@
 "Saskatchewan","Far North East","20-03-2021",2,1935
 "Saskatchewan","Far North East","21-03-2021",1,1936
 "Saskatchewan","Far North East","22-03-2021",11,1947
+"Saskatchewan","Far North East","23-03-2021",1,1948
 "Saskatchewan","Far North West","04-08-2020",0,346
 "Saskatchewan","Far North West","05-08-2020",0,346
 "Saskatchewan","Far North West","06-08-2020",0,346
@@ -22868,6 +22966,7 @@
 "Saskatchewan","Far North West","20-03-2021",6,2121
 "Saskatchewan","Far North West","21-03-2021",1,2122
 "Saskatchewan","Far North West","22-03-2021",4,2126
+"Saskatchewan","Far North West","23-03-2021",1,2127
 "Saskatchewan","North Central","04-08-2020",1,63
 "Saskatchewan","North Central","05-08-2020",0,63
 "Saskatchewan","North Central","06-08-2020",0,63
@@ -23099,6 +23198,7 @@
 "Saskatchewan","North Central","20-03-2021",14,3413
 "Saskatchewan","North Central","21-03-2021",15,3428
 "Saskatchewan","North Central","22-03-2021",13,3441
+"Saskatchewan","North Central","23-03-2021",8,3450
 "Saskatchewan","North East","04-08-2020",0,62
 "Saskatchewan","North East","05-08-2020",3,65
 "Saskatchewan","North East","06-08-2020",0,65
@@ -23330,6 +23430,7 @@
 "Saskatchewan","North East","20-03-2021",5,1237
 "Saskatchewan","North East","21-03-2021",7,1244
 "Saskatchewan","North East","22-03-2021",9,1253
+"Saskatchewan","North East","23-03-2021",12,1265
 "Saskatchewan","North West","04-08-2020",1,96
 "Saskatchewan","North West","05-08-2020",0,98
 "Saskatchewan","North West","06-08-2020",0,98
@@ -23561,6 +23662,7 @@
 "Saskatchewan","North West","20-03-2021",9,3193
 "Saskatchewan","North West","21-03-2021",8,3201
 "Saskatchewan","North West","22-03-2021",6,3207
+"Saskatchewan","North West","23-03-2021",9,3216
 "Saskatchewan","Regina","04-08-2020",4,99
 "Saskatchewan","Regina","05-08-2020",2,100
 "Saskatchewan","Regina","06-08-2020",0,100
@@ -23792,6 +23894,7 @@
 "Saskatchewan","Regina","20-03-2021",91,6640
 "Saskatchewan","Regina","21-03-2021",105,6745
 "Saskatchewan","Regina","22-03-2021",102,6847
+"Saskatchewan","Regina","23-03-2021",91,6940
 "Saskatchewan","Saskatoon","04-08-2020",2,216
 "Saskatchewan","Saskatoon","05-08-2020",2,217
 "Saskatchewan","Saskatoon","06-08-2020",1,218
@@ -24023,6 +24126,7 @@
 "Saskatchewan","Saskatoon","20-03-2021",29,7859
 "Saskatchewan","Saskatoon","21-03-2021",19,7878
 "Saskatchewan","Saskatoon","22-03-2021",28,7906
+"Saskatchewan","Saskatoon","23-03-2021",8,7913
 "Saskatchewan","South Central","04-08-2020",0,134
 "Saskatchewan","South Central","05-08-2020",0,134
 "Saskatchewan","South Central","06-08-2020",9,143
@@ -24254,6 +24358,7 @@
 "Saskatchewan","South Central","20-03-2021",12,858
 "Saskatchewan","South Central","21-03-2021",3,861
 "Saskatchewan","South Central","22-03-2021",12,873
+"Saskatchewan","South Central","23-03-2021",3,876
 "Saskatchewan","South East","04-08-2020",0,11
 "Saskatchewan","South East","05-08-2020",0,11
 "Saskatchewan","South East","06-08-2020",0,11
@@ -24485,6 +24590,7 @@
 "Saskatchewan","South East","20-03-2021",18,1220
 "Saskatchewan","South East","21-03-2021",10,1230
 "Saskatchewan","South East","22-03-2021",7,1237
+"Saskatchewan","South East","23-03-2021",6,1243
 "Saskatchewan","South West","04-08-2020",1,149
 "Saskatchewan","South West","05-08-2020",0,149
 "Saskatchewan","South West","06-08-2020",1,150
@@ -24716,6 +24822,7 @@
 "Saskatchewan","South West","20-03-2021",0,639
 "Saskatchewan","South West","21-03-2021",0,639
 "Saskatchewan","South West","22-03-2021",1,640
+"Saskatchewan","South West","23-03-2021",1,641
 "Yukon","Yukon","04-08-2020",0,14
 "Yukon","Yukon","05-08-2020",0,14
 "Yukon","Yukon","06-08-2020",0,14
@@ -24947,3 +25054,4 @@
 "Yukon","Yukon","20-03-2021",0,72
 "Yukon","Yukon","21-03-2021",0,72
 "Yukon","Yukon","22-03-2021",0,72
+"Yukon","Yukon","23-03-2021",0,72
