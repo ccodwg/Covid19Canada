@@ -174,7 +174,11 @@ check_sexes <- function(type) {
   match.arg(type, choices = c("cases", "mortality"))
   
   ### load data
-  dat <- get(type)
+  if (type == "cases") {
+    dat <- bind_rows(cases_2020, cases_2021)
+  } else if (type == "mortality") {
+    dat <- bind_rows(mortality_2020, mortality_2021)
+  }
   
   ## check sexes
   new_sexes <- dat %>%
@@ -199,7 +203,12 @@ check_ages <- function(type) {
   match.arg(type, choices = c("cases", "mortality"))
   
   ### load data
-  dat <- get(type)
+  ### load data
+  if (type == "cases") {
+    dat <- bind_rows(cases_2020, cases_2021)
+  } else if (type == "mortality") {
+    dat <- bind_rows(mortality_2020, mortality_2021)
+  }
   age_map <- get(paste0("age_map_", type))
   age_levels <- unique(age_map$age_display)
   

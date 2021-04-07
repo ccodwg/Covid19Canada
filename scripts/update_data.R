@@ -40,9 +40,17 @@ files %>% filter(name == "vaccine_completion_cumulative.csv") %>% drive_download
 
 # read downloaded sheets
 cases <- read.csv("cases.csv",
-                  stringsAsFactors = FALSE)
+                  stringsAsFactors = FALSE) %>%
+  mutate(
+    sex = trimws(sex, "both"),
+    age = trimws(age, "both")
+  )
 mortality <- read.csv("mortality.csv",
-                      stringsAsFactors = FALSE)
+                      stringsAsFactors = FALSE) %>%
+  mutate(
+    sex = trimws(sex, "both"),
+    age = trimws(age, "both")
+  )
 recovered_cum <- read.csv("recovered_cumulative.csv",
                           stringsAsFactors = FALSE)
 testing_cum <- read.csv("testing_cumulative.csv",
