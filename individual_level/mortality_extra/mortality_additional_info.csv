@@ -1,4 +1,5 @@
 "province","additional_info_id","additional_info_short","additional_info_full"
+"",1,"NA1",""
 "Alberta",1,"AB1","underlying health condition and caught COVID-19 in the community."
 "Alberta",2,"AB2","She was a resident of the MacKenzie Towne Long Term Care Home, where one staff member and two other residents have been diagnosed with COVID-19."
 "Alberta",3,"AB3","McKenzie Care Home resident"
@@ -465,6 +466,7 @@
 "Manitoba",289,"MB289","linked to the outbreak at Holy Family Home"
 "Manitoba",290,"MB290","linked to the outbreak at Health Sciences Centre GD4"
 "Manitoba",291,"MB291","Linked to outbreak at the Russell Health Centre"
+"Manitoba",294,"MB294","inked to the B.1.1.7 variant of concern"
 "New Brunswick",1,"NB1","https://atlantic.ctvnews.ca/resident-of-long-term-care-home-is-new-brunswick-s-first-covid-19-death-1.4969061"
 "New Brunswick",2,"NB2","Lily Court of Parkland Saint John’s Tucker Hall Retirement home"
 "New Brunswick",3,"NB3","Lily Court of Parkland Saint John’s Tucker Hall"
