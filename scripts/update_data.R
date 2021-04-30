@@ -51,6 +51,8 @@ mortality <- read.csv("mortality.csv",
     sex = trimws(sex, "both"),
     age = trimws(age, "both")
   )
+cases <- fix_qc_hr(cases)
+mortality <- fix_qc_hr(mortality)
 recovered_cum <- read.csv("recovered_cumulative.csv",
                           stringsAsFactors = FALSE)
 testing_cum <- read.csv("testing_cumulative.csv",

@@ -34,6 +34,23 @@ convert_dates <- function(..., date_format_out = c("%Y-%m-%d", "%d-%m-%Y")) {
   }
 }
 
+## fix Quebec health region names if special characters have been corrupted
+fix_qc_hr <- function(dat) {
+  dat %>%
+    mutate(
+      health_region = case_when(
+        health_region == "MontrÃ©al" ~ "Montréal",
+        health_region == "MontÃ©rÃ©gie" ~ "Montérégie",
+        health_region == "ChaudiÃ¨re-Appalaches" ~ "Chaudière-Appalaches",
+        health_region == "LanaudiÃ¨re" ~ "Lanaudière",
+        health_region == "Nord-du-QuÃ©bec" ~ "Nord-du-Québec",
+        health_region == "GaspÃ©sie-ÃŽles-de-la-Madeleine" ~ "Gaspésie-Îles-de-la-Madeleine",
+        health_region == "Abitibi-TÃ©miscamingue" ~ "Abitibi-Témiscamingue",
+        health_region == "CÃ´te-Nord" ~ "Côte-Nord",
+        TRUE ~ health_region
+      ))
+}
+
 # define functions for individual-level data
 
 ## abbreviate source variables in individual-level data and export unique values to an abbreviation table
