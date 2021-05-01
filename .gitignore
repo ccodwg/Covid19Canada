@@ -11,3 +11,6 @@ testing_cumulative.csv
 vaccine_administration_cumulative.csv
 vaccine_distribution_cumulative.csv
 vaccine_completion_cumulative.csv
+
+# optional files
+email.txt

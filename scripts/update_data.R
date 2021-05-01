@@ -10,7 +10,14 @@
 
 # authenticate your Google account before running the rest of the script
 library(googledrive) # interface with Google drive
-drive_auth()
+if (file.exists("email.txt")) {
+  # automatically read account name from email.txt, if present
+  drive_auth(readLines("email.txt"))
+} else {
+  # otherwise, prompt for authentication
+  drive_auth()
+}
+
 
 # load libraries
 library(dplyr) # data manipulation
