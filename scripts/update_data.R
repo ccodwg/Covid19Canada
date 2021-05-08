@@ -210,15 +210,17 @@ abbreviate_other(mortality, mortality_additional_source, "additional_source")
 # split individual-level data for writing
 cases_2020 <- cases %>%
   filter(date_report >= as.Date("2020-01-01") & date_report <= as.Date("2020-12-31"))
-cases_2021 <- cases %>%
-  filter(date_report >= as.Date("2021-01-01") & date_report <= as.Date("2021-12-31"))
+cases_2021_1 <- cases %>%
+  filter(date_report >= as.Date("2021-01-01") & date_report <= as.Date("2021-04-30"))
+cases_2021_2 <- cases %>%
+  filter(date_report >= as.Date("2021-05-01") & date_report <= as.Date("2021-12-31"))
 mortality_2020 <- mortality %>%
   filter(date_death_report >= as.Date("2020-01-01") & date_death_report <= as.Date("2020-12-31"))
 mortality_2021 <- mortality %>%
   filter(date_death_report >= as.Date("2021-01-01") & date_death_report <= as.Date("2021-12-31"))
 
 # convert dates to non-standard date format for writing
-convert_dates("cases_2020", "cases_2021", "mortality_2020", "mortality_2021",
+convert_dates("cases_2020", "cases_2021_1", "cases_2021_2", "mortality_2020", "mortality_2021",
               "cases_ts_canada", "mortality_ts_canada", "recovered_ts_canada", "testing_ts_canada", "active_ts_canada",
               "cases_ts_prov", "mortality_ts_prov", "recovered_ts_prov", "testing_ts_prov", "active_ts_prov",
               "cases_ts_hr", "mortality_ts_hr",
@@ -229,7 +231,8 @@ convert_dates("cases_2020", "cases_2021", "mortality_2020", "mortality_2021",
 
 # write individual-level files
 write.csv(cases_2020, "individual_level/cases_2020.csv", row.names = FALSE)
-write.csv(cases_2021, "individual_level/cases_2021.csv", row.names = FALSE)
+write.csv(cases_2021_1, "individual_level/cases_2021_1.csv", row.names = FALSE)
+write.csv(cases_2021_2, "individual_level/cases_2021_2.csv", row.names = FALSE)
 write.csv(mortality_2020, "individual_level/mortality_2020.csv", row.names = FALSE)
 write.csv(mortality_2021, "individual_level/mortality_2021.csv", row.names = FALSE)
 write.csv(cases_case_source, "individual_level/cases_extra/cases_case_source.csv", row.names = FALSE)
