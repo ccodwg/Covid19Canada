@@ -175,7 +175,7 @@ check_sexes <- function(type) {
   
   ### load data
   if (type == "cases") {
-    dat <- bind_rows(cases_2020, cases_2021)
+    dat <- bind_rows(cases_2020, cases_2021_1, cases_2021_2)
   } else if (type == "mortality") {
     dat <- bind_rows(mortality_2020, mortality_2021)
   }
@@ -203,9 +203,8 @@ check_ages <- function(type) {
   match.arg(type, choices = c("cases", "mortality"))
   
   ### load data
-  ### load data
   if (type == "cases") {
-    dat <- bind_rows(cases_2020, cases_2021)
+    dat <- bind_rows(cases_2020, cases_2021_1, cases_2021_2)
   } else if (type == "mortality") {
     dat <- bind_rows(mortality_2020, mortality_2021)
   }
