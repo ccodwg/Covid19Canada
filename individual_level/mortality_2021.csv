@@ -8913,7 +8913,7 @@
 24578,2114,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","10-05-2021","AB8",NA,NA
 24579,2115,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","10-05-2021","AB8",NA,NA
 24580,2116,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","10-05-2021","AB8",NA,NA
-24581,2117,NA,"Not Reported","Not Reported","South","Alberta","Canada","10-05-2021","AB8",NA,NA
+24581,2117,NA,"Not Reported","Not Reported","Central","Alberta","Canada","10-05-2021","AB8",NA,NA
 24582,1603,NA,"Not Reported","Not Reported","Fraser","BC","Canada","10-05-2021","BC26",NA,NA
 24583,1604,NA,"Not Reported","Not Reported","Fraser","BC","Canada","10-05-2021","BC26",NA,NA
 24584,1605,NA,"Not Reported","Not Reported","Fraser","BC","Canada","10-05-2021","BC26",NA,NA
@@ -9031,11 +9031,11 @@
 24696,2122,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","12-05-2021","AB8",NA,NA
 24697,2123,NA,"Not Reported","Not Reported","North","Alberta","Canada","12-05-2021","AB8",NA,NA
 24698,1625,NA,"Not Reported","Not Reported","Vancouver Coastal","BC","Canada","12-05-2021","BC350",NA,NA
-24699,1626,NA,"Not Reported","Not Reported","Vancouver Coastal","BC","Canada","12-05-2021","BC350",NA,NA
+24699,1626,NA,"Not Reported","Not Reported","Fraser","BC","Canada","12-05-2021","BC350",NA,NA
 24700,1627,NA,"Not Reported","Not Reported","Interior","BC","Canada","12-05-2021","BC350",NA,NA
 24701,998,NA,"50-59","Female","Prairie Mountain","Manitoba","Canada","12-05-2021","MB350",NA,NA
 24702,999,NA,"60-69","Male","Winnipeg","Manitoba","Canada","12-05-2021","MB350",NA,NA
-24703,1000,NA,"70-79","Male","Interlake-Eastern","Manitoba","Canada","12-05-2021","MB350",NA,NA
+24703,1000,NA,"70-79","Male","Winnipeg","Manitoba","Canada","13-05-2021","MB350","MB306",NA
 24704,507,NA,"70-79","Not Reported","North","Saskatchewan","Canada","12-05-2021","SK350","SK12",NA
 24705,508,NA,"70-79","Not Reported","Central","Saskatchewan","Canada","12-05-2021","SK350","SK18",NA
 24706,11003,NA,"Not Reported","Not Reported","Bas-Saint-Laurent","Quebec","Canada","12-05-2021","QC13",NA,NA
@@ -9083,3 +9083,66 @@
 24748,8353,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","12-05-2021","ON68",NA,NA
 24749,8354,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","12-05-2021","ON68",NA,NA
 24750,8355,NA,"Not Reported","Not Reported","York","Ontario","Canada","12-05-2021","ON19",NA,NA
+24751,2124,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","13-05-2021","AB8",NA,NA
+24752,2125,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","13-05-2021","AB8",NA,NA
+24753,2126,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","13-05-2021","AB8",NA,NA
+24754,2127,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","13-05-2021","AB8",NA,NA
+24755,2128,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","13-05-2021","AB8",NA,NA
+24756,2129,NA,"Not Reported","Not Reported","Edmonton","Alberta","Canada","13-05-2021","AB8",NA,NA
+24757,2130,NA,"Not Reported","Not Reported","South","Alberta","Canada","13-05-2021","AB8",NA,NA
+24758,2131,NA,"Not Reported","Not Reported","South","Alberta","Canada","13-05-2021","AB8",NA,NA
+24759,2132,NA,"Not Reported","Not Reported","South","Alberta","Canada","13-05-2021","AB8",NA,NA
+24760,1628,NA,"Not Reported","Not Reported","Interior","BC","Canada","13-05-2021","BC351",NA,NA
+24761,1629,NA,"Not Reported","Not Reported","Interior","BC","Canada","13-05-2021","BC351",NA,NA
+24762,1630,NA,"Not Reported","Not Reported","Interior","BC","Canada","13-05-2021","BC351",NA,NA
+24763,1631,NA,"Not Reported","Not Reported","Fraser","BC","Canada","13-05-2021","BC351",NA,NA
+24764,1632,NA,"Not Reported","Not Reported","Fraser","BC","Canada","13-05-2021","BC351",NA,NA
+24765,1001,NA,"60-69","Female","Prairie Mountain","Manitoba","Canada","13-05-2021","MB351",NA,NA
+24766,1002,NA,"60-69","Male","Prairie Mountain","Manitoba","Canada","13-05-2021","MB351",NA,NA
+24767,11015,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","13-05-2021","QC13",NA,NA
+24768,11016,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","13-05-2021","QC13",NA,NA
+24769,11017,NA,"Not Reported","Not Reported","Montérégie","Quebec","Canada","13-05-2021","QC13",NA,NA
+24770,509,NA,"60-69","Not Reported","Far North","Saskatchewan","Canada","13-05-2021","SK351","SK10",NA
+24771,510,NA,"70-79","Not Reported","Far North","Saskatchewan","Canada","13-05-2021","SK351","SK10",NA
+24772,511,NA,"70-79","Not Reported","North","Saskatchewan","Canada","13-05-2021","SK351","SK12",NA
+24773,512,NA,">80","Not Reported","North","Saskatchewan","Canada","13-05-2021","SK351","SK11",NA
+24774,513,NA,">80","Not Reported","Regina","Saskatchewan","Canada","13-05-2021","SK351",NA,NA
+24775,8356,NA,"50-59","Male","Windsor-Essex","Ontario","Canada","13-05-2021","ON41","ON306",NA
+24776,8357,NA,"Not Reported","Not Reported","Southwestern","Ontario","Canada","13-05-2021","ON111",NA,NA
+24777,8358,NA,"Not Reported","Not Reported","Ottawa","Ontario","Canada","13-05-2021","ON93",NA,NA
+24778,8359,NA,"Not Reported","Not Reported","Ottawa","Ontario","Canada","13-05-2021","ON93",NA,NA
+24779,8360,NA,"Not Reported","Not Reported","Ottawa","Ontario","Canada","13-05-2021","ON93",NA,NA
+24780,8361,NA,"Not Reported","Not Reported","Ottawa","Ontario","Canada","13-05-2021","ON93",NA,NA
+24781,8362,NA,"Not Reported","Not Reported","Ottawa","Ontario","Canada","13-05-2021","ON93",NA,NA
+24782,8363,NA,"Not Reported","Not Reported","Niagara","Ontario","Canada","13-05-2021","ON95",NA,NA
+24783,8364,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","13-05-2021","ON79",NA,NA
+24784,8365,NA,"Not Reported","Not Reported","Simcoe Muskoka","Ontario","Canada","13-05-2021","ON102",NA,NA
+24785,8366,NA,"Not Reported","Not Reported","Simcoe Muskoka","Ontario","Canada","13-05-2021","ON102",NA,NA
+24786,8367,NA,"Not Reported","Not Reported","Simcoe Muskoka","Ontario","Canada","13-05-2021","ON102",NA,NA
+24787,8368,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","13-05-2021","ON75",NA,NA
+24788,8369,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","13-05-2021","ON75",NA,NA
+24789,8370,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","13-05-2021","ON75",NA,NA
+24790,8371,NA,"Not Reported","Not Reported","Huron Perth","Ontario","Canada","13-05-2021","ON80",NA,NA
+24791,8372,NA,"Not Reported","Not Reported","Halton","Ontario","Canada","13-05-2021","ON105",NA,NA
+24792,8373,NA,"Not Reported","Not Reported","Halton","Ontario","Canada","13-05-2021","ON105",NA,NA
+24793,8374,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","13-05-2021","ON68",NA,NA
+24794,8375,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","13-05-2021","ON68",NA,NA
+24795,8376,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","13-05-2021","ON68",NA,NA
+24796,8377,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","13-05-2021","ON68",NA,NA
+24797,8378,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","13-05-2021","ON68",NA,NA
+24798,8379,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","13-05-2021","ON68",NA,NA
+24799,8380,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","13-05-2021","ON68",NA,NA
+24800,8381,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","13-05-2021","ON68",NA,NA
+24801,8382,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","13-05-2021","ON68",NA,NA
+24802,8383,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","13-05-2021","ON68",NA,NA
+24803,8384,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","13-05-2021","ON68",NA,NA
+24804,8385,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","13-05-2021","ON68",NA,NA
+24805,8386,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","13-05-2021","ON68",NA,NA
+24806,8387,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","13-05-2021","ON68",NA,NA
+24807,8388,NA,"Not Reported","Not Reported","York","Ontario","Canada","13-05-2021","ON351",NA,NA
+24808,8389,NA,"Not Reported","Not Reported","York","Ontario","Canada","13-05-2021","ON351",NA,NA
+24809,8390,NA,"Not Reported","Not Reported","York","Ontario","Canada","13-05-2021","ON351",NA,NA
+24810,8391,NA,"Not Reported","Not Reported","York","Ontario","Canada","13-05-2021","ON351",NA,NA
+24811,8392,NA,"Not Reported","Not Reported","York","Ontario","Canada","13-05-2021","ON351",NA,NA
+24812,11013,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","13-05-2021","QC13",NA,NA
+24813,11014,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","13-05-2021","QC13",NA,NA
