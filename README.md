@@ -12,14 +12,16 @@ Berry I, Soucy J-PR, Tuite A, Fisman D. Open access epidemiologic data and an in
 # [PLEASE READ] Upcoming Changes, Recent Changes and Vaccine Datasets
 
 ## Recent Changes
+2021-05-30: Individual-level data collection (cases.csv, mortality.csv) will cease after May 31, 2021. Time series data collection will continue for the forseeable future. More details will be provided shortly. Those wishing to use individual-level data are advised to consult the datasets provided by individual provinces. Canada-wide individual-level data are provided by [PHAC](https://www150.statcan.gc.ca/n1/pub/13-26-0003/132600032020001-eng.htm).
+
+If you have any further questions, please open an issue on GitHub or reach out to us by email at ccodwg [at] gmail [dot] com. Thank you for using the COVID-19 Canada Open Data Working Group datasets.
 
 2021-01-27: Due to the limit on file sizes in GitHub, we implemented some changes to the datasets today, mostly impacting individual-level data (cases and mortality). Changes below:
-
 1) Individual-level data (cases.csv and mortality.csv) have been moved to a new directory in the root directory entitled “individual_level”. These files have been split by calendar year and named as follows: cases_2020.csv, cases_2021.csv, mortality_2020.csv, mortality_2021.csv. The directories “other/cases_extra” and “other/mortality_extra” have been moved into the “individual_level” directory.
 2) Redundant datasets have been removed from the root directory. These files include: recovered_cumulative.csv, testing_cumulative.csv, vaccine_administration_cumulative.csv, vaccine_distribution_cumulative.csv, vaccine_completion_cumulative.csv. All of these datasets are currently available as time series in the directory “timeseries_prov”.
 3) The file codebook.csv has been moved to the directory “other”.
 
-We appreciate your patience and hope these changes cause minimal disruption. We do not anticipate making any other breaking changes to the datasets in the near future. If you have any further questions, please open an issue on GitHub or reach out to us by email at ccodwg [at] gmail [dot] com. Thank you for using the COVID-19 Canada Open Data Working Group datasets.
+We appreciate your patience and hope these changes cause minimal disruption. We do not anticipate making any other breaking changes to the datasets in the near future.
 
 - 2021-01-24: The columns "additional_info" and "additional_source" in cases.csv and mortality.csv have been abbreviated similar to "case_source" and "death_source". See note in README.md from 2021-11-27 and 2021-01-08.
 - 2021-01-08: The directories cases_extra and mortality_extra have been moved to other/cases_extra and other/mortality_extra.
