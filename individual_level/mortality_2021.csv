@@ -1,4 +1,5 @@
 "death_id","province_death_id","case_id","age","sex","health_region","province","country","date_death_report","death_source","additional_info","additional_source"
+14226,8694,NA,"Not Reported","Not Reported","Ottawa","Ontario","Canada","30-05-2021","ON93",NA,NA
 15407,4483,NA,"Not Reported","Not Reported","York","Ontario","Canada","18-03-2021","ON19","ON155",NA
 15668,4592,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","01-01-2021","ON75",NA,NA
 15669,4593,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","01-01-2021","ON75",NA,NA
@@ -13,7 +14,7 @@
 15678,4602,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","01-01-2021","ON75",NA,NA
 15679,4603,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","01-01-2021","ON75",NA,NA
 15680,668,NA,"50-59","Male","Northern","Manitoba","Canada","02-01-2021","MB187",NA,NA
-15681,669,NA,"60-69","Male","Interlake-Eastern","Manitoba","Canada","02-01-2021","MB188",NA,NA
+15681,669,NA,"60-69","Male","Prairie Mountain","Manitoba","Canada","02-01-2021","MB188","MB319",NA
 15682,670,NA,"60-69","Female","Southern Health","Manitoba","Canada","02-01-2021","MB189",NA,NA
 15683,671,NA,"70-79","Male","Winnipeg","Manitoba","Canada","02-01-2021","MB190","MB197",NA
 15684,672,NA,"70-79","Male","Winnipeg","Manitoba","Canada","02-01-2021","MB191",NA,NA
@@ -649,7 +650,7 @@
 16314,961,NA,"Not Reported","Not Reported","Fraser","BC","Canada","06-01-2021","BC200",NA,NA
 16315,962,NA,"Not Reported","Not Reported","Northern","BC","Canada","06-01-2021","BC200",NA,NA
 16316,696,NA,"40-49","Female","Northern","Manitoba","Canada","06-01-2021","MB7",NA,NA
-16317,697,NA,"70-79","Male","Interlake-Eastern","Manitoba","Canada","06-01-2021","MB7",NA,NA
+16317,697,NA,"70-79","Male","Prairie Mountain","Manitoba","Canada","06-01-2021","MB7","MB319",NA
 16318,698,NA,"70-79","Male","Winnipeg","Manitoba","Canada","06-01-2021","MB7","MB210",NA
 16319,699,NA,"80-89","Female","Winnipeg","Manitoba","Canada","06-01-2021","MB7","MB211",NA
 16320,700,NA,"80-89","Male","Winnipeg","Manitoba","Canada","06-01-2021","MB7","MB211",NA
@@ -6350,7 +6351,7 @@
 22015,1890,NA,"Not Reported","Not Reported","North","Alberta","Canada","02-03-2021","AB8",NA,NA
 22016,1364,NA,"Not Reported","Not Reported","Fraser","BC","Canada","02-03-2021","BC271",NA,NA
 22017,1365,NA,"Not Reported","Not Reported","Northern","BC","Canada","02-03-2021","BC271",NA,NA
-22018,897,NA,"70-79","Male","Interlake-Eastern","Manitoba","Canada","02-03-2021","MB270",NA,NA
+22018,897,NA,"70-79","Male","Winnipeg","Manitoba","Canada","02-03-2021","MB270","MB320",NA
 22019,898,NA,"50-59","Male","Winnipeg","Manitoba","Canada","02-03-2021","MB270","MB270",NA
 22020,386,NA,">80","Not Reported","North","Saskatchewan","Canada","02-03-2021","SK270","SK12",NA
 22021,387,NA,">80","Not Reported","Saskatoon","Saskatchewan","Canada","02-03-2021","SK270",NA,NA
@@ -6740,7 +6741,7 @@
 22405,1940,NA,"Not Reported","Not Reported","Central","Alberta","Canada","13-03-2021","AB8",NA,NA
 22406,913,NA,"60-69","Male","Winnipeg","Manitoba","Canada","13-03-2021","MB289",NA,NA
 22407,914,NA,"70-79","Female","Winnipeg","Manitoba","Canada","13-03-2021","MB289",NA,NA
-22408,915,NA,"70-79","Male","Interlake-Eastern","Manitoba","Canada","13-03-2021","MB289",NA,NA
+22408,915,NA,"70-79","Male","Winnipeg","Manitoba","Canada","13-03-2021","MB289","MB320",NA
 22409,916,NA,"80-89","Female","Winnipeg","Manitoba","Canada","13-03-2021","MB289","MB274",NA
 22410,405,NA,"70-79","Not Reported","Saskatoon","Saskatchewan","Canada","13-03-2021","SK289",NA,NA
 22411,10527,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","13-03-2021","QC13",NA,NA
@@ -6895,9 +6896,9 @@
 22560,10576,NA,"Not Reported","Not Reported","Outaouais","Quebec","Canada","18-03-2021","QC3",NA,NA
 22561,411,NA,">80","Not Reported","Saskatoon","Saskatchewan","Canada","18-03-2021","SK294",NA,NA
 22562,66,NA,">80","Female","Zone 4 - Central","Nova Scotia","Canada","18-03-2021","NS294",NA,NA
-22563,3,NA,"Not Reported","Not Reported","Nunavut","Nunavut","Canada","17-03-2021","NU294","NU278",NA
-22564,4,NA,"Not Reported","Not Reported","Nunavut","Nunavut","Canada","17-03-2021","NU294","NU278",NA
-22565,5,NA,"Not Reported","Not Reported","Nunavut","Nunavut","Canada","17-03-2021","NU294","NU278",NA
+22563,2,NA,"Not Reported","Not Reported","Nunavut","Nunavut","Canada","17-03-2021","NU294","NU278",NA
+22564,3,NA,"Not Reported","Not Reported","Nunavut","Nunavut","Canada","17-03-2021","NU294","NU278",NA
+22565,4,NA,"Not Reported","Not Reported","Nunavut","Nunavut","Canada","17-03-2021","NU294","NU278",NA
 22566,7177,NA,"Not Reported","Not Reported","Wellington Dufferin Guelph","Ontario","Canada","18-03-2021","ON61",NA,NA
 22567,7178,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","18-03-2021","ON26",NA,NA
 22568,7179,NA,"Not Reported","Not Reported","Toronto","Ontario","Canada","18-03-2021","ON68",NA,NA
@@ -7120,7 +7121,7 @@
 22785,1447,NA,"Not Reported","Not Reported","Fraser","BC","Canada","26-03-2021","BC303",NA,NA
 22786,1448,NA,"Not Reported","Not Reported","Vancouver Coastal","BC","Canada","26-03-2021","BC303",NA,NA
 22787,1449,NA,"Not Reported","Not Reported","Vancouver Coastal","BC","Canada","26-03-2021","BC303",NA,NA
-22788,930,NA,"70-79","Male","Interlake-Eastern","Manitoba","Canada","26-03-2021","MB303",NA,NA
+22788,930,NA,"70-79","Male","Winnipeg","Manitoba","Canada","26-03-2021","MB303","MB320",NA
 22789,931,NA,"60-69","Male","Northern","Manitoba","Canada","26-03-2021","MB303",NA,NA
 22790,932,NA,"70-79","Male","Winnipeg","Manitoba","Canada","26-03-2021","MB303",NA,NA
 22791,10631,NA,"Not Reported","Not Reported","Capitale-Nationale","Quebec","Canada","26-03-2021","QC13",NA,NA
@@ -9779,3 +9780,26 @@
 25444,8691,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","29-05-2021","ON75",NA,NA
 25445,8692,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","29-05-2021","ON26",NA,NA
 25446,8693,NA,"Not Reported","Not Reported","York","Ontario","Canada","29-05-2021","ON19",NA,NA
+25447,2215,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","30-05-2021","AB8",NA,NA
+25448,2216,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","30-05-2021","AB8",NA,NA
+25449,2217,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","30-05-2021","AB8",NA,NA
+25450,2218,NA,"Not Reported","Not Reported","Calgary","Alberta","Canada","30-05-2021","AB8",NA,NA
+25451,2219,NA,"Not Reported","Not Reported","North","Alberta","Canada","30-05-2021","AB8",NA,NA
+25452,1046,NA,"60-69","Male","Northern","Manitoba","Canada","30-05-2021","MB369","MB314",NA
+25453,1047,NA,"70-79","Male","Interlake-Eastern","Manitoba","Canada","30-05-2021","MB369","MB314",NA
+25454,1048,NA,"70-79","Male","Southern Health","Manitoba","Canada","30-05-2021","MB369",NA,NA
+25455,1049,NA,"70-79","Male","Southern Health","Manitoba","Canada","30-05-2021","MB369","MB321",NA
+25456,1050,NA,"40-49","Male","Winnipeg","Manitoba","Canada","30-05-2021","MB369","MB314",NA
+25457,1051,NA,"60-69","Male","Winnipeg","Manitoba","Canada","30-05-2021","MB369","MB314",NA
+25458,1052,NA,"70-79","Male","Winnipeg","Manitoba","Canada","30-05-2021","MB369","MB314",NA
+25459,538,NA,">80","Not Reported","South","Saskatchewan","Canada","30-05-2021","SK369","SK13",NA
+25460,85,NA,"80-89","Female","Zone 4 - Central","Nova Scotia","Canada","30-05-2021","NS369",NA,NA
+25461,11126,NA,"Not Reported","Not Reported","Montréal","Quebec","Canada","30-05-2021","QC13",NA,NA
+25462,11127,NA,"Not Reported","Not Reported","Estrie","Quebec","Canada","30-05-2021","QC13",NA,NA
+25463,8695,NA,"Not Reported","Not Reported","Ottawa","Ontario","Canada","30-05-2021","ON93",NA,NA
+25464,8696,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","30-05-2021","ON79",NA,NA
+25465,8697,NA,"Not Reported","Not Reported","Hamilton","Ontario","Canada","30-05-2021","ON79",NA,NA
+25466,8698,NA,"Not Reported","Not Reported","Peel","Ontario","Canada","30-05-2021","ON75",NA,NA
+25467,8699,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","30-05-2021","ON26",NA,NA
+25468,8700,NA,"Not Reported","Not Reported","Durham","Ontario","Canada","30-05-2021","ON26",NA,NA
+25469,8701,NA,"Not Reported","Not Reported","Peterborough","Ontario","Canada","30-05-2021","ON106",NA,NA
