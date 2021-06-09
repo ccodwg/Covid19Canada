@@ -32,10 +32,6 @@ if (identical(old_update_time, update_time)) stop("Update times for old and new 
 ## print today's summary of cumulative and daily numbers
 print_summary_today()
 
-## check individual-level data (IDs, dates, health region names, sexes, ages)
-check_individual_data("cases")
-check_individual_data("mortality")
-
 ## check Canadian time series
 ts_canada()
 

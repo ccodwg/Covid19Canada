@@ -34,42 +34,98 @@ update_date <- as.Date(update_time)
 cat(paste0(update_time, "\n"), file = "update_time.txt") # write update_time
 
 # list files in Google Drive data folder
-files <- drive_ls("Public_List")
+files <- drive_ls("Provincial_List/Automation/Manual TS")
 
-# download sheets and copy into project folder
-files %>% filter(name == "cases.csv") %>% drive_download(overwrite = TRUE)
-files %>% filter(name == "mortality.csv") %>% drive_download(overwrite = TRUE)
-files %>% filter(name == "recovered_cumulative.csv") %>% drive_download(overwrite = TRUE)
-files %>% filter(name == "testing_cumulative.csv") %>% drive_download(overwrite = TRUE)
-files %>% filter(name == "vaccine_administration_cumulative.csv") %>% drive_download(overwrite = TRUE)
-files %>% filter(name == "vaccine_distribution_cumulative.csv") %>% drive_download(overwrite = TRUE)
-files %>% filter(name == "vaccine_completion_cumulative.csv") %>% drive_download(overwrite = TRUE)
+# download sheets and load data
 
-# read downloaded sheets
-cases <- read.csv("cases.csv",
-                  stringsAsFactors = FALSE) %>%
-  mutate(
-    sex = trimws(sex, "both"),
-    age = trimws(age, "both")
-  )
-mortality <- read.csv("mortality.csv",
+## cases
+temp <- tempfile()
+files %>% filter(name == "cases_timeseries_hr") %>% drive_download(temp, type = "csv")
+cases_cum <- read.csv(paste0(temp, ".csv"), stringsAsFactors = FALSE)
+
+## mortality
+temp <- tempfile()
+files %>% filter(name == "mortality_timeseries_hr") %>% drive_download(temp, type = "csv")
+mortality_cum <- read.csv(paste0(temp, ".csv"), stringsAsFactors = FALSE)
+
+## recovered
+temp <- tempfile()
+files %>% filter(name == "recovered_timeseries_prov") %>% drive_download(temp, type = "csv")
+recovered_cum <- read.csv(paste0(temp, ".csv"), stringsAsFactors = FALSE)
+
+## testing
+temp <- tempfile()
+files %>% filter(name == "testing_timeseries_prov") %>% drive_download(temp, type = "csv")
+testing_cum <- read.csv(paste0(temp, ".csv"), stringsAsFactors = FALSE)
+
+## avaccine
+temp <- tempfile()
+files %>% filter(name == "vaccine_administration_timeseries_prov") %>% drive_download(temp, type = "csv")
+vaccine_administration_cum <- read.csv(paste0(temp, ".csv"), stringsAsFactors = FALSE)
+
+## dvaccine
+temp <- tempfile()
+files %>% filter(name == "vaccine_distribution_timeseries_prov") %>% drive_download(temp, type = "csv")
+vaccine_distribution_cum <- read.csv(paste0(temp, ".csv"), stringsAsFactors = FALSE)
+
+## cvaccine
+temp <- tempfile()
+files %>% filter(name == "vaccine_completion_timeseries_prov") %>% drive_download(temp, type = "csv")
+vaccine_completion_cum <- read.csv(paste0(temp, ".csv"), stringsAsFactors = FALSE)
+
+# convert dates to standard format for manipulation
+convert_dates("cases_cum", "mortality_cum", "recovered_cum", "testing_cum", "vaccine_administration_cum", "vaccine_distribution_cum", "vaccine_completion_cum", date_format_out = "%Y-%m-%d")
+
+# combine data with old data
+
+## cases
+cases_cum <- read.csv("https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/timeseries_hr/cases_timeseries_hr.csv",
                       stringsAsFactors = FALSE) %>%
-  mutate(
-    sex = trimws(sex, "both"),
-    age = trimws(age, "both")
-  )
-cases <- fix_qc_hr(cases)
-mortality <- fix_qc_hr(mortality)
-recovered_cum <- read.csv("recovered_cumulative.csv",
-                          stringsAsFactors = FALSE)
-testing_cum <- read.csv("testing_cumulative.csv",
-                        stringsAsFactors = FALSE)
-vaccine_administration_cum <- read.csv("vaccine_administration_cumulative.csv",
-                                       stringsAsFactors = FALSE)
-vaccine_distribution_cum <- read.csv("vaccine_distribution_cumulative.csv",
-                                     stringsAsFactors = FALSE)
-vaccine_completion_cum <- read.csv("vaccine_completion_cumulative.csv",
-                                   stringsAsFactors = FALSE)
+  mutate(date_report = as.Date(date_report, "%d-%m-%Y")) %>%
+  bind_rows(filter(cases_cum, date_report == update_date)) %>%
+  select(-cases)
+
+## mortality
+mortality_cum <- read.csv("https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/timeseries_hr/mortality_timeseries_hr.csv",
+                      stringsAsFactors = FALSE) %>%
+  mutate(date_death_report = as.Date(date_death_report, "%d-%m-%Y")) %>%
+  bind_rows(filter(mortality_cum, date_death_report == update_date)) %>%
+  select(-deaths)
+
+## recovered
+recovered_cum <- read.csv("https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/timeseries_prov/recovered_timeseries_prov.csv",
+                      stringsAsFactors = FALSE) %>%
+  mutate(date_recovered = as.Date(date_recovered, "%d-%m-%Y")) %>%
+  bind_rows(filter(recovered_cum, date_recovered == update_date)) %>%
+  select(-recovered)
+
+## testing
+testing_cum <- read.csv("https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/timeseries_prov/testing_timeseries_prov.csv",
+                      stringsAsFactors = FALSE) %>%
+  mutate(date_testing = as.Date(date_testing, "%d-%m-%Y")) %>%
+  bind_rows(filter(testing_cum, date_testing == update_date)) %>%
+  select(-testing)
+
+## avaccine
+vaccine_administration_cum <- read.csv("https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/timeseries_prov/vaccine_administration_timeseries_prov.csv",
+                      stringsAsFactors = FALSE) %>%
+  mutate(date_vaccine_administered = as.Date(date_vaccine_administered, "%d-%m-%Y")) %>%
+  bind_rows(filter(vaccine_administration_cum, date_vaccine_administered == update_date)) %>%
+  select(-avaccine)
+
+## dvaccine
+vaccine_distribution_cum <- read.csv("https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/timeseries_prov/vaccine_distribution_timeseries_prov.csv",
+                      stringsAsFactors = FALSE) %>%
+  mutate(date_vaccine_distributed = as.Date(date_vaccine_distributed, "%d-%m-%Y")) %>%
+  bind_rows(filter(vaccine_distribution_cum, date_vaccine_distributed == update_date)) %>%
+  select(-dvaccine)
+
+## cvaccine
+vaccine_completion_cum <- read.csv("https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/timeseries_prov/vaccine_completion_timeseries_prov.csv",
+                      stringsAsFactors = FALSE) %>%
+  mutate(date_vaccine_completed = as.Date(date_vaccine_completed, "%d-%m-%Y")) %>%
+  bind_rows(filter(vaccine_completion_cum, date_vaccine_completed == update_date)) %>%
+  select(-cvaccine)
 
 # load other files
 
@@ -81,69 +137,6 @@ map_prov <- read.csv("other/prov_map.csv",
 map_hr <- read.csv("other/hr_map.csv",
                    stringsAsFactors = FALSE)
 
-## case_source abbreviation table
-cases_case_source <- read.csv("individual_level/cases_extra/cases_case_source.csv",
-                              stringsAsFactors = FALSE,
-                              colClasses = c(
-                                "province" = "character",
-                                "case_source_id" = "integer",
-                                "case_source_short" = "character",
-                                "case_source_full" = "character"
-                              ))
-
-## death_source abbreviation table
-mortality_death_source <- read.csv("individual_level/mortality_extra/mortality_death_source.csv",
-                                   stringsAsFactors = FALSE,
-                                   colClasses = c(
-                                     "province" = "character",
-                                     "death_source_id" = "integer",
-                                     "death_source_short" = "character",
-                                     "death_source_full" = "character"
-                                   ))
-
-## cases: additional_info abbreviation table
-cases_additional_info <- read.csv("individual_level/cases_extra/cases_additional_info.csv",
-                              stringsAsFactors = FALSE,
-                              colClasses = c(
-                                "province" = "character",
-                                "additional_info_id" = "integer",
-                                "additional_info_short" = "character",
-                                "additional_info_full" = "character"
-                              ))
-
-## mortality: additional_info abbreviation table
-mortality_additional_info <- read.csv("individual_level/mortality_extra/mortality_additional_info.csv",
-                                  stringsAsFactors = FALSE,
-                                  colClasses = c(
-                                    "province" = "character",
-                                    "additional_info_id" = "integer",
-                                    "additional_info_short" = "character",
-                                    "additional_info_full" = "character"
-                                  ))
-
-## cases: additional_source abbreviation table
-cases_additional_source <- read.csv("individual_level/cases_extra/cases_additional_source.csv",
-                                  stringsAsFactors = FALSE,
-                                  colClasses = c(
-                                    "province" = "character",
-                                    "additional_source_id" = "integer",
-                                    "additional_source_short" = "character",
-                                    "additional_source_full" = "character"
-                                  ))
-
-## mortality: additional_source abbreviation table
-mortality_additional_source <- read.csv("individual_level/mortality_extra/mortality_additional_source.csv",
-                                    stringsAsFactors = FALSE,
-                                    colClasses = c(
-                                      "province" = "character",
-                                      "additional_source_id" = "integer",
-                                      "additional_source_short" = "character",
-                                      "additional_source_full" = "character"
-                                    ))
-
-# convert dates to standard format for manipulation
-convert_dates("cases", "mortality", "recovered_cum", "testing_cum", "vaccine_administration_cum", "vaccine_distribution_cum", "vaccine_completion_cum", date_format_out = "%Y-%m-%d")
-
 # define parameters
 
 ## provinces and health regions
@@ -151,8 +144,8 @@ provs <- map_prov$province
 hrs <- map_hr$health_region
 
 ## min dates
-date_min_cases <- min(cases$date_report)
-date_min_mortality <- min(mortality$date_death_report)
+date_min_cases <- min(cases_cum$date_report)
+date_min_mortality <- min(mortality_cum$date_death_report)
 date_min_recovered <- min(recovered_cum$date_recovered)
 date_min_testing <- min(testing_cum$date_testing)
 date_min_vaccine_administration <- min(vaccine_administration_cum$date_vaccine_administered)
@@ -162,14 +155,14 @@ date_min_vaccine_completion <- min(vaccine_completion_cum$date_vaccine_completed
 # create time series
 
 ## cases time series
-cases_ts_hr <- create_ts(cases, "cases", "hr", date_min_cases)
-cases_ts_prov <- create_ts(cases, "cases", "prov", date_min_cases)
-cases_ts_canada <- create_ts(cases, "cases", "canada", date_min_cases)
+cases_ts_hr <- create_ts(cases_cum, "cases", "hr", date_min_cases)
+cases_ts_prov <- create_ts(cases_cum, "cases", "prov", date_min_cases)
+cases_ts_canada <- create_ts(cases_cum, "cases", "canada", date_min_cases)
 
 ## mortality time series
-mortality_ts_hr <- create_ts(mortality, "mortality", "hr", date_min_mortality)
-mortality_ts_prov <- create_ts(mortality, "mortality", "prov", date_min_mortality)
-mortality_ts_canada <- create_ts(mortality, "mortality", "canada", date_min_mortality)
+mortality_ts_hr <- create_ts(mortality_cum, "mortality", "hr", date_min_mortality)
+mortality_ts_prov <- create_ts(mortality_cum, "mortality", "prov", date_min_mortality)
+mortality_ts_canada <- create_ts(mortality_cum, "mortality", "canada", date_min_mortality)
 
 ## recovered time series
 recovered_ts_prov <- create_ts(recovered_cum, "recovered", "prov", date_min_recovered)
@@ -195,52 +188,14 @@ vaccine_distribution_ts_canada <- create_ts(vaccine_distribution_cum, "vaccine_d
 vaccine_completion_ts_prov <- create_ts(vaccine_completion_cum, "vaccine_completion", "prov", date_min_vaccine_completion)
 vaccine_completion_ts_canada <- create_ts(vaccine_completion_cum, "vaccine_completion", "canada", date_min_vaccine_completion)
 
-# abbreviate "case_source" (cases.csv) and "death_source" (mortality.csv)
-abbreviate_source(cases, cases_case_source, "case_source")
-abbreviate_source(mortality, mortality_death_source, "death_source")
-
-# abbreviate "additional_info" (cases.csv) and "additional_info" (mortality.csv)
-abbreviate_other(cases, cases_additional_info, "additional_info")
-abbreviate_other(mortality, mortality_additional_info, "additional_info")
-
-# abbreviate "additional_source" (cases.csv) and "additional_source" (mortality.csv)
-abbreviate_other(cases, cases_additional_source, "additional_source")
-abbreviate_other(mortality, mortality_additional_source, "additional_source")
-
-# split individual-level data for writing
-cases_2020 <- cases %>%
-  filter(date_report >= as.Date("2020-01-01") & date_report <= as.Date("2020-12-31"))
-cases_2021_1 <- cases %>%
-  filter(date_report >= as.Date("2021-01-01") & date_report <= as.Date("2021-04-30"))
-cases_2021_2 <- cases %>%
-  filter(date_report >= as.Date("2021-05-01") & date_report <= as.Date("2021-12-31"))
-mortality_2020 <- mortality %>%
-  filter(date_death_report >= as.Date("2020-01-01") & date_death_report <= as.Date("2020-12-31"))
-mortality_2021 <- mortality %>%
-  filter(date_death_report >= as.Date("2021-01-01") & date_death_report <= as.Date("2021-12-31"))
-
 # convert dates to non-standard date format for writing
-convert_dates("cases_2020", "cases_2021_1", "cases_2021_2", "mortality_2020", "mortality_2021",
-              "cases_ts_canada", "mortality_ts_canada", "recovered_ts_canada", "testing_ts_canada", "active_ts_canada",
+convert_dates("cases_ts_canada", "mortality_ts_canada", "recovered_ts_canada", "testing_ts_canada", "active_ts_canada",
               "cases_ts_prov", "mortality_ts_prov", "recovered_ts_prov", "testing_ts_prov", "active_ts_prov",
               "cases_ts_hr", "mortality_ts_hr",
               "vaccine_administration_ts_prov", "vaccine_administration_ts_canada",
               "vaccine_distribution_ts_prov", "vaccine_distribution_ts_canada",
               "vaccine_completion_ts_prov", "vaccine_completion_ts_canada",
               date_format_out = "%d-%m-%Y")
-
-# write individual-level files
-write.csv(cases_2020, "individual_level/cases_2020.csv", row.names = FALSE)
-write.csv(cases_2021_1, "individual_level/cases_2021_1.csv", row.names = FALSE)
-write.csv(cases_2021_2, "individual_level/cases_2021_2.csv", row.names = FALSE)
-write.csv(mortality_2020, "individual_level/mortality_2020.csv", row.names = FALSE)
-write.csv(mortality_2021, "individual_level/mortality_2021.csv", row.names = FALSE)
-write.csv(cases_case_source, "individual_level/cases_extra/cases_case_source.csv", row.names = FALSE)
-write.csv(cases_additional_info, "individual_level/cases_extra/cases_additional_info.csv", row.names = FALSE)
-write.csv(cases_additional_source, "individual_level/cases_extra/cases_additional_source.csv", row.names = FALSE)
-write.csv(mortality_death_source, "individual_level/mortality_extra/mortality_death_source.csv", row.names = FALSE)
-write.csv(mortality_additional_info, "individual_level/mortality_extra/mortality_additional_info.csv", row.names = FALSE)
-write.csv(mortality_additional_source, "individual_level/mortality_extra/mortality_additional_source.csv", row.names = FALSE)
 
 # write time series files
 write.csv(cases_ts_prov, "timeseries_prov/cases_timeseries_prov.csv", row.names = FALSE)
