@@ -43,10 +43,6 @@ The full dataset may be downloaded in CSV format from this repository. The full 
 ### Date and time of dataset update
 * **Date and time of update**: update_time.txt
 
-### Individual-level Data
-* **Cases**: individual_level/cases_2020.csv and individual_level/cases_2021.csv
-* **Mortality**: individual_level/mortality_2020.csv and individual_level/mortality_2021.csv
-
 ### Health Region-level Time Series
 * **Daily and cumulative cases**: timeseries_hr/cases_timeseries_hr.csv
 * **Daily and cumulative mortality**: timeseries_hr/mortality_timeseries_hr.csv
@@ -80,13 +76,15 @@ The full dataset may be downloaded in CSV format from this repository. The full 
 * **Correspondence between ages given in the individual-level case data and age groups displayed on the data dashboard**: other/age_map_cases.csv
 * **Correspondence between ages given in the individual-level mortality data and age groups displayed on the data dashboard**: other/age_map_mortality.csv
 
-### Other Files: Individual-level Data - Extra columns
-* **Cases: case source**: individual_level/cases_extra/cases_case_source.csv (join with cases.csv by joining case_source with case_source_short)
-* **Cases: additional info**: individual_level/cases_extra/cases_additional_info.csv (join with cases.csv by joining additional_info with additional_info_short)
-* **Cases: additional source**: individual_level/cases_extra/cases_additional_source.csv (join with cases.csv by joining additional_source with additional_source_short)
-* **Mortality: death source**: individual_level/mortality_extra/mortality_death_source.csv (join with mortality.csv by joining death_source with death_source_short)
-* **Mortality: additional info**: individual_level/mortality_extra/mortality_additional_info.csv (join with mortality.csv by joining additional_info with additional_info_short)
-* **Mortality: additional source**: individual_level/mortality_extra/mortality_additional_source.csv (join with mortality.csv by joining additional_source with additional_source_short)
+### Retired datasets
+* **Cases**: archive/individual_level/cases_2020.csv and individual_level/cases_2021.csv
+* **Mortality**: archive/individual_level/mortality_2020.csv and individual_level/mortality_2021.csv
+* **Cases: case source**: archive/individual_level/cases_extra/cases_case_source.csv (join with cases.csv by joining case_source with case_source_short)
+* **Cases: additional info**: archive/individual_level/cases_extra/cases_additional_info.csv (join with cases.csv by joining additional_info with additional_info_short)
+* **Cases: additional source**: archive/individual_level/cases_extra/cases_additional_source.csv (join with cases.csv by joining additional_source with additional_source_short)
+* **Mortality: death source**: archive/individual_level/mortality_extra/mortality_death_source.csv (join with mortality.csv by joining death_source with death_source_short)
+* **Mortality: additional info**: archive/individual_level/mortality_extra/mortality_additional_info.csv (join with mortality.csv by joining additional_info with additional_info_short)
+* **Mortality: additional source**: archive/individual_level/mortality_extra/mortality_additional_source.csv (join with mortality.csv by joining additional_source with additional_source_short)
 
 ### Scripts
 * **Data update (script used to prepare the data update each day)**: scripts/data_update.R
