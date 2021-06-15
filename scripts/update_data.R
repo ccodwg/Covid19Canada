@@ -18,7 +18,6 @@ if (file.exists("email.txt")) {
   drive_auth()
 }
 
-
 # load libraries
 library(dplyr) # data manipulation
 library(tidyr) # data manipulation
@@ -32,6 +31,9 @@ update_time <- with_tz(Sys.time(), tzone = "America/Toronto") %>%
   format.Date("%Y-%m-%d %H:%M %Z")
 update_date <- as.Date(update_time)
 cat(paste0(update_time, "\n"), file = "update_time.txt") # write update_time
+
+# min date: date when the manual time series begins
+min_date <- as.Date("2021-05-31")
 
 # list files in Google Drive data folder
 files <- drive_ls("Provincial_List/Automation/Manual TS")
@@ -82,49 +84,57 @@ convert_dates("cases_cum", "mortality_cum", "recovered_cum", "testing_cum", "vac
 cases_cum <- read.csv("https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/timeseries_hr/cases_timeseries_hr.csv",
                       stringsAsFactors = FALSE) %>%
   mutate(date_report = as.Date(date_report, "%d-%m-%Y")) %>%
-  bind_rows(filter(cases_cum, date_report == update_date)) %>%
+  filter(date_report < min_date) %>%
+  bind_rows(filter(cases_cum, date_report >= min_date & date_report <= update_date)) %>%
   select(-cases)
 
 ## mortality
 mortality_cum <- read.csv("https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/timeseries_hr/mortality_timeseries_hr.csv",
                       stringsAsFactors = FALSE) %>%
   mutate(date_death_report = as.Date(date_death_report, "%d-%m-%Y")) %>%
-  bind_rows(filter(mortality_cum, date_death_report == update_date)) %>%
+  filter(date_death_report < min_date) %>%
+  bind_rows(filter(mortality_cum, date_death_report >= min_date & date_death_report <= update_date)) %>%
   select(-deaths)
 
 ## recovered
 recovered_cum <- read.csv("https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/timeseries_prov/recovered_timeseries_prov.csv",
                       stringsAsFactors = FALSE) %>%
   mutate(date_recovered = as.Date(date_recovered, "%d-%m-%Y")) %>%
-  bind_rows(filter(recovered_cum, date_recovered == update_date)) %>%
+  filter(date_recovered < min_date) %>%
+  bind_rows(filter(recovered_cum, date_recovered >= min_date & date_recovered <= update_date)) %>%
   select(-recovered)
 
 ## testing
 testing_cum <- read.csv("https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/timeseries_prov/testing_timeseries_prov.csv",
                       stringsAsFactors = FALSE) %>%
   mutate(date_testing = as.Date(date_testing, "%d-%m-%Y")) %>%
-  bind_rows(filter(testing_cum, date_testing == update_date)) %>%
-  select(-testing)
+  filter(date_testing < min_date) %>%
+  bind_rows(filter(testing_cum, date_testing >= min_date & date_testing <= update_date)) %>%
+  select(-testing) %>%
+  replace_na(list(testing_info = ""))
 
 ## avaccine
 vaccine_administration_cum <- read.csv("https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/timeseries_prov/vaccine_administration_timeseries_prov.csv",
                       stringsAsFactors = FALSE) %>%
   mutate(date_vaccine_administered = as.Date(date_vaccine_administered, "%d-%m-%Y")) %>%
-  bind_rows(filter(vaccine_administration_cum, date_vaccine_administered == update_date)) %>%
+  filter(date_vaccine_administered < min_date) %>%
+  bind_rows(filter(vaccine_administration_cum, date_vaccine_administered >= min_date & date_vaccine_administered <= update_date)) %>%
   select(-avaccine)
 
 ## dvaccine
 vaccine_distribution_cum <- read.csv("https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/timeseries_prov/vaccine_distribution_timeseries_prov.csv",
                       stringsAsFactors = FALSE) %>%
   mutate(date_vaccine_distributed = as.Date(date_vaccine_distributed, "%d-%m-%Y")) %>%
-  bind_rows(filter(vaccine_distribution_cum, date_vaccine_distributed == update_date)) %>%
+  filter(date_vaccine_distributed < min_date) %>%
+  bind_rows(filter(vaccine_distribution_cum, date_vaccine_distributed >= min_date & date_vaccine_distributed <= update_date)) %>%
   select(-dvaccine)
 
 ## cvaccine
 vaccine_completion_cum <- read.csv("https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/timeseries_prov/vaccine_completion_timeseries_prov.csv",
                       stringsAsFactors = FALSE) %>%
   mutate(date_vaccine_completed = as.Date(date_vaccine_completed, "%d-%m-%Y")) %>%
-  bind_rows(filter(vaccine_completion_cum, date_vaccine_completed == update_date)) %>%
+  filter(date_vaccine_completed< min_date) %>%
+  bind_rows(filter(vaccine_completion_cum, date_vaccine_completed >= min_date & date_vaccine_completed <= update_date)) %>%
   select(-cvaccine)
 
 # load other files
