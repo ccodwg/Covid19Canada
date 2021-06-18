@@ -1,6 +1,17 @@
 # Functions for: COVID-19 Canada Open Data Working Group Data Update Script #
 # Author: Jean-Paul R. Soucy #
 
+# define data downloading functions
+
+## quickly load Google Sheets data
+sheets_load <- function(files, sheet) {
+  temp <- tempfile()
+  files %>%
+    filter(name == sheet) %>%
+    drive_download(temp, type = "csv")
+  read.csv(paste0(temp, ".csv"), stringsAsFactors = FALSE)
+}
+
 # define data processing functions
 
 ## convert dates dates between %Y-%m-%d format (for data manipulation) and %d-%m-%Y format (for writing)

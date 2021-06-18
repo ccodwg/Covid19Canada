@@ -41,39 +41,25 @@ files <- drive_ls("Provincial_List/Automation/Manual TS")
 # download sheets and load data
 
 ## cases
-temp <- tempfile()
-files %>% filter(name == "cases_timeseries_hr") %>% drive_download(temp, type = "csv")
-cases_cum <- read.csv(paste0(temp, ".csv"), stringsAsFactors = FALSE)
+cases_cum <- sheets_load(files, "cases_timeseries_hr")
 
 ## mortality
-temp <- tempfile()
-files %>% filter(name == "mortality_timeseries_hr") %>% drive_download(temp, type = "csv")
-mortality_cum <- read.csv(paste0(temp, ".csv"), stringsAsFactors = FALSE)
+mortality_cum <- sheets_load(files, "mortality_timeseries_hr")
 
 ## recovered
-temp <- tempfile()
-files %>% filter(name == "recovered_timeseries_prov") %>% drive_download(temp, type = "csv")
-recovered_cum <- read.csv(paste0(temp, ".csv"), stringsAsFactors = FALSE)
+recovered_cum <- sheets_load(files, "recovered_timeseries_prov")
 
 ## testing
-temp <- tempfile()
-files %>% filter(name == "testing_timeseries_prov") %>% drive_download(temp, type = "csv")
-testing_cum <- read.csv(paste0(temp, ".csv"), stringsAsFactors = FALSE)
+testing_cum <- sheets_load(files, "testing_timeseries_prov")
 
 ## avaccine
-temp <- tempfile()
-files %>% filter(name == "vaccine_administration_timeseries_prov") %>% drive_download(temp, type = "csv")
-vaccine_administration_cum <- read.csv(paste0(temp, ".csv"), stringsAsFactors = FALSE)
+vaccine_administration_cum <- sheets_load(files, "vaccine_administration_timeseries_prov")
 
 ## dvaccine
-temp <- tempfile()
-files %>% filter(name == "vaccine_distribution_timeseries_prov") %>% drive_download(temp, type = "csv")
-vaccine_distribution_cum <- read.csv(paste0(temp, ".csv"), stringsAsFactors = FALSE)
+vaccine_distribution_cum <- sheets_load(files, "vaccine_distribution_timeseries_prov")
 
 ## cvaccine
-temp <- tempfile()
-files %>% filter(name == "vaccine_completion_timeseries_prov") %>% drive_download(temp, type = "csv")
-vaccine_completion_cum <- read.csv(paste0(temp, ".csv"), stringsAsFactors = FALSE)
+vaccine_completion_cum <- sheets_load(files, "vaccine_completion_timeseries_prov")
 
 # convert dates to standard format for manipulation
 convert_dates("cases_cum", "mortality_cum", "recovered_cum", "testing_cum", "vaccine_administration_cum", "vaccine_distribution_cum", "vaccine_completion_cum", date_format_out = "%Y-%m-%d")
