@@ -4,12 +4,22 @@
 # define data downloading functions
 
 ## quickly load Google Sheets data
-sheets_load <- function(files, sheet) {
-  temp <- tempfile()
-  files %>%
-    filter(name == sheet) %>%
-    drive_download(temp, type = "csv")
-  read.csv(paste0(temp, ".csv"), stringsAsFactors = FALSE)
+sheets_load <- function(files, file, sheet = NULL) {
+  id <- files %>%
+    filter(name == file) %>%
+    pull(id)
+  if (!is.null(sheet)) {
+    read_sheet(
+      ss = id,
+      sheet = sheet,
+      col_types = "c" # don't mangle dates
+    )
+  } else {
+    read_sheet(
+      ss = id,
+      col_types = "c" # don't mangle dates
+    )
+  }
 }
 
 # define data processing functions
@@ -42,6 +52,22 @@ convert_dates <- function(..., date_format_out = c("%Y-%m-%d", "%d-%m-%Y")) {
              envir = parent.frame()
       )
     }
+  }
+}
+
+## convert value columns to numeric
+convert_values <- function(...) {
+  
+  ### get object names as a list
+  inputs <- unlist(list(...))
+  
+  ### convert values and write to global environment
+  for (i in inputs) {
+    assign(i, get(i, envir = parent.frame()) %>%
+             mutate(
+               across(!matches("^date_|_week$|province|health_region|testing_info"), as.numeric)),
+           envir = parent.frame()
+    )
   }
 }
 

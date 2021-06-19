@@ -9,13 +9,16 @@
 # Authentication: You must authenticate your Google account before running the rest of the script. You may be asked to give "Tidyverse API Packages" read/write access to your Google account.
 
 # authenticate your Google account before running the rest of the script
-library(googledrive) # interface with Google drive
+library(googledrive) # interface with Google Drive
+library(googlesheets4) # read from Google Sheets
 if (file.exists("email.txt")) {
   # automatically read account name from email.txt, if present
   drive_auth(readLines("email.txt"))
+  gs4_auth(readLines("email.txt"))
 } else {
   # otherwise, prompt for authentication
   drive_auth()
+  gs4_auth()
 }
 
 # load libraries
@@ -63,6 +66,9 @@ vaccine_completion_cum <- sheets_load(files, "vaccine_completion_timeseries_prov
 
 # convert dates to standard format for manipulation
 convert_dates("cases_cum", "mortality_cum", "recovered_cum", "testing_cum", "vaccine_administration_cum", "vaccine_distribution_cum", "vaccine_completion_cum", date_format_out = "%Y-%m-%d")
+
+# convert value columns to numeric
+convert_values("cases_cum", "mortality_cum", "recovered_cum", "testing_cum", "vaccine_administration_cum", "vaccine_distribution_cum", "vaccine_completion_cum")
 
 # combine data with old data
 
