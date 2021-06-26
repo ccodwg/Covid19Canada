@@ -6,7 +6,8 @@
 # Note: This script assumes the working directory is set to the root directory of the project
 # This is most easily achieved by using the provided Covid19Canada.Rproj in RStudio
 
-# Authentication: You must authenticate your Google account before running the rest of the script. You may be asked to give "Tidyverse API Packages" read/write access to your Google account.
+# Authentication: You must authenticate your Google account before running the rest of the script.
+# You may be asked to give "Tidyverse API Packages" read/write access to your Google account.
 
 # authenticate your Google account before running the rest of the script
 library(googledrive) # interface with Google Drive
@@ -35,34 +36,101 @@ update_time <- with_tz(Sys.time(), tzone = "America/Toronto") %>%
 update_date <- as.Date(update_time)
 cat(paste0(update_time, "\n"), file = "update_time.txt") # write update_time
 
-# min date: date when the manual time series begins
+# min date: date when the new time series sheet begins
 min_date <- as.Date("2021-05-31")
 
 # list files in Google Drive data folder
-files <- drive_ls("Provincial_List/Automation/Manual TS")
+files <- drive_ls("Provincial_List/Automation")
 
 # download sheets and load data
 
 ## cases
-cases_cum <- sheets_load(files, "cases_timeseries_hr")
+cases_cum <- sheets_load(files, "ts", "cases_timeseries_hr") %>%
+  pivot_longer(
+    cols = c(-province, -health_region),
+    names_to = "date_report",
+    values_to = "cumulative_cases") %>%
+    filter(!is.na(cumulative_cases))
 
 ## mortality
-mortality_cum <- sheets_load(files, "mortality_timeseries_hr")
+mortality_cum <- sheets_load(files, "ts", "mortality_timeseries_hr") %>%
+  pivot_longer(
+    cols = c(-province, -health_region),
+    names_to = "date_death_report",
+    values_to = "cumulative_deaths") %>%
+  filter(!is.na(cumulative_deaths))
 
 ## recovered
-recovered_cum <- sheets_load(files, "recovered_timeseries_prov")
+recovered_cum <- sheets_load(files, "ts", "recovered_timeseries_prov") %>%
+  pivot_longer(
+    cols = c(-province),
+    names_to = "date_recovered",
+    values_to = "cumulative_recovered") %>%
+  filter(!is.na(cumulative_recovered))
 
 ## testing
-testing_cum <- sheets_load(files, "testing_timeseries_prov")
-
-## avaccine
-vaccine_administration_cum <- sheets_load(files, "vaccine_administration_timeseries_prov")
+testing_cum <- sheets_load(files, "ts", "testing_timeseries_prov") %>%
+  pivot_longer(
+    cols = c(-province),
+    names_to = "date_testing",
+    values_to = "cumulative_testing") %>%
+  filter(!is.na(cumulative_testing))
 
 ## dvaccine
-vaccine_distribution_cum <- sheets_load(files, "vaccine_distribution_timeseries_prov")
+vaccine_distribution_cum <- sheets_load(files, "ts", "vaccine_distribution_timeseries_prov") %>%
+  pivot_longer(
+    cols = c(-province),
+    names_to = "date_vaccine_distributed",
+    values_to = "cumulative_dvaccine") %>%
+  filter(!is.na(cumulative_dvaccine))
+
+## avaccine
+vaccine_administration_cum <- sheets_load(files, "ts", "vaccine_administration_timeseries_prov") %>%
+  pivot_longer(
+    cols = c(-province),
+    names_to = "date_vaccine_administered",
+    values_to = "cumulative_avaccine") %>%
+  filter(!is.na(cumulative_avaccine))
 
 ## cvaccine
-vaccine_completion_cum <- sheets_load(files, "vaccine_completion_timeseries_prov")
+vaccine_completion_cum <- sheets_load(files, "ts", "vaccine_completion_timeseries_prov") %>%
+  pivot_longer(
+    cols = c(-province),
+    names_to = "date_vaccine_completed",
+    values_to = "cumulative_cvaccine") %>%
+  filter(!is.na(cumulative_cvaccine))
+
+# combine with manual data
+
+## cases
+cases_man <- sheets_load(files, "ts_manual", "cases_timeseries_hr") %>%
+  pivot_longer(
+    cols = c(-province, -health_region),
+    names_to = "date_report",
+    values_to = "cumulative_cases") %>%
+  filter(date_report != "18-06-2021") %>%
+  filter(!is.na(cumulative_cases))
+cases_cum <- bind_rows(cases_cum, cases_man)
+
+## mortality
+mortality_man <- sheets_load(files, "ts_manual", "mortality_timeseries_hr") %>%
+  pivot_longer(
+    cols = c(-province, -health_region),
+    names_to = "date_death_report",
+    values_to = "cumulative_deaths") %>%
+  filter(date_death_report != "18-06-2021") %>%
+  filter(!is.na(cumulative_deaths))
+mortality_cum <- bind_rows(mortality_cum, mortality_man)
+
+## cvaccine
+vaccine_completion_man <- sheets_load(files, "ts_manual", "vaccine_completion_timeseries_prov") %>%
+  pivot_longer(
+    cols = c(-province),
+    names_to = "date_vaccine_completed",
+    values_to = "cumulative_cvaccine") %>%
+  filter(date_vaccine_completed != "18-06-2021") %>%
+  filter(!is.na(cumulative_cvaccine))
+vaccine_completion_cum <- bind_rows(vaccine_completion_cum, vaccine_completion_man)
 
 # convert dates to standard format for manipulation
 convert_dates("cases_cum", "mortality_cum", "recovered_cum", "testing_cum", "vaccine_administration_cum", "vaccine_distribution_cum", "vaccine_completion_cum", date_format_out = "%Y-%m-%d")
