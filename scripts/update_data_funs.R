@@ -65,7 +65,7 @@ convert_values <- function(...) {
   for (i in inputs) {
     assign(i, get(i, envir = parent.frame()) %>%
              mutate(
-               across(!matches("^date_|_week$|province|health_region|testing_info"), as.numeric)),
+               across(!matches("^date_|_week$|province|health_region"), as.numeric)),
            envir = parent.frame()
     )
   }
@@ -101,12 +101,6 @@ create_ts <- function(dat,
     "vaccine_distribution" = {var_date <- "date_vaccine_distributed"; var_val <- "dvaccine"; var_val_cum <- "cumulative_dvaccine"},
     "vaccine_completion" = {var_date <- "date_vaccine_completed"; var_val <- "cvaccine"; var_val_cum <- "cumulative_cvaccine"}
   )
-  
-  ### keep extra info for later joining (if applicable)
-  if (stat == "testing" & loc %in% c("prov", "canada")) {
-    dat_testing_info <- dat %>%
-      select(province, date_testing, testing_info)
-  }
   
   ### build time series
   if (stat %in% c("cases", "mortality")) {
@@ -201,60 +195,23 @@ create_ts <- function(dat,
       ### health region time series
       stop("Recovered/testing/vaccine health region time series not currently supported.")
     } else if (loc == "prov") {
-      ### provincial time series
-      if (stat == "testing") {
-        ### add testing_info column
-        return(
-          dat %>%
-            left_join(
-              dat_testing_info,
-              by = c("province", "date_testing")
-            ) %>%
-            select(province, date_testing, testing, cumulative_testing, testing_info)
+      return(
+        dat %>%
+          select(province, !!sym(var_date), !!sym(var_val), !!sym(var_val_cum))
         )
-      } else {
-        return(
-          dat %>%
-            select(province, !!sym(var_date), !!sym(var_val), !!sym(var_val_cum))
-        )
-      }
     } else if (loc == "canada") {
       ### Canadian time series
-      if (stat == "testing") {
-        ### add testing_info column
-        return(
-          dat %>%
-            select(province, date_testing, testing, cumulative_testing) %>%
-            mutate(province = "Canada") %>%
-            group_by(province, date_testing) %>%
-            summarize(
-              testing = sum(testing),
-              cumulative_testing = sum(cumulative_testing),
-              .groups = "drop"
-            ) %>%
-            left_join(
-              dat_testing_info %>%
-                select(date_testing, testing_info) %>%
-                filter(testing_info != "") %>%
-                distinct,
-              by = "date_testing"
-            ) %>%
-            replace_na(list(testing_info = "")) %>%
-            select(province, date_testing, testing, cumulative_testing, testing_info)
-        )
-      } else {
-        return(
-          dat %>%
-            select(province, !!sym(var_date), !!sym(var_val), !!sym(var_val_cum)) %>%
-            mutate(province = "Canada") %>%
-            group_by(province, !!sym(var_date)) %>%
-            summarize(
-              !!sym(var_val) := sum(!!sym(var_val)),
-              !!sym(var_val_cum) := sum(!!sym(var_val_cum)),
-              .groups = "drop"
+      return(
+        dat %>%
+          select(province, !!sym(var_date), !!sym(var_val), !!sym(var_val_cum)) %>%
+          mutate(province = "Canada") %>%
+          group_by(province, !!sym(var_date)) %>%
+          summarize(
+            !!sym(var_val) := sum(!!sym(var_val)),
+            !!sym(var_val_cum) := sum(!!sym(var_val_cum)),
+            .groups = "drop"
             )
-        )
-      }
+      )
     }
   }
 }
