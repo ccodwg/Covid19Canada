@@ -184,17 +184,21 @@ testing_ts_canada <- create_ts(testing_cum, "testing", "canada", date_min_testin
 
 ## add legacy "testing_info" column
 testing_ts_prov <- testing_ts_prov %>%
-  cbind(
+  left_join(
     read.csv("https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/timeseries_prov/testing_timeseries_prov.csv", stringsAsFactors = FALSE) %>%
-      pull(testing_info) %>%
-      {c(., rep("", times = nrow(testing_ts_prov) - length(.)))} %>%
-      data.frame(testing_info = .))
+      select(province, date_testing, testing_info) %>%
+      mutate(date_testing = as.Date(date_testing, "%d-%m-%Y")),
+    by = c("province", "date_testing")
+  ) %>%
+  replace_na(list(testing_info = ""))
 testing_ts_canada <- testing_ts_canada %>%
-  cbind(
+  left_join(
     read.csv("https://raw.githubusercontent.com/ccodwg/Covid19Canada/master/timeseries_canada/testing_timeseries_canada.csv", stringsAsFactors = FALSE) %>%
-      pull(testing_info) %>%
-      {c(., rep("", times = nrow(testing_ts_canada) - length(.)))} %>%
-      data.frame(testing_info = .))
+      select(province, date_testing, testing_info) %>%
+      mutate(date_testing = as.Date(date_testing, "%d-%m-%Y")),
+    by = c("province", "date_testing")
+  ) %>%
+  replace_na(list(testing_info = ""))
 
 ## active cases time series
 active_ts_prov <- create_ts_active(cases_ts_prov, recovered_ts_prov, mortality_ts_prov, "prov")
