@@ -1,6 +1,8 @@
 # Epidemiological Data from the COVID-19 Outbreak in Canada
 The [**COVID-19 Canada Open Data Working Group**](https://opencovid.ca/) is collecting publicly available information on confirmed and presumptive positive cases during the ongoing COVID-19 outbreak in Canada. Data are entered in a spreadsheet with each line representing a unique case, including age, sex, health region location, and history of travel where available. Sources are included as a reference for each entry. All data are exclusively collected from publicly available sources including government reports and news media. We aim to continue making updates daily.
 
+Our datasets are available in CSV format from this GitHub repository. Actively updated datasets are also available for download from [Google Drive](https://drive.google.com/drive/folders/1He6mPAbolgh7jtsq1zu6LpLQKz34n_nP).
+
 # Methodology, Data Notes & Dashboard 
 Detailed information about our [data collection methodology](https://opencovid.ca/work/dataset/) and [sources](https://opencovid.ca/work/data-sources/), answers to [frequently asked data questions](https://opencovid.ca/work/data-faq/), specific data notes, and more information about the **COVID-19 Canada Open Data Working Group** is available on our [website](https://opencovid.ca/).
 
