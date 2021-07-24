@@ -35,18 +35,6 @@ folder_ids <- c(
   "1qUL_FMYSApFotrJ_75XlLaET9ilEdmxN"
 )
 
-# define functions
-delete_files_in_dir <- function(id) {
-  files <- drive_ls(as_id(id)) %>%
-    filter(!name %in% folders)
-  drive_rm(files)
-}
-
-# remove existing files (except those in the root directory)
-for (i in c(folder_ids)) {
-  delete_files_in_dir(i)
-}
-
 # download GitHub repository and list relevant files
 temp <- tempfile()
 tempd <- tempdir()
