@@ -42,4 +42,4 @@ ts_prov()
 ts_hr()
 
 ## report zeros and negatives in time series
-report_zeros_negatives(report_non_zero = FALSE, report_hr = FALSE)
+report_zeros_negatives(report_positive = FALSE, report_hr = FALSE)

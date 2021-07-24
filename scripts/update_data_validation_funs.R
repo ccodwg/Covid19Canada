@@ -65,10 +65,10 @@ print_summary_today <- function() {
   cat("Recovered today:", recovered_timeseries_canada %>% filter(date_recovered == update_date) %>% pull(recovered), fill = TRUE)
   cat("Total testing:", testing_timeseries_canada %>% filter(date_testing == update_date) %>% pull(cumulative_testing), fill = TRUE)
   cat("Testing today:", testing_timeseries_canada %>% filter(date_testing == update_date) %>% pull(testing), fill = TRUE)
-  cat("Vaccine administration today:", vaccine_administration_timeseries_canada %>% filter(date_vaccine_administered == update_date) %>% pull(avaccine), fill = TRUE)
-  cat("Total vaccine administration:", vaccine_administration_timeseries_canada %>% filter(date_vaccine_administered == update_date) %>% pull(cumulative_avaccine), fill = TRUE)
   cat("Vaccine distribution today:", vaccine_distribution_timeseries_canada %>% filter(date_vaccine_distributed == update_date) %>% pull(dvaccine), fill = TRUE)
   cat("Total vaccine distribution:", vaccine_distribution_timeseries_canada %>% filter(date_vaccine_distributed == update_date) %>% pull(cumulative_dvaccine), fill = TRUE)
+  cat("Vaccine administration today:", vaccine_administration_timeseries_canada %>% filter(date_vaccine_administered == update_date) %>% pull(avaccine), fill = TRUE)
+  cat("Total vaccine administration:", vaccine_administration_timeseries_canada %>% filter(date_vaccine_administered == update_date) %>% pull(cumulative_avaccine), fill = TRUE)
   cat("Vaccine completion today:", vaccine_completion_timeseries_canada %>% filter(date_vaccine_completed == update_date) %>% pull(cvaccine), fill = TRUE)
   cat("Total vaccine completion:", vaccine_completion_timeseries_canada %>% filter(date_vaccine_completed == update_date) %>% pull(cumulative_cvaccine), fill = TRUE)
 }
@@ -189,7 +189,7 @@ ts_hr <- function() {
 }
 
 # report zeros and negatives in time series
-report_zeros_negatives <- function(report_non_zero = FALSE, report_hr = FALSE) {
+report_zeros_negatives <- function(report_positive = FALSE, report_hr = FALSE) {
   
   cat("\nReporting zeros and negatives in time series...\n", fill = TRUE)
   x <- "date_report"
@@ -222,7 +222,7 @@ report_zeros_negatives <- function(report_non_zero = FALSE, report_hr = FALSE) {
     cat(bgRed("Provinces reporting negative cases today:", paste(provs_negative, collapse = ", "), "\n"), fill = TRUE) 
   }
   cat(cyan("Provinces reporting 0 cases today:", paste(provs_0, collapse = ", "), "\n"), fill = TRUE)
-  if (report_non_zero) {
+  if (report_positive) {
     cat(green("Provinces reporting > 0 cases today:", paste0(provs_non_0, collapse = ", "), "\n"), fill = TRUE) 
   }
   if (report_hr) {
@@ -242,7 +242,7 @@ report_zeros_negatives <- function(report_non_zero = FALSE, report_hr = FALSE) {
     cat(bgRed("Provinces reporting negative deaths today:", paste(provs_negative, collapse = ", "), "\n"), fill = TRUE) 
   }
   cat(cyan("Provinces reporting 0 deaths today:", paste(provs_0, collapse = ", "), "\n"), fill = TRUE)
-  if (report_non_zero) {
+  if (report_positive) {
     cat(green("Provinces reporting > 0 deaths today:", paste0(provs_non_0, collapse = ", "), "\n"), fill = TRUE)
   }
   if (report_hr) {
@@ -262,7 +262,7 @@ report_zeros_negatives <- function(report_non_zero = FALSE, report_hr = FALSE) {
     cat(bgRed("Provinces reporting negative recovered today:", paste(provs_negative, collapse = ", "), "\n"), fill = TRUE) 
   }
   cat(cyan("Provinces reporting 0 recovered today:", paste(provs_0, collapse = ", "), "\n"), fill = TRUE)
-  if (report_non_zero) {
+  if (report_positive) {
     cat(green("Provinces reporting > 0 recovered today:", paste0(provs_non_0, collapse = ", "), "\n"), fill = TRUE)
   }
   
@@ -274,8 +274,44 @@ report_zeros_negatives <- function(report_non_zero = FALSE, report_hr = FALSE) {
     cat(bgRed("Provinces reporting negative testing today:", paste(provs_negative, collapse = ", "), "\n"), fill = TRUE) 
   }
   cat(cyan("Provinces reporting 0 testing today:", paste(provs_0, collapse = ", "), "\n"), fill = TRUE)
-  if (report_non_zero) {
+  if (report_positive) {
     cat(green("Provinces reporting > 0 testing today:", paste0(provs_non_0, collapse = ", "), "\n"), fill = TRUE) 
+  }
+  
+  ## vaccine distribution
+  provs_negative <- loc_negative(vaccine_distribution_timeseries_prov, "date_vaccine_distributed", "dvaccine", "province")
+  provs_0 <- loc_0(vaccine_distribution_timeseries_prov, "date_vaccine_distributed", "dvaccine", "province")
+  provs_non_0 <- loc_non_0(vaccine_distribution_timeseries_prov, "date_vaccine_distributed", "dvaccine", "province")
+  if (length(provs_negative) > 0) {
+    cat(bgRed("Provinces reporting negative vaccine distribution today:", paste(provs_negative, collapse = ", "), "\n"), fill = TRUE) 
+  }
+  cat(cyan("Provinces reporting 0 vaccine distribution today:", paste(provs_0, collapse = ", "), "\n"), fill = TRUE)
+  if (report_positive) {
+    cat(green("Provinces reporting > 0 vaccine distribution today:", paste0(provs_non_0, collapse = ", "), "\n"), fill = TRUE) 
+  }
+  
+  ## vaccine administration
+  provs_negative <- loc_negative(vaccine_administration_timeseries_prov, "date_vaccine_administered", "avaccine", "province")
+  provs_0 <- loc_0(vaccine_administration_timeseries_prov, "date_vaccine_administered", "avaccine", "province")
+  provs_non_0 <- loc_non_0(vaccine_administration_timeseries_prov, "date_vaccine_administered", "avaccine", "province")
+  if (length(provs_negative) > 0) {
+    cat(bgRed("Provinces reporting negative vaccine administration today:", paste(provs_negative, collapse = ", "), "\n"), fill = TRUE) 
+  }
+  cat(cyan("Provinces reporting 0 vaccine administration today:", paste(provs_0, collapse = ", "), "\n"), fill = TRUE)
+  if (report_positive) {
+    cat(green("Provinces reporting > 0 vaccine administration today:", paste0(provs_non_0, collapse = ", "), "\n"), fill = TRUE) 
+  }
+  
+  ## vaccine completion
+  provs_negative <- loc_negative(vaccine_completion_timeseries_prov, "date_vaccine_completed", "cvaccine", "province")
+  provs_0 <- loc_0(vaccine_completion_timeseries_prov, "date_vaccine_completed", "cvaccine", "province")
+  provs_non_0 <- loc_non_0(vaccine_completion_timeseries_prov, "date_vaccine_completed", "cvaccine", "province")
+  if (length(provs_negative) > 0) {
+    cat(bgRed("Provinces reporting negative vaccine completion today:", paste(provs_negative, collapse = ", "), "\n"), fill = TRUE) 
+  }
+  cat(cyan("Provinces reporting 0 vaccine completion today:", paste(provs_0, collapse = ", "), "\n"), fill = TRUE)
+  if (report_positive) {
+    cat(green("Provinces reporting > 0 vaccine completion today:", paste0(provs_non_0, collapse = ", "), "\n"), fill = TRUE) 
   }
   
 }
