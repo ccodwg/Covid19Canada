@@ -42,8 +42,8 @@ delete_files_in_dir <- function(id) {
   drive_rm(files)
 }
 
-# remove existing files
-for (i in c("1He6mPAbolgh7jtsq1zu6LpLQKz34n_nP", folder_ids)) {
+# remove existing files (except those in the root directory)
+for (i in c(folder_ids)) {
   delete_files_in_dir(i)
 }
 
@@ -54,13 +54,16 @@ download.file("https://github.com/ccodwg/Covid19Canada/archive/master.zip", temp
 unzip(temp, exdir = tempd)
 files <- list.files(path = tempd, pattern = "*.csv|*.txt|*.md|*.MD", full.names = TRUE, recursive = TRUE)
 
-# mirror GitHub repository
-for (f in files[grep("/update_time.txt|/README.md|/LICENSE.MD", files)]) {
-  drive_upload(f, as_id("1He6mPAbolgh7jtsq1zu6LpLQKz34n_nP"))
-}
+# update files in root directory
+drive_update(as_id("1k4YYdQQezhNz3wLoOAfSUuaesk13RSxv"), files[grep("/update_time.txt", files)])
+drive_update(as_id("1xIVU43CMv0AaH9LgjPyebAz7gqimo3Dq"), files[grep("/README.md", files)])
+drive_update(as_id("1mojC1dHjsZr1Tx8MNLYbZ8-8ghmfndh4"), files[grep("/LICENSE.MD", files)])
+
+# mirror datasets in GitHub repository
 for (i in 1:length(folders)) {
+  gd <- drive_ls(as_id(folder_ids[i]))
   fs <- files[grep(paste0("/", folders[i], "/"), files)]
   for (f in 1:length(fs)) {
-    drive_upload(fs[f], as_id(folder_ids[i]))
+    drive_update(gd[gd$name == basename(fs[f]), ], fs[f])
   }
 }
