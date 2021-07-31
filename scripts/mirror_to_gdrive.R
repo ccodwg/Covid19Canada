@@ -42,11 +42,6 @@ download.file("https://github.com/ccodwg/Covid19Canada/archive/master.zip", temp
 unzip(temp, exdir = tempd)
 files <- list.files(path = tempd, pattern = "*.csv|*.txt|*.md|*.MD", full.names = TRUE, recursive = TRUE)
 
-# update files in root directory
-drive_update(as_id("1k4YYdQQezhNz3wLoOAfSUuaesk13RSxv"), files[grep("/update_time.txt", files)])
-drive_update(as_id("1xIVU43CMv0AaH9LgjPyebAz7gqimo3Dq"), files[grep("/README.md", files)])
-drive_update(as_id("1mojC1dHjsZr1Tx8MNLYbZ8-8ghmfndh4"), files[grep("/LICENSE.MD", files)])
-
 # mirror datasets in GitHub repository
 for (i in 1:length(folders)) {
   gd <- drive_ls(as_id(folder_ids[i]))
@@ -55,3 +50,8 @@ for (i in 1:length(folders)) {
     drive_update(gd[gd$name == basename(fs[f]), ], fs[f])
   }
 }
+
+# update files in root directory
+drive_update(as_id("1xIVU43CMv0AaH9LgjPyebAz7gqimo3Dq"), files[grep("/README.md", files)])
+drive_update(as_id("1mojC1dHjsZr1Tx8MNLYbZ8-8ghmfndh4"), files[grep("/LICENSE.MD", files)])
+drive_update(as_id("1k4YYdQQezhNz3wLoOAfSUuaesk13RSxv"), files[grep("/update_time.txt", files)]) # should be LAST file updated
