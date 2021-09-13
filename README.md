@@ -1,120 +1,76 @@
 # Epidemiological Data from the COVID-19 Outbreak in Canada
-The [**COVID-19 Canada Open Data Working Group**](https://opencovid.ca/) is collecting publicly available information on confirmed and presumptive positive cases during the ongoing COVID-19 outbreak in Canada. Data are entered in a spreadsheet with each line representing a unique case, including age, sex, health region location, and history of travel where available. Sources are included as a reference for each entry. All data are exclusively collected from publicly available sources including government reports and news media. We aim to continue making updates daily.
 
-Our datasets are available in CSV format from this GitHub repository. Actively updated datasets are also available for download from [Google Drive](https://drive.google.com/drive/folders/1He6mPAbolgh7jtsq1zu6LpLQKz34n_nP).
+The [**COVID-19 Canada Open Data Working Group**](https://opencovid.ca/) collects daily time series data on COVID-19 cases, deaths, recoveries, testing and vaccinations at the health region and province levels. Data are collected exclusively from publicly available sources including government reports and news media. Updates are made nightly between 21:30 and 22:00 ET. Our data collection is mostly automated; see [Covid19CanadaETL](https://github.com/ccodwg/Covid19CanadaETL)  and related projects for details.
 
-# Methodology, Data Notes & Dashboard 
-Detailed information about our [data collection methodology](https://opencovid.ca/work/dataset/) and [sources](https://opencovid.ca/work/data-sources/), answers to [frequently asked data questions](https://opencovid.ca/work/data-faq/), specific data notes, and more information about the **COVID-19 Canada Open Data Working Group** is available on our [website](https://opencovid.ca/).
+## Accessing the data
 
-We have also created an interactive dashboard for up-to-date visual analytics and epidemiological analyses. This is available for public use at: [https://art-bd.shinyapps.io/covid19canada/](https://art-bd.shinyapps.io/covid19canada/)
+Our datasets are available in three different formats:
 
-# Citation
-Berry I, Soucy J-PR, Tuite A, Fisman D. Open access epidemiologic data and an interactive dashboard to monitor the COVID-19 outbreak in Canada. CMAJ. 2020 Apr 14;192(15):E420. doi: https://doi.org/10.1503/cmaj.75262
+* CSV format from this GitHub repository (to download all the latest data, select the green "Code" button and click "Download ZIP")
+* JSON format from our [API](https://opencovid.ca/api/)
+* [Google Drive](https://drive.google.com/drive/folders/1He6mPAbolgh7jtsq1zu6LpLQKz34n_nP)
 
-# [PLEASE READ] Upcoming Changes, Recent Changes and Vaccine Datasets
+Note that retired datasets (`retired_datasets` are only available on GitHub).
 
-## Recent Changes
-2021-05-30: Individual-level data collection (cases.csv, mortality.csv) will cease after May 31, 2021. Time series data collection will continue for the forseeable future. More details will be provided shortly. Those wishing to use individual-level data are advised to consult the datasets provided by individual provinces. Canada-wide individual-level data are provided by [PHAC](https://www150.statcan.gc.ca/n1/pub/13-26-0003/132600032020001-eng.htm).
+## Recent dataset changes
 
-If you have any further questions, please open an issue on GitHub or reach out to us by email at ccodwg [at] gmail [dot] com. Thank you for using the COVID-19 Canada Open Data Working Group datasets.
+* As of 2021-09-07, active cases for ON should be correctly reported. Note that this has resulted in a major discontinuity for recovered and active cases for ON on 2021-09-07. Our case and mortality data from ON have been sourced from individual PHU websites (rather than the provincial MOH dataset) since April 1, 2020. However, the "recovered" number continued to be sourced from the MOH. As the PHU and MOH datasets diverged (several thousand cases were never confirmed and thus not included in the MOH datasets), this resulted in an inflated active case count for the province (daily differences were more or less reliable). On 2021-09-07, we transitioned to using recovered numbers directly from the PHUs; thus, active cases should now be correctly reported for ON. We regret the inconvenience.
 
-2021-01-27: Due to the limit on file sizes in GitHub, we implemented some changes to the datasets today, mostly impacting individual-level data (cases and mortality). Changes below:
-1) Individual-level data (cases.csv and mortality.csv) have been moved to a new directory in the root directory entitled “individual_level”. These files have been split by calendar year and named as follows: cases_2020.csv, cases_2021.csv, mortality_2020.csv, mortality_2021.csv. The directories “other/cases_extra” and “other/mortality_extra” have been moved into the “individual_level” directory.
-2) Redundant datasets have been removed from the root directory. These files include: recovered_cumulative.csv, testing_cumulative.csv, vaccine_administration_cumulative.csv, vaccine_distribution_cumulative.csv, vaccine_completion_cumulative.csv. All of these datasets are currently available as time series in the directory “timeseries_prov”.
-3) The file codebook.csv has been moved to the directory “other”.
+## Data dashboard
 
-We appreciate your patience and hope these changes cause minimal disruption. We do not anticipate making any other breaking changes to the datasets in the near future.
+We provide a public COVID-19 data dashboard at the following URL: [https://art-bd.shinyapps.io/covid19canada/](https://art-bd.shinyapps.io/covid19canada/).
 
-- 2021-01-24: The columns "additional_info" and "additional_source" in cases.csv and mortality.csv have been abbreviated similar to "case_source" and "death_source". See note in README.md from 2021-11-27 and 2021-01-08.
-- 2021-01-08: The directories cases_extra and mortality_extra have been moved to other/cases_extra and other/mortality_extra.
-- 2020-12-03: "Repatriated" now appears in the testing time series. For now, they are given 0 values. The correct values (from PHAC data) will be added soon. "Repatriated" now also appears in the mortality time series (all 0 values, which is correct).
-- 2020-11-27: The columns "case_source" (cases.csv) and "death_source" (mortality.csv) are now abbreviated to reduce the file size. They can be joined to the full source links via cases_extra/cases_case_source.csv and mortality_extra/mortality_death_source.csv. Instructions can be found in [README.md](#individual-level-data---extra-columns).
+## Citation
 
-## Vaccine Datasets
+Below is the current citation for the dataset:
 
-Sources for our vaccine data are summarized here: [https://docs.google.com/spreadsheets/d/1zebsxvOPw8gJ-38r9Wbs_tY0Sk5lvfr0khun9_p3gmY/htmlview](https://docs.google.com/spreadsheets/d/1zebsxvOPw8gJ-38r9Wbs_tY0Sk5lvfr0khun9_p3gmY/htmlview)
+* Berry, I., O’Neill, M., Sturrock, S. L., Wright, J. E., Acharya, K., Brankston, G., Harish, V., Kornas, K., Maani, N., Naganathan, T., Obress, L., Rossi, T., Simmons, A. E., Van Camp, M., Xie, X., Tuite, A. R., Greer, A. L., Fisman, D. N., & Soucy, J.-P. R. (2021). A sub-national real-time epidemiological and vaccination database for the COVID-19 pandemic in Canada. Scientific Data, 8(1). doi: https://doi.org/10.1038/s41597-021-00955-2
 
-- 2021-01-19: Fully vaccinated data have been added (vaccine_completion_cumulative.csv, timeseries_prov/vaccine_completion_timeseries_prov.csv, timeseries_canada/vaccine_completion_timeseries_canada.csv). Note that this value is not currently reported by all provinces (some provinces have all 0s).
-- 2021-01-11: Our Ontario vaccine dataset has changed. Previously, we used two datasets: the MoH Daily Situation Report (https://www.oha.com/news/updates-on-the-novel-coronavirus), which is released weekdays in the evenings, and the “COVID-19 Vaccine Data in Ontario” dataset (https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario), which is released every day in the mornings. Because the Daily Situation Report is released later in the day, it has more up-to-date numbers. However, since it is not available on weekends, this leads to an artificial “dip” in numbers on Saturday and “jump” on Monday due to the transition betwen data sources. We will now exclusively use the daily “COVID-19 Vaccine Data in Ontario” dataset. Although our numbers will be slightly less timely, the daily values will be consistent. We have replaced our historical dataset with “COVID-19 Vaccine Data in Ontario” as far back as they are available.
-- 2020-12-17: Vaccination data have been added as time series in timeseries_prov and timeseries_hr.
-- 2020-12-15: We have added two vaccine datasets to the repository, vaccine_administration_cumulative.csv and vaccine_distribution_cumulative.csv.
+Below is the previous citation for the dataset:
 
-# Datasets
-The full dataset may be downloaded in CSV format from this repository. The full dataset is also available in JSON format from our [API](https://opencovid.ca/api/).
+* Berry, I., Soucy, J.-P. R., Tuite, A., & Fisman, D. (2020). Open access epidemiologic data and an interactive dashboard to monitor the COVID-19 outbreak in Canada. Canadian Medical Association Journal, 192(15), E420. doi: https://doi.org/10.1503/cmaj.75262
 
-### Date and time of dataset update
-* **Date and time of update**: update_time.txt
+## Datasets
 
-### Health Region-level Time Series
-* **Daily and cumulative cases**: timeseries_hr/cases_timeseries_hr.csv
-* **Daily and cumulative mortality**: timeseries_hr/mortality_timeseries_hr.csv
+The update date and time for our dataset is given in `update_time.txt`.
 
-### Province-level Time Series
-* **Daily and cumulative cases**: timeseries_prov/cases_timeseries_prov.csv
-* **Daily and cumulative mortality**: timeseries_prov/mortality_timeseries_prov.csv
-* **Daily and cumulative recovered**: timeseries_prov/recovered_timeseries_prov.csv
-* **Daily and cumulative testing**: timeseries_prov/testing_timeseries_prov.csv
-* **Current and change in active cases**: timeseries_prov/active_timeseries_prov.csv
-* **Daily and cumulative vaccine doses delivered**: timeseries_prov/vaccine_distribution_timeseries_prov.csv
-* **Daily and cumulative vaccine doses administered**: timeseries_prov/vaccine_administration_timeseries_prov.csv
-* **Daily and cumulative people fully vaccinated**: timeseries_prov/vaccine_completion_timeseries_prov.csv
+The following time series data are available at the health region level (as well as at the level of province and Canada-wide):
 
-### Canada-level Time Series
-* **Daily and cumulative cases**: timeseries_canada/cases_timeseries_canada.csv
-* **Daily and cumulative mortality**: timeseries_canada/mortality_timeseries_canada.csv
-* **Daily and cumulative recovered**: timeseries_canada/recovered_timeseries_canada.csv
-* **Daily and cumulative testing**: timeseries_canada/testing_timeseries_canada.csv
-* **Current and change in active cases**: timeseries_canada/active_timeseries_canada.csv
-* **Daily and cumulative vaccine doses delivered**: timeseries_canada/vaccine_distribution_timeseries_canada.csv
-* **Daily and cumulative vaccine doses administered**: timeseries_canada/vaccine_administration_timeseries_canada.csv
-* **Daily and cumulative people fully vaccinated**: timeseries_canada/vaccine_completion_timeseries_canada.csv
+* cases (confirmed and probable COVID-19 cases)
+* mortality (confirmed and probable COVID-19 deaths)
 
-### Other Files
-* **Codebook**: other/codebook.csv
-* **Correspondence between health region names used in our dataset and HRUID values given in Esri Canada's [health region map](https://resources-covid19canada.hub.arcgis.com/datasets/regionalhealthboundaries-1), with [2019 population values](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1710013401)**: other/hr_map.csv
-* **Correspondece between province names used in our dataset and full province names and two-letter abbreviations, with [2019 population values](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1710013401)**: other/prov_map.csv
-* **Correspondece between province names used in our dataset and full province names and two-letter abbreviations, with [2019 population values](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1710013401) and new Saskatchewan health regions**: other/prov_map_sk_new.csv
+The following time series data are available at the province level (as well as Canada-wide):
+
+* recovered (COVID-19 cases considered resolved that did not end in death)
+* testing (definitions vary, see our [technical report](https://opencovid.ca/work/technical-report/)
+* active cases (we use the formula *active cases = confirmed cases - recovered - deaths*, which explains the disrepecies between our active case numbers and those reported from official sources)
+* vaccine distribution (total doses distributed)
+* vaccine administration (total doses administered)
+* vaccine completion (second doses distributed)
+
+Note that definitions for each of these values differ between provinces. See our [technical report](https://opencovid.ca/work/technical-report/) for more details.
+
+Several other important files are also available in the `other` folder:
+
+* Correspondence between health region names used in our dataset and HRUID values given in Esri Canada's [health region map](https://resources-covid19canada.hub.arcgis.com/datasets/regionalhealthboundaries-1), with [2019 population values](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1710013401): `other/hr_map.csv`
+* Correspondece between province names used in our dataset and full province names and two-letter abbreviations, with [2019 population values](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1710013401): `other/prov_map.csv`
+* Correspondece between province names used in our dataset and full province names and two-letter abbreviations, with [2019 population values](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1710013401) and new Saskatchewan health regions: `other/prov_map_sk_new.csv`
     * The new Saskatchewan health regions (13 health regions versus 6 in the original data) use *unofficial estimates* of 2020 population values provided by Statistics Canada and may differ from official data released by Statistics Canada at a later date
-* **Correspondence between ages given in the individual-level case data and age groups displayed on the data dashboard**: other/age_map_cases.csv
-* **Correspondence between ages given in the individual-level mortality data and age groups displayed on the data dashboard**: other/age_map_mortality.csv
 
-### Retired datasets
-* **Cases**: archive/individual_level/cases_2020.csv and individual_level/cases_2021.csv
-* **Mortality**: archive/individual_level/mortality_2020.csv and individual_level/mortality_2021.csv
-* **Cases: case source**: archive/individual_level/cases_extra/cases_case_source.csv (join with cases.csv by joining case_source with case_source_short)
-* **Cases: additional info**: archive/individual_level/cases_extra/cases_additional_info.csv (join with cases.csv by joining additional_info with additional_info_short)
-* **Cases: additional source**: archive/individual_level/cases_extra/cases_additional_source.csv (join with cases.csv by joining additional_source with additional_source_short)
-* **Mortality: death source**: archive/individual_level/mortality_extra/mortality_death_source.csv (join with mortality.csv by joining death_source with death_source_short)
-* **Mortality: additional info**: archive/individual_level/mortality_extra/mortality_additional_info.csv (join with mortality.csv by joining additional_info with additional_info_short)
-* **Mortality: additional source**: archive/individual_level/mortality_extra/mortality_additional_source.csv (join with mortality.csv by joining additional_source with additional_source_short)
+We also have a case and mortality datasets which combine our dataset with the official SK provincial dataset using the new 13 reporting zones (our dataset continues to use the old 6 reporting zones) in the `hr_sk_new` folder. Data for SK are only available from August 4, 2020 and onward in this dataset.
 
-### Scripts
-* **Data update (script used to prepare the data update each day)**: scripts/data_update.R
-* **Data update validation (script used to help check the data update each day prior to release)**: scripts/data_update_validation.R
-* **Functions for data update validation**: scripts/data_update_validation_funs.R
-* **API testing** (verify consistency between GitHub data and data returned by API): scripts/api_test.R
+Our individual-level case and mortality datasets are retired as of June 1, 2021 (see `retired_datasets`).
 
-# Acknowledgements
-We want to thank all individuals and organizations across Canada who have been willing and able to report data in as open and timely a manner as possible. 
+## Methodology & data notes
 
-Please see below for a recommended citation of this dataset. A number of individuals have contributed to the specific data added here and their names and details are listed below, as well as on our [website](https://opencovid.ca/about/). 
+Detailed information about our [data collection methodology](https://opencovid.ca/work/dataset/) and [sources](https://opencovid.ca/work/data-sources/), answers to [frequently asked data questions](https://opencovid.ca/work/data-faq/) and the [technical report](https://opencovid.ca/work/technical-report/) for our dataset are available on our [website](https://opencovid.ca/). Note that some of this information is in the process of being updated and may currently be out-of-date.
 
-# Specific Contributors
-Name | Role | Organization | Email | Twitter
---- | --- | --- | --- | ---
-Isha Berry | Founder | University of Toronto  | isha.berry@mail.utoronto.ca | [@ishaberry2](https://twitter.com/ishaberry2)
-Jean-Paul R. Soucy | Founder | University of Toronto | jeanpaul.soucy@mail.utoronto.ca | [@JPSoucy](https://twitter.com/JPSoucy)
-Meghan O'Neill | Data Lead | University of Toronto | meghan.oneill@utoronto.ca | [@_MeghanONeill](https://twitter.com/_MeghanONeill)
-Shelby Sturrock | Data Lead | University of Toronto | shelby.sturrock@mail.utoronto.ca| [@shelbysturrock](https://twitter.com/shelbysturrock)
-James E. Wright | Data Lead | SickKids | jamese.wright@sickkids.ca | [@JWright159](https://twitter.com/JWright159)
-Wendy Xie | Data Lead |  University of Guelph | xxie03@uoguelph.ca | [@XiaotingXie](https://twitter.com/XiaotingXie)
-Kamal Acharya | Contributor | University of Guelph | acharyak@uoguelph.ca | [@Kamalraj_ach](https://twitter.com/Kamalraj_ach)
-Gabrielle Brankston | Contributor |  University of Guelph | brankstg@uoguelph.ca | [@GBrankston](https://twitter.com/GBrankston)
-Vinyas Harish | Contributor |  University of Toronto | v.harish@mail.utoronto.ca | [@VinyasHarish](https://twitter.com/VinyasHarish)
-Kathy Kornas | Contributor | University of Toronto  | kathy.kornas@utoronto.ca | 
-Nika Maani | Contributor | University of Toronto | nika.maani@mail.utoronto.ca |
-Thivya Naganathan | Contributor |  University of Guelph |tnaganat@uoguelph.ca |
-Lindsay Obress | Contributor |  University of Guelph | lobress@uoguelph.ca |
-Tanya Rossi | Contributor |  University of Guelph | rossit@uoguelph.ca | [@DrTanyaRossi](https://twitter.com/DrTanyaRossi)
-Alison Simmons | Contributor | University of Toronto | alison.simmons@mail.utoronto.ca | [@alisonesimmons](https://twitter.com/alisonesimmons)
-Matthew Van Camp | Contributor |  University of Guelph | vancampm@uoguelph.ca | 
+The scripts used to prepare, update and validate the datasets in this repository are available in the `scripts` folder.
+
+## Acknowledgements
+
+We would like to thank all individuals and organizations across Canada who have worked tirelessly to provide data to the public during this pandemic.
+
+## Contact us
+
+You can learn more about the COVID-19 Canada Open Data Working Group at [our website](https://opencovid.ca/) and reach out to us via our [contact page](https://opencovid.ca/contact-us/).
