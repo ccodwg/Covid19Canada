@@ -188,6 +188,49 @@ ts_hr <- function() {
   
 }
 
+# summarize today's numbers
+summarize_today <- function() {
+  
+  ## function: summarize numbers for a specific value
+  summarize_today_value <- function(dat, date_var, value_var, loc_var) {
+    dat %>%
+      filter(!!sym(date_var) == update_date) %>%
+      select(!!sym(loc_var), !!sym(value_var)) %>%
+      arrange(desc(!!sym(value_var)))
+  }
+  
+  cat("Summarizing today's numbers...", fill = TRUE)
+  
+  ## cases
+  cat("\nCases...", fill = TRUE)
+  print(summarize_today_value(cases_timeseries_prov, "date_report", "cases", "province"))
+  
+  ## mortality
+  cat("\nMortality...", fill = TRUE)
+  print(summarize_today_value(mortality_timeseries_prov, "date_death_report", "deaths", "province"))
+  
+  ## recovered
+  cat("\nRecovered...", fill = TRUE)
+  print(summarize_today_value(recovered_timeseries_prov, "date_recovered", "recovered", "province"))
+  
+  ## testing
+  cat("\nTesting...", fill = TRUE)
+  print(summarize_today_value(testing_timeseries_prov, "date_testing", "testing", "province"))
+  
+  ## vaccine distribution
+  cat("\nVaccine distribution...", fill = TRUE)
+  print(summarize_today_value(vaccine_distribution_timeseries_prov, "date_vaccine_distributed", "dvaccine", "province"))
+  
+  ## vaccine administration
+  cat("\nVaccine administration...", fill = TRUE)
+  print(summarize_today_value(vaccine_administration_timeseries_prov, "date_vaccine_administered", "avaccine", "province"))
+  
+  ## vaccine completion
+  cat("\nVaccine completion...", fill = TRUE)
+  print(summarize_today_value(vaccine_completion_timeseries_prov, "date_vaccine_completed", "cvaccine", "province"))
+  
+}
+
 # report zeros and negatives in time series
 report_zeros_negatives <- function(report_positive = FALSE, report_hr = FALSE) {
   

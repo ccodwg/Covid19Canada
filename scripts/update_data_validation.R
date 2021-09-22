@@ -41,5 +41,8 @@ ts_prov()
 ## check health region time series
 ts_hr()
 
+## summarize today's numbers
+summarize_today()
+
 ## report zeros and negatives in time series
 report_zeros_negatives(report_positive = FALSE, report_hr = FALSE)
