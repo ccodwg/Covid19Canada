@@ -8,6 +8,22 @@
 # Note: This script assumes the working directory is set to the root directory of the project
 # This is most easily achieved by using the provided Covid19Canada.Rproj in RStudio
 
+# Authentication: You must authenticate your Google account before running the rest of the script.
+# You may be asked to give "Tidyverse API Packages" read/write access to your Google account.
+
+# authenticate your Google account before running the rest of the script
+library(googledrive) # interface with Google Drive
+library(googlesheets4) # read from Google Sheets
+if (file.exists("email.txt")) {
+  # automatically read account name from email.txt, if present
+  drive_auth(readLines("email.txt"))
+  gs4_auth(readLines("email.txt"))
+} else {
+  # otherwise, prompt for authentication
+  drive_auth()
+  gs4_auth()
+}
+
 # load libraries
 library(dplyr) # data manipulation
 library(tidyr) # data manipulation
@@ -16,10 +32,17 @@ library(lubridate) # better dates
 library(Covid19CanadaData) # load official datasets
 
 # load functions
+source("scripts/update_data_funs.R")
 source("scripts/update_official_data_funs.R")
+
+# list files in Google Drive data folder
+files <- drive_ls("Provincial_List/Automation")
 
 # official Quebec dataset (incomplete, testing only)
 convert_official_qc()
+
+# NT sub health-region cases and active cases
+update_nt_subhr()
 
 # official Saskatchewan dataset: new health region boundaries
 convert_official_sk_new_hr()

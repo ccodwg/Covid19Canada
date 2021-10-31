@@ -91,6 +91,19 @@ convert_official_qc <- function() {
   
 }
 
+# update NT sub health-region cases and active cases
+update_nt_subhr <- function() {
+  
+  ### download datasets from Google Sheets
+  nt_cases_timeseries_subhr <- sheets_load(files, "ts_nt_subhr", "cases_timeseries_subhr")
+  nt_active_timeseries_subhr <- sheets_load(files, "ts_nt_subhr", "active_timeseries_subhr")
+  
+  ### write datasets
+  write.csv(nt_cases_timeseries_subhr, "official_datasets/nt/nt_cases_timeseries_subhr.csv", row.names = FALSE)
+  write.csv(nt_active_timeseries_subhr, "official_datasets/nt/nt_active_timeseries_subhr.csv", row.names = FALSE)
+  
+}
+
 # convert official Saskatchewan dataset: new health region boundaries
 convert_official_sk_new_hr <- function() {
   
