@@ -101,6 +101,7 @@ vaccine_completion_cum <- sheets_load(files, "ts", "vaccine_completion_timeserie
 
 ## cases
 cases_man <- sheets_load(files, "ts_manual", "cases_timeseries_hr") %>%
+  select(-CALCULATION_NOTES) %>%
   pivot_longer(
     cols = c(-province, -health_region),
     names_to = "date_report",
@@ -111,6 +112,7 @@ cases_cum <- bind_rows(cases_cum, cases_man)
 
 ## mortality
 mortality_man <- sheets_load(files, "ts_manual", "mortality_timeseries_hr") %>%
+  select(-CALCULATION_NOTES) %>%
   pivot_longer(
     cols = c(-province, -health_region),
     names_to = "date_death_report",
