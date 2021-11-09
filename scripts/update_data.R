@@ -97,6 +97,14 @@ vaccine_completion_cum <- sheets_load(files, "ts", "vaccine_completion_timeserie
     values_to = "cumulative_cvaccine") %>%
   filter(!is.na(cumulative_cvaccine))
 
+## additionaldosesvaccine
+vaccine_additionaldoses_cum <- sheets_load(files, "ts", "vaccine_additional_doses_timeseries_prov") %>%
+  pivot_longer(
+    cols = c(-province),
+    names_to = "date_vaccine_additionaldoses",
+    values_to = "cumulative_additionaldosesvaccine") %>%
+  filter(!is.na(cumulative_additionaldosesvaccine))
+
 # combine with manual data
 
 ## cases
@@ -132,10 +140,10 @@ vaccine_completion_man <- sheets_load(files, "ts_manual", "vaccine_completion_ti
 vaccine_completion_cum <- bind_rows(vaccine_completion_cum, vaccine_completion_man)
 
 # convert dates to standard format for manipulation
-convert_dates("cases_cum", "mortality_cum", "recovered_cum", "testing_cum", "vaccine_administration_cum", "vaccine_distribution_cum", "vaccine_completion_cum", date_format_out = "%Y-%m-%d")
+convert_dates("cases_cum", "mortality_cum", "recovered_cum", "testing_cum", "vaccine_administration_cum", "vaccine_distribution_cum", "vaccine_completion_cum", "vaccine_additionaldoses_cum", date_format_out = "%Y-%m-%d")
 
 # convert value columns to numeric
-convert_values("cases_cum", "mortality_cum", "recovered_cum", "testing_cum", "vaccine_administration_cum", "vaccine_distribution_cum", "vaccine_completion_cum")
+convert_values("cases_cum", "mortality_cum", "recovered_cum", "testing_cum", "vaccine_administration_cum", "vaccine_distribution_cum", "vaccine_completion_cum", "vaccine_additionaldoses_cum")
 
 # combine data with old data
 
@@ -163,6 +171,7 @@ date_min_testing <- min(testing_cum$date_testing)
 date_min_vaccine_administration <- min(vaccine_administration_cum$date_vaccine_administered)
 date_min_vaccine_distribution <- min(vaccine_distribution_cum$date_vaccine_distributed)
 date_min_vaccine_completion <- min(vaccine_completion_cum$date_vaccine_completed)
+date_min_vaccine_additionaldoses <- min(vaccine_additionaldoses_cum$date_vaccine_additionaldoses)
 
 # create time series
 
@@ -218,6 +227,10 @@ vaccine_distribution_ts_canada <- create_ts(vaccine_distribution_cum, "vaccine_d
 vaccine_completion_ts_prov <- create_ts(vaccine_completion_cum, "vaccine_completion", "prov", date_min_vaccine_completion)
 vaccine_completion_ts_canada <- create_ts(vaccine_completion_cum, "vaccine_completion", "canada", date_min_vaccine_completion)
 
+## vaccine additional doses time series
+vaccine_additionaldoses_ts_prov <- create_ts(vaccine_additionaldoses_cum, "vaccine_additionaldoses", "prov", date_min_vaccine_additionaldoses)
+vaccine_additionaldoses_ts_canada <- create_ts(vaccine_additionaldoses_cum, "vaccine_additionaldoses", "canada", date_min_vaccine_additionaldoses)
+
 # convert dates to non-standard date format for writing
 convert_dates("cases_ts_canada", "mortality_ts_canada", "recovered_ts_canada", "testing_ts_canada", "active_ts_canada",
               "cases_ts_prov", "mortality_ts_prov", "recovered_ts_prov", "testing_ts_prov", "active_ts_prov",
@@ -225,6 +238,7 @@ convert_dates("cases_ts_canada", "mortality_ts_canada", "recovered_ts_canada", "
               "vaccine_administration_ts_prov", "vaccine_administration_ts_canada",
               "vaccine_distribution_ts_prov", "vaccine_distribution_ts_canada",
               "vaccine_completion_ts_prov", "vaccine_completion_ts_canada",
+              "vaccine_additionaldoses_ts_prov", "vaccine_additionaldoses_ts_canada",
               date_format_out = "%d-%m-%Y")
 
 # write time series files
@@ -246,3 +260,5 @@ write.csv(vaccine_distribution_ts_prov, "timeseries_prov/vaccine_distribution_ti
 write.csv(vaccine_distribution_ts_canada, "timeseries_canada/vaccine_distribution_timeseries_canada.csv", row.names = FALSE)
 write.csv(vaccine_completion_ts_prov, "timeseries_prov/vaccine_completion_timeseries_prov.csv", row.names = FALSE)
 write.csv(vaccine_completion_ts_canada, "timeseries_canada/vaccine_completion_timeseries_canada.csv", row.names = FALSE)
+write.csv(vaccine_additionaldoses_ts_prov, "timeseries_prov/vaccine_additionaldoses_timeseries_prov.csv", row.names = FALSE)
+write.csv(vaccine_additionaldoses_ts_canada, "timeseries_canada/vaccine_additionaldoses_timeseries_canada.csv", row.names = FALSE)
