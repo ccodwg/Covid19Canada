@@ -91,6 +91,33 @@ convert_official_qc <- function() {
   
 }
 
+# convert official PHAC testing (n_tests_completed) province-level dataset
+convert_phac_testing_prov <- function() {
+  
+  # note that PHAC has not reported "n_persons_tested" ("numtested" in the original dataset) since early 2021
+  # thus, this value has been excluded from this dataset
+  
+  # download dataset
+  ds <- Covid19CanadaData::dl_dataset("f7db31d0-6504-4a55-86f7-608664517bdb")
+  
+  # process dataset
+  dat <- Covid19CanadaDataProcess::process_dataset(
+    uuid = "f7db31d0-6504-4a55-86f7-608664517bdb",
+    val = "testing",
+    fmt = "prov_ts",
+    testing_type = "n_tests_completed",
+    ds = ds
+  ) %>%
+    dplyr::select(-.data$name) %>%
+    dplyr::rename(c("n_tests_completed" = "value")) %>%
+    dplyr::group_by(.data$province) %>%
+    dplyr::mutate(n_tests_completed_daily = c(0, diff(.data$n_tests_completed)))
+  
+  # save dataset
+  write.csv(dat, "official_datasets/can/phac_n_tests_performed_timeseries_prov.csv", row.names = FALSE)
+  
+}
+
 # update NT sub health-region cases and active cases
 update_nt_subhr <- function() {
   

@@ -38,6 +38,9 @@ source("scripts/update_official_data_funs.R")
 # list files in Google Drive data folder
 files <- drive_ls("Provincial_List/Automation")
 
+# official PHAC testing (n_tests_completed) province-level dataset
+convert_phac_testing_prov()
+
 # official Quebec dataset (incomplete, testing only)
 convert_official_qc()
 
