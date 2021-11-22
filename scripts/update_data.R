@@ -30,122 +30,61 @@ library(lubridate) # better dates
 # load functions
 source("scripts/update_data_funs.R")
 
+# list files in Google Drive data folder
+files <- drive_ls("ccodwg/data")
+
 # update time: current date and time in America/Toronto time zone
 update_time <- with_tz(Sys.time(), tzone = "America/Toronto") %>%
   format.Date("%Y-%m-%d %H:%M %Z")
 update_date <- as.Date(update_time)
 cat(paste0(update_time, "\n"), file = "update_time.txt") # write update_time
 
-# list files in Google Drive data folder
-files <- drive_ls("Provincial_List/Automation")
+# write and format data notes
+drive_download(
+  files[files$name == "data_notes_covid19", ],
+  path = "data_notes.txt",
+  overwrite = TRUE
+)
+data_notes <- suppressWarnings(readLines("data_notes.txt"))
+cat(paste0(paste(data_notes, collapse = "\n"), "\n"), file = "data_notes.txt")
+
+# define files and variables
+ds <- matrix(
+  c(
+    "cases_cum", "cases_timeseries_hr", "cases", "date_report", "cumulative_cases", "hr,prov,canada", "cases_ts_hr,cases_ts_prov,cases_ts_canada", "timeseries_hr/cases_timeseries_hr.csv,timeseries_prov/cases_timeseries_prov.csv,timeseries_canada/cases_timeseries_canada.csv",
+    "mortality_cum", "mortality_timeseries_hr", "mortality", "date_death_report", "cumulative_deaths", "hr,prov,canada", "mortality_ts_hr,mortality_ts_prov,mortality_ts_canada", "timeseries_hr/mortality_timeseries_hr.csv,timeseries_prov/mortality_timeseries_prov.csv,timeseries_canada/mortality_timeseries_canada.csv",
+    "recovered_cum", "recovered_timeseries_prov", "recovered", "date_recovered", "cumulative_recovered", "prov,canada", "recovered_ts_prov,recovered_ts_canada", "timeseries_prov/recovered_timeseries_prov.csv,timeseries_canada/recovered_timeseries_canada.csv",
+    "testing_cum", "testing_timeseries_prov", "testing", "date_testing", "cumulative_testing", "prov,canada", "testing_ts_prov,testing_ts_canada", "timeseries_prov/testing_timeseries_prov.csv,timeseries_canada/testing_timeseries_canada.csv",
+    "vaccine_distribution_cum", "vaccine_distribution_timeseries_prov", "vaccine_distribution", "date_vaccine_distributed", "cumulative_dvaccine", "prov,canada", "vaccine_distribution_ts_prov,vaccine_distribution_ts_canada", "timeseries_prov/vaccine_distribution_timeseries_prov.csv,timeseries_canada/vaccine_distribution_timeseries_canada.csv",
+    "vaccine_administration_cum", "vaccine_administration_timeseries_prov", "vaccine_administration", "date_vaccine_administered", "cumulative_avaccine", "prov,canada", "vaccine_administration_ts_prov,vaccine_administration_ts_canada", "timeseries_prov/vaccine_administration_timeseries_prov.csv,timeseries_canada/vaccine_administration_timeseries_canada.csv",
+    "vaccine_completion_cum", "vaccine_completion_timeseries_prov", "vaccine_completion", "date_vaccine_completed", "cumulative_cvaccine", "prov,canada", "vaccine_completion_ts_prov,vaccine_completion_ts_canada", "timeseries_prov/vaccine_completion_timeseries_prov.csv,timeseries_canada/vaccine_completion_timeseries_canada.csv",
+    "vaccine_additionaldoses_cum", "vaccine_additional_doses_timeseries_prov", "vaccine_additionaldoses", "date_vaccine_additionaldoses", "cumulative_additionaldosesvaccine", "prov,canada", "vaccine_additionaldoses_ts_prov,vaccine_additionaldoses_ts_canada", "timeseries_prov/vaccine_additionaldoses_timeseries_prov.csv,timeseries_canada/vaccine_additionaldoses_timeseries_canada.csv"
+  ),
+  ncol = 8,
+  byrow = TRUE,
+  dimnames = list(NULL, c("file", "drive_name", "val", "var_date", "var_val", "geo", "ts_name", "file_path"))
+)
+ds <- as.data.frame(ds)
 
 # download sheets and load data
 
-## cases
-cases_cum <- sheets_load(files, "ts", "cases_timeseries_hr") %>%
-  pivot_longer(
-    cols = c(-province, -health_region),
-    names_to = "date_report",
-    values_to = "cumulative_cases") %>%
-    filter(!is.na(cumulative_cases))
-
-## mortality
-mortality_cum <- sheets_load(files, "ts", "mortality_timeseries_hr") %>%
-  pivot_longer(
-    cols = c(-province, -health_region),
-    names_to = "date_death_report",
-    values_to = "cumulative_deaths") %>%
-  filter(!is.na(cumulative_deaths))
-
-## recovered
-recovered_cum <- sheets_load(files, "ts", "recovered_timeseries_prov") %>%
-  pivot_longer(
-    cols = c(-province),
-    names_to = "date_recovered",
-    values_to = "cumulative_recovered") %>%
-  filter(!is.na(cumulative_recovered))
-
-## testing
-testing_cum <- sheets_load(files, "ts", "testing_timeseries_prov") %>%
-  pivot_longer(
-    cols = c(-province),
-    names_to = "date_testing",
-    values_to = "cumulative_testing") %>%
-  filter(!is.na(cumulative_testing))
-
-## dvaccine
-vaccine_distribution_cum <- sheets_load(files, "ts", "vaccine_distribution_timeseries_prov") %>%
-  pivot_longer(
-    cols = c(-province),
-    names_to = "date_vaccine_distributed",
-    values_to = "cumulative_dvaccine") %>%
-  filter(!is.na(cumulative_dvaccine))
-
-## avaccine
-vaccine_administration_cum <- sheets_load(files, "ts", "vaccine_administration_timeseries_prov") %>%
-  pivot_longer(
-    cols = c(-province),
-    names_to = "date_vaccine_administered",
-    values_to = "cumulative_avaccine") %>%
-  filter(!is.na(cumulative_avaccine))
-
-## cvaccine
-vaccine_completion_cum <- sheets_load(files, "ts", "vaccine_completion_timeseries_prov") %>%
-  pivot_longer(
-    cols = c(-province),
-    names_to = "date_vaccine_completed",
-    values_to = "cumulative_cvaccine") %>%
-  filter(!is.na(cumulative_cvaccine))
-
-## additionaldosesvaccine
-vaccine_additionaldoses_cum <- sheets_load(files, "ts", "vaccine_additional_doses_timeseries_prov") %>%
-  pivot_longer(
-    cols = c(-province),
-    names_to = "date_vaccine_additionaldoses",
-    values_to = "cumulative_additionaldosesvaccine") %>%
-  filter(!is.na(cumulative_additionaldosesvaccine))
-
-# combine with manual data
-
-## cases
-cases_man <- sheets_load(files, "ts_manual", "cases_timeseries_hr") %>%
-  select(-CALCULATION_NOTES) %>%
-  pivot_longer(
-    cols = c(-province, -health_region),
-    names_to = "date_report",
-    values_to = "cumulative_cases") %>%
-  filter(date_report != "18-06-2021") %>%
-  filter(!is.na(cumulative_cases))
-cases_cum <- bind_rows(cases_cum, cases_man)
-
-## mortality
-mortality_man <- sheets_load(files, "ts_manual", "mortality_timeseries_hr") %>%
-  select(-CALCULATION_NOTES) %>%
-  pivot_longer(
-    cols = c(-province, -health_region),
-    names_to = "date_death_report",
-    values_to = "cumulative_deaths") %>%
-  filter(date_death_report != "18-06-2021") %>%
-  filter(!is.na(cumulative_deaths))
-mortality_cum <- bind_rows(mortality_cum, mortality_man)
-
-## cvaccine
-vaccine_completion_man <- sheets_load(files, "ts_manual", "vaccine_completion_timeseries_prov") %>%
-  pivot_longer(
-    cols = c(-province),
-    names_to = "date_vaccine_completed",
-    values_to = "cumulative_cvaccine") %>%
-  filter(date_vaccine_completed != "18-06-2021") %>%
-  filter(!is.na(cumulative_cvaccine))
-vaccine_completion_cum <- bind_rows(vaccine_completion_cum, vaccine_completion_man)
-
-# convert dates to standard format for manipulation
-convert_dates("cases_cum", "mortality_cum", "recovered_cum", "testing_cum", "vaccine_administration_cum", "vaccine_distribution_cum", "vaccine_completion_cum", "vaccine_additionaldoses_cum", date_format_out = "%Y-%m-%d")
-
-# convert value columns to numeric
-convert_values("cases_cum", "mortality_cum", "recovered_cum", "testing_cum", "vaccine_administration_cum", "vaccine_distribution_cum", "vaccine_completion_cum", "vaccine_additionaldoses_cum")
-
-# combine data with old data
+for (i in 1:nrow(ds)) {
+  var_date <- ds[i, "var_date"]
+  var_val <- ds[i, "var_val"]
+  assign(ds[i, "file"],
+         {
+           sheets_load(files, "covid19", ds[i, "drive_name"]) %>%
+             pivot_longer(
+               cols = -any_of(c("province", "health_region")),
+               names_to = var_date,
+               values_to = var_val) %>%
+             mutate(
+               !!sym(var_date) := as.Date(!!sym(var_date)),
+               !!sym(var_val) := as.numeric(!!sym(var_val))
+             ) # %>%
+           # filter(!is.na(!!sym(var_val)))
+         })
+}
 
 # load other files
 
@@ -164,34 +103,20 @@ provs <- map_prov$province
 hrs <- map_hr$health_region
 
 ## min dates
-date_min_cases <- min(cases_cum$date_report)
-date_min_mortality <- min(mortality_cum$date_death_report)
-date_min_recovered <- min(recovered_cum$date_recovered)
-date_min_testing <- min(testing_cum$date_testing)
-date_min_vaccine_administration <- min(vaccine_administration_cum$date_vaccine_administered)
-date_min_vaccine_distribution <- min(vaccine_distribution_cum$date_vaccine_distributed)
-date_min_vaccine_completion <- min(vaccine_completion_cum$date_vaccine_completed)
-date_min_vaccine_additionaldoses <- min(vaccine_additionaldoses_cum$date_vaccine_additionaldoses)
+ds$min_date <- as.Date(apply(ds, MARGIN = 1, FUN = function(x) {
+  min(get(x["file"])[[x["var_date"]]])}), origin = "1970-01-01")
+
+## one line per output file
+ds <- ds %>%
+  separate_rows(geo, ts_name, file_path, sep = ",")
 
 # create time series
 
-## cases time series
-cases_ts_hr <- create_ts(cases_cum, "cases", "hr", date_min_cases)
-cases_ts_prov <- create_ts(cases_cum, "cases", "prov", date_min_cases)
-cases_ts_canada <- create_ts(cases_cum, "cases", "canada", date_min_cases)
-
-## mortality time series
-mortality_ts_hr <- create_ts(mortality_cum, "mortality", "hr", date_min_mortality)
-mortality_ts_prov <- create_ts(mortality_cum, "mortality", "prov", date_min_mortality)
-mortality_ts_canada <- create_ts(mortality_cum, "mortality", "canada", date_min_mortality)
-
-## recovered time series
-recovered_ts_prov <- create_ts(recovered_cum, "recovered", "prov", date_min_recovered)
-recovered_ts_canada <- create_ts(recovered_cum, "recovered", "canada", date_min_recovered)
-
-## testing time series
-testing_ts_prov <- create_ts(testing_cum, "testing", "prov", date_min_testing)
-testing_ts_canada <- create_ts(testing_cum, "testing", "canada", date_min_testing)
+## regular time series
+for (i in 1:nrow(ds)) {
+  assign(ds[[i, "ts_name"]],
+    create_ts(get(ds[[i, "file"]]), ds[[i, "val"]], ds[[i, "geo"]], ds[[i, "min_date"]]))
+}
 
 ## add legacy "testing_info" column
 testing_ts_prov <- testing_ts_prov %>%
@@ -215,50 +140,19 @@ testing_ts_canada <- testing_ts_canada %>%
 active_ts_prov <- create_ts_active(cases_ts_prov, recovered_ts_prov, mortality_ts_prov, "prov")
 active_ts_canada <- create_ts_active(cases_ts_canada, recovered_ts_canada, mortality_ts_canada, "canada")
 
-## vaccine administration time series
-vaccine_administration_ts_prov <- create_ts(vaccine_administration_cum, "vaccine_administration", "prov", date_min_vaccine_administration)
-vaccine_administration_ts_canada <- create_ts(vaccine_administration_cum, "vaccine_administration", "canada", date_min_vaccine_administration)
-
-## vaccine distribution time series
-vaccine_distribution_ts_prov <- create_ts(vaccine_distribution_cum, "vaccine_distribution", "prov", date_min_vaccine_distribution)
-vaccine_distribution_ts_canada <- create_ts(vaccine_distribution_cum, "vaccine_distribution", "canada", date_min_vaccine_distribution)
-
-## vaccine completion time series
-vaccine_completion_ts_prov <- create_ts(vaccine_completion_cum, "vaccine_completion", "prov", date_min_vaccine_completion)
-vaccine_completion_ts_canada <- create_ts(vaccine_completion_cum, "vaccine_completion", "canada", date_min_vaccine_completion)
-
-## vaccine additional doses time series
-vaccine_additionaldoses_ts_prov <- create_ts(vaccine_additionaldoses_cum, "vaccine_additionaldoses", "prov", date_min_vaccine_additionaldoses)
-vaccine_additionaldoses_ts_canada <- create_ts(vaccine_additionaldoses_cum, "vaccine_additionaldoses", "canada", date_min_vaccine_additionaldoses)
-
-# convert dates to non-standard date format for writing
-convert_dates("cases_ts_canada", "mortality_ts_canada", "recovered_ts_canada", "testing_ts_canada", "active_ts_canada",
-              "cases_ts_prov", "mortality_ts_prov", "recovered_ts_prov", "testing_ts_prov", "active_ts_prov",
-              "cases_ts_hr", "mortality_ts_hr",
-              "vaccine_administration_ts_prov", "vaccine_administration_ts_canada",
-              "vaccine_distribution_ts_prov", "vaccine_distribution_ts_canada",
-              "vaccine_completion_ts_prov", "vaccine_completion_ts_canada",
-              "vaccine_additionaldoses_ts_prov", "vaccine_additionaldoses_ts_canada",
-              date_format_out = "%d-%m-%Y")
-
 # write time series files
-write.csv(cases_ts_prov, "timeseries_prov/cases_timeseries_prov.csv", row.names = FALSE)
-write.csv(cases_ts_hr, "timeseries_hr/cases_timeseries_hr.csv", row.names = FALSE)
-write.csv(cases_ts_canada, "timeseries_canada/cases_timeseries_canada.csv", row.names = FALSE)
-write.csv(mortality_ts_prov, "timeseries_prov/mortality_timeseries_prov.csv", row.names = FALSE)
-write.csv(mortality_ts_hr, "timeseries_hr/mortality_timeseries_hr.csv", row.names = FALSE)
-write.csv(mortality_ts_canada, "timeseries_canada/mortality_timeseries_canada.csv", row.names = FALSE)
-write.csv(recovered_ts_prov, "timeseries_prov/recovered_timeseries_prov.csv", row.names = FALSE)
-write.csv(recovered_ts_canada, "timeseries_canada/recovered_timeseries_canada.csv", row.names = FALSE)
-write.csv(testing_ts_prov, "timeseries_prov/testing_timeseries_prov.csv", row.names = FALSE)
-write.csv(testing_ts_canada, "timeseries_canada/testing_timeseries_canada.csv", row.names = FALSE)
-write.csv(active_ts_prov, "timeseries_prov/active_timeseries_prov.csv", row.names = FALSE)
-write.csv(active_ts_canada, "timeseries_canada/active_timeseries_canada.csv", row.names = FALSE)
-write.csv(vaccine_administration_ts_prov, "timeseries_prov/vaccine_administration_timeseries_prov.csv", row.names = FALSE)
-write.csv(vaccine_administration_ts_canada, "timeseries_canada/vaccine_administration_timeseries_canada.csv", row.names = FALSE)
-write.csv(vaccine_distribution_ts_prov, "timeseries_prov/vaccine_distribution_timeseries_prov.csv", row.names = FALSE)
-write.csv(vaccine_distribution_ts_canada, "timeseries_canada/vaccine_distribution_timeseries_canada.csv", row.names = FALSE)
-write.csv(vaccine_completion_ts_prov, "timeseries_prov/vaccine_completion_timeseries_prov.csv", row.names = FALSE)
-write.csv(vaccine_completion_ts_canada, "timeseries_canada/vaccine_completion_timeseries_canada.csv", row.names = FALSE)
-write.csv(vaccine_additionaldoses_ts_prov, "timeseries_prov/vaccine_additionaldoses_timeseries_prov.csv", row.names = FALSE)
-write.csv(vaccine_additionaldoses_ts_canada, "timeseries_canada/vaccine_additionaldoses_timeseries_canada.csv", row.names = FALSE)
+
+## add active cases to ds
+ds <- ds %>%
+  bind_rows(
+    ds,
+    data.frame(
+      ts_name = c("active_ts_prov", "active_ts_canada"),
+      file_path = c("timeseries_prov/active_timeseries_prov.csv", "timeseries_canada/active_timeseries_canada.csv")))
+
+## write files
+for (i in 1:nrow(ds)) {
+  file_out <- get(ds[[i, "ts_name"]]) %>%
+    mutate(across(matches("^date_|_week$"), format.Date, format = "%d-%m-%Y"))
+  write.csv(file_out, ds[[i, "file_path"]], row.names = FALSE)
+}

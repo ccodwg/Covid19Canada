@@ -22,55 +22,6 @@ sheets_load <- function(files, file, sheet = NULL) {
   }
 }
 
-# define data processing functions
-
-## convert dates dates between %Y-%m-%d format (for data manipulation) and %d-%m-%Y format (for writing)
-convert_dates <- function(..., date_format_out = c("%Y-%m-%d", "%d-%m-%Y")) {
-  
-  ### check date format
-  match.arg(date_format_out,
-            choices = c("%Y-%m-%d", "%d-%m-%Y"),
-            several.ok = FALSE)
-  
-  ### get object names as a list
-  inputs <- unlist(list(...))
-  
-  ### convert date and write to global environment
-  if (date_format_out == "%Y-%m-%d") {
-    for (i in inputs) {
-      assign(i, get(i, envir = parent.frame()) %>%
-               mutate(
-                 across(matches("^date_|_week$"), as.Date, format = "%d-%m-%Y")),
-             envir = parent.frame()
-      )
-    }
-  } else if (date_format_out == "%d-%m-%Y") {
-    for (i in inputs) {
-      assign(i, get(i, envir = parent.frame()) %>%
-               mutate(
-                 across(matches("^date_|_week$"), format.Date, format = "%d-%m-%Y")),
-             envir = parent.frame()
-      )
-    }
-  }
-}
-
-## convert value columns to numeric
-convert_values <- function(...) {
-  
-  ### get object names as a list
-  inputs <- unlist(list(...))
-  
-  ### convert values and write to global environment
-  for (i in inputs) {
-    assign(i, get(i, envir = parent.frame()) %>%
-             mutate(
-               across(!matches("^date_|_week$|province|health_region"), as.numeric)),
-           envir = parent.frame()
-    )
-  }
-}
-
 # define functions for time series data
 
 ## create time series (cases, mortality, recovered, testing)
