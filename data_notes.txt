@@ -1,0 +1,26 @@
+﻿New data: 2021-11-21. See data notes.
+
+NOTICE: We are in the process of automating most data collection. PLEASE CONTACT US REGARDING ANY ERRORS YOU MAY FIND. https://opencovid.ca/contact-us/
+
+- NL testing was not updated today due to an ongoing ransomeware attack (https://www.cbc.ca/news/canada/newfoundland-labrador/cybersecurity-experts-nl-health-care-system-1.6233197)
+- Corrected AB cases from 2021-11-19 and 2021-11-20 (due to error in Alberta case CSV)
+
+RECENT CHANGES TO THE DATASET:
+
+Additional doses (booster doses, 3rd doses, 4th doses) doses are now being reported for some provinces in a new dataset: vaccine_additionaldoses_timeseries_prov / vaccine_additionaldoses_timeseries_canada.csv
+
+First doses may calculated as: total doses administered – vaccine completion (2nd doses) – additional doses.
+
+README on GitHub has been updated to provide a better description of the dataset: https://github.com/ccodwg/Covid19Canada
+
+ON DATA NOTE: As of 2021-09-07, active cases for ON should be correctly reported. Note that this has resulted in a major discontinuity for recovered and active cases for ON on 2021-09-07. Our case and mortality data from ON have been sourced from individual PHU websites (rather than the provincial MOH dataset) since April 1, 2020. However, the "recovered" number continued to be sourced from the MOH. As the PHU and MOH datasets diverged (several thousand cases were never confirmed and thus not included in the MOH datasets), this resulted in an inflated active case count for the province (daily differences were more or less reliable). On 2021-09-07, we transitioned to using recovered numbers directly from the PHUs; thus, active cases should now be correctly reported for ON. Additionally, 13 cases were added to Haliburton Kawartha Pineridge (ON) on 2021-09-07 to maintain consistency with the corrected recovery calculation. We regret the inconvenience.
+
+QC DATA NOTE: QC vaccination numbers are now from: https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-de-la-vaccination/resource/3895305f-0c29-47a4-a0d1-b19f2e6c94bd
+
+These vary slightly from other sources but are more consistent.
+
+DATA NOTE FOR SK: As of 2020-12-14, we are providing a daily version of the official SK dataset that is compatible with the rest of our dataset in the folder official_datasets/sk. See below for information about our regular updates. A REPLACEMENT DATASET IS IMMINENT.
+
+SK transitioned to reporting according to a new, expanded set of health regions on 2020-09-14. Unfortunately, the new health regions do not correspond exactly to the old health regions. Additionally, the provided case time series using the new boundaries do not exist for dates earlier than August 4, making providing a time series using the new boundaries impossible.
+
+For now, we are adding new cases according to the list of new cases given in the “highlights” section of the SK government website (https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases). These new cases are roughly grouped according to the old boundaries. However, health region totals were redistributed when the new boundaries were instituted on 2020-09-14, so while our daily case numbers match the numbers given in this section, our cumulative totals do not. We have reached out to the SK government to determine how this issue can be resolved. We will rectify our SK health region time series as soon as it becomes possible to do so.
