@@ -66,25 +66,79 @@ ds <- matrix(
 )
 ds <- as.data.frame(ds)
 
-# download sheets and load data
+# add phu_recovered to ds (for merging manual column/adding columns for tomorrow)
+ds <- ds %>%
+  bind_rows(
+    data.frame(
+      file = "recovered_phu_cum",
+      drive_name = "recovered_timeseries_phu",
+      var_date = "date_recovered",
+      var_val = "cumulative_recovered"
+    )
+  )
 
+# download sheets, merge in manual column, add columns for tomorrow and upload, process data
 for (i in 1:nrow(ds)) {
+  
+  # define sheet
   var_date <- ds[i, "var_date"]
   var_val <- ds[i, "var_val"]
-  assign(ds[i, "file"],
-         {
-           sheets_load(files, "covid19", ds[i, "drive_name"]) %>%
-             pivot_longer(
-               cols = -any_of(c("province", "health_region")),
-               names_to = var_date,
-               values_to = var_val) %>%
-             mutate(
-               !!sym(var_date) := as.Date(!!sym(var_date)),
-               !!sym(var_val) := as.numeric(!!sym(var_val))
-             ) # %>%
-           # filter(!is.na(!!sym(var_val)))
-         })
+  
+  # download sheet
+  assign(ds[i, "file"], {
+    sheets_load(files, "covid19", ds[i, "drive_name"])})
+  dat <- get(ds[i, "file"])
+  
+  # merge in today's manual column, if present (replace today's value if the manual value is defined)
+  # will have already been merged in if this is not the first time running the script today
+  col_manual <- paste0(update_date, "_manual")
+  if (col_manual %in% names(dat)) {
+    dat <- dat %>%
+      # merge in manual data, if given
+      mutate(!!sym(as.character(update_date)) := case_when(
+        !is.na(!!sym(col_manual)) ~ !!sym(col_manual),
+        TRUE ~ !!sym(as.character(update_date))
+      )) %>%
+      # drop manual column after merge
+      select(-!!sym(col_manual))
+  }
+  
+  # add columns for tomorrow (if not present already) and upload to Google Sheets
+  col_tomorrow <- as.character(update_date + 1)
+  col_tomorrow_manual <- paste0(col_tomorrow, "_manual")
+  if (!col_tomorrow %in% names(dat) & !col_tomorrow_manual %in% names(dat)) {
+    dat <- dat %>%
+      tibble::add_column(
+        tibble(
+          !!sym(col_tomorrow_manual) := NA,
+          !!sym(col_tomorrow) := NA),
+        .before = as.character(update_date)
+      )
+  }
+  sheets_upload(dat, files, "covid19", ds[i, "drive_name"])
+  
+  # process data for update script
+  assign(ds[i, "file"], {
+    dat %>%
+      # delete calculation notes column
+      select(-any_of("CALCULATION_NOTES")) %>%
+      # delete tomorrow's columns
+      select(-any_of(c(col_tomorrow, col_tomorrow_manual))) %>%
+      pivot_longer(
+        cols = -any_of(c("province", "health_region")),
+        names_to = var_date,
+        values_to = var_val) %>%
+      mutate(
+        !!sym(var_date) := as.Date(!!sym(var_date)),
+        !!sym(var_val) := as.numeric(!!sym(var_val))
+      ) # %>%
+      # filter(!is.na(!!sym(var_val)))
+    })
 }
+
+# remove phu_recovered (not needed)
+rm(recovered_phu_cum)
+ds <- ds[ds$file != "recovered_phu_cum", ]
 
 # load other files
 
