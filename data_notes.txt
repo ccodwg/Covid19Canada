@@ -1,15 +1,14 @@
-New data: 2021-11-25. See data notes.
+New data: 2021-11-26. See data notes.
 
 NOTICE: We are in the process of automating most data collection. PLEASE CONTACT US REGARDING ANY ERRORS YOU MAY FIND. https://opencovid.ca/contact-us/
 
 - NL testing was not updated today due to an ongoing ransomeware attack (https://www.cbc.ca/news/canada/newfoundland-labrador/cybersecurity-experts-nl-health-care-system-1.6233197)
-- There was a large case dump in Montreal (QC) today, probably representing historical cases: 1,513 cases (Yesterday's cumulative case total: 153608; http://data.opencovid.ca.s3-us-east-2.amazonaws.com/archive/qc/cumulative-confirmed-cases-deaths-by-region-age-sex/COVID19_Qc_RapportINSPQ_VigieCategories_2021-11-24_22-19.csv; Tonight's cumulative case total: 155121)
 
 RECENT CHANGES TO THE DATASET:
 
 Additional doses (booster doses, 3rd doses, 4th doses) doses are now being reported for some provinces in a new dataset: vaccine_additionaldoses_timeseries_prov / vaccine_additionaldoses_timeseries_canada.csv
 
-First doses may calculated as: total doses administered – vaccine completion (2nd doses) – additional doses.
+First doses may be calculated as: total doses administered – vaccine completion (2nd doses) – additional doses.
 
 README on GitHub has been updated to provide a better description of the dataset: https://github.com/ccodwg/Covid19Canada
 
