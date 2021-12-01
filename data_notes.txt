@@ -1,9 +1,10 @@
-New data: 2021-11-29. See data notes.
+New data: 2021-11-30. See data notes.
 
 NOTICE: We are in the process of automating most data collection. PLEASE CONTACT US REGARDING ANY ERRORS YOU MAY FIND. https://opencovid.ca/contact-us/
 
 - NL testing was not updated today due to an ongoing ransomeware attack (https://www.cbc.ca/news/canada/newfoundland-labrador/cybersecurity-experts-nl-health-care-system-1.6233197)
-- Testing declined in NB for an unknown reason
+- Fix historical AB data for Not Reported cases (incorrect 0s)
+- [Correction to data note from yesterday, 2021-11-29] Total vaccine administration declined in NB for an unknown reason
 
 RECENT CHANGES TO THE DATASET:
 
