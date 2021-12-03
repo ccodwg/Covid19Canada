@@ -1,9 +1,9 @@
-New data: 2021-12-01. See data notes.
+New data: 2021-12-02. See data notes.
 
 NOTICE: We are in the process of automating most data collection. PLEASE CONTACT US REGARDING ANY ERRORS YOU MAY FIND. https://opencovid.ca/contact-us/
 
-- Historical fixes to NL vaccination administration/completion data between 2021-11-19 and 2021-11-30 (underlying database was changed): historical values pulled from covid19tracker.ca (https://api.covid19tracker.ca/reports/province/nl) and inputed on the correct days according to Tuesday/Friday update schedule; some values of administration were imputed based on the daily differences rather than the value itself since the total administered value reported in this dataset differs from the one reported by the province (https://covid-19-newfoundland-and-labrador-gnl.hub.arcgis.com/)
-- YT recovered declined today for an unknown reason
+- BC testing declined today for an unknown reason
+- Updates to ON vaccination data are not available due to technical difficulties
 - NL testing has not been updated recently due to the consequences of a ransomeware attack (https://www.cbc.ca/news/canada/newfoundland-labrador/cybersecurity-experts-nl-health-care-system-1.6233197)
 
 RECENT CHANGES TO THE DATASET:
