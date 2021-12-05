@@ -1,11 +1,8 @@
-New data: 2021-12-03. See data notes.
+New data: 2021-12-04. See data notes.
 
 NOTICE: We are in the process of automating most data collection. PLEASE CONTACT US REGARDING ANY ERRORS YOU MAY FIND. https://opencovid.ca/contact-us/
 
-
-
-- ON is reporting an unusually large number of doses administered today. This is because all third doses administered up until now were added to today’s date. The note on the Ontario website reads: “There is an increase in the doses administered due to the addition of third doses being reported on this date. Moving forward, the daily doses will include third doses administered.”. (https://covid-19.ontario.ca/data) This will be updated retrospectively if these data are provided in the future.
-- Historical ON vaccination data has been updated (the last two days did not report vaccination data due to technical issues).
+- Additional doses for Ontario from 2021-12-03 were corrected earlier today
 - NL testing has not been updated recently due to the consequences of a ransomeware attack (https://www.cbc.ca/news/canada/newfoundland-labrador/cybersecurity-experts-nl-health-care-system-1.6233197)
 
 RECENT CHANGES TO THE DATASET:
