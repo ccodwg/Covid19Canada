@@ -1,9 +1,11 @@
-New data: 2021-12-08. See data notes.
+New data: 2021-12-09. See data notes.
 
 NOTICE: We are in the process of automating most data collection. PLEASE CONTACT US REGARDING ANY ERRORS YOU MAY FIND. https://opencovid.ca/contact-us/
 
-- AB deaths today are from this summary table (https://www.alberta.ca/covid-19-alberta-data.aspx) because the case CSV (the usual source; https://www.alberta.ca/data/stats/covid-19-alberta-statistics-data.csv) has missing Zone info on two deaths; case numbers are from the usual source (https://www.alberta.ca/stats/covid-19-alberta-statistics.htm#geospatial) as this same summary table has a typo regarding cases
-- NS vaccine completions declined for an unknown reason today
+- Started reporting vaccine additional doses for NT; added historical additional doses data for NT (based on the cumulative curve on the dashboard: https://nwt-covid.shinyapps.io/Testing-and-Cases/?lang=1; dates were shifted forward by two days based on the observation that other dose information first reported on 2021-12-06 was labelled 2021-12-04 on the cumulative curve)
+- TO data was manually transcribed from the dashboard (https://www.toronto.ca/home/covid-19/covid-19-pandemic-data/covid-19-weekday-status-of-cases-data/) as the usual Excel file does not contain the information today (https://drive.google.com/file/d/11KF1DuN5tntugNc10ogQDzFnW05ruzLH/view)
+- Deaths in AB declined by 1 today for an unknown reason
+- AB deaths are now from the summary table (https://www.alberta.ca/covid-19-alberta-data.aspx) because the case CSV (the usual source; https://www.alberta.ca/data/stats/covid-19-alberta-statistics-data.csv) has missing Zone info on two deaths; case numbers are from the usual source (https://www.alberta.ca/stats/covid-19-alberta-statistics.htm#geospatial) as this same summary table has a typo regarding cases
 - As of 2021-12-06, the NWT sub-health region active cases dataset (official_datasets/nt/nt_active_timeseries_subhr.csv) no longer delineates between active cases in residents and non-residents, instead giving only the total number of active cases
 - NL testing has not been updated recently due to the consequences of a ransomeware attack (https://www.cbc.ca/news/canada/newfoundland-labrador/cybersecurity-experts-nl-health-care-system-1.6233197)
 
