@@ -39,15 +39,6 @@ update_time <- with_tz(Sys.time(), tzone = "America/Toronto") %>%
 update_date <- as.Date(update_time)
 cat(paste0(update_time, "\n"), file = "update_time.txt") # write update_time
 
-# write and format data notes
-drive_download(
-  files[files$name == "data_notes_covid19", ],
-  path = "data_notes.txt",
-  overwrite = TRUE
-)
-data_notes <- suppressWarnings(readLines("data_notes.txt"))
-cat(paste0(paste(data_notes, collapse = "\n"), "\n"), file = "data_notes.txt")
-
 # define files and variables
 ds <- matrix(
   c(

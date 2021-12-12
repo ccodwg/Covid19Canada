@@ -70,6 +70,7 @@ for (i in 1:length(folders)) {
 # copy files in root directory (note that the MD files cannot be converted)
 drive_update(as_id("1l2l0CCigx2ISI9NYeRcdcfz1ABI0z2yz"), files[grep("/README.md", files)])
 drive_update(as_id("1ovgnXT39rhLi0cFu79l-luMkMkE5PUcF"), files[grep("/LICENSE.MD", files)])
+drive_update(as_id("10XQFWIYxmebh9kiY3xyHh2YPnUNvdugt03ewieoao5w"), files[grep("/data_notes.txt", files)])
 update_time <- readLines(files[grep("/update_time.txt", files)])
 update_time <- data.frame(update_time)
 range_write(
