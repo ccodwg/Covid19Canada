@@ -10,7 +10,7 @@ Our datasets are available in three different formats:
 * JSON format from our [API](https://opencovid.ca/api/)
 * [Google Drive](https://drive.google.com/drive/folders/1He6mPAbolgh7jtsq1zu6LpLQKz34n_nP)
 
-Note that retired datasets (`retired_datasets` are only available on GitHub).
+Note that retired datasets (`retired_datasets`) are only available on GitHub.
 
 ## Recent dataset changes
 
