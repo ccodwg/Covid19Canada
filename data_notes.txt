@@ -1,7 +1,8 @@
-New data: 2021-12-11. See data notes.
+New data: 2021-12-12. See data notes.
 
 NOTICE: We are in the process of automating most data collection. PLEASE CONTACT US REGARDING ANY ERRORS YOU MAY FIND. https://opencovid.ca/contact-us/
 
+- NS did not update vaccination data today.
 - NB has begun reporting additional vaccine doses as of yesterday (2021-12-10). These data have been added for today and yesterday. Prior to these doses being reported, total doses = first doses + second doses in the data file, so there was no “implicit” report of additional doses prior to yesterday. The vaccine completion value for yesterday (2021-12-10) was also corrected.
 - NL has begun reporting testing numbers again. Unfortunately, historical values were not provided, so there is a large jump in the cumulative testing numbers today.
 - AB deaths are now from the summary table (https://www.alberta.ca/covid-19-alberta-data.aspx) because the case CSV (the usual source; https://www.alberta.ca/data/stats/covid-19-alberta-statistics-data.csv) has missing Zone info on two deaths; case numbers are from the usual source (https://www.alberta.ca/stats/covid-19-alberta-statistics.htm#geospatial) as this same summary table has a typo regarding cases
