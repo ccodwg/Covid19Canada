@@ -61,13 +61,24 @@ run_at(paste(date_today, "22:00:00"), {
     run_automatically <- range_read(
       f,
       sheet = "run_automatically",
-      range = "A2",
+      range = "A6",
       col_names = "run_automatically"
     )
   }
+  run_automatically <- run_automatically[1, 1, drop = TRUE]
   
-  # stop script if update has been blocked from running automatically
-  if (!run_automatically[1, 1, drop = TRUE]) {
+  # rerun update code before pushing update if run_automatically == REFRESH
+  if (run_automatically == "REFRESH") {
+    # report refresh
+    cat("Refreshing data prior to data push...", fill = TRUE)
+    # update data
+    source("scripts/update_data.R")
+    # update official data
+    source("scripts/update_official_data.R")
+    # validate data update
+    source("scripts/update_data_validation.R")
+  } else if (!isTRUE(run_automatically)) {
+    # stop script if run_automatically is not TRUE
     stop("run_automatically is not TRUE. Stopping update. Please complete manually.")
   }
   
