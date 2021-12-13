@@ -23,7 +23,7 @@ source("scripts/update_data_funs.R")
 source("scripts/update_official_data_funs.R")
 
 # list files in Google Drive data folder
-files <- drive_ls("Provincial_List/Automation")
+files <- drive_ls("ccodwg/data")
 
 # official PHAC testing (n_tests_completed) province-level dataset
 tryCatch(

@@ -52,7 +52,7 @@ source("scripts/update_official_data.R")
 source("scripts/update_data_validation.R")
 
 # push update to GitHub and mirror to Google Drive (at 22:00 ET)
-run_at(paste(date_today, "22:00:00"), function() {
+run_at(paste(date_today, "22:00:00"), {
   
   # retrieve value for "run_automatically"
   while(!exists("f")) f <- drive_ls("ccodwg/data")
@@ -73,7 +73,11 @@ run_at(paste(date_today, "22:00:00"), function() {
   
   # push update
   source("scripts/github_update.R")
-  Sys.sleep(20) # wait 20 seconds
+  
+  # wait 15 seconds
+  Sys.sleep(15)
+  
+  # sync updated files to Google Drive
   source("scripts/mirror_to_gdrive.R")
   
 })
