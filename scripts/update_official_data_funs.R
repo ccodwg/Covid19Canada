@@ -296,13 +296,3 @@ combine_ccodwg_official_sk_new_hr <- function(stat = c("cases", "mortality"), lo
     out_name <- paste0("timeseries_hr_sk_new/sk_new_", stat, "_timeseries_", loc, "_combined.csv")
     write.csv(dat_combined, out_name, row.names = FALSE)
 }
-
-# convert official Saskatchewan dataset: old health region boundaries (no longer updated)
-convert_official_sk_data_old_hr <- function() {
-  
-  ### download final SK dataset with old health region boundaries
-  dat <- read.csv("https://drive.google.com/uc?id=1AZ4miZ8sqTs4QzsyaWQjhDAL_NdlljRf&authuser=2&export=download",
-                  stringsAsFactors = FALSE)
-  
-  ### convert data to CCODWG dataset format
-}

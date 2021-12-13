@@ -8,24 +8,11 @@
 # This is most easily achieved by using the provided Covid19Canada.Rproj in RStudio
 
 # Authentication: You must authenticate your Google account before running the rest of the script.
-# You may be asked to give "Tidyverse API Packages" read/write access to your Google account.
+# This is performed in the conductor.R script. See details there.
 
 # Example of downloading CSVs from Google Sheets hosted on Google Drive
 # cases_timeseries_hr: https://docs.google.com/spreadsheets/d/1Ue6HfXbXEQWx6H2eHxORlarU-g9G283iBAsrLA5wg-g/export?format=csv&id=1Ue6HfXbXEQWx6H2eHxORlarU-g9G283iBAsrLA5wg-g
 # mortality_timeseries_hr: https://docs.google.com/spreadsheets/d/1yHQ_U5RvyCXdtum0luuDNmANv_t3_lnrQ8KGk41R0zg/export?format=csv&id=1yHQ_U5RvyCXdtum0luuDNmANv_t3_lnrQ8KGk41R0zg
-
-# authenticate your Google account before running the rest of the script
-library(googledrive) # interface with Google Drive
-library(googlesheets4) # interface with Google Sheets
-if (file.exists("email.txt")) {
-  # automatically read account name from email.txt, if present
-  drive_auth(readLines("email.txt"))
-  gs4_auth(readLines("email.txt"))
-} else {
-  # otherwise, prompt for authentication
-  drive_auth()
-  gs4_auth()
-}
 
 # load libraries
 library(dplyr)
@@ -41,7 +28,7 @@ download.file("https://github.com/ccodwg/Covid19Canada/archive/master.zip", temp
 unzip(temp, exdir = tempd)
 files <- list.files(path = tempd, pattern = "*.csv|*.txt|*.md|*.MD", full.names = TRUE, recursive = TRUE)
 
-### GOOGLE SHEETS FORMAT ###
+### DATA IN GOOGLE SHEETS FORMAT ###
 
 # define folder IDs
 folder_ids <- c(
@@ -60,22 +47,38 @@ for (i in 1:length(folders)) {
   for (f in 1:length(fs)) {
     d <- read.csv(fs[f], stringsAsFactors = TRUE, header = TRUE)
     ss <- gd[gd$name == sub(".csv$", "", basename(fs[f])), ]
-    sheet_write(
-      data = d, ss = ss, sheet = 1)
+    tryCatch(
+      sheet_write(data = d, ss = ss, sheet = 1),
+      error = function(e) cat("Upload failed:", ss, fill = TRUE)
+    )
   }
 }
 
 ### FILES IN ROOT DIRECTORY ###
 
 # copy files in root directory (note that the MD files cannot be converted)
-drive_update(as_id("1l2l0CCigx2ISI9NYeRcdcfz1ABI0z2yz"), files[grep("/README.md", files)])
-drive_update(as_id("1ovgnXT39rhLi0cFu79l-luMkMkE5PUcF"), files[grep("/LICENSE.MD", files)])
-drive_update(as_id("10XQFWIYxmebh9kiY3xyHh2YPnUNvdugt03ewieoao5w"), files[grep("/data_notes.txt", files)])
+tryCatch(
+  drive_update(as_id("1l2l0CCigx2ISI9NYeRcdcfz1ABI0z2yz"), files[grep("/README.md", files)]),
+  error = function(e) cat("Upload failed: README.md", fill = TRUE)
+)
+tryCatch(
+  drive_update(as_id("1ovgnXT39rhLi0cFu79l-luMkMkE5PUcF"), files[grep("/LICENSE.MD", files)]),
+  error = function(e) cat("Upload failed: LICENSE.MD", fill = TRUE)
+)
+tryCatch(
+  drive_update(as_id("10XQFWIYxmebh9kiY3xyHh2YPnUNvdugt03ewieoao5w"), files[grep("/data_notes.txt", files)]),
+  error = function(e) cat("Upload failed: data_notes.txt", fill = TRUE)
+)
+
+# copy update time (should be LAST file updated)
 update_time <- readLines(files[grep("/update_time.txt", files)])
 update_time <- data.frame(update_time)
-range_write(
-  data = update_time,
-  ss = as_id("1kF9Y56WboXU86SqoRaPSrpcwlk9oXD5Cp76wJTWdWNY"),
-  sheet = 1,
-  range = "A1",
-  col_names = FALSE) # should be LAST file updated # should convert to spreadsheet
+tryCatch(
+  range_write(
+    data = update_time,
+    ss = as_id("1kF9Y56WboXU86SqoRaPSrpcwlk9oXD5Cp76wJTWdWNY"),
+    sheet = 1,
+    range = "A1",
+    col_names = FALSE),
+  error = function(e) cat("Upload failed: update_time", fill = TRUE)
+)

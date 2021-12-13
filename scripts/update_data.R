@@ -7,20 +7,7 @@
 # This is most easily achieved by using the provided Covid19Canada.Rproj in RStudio
 
 # Authentication: You must authenticate your Google account before running the rest of the script.
-# You may be asked to give "Tidyverse API Packages" read/write access to your Google account.
-
-# authenticate your Google account before running the rest of the script
-library(googledrive) # interface with Google Drive
-library(googlesheets4) # read from Google Sheets
-if (file.exists("email.txt")) {
-  # automatically read account name from email.txt, if present
-  drive_auth(readLines("email.txt"))
-  gs4_auth(readLines("email.txt"))
-} else {
-  # otherwise, prompt for authentication
-  drive_auth()
-  gs4_auth()
-}
+# This is performed in the conductor.R script. See details there.
 
 # load libraries
 library(dplyr) # data manipulation
