@@ -49,7 +49,7 @@ for (i in 1:length(folders)) {
     ss <- gd[gd$name == sub(".csv$", "", basename(fs[f])), ]
     tryCatch(
       sheet_write(data = d, ss = ss, sheet = 1),
-      error = function(e) cat("Upload failed:", ss, fill = TRUE)
+      error = function(e) cat("Upload failed:", ss$name, fill = TRUE)
     )
   }
 }
