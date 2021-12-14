@@ -33,9 +33,13 @@ get_time_et <- function() {
 
 ## run function after certain date & time (in ET time zone) has been reached
 run_at <- function(time_et, FUN) {
+  cat("Wating until", time_et, "to continue...", fill = TRUE)
+  cat("Current time:", as.character(get_time_et()), fill = TRUE)
   while(get_time_et() < with_tz(time_et, tzone = "America/Toronto")) {
-    Sys.sleep(3) # check every 3 seconds
+    cat(as.character(get_time_et()), "... waiting", fill = TRUE) # print current time
+    Sys.sleep(30) # check every 30 seconds
   }
+  cat("Continuing script...", fill = TRUE)
   FUN
 }
 
