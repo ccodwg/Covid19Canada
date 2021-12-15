@@ -54,8 +54,17 @@ system2(
            )
 )
 
-# push data update
-system2(
-  command = "git",
-  args = c("push")
-)
+# push data update (use GH_PAT from environment, if present)
+gh_pat <- Sys.getenv("GH_PAT")
+if (gh_pat == "") {
+  system2(
+    command = "git",
+    args = c("push")
+  )
+} else {
+  dest <- paste0("https://jeanpaulrsoucy:", gh_pat, "@github.com/ccodwg/Covid19Canada.git")
+  system2(
+    command = "git",
+    args = c("push", dest)
+  )
+}
