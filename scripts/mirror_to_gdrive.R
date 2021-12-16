@@ -49,7 +49,7 @@ for (i in 1:length(folders)) {
     ss <- gd[gd$name == sub(".csv$", "", basename(fs[f])), ]
     tryCatch(
       sheet_write(data = d, ss = ss, sheet = 1),
-      error = function(e) cat("Upload failed:", ss$name, fill = TRUE)
+      error = function(e) {print(e); cat("Upload failed:", ss$name, fill = TRUE)}
     )
   }
 }
@@ -59,15 +59,15 @@ for (i in 1:length(folders)) {
 # copy files in root directory (note that the MD files cannot be converted)
 tryCatch(
   drive_update(as_id("1l2l0CCigx2ISI9NYeRcdcfz1ABI0z2yz"), files[grep("/README.md", files)]),
-  error = function(e) cat("Upload failed: README.md", fill = TRUE)
+  error = function(e) {print(e); cat("Upload failed: README.md", fill = TRUE)}
 )
 tryCatch(
   drive_update(as_id("1ovgnXT39rhLi0cFu79l-luMkMkE5PUcF"), files[grep("/LICENSE.MD", files)]),
-  error = function(e) cat("Upload failed: LICENSE.MD", fill = TRUE)
+  error = function(e) {print(e); cat("Upload failed: LICENSE.MD", fill = TRUE)}
 )
 tryCatch(
   drive_update(as_id("10XQFWIYxmebh9kiY3xyHh2YPnUNvdugt03ewieoao5w"), files[grep("/data_notes.txt", files)]),
-  error = function(e) cat("Upload failed: data_notes.txt", fill = TRUE)
+  error = function(e) {print(e); cat("Upload failed: data_notes.txt", fill = TRUE)}
 )
 
 # copy update time (should be LAST file updated)
@@ -80,5 +80,5 @@ tryCatch(
     sheet = 1,
     range = "A1",
     col_names = FALSE),
-  error = function(e) cat("Upload failed: update_time", fill = TRUE)
+  error = function(e) {print(e); cat("Upload failed: update_time", fill = TRUE)}
 )
