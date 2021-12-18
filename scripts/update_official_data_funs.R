@@ -121,11 +121,94 @@ convert_phac_testing_prov <- function() {
 # update NT sub health-region cases and active cases
 update_nt_subhr <- function() {
   
-  ### download datasets from Google Sheets
-  nt_cases_timeseries_subhr <- sheets_load(files, "ts_nt_subhr", "cases_timeseries_subhr")
-  nt_active_timeseries_subhr <- sheets_load(files, "ts_nt_subhr", "active_timeseries_subhr")
+  # download data
+  ds <- Covid19CanadaData::dl_dataset("9ed0f5cd-2c45-40a1-94c9-25b0c9df8f48")
   
-  ### write datasets
+  ## cases ##
+  
+  # process cases
+  nt_cases_subhr <- Covid19CanadaDataProcess::process_dataset(
+    uuid = "9ed0f5cd-2c45-40a1-94c9-25b0c9df8f48",
+    val = "cases",
+    fmt = "subhr_cum_current_residents_nonresidents",
+    ds = ds
+  )
+  
+  # download current sheet
+  nt_cases_subhr_old <- Covid19CanadaETL::sheets_load(
+    "1RSy3qAqA4jdC4QUVTcSBogIerP7-rNic0H3L5F8_uE0",
+    "cases_timeseries_subhr"
+  ) %>% dplyr::mutate(date = as.Date(date))
+  
+  # remove today's results if re-running
+  if (update_date %in% nt_cases_subhr_old$date) {
+    nt_cases_subhr_old <- nt_cases_subhr_old %>%
+      dplyr::filter(date != update_date)
+    sheet_write(
+      data = nt_cases_subhr_old,
+      ss = "1RSy3qAqA4jdC4QUVTcSBogIerP7-rNic0H3L5F8_uE0",
+      sheet = "cases_timeseries_subhr")
+  }
+  
+  # calculate daily deltas
+  nt_cases_subhr_old <- nt_cases_subhr_old %>%
+    dplyr::filter(date == update_date - 1)
+  nt_cases_subhr$value_daily <- nt_cases_subhr$value - as.integer(nt_cases_subhr_old$value)
+  
+  # update on Google Sheets
+  googlesheets4::sheet_append(
+    "1RSy3qAqA4jdC4QUVTcSBogIerP7-rNic0H3L5F8_uE0",
+    nt_cases_subhr,
+    "cases_timeseries_subhr"
+  )
+  
+  ## active cases ##
+  
+  # process active cases
+  nt_active_subhr <- Covid19CanadaDataProcess::process_dataset(
+    uuid = "9ed0f5cd-2c45-40a1-94c9-25b0c9df8f48",
+    val = "active",
+    fmt = "subhr_current",
+    ds = ds
+  )
+  
+  # download current sheet
+  nt_active_subhr_old <- Covid19CanadaETL::sheets_load(
+    "1RSy3qAqA4jdC4QUVTcSBogIerP7-rNic0H3L5F8_uE0",
+    "active_timeseries_subhr"
+  ) %>% dplyr::mutate(date = as.Date(date))
+  
+  # remove today's results if re-running
+  if (update_date %in% nt_active_subhr_old$date) {
+    nt_active_subhr_old <- nt_active_subhr_old %>%
+      dplyr::filter(date != update_date)
+    sheet_write(
+      data = nt_active_subhr_old,
+      ss = "1RSy3qAqA4jdC4QUVTcSBogIerP7-rNic0H3L5F8_uE0",
+      sheet = "active_timeseries_subhr")
+  }
+  
+  # calculate daily deltas
+  nt_active_subhr_old <- nt_active_subhr_old %>%
+    dplyr::filter(date == max(nt_active_subhr$date) - 1)
+  nt_active_subhr$value_daily <- nt_active_subhr$value - as.integer(nt_active_subhr_old$value)
+  
+  # update on Google Sheets
+  googlesheets4::sheet_append(
+    "1RSy3qAqA4jdC4QUVTcSBogIerP7-rNic0H3L5F8_uE0",
+    nt_active_subhr,
+    "active_timeseries_subhr"
+  )
+  
+  ## update datasets ##
+  
+  # download datasets from Google Sheets
+  nt_cases_timeseries_subhr <- Covid19CanadaETL::sheets_load(
+    "1RSy3qAqA4jdC4QUVTcSBogIerP7-rNic0H3L5F8_uE0", "cases_timeseries_subhr")
+  nt_active_timeseries_subhr <- Covid19CanadaETL::sheets_load(
+    "1RSy3qAqA4jdC4QUVTcSBogIerP7-rNic0H3L5F8_uE0", "active_timeseries_subhr")
+  
+  # write datasets
   write.csv(nt_cases_timeseries_subhr, "official_datasets/nt/nt_cases_timeseries_subhr.csv", row.names = FALSE)
   write.csv(nt_active_timeseries_subhr, "official_datasets/nt/nt_active_timeseries_subhr.csv", row.names = FALSE)
   
