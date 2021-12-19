@@ -26,6 +26,32 @@ library(lubridate)
 
 # define functions
 
+## send email via POST request to GitHub Actions
+send_email <- function(subject, body) {
+  
+  # check if GitHub PAT is available in environment
+  if (Sys.getenv("GITHUB_PAT") != "") {
+    
+    # create JSON request body
+    json_body <- jsonlite::toJSON(
+      list(ref = "main", inputs = list(subject = subject, body = body)),
+      auto_unbox = TRUE)
+    
+    # send POST request
+    httr::POST(
+      url = "https://api.github.com/repos/ccodwg/Covid19CanadaBot/actions/workflows/send-email.yml/dispatches",
+      body = json_body,
+      encode = "raw",
+      httr::add_headers(Accept = "application/vnd.github.v3+json"),
+      httr::authenticate(
+        user = "jeanpaulrsoucy",
+        password = Sys.getenv("GITHUB_PAT"))
+    )
+  } else {
+    warning("Cannot send email. GitHub PAT must be available from the environment as GITHUB_PAT.")
+  }
+}
+
 ## get time in ET time zone (America/Toronto)
 get_time_et <- function() {
   with_tz(Sys.time(), tzone = "America/Toronto")
