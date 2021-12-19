@@ -1,15 +1,17 @@
-New data: 2021-12-17. See data notes.
+New data: 2021-12-18. See data notes.
 
 NOTICE: We are in the process of automating most data collection. PLEASE CONTACT US REGARDING ANY ERRORS YOU MAY FIND. https://opencovid.ca/contact-us/
 
 
-- Rewrite MB vaccine time series. See note below. #87.
-- Recovered in NL declined today for an unknown reason.
-- A case was removed from NT for an unknown reason.
+- See notice below regarding NS cases since 2021-12-10.
+- Added NL vaccine additional doses. Historical values added back to 2021-12-01. Values prior to this are not available, as the relevant data source was not archived until that date.
 
 RECENT CHANGES TO THE DATASET:
 
-MB vaccine total doses and vaccine completions time series were rewritten on 2021-12-17 using the time series on the MB vaccination page (https://www.gov.mb.ca/covid19/vaccine/reports.html). We shifted the time series one day forward (because the value for 2021-12-16 is reported on 2021-12-17). Values of the total doses time series prior to 2020-12-16 were dropped, as this is the first day vaccines were administered in MB. Values of vaccine completions prior to 2021-01-13 were dropped, as this is the first day this value was originally reported by MB. The reason for rewriting this time series is that the total doses and vaccine completion datasets were slightly different; with this time series, these two values come from the same source, along with the new vaccine additional doses time series.
+Since 2021-12-10, cases for NS have been based on the number of cases reported in the daily press releases (https://novascotia.ca/news/search/?dept=180) rather than the usual dashboard numbers (https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad). Quoting the press release from 2021-12-10 (https://novascotia.ca/news/release/?id=20211210011): “Because of the outbreak at St. Francis Xavier University in Antigonish, beginning today, the number of positive cases using lab results, not Panorama results, will be reported to better reflect the situation on the ground. The results will continue to be reported by zone.” We will pull these numbers from the daily press releases (these numbers are also reported on the dashboard, but the dashboard is not updated on weekends). [Note that historical values for 2021-12-10 to 2021-12-17 were re-calculated on 2021-12-18.]
+
+
+MB vaccine total doses and vaccine completions time series were rewritten on 2021-12-17 using the time series on the MB vaccination page (https://www.gov.mb.ca/covid19/vaccine/reports.html). We shifted the time series one day forward (because the value for 2021-12-16 is reported on 2021-12-17). Values of the total doses time series prior to 2020-12-16 were dropped, as this is the first day vaccines were administered in MB. Values of vaccine completions prior to 2021-01-13 were dropped, as this is the first day this value was originally reported by MB. The reason for rewriting this time series is that the total doses and vaccine completion datasets were slightly different; with this time series, these two values come from the same source, along with the new vaccine additional doses time series. With this new data source, we will prioritize matching today’s cumulative total for each value, as usual. This will occasionally result in strange values (e.g., more new third doses than total doses). This is because MB makes extensive modifications to the historical values in their time series. However, we cannot account for these unless we rewrite the entire vaccination time series every day.
 
 
 As of 2021-12-06, the NWT sub-health region active cases dataset (official_datasets/nt/nt_active_timeseries_subhr.csv) no longer delineates between active cases in residents and non-residents, instead giving only the total number of active cases.
