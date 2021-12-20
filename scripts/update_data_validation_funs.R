@@ -1,83 +1,107 @@
 # Functions for: COVID-19 Canada Open Data Working Group Data Update Validation Script #
 # Author: Jean-Paul R. Soucy #
 
-# define functions for loading data
+## FUNCTIONS FOR LOADING DATA ##
 
-## download current data from GitHub repository
+# define data directories
+data_dirs <- "timeseries_canada|timeseries_prov|timeseries_hr|timeseries_hr_sk_new|official_datasets"
+
+# download current data from GitHub repository
 download_current_data <- function() {
   
+  # download current data from GitHub
   temp <- tempfile()
   tempd <- tempdir()
   download.file("https://github.com/ccodwg/Covid19Canada/archive/master.zip", temp, mode = "wb")
   unzip(temp, exdir = tempd)
-  old_files <- list.files(path = tempd, pattern = "*.csv", full.names = TRUE, recursive = TRUE)
+  
+  # load files from specified directories
+  old_files <- list.files(
+    path = tempd,
+    pattern = data_dirs,
+    full.names = TRUE,
+    recursive = TRUE)
   invisible(list2env(
     lapply(setNames(old_files, make.names(paste0("old_", sub(".csv", "", basename(old_files))))), 
            read.csv, stringsAsFactors = FALSE), envir = .GlobalEnv))
+  
+  # load update time
   assign("old_update_time", readLines(paste(tempd, "Covid19Canada-master", "update_time.txt", sep = "/")),
          envir = .GlobalEnv)
-  ### delete temporary files
-  unlink(temp) # delete GitHub download
-  unlink(paste(tempd, "Covid19Canada-master", sep = "/"), recursive = TRUE) # delete unzipped files
+  
+  # clean up
+  unlink(temp)
+  unlink(paste(tempd, "Covid19Canada-master", sep = "/"), recursive = TRUE)
   
 }
 
-## load new data
+# load new data from local drive
 load_new_data <- function() {
  
-  new_files <- list.files(path = ".", pattern = "*.csv", full.names = TRUE, recursive = TRUE)
+  # load files from specified directories
+  new_files <- list.files(path = ".", pattern = data_dirs, full.names = TRUE, recursive = TRUE)
   invisible(list2env(
     lapply(setNames(new_files, make.names(sub(".csv", "", basename(new_files)))), 
            read.csv, stringsAsFactors = FALSE), envir = .GlobalEnv))
+  
+  # load update time
   assign("update_time", readLines("update_time.txt"), envir = .GlobalEnv)
   assign("update_date", as.Date(update_time), envir = .GlobalEnv)
    
 }
 
-## convert all dates to ISO 8601
+# convert all dates to ISO 8601
 convert_dates <- function() {
- 
   for (df in names(which(unlist(eapply(.GlobalEnv, is.data.frame))))) {
     assign(df, get(df) %>%
              mutate(
                across(starts_with("date_"), as.Date, format = "%d-%m-%Y")),
-           envir = .GlobalEnv
-    )
-  }
-   
+           envir = .GlobalEnv)}
 }
 
+## FUNCTIONS FOR SUMMARIZING DATA ##
+
 # define data types
-types <- c("cases", "mortality", "recovered", "testing")
+types <- c("cases", "mortality", "recovered", "testing", "vaccine_distribution", "vaccine_administration", "vaccine_completion", "vaccine_additionaldoses")
+types_vals <- c("cases", "deaths", "recovered", "testing", "dvaccine", "avaccine", "cvaccine", "additionaldosesvaccine")
+types_names <- c("Cases", "Deaths", "Recovered", "Testing", "Vaccine distribution", "Vaccine administration", "Vaccine completion", "Vaccine additional doses")
 types_hr <- c("cases", "mortality")
 
 # define function to print today's cumulative numbers
-print_summary_today <- function() {
+summary_today <- function() {
   
   cat("Old data:", old_update_time, fill = TRUE)
   cat("New data:", update_time, "\n", fill = TRUE)
-  cat("Today's summary...", fill = TRUE)
-  cat("Total cases:", cases_timeseries_canada %>% filter(date_report == update_date) %>% pull(cumulative_cases), fill = TRUE)
-  cat("Cases today:", cases_timeseries_canada %>% filter(date_report == update_date) %>% pull(cases), fill = TRUE)
-  cat("Total deaths:", mortality_timeseries_canada %>% filter(date_death_report == update_date) %>% pull(cumulative_deaths), fill = TRUE)
-  cat("Deaths today:", mortality_timeseries_canada %>% filter(date_death_report == update_date) %>% pull(deaths), fill = TRUE)
-  cat("Total recovered:", recovered_timeseries_canada %>% filter(date_recovered == update_date) %>% pull(cumulative_recovered), fill = TRUE)
-  cat("Recovered today:", recovered_timeseries_canada %>% filter(date_recovered == update_date) %>% pull(recovered), fill = TRUE)
-  cat("Total testing:", testing_timeseries_canada %>% filter(date_testing == update_date) %>% pull(cumulative_testing), fill = TRUE)
-  cat("Testing today:", testing_timeseries_canada %>% filter(date_testing == update_date) %>% pull(testing), fill = TRUE)
-  cat("Vaccine distribution today:", vaccine_distribution_timeseries_canada %>% filter(date_vaccine_distributed == update_date) %>% pull(dvaccine), fill = TRUE)
-  cat("Total vaccine distribution:", vaccine_distribution_timeseries_canada %>% filter(date_vaccine_distributed == update_date) %>% pull(cumulative_dvaccine), fill = TRUE)
-  cat("Vaccine administration today:", vaccine_administration_timeseries_canada %>% filter(date_vaccine_administered == update_date) %>% pull(avaccine), fill = TRUE)
-  cat("Total vaccine administration:", vaccine_administration_timeseries_canada %>% filter(date_vaccine_administered == update_date) %>% pull(cumulative_avaccine), fill = TRUE)
-  cat("Vaccine completion today:", vaccine_completion_timeseries_canada %>% filter(date_vaccine_completed == update_date) %>% pull(cvaccine), fill = TRUE)
-  cat("Total vaccine completion:", vaccine_completion_timeseries_canada %>% filter(date_vaccine_completed == update_date) %>% pull(cumulative_cvaccine), fill = TRUE)
-  cat("Vaccine additional doses today:", vaccine_additionaldoses_timeseries_canada %>% filter(date_vaccine_additionaldoses == update_date) %>% pull(additionaldosesvaccine), fill = TRUE)
-  cat("Total vaccine additional doses:", vaccine_additionaldoses_timeseries_canada %>% filter(date_vaccine_additionaldoses == update_date) %>% pull(cumulative_additionaldosesvaccine), fill = TRUE)
+  for (i in 1:length(types)) {
+    # get values
+    df <- get(ls(pattern = paste0("^", types[i], "_timeseries_canada"), name = ".GlobalEnv"))
+    date_col <- grep("^date_", names(df), value = TRUE)
+    val_col <- types_vals[i]
+    val_cum_col <- paste0("cumulative_", val_col)
+    df <- df %>%
+      # get last 7 days of data
+      filter(!!sym(date_col) >= update_date - 6 & !!sym(date_col) <= update_date) %>%
+      transmute(date = !!sym(date_col), value_daily = !!sym(val_col), value_cumulative = !!sym(val_cum_col))
+    # calculate values
+    daily_today <- df %>% filter(date == update_date) %>% pull(value_daily)
+    cumulative_today <- df %>% filter(date == update_date) %>% pull(value_cumulative)
+    daily_7day <- df %>% pull(value_daily) %>% mean()
+    comp_to_7day <- round((daily_today - daily_7day) / daily_7day * 100, 0)
+    # print values
+    cat(types_names[i], ": ",
+        format(daily_today, big.mark = ",", scientific = FALSE),
+        " (today) / ",
+        formatC(comp_to_7day, big.mark = ",", digits = 0, format = "d", flag = "+"),
+        "% compared to 7-day average (",
+        format(daily_7day, big.mark = ",", digits = 0, scientific = FALSE),
+        ") / ",
+        format(cumulative_today, big.mark = ",", scientific = FALSE),
+        " (cumulative)",
+        sep = "", fill = TRUE)
+  }
 }
 
-# define functions for time series data
-
-## Canadian data
+# Canadian data
 ts_canada <- function() {
   
   cat("\nChecking Canada time series...", fill = TRUE)
@@ -105,7 +129,7 @@ ts_canada <- function() {
   
 }
 
-## provincial data
+# provincial data
 ts_prov <- function() {
   
   cat("\nChecking provincial time series...\n", fill = TRUE)
@@ -140,7 +164,7 @@ ts_prov <- function() {
   
 }
 
-## health region data
+# health region data
 ### Interpretation note: If the script reports historical modifications for the entire time series back to the beginning,
 ### it likely means the health region was newly added and the script has assembled a new time series
 ### for the new health region going back to the beginning (filled with 0s except for the most recent date).

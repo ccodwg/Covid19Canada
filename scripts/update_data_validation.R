@@ -29,8 +29,8 @@ convert_dates()
 # stop running script if old update time and new update time are the same
 if (identical(old_update_time, update_time)) stop("Update times for old and new data are the same.")
 
-## print today's summary of cumulative and daily numbers
-print_summary_today()
+## summarize Canada-wide daily and cumulative numbers
+summary_today()
 
 ## check Canadian time series
 ts_canada()
