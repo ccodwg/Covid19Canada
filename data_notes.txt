@@ -1,13 +1,20 @@
-New data: 2021-12-19. See data notes.
+New data: 2021-12-20. See data notes.
 
 NOTICE: We are in the process of automating most data collection. PLEASE CONTACT US REGARDING ANY ERRORS YOU MAY FIND. https://opencovid.ca/contact-us/
 
 
 - See notice below regarding NS cases since 2021-12-10.
+- See notice below regarding PE cases since 2021-11-02.
+- PE claims 488 cases on 2021-12-18 and 21 new cases on 2021-12-20 but gives a cumulative total of 504 (rather than 509). We used the cumulative number (it is possible that several old cases were silently removed).
 
 RECENT CHANGES TO THE DATASET:
 
-Since 2021-12-10, cases for NS have been based on the number of cases reported in the daily press releases (https://novascotia.ca/news/search/?dept=180) rather than the usual dashboard numbers (https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad). Quoting the press release from 2021-12-10 (https://novascotia.ca/news/release/?id=20211210011): “Because of the outbreak at St. Francis Xavier University in Antigonish, beginning today, the number of positive cases using lab results, not Panorama results, will be reported to better reflect the situation on the ground. The results will continue to be reported by zone.” We will pull these numbers from the daily press releases (these numbers are also reported on the dashboard, but the dashboard is not updated on weekends). [Note that historical values for 2021-12-10 to 2021-12-17 were re-calculated on 2021-12-18.]
+Since 2021-12-10, cases for NS have been based on the number of cases reported in the daily press releases (https://novascotia.ca/news/search/?dept=180) rather than the usual dashboard numbers (https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad). Quoting the press release from 2021-12-10 (https://novascotia.ca/news/release/?id=20211210011): “Because of the outbreak at St. Francis Xavier University in Antigonish, beginning today, the number of positive cases using lab results, not Panorama results, will be reported to better reflect the situation on the ground. The results will continue to be reported by zone.” We will pull these numbers from the daily press releases (these numbers are also reported on the dashboard, but the dashboard is not updated on weekends). [Note that historical values for 2021-12-10 to 2021-12-17 were re-calculated on 2021-12-18.] [GitHub issue #89]
+
+
+Since 2021-11-02, cases for PE have been based on the number of cases reported by PHAC on weekdays (https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html) and the daily press releases on weekends (https://www.princeedwardisland.ca/en/news), as the PHAC dataset is not updated over the weekend. This change is due to the very inconsistent updating of the usual data source, the PEI dashboard (https://www.princeedwardisland.ca/en/information/health-and-wellness/covid-19-testing-and-case-data). The data reported by PHAC seems to match the data reported in press releases. [Note that historical values for 2021-11-02 to 2021-12-20 were re-calculated on 2021-12-20. 2021-11-02 was selected because it was not too far back and there was agreement in the number of cumulative cases reported by PHAC and the province on this day (319).] [GitHub issue #89]
+
+
 
 
 MB vaccine total doses and vaccine completions time series were rewritten on 2021-12-17 using the time series on the MB vaccination page (https://www.gov.mb.ca/covid19/vaccine/reports.html). We shifted the time series one day forward (because the value for 2021-12-16 is reported on 2021-12-17). Values of the total doses time series prior to 2020-12-16 were dropped, as this is the first day vaccines were administered in MB. Values of vaccine completions prior to 2021-01-13 were dropped, as this is the first day this value was originally reported by MB. The reason for rewriting this time series is that the total doses and vaccine completion datasets were slightly different; with this time series, these two values come from the same source, along with the new vaccine additional doses time series. With this new data source, we will prioritize matching today’s cumulative total for each value, as usual. This will occasionally result in strange values (e.g., more new third doses than total doses). This is because MB makes extensive modifications to the historical values in their time series. However, we cannot account for these unless we rewrite the entire vaccination time series every day.
