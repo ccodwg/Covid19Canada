@@ -29,20 +29,14 @@ convert_dates()
 # stop running script if old update time and new update time are the same
 if (identical(old_update_time, update_time)) stop("Update times for old and new data are the same.")
 
-## summarize Canada-wide daily and cumulative numbers
-summary_today()
+# summarize Canada-wide daily and cumulative numbers
+summary_today_overall()
 
-## check Canadian time series
-ts_canada()
+# summarize provincial daily numbers by metric
+summary_today_by_metric()
 
-## check provincial time series
+# check provincial time series
 ts_prov()
 
-## check health region time series
+# check health region time series
 ts_hr()
-
-## summarize today's numbers
-summarize_today()
-
-## report zeros and negatives in time series
-report_zeros_negatives(report_positive = FALSE, report_hr = FALSE)
