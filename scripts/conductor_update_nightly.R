@@ -38,7 +38,12 @@ date_today <- as.character(date(get_time_et()))
 source("scripts/update_data.R")
 
 # update official data
-source("scripts/update_official_data.R")
+# don't run if status == "NO_UPDATE"
+if (status == "NO_UPDATE") {
+  cat("CCODWG_STATUS is set to NO_UPDATE. Skipping update of official datasets...", fill = TRUE)
+} else {
+  source("scripts/update_official_data.R")
+}
 
 # validate data update
 source("scripts/update_data_validation.R")

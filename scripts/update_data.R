@@ -82,18 +82,23 @@ for (i in 1:nrow(ds)) {
   }
   
   # add columns for tomorrow (if not present already) and upload to Google Sheets
-  col_tomorrow <- as.character(update_date + 1)
-  col_tomorrow_manual <- paste0(col_tomorrow, "_manual")
-  if (!col_tomorrow %in% names(dat) & !col_tomorrow_manual %in% names(dat)) {
-    dat <- dat %>%
-      tibble::add_column(
-        tibble(
-          !!sym(col_tomorrow_manual) := NA,
-          !!sym(col_tomorrow) := NA),
-        .before = as.character(update_date)
-      )
+  # don't run if status == "NO_UPDATE"
+  if (status == "NO_UPDATE") {
+    cat("CCODWG_STATUS is set to NO_UPDATE. Skipping update of Google Sheets data...", fill = TRUE)
+  } else {
+    col_tomorrow <- as.character(update_date + 1)
+    col_tomorrow_manual <- paste0(col_tomorrow, "_manual")
+    if (!col_tomorrow %in% names(dat) & !col_tomorrow_manual %in% names(dat)) {
+      dat <- dat %>%
+        tibble::add_column(
+          tibble(
+            !!sym(col_tomorrow_manual) := NA,
+            !!sym(col_tomorrow) := NA),
+          .before = as.character(update_date)
+        )
+    }
+    sheets_upload(dat, files, "covid19", ds[i, "drive_name"])
   }
-  sheets_upload(dat, files, "covid19", ds[i, "drive_name"])
   
   # process data for update script
   assign(ds[i, "file"], {
