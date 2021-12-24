@@ -11,6 +11,9 @@
 # get CCODWG_STATUS environmental variable, if set
 # if status == "NO_UPDATE", the data update will be validated but not pushed to GitHub
 status <- Sys.getenv("CCODWG_STATUS")
+if (status == "NO_UPDATE") {
+  cat("CCODWG_STATUS is set to NO_UPDATE. Beginning script...", fill = TRUE)
+}
 
 # authenticate your Google account before running the rest of the script
 library(googledrive) # interface with Google Drive
