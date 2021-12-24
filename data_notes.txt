@@ -1,4 +1,4 @@
-New data: 2021-12-22. See data notes.
+New data: 2021-12-23. See data notes.
 
 NOTICE: We are in the process of automating most data collection. PLEASE CONTACT US REGARDING ANY ERRORS YOU MAY FIND. https://opencovid.ca/contact-us/
 
@@ -6,19 +6,24 @@ NOTICE: We are in the process of automating most data collection. PLEASE CONTACT
 DATA NOTES:
 
 
-- See notice below regarding NS cases since 2021-12-10.
-- See notice below regarding PE cases since 2021-11-02.
-- Brought PE recovered time series in alignment with cases, up to 2021-11-02.
-- NS did not update their dashboard today. Instead, values for testing and vaccination were pulled from today’s news release (https://novascotia.ca/news/release/?id=20211222004). Case and mortality values were also pulled from the news release (see notice below). A recovered value was not available but will be added retroactively, if possible.
+- See notice in “RECENT CHANGES” section below regarding NS cases since 2021-12-10.
+- See notice in “RECENT CHANGES” section below regarding PE cases since 2021-11-02.
 
 
 NEWS RELEVANT TO COVID-19 DATA:
 
 
-Announcement from Nova Scotia (https://twitter.com/nsgov/status/1473754314443309056):
+Announcement from Nova Scotia (2021-12-22; https://twitter.com/nsgov/status/1473754314443309056):
 
 
 “If you test positive on a take-home rapid testing kit, do not book a PCR test. You need to assume you have COVID-19, assume you are contagious, and you and your household must self-isolate. You must inform your close contacts.”
+
+
+Announcement from Ottawa Public Health (2021-12-20; https://twitter.com/OttawaHealth/status/1472987812794454028):
+
+
+“If you have symptoms of COVID-19, have tested + on a rapid antigen test or have been exposed to a positive case please self-isolate & follow the guidance.” Those testing positive on RATs are directed not to confirm with PCR and are not reported to public health (https://twitter.com/YoniFreedhoff/status/1473990345125937158).
+
 
 RECENT CHANGES TO THE DATASET:
 
