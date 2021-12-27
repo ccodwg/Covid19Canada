@@ -16,18 +16,13 @@
 
 # load libraries
 library(dplyr)
-library(curl)
 
 # define folders
 folders <- c("official_datasets", "other", "timeseries_canada",
              "timeseries_hr", "timeseries_hr_sk_new", "timeseries_prov")
 
-# download GitHub repository and list relevant files
-temp <- tempfile()
-tempd <- tempdir()
-curl_download("https://github.com/ccodwg/Covid19Canada/archive/master.zip", temp, mode = "wb", quiet = FALSE)
-unzip(temp, exdir = tempd)
-files <- list.files(path = tempd, pattern = "*.csv|*.txt|*.md|*.MD", full.names = TRUE, recursive = TRUE)
+# list relevant files
+files <- list.files(path = getwd(), pattern = "*.csv|*.txt|*.md|*.MD", full.names = TRUE, recursive = TRUE)
 
 ### DATA IN GOOGLE SHEETS FORMAT ###
 

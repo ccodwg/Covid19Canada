@@ -10,10 +10,15 @@ data_dirs <- "timeseries_canada|timeseries_prov|timeseries_hr|timeseries_hr_sk_n
 download_current_data <- function() {
   
   # download current data from GitHub
-  temp <- tempfile()
-  tempd <- tempdir()
-  curl_download("https://github.com/ccodwg/Covid19Canada/archive/master.zip", temp, mode = "wb", quiet = FALSE)
-  unzip(temp, exdir = tempd)
+  tempd <- paste0(tempdir(), "/Covid19Canada")
+  system2(
+    command = "git",
+    args = c("clone",
+             "--depth=1",
+             "--progress",
+             "https://github.com/ccodwg/Covid19Canada.git",
+             tempd)
+  )
   
   # load files from specified directories
   old_files <- list.files(
@@ -155,11 +160,8 @@ ts_prov <- function() {
         diff_prov <- filter(diff_prov, !(!!sym(date_var) == update_date & chng_type == "+"))
         cat(bgBlue(paste0(prov, " ", type, ": regular update and historical modifications (", paste(unique(pull(diff_prov, date_var)), collapse = ", "), ")")), fill = TRUE)
       }
-      
     }
-    
   }
-  
 }
 
 # health region data
@@ -198,11 +200,7 @@ ts_hr <- function() {
           diff_hr <- filter(diff_hr, !(!!sym(date_var) == update_date & chng_type == "+"))
           cat(bgBlue(paste0(hr, " (", prov, ") ", type, ": regular update and historical modifications (", paste(unique(pull(diff_hr, date_var)), collapse = ", "), ")")), fill = TRUE)
         }
-        
       }
-      
     }
-    
   }
-  
 }
