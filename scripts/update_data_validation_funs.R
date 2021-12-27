@@ -12,7 +12,7 @@ download_current_data <- function() {
   # download current data from GitHub
   temp <- tempfile()
   tempd <- tempdir()
-  download.file("https://github.com/ccodwg/Covid19Canada/archive/master.zip", temp, mode = "wb")
+  curl_download("https://github.com/ccodwg/Covid19Canada/archive/master.zip", temp, mode = "wb", quiet = FALSE)
   unzip(temp, exdir = tempd)
   
   # load files from specified directories

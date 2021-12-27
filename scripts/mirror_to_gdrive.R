@@ -16,6 +16,7 @@
 
 # load libraries
 library(dplyr)
+library(curl)
 
 # define folders
 folders <- c("official_datasets", "other", "timeseries_canada",
@@ -24,7 +25,7 @@ folders <- c("official_datasets", "other", "timeseries_canada",
 # download GitHub repository and list relevant files
 temp <- tempfile()
 tempd <- tempdir()
-download.file("https://github.com/ccodwg/Covid19Canada/archive/master.zip", temp, mode = "wb")
+curl_download("https://github.com/ccodwg/Covid19Canada/archive/master.zip", temp, mode = "wb", quiet = FALSE)
 unzip(temp, exdir = tempd)
 files <- list.files(path = tempd, pattern = "*.csv|*.txt|*.md|*.MD", full.names = TRUE, recursive = TRUE)
 

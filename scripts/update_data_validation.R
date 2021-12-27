@@ -13,6 +13,7 @@ library(stringr) # manipulate strings
 library(lubridate) # better dates
 library(compareDF) # compare data frames
 library(crayon) # colourful output in console
+library(curl) # better downloading
 
 # load functions
 source("scripts/update_data_validation_funs.R")
