@@ -71,6 +71,10 @@ The scripts used to prepare, update and validate the datasets in this repository
 
 We would like to thank all individuals and organizations across Canada who have worked tirelessly to provide data to the public during this pandemic.
 
+Additionally, we thank the following organizations/individuals for their support:
+
+[Public Health Agency of Canada](https://www.canada.ca/en/public-health.html) / Joe Murray ([JMA Consulting](https://jmaconsulting.biz/home))
+
 ## Contact us
 
 You can learn more about the COVID-19 Canada Open Data Working Group at [our website](https://opencovid.ca/) and reach out to us via our [contact page](https://opencovid.ca/contact-us/).
