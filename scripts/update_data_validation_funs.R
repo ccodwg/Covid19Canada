@@ -11,6 +11,9 @@ download_current_data <- function() {
   
   # download current data from GitHub
   tempd <- paste0(tempdir(), "/Covid19Canada")
+  if (dir.exists(tempd)) {
+    unlink(tempd, recursive = TRUE)
+  }
   system2(
     command = "git",
     args = c("clone",
@@ -31,12 +34,11 @@ download_current_data <- function() {
            read.csv, stringsAsFactors = FALSE), envir = .GlobalEnv))
   
   # load update time
-  assign("old_update_time", readLines(paste(tempd, "Covid19Canada-master", "update_time.txt", sep = "/")),
+  assign("old_update_time", readLines(paste(tempd, "update_time.txt", sep = "/")),
          envir = .GlobalEnv)
   
   # clean up
-  unlink(temp)
-  unlink(paste(tempd, "Covid19Canada-master", sep = "/"), recursive = TRUE)
+  unlink(tempd, recursive = TRUE)
   
 }
 

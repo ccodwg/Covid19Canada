@@ -28,33 +28,33 @@ files <- drive_ls("ccodwg/data")
 # official PHAC testing (n_tests_completed) province-level dataset
 tryCatch(
   convert_phac_testing_prov(),
-  error = function(e) cat("Error: convert_phac_testing_prov()", fill = TRUE)
+  error = function(e) {print(e); cat("Error: convert_phac_testing_prov()", fill = TRUE)}
 )
 
 # official Quebec dataset (incomplete, testing only)
 tryCatch(
   convert_official_qc(),
-  error = function(e) cat("Error: convert_official_qc()", fill = TRUE)
+  error = function(e) {print(e); cat("Error: convert_official_qc()", fill = TRUE)}
 )
 
 # NT sub health-region cases and active cases
 tryCatch(
   update_nt_subhr(),
-  error = function(e) cat("Error: update_nt_subhr()", fill = TRUE)
+  error = function(e) {print(e); cat("Error: update_nt_subhr()", fill = TRUE)}
 )
 
 # official Saskatchewan dataset: new health region boundaries
 tryCatch(
   convert_official_sk_new_hr(),
-  error = function(e) cat("Error: convert_official_sk_new_hr()", fill = TRUE)
+  error = function(e) {print(e); cat("Error: convert_official_sk_new_hr()", fill = TRUE)}
 )
 
 # combined dataset: CCODWG dataset & official Saskatchewan dataset
 tryCatch(
   combine_ccodwg_official_sk_new_hr(stat = 'cases', loc = 'hr'),
-  error = function(e) cat("Error: combine_ccodwg_official_sk_new_hr(stat = 'cases', loc = 'hr')", fill = TRUE)
+  error = function(e) {print(e); cat("Error: combine_ccodwg_official_sk_new_hr(stat = 'cases', loc = 'hr')", fill = TRUE)}
 )
 tryCatch(
   combine_ccodwg_official_sk_new_hr(stat = 'mortality', loc = 'hr'),
-  error = function(e) cat("Error: combine_ccodwg_official_sk_new_hr(stat = 'mortality', loc = 'hr')", fill = TRUE)
+  error = function(e) {print(e); cat("Error: combine_ccodwg_official_sk_new_hr(stat = 'mortality', loc = 'hr')", fill = TRUE)}
 )
