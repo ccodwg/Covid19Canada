@@ -93,11 +93,17 @@ if (status == "NO_UPDATE") {
     # push update
     source("scripts/github_update.R")
     
+    # send notification (if GITHUB_PAT environmental variable is set)
+    pushover(message = "Operation successful.", priority = 1, title = "Data update pushed to GitHub")
+    
     # wait 15 seconds
     Sys.sleep(15)
     
     # sync updated files to Google Drive
     source("scripts/mirror_to_gdrive.R")
+    
+    # send notification (if GITHUB_PAT environmental variable is set)
+    pushover(message = "Operation successful.", priority = 1, title = "Data update synced to Google Drive")
     
   })
 }
