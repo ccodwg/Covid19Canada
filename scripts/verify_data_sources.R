@@ -26,7 +26,6 @@ source("scripts/conductor_update_nightly_funs.R")
 
 # load libraries
 library(lubridate)
-library(magrittr)
 library(dplyr)
 
 # get today's date
@@ -65,7 +64,8 @@ verify_data_sources <- function(ss, sheet, loc = c("prov", "hr"), exclude_manual
   dat <- dat %>% filter(is.na(!!sym(date_today_manual)))
   # rename columns
   if (loc == "prov") {
-    dat <- dat %>% transmute(location = province, value = !!sym(date_today))
+    dat <- dat %>%
+      transmute(location = province, value = !!sym(date_today))
   } else {
     dat <- dat %>%
       transmute(location = paste(province, health_region, sep = " - "), value = !!sym(date_today))
@@ -108,16 +108,16 @@ verify_data_sources <- function(ss, sheet, loc = c("prov", "hr"), exclude_manual
   } else {
     # report blanks
     if (nrow(blanks) != 0) {
-      results <<- paste0(results, "\n", sheet, ": blanks\n", paste(blanks$location, collapse = "\n"), "\n")
+      results <<- paste0(results, sheet, ": blanks\n", paste(blanks$location, collapse = "\n"), "\n\n")
     }
     # report zeros
     if (nrow(zeros) != 0) {
-      results <<- paste0(results, "\n", sheet, ": zeros\n", paste(zeros$location, collapse = "\n"), "\n")
+      results <<- paste0(results, sheet, ": zeros\n", paste(zeros$location, collapse = "\n"), "\n\n")
     }
   }
 }
 
-# blank email body
+# blank results body
 results <- ""
 
 # run for health region data
