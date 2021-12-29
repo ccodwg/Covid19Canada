@@ -134,6 +134,23 @@ update_nt_subhr <- function() {
     ds = ds
   )
   
+  # if nt_cases_subhr is NA, try downloading ds again and try again
+  if (identical(nt_cases_subhr, NA)) {
+    Sys.sleep(15)
+    ds <- Covid19CanadaData::dl_dataset("9ed0f5cd-2c45-40a1-94c9-25b0c9df8f48")
+    nt_cases_subhr <- Covid19CanadaDataProcess::process_dataset(
+      uuid = "9ed0f5cd-2c45-40a1-94c9-25b0c9df8f48",
+      val = "cases",
+      fmt = "subhr_cum_current_residents_nonresidents",
+      ds = ds
+    )
+  }
+  
+  # if still NA, throw an error
+  if (identical(nt_cases_subhr, NA)) {
+    stop("Failed to download ds: 9ed0f5cd-2c45-40a1-94c9-25b0c9df8f48.")
+  }
+  
   # download current sheet
   nt_cases_subhr_old <- Covid19CanadaETL::sheets_load(
     "1RSy3qAqA4jdC4QUVTcSBogIerP7-rNic0H3L5F8_uE0",
