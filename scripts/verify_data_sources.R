@@ -139,5 +139,5 @@ if (results == "") {
 } else {
   results <<- paste0("Summary of blank and/or zero values\n", results)
   cat("Sending email...", fill = TRUE)
-  send_email(subject = "CCODWG Update - blanks and/or zeros values", body = results)
+  Covid19CanadaETL::send_email(subject = "CCODWG Update - blanks and/or zeros values", body = results)
 }
