@@ -127,7 +127,7 @@ summary_today_by_metric <- function() {
       # arrange by descending order of value
       arrange(desc(value_daily)) %>%
       # format values
-      mutate(value_daily = format(value_daily, big.mark = ","))
+      mutate(value_daily = format(value_daily, big.mark = ",", scientific = FALSE))
     # print summary
     print(df, row.names = FALSE)
     cat("\n", fill = TRUE) # blank line
