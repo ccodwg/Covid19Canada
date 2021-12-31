@@ -29,8 +29,10 @@ library(lubridate)
 library(dplyr)
 
 # get today's date
-date_today <- as.character(date(get_time_et()))
+date_today <- date(get_time_et())
 date_today_manual <- paste0(date_today, "_manual")
+date_yesterday <- as.character(date_today - 1)
+date_today <- as.character(date_today)
 
 # list files in Google Drive data folder
 ss <- drive_ls("ccodwg/data") %>%
@@ -40,11 +42,11 @@ ss <- drive_ls("ccodwg/data") %>%
 verify_data_sources <- function(ss, sheet, loc = c("prov", "hr"), exclude_manual = TRUE) {
   # verify args
   match.arg(loc, choices = c("prov", "hr"), several.ok = FALSE)
-  # define cells to read
+  # define cells to read (values for today and yesterday)
   if (loc == "prov") {
-    range <- c("A:D")
-  } else {
     range <- c("A:E")
+  } else {
+    range <- c("A:F")
   }
   # read cells
   dat <- range_read(ss = ss, sheet = sheet, range = range, col_types = "c")
@@ -65,15 +67,19 @@ verify_data_sources <- function(ss, sheet, loc = c("prov", "hr"), exclude_manual
   # rename columns
   if (loc == "prov") {
     dat <- dat %>%
-      transmute(location = province, value = !!sym(date_today))
+      transmute(location = province,
+                value_today = !!sym(date_today),
+                value_yesterday = !!sym(date_yesterday))
   } else {
     dat <- dat %>%
-      transmute(location = paste(province, health_region, sep = " - "), value = !!sym(date_today))
+      transmute(location = paste(province, health_region, sep = " - "),
+                value_today = !!sym(date_today),
+                value_yesterday = !!sym(date_yesterday))
   }
   # find blank values
-  blanks <- dat %>% filter(is.na(value))
+  blanks <- dat %>% filter(is.na(value_today))
   # find zeroes
-  zeros <- dat %>% filter(value == "0")
+  zeros <- dat %>% filter(value_today == "0")
   if (nrow(zeros) > 0) {
     # read full spreadsheet
     dat <- read_sheet(ss = ss, sheet = sheet, col_types = "c")
@@ -102,17 +108,40 @@ verify_data_sources <- function(ss, sheet, loc = c("prov", "hr"), exclude_manual
     # filter to zeros where not all values are 0
     zeros <- zeros %>% filter(dat$row_sum != 0)
   }
+  # find large cumulative changes
+  large_changes <- dat %>%
+    # drop locations w/ zeros or blanks
+    filter(location %in% c(zeros$location, blanks$location)) %>%
+    # convert columns to integer
+    mutate(across(!location, as.integer)) %>%
+    # calculate % change since yesterday
+    mutate(percent_change = (value_today - value_yesterday) / value_yesterday * 100) %>%
+    # filter to large changes (>10% in absolute value)
+    filter(abs(percent_change) >10)
   # report results
-  if (nrow(blanks) == 0 & nrow(zeros) == 0) {
+  if (nrow(blanks) == 0 & nrow(zeros) == 0 & nrow(large_changes) == 0) {
     cat(sheet, ": No issues to report", sep = "", fill = TRUE)
   } else {
     # report blanks
     if (nrow(blanks) != 0) {
+      cat(sheet, ": Adding blanks", sep = "", fill = TRUE)
       results <<- paste0(results, sheet, ": blanks\n", paste(blanks$location, collapse = "\n"), "\n\n")
+    } else {
+      cat(sheet, ": No blanks to report", sep = "", fill = TRUE)
     }
     # report zeros
     if (nrow(zeros) != 0) {
+      cat(sheet, ": Adding zeros", sep = "", fill = TRUE)
       results <<- paste0(results, sheet, ": zeros\n", paste(zeros$location, collapse = "\n"), "\n\n")
+    } else {
+      cat(sheet, ": No zeroes to report", sep = "", fill = TRUE)
+    }
+    # report large cumulative changes
+    if (nrow(large_changes) != 0) {
+      cat(sheet, ": Adding large cumulative changes", sep = "", fill = TRUE)
+      results <<- paste0(results, sheet, ": large cumulative changes\n", paste(paste0(large_changes$location, " (",  formatC(large_changes$percent_change, big.mark = ",", digits = 0, format = "d", flag = "+"), "%)"), collapse = "\n"), "\n\n")
+    } else {
+      cat(sheet, ": No large cumulative changes to report", sep = "", fill = TRUE)
     }
   }
 }
@@ -135,9 +164,9 @@ for (s in prov_sheets) {
 
 # send email (if anything to report)
 if (results == "") {
-  cat("No blanks or zeros detected. Exiting script...", fill = TRUE)
+  cat("No missing and/or incorrect values detected. Exiting script...", fill = TRUE)
 } else {
-  results <<- paste0("Summary of blank and/or zero values\n", results)
+  results <<- paste0("Summary of missing and/or incorrect values\n", results)
   cat("Sending email...", fill = TRUE)
-  Covid19CanadaETL::send_email(subject = "CCODWG Update - blanks and/or zeros values", body = results)
+  Covid19CanadaETL::send_email(subject = "CCODWG Update - missing and/or incorrect values", body = results)
 }
