@@ -82,22 +82,22 @@ verify_data_sources <- function(ss, sheet, loc = c("prov", "hr"), exclude_manual
   zeros <- dat %>% filter(value_today == "0")
   if (nrow(zeros) > 0) {
     # read full spreadsheet
-    dat <- read_sheet(ss = ss, sheet = sheet, col_types = "c")
+    dat_full <- read_sheet(ss = ss, sheet = sheet, col_types = "c")
     if (loc == "prov") {
-      dat <- dat %>%
+      dat_full <- dat_full %>%
         # rename columns
         mutate(location = province) %>%
         # drop unneeded columns
         select(-c("province", "CALCULATION_NOTES", all_of(date_today_manual)))
     } else {
-      dat <- dat %>%
+      dat_full <- dat_full %>%
         # rename columns
         mutate(location = paste(province, health_region, sep = " - ")) %>%
         # drop unneeded columns
         select(-c("province", "health_region", "CALCULATION_NOTES", all_of(date_today_manual)))
     }
     # check zeros
-    dat <- dat %>%
+    dat_full <- dat_full %>%
       # filter to rows in zeros
       filter(location %in% zeros$location) %>%
       # convert columns to integer
@@ -106,7 +106,7 @@ verify_data_sources <- function(ss, sheet, loc = c("prov", "hr"), exclude_manual
       group_by(location) %>%
       mutate(row_sum = rowSums(across(where(is.integer))))
     # filter to zeros where not all values are 0
-    zeros <- zeros %>% filter(dat$row_sum != 0)
+    zeros <- zeros %>% filter(dat_full$row_sum != 0)
   }
   # find large cumulative changes
   large_changes <- dat %>%
