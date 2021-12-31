@@ -1,15 +1,10 @@
-New data: 2021-12-29. See data notes.
+New data: 2021-12-30. See data notes.
 
 DATA NOTES:
 
 
 - Data reporting over the Christmas and New Year’s period will be inconsistent. Retroactive corrections to data will be made, if possible.
-- AB provided health region-level case counts for the first time today since 2021-12-23. Data for 2021-12-24 to 2021-12-28 were filled in retroactively by subtracting the number of cases attributed to each day in the cases CSV from the cumulative total on 2021-12-29. The same could not be done with deaths, since the date each death occured is unknown. The same applies to recovered cases.
-- Same strategy as above with BC cases.
-- Added BC testing data retroactively.
-- Added Ontario vaccination and testing data retroactively.
-- MB did not update their vaccine time series, so these data were not updated today.
-- NS news release today mentioned “69 lab results were repeat positives” but unclear what to do with this information, if anything.
+- AB posted preliminary province-level estimates today but not health-region level (https://www.alberta.ca/covid-19-alberta-data.aspx). Retroactive changes will be made, if possible.
 - See notice in “RECENT CHANGES” section below regarding NS cases since 2021-12-10.
 - See notice in “RECENT CHANGES” section below regarding PE cases since 2021-11-02.
 
@@ -20,16 +15,17 @@ NOTICE: Most of our data collection is automated. PLEASE CONTACT US REGARDING AN
 NEWS RELEVANT TO COVID-19 DATA:
 
 
-Announcement from Nova Scotia (2021-12-22; https://twitter.com/nsgov/status/1473754314443309056):
+Updated eligibility for PCR testing in Ontario (2021-12-30):
 
 
-“If you test positive on a take-home rapid testing kit, do not book a PCR test. You need to assume you have COVID-19, assume you are contagious, and you and your household must self-isolate. You must inform your close contacts.”
+https://news.ontario.ca/en/backgrounder/1001387/updated-eligibility-for-pcr-testing-and-case-and-contact-management-guidance-in-ontario
 
 
-Announcement from Ottawa Public Health (2021-12-20; https://twitter.com/OttawaHealth/status/1472987812794454028):
+Summarized by May Warren (https://twitter.com/maywarren11/status/1476649614879203330):
 
 
-“If you have symptoms of COVID-19, have tested + on a rapid antigen test or have been exposed to a positive case please self-isolate & follow the guidance.” Those testing positive on RATs are directed not to confirm with PCR and are not reported to public health (https://twitter.com/YoniFreedhoff/status/1473990345125937158).
+- Only high risk ppl/ppl in high risk settings will qualify for publicly funded PCR tests
+- Otherwise, if you have symptoms and are fully vaccinated, assume you have it and isolate for 5 days
 
 
 RECENT CHANGES TO THE DATASET:
