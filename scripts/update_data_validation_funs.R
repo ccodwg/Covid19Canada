@@ -137,7 +137,9 @@ summary_today_by_metric <- function() {
 # provincial data
 ts_prov <- function() {
   
-  cat("\nChecking provincial time series...\n", fill = TRUE)
+  # announce changes
+  changes_prov <- "\nChanges to provincial time series...\n"
+  report <- changes_prov
   
   for (type in types) {
     
@@ -155,21 +157,27 @@ ts_prov <- function() {
       diff_prov <- diff %>%
         filter(province == prov)
       if (nrow(filter(diff_prov, !!sym(date_var) == update_date & chng_type == "+")) == 0) {
-        cat(bgRed(paste0(prov, " ", type, ": no update today?")), fill = TRUE)
+        report <- paste(report, bgRed(paste0(prov, " ", type, ": no update today?")), sep = "\n")
       } else if (nrow(diff_prov) == 1 & nrow(filter(diff_prov, !(!!sym(date_var) == update_date & chng_type == "+"))) == 0) {
         # cat(green(paste0(prov, " ", type, ": regular update.")), fill = TRUE) # don't report successes
       } else {
         diff_prov <- filter(diff_prov, !(!!sym(date_var) == update_date & chng_type == "+"))
-        cat(bgBlue(paste0(prov, " ", type, ": regular update and historical modifications (", paste(unique(pull(diff_prov, date_var)), collapse = ", "), ")")), fill = TRUE)
+        report <- paste(report, bgBlue(paste0(prov, " ", type, ": regular update and historical modifications (", paste(unique(pull(diff_prov, date_var)), collapse = ", "), ")")), sep = "\n")
       }
     }
+  }
+  # print nothing if no differences were found
+  if (!identical(report, changes_prov)) {
+    cat(report, fill = TRUE)
   }
 }
 
 # health region data
 ts_hr <- function() {
   
-  cat("\nChecking health region time series...\n", fill = TRUE)
+  # announce changes
+  changes_hr <- "\nChanges to health region time series...\n"
+  report <- changes_hr
   
   for (type in types_hr) {
     
@@ -183,8 +191,6 @@ ts_hr <- function() {
     
     ### loop through provinces
     for (prov in unique(get(new_file)$province)) {
-      
-      cat("Checking ", type, " from health regions in ", prov, "...\n", sep = "", fill = TRUE)
       diff_prov <- diff %>%
         filter(province == prov)
       
@@ -195,14 +201,18 @@ ts_hr <- function() {
         diff_hr <- diff_prov %>%
           filter(health_region == hr)
         if (nrow(filter(diff_hr, !!sym(date_var) == update_date & chng_type == "+")) == 0) {
-            cat(bgRed(paste0(hr, " (", prov, ") ", type, ": no update today?")), fill = TRUE)
+            report <- paste(report, bgRed(paste0(hr, " (", prov, ") ", type, ": no update today?")), sep = "\n")
         } else if (nrow(diff_hr) == 1 & nrow(filter(diff_hr, !(!!sym(date_var) == update_date & chng_type == "+"))) == 0) {
           # cat(green(paste0(hr, " (", prov, ") ", type, ": regular update.")), fill = TRUE) # don't report successes
         } else {
           diff_hr <- filter(diff_hr, !(!!sym(date_var) == update_date & chng_type == "+"))
-          cat(bgBlue(paste0(hr, " (", prov, ") ", type, ": regular update and historical modifications (", paste(unique(pull(diff_hr, date_var)), collapse = ", "), ")")), fill = TRUE)
+          report <- paste(report, bgBlue(paste0(hr, " (", prov, ") ", type, ": regular update and historical modifications (", paste(unique(pull(diff_hr, date_var)), collapse = ", "), ")")), sep = "\n")
         }
       }
     }
+  }
+  # print nothing if no differences were found
+  if (!identical(report, changes_hr)) {
+    cat(report, fill = TRUE)
   }
 }
