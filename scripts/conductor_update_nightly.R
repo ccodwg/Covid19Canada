@@ -53,7 +53,8 @@ source("scripts/update_data_validation.R")
 
 # email validation results (if GITHUB_PAT environmental variable is set)
 results <- paste(capture.output(source("scripts/update_data_validation.R")), collapse = "\n")
-Covid19CanadaETL::send_email(subject = "CCODWG update validation results", body = results)
+Covid19CanadaETL::send_email(subject = "CCODWG Update: Validation Results", body = results)
+Covid19CanadaETL::pushover(message = "Summary of data update is ready for review.", title = "CCODWG Update: Validation Results", priority = "1")
 
 # push update to GitHub and mirror to Google Drive (at 22:00 ET)
 # don't run if status == "NO_UPDATE"
@@ -94,7 +95,7 @@ if (status == "NO_UPDATE") {
     source("scripts/github_update.R")
     
     # send notification (if GITHUB_PAT environmental variable is set)
-    Covid19CanadaETL::pushover(message = "Operation successful.", priority = 1, title = "Data update pushed to GitHub")
+    Covid19CanadaETL::pushover(message = "Operation successful.", priority = 1, title = "CCODWG Update: Pushed to GitHub")
     
     # wait 15 seconds
     Sys.sleep(15)
@@ -103,7 +104,7 @@ if (status == "NO_UPDATE") {
     source("scripts/mirror_to_gdrive.R")
     
     # send notification (if GITHUB_PAT environmental variable is set)
-    Covid19CanadaETL::pushover(message = "Operation successful.", priority = 1, title = "Data update synced to Google Drive")
+    Covid19CanadaETL::pushover(message = "Operation successful.", priority = 1, title = "CCODWG Update: Synced with Google Drive")
     
   })
 }

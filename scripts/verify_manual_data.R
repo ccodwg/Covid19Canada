@@ -94,7 +94,7 @@ if (results == "") {
   cat("No manual values are missing. Exiting script...", fill = TRUE)
 } else {
   cat("Sending email...", fill = TRUE)
-  Covid19CanadaETL::send_email(subject = "CCODWG Update - manual values are missing", body = results)
+  Covid19CanadaETL::send_email(subject = "CCODWG Update: Manual Values", body = results)
   cat("Sending notification...", fill = TRUE)
-  Covid19CanadaETL::pushover(message = "Attention required.", priority = 1, title = "Manual values are missing")
+  Covid19CanadaETL::pushover(message = "Manual values have not yet been entered.", priority = 1, title = "CCODWG Update: Manual Values")
 }

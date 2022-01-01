@@ -168,5 +168,7 @@ if (results == "") {
 } else {
   results <<- paste0("Summary of missing and/or incorrect values\n", results)
   cat("Sending email...", fill = TRUE)
-  Covid19CanadaETL::send_email(subject = "CCODWG Update - missing and/or incorrect values", body = results)
+  Covid19CanadaETL::send_email(subject = "CCODWG Update: Missing and/or Incorrect Values", body = results)
+  cat("Sending notification...", fill = TRUE)
+  Covid19CanadaETL::pushover(message = "Some automated values may require manual correction.", title = "CCODWG Update: Missing and/or Incorrect Values", priority = "0")
 }
