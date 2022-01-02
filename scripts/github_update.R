@@ -29,6 +29,7 @@ header <- paste0("New data: ", as.character(date(with_tz(Sys.time(), tzone = "Am
 data_notes <- paste0(header, paste(data_notes, collapse = "\n"), "\n")
 
 # write data notes
+data_notes <- gsub("\n\n\n", "\n\n", data_notes) # get rid of extra line breaks
 cat(data_notes, file = "data_notes.txt")
 
 # stage data update
