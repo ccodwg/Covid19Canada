@@ -17,8 +17,8 @@ download_current_data <- function() {
   system2(
     command = "git",
     args = c("clone",
+             "--quiet",
              "--depth=1",
-             "--progress",
              "https://github.com/ccodwg/Covid19Canada.git",
              tempd)
   )
