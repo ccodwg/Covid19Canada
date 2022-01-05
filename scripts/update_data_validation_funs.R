@@ -72,13 +72,22 @@ convert_dates <- function() {
 types <- c("cases", "mortality", "recovered", "testing", "vaccine_distribution", "vaccine_administration", "vaccine_completion", "vaccine_additionaldoses")
 types_vals <- c("cases", "deaths", "recovered", "testing", "dvaccine", "avaccine", "cvaccine", "additionaldosesvaccine")
 types_names <- c("Cases", "Deaths", "Recovered", "Testing", "Vaccine distribution", "Vaccine administration", "Vaccine completion", "Vaccine additional doses")
+types_names_short <- c("Cases", "Deaths", "Recovered", "Testing", "Vax doses dist.", "Vax doses tot.", "Vax doses 2", "Vax doses add.")
 types_hr <- c("cases", "mortality")
 
 # summarize Canada-wide daily and cumulative numbers
 summary_today_overall <- function() {
-  
+  # print update times
   cat("Old data:", old_update_time, fill = TRUE)
-  cat("New data:", update_time, "\n", fill = TRUE)
+  cat("New data:", update_time, fill = TRUE)
+  # create empty summary table
+  results <- data.frame(
+    type = types_names_short,
+    daily = "",
+    comp_avg_7_day = "",
+    avg_7_day = "",
+    cumulative = ""
+  )
   for (i in 1:length(types)) {
     # get values
     df <- get(ls(pattern = paste0("^", types[i], "_timeseries_canada"), name = ".GlobalEnv"))
@@ -94,19 +103,18 @@ summary_today_overall <- function() {
     cumulative_today <- df %>% filter(date == update_date) %>% pull(value_cumulative)
     daily_7day <- df %>% pull(value_daily) %>% mean()
     comp_to_7day <- round((daily_today - daily_7day) / daily_7day * 100, 0)
-    # print summary
-    cat(types_names[i], ": ",
-        format(daily_today, big.mark = ",", scientific = FALSE),
-        " (today) / ",
-        formatC(comp_to_7day, big.mark = ",", digits = 0, format = "d", flag = "+"),
-        "% compared to 7-day average (",
-        format(daily_7day, big.mark = ",", digits = 0, scientific = FALSE),
-        ") / ",
-        format(cumulative_today, big.mark = ",", scientific = FALSE),
-        " (cumulative)",
-        sep = "", fill = TRUE)
+    
+    # fill in summary table
+    results[i, "daily"] <- format(daily_today, big.mark = ",", scientific = FALSE)
+    results[i, "comp_avg_7_day"] <- paste0(formatC(comp_to_7day, big.mark = ",", digits = 0, format = "d", flag = "+"), "%")
+    results[i, "avg_7_day"] <- format(daily_7day, digits = 0, big.mark = ",", scientific = FALSE)
+    results[i, "cumulative"] <- format(cumulative_today, big.mark = ",", scientific = FALSE)
   }
-  cat("\n", fill = TRUE) # blank line
+  # print summary table
+  pander::pandoc.table(
+    results,
+    justify = "lrrrr",
+    col.names = c("Metric", "Today", "% change", "7-day", "Total"))
 }
 
 # summarize provincial daily numbers by metric

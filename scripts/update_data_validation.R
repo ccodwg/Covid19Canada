@@ -12,6 +12,7 @@ library(dplyr) # data manipulation
 library(stringr) # manipulate strings
 library(lubridate) # better dates
 library(compareDF) # compare data frames
+library(pander) # output markdown tables
 library(crayon) # colourful output in console
 
 # load functions
