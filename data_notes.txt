@@ -1,15 +1,11 @@
-New data: 2022-01-04. See data notes.
+New data: 2022-01-05. See data notes.
 
 DATA NOTES:
 
 - IMPORTANT NOTICE: Due to recent changes in the availability of COVID-19 testing, case counts can no longer be considered a reliable indicator of spread.
 - Reporting is limited in many provinces during the period between Christmas and New Year's. This results in an undercount of COVID-19 cases and a distortion of trends in the data. Regular reporting should resume in early January, although distorted trends may remain for up to 7 days following this date. Retroactive corrections to data will be made, if possible.
-- It appears QC cases, deaths, recovered were not updated today.
-- Recovered in MB today declined for unknown reasons.
-- Chatham-Kent (ON) was rewritten (cases, deaths, recovered) back to 2020-04-01 using the Ontario Ministry of Health dataset (https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario-by-public-health-unit-phu/resource/d1bfe1ad-6575-4352-8302-09ca81f7ddfc). Previously we used the PHU’s dashboard, as we do for all other PHUs (https://ckphu.com/current-situation-in-chatham-kent/). However, there are significant discrepancies in cases, deaths and recovered between these two data sources, which made rewriting the whole time series the least disruptive option to the trends in the data.
-- NS testing values updated retroactively up to 2021-12-24, since the cumulative total today does not align with the daily differences given in the press releases.
-- ON vaccine data updated retroactively to 2022-01-01.
-- Retroactively updated AB case, recovered and testing numbers back to 2021-12-30. This was not possible to do with death numbers.
+- QC cases, deaths, recovered were not updated yesterday (2021-01-04). We were unable to backfill data for yesterday since the data source with a time series (https://www.inspq.qc.ca/sites/default/files/covid/donnees/covid19-hist.csv) has different numbers than the usual dataset we use, which has only cumulative numbers (https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_RapportINSPQ_VigieCategories.csv).
+- On 2022-01-04, Chatham-Kent (ON) was rewritten (cases, deaths, recovered) back to 2020-04-01 using the Ontario Ministry of Health dataset (https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario-by-public-health-unit-phu/resource/d1bfe1ad-6575-4352-8302-09ca81f7ddfc). Previously we used the PHU’s dashboard, as we do for all other PHUs (https://ckphu.com/current-situation-in-chatham-kent/). However, there are significant discrepancies in cases, deaths and recovered between these two data sources, which made rewriting the whole time series the least disruptive option to the trends in the data. The Ministry dataset will be used for this PHU going forward.
 - See notice in “RECENT CHANGES” section below regarding NS cases since 2021-12-10.
 - See notice in “RECENT CHANGES” section below regarding PE cases since 2021-11-02.
 
