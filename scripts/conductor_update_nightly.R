@@ -29,7 +29,13 @@ if (file.exists("/secrets.json")) {
 }
 
 # load libraries
-library(lubridate)
+library(lubridate) # better dates
+library(dplyr) # data manipulation
+library(stringr) # manipulate strings
+library(lubridate) # better dates
+library(compareDF) # compare data frames
+library(pander) # output markdown tables
+library(crayon) # colourful output in console
 
 # load functions
 source("scripts/conductor_update_nightly_funs.R")
@@ -49,10 +55,10 @@ if (status == "NO_UPDATE") {
 }
 
 # validate data update
-source("scripts/update_data_validation.R")
+update_data_validation()
 
 # email validation results (if GITHUB_PAT environmental variable is set)
-results <- paste(capture.output(source("scripts/update_data_validation.R")), collapse = "\n")
+results <- paste(capture.output(update_data_validation()), collapse = "\n")
 Covid19CanadaETL::send_email(subject = "CCODWG Update: Validation Results", body = results)
 Covid19CanadaETL::pushover(message = "Summary of data update is ready for review.", title = "CCODWG Update: Validation Results", priority = "1")
 

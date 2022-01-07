@@ -10,17 +10,18 @@ data_dirs <- "timeseries_canada|timeseries_prov|timeseries_hr|timeseries_hr_sk_n
 download_current_data <- function() {
   
   # download current data from GitHub
-  tempd <- paste0(tempdir(), "/Covid19Canada")
+  tempd <- file.path(tempdir(), "Covid19Canada")
   if (dir.exists(tempd)) {
     unlink(tempd, recursive = TRUE)
   }
   system2(
     command = "git",
-    args = c("clone",
-             "--quiet",
-             "--depth=1",
-             "https://github.com/ccodwg/Covid19Canada.git",
-             tempd)
+    args = c(
+      "clone",
+      "--quiet",
+      "--depth=1",
+      "https://github.com/ccodwg/Covid19Canada.git",
+      tempd)
   )
   
   # load files from specified directories
@@ -111,8 +112,9 @@ summary_today_overall <- function() {
     results[i, "cumulative"] <- format(cumulative_today, big.mark = ",", scientific = FALSE)
   }
   # print summary table
-  pander::pandoc.table(
+  pander::pander(
     results,
+    style = "simple",
     justify = "lrrrr",
     col.names = c("Metric", "Today", "% change", "7-day", "Total"))
 }
@@ -142,85 +144,81 @@ summary_today_by_metric <- function() {
   }
 }
 
-# provincial data
-ts_prov <- function() {
+# check time series
+ts_check <- function(loc = c("prov", "hr")) {
+  
+  # match args
+  match.arg(loc, choices = c("prov", "hr"), several.ok = FALSE)
   
   # announce changes
-  changes_prov <- "\nChanges to provincial time series...\n"
-  report <- changes_prov
+  if (loc == "prov") {
+    changes <- "\nChanges to provincial time series...\n"
+  } else {
+    changes <- "\nChanges to health region time series...\n"
+  }
   
-  for (type in types) {
+  # init report
+  report <- changes
+  
+  # determine data types
+  if (loc == "prov") {
+    ts_types <- types
+  } else {
+    ts_types <- types_hr
+  }
+  
+  # loop through data types
+  for (type in ts_types) {
     
-    ### diff data
-    old_file <- paste0("old_", type, "_timeseries_prov")
-    new_file <- paste0(type, "_timeseries_prov")
+    # diff data
+    old_file <- paste0("old_", type, "_timeseries_", loc)
+    new_file <- paste0(type, "_timeseries_", loc)
     var_names <- names(get(new_file))
     date_var <- var_names[grepl("date", var_names)]
     diff <- suppressMessages(compare_df(get(new_file), get(old_file), date_var))$comparison_df
-    
-    ### loop through provinces
-    for (prov in unique(get(new_file)$province)) {
-      
-      ### report differences
-      diff_prov <- diff %>%
-        filter(province == prov)
-      if (nrow(filter(diff_prov, !!sym(date_var) == update_date & chng_type == "+")) == 0) {
-        report <- paste(report, bgRed(paste0(prov, " ", type, ": no update today?")), sep = "\n")
-      } else if (nrow(diff_prov) == 1 & nrow(filter(diff_prov, !(!!sym(date_var) == update_date & chng_type == "+"))) == 0) {
-        # cat(green(paste0(prov, " ", type, ": regular update.")), fill = TRUE) # don't report successes
-      } else {
-        diff_prov <- filter(diff_prov, !(!!sym(date_var) == update_date & chng_type == "+"))
-        report <- paste(report, bgBlue(paste0(prov, " ", type, ": regular update and historical modifications (", paste(unique(pull(diff_prov, date_var)), collapse = ", "), ")")), sep = "\n")
-      }
+    if (loc == "hr") {
+      hr_list <- distinct(select(diff, province, health_region)) # list health regions
     }
-  }
-  # print nothing if no differences were found
-  if (!identical(report, changes_prov)) {
-    cat(report, fill = TRUE)
-  }
-}
-
-# health region data
-ts_hr <- function() {
-  
-  # announce changes
-  changes_hr <- "\nChanges to health region time series...\n"
-  report <- changes_hr
-  
-  for (type in types_hr) {
     
-    ### diff data
-    old_file <- paste0("old_", type, "_timeseries_hr")
-    new_file <- paste0(type, "_timeseries_hr")
-    var_names <- names(get(new_file))
-    date_var <- var_names[grepl("date", var_names)]
-    diff <- suppressMessages(compare_df(get(new_file), get(old_file), date_var))$comparison_df
-    hr_list <- distinct(select(diff, province, health_region)) # list health regions
-    
-    ### loop through provinces
+    # loop through provinces
     for (prov in unique(get(new_file)$province)) {
+      # calculate differences
       diff_prov <- diff %>%
         filter(province == prov)
-      
-      ### loop through health regions
-      for (hr in hr_list %>% filter(province == prov) %>% pull(health_region)) {
-        
-        ### report differences
-        diff_hr <- diff_prov %>%
-          filter(health_region == hr)
-        if (nrow(filter(diff_hr, !!sym(date_var) == update_date & chng_type == "+")) == 0) {
-            report <- paste(report, bgRed(paste0(hr, " (", prov, ") ", type, ": no update today?")), sep = "\n")
-        } else if (nrow(diff_hr) == 1 & nrow(filter(diff_hr, !(!!sym(date_var) == update_date & chng_type == "+"))) == 0) {
-          # cat(green(paste0(hr, " (", prov, ") ", type, ": regular update.")), fill = TRUE) # don't report successes
+      if (loc == "prov") {
+        # report differences
+        if (nrow(filter(diff_prov, !!sym(date_var) == update_date & chng_type == "+")) == 0) {
+          r <- bgRed(paste0(prov, " ", type, ": no update today?"))
+          report <- paste(report, r, sep = "\n")
+        } else if (nrow(diff_prov) == 1 & nrow(filter(diff_prov, !(!!sym(date_var) == update_date & chng_type == "+"))) == 0) {
+          # don't report successes
         } else {
-          diff_hr <- filter(diff_hr, !(!!sym(date_var) == update_date & chng_type == "+"))
-          report <- paste(report, bgBlue(paste0(hr, " (", prov, ") ", type, ": regular update and historical modifications (", paste(unique(pull(diff_hr, date_var)), collapse = ", "), ")")), sep = "\n")
+          diff_prov <- filter(diff_prov, !(!!sym(date_var) == update_date & chng_type == "+"))
+          r <- bgBlue(paste0(prov, " ", type, ": regular update and historical modifications (", paste(unique(pull(diff_prov, date_var)), collapse = ", "), ")"))
+          report <- paste(report, r, sep = "\n")
+        }
+      } else {
+        # loop through health regions
+        for (hr in hr_list %>% filter(province == prov) %>% pull(health_region)) {
+          # report differences
+          diff_hr <- diff_prov %>%
+            filter(health_region == hr)
+          if (nrow(filter(diff_hr, !!sym(date_var) == update_date & chng_type == "+")) == 0) {
+            r <- bgRed(paste0(hr, " (", prov, ") ", type, ": no update today?"))
+            report <- paste(report, r, sep = "\n")
+          } else if (nrow(diff_hr) == 1 & nrow(filter(diff_hr, !(!!sym(date_var) == update_date & chng_type == "+"))) == 0) {
+            # don't report successes
+          } else {
+            diff_hr <- filter(diff_hr, !(!!sym(date_var) == update_date & chng_type == "+"))
+            r <- bgBlue(paste0(hr, " (", prov, ") ", type, ": regular update and historical modifications (", paste(unique(pull(diff_hr, date_var)), collapse = ", "), ")"))
+            report <- paste(report, r, sep = "\n")
+          }
         }
       }
     }
   }
   # print nothing if no differences were found
-  if (!identical(report, changes_hr)) {
+  if (!identical(report, changes)) {
     cat(report, fill = TRUE)
-  }
+    }
 }

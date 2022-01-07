@@ -1,6 +1,9 @@
 # Functions for: Orchestrate the nightly COVID-19 Canada Open Data Working Group data update #
 # Author: Jean-Paul R. Soucy #
 
+# load functions
+source("scripts/update_data_validation_funs.R")
+
 # get time in ET time zone (America/Toronto)
 get_time_et <- function() {
   with_tz(Sys.time(), tzone = "America/Toronto")
@@ -17,4 +20,30 @@ run_at <- function(time_et, FUN) {
   }
   cat("Continuing script...", fill = TRUE)
   FUN
+}
+
+# update data validation
+update_data_validation <- function() {
+  
+  # download current data from GitHub repository
+  download_current_data()
+  
+  # load new data
+  load_new_data()
+  
+  # convert all dates to ISO 8601
+  convert_dates()
+  
+  # stop running script if old update time and new update time are the same
+  if (identical(old_update_time, update_time)) stop("Update times for old and new data are the same.")
+  
+  # summarize Canada-wide daily and cumulative numbers
+  summary_today_overall()
+  
+  # summarize provincial daily numbers by metric
+  summary_today_by_metric()
+  
+  # check provincial and health region time series
+  ts_check(loc = "prov")
+  ts_check(loc = "hr")
 }
