@@ -54,9 +54,10 @@ verify_data_sources <- function(ss, sheet, loc = c("prov", "hr"), exclude_manual
   # for recovered_timeseries_prov, drop "Ontario"
   # this value will always be blank until all automated + manual values for recovered_timeseries_phu are available
   # if automated values from recovered_timeseries_phu are blank, they will be flagged anyway
-  if (sheet == "recovered_timeseries_prov")
+  if (sheet == "recovered_timeseries_prov") {
     dat <- dat %>%
-    filter(province != "Ontario")
+      filter(province != "Ontario")
+  }
   
   # drop cells labelled "MANUAL" (if exclude_manual == TRUE)
   if (exclude_manual) {
@@ -111,13 +112,15 @@ verify_data_sources <- function(ss, sheet, loc = c("prov", "hr"), exclude_manual
   # find large cumulative changes
   large_changes <- dat %>%
     # drop locations w/ zeros or blanks
-    filter(location %in% c(zeros$location, blanks$location)) %>%
+    filter(!location %in% c(zeros$location, blanks$location)) %>%
+    # exclude "Not Reported" as these are supposed to change by a lot
+    filter(!grepl(" - Not Reported$", .data$location)) %>%
     # convert columns to integer
     mutate(across(!location, as.integer)) %>%
     # calculate % change since yesterday
     mutate(percent_change = (value_today - value_yesterday) / value_yesterday * 100) %>%
-    # filter to large changes (>10% in absolute value)
-    filter(abs(percent_change) >10)
+    # filter to large changes (>20% in absolute value)
+    filter(abs(percent_change) > 20)
   # report results
   if (nrow(blanks) == 0 & nrow(zeros) == 0 & nrow(large_changes) == 0) {
     cat(sheet, ": No issues to report", sep = "", fill = TRUE)
@@ -166,7 +169,7 @@ for (s in prov_sheets) {
 if (results == "") {
   cat("No missing and/or incorrect values detected. Exiting script...", fill = TRUE)
 } else {
-  results <<- paste0("Summary of missing and/or incorrect values\n", results)
+  results <<- paste0("Summary of missing and/or potentially incorrect values\n", results)
   cat("Sending email...", fill = TRUE)
   Covid19CanadaETL::send_email(subject = "CCODWG Update: Missing and/or Incorrect Values", body = results)
   cat("Sending notification...", fill = TRUE)
