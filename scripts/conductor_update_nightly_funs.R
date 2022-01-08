@@ -31,9 +31,6 @@ update_data_validation <- function() {
   # load new data
   load_new_data()
   
-  # convert all dates to ISO 8601
-  convert_dates()
-  
   # stop running script if old update time and new update time are the same
   if (identical(old_update_time, update_time)) stop("Update times for old and new data are the same.")
   

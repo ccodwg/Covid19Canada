@@ -32,11 +32,14 @@ download_current_data <- function() {
     recursive = TRUE)
   invisible(list2env(
     lapply(setNames(old_files, make.names(paste0("old_", sub(".csv", "", basename(old_files))))), 
-           read.csv, stringsAsFactors = FALSE), envir = .GlobalEnv))
+           function(x) {
+             read.csv(x, stringsAsFactors = FALSE) %>%
+               mutate(across(matches("^date_|_week$"), as.Date, format = "%d-%m-%Y"))}),
+    envir = globalenv()))
   
   # load update time
   assign("old_update_time", readLines(paste(tempd, "update_time.txt", sep = "/")),
-         envir = .GlobalEnv)
+         envir = globalenv())
   
   # clean up
   unlink(tempd, recursive = TRUE)
@@ -50,21 +53,16 @@ load_new_data <- function() {
   new_files <- list.files(path = ".", pattern = data_dirs, full.names = TRUE, recursive = TRUE)
   invisible(list2env(
     lapply(setNames(new_files, make.names(sub(".csv", "", basename(new_files)))), 
-           read.csv, stringsAsFactors = FALSE), envir = .GlobalEnv))
+           function(x) {
+             read.csv(x, stringsAsFactors = FALSE) %>%
+               mutate(across(matches("^date_|_week$"), as.Date, format = "%d-%m-%Y"))}),
+    envir = globalenv()))
   
   # load update time
-  assign("update_time", readLines("update_time.txt"), envir = .GlobalEnv)
-  assign("update_date", as.Date(update_time), envir = .GlobalEnv)
+  update_time <- readLines("update_time.txt")
+  assign("update_time", update_time, envir = globalenv())
+  assign("update_date", as.Date(update_time), envir = globalenv())
    
-}
-
-# convert all dates to ISO 8601
-convert_dates <- function() {
-  for (df in names(which(unlist(eapply(.GlobalEnv, is.data.frame))))) {
-    assign(df, get(df) %>%
-             mutate(
-               across(starts_with("date_"), as.Date, format = "%d-%m-%Y")),
-           envir = .GlobalEnv)}
 }
 
 ## FUNCTIONS FOR SUMMARIZING DATA ##
@@ -91,7 +89,7 @@ summary_today_overall <- function() {
   )
   for (i in 1:length(types)) {
     # get values
-    df <- get(ls(pattern = paste0("^", types[i], "_timeseries_canada"), name = ".GlobalEnv"))
+    df <- get(paste0(types[i], "_timeseries_canada"))
     date_col <- grep("^date_", names(df), value = TRUE)
     val_col <- types_vals[i]
     val_cum_col <- paste0("cumulative_", val_col)
@@ -126,7 +124,7 @@ summary_today_by_metric <- function() {
     # print metric name
     cat(types_names[i], "...\n", sep = "", fill = TRUE)
     # get values
-    df <- get(ls(pattern = paste0("^", types[i], "_timeseries_prov"), name = ".GlobalEnv"))
+    df <- get(paste0(types[i], "_timeseries_prov"))
     date_col <- grep("^date_", names(df), value = TRUE)
     val_col <- types_vals[i]
     df <- df %>%
