@@ -1,11 +1,10 @@
-New data: 2022-01-14. See data notes.
+New data: 2022-01-15. See data notes.
 
 DATA NOTES:
 
 - IMPORTANT NOTICE: Due to recent changes in the availability of COVID-19 testing, case counts can no longer be considered a reliable indicator of spread.
-- MB recovered decreased for an unknown reason.
+- PE announced its first two COVID-19 deaths yesterday (2021-01-14): https://www.princeedwardisland.ca/en/news/two-covid-19-related-deaths-in-prince-edward-island
 - Leeds, Grenville & Lanark (ON) was rewritten (cases, deaths, recovered) back to 2020-04-01 using the Ontario Ministry of Health dataset. See additional details below (similar process done with Chatham-Kent).
-- Fixed NS mortality for the last few days.
 - NS is no longer reporting the number of second doses and third doses in their daily press 
 releases as of 2022-01-10, only the total number of doses administered and the vaccine coverage for at least 1 dose / at least 2 doses / 3 doses. Based on today’s numbers (https://novascotia.ca/news/release/?id=20220110002): 1856028 = 0.901x + 0.829x + 0.199x, where x is the population value NS is using. Basic algebra suggests x = 962171. Considering rounding error, this suggests NS is using their 2019 mid-year population estimate, which is 971,395 (https://www.novascotia.ca/finance/statistics/archive_news.asp?id=15182&dg=&df=&dto=0&dti=12). We will use this 2019 mid-year estimate to calculate second and third dose numbers, as an email from NS public health confirms “The population estimate used is about 970,000”. No changes in reported coverage will result in 0 doses being reported in that category (i.e., for second doses).
 - PE recovered: From now on, we will defer to the value reported on the dashboard if it conflicts with the implied value from the press release. We will also retroactively change the recent past value to 916, following this convention.
