@@ -91,7 +91,7 @@ if (status == "NO_UPDATE") {
       # update official data
       source("scripts/update_official_data.R")
       # validate data update
-      source("scripts/update_data_validation.R")
+      update_data_validation()
     } else if (!isTRUE(run_automatically)) {
       # stop script if run_automatically is not TRUE
       stop("run_automatically is not TRUE. Stopping update. Please complete manually.")
