@@ -157,27 +157,32 @@ update_nt_subhr <- function() {
     "cases_timeseries_subhr"
   ) %>% dplyr::mutate(date = as.Date(date))
   
-  # remove today's results if re-running
-  if (update_date %in% nt_cases_subhr_old$date) {
-    nt_cases_subhr_old <- nt_cases_subhr_old %>%
-      dplyr::filter(date != update_date)
-    sheet_write(
-      data = nt_cases_subhr_old,
-      ss = "1RSy3qAqA4jdC4QUVTcSBogIerP7-rNic0H3L5F8_uE0",
-      sheet = "cases_timeseries_subhr")
-  }
-  
   # calculate daily deltas
   nt_cases_subhr_old <- nt_cases_subhr_old %>%
     dplyr::filter(date == update_date - 1)
   nt_cases_subhr$value_daily <- nt_cases_subhr$value - as.integer(nt_cases_subhr_old$value)
   
-  # update on Google Sheets
-  googlesheets4::sheet_append(
-    "1RSy3qAqA4jdC4QUVTcSBogIerP7-rNic0H3L5F8_uE0",
-    nt_cases_subhr,
-    "cases_timeseries_subhr"
-  )
+  # check if new data was acquired successfully
+  if (sum(is.na(nt_cases_subhr$value)) > 0 | nrow(nt_cases_subhr == 0)) {
+    stop("Failed to process ds: 9ed0f5cd-2c45-40a1-94c9-25b0c9df8f48.")
+  } else {
+    # remove today's results if re-running
+    if (update_date %in% nt_cases_subhr_old$date) {
+      nt_cases_subhr_old <- nt_cases_subhr_old %>%
+        dplyr::filter(date != update_date)
+      sheet_write(
+        data = nt_cases_subhr_old,
+        ss = "1RSy3qAqA4jdC4QUVTcSBogIerP7-rNic0H3L5F8_uE0",
+        sheet = "cases_timeseries_subhr")
+    }
+    
+    # update on Google Sheets
+    googlesheets4::sheet_append(
+      "1RSy3qAqA4jdC4QUVTcSBogIerP7-rNic0H3L5F8_uE0",
+      nt_cases_subhr,
+      "cases_timeseries_subhr"
+    ) 
+  }
   
   ## active cases ##
   
