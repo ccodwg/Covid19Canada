@@ -114,6 +114,7 @@ summary_today_overall <- function() {
     results,
     style = "simple",
     justify = "lrrrr",
+    missing = "MISSING",
     col.names = c("Metric", "Today", "% change", "7-day", "Total"))
 }
 
@@ -121,24 +122,25 @@ summary_today_overall <- function() {
 summary_today_by_metric <- function() {
   
   for (i in 1:length(types)) {
-    # print metric name
-    cat(types_names[i], "...\n", sep = "", fill = TRUE)
     # get values
     df <- get(paste0(types[i], "_timeseries_prov"))
     date_col <- grep("^date_", names(df), value = TRUE)
     val_col <- types_vals[i]
-    df <- df %>%
+    results <- df %>%
       # filter to most recent day
       filter(!!sym(date_col) == update_date) %>%
       # select province name and metric value
       transmute(province, value_daily = !!sym(val_col)) %>%
       # arrange by descending order of value
-      arrange(desc(value_daily)) %>%
-      # format values
-      mutate(value_daily = format(value_daily, big.mark = ",", scientific = FALSE))
+      arrange(desc(value_daily))
     # print summary
-    print(df, row.names = FALSE)
-    cat("\n", fill = TRUE) # blank line
+    pander::pander(
+      results,
+      style = "simple",
+      big.mark = ",",
+      justify = "lr",
+      missing = "MISSING",
+      col.names = c(types_names_short[i], "Value"))
   }
 }
 
