@@ -163,7 +163,7 @@ update_nt_subhr <- function() {
   nt_cases_subhr$value_daily <- nt_cases_subhr$value - as.integer(nt_cases_subhr_old$value)
   
   # check if new data was acquired successfully
-  if (sum(is.na(nt_cases_subhr$value)) > 0 | nrow(nt_cases_subhr == 0)) {
+  if (sum(is.na(nt_cases_subhr$value)) > 0 | nrow(nt_cases_subhr) == 0) {
     stop("Failed to process ds: 9ed0f5cd-2c45-40a1-94c9-25b0c9df8f48.")
   } else {
     # remove today's results if re-running
