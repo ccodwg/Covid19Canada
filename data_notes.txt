@@ -1,11 +1,13 @@
-New data: 2022-01-23. See data notes.
+New data: 2022-01-24. See data notes.
 
 DATA NOTES:
 
 - IMPORTANT NOTICE: Due to recent changes in the availability of COVID-19 testing, case counts can no longer be considered a reliable indicator of spread.
+- It appears there were no updates from AB or NL today.
+- Unable to update testing/vaccine values for NT due to issues with their website.
+- Eastern (ON), Huron Perth (ON), Haldimand-Norfolk (ON) cases, mortality, recovered datasets rewritten using the Ontario MoH dataset. See note re: Chatham-Kent below.
 - BC recovered: BC has removed information on recovered cases, thus this will now be calculated as total cases - active cases - deaths.
 - PE recovered: From now on, recovered values will be calculated as total cases - active cases - deaths, based primarily on the data provided in the daily press releases. This value has been recalculated back to the date of the first reported deaths in PEI (2022-01-14).
-- Eastern (ON) and Huron Perth (ON) cases, mortality, recovered datasets rewritten using the Ontario MoH dataset. See note re: Chatham-Kent below.
 - NU cumulative testing number has been replaced by the time series of tests completed from the Public Health Agency of Canada (https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html). The reason for this is that the previously reported value, number of people tested, somehow decreased by ~80% and has not been corrected for several days.
 - NS is again reporting the number of doses administered (1st, 2nd, 3rd) on their dashboard, which will be used going forward.
 The Ministry dataset will be used for this PHU going forward.
@@ -20,9 +22,9 @@ N/A
 
 RECENT CHANGES TO THE DATASET:
 
-NU cumulative testing number has been replaced by the time series of tests completed from the Public Health Agency of Canada (https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html). The reason for this is that the previously reported value, number of people tested, somehow decreased by ~80% and has not been corrected for several days.
-
 Chatham-Kent (ON) was rewritten (cases, deaths, recovered) back to 2020-04-01 using the Ontario Ministry of Health dataset (https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario-by-public-health-unit-phu/resource/d1bfe1ad-6575-4352-8302-09ca81f7ddfc). Previously we used the PHU’s dashboard, as we do for all other PHUs (https://ckphu.com/current-situation-in-chatham-kent/). However, there are significant discrepancies in cases, deaths and recovered between these two data sources, which made rewriting the whole time series the least disruptive option to the trends in the data. The same process has now been done with Leeds, Grenville & Lanark, Eastern and Huron Perth (for the same reason).
+
+NU cumulative testing number has been replaced by the time series of tests completed from the Public Health Agency of Canada (https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html). The reason for this is that the previously reported value, number of people tested, somehow decreased by ~80% and has not been corrected for several days.
 
 Since 2021-12-10, cases and deaths for NS have been based on the number of cases reported in the daily press releases (https://novascotia.ca/news/search/?dept=180) rather than the usual dashboard numbers (https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad). Quoting the press release from 2021-12-10 (https://novascotia.ca/news/release/?id=20211210011): “Because of the outbreak at St. Francis Xavier University in Antigonish, beginning today, the number of positive cases using lab results, not Panorama results, will be reported to better reflect the situation on the ground. The results will continue to be reported by zone.” We will pull these numbers from the daily press releases (these numbers are also reported on the dashboard, but the dashboard is not updated on weekends). [Note that historical values for 2021-12-10 to 2021-12-17 were re-calculated on 2021-12-18.] Note that recovered/active case numbers are inaccurate between 2021-12-10 to 2021-12-22, as they did not start reporting accurate active case numbers in the press releases until 2021-12-23. [GitHub issue #89]
 
