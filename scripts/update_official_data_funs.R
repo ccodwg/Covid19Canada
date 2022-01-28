@@ -212,7 +212,7 @@ update_nt_subhr <- function() {
   
   # calculate daily deltas
   nt_active_subhr_old <- nt_active_subhr_old %>%
-    dplyr::filter(date == max(nt_active_subhr$date) - 1)
+    dplyr::filter(date == update_date - 1)
   nt_active_subhr$value_daily <- nt_active_subhr$value - as.integer(nt_active_subhr_old$value)
   
   # update on Google Sheets
