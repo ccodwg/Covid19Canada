@@ -1,10 +1,8 @@
-New data: 2022-01-29. See data notes.
+New data: 2022-01-30. See data notes.
 
 DATA NOTES:
 
 - IMPORTANT NOTICE: Due to recent changes in the availability of COVID-19 testing, case counts can no longer be considered a reliable indicator of spread.
-- Halton (ON) is no longer reporting probable and confirmed cases but rather only total cases. Previously, probable cases were removed from the total cases and recovered value.
-- It appears NL has removed 3rd doses from their total vaccinated number. This has been ignored by our dataset. New first and second doses will continue to be added to the total doses total, while the additional doses total will be frozen at its last value. [UPDATE 2022-01-27: NL has once again re-added 3rd doses]
 - See notice in “RECENT CHANGES” section below regarding NS cases since 2021-12-10.
 - See notice in “RECENT CHANGES” section below regarding PE cases since 2021-11-02.
 
