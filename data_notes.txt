@@ -1,8 +1,14 @@
-New data: 2022-02-09. See data notes.
+New data: 2022-02-10. See data notes.
 
 DATA NOTES:
 
 - IMPORTANT NOTICE: Due to recent changes in the availability of COVID-19 testing, case counts can no longer be considered a reliable indicator of spread.
+- SK data reporting will continue in the near future when we determine how to integrate the newly reported data format.
+- BC recovered: As of 2021-02-10, BC will no longer report the number of active or recovered cases. “February 10, 2022: Active Cases have been removed from the dashboard as the values no longer reflect active community transmission numbers.”
+- SK total doses number has been fixed retroactively to include third doses. Previously it included only first and second doses, unlike other provinces.
+- Added historical NU third doses based on vaccine coverage proportions reported by PHAC (https://health-infobase.canada.ca/covid-19/vaccination-coverage).
+- Vaccine doses distributed in AB and QC declined for an unknown reason today.
+- Used new test number from the NS news release as the cumulative testing number seems not to have been updated on the dashboard today.
 - See notice in “RECENT CHANGES” section below regarding NS cases since 2021-12-10.
 - See notice in “RECENT CHANGES” section below regarding PE cases since 2021-11-02.
 
@@ -14,7 +20,7 @@ Beginning 2022-02-07, Saskatchewan will only be reporting a limited set of data 
 
 RECENT CHANGES TO THE DATASET:
 
-BC recovered: BC has removed information on recovered cases, thus this will now be calculated as total cases - active cases - deaths.
+BC recovered: As of 2021-02-10, BC will no longer report the number of active or recovered cases. “February 10, 2022: Active Cases have been removed from the dashboard as the values no longer reflect active community transmission numbers.”
 
 PE recovered: From now on, recovered values will be calculated as total cases - active cases - deaths, based primarily on the data provided in the daily press releases. This value has been recalculated back to the date of the first reported deaths in PEI (2022-01-14). [UPDATE, 2022-01-31: As of today, it appears that PEI is now appropriately accounting for deaths in the recovered value posted to their dashboard.]
 
@@ -29,13 +35,3 @@ Since 2021-11-02, cases and recovered for PE have been based on the number of ca
 Additional doses (booster doses, 3rd doses, 4th doses) doses are now being reported for most provinces in a new dataset: vaccine_additionaldoses_timeseries_prov / vaccine_additionaldoses_timeseries_canada.csv
 
 First doses may be calculated as: total doses administered – vaccine completion (2nd doses) – additional doses.
-
-README on GitHub has been updated to provide a better description of the dataset: https://github.com/ccodwg/Covid19Canada
-
-ON DATA NOTE: As of 2021-09-07, active cases for ON should be correctly reported. Note that this has resulted in a major discontinuity for recovered and active cases for ON on 2021-09-07. Our case and mortality data from ON have been sourced from individual PHU websites (rather than the provincial MOH dataset) since April 1, 2020. However, the "recovered" number continued to be sourced from the MOH. As the PHU and MOH datasets diverged (several thousand cases were never confirmed and thus not included in the MOH datasets), this resulted in an inflated active case count for the province (daily differences were more or less reliable). On 2021-09-07, we transitioned to using recovered numbers directly from the PHUs; thus, active cases should now be correctly reported for ON. Additionally, 13 cases were added to Haliburton Kawartha Pineridge (ON) on 2021-09-07 to maintain consistency with the corrected recovery calculation. We regret the inconvenience.
-
-DATA NOTE FOR SK: As of 2020-12-14, we are providing a daily version of the official SK dataset that is compatible with the rest of our dataset in the folder official_datasets/sk. See below for information about our regular updates. A REPLACEMENT DATASET IS IMMINENT.
-
-SK transitioned to reporting according to a new, expanded set of health regions on 2020-09-14. Unfortunately, the new health regions do not correspond exactly to the old health regions. Additionally, the provided case time series using the new boundaries do not exist for dates earlier than August 4, making providing a time series using the new boundaries impossible.
-
-For now, we are adding new cases according to the list of new cases given in the “highlights” section of the SK government website (https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases). These new cases are roughly grouped according to the old boundaries. However, health region totals were redistributed when the new boundaries were instituted on 2020-09-14, so while our daily case numbers match the numbers given in this section, our cumulative totals do not. We have reached out to the SK government to determine how this issue can be resolved. We will rectify our SK health region time series as soon as it becomes possible to do so.
