@@ -59,35 +59,3 @@ swh_recovered() %>%
     col_names = FALSE,
     reformat = FALSE
   )
-
-# Waterloo (WAT)
-wat_cases() %>%
-  {data.frame(readr::parse_number(as.character(.)))} %>%
-  range_write(
-    ss = "1dTfl_3Zwf7HgRFfwqjsOlvHyDh-sCwgly2YDdHTKaSU",
-    data = .,
-    sheet = "cases_timeseries_hr",
-    range = "D71",
-    col_names = FALSE,
-    reformat = FALSE
-  )
-wat_mortality() %>%
-  {data.frame(readr::parse_number(as.character(.)))} %>%
-  range_write(
-    ss = "1dTfl_3Zwf7HgRFfwqjsOlvHyDh-sCwgly2YDdHTKaSU",
-    data = .,
-    sheet = "mortality_timeseries_hr",
-    range = "D71",
-    col_names = FALSE,
-    reformat = FALSE
-  )
-wat_recovered() %>%
-  {data.frame(readr::parse_number(as.character(.)))} %>%
-  range_write(
-    ss = "1dTfl_3Zwf7HgRFfwqjsOlvHyDh-sCwgly2YDdHTKaSU",
-    data = .,
-    sheet = "recovered_timeseries_phu",
-    range = "D33",
-    col_names = FALSE,
-    reformat = FALSE
-  )

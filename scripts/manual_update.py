@@ -14,16 +14,3 @@ def swh_mortality():
     return ws_swh.data.iloc[0, 3]
 def swh_recovered():
     return ws_swh.data.iloc[1, 3]
-
-# Waterloo (WAT)
-url_wat = "https://public.tableau.com/views/WaterlooRegionCOVID-19Summary/COVID-19?:showVizHome=no&amp;:embed=true&amp;:linktarget= blank;:toolbar=no&amp;:display_count=yes&amp;:tabs=no&amp;wmode=transparent&amp;&amp;wmode=transparent:render=false&amp;&amp;wmode=transparent"
-ts_wat = TS()
-ts_wat.loads(url_wat)
-workbook_wat = ts_wat.getWorkbook()
-# workbook_wat.getWorksheetNames()
-def wat_cases():
-    return workbook_wat.getWorksheet("BANS0").data.iloc[0, 3]
-def wat_mortality():
-    return workbook_wat.getWorksheet("CaseStatus_byDate").data.query("`Case Status (LOD)-alias` == 'Deceased'")[["SUM(Cases)-value"]].iloc[-1, 0]
-def wat_recovered():
-    return workbook_wat.getWorksheet("BANS1").data.iloc[0, 3]
