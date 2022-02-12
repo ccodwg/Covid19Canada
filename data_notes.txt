@@ -1,14 +1,10 @@
-New data: 2022-02-10. See data notes.
+New data: 2022-02-11. See data notes.
 
 DATA NOTES:
 
 - IMPORTANT NOTICE: Due to recent changes in the availability of COVID-19 testing, case counts can no longer be considered a reliable indicator of spread.
+- Today’s COVID-19 death in NS was not given a region. Thus, it has been assigned to “Not Reported” region. “Nova Scotia is also reporting one death related to COVID-19. A child between the ages of 5 and 11 has died.” (https://novascotia.ca/news/release/?id=20220211005)
 - SK data reporting will continue in the near future when we determine how to integrate the newly reported data format.
-- BC recovered: As of 2021-02-10, BC will no longer report the number of active or recovered cases. “February 10, 2022: Active Cases have been removed from the dashboard as the values no longer reflect active community transmission numbers.”
-- SK total doses number has been fixed retroactively to include third doses. Previously it included only first and second doses, unlike other provinces.
-- Added historical NU third doses based on vaccine coverage proportions reported by PHAC (https://health-infobase.canada.ca/covid-19/vaccination-coverage).
-- Vaccine doses distributed in AB and QC declined for an unknown reason today.
-- Used new test number from the NS news release as the cumulative testing number seems not to have been updated on the dashboard today.
 - See notice in “RECENT CHANGES” section below regarding NS cases since 2021-12-10.
 - See notice in “RECENT CHANGES” section below regarding PE cases since 2021-11-02.
 
@@ -19,6 +15,8 @@ NEWS RELEVANT TO COVID-19 DATA:
 Beginning 2022-02-07, Saskatchewan will only be reporting a limited set of data once per week on Thursdays. See the following for more details: https://www.saskatchewan.ca/government/news-and-media/2022/february/03/living-with-covid-transition-of-public-health-management
 
 RECENT CHANGES TO THE DATASET:
+
+SK total doses number has been fixed retroactively to include third doses. Previously it included only first and second doses, unlike other provinces. Additionally, added historical NU third doses reported in the vaccine coverage file provided by PHAC (https://health-infobase.canada.ca/covid-19/vaccination-coverage).
 
 BC recovered: As of 2021-02-10, BC will no longer report the number of active or recovered cases. “February 10, 2022: Active Cases have been removed from the dashboard as the values no longer reflect active community transmission numbers.”
 
