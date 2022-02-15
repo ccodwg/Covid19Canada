@@ -1,11 +1,12 @@
-New data: 2022-02-13. See data notes.
+New data: 2022-02-14. See data notes.
 
 DATA NOTES:
 
 - IMPORTANT NOTICE: Due to recent changes in the availability of COVID-19 testing, case counts can no longer be considered a reliable indicator of spread.
+- Niagara (ON) did not report today due to data quality issues.
+- BC testing is from the 3-day daily values reported on the BCCDC dashboard rather than the cumulative value reported in the lab CSV, as the lab CSV was not updated today.
 - SK data reporting will continue in the near future when we determine how to integrate the newly reported data format.
-- Halton (ON) case, mortality and recovered time series has been rewritten back to 2020-04-01 (see note in the “Recent Changes” section for more details). #97
-- Some QC data were not updated yesterday (2022-02-11) for an unknown reason.
+- Recovered & active case values should be discarded, as BC has stopped reporting these metrics.
 - See notice in “RECENT CHANGES” section below regarding NS cases since 2021-12-10.
 - See notice in “RECENT CHANGES” section below regarding PE cases since 2021-11-02.
 
