@@ -39,7 +39,7 @@ tryCatch(
 
 # NT sub health-region cases and active cases
 tryCatch(
-  update_nt_subhr(),
+  update_nt_subhr(date_today),
   error = function(e) {print(e); cat("Error: update_nt_subhr()", fill = TRUE)}
 )
 

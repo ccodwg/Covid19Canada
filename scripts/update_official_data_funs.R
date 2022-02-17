@@ -119,10 +119,18 @@ convert_phac_testing_prov <- function() {
 }
 
 # update NT sub health-region cases and active cases
-update_nt_subhr <- function() {
+update_nt_subhr <- function(update_date, archive_date = NULL) {
   
   # download data
-  ds <- Covid19CanadaData::dl_dataset("9ed0f5cd-2c45-40a1-94c9-25b0c9df8f48")
+  if (!is.null(archive_date)) {
+    # download archived data
+    update_date <- as.Date(as.character(archive_date))
+    ds <- Covid19CanadaData::dl_archive("9ed0f5cd-2c45-40a1-94c9-25b0c9df8f48",
+                                        date = as.character(update_date))[[1]]
+  } else {
+    # download live dataset
+    ds <- Covid19CanadaData::dl_dataset("9ed0f5cd-2c45-40a1-94c9-25b0c9df8f48")
+  }
   
   ## cases ##
   
@@ -144,6 +152,11 @@ update_nt_subhr <- function() {
       fmt = "subhr_cum_current_residents_nonresidents",
       ds = ds
     )
+  }
+  
+  # fix date for archived data
+  if (!is.null(archive_date)) {
+    nt_cases_subhr$date <- update_date
   }
   
   # if still NA, throw an error
@@ -193,6 +206,11 @@ update_nt_subhr <- function() {
     fmt = "subhr_current",
     ds = ds
   )
+  
+  # fix date for archived data
+  if (!is.null(archive_date)) {
+    nt_active_subhr$date <- update_date
+  }
   
   # download current sheet
   nt_active_subhr_old <- Covid19CanadaETL::sheets_load(
