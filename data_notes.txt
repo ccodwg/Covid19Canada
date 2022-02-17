@@ -1,10 +1,8 @@
-New data: 2022-02-15. See data notes.
+New data: 2022-02-16. See data notes.
 
 DATA NOTES:
 
 - IMPORTANT NOTICE: Due to recent changes in the availability of COVID-19 testing, case counts can no longer be considered a reliable indicator of spread.
-- BC testing is from the daily values reported on the BCCDC dashboard rather than the cumulative value reported in the lab CSV, as the lab CSV was not updated today.
-- Recovered decline in MB today for an unknown reason.
 - SK data reporting will continue in the near future when we determine how to integrate the newly reported data format.
 - As of 2021-02-10, recovered & active case values should be discarded, as BC has stopped reporting these metrics.
 - See notice in “RECENT CHANGES” section below regarding NS cases since 2021-12-10.
