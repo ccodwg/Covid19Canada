@@ -1,10 +1,12 @@
-New data: 2022-02-16. See data notes.
+New data: 2022-02-17. See data notes.
 
 DATA NOTES:
 
 - IMPORTANT NOTICE: Due to recent changes in the availability of COVID-19 testing, case counts can no longer be considered a reliable indicator of spread.
-- SK data reporting will continue in the near future when we determine how to integrate the newly reported data format.
-- As of 2021-02-10, recovered & active case values should be discarded, as BC has stopped reporting these metrics.
+- SK data up to Sunday, 2022-02-13 has been updated as best as possible using weekly values reported in the weekly epi report.
+- See note regarding SK vaccination data on 2022-02-13 and later.
+- BC testing CSV was not updated today, so the daily testing value reported on the dashboard was added to yesterday’s cumulative total.
+- As of 2021-02-10, recovered & active case values should be discarded, as several provinces (BC, SK) have stopped reporting these metrics.
 - See notice in “RECENT CHANGES” section below regarding NS cases since 2021-12-10.
 - See notice in “RECENT CHANGES” section below regarding PE cases since 2021-11-02.
 
@@ -12,9 +14,11 @@ NOTICE: Most of our data collection is automated. PLEASE CONTACT US REGARDING AN
 
 NEWS RELEVANT TO COVID-19 DATA:
 
-Beginning 2022-02-07, Saskatchewan will only be reporting a limited set of data once per week on Thursdays. See the following for more details: https://www.saskatchewan.ca/government/news-and-media/2022/february/03/living-with-covid-transition-of-public-health-management
-
 RECENT CHANGES TO THE DATASET:
+
+Beginning 2022-02-07, Saskatchewan will only be reporting a limited set of data once per week on Thursdays. See the news release for more details (https://www.saskatchewan.ca/government/news-and-media/2022/february/03/living-with-covid-transition-of-public-health-management). Metrics will be updated as best as possible using weekly values reported in the weekly epi report. The Thursday reports report data up to the previous Sunday (actually, Saturday, but these data would have been reported on Sunday under the previous reporting model).
+
+The value for total doses and additional doses (3rd doses) is likely inflated since 2022-02-13 since 4th doses are no longer being excluded from the total doses and additional doses count, as they were prior to this date. Formulas used: total_administration = previous value + “total”; vaccine_completion = previous total + “second dose of two” + “Janssen single dose”; additional_doses = previous total + “first and second boosters after complete series”. Weekly values are used rather than cumulative values due to inconsistencies reported between cumulative values in this report and cumulative values previously reported on the dashboard.
 
 SK total doses number has been fixed retroactively to include third doses. Previously it included only first and second doses, unlike other provinces. Additionally, added historical NU third doses reported in the vaccine coverage file provided by PHAC (https://health-infobase.canada.ca/covid-19/vaccination-coverage).
 
