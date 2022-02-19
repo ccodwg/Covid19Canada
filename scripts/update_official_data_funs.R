@@ -172,7 +172,7 @@ update_nt_subhr <- function(update_date, archive_date = NULL) {
   
   # calculate daily deltas
   nt_cases_subhr_old <- nt_cases_subhr_old %>%
-    dplyr::filter(date == update_date - 1)
+    dplyr::filter(date == as.Date(update_date) - 1)
   nt_cases_subhr$value_daily <- nt_cases_subhr$value - as.integer(nt_cases_subhr_old$value)
   
   # check if new data was acquired successfully
@@ -230,7 +230,7 @@ update_nt_subhr <- function(update_date, archive_date = NULL) {
   
   # calculate daily deltas
   nt_active_subhr_old <- nt_active_subhr_old %>%
-    dplyr::filter(date == update_date - 1)
+    dplyr::filter(date == as.Date(update_date) - 1)
   nt_active_subhr$value_daily <- nt_active_subhr$value - as.integer(nt_active_subhr_old$value)
   
   # update on Google Sheets
