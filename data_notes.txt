@@ -1,11 +1,11 @@
-New data: 2022-02-20. See data notes.
+New data: 2022-02-21. See data notes.
 
 DATA NOTES:
 
 - IMPORTANT NOTICE: Before using our data, please read the updated “Data notes and caveats” section of the README: https://github.com/ccodwg/Covid19Canada#datasets
 - IMPORTANT NOTICE: Due to recent changes in the availability of COVID-19 testing, case counts can no longer be considered a reliable indicator of spread.
+- DATA AVAILABILITY: Many places did not update today (2022-02-21) due to holidays.
 - Grey Bruce (ON PHU) cases, mortality, recovered have been rewritten back to 2020-04-01 with the Ontario MoH dataset due to changes in reporting by the PHU. See note below.
-- Cumulative vaccine data for YT have declined for an unknown reason.
 - YT testing data time series (n_persons_tested) was replaced with the new n_tests_completed time series, since this is the only one available going forward.
 - SK data up to Sunday, 2022-02-13 has been updated as best as possible using weekly values reported in the weekly epi report.
 - See note regarding SK vaccination data on 2022-02-13 and later.
