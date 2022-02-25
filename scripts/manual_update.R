@@ -26,9 +26,7 @@ library(magrittr)
 library(lubridate)
 library(reticulate)
 
-# source Python code
-source_python("scripts/manual_update.py")
-
+# function: copy cells from one cell to another
 copy_cells <- function(read_sheet, read_cells, write_cells, write_sheet = NULL) {
   # write sheet is same as read sheet
   if (is.null(write_sheet)) {
@@ -52,6 +50,9 @@ copy_cells <- function(read_sheet, read_cells, write_cells, write_sheet = NULL) 
     reformat = FALSE
   )
 }
+
+# source Python code
+source_python("scripts/manual_update.py")
 
 # set today's date
 date_today <- as.Date(with_tz(Sys.time(), "America/Toronto"))
@@ -140,6 +141,9 @@ wat_recovered() %>%
 copy_cells("manual_1", "A15:A19", "D33:D37", "cases_timeseries_hr")
 copy_cells("manual_1", "B15:B19", "D33:D37", "mortality_timeseries_hr")
 copy_cells("manual_1", "D19", "C7", "recovered_timeseries_prov")
+
+# British Columbia
+copy_cells("recovered_timeseries_prov", "E3", "C3") # recovered - copy yesterday's value
 
 # Saskatchewan #
 
