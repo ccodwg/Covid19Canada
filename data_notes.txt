@@ -1,4 +1,4 @@
-New data: 2022-03-01. See data notes.
+New data: 2022-03-02. See data notes.
 
 DATA NOTES:
 
@@ -6,7 +6,9 @@ DATA NOTES:
 - IMPORTANT NOTICE: Due to recent changes in the availability of COVID-19 testing, case counts can no longer be considered a reliable indicator of spread.
 - REPORTING OF RECOVERED/ACTIVE CASES: As of 2021-02-10, recovered & active case values should be discarded, as several provinces (BC, SK) have stopped reporting these metrics.
 - Note that NT includes Rapid Antigen Tests (RAT) and Point of Care Tests (POCT) in their case numbers. However, they have ceased to report PCR testing numbers. This will be dealt with in the coming days.
-- AB is not reporting cases today due to a technical issue: “Full reporting is unavailable due to technical issues. Estimated numbers will be provided today and full reporting will resume tomorrow. Vaccine data and outbreak reporting have not been impacted.”
+- Replaced QC case data from 2022-02-28 w/ INSPQ data from the same date (as opposed to the usual dataset: https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-des-cas-confirmes). The reason for this is that thousands of cases were erroneously transferred to “Hors Quebec” on this date and then retracted the next day. Deaths and recovered were left untouched as the discontinuity created by replacing them with the INSQP data would be larger than just leaving it alone.
+- AB cases represent two days of cases since there was no reporting yesterday due to a “technical error”.
+- Cumulative testing declined in NL for an unknown reason.
 - See notice in “RECENT CHANGES” section below regarding NS cases since 2021-12-10.
 - See notice in “RECENT CHANGES” section below regarding PE cases since 2021-11-02.
 
