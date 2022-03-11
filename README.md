@@ -45,7 +45,7 @@ The dataset in this repository was launched in March 2020 and has been maintaine
 - ⚠️ Recovered/active case counts are highly problematic
   - The defintion of "recovered" has changed over time and differs between provinces. For example, Quebec changed their defintion of recovered on July 17, 2020, which created a massive spike on that date. For this reason, these data should be interpreted with caution.
   - Recovered and active case numbers for Ontario (and thus Canada) are incorrectly estimated prior to 2021-09-07 and should not be considered reliable.
-  - Recovered and active case numbers for British Columbia are no longer available as of 2021-02-10. Values for this province (and thus Canada) should be discarded after this date. Saskatchewan has also stopped reporting these values.
+  - Recovered and active case numbers for British Columbia are no longer available as of 2021-02-10. Values for this province (and thus Canada) should be discarded after this date. Saskatchewan and Nova Scotia have also stopped reporting recovered and active case values.
 
 The update date and time for our dataset is given in [`update_time.txt`](https://github.com/ccodwg/Covid19Canada/blob/master/update_time.txt).
 
