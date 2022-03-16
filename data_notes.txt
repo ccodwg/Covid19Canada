@@ -1,4 +1,4 @@
-New data: 2022-03-14. See data notes.
+New data: 2022-03-15. See data notes.
 
 DATA NOTES:
 
@@ -6,8 +6,9 @@ DATA NOTES:
 - IMPORTANT NOTICE: Due to recent changes in the availability of COVID-19 testing, case counts can no longer be considered a reliable indicator of spread.
 - REPORTING OF RECOVERED/ACTIVE CASES: As of 2021-02-10, recovered & active case values should be discarded, as several provinces (BC, NS, SK) have stopped reporting these metrics.
 - Note that NT includes Rapid Antigen Tests (RAT) and Point of Care Tests (POCT) in their case numbers. However, they have ceased to report PCR testing numbers. This will be dealt with in the coming days.
-- Updated PE data from 2022-03-08 (https://www.princeedwardisland.ca/en/news/changes-to-covid-19-testing-for-close-contacts-step-2-of-moving-on-plan-begins-march-17).
 - On 2022-03-11, ON removed several hundred deaths identified as “incidental” from their death counts (over 200 in our dataset, based on PHU numbers, over 400 in the Ministry of Health dataset). https://www.cbc.ca/news/canada/toronto/covid19-ontario-march-11-1.6381330
+- New case and recovered numbers for NL appear to be inaccurate. Thus, recovered will be retired and cases will be reported at the province level only (i.e., all new cases will have not reported health regions). Added new cases from province-level total going back to 2022-03-12 (the day after the last HR-level case report). Death reporting appears unaffected.
+- NL appears to no longer be reporting third dose values or testing numbers. These values will be dealt with or retired in the coming days.
 - NS appears to no longer be reporting testing values. This will be dealt with in the coming days.
 - NS appears to no longer be reporting all vaccine values. This will be dealt with in the coming days.
 - See notice in “RECENT CHANGES” section below regarding NS cases since 2021-12-10.
