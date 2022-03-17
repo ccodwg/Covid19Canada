@@ -1,4 +1,4 @@
-New data: 2022-03-15. See data notes.
+New data: 2022-03-16. See data notes.
 
 DATA NOTES:
 
@@ -7,7 +7,8 @@ DATA NOTES:
 - REPORTING OF RECOVERED/ACTIVE CASES: As of 2021-02-10, recovered & active case values should be discarded, as several provinces (BC, NS, SK) have stopped reporting these metrics.
 - Note that NT includes Rapid Antigen Tests (RAT) and Point of Care Tests (POCT) in their case numbers. However, they have ceased to report PCR testing numbers. This will be dealt with in the coming days.
 - On 2022-03-11, ON removed several hundred deaths identified as “incidental” from their death counts (over 200 in our dataset, based on PHU numbers, over 400 in the Ministry of Health dataset). https://www.cbc.ca/news/canada/toronto/covid19-ontario-march-11-1.6381330
-- New case and recovered numbers for NL appear to be inaccurate. Thus, recovered will be retired and cases will be reported at the province level only (i.e., all new cases will have not reported health regions). Added new cases from province-level total going back to 2022-03-12 (the day after the last HR-level case report). Death reporting appears unaffected.
+- New case and recovered numbers for NL appear to be inaccurate (not shown on dashboard, but available via JSON query). Thus, recovered will be retired and cases will be reported at the province level only (i.e., all new cases will have not reported health regions). Added new cases from province-level total going back to 2022-03-12 (the day after the last HR-level case report). Death reporting appears unaffected.
+- AB deaths declined today for an unknown reason.
 - NL appears to no longer be reporting third dose values or testing numbers. These values will be dealt with or retired in the coming days.
 - NS appears to no longer be reporting testing values. This will be dealt with in the coming days.
 - NS appears to no longer be reporting all vaccine values. This will be dealt with in the coming days.
@@ -20,32 +21,13 @@ NEWS RELEVANT TO COVID-19 DATA:
 
 ON: On 2022-03-11, Ontario removed hundreds of COVID-19 deaths identified as “incidental”. https://www.cbc.ca/news/canada/toronto/covid19-ontario-march-11-1.6381330
 
-NS: Nova Scotia resumed confirmatory COVID-19 testing on February 24: https://www.nshealth.ca/news/nova-scotia-resume-confirmation-pcr-testing-positive-rapid-tests
-
-NS data reporting news (2022-03-03; https://novascotia.ca/news/release/?id=20220303002):
-
-- There will be an increase in new lab-confirmed cases of COVID-19 reported because of a change in testing protocol announced last week. People with positive rapid test results are now able to get a confirmatory PCR lab test.
-- The last daily COVID-19 news release and data dashboard update will be on Friday, March 4, as Nova Scotia moves to weekly reporting. The next COVID-19 release and dashboard update will be on Thursday, March 10.
-
 RECENT CHANGES TO THE DATASET:
 
 Beginning 2022-02-07, Saskatchewan will only be reporting a limited set of data once per week on Thursdays. See the news release for more details (https://www.saskatchewan.ca/government/news-and-media/2022/february/03/living-with-covid-transition-of-public-health-management). Metrics will be updated as best as possible using weekly values reported in the weekly epi report. The Thursday reports report data up to the previous Sunday (actually, Saturday, but these data would have been reported on Sunday under the previous reporting model).
 
 The value for total doses and additional doses (3rd doses) is likely inflated since 2022-02-13 since 4th doses are no longer being excluded from the total doses and additional doses count, as they were prior to this date. Formulas used: total_administration = previous value + “total”; vaccine_completion = previous total + “second dose of two” + “Janssen single dose”; additional_doses = previous total + “first and second boosters after complete series”. Weekly values are used rather than cumulative values due to inconsistencies reported between cumulative values in this report and cumulative values previously reported on the dashboard.
 
-SK total doses number has been fixed retroactively to include third doses. Previously it included only first and second doses, unlike other provinces. Additionally, added historical NU third doses reported in the vaccine coverage file provided by PHAC (https://health-infobase.canada.ca/covid-19/vaccination-coverage).
-
-BC recovered: As of 2021-02-10, BC will no longer report the number of active or recovered cases. “February 10, 2022: Active Cases have been removed from the dashboard as the values no longer reflect active community transmission numbers.”
-
-PE recovered: From now on, recovered values will be calculated as total cases - active cases - deaths, based primarily on the data provided in the daily press releases. This value has been recalculated back to the date of the first reported deaths in PEI (2022-01-14). [UPDATE, 2022-01-31: As of today, it appears that PEI is now appropriately accounting for deaths in the recovered value posted to their dashboard.]
-
-NS is again reporting the number of doses administered (1st, 2nd, 3rd) on their dashboard, which will be used going forward.
-
 Some ON Public Health Unit (PHU) datasets have been retired and replaced with the Ontario Ministry of Health dataset, rewriting their cases, mortality and recovered datasets back to 2020-04-01. You can track this here: https://github.com/ccodwg/Covid19Canada/issues/97
-
-NU cumulative testing number has been replaced by the time series of tests completed from the Public Health Agency of Canada (https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html). The reason for this is that the previously reported value, number of people tested, somehow decreased by ~80% and has not been corrected for several days.
-
-Since 2021-11-02, cases and recovered for PE have been based on the number of cases reported by PHAC on weekdays (https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html) and the daily press releases on weekends (https://www.princeedwardisland.ca/en/news), as the PHAC dataset is not updated over the weekend. This change is due to the very inconsistent updating of the usual data source, the PEI dashboard (https://www.princeedwardisland.ca/en/information/health-and-wellness/covid-19-testing-and-case-data). The data reported by PHAC seems to match the data reported in press releases. [Note that historical values for 2021-11-02 to 2021-12-20 were re-calculated on 2021-12-20. 2021-11-02 was selected because it was not too far back and there was agreement in the number of cumulative cases reported by PHAC and the province on this day (319).] [GitHub issue #89]
 
 Additional doses (booster doses, 3rd doses, 4th doses) doses are now being reported for most provinces in a new dataset: vaccine_additionaldoses_timeseries_prov / vaccine_additionaldoses_timeseries_canada.csv
 
