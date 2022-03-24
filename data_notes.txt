@@ -1,4 +1,4 @@
-New data: 2022-03-22. See data notes.
+New data: 2022-03-23. See data notes.
 
 DATA NOTES:
 
@@ -10,7 +10,6 @@ DATA NOTES:
 - NL appears to no longer be reporting third dose values or testing numbers. These values will be dealt with or retired in the coming days.
 - NS appears to no longer be reporting testing values. This will be dealt with in the coming days.
 - NS appears to no longer be reporting all vaccine values. This will be dealt with in the coming days.
-- Haliburton Kawartha Pineridge (ON PHU) has been rewritten back to 2020-04-01 using ON Ministry of Health data. This is because changes to their dashboard have made continued direct, automated scraping of their dashboard infeasible. See below for details.
 - See notice in “RECENT CHANGES” section below regarding NS cases since 2021-12-10.
 - See notice in “RECENT CHANGES” section below regarding PE cases since 2021-11-02.
 
