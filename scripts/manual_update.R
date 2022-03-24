@@ -150,6 +150,9 @@ copy_cells("vaccine_administration_timeseries_prov", "E7", "C7")
 copy_cells("vaccine_completion_timeseries_prov", "E7", "C7")
 copy_cells("vaccine_additional_doses_timeseries_prov", "E7", "C7")
 
+# Alberta
+copy_cells("recovered_timeseries_prov", "E2", "C2")
+
 # British Columbia
 copy_cells("recovered_timeseries_prov", "E3", "C3") # recovered - copy yesterday's value
 
