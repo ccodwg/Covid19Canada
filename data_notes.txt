@@ -1,4 +1,4 @@
-New data: 2022-03-23. See data notes.
+New data: 2022-03-24. See data notes.
 
 DATA NOTES:
 
@@ -7,6 +7,7 @@ DATA NOTES:
 - REPORTING OF RECOVERED/ACTIVE CASES: As of 2021-02-10, recovered & active case values should be discarded, as several provinces (BC, NS, SK) have stopped reporting these metrics.
 - Note that NT includes Rapid Antigen Tests (RAT) and Point of Care Tests (POCT) in their case numbers. However, they have ceased to report PCR testing numbers. This will be dealt with in the coming days.
 - New case and recovered numbers for NL at the health region-level appear to be inaccurate (not shown on dashboard, but available via JSON query). Thus, recovered will be retired and cases will be reported at the province level only (i.e., all new cases will have not reported health regions). Added new cases from province-level total going back to 2022-03-12 (the day after the last HR-level case report). Death reporting appears unaffected.
+- AB is no longer reporting recovered/active case values.
 - NL appears to no longer be reporting third dose values or testing numbers. These values will be dealt with or retired in the coming days.
 - NS appears to no longer be reporting testing values. This will be dealt with in the coming days.
 - NS appears to no longer be reporting all vaccine values. This will be dealt with in the coming days.
