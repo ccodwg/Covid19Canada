@@ -156,6 +156,14 @@ copy_cells("recovered_timeseries_prov", "E2", "C2")
 # British Columbia
 copy_cells("recovered_timeseries_prov", "E3", "C3") # recovered - copy yesterday's value
 
+# Manitoba
+copy_cells("recovered_timeseries_prov", "E4", "C4")
+if (weekdays(date_today) != "Thursday") {
+  copy_cells("cases_timeseries_hr", "F14:F19", "D14:D19")
+  copy_cells("mortality_timeseries_hr", "F14:F19", "D14:D19")
+  copy_cells("testing_timeseries_prov", "E4", "C4")
+}
+
 # Newfoundland
 copy_cells("cases_timeseries_hr", "F28:F30", "D28:D30")
 if (!weekdays(date_today) %in% c("Monday", "Wednesday", "Friday")) {
