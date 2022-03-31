@@ -161,10 +161,12 @@ copy_cells("recovered_timeseries_prov", "E3", "C3") # recovered - copy yesterday
 
 # Manitoba
 copy_cells("recovered_timeseries_prov", "E4", "C4")
+copy_cells("mortality_timeseries_hr", "F14:F15", "D14:D15")
+copy_cells("mortality_timeseries_hr", "F17:F19", "D17:D19")
 if (weekdays(date_today) != "Thursday") {
-  copy_cells("cases_timeseries_hr", "F14:F19", "D14:D19")
-  copy_cells("mortality_timeseries_hr", "F14:F19", "D14:D19")
-  copy_cells("testing_timeseries_prov", "E4", "C4")
+  copy_cells("cases_timeseries_hr", "F14:F19", "D14:I19")
+  copy_cells("mortality_timeseries_hr", "F16", "D16:I16")
+  copy_cells("testing_timeseries_prov", "E4", "C4:H4")
 }
 
 # Newfoundland
