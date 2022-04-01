@@ -163,6 +163,9 @@ copy_cells("recovered_timeseries_prov", "E3", "C3") # recovered - copy yesterday
 copy_cells("recovered_timeseries_prov", "E4", "C4")
 copy_cells("mortality_timeseries_hr", "F14:F15", "D14:D15")
 copy_cells("mortality_timeseries_hr", "F17:F19", "D17:D19")
+copy_cells("vaccine_administration_timeseries_prov", "E4", "C4")
+copy_cells("vaccine_completion_timeseries_prov", "E4", "C4")
+copy_cells("vaccine_additional_doses_timeseries_prov", "E4", "C4")
 if (weekdays(date_today) != "Thursday") {
   copy_cells("cases_timeseries_hr", "F14:F19", "D14:I19")
   copy_cells("mortality_timeseries_hr", "F16", "D16:I16")
