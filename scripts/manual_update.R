@@ -167,9 +167,9 @@ copy_cells("vaccine_administration_timeseries_prov", "E4", "C4")
 copy_cells("vaccine_completion_timeseries_prov", "E4", "C4")
 copy_cells("vaccine_additional_doses_timeseries_prov", "E4", "C4")
 if (weekdays(date_today) != "Thursday") {
-  copy_cells("cases_timeseries_hr", "F14:F19", "D14:I19")
-  copy_cells("mortality_timeseries_hr", "F16", "D16:I16")
-  copy_cells("testing_timeseries_prov", "E4", "C4:H4")
+  copy_cells("cases_timeseries_hr", "F14:F19", "D14:D19")
+  copy_cells("mortality_timeseries_hr", "F16", "D16")
+  copy_cells("testing_timeseries_prov", "E4", "C4")
 }
 
 # Newfoundland
