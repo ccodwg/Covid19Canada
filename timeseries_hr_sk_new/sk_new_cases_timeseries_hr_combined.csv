@@ -610,6 +610,7 @@
 "Alberta","Calgary","04-04-2022",0,217543
 "Alberta","Calgary","05-04-2022",0,217543
 "Alberta","Calgary","06-04-2022",2295,219838
+"Alberta","Calgary","07-04-2022",0,219838
 "Alberta","Central","04-08-2020",28,481
 "Alberta","Central","05-08-2020",1,482
 "Alberta","Central","06-08-2020",4,486
@@ -1221,6 +1222,7 @@
 "Alberta","Central","04-04-2022",0,54846
 "Alberta","Central","05-04-2022",0,54846
 "Alberta","Central","06-04-2022",664,55510
+"Alberta","Central","07-04-2022",0,55510
 "Alberta","Edmonton","04-08-2020",105,1752
 "Alberta","Edmonton","05-08-2020",50,1802
 "Alberta","Edmonton","06-08-2020",33,1835
@@ -1832,6 +1834,7 @@
 "Alberta","Edmonton","04-04-2022",0,172888
 "Alberta","Edmonton","05-04-2022",0,172888
 "Alberta","Edmonton","06-04-2022",1738,174626
+"Alberta","Edmonton","07-04-2022",0,174626
 "Alberta","North","04-08-2020",47,613
 "Alberta","North","05-08-2020",10,623
 "Alberta","North","06-08-2020",2,625
@@ -2443,6 +2446,7 @@
 "Alberta","North","04-04-2022",0,60102
 "Alberta","North","05-04-2022",0,60102
 "Alberta","North","06-04-2022",394,60496
+"Alberta","North","07-04-2022",0,60496
 "Alberta","Not Reported","04-08-2020",0,15
 "Alberta","Not Reported","05-08-2020",0,15
 "Alberta","Not Reported","06-08-2020",0,15
@@ -3054,6 +3058,7 @@
 "Alberta","Not Reported","04-04-2022",0,211
 "Alberta","Not Reported","05-04-2022",0,211
 "Alberta","Not Reported","06-04-2022",1,212
+"Alberta","Not Reported","07-04-2022",0,212
 "Alberta","South","04-08-2020",23,1672
 "Alberta","South","05-08-2020",3,1675
 "Alberta","South","06-08-2020",3,1678
@@ -3665,6 +3670,7 @@
 "Alberta","South","04-04-2022",0,35143
 "Alberta","South","05-04-2022",0,35143
 "Alberta","South","06-04-2022",422,35565
+"Alberta","South","07-04-2022",0,35565
 "BC","Fraser","04-08-2020",100,1988
 "BC","Fraser","05-08-2020",24,2012
 "BC","Fraser","06-08-2020",30,2042
@@ -4276,6 +4282,7 @@
 "BC","Fraser","04-04-2022",0,158811
 "BC","Fraser","05-04-2022",0,158811
 "BC","Fraser","06-04-2022",0,158811
+"BC","Fraser","07-04-2022",122,158933
 "BC","Interior","04-08-2020",7,379
 "BC","Interior","05-08-2020",7,386
 "BC","Interior","06-08-2020",1,387
@@ -4887,6 +4894,7 @@
 "BC","Interior","04-04-2022",0,62680
 "BC","Interior","05-04-2022",0,62680
 "BC","Interior","06-04-2022",0,62680
+"BC","Interior","07-04-2022",101,62781
 "BC","Island","04-08-2020",2,146
 "BC","Island","05-08-2020",0,146
 "BC","Island","06-08-2020",0,146
@@ -5498,6 +5506,7 @@
 "BC","Island","04-04-2022",0,33320
 "BC","Island","05-04-2022",0,33320
 "BC","Island","06-04-2022",0,33320
+"BC","Island","07-04-2022",115,33435
 "BC","Northern","04-08-2020",3,91
 "BC","Northern","05-08-2020",0,91
 "BC","Northern","06-08-2020",2,93
@@ -6109,6 +6118,7 @@
 "BC","Northern","04-04-2022",0,29413
 "BC","Northern","05-04-2022",0,29413
 "BC","Northern","06-04-2022",0,29413
+"BC","Northern","07-04-2022",30,29443
 "BC","Not Reported","04-08-2020",2,63
 "BC","Not Reported","05-08-2020",1,64
 "BC","Not Reported","06-08-2020",3,67
@@ -6720,6 +6730,7 @@
 "BC","Not Reported","04-04-2022",0,390
 "BC","Not Reported","05-04-2022",0,390
 "BC","Not Reported","06-04-2022",0,390
+"BC","Not Reported","07-04-2022",1,391
 "BC","Vancouver Coastal","04-08-2020",31,1121
 "BC","Vancouver Coastal","05-08-2020",14,1135
 "BC","Vancouver Coastal","06-08-2020",11,1146
@@ -7331,6 +7342,7 @@
 "BC","Vancouver Coastal","04-04-2022",0,72158
 "BC","Vancouver Coastal","05-04-2022",0,72158
 "BC","Vancouver Coastal","06-04-2022",0,72158
+"BC","Vancouver Coastal","07-04-2022",101,72259
 "Manitoba","Interlake-Eastern","04-08-2020",2,62
 "Manitoba","Interlake-Eastern","05-08-2020",0,62
 "Manitoba","Interlake-Eastern","06-08-2020",0,62
@@ -7938,10 +7950,11 @@
 "Manitoba","Interlake-Eastern","31-03-2022",0,11183
 "Manitoba","Interlake-Eastern","01-04-2022",0,11183
 "Manitoba","Interlake-Eastern","02-04-2022",0,11183
-"Manitoba","Interlake-Eastern","03-04-2022",0,11183
-"Manitoba","Interlake-Eastern","04-04-2022",0,11183
-"Manitoba","Interlake-Eastern","05-04-2022",0,11183
-"Manitoba","Interlake-Eastern","06-04-2022",0,11183
+"Manitoba","Interlake-Eastern","03-04-2022",155,11338
+"Manitoba","Interlake-Eastern","04-04-2022",0,11338
+"Manitoba","Interlake-Eastern","05-04-2022",0,11338
+"Manitoba","Interlake-Eastern","06-04-2022",0,11338
+"Manitoba","Interlake-Eastern","07-04-2022",0,11338
 "Manitoba","Northern","04-08-2020",0,3
 "Manitoba","Northern","05-08-2020",0,3
 "Manitoba","Northern","06-08-2020",0,3
@@ -8549,10 +8562,11 @@
 "Manitoba","Northern","31-03-2022",0,17923
 "Manitoba","Northern","01-04-2022",0,17923
 "Manitoba","Northern","02-04-2022",0,17923
-"Manitoba","Northern","03-04-2022",0,17923
-"Manitoba","Northern","04-04-2022",0,17923
-"Manitoba","Northern","05-04-2022",0,17923
-"Manitoba","Northern","06-04-2022",0,17923
+"Manitoba","Northern","03-04-2022",166,18089
+"Manitoba","Northern","04-04-2022",0,18089
+"Manitoba","Northern","05-04-2022",0,18089
+"Manitoba","Northern","06-04-2022",0,18089
+"Manitoba","Northern","07-04-2022",0,18089
 "Manitoba","Not Reported","04-08-2020",0,0
 "Manitoba","Not Reported","05-08-2020",0,0
 "Manitoba","Not Reported","06-08-2020",0,0
@@ -9164,6 +9178,7 @@
 "Manitoba","Not Reported","04-04-2022",0,0
 "Manitoba","Not Reported","05-04-2022",0,0
 "Manitoba","Not Reported","06-04-2022",0,0
+"Manitoba","Not Reported","07-04-2022",0,0
 "Manitoba","Prairie Mountain","04-08-2020",10,53
 "Manitoba","Prairie Mountain","05-08-2020",0,53
 "Manitoba","Prairie Mountain","06-08-2020",18,71
@@ -9771,10 +9786,11 @@
 "Manitoba","Prairie Mountain","31-03-2022",0,13614
 "Manitoba","Prairie Mountain","01-04-2022",0,13614
 "Manitoba","Prairie Mountain","02-04-2022",0,13614
-"Manitoba","Prairie Mountain","03-04-2022",0,13614
-"Manitoba","Prairie Mountain","04-04-2022",0,13614
-"Manitoba","Prairie Mountain","05-04-2022",0,13614
-"Manitoba","Prairie Mountain","06-04-2022",0,13614
+"Manitoba","Prairie Mountain","03-04-2022",183,13797
+"Manitoba","Prairie Mountain","04-04-2022",0,13797
+"Manitoba","Prairie Mountain","05-04-2022",0,13797
+"Manitoba","Prairie Mountain","06-04-2022",0,13797
+"Manitoba","Prairie Mountain","07-04-2022",0,13797
 "Manitoba","Southern Health","04-08-2020",12,70
 "Manitoba","Southern Health","05-08-2020",0,70
 "Manitoba","Southern Health","06-08-2020",11,81
@@ -10382,10 +10398,11 @@
 "Manitoba","Southern Health","31-03-2022",0,19021
 "Manitoba","Southern Health","01-04-2022",0,19021
 "Manitoba","Southern Health","02-04-2022",0,19021
-"Manitoba","Southern Health","03-04-2022",0,19021
-"Manitoba","Southern Health","04-04-2022",0,19021
-"Manitoba","Southern Health","05-04-2022",0,19021
-"Manitoba","Southern Health","06-04-2022",0,19021
+"Manitoba","Southern Health","03-04-2022",186,19207
+"Manitoba","Southern Health","04-04-2022",0,19207
+"Manitoba","Southern Health","05-04-2022",0,19207
+"Manitoba","Southern Health","06-04-2022",0,19207
+"Manitoba","Southern Health","07-04-2022",0,19207
 "Manitoba","Winnipeg","04-08-2020",3,254
 "Manitoba","Winnipeg","05-08-2020",2,256
 "Manitoba","Winnipeg","06-08-2020",1,257
@@ -10993,10 +11010,11 @@
 "Manitoba","Winnipeg","31-03-2022",0,73473
 "Manitoba","Winnipeg","01-04-2022",0,73473
 "Manitoba","Winnipeg","02-04-2022",0,73473
-"Manitoba","Winnipeg","03-04-2022",0,73473
-"Manitoba","Winnipeg","04-04-2022",0,73473
-"Manitoba","Winnipeg","05-04-2022",0,73473
-"Manitoba","Winnipeg","06-04-2022",0,73473
+"Manitoba","Winnipeg","03-04-2022",669,74142
+"Manitoba","Winnipeg","04-04-2022",0,74142
+"Manitoba","Winnipeg","05-04-2022",0,74142
+"Manitoba","Winnipeg","06-04-2022",0,74142
+"Manitoba","Winnipeg","07-04-2022",0,74142
 "New Brunswick","Not Reported","04-08-2020",0,0
 "New Brunswick","Not Reported","05-08-2020",0,0
 "New Brunswick","Not Reported","06-08-2020",0,0
@@ -11608,6 +11626,7 @@
 "New Brunswick","Not Reported","04-04-2022",0,0
 "New Brunswick","Not Reported","05-04-2022",0,0
 "New Brunswick","Not Reported","06-04-2022",0,0
+"New Brunswick","Not Reported","07-04-2022",0,0
 "New Brunswick","Zone 1 (Moncton area)","04-08-2020",0,29
 "New Brunswick","Zone 1 (Moncton area)","05-08-2020",4,33
 "New Brunswick","Zone 1 (Moncton area)","06-08-2020",2,35
@@ -12219,6 +12238,7 @@
 "New Brunswick","Zone 1 (Moncton area)","04-04-2022",0,15282
 "New Brunswick","Zone 1 (Moncton area)","05-04-2022",0,15282
 "New Brunswick","Zone 1 (Moncton area)","06-04-2022",0,15282
+"New Brunswick","Zone 1 (Moncton area)","07-04-2022",0,15282
 "New Brunswick","Zone 2 (Saint John area)","04-08-2020",0,27
 "New Brunswick","Zone 2 (Saint John area)","05-08-2020",0,27
 "New Brunswick","Zone 2 (Saint John area)","06-08-2020",0,27
@@ -12830,6 +12850,7 @@
 "New Brunswick","Zone 2 (Saint John area)","04-04-2022",0,11311
 "New Brunswick","Zone 2 (Saint John area)","05-04-2022",0,11311
 "New Brunswick","Zone 2 (Saint John area)","06-04-2022",0,11311
+"New Brunswick","Zone 2 (Saint John area)","07-04-2022",0,11311
 "New Brunswick","Zone 3 (Fredericton area)","04-08-2020",0,51
 "New Brunswick","Zone 3 (Fredericton area)","05-08-2020",0,51
 "New Brunswick","Zone 3 (Fredericton area)","06-08-2020",0,51
@@ -13441,6 +13462,7 @@
 "New Brunswick","Zone 3 (Fredericton area)","04-04-2022",0,8508
 "New Brunswick","Zone 3 (Fredericton area)","05-04-2022",0,8508
 "New Brunswick","Zone 3 (Fredericton area)","06-04-2022",0,8508
+"New Brunswick","Zone 3 (Fredericton area)","07-04-2022",0,8508
 "New Brunswick","Zone 4 (Edmundston area)","04-08-2020",0,7
 "New Brunswick","Zone 4 (Edmundston area)","05-08-2020",0,7
 "New Brunswick","Zone 4 (Edmundston area)","06-08-2020",0,7
@@ -14052,6 +14074,7 @@
 "New Brunswick","Zone 4 (Edmundston area)","04-04-2022",0,4307
 "New Brunswick","Zone 4 (Edmundston area)","05-04-2022",0,4307
 "New Brunswick","Zone 4 (Edmundston area)","06-04-2022",0,4307
+"New Brunswick","Zone 4 (Edmundston area)","07-04-2022",0,4307
 "New Brunswick","Zone 5 (Campbellton area)","04-08-2020",0,53
 "New Brunswick","Zone 5 (Campbellton area)","05-08-2020",0,53
 "New Brunswick","Zone 5 (Campbellton area)","06-08-2020",0,53
@@ -14663,6 +14686,7 @@
 "New Brunswick","Zone 5 (Campbellton area)","04-04-2022",0,2051
 "New Brunswick","Zone 5 (Campbellton area)","05-04-2022",0,2051
 "New Brunswick","Zone 5 (Campbellton area)","06-04-2022",0,2051
+"New Brunswick","Zone 5 (Campbellton area)","07-04-2022",0,2051
 "New Brunswick","Zone 6 (Bathurst area)","04-08-2020",0,1
 "New Brunswick","Zone 6 (Bathurst area)","05-08-2020",0,1
 "New Brunswick","Zone 6 (Bathurst area)","06-08-2020",0,1
@@ -15274,6 +15298,7 @@
 "New Brunswick","Zone 6 (Bathurst area)","04-04-2022",0,3917
 "New Brunswick","Zone 6 (Bathurst area)","05-04-2022",0,3917
 "New Brunswick","Zone 6 (Bathurst area)","06-04-2022",0,3917
+"New Brunswick","Zone 6 (Bathurst area)","07-04-2022",0,3917
 "New Brunswick","Zone 7 (Miramichi area)","04-08-2020",0,2
 "New Brunswick","Zone 7 (Miramichi area)","05-08-2020",0,2
 "New Brunswick","Zone 7 (Miramichi area)","06-08-2020",0,2
@@ -15885,6 +15910,7 @@
 "New Brunswick","Zone 7 (Miramichi area)","04-04-2022",0,2821
 "New Brunswick","Zone 7 (Miramichi area)","05-04-2022",0,2821
 "New Brunswick","Zone 7 (Miramichi area)","06-04-2022",0,2821
+"New Brunswick","Zone 7 (Miramichi area)","07-04-2022",0,2821
 "NL","Central","04-08-2020",0,11
 "NL","Central","05-08-2020",0,11
 "NL","Central","06-08-2020",0,11
@@ -16496,6 +16522,7 @@
 "NL","Central","04-04-2022",0,4023
 "NL","Central","05-04-2022",0,4023
 "NL","Central","06-04-2022",0,4023
+"NL","Central","07-04-2022",0,4023
 "NL","Eastern","04-08-2020",0,245
 "NL","Eastern","05-08-2020",0,245
 "NL","Eastern","06-08-2020",0,245
@@ -17107,6 +17134,7 @@
 "NL","Eastern","04-04-2022",0,19720
 "NL","Eastern","05-04-2022",0,19720
 "NL","Eastern","06-04-2022",0,19720
+"NL","Eastern","07-04-2022",0,19720
 "NL","Labrador-Grenfell","04-08-2020",0,6
 "NL","Labrador-Grenfell","05-08-2020",0,6
 "NL","Labrador-Grenfell","06-08-2020",0,6
@@ -17718,6 +17746,7 @@
 "NL","Labrador-Grenfell","04-04-2022",0,2351
 "NL","Labrador-Grenfell","05-04-2022",0,2351
 "NL","Labrador-Grenfell","06-04-2022",0,2351
+"NL","Labrador-Grenfell","07-04-2022",0,2351
 "NL","Not Reported","04-08-2020",0,0
 "NL","Not Reported","05-08-2020",0,0
 "NL","Not Reported","06-08-2020",0,0
@@ -18329,6 +18358,7 @@
 "NL","Not Reported","04-04-2022",154,10328
 "NL","Not Reported","05-04-2022",304,10632
 "NL","Not Reported","06-04-2022",339,10971
+"NL","Not Reported","07-04-2022",0,10971
 "NL","Western","04-08-2020",0,4
 "NL","Western","05-08-2020",0,4
 "NL","Western","06-08-2020",0,4
@@ -18940,6 +18970,7 @@
 "NL","Western","04-04-2022",0,3271
 "NL","Western","05-04-2022",0,3271
 "NL","Western","06-04-2022",0,3271
+"NL","Western","07-04-2022",0,3271
 "Nova Scotia","Not Reported","04-08-2020",0,0
 "Nova Scotia","Not Reported","05-08-2020",0,0
 "Nova Scotia","Not Reported","06-08-2020",0,0
@@ -19551,6 +19582,7 @@
 "Nova Scotia","Not Reported","04-04-2022",0,11911
 "Nova Scotia","Not Reported","05-04-2022",0,11911
 "Nova Scotia","Not Reported","06-04-2022",0,11911
+"Nova Scotia","Not Reported","07-04-2022",6991,18902
 "Nova Scotia","Zone 1 - Western","04-08-2020",0,54
 "Nova Scotia","Zone 1 - Western","05-08-2020",0,54
 "Nova Scotia","Zone 1 - Western","06-08-2020",0,54
@@ -20162,6 +20194,7 @@
 "Nova Scotia","Zone 1 - Western","04-04-2022",0,6943
 "Nova Scotia","Zone 1 - Western","05-04-2022",0,6943
 "Nova Scotia","Zone 1 - Western","06-04-2022",0,6943
+"Nova Scotia","Zone 1 - Western","07-04-2022",0,6943
 "Nova Scotia","Zone 2 - Northern","04-08-2020",0,57
 "Nova Scotia","Zone 2 - Northern","05-08-2020",0,57
 "Nova Scotia","Zone 2 - Northern","06-08-2020",0,57
@@ -20773,6 +20806,7 @@
 "Nova Scotia","Zone 2 - Northern","04-04-2022",0,5550
 "Nova Scotia","Zone 2 - Northern","05-04-2022",0,5550
 "Nova Scotia","Zone 2 - Northern","06-04-2022",0,5550
+"Nova Scotia","Zone 2 - Northern","07-04-2022",0,5550
 "Nova Scotia","Zone 3 - Eastern","04-08-2020",0,53
 "Nova Scotia","Zone 3 - Eastern","05-08-2020",0,53
 "Nova Scotia","Zone 3 - Eastern","06-08-2020",0,53
@@ -21384,6 +21418,7 @@
 "Nova Scotia","Zone 3 - Eastern","04-04-2022",0,7184
 "Nova Scotia","Zone 3 - Eastern","05-04-2022",0,7184
 "Nova Scotia","Zone 3 - Eastern","06-04-2022",0,7184
+"Nova Scotia","Zone 3 - Eastern","07-04-2022",0,7184
 "Nova Scotia","Zone 4 - Central","04-08-2020",0,907
 "Nova Scotia","Zone 4 - Central","05-08-2020",0,907
 "Nova Scotia","Zone 4 - Central","06-08-2020",0,907
@@ -21995,6 +22030,7 @@
 "Nova Scotia","Zone 4 - Central","04-04-2022",0,27564
 "Nova Scotia","Zone 4 - Central","05-04-2022",0,27564
 "Nova Scotia","Zone 4 - Central","06-04-2022",0,27564
+"Nova Scotia","Zone 4 - Central","07-04-2022",0,27564
 "Nunavut","Nunavut","04-08-2020",0,0
 "Nunavut","Nunavut","05-08-2020",0,0
 "Nunavut","Nunavut","06-08-2020",0,0
@@ -22606,6 +22642,7 @@
 "Nunavut","Nunavut","04-04-2022",0,3472
 "Nunavut","Nunavut","05-04-2022",59,3531
 "Nunavut","Nunavut","06-04-2022",0,3531
+"Nunavut","Nunavut","07-04-2022",0,3531
 "NWT","NWT","04-08-2020",0,5
 "NWT","NWT","05-08-2020",0,5
 "NWT","NWT","06-08-2020",0,5
@@ -23217,6 +23254,7 @@
 "NWT","NWT","04-04-2022",56,11552
 "NWT","NWT","05-04-2022",0,11552
 "NWT","NWT","06-04-2022",0,11552
+"NWT","NWT","07-04-2022",0,11552
 "Ontario","Algoma","04-08-2020",0,27
 "Ontario","Algoma","05-08-2020",0,27
 "Ontario","Algoma","06-08-2020",0,27
@@ -23828,6 +23866,7 @@
 "Ontario","Algoma","04-04-2022",154,6894
 "Ontario","Algoma","05-04-2022",48,6942
 "Ontario","Algoma","06-04-2022",62,7004
+"Ontario","Algoma","07-04-2022",57,7061
 "Ontario","Brant","04-08-2020",0,148
 "Ontario","Brant","05-08-2020",0,148
 "Ontario","Brant","06-08-2020",0,148
@@ -24439,6 +24478,7 @@
 "Ontario","Brant","04-04-2022",92,8938
 "Ontario","Brant","05-04-2022",0,8938
 "Ontario","Brant","06-04-2022",51,8989
+"Ontario","Brant","07-04-2022",0,8989
 "Ontario","Chatham-Kent","04-08-2020",9,278
 "Ontario","Chatham-Kent","05-08-2020",14,292
 "Ontario","Chatham-Kent","06-08-2020",10,302
@@ -25050,617 +25090,619 @@
 "Ontario","Chatham-Kent","04-04-2022",19,7372
 "Ontario","Chatham-Kent","05-04-2022",6,7378
 "Ontario","Chatham-Kent","06-04-2022",28,7406
-"Ontario","Durham","04-08-2020",16,1819
-"Ontario","Durham","05-08-2020",2,1821
-"Ontario","Durham","06-08-2020",0,1821
+"Ontario","Chatham-Kent","07-04-2022",49,7455
+"Ontario","Durham","04-08-2020",3,1819
+"Ontario","Durham","05-08-2020",0,1819
+"Ontario","Durham","06-08-2020",2,1821
 "Ontario","Durham","07-08-2020",5,1826
-"Ontario","Durham","08-08-2020",1,1827
-"Ontario","Durham","09-08-2020",0,1827
-"Ontario","Durham","10-08-2020",5,1832
-"Ontario","Durham","11-08-2020",2,1834
-"Ontario","Durham","12-08-2020",3,1837
-"Ontario","Durham","13-08-2020",4,1841
-"Ontario","Durham","14-08-2020",1,1842
-"Ontario","Durham","15-08-2020",0,1842
+"Ontario","Durham","08-08-2020",2,1828
+"Ontario","Durham","09-08-2020",0,1828
+"Ontario","Durham","10-08-2020",2,1830
+"Ontario","Durham","11-08-2020",2,1832
+"Ontario","Durham","12-08-2020",2,1834
+"Ontario","Durham","13-08-2020",3,1837
+"Ontario","Durham","14-08-2020",4,1841
+"Ontario","Durham","15-08-2020",1,1842
 "Ontario","Durham","16-08-2020",0,1842
-"Ontario","Durham","17-08-2020",6,1848
-"Ontario","Durham","18-08-2020",1,1849
-"Ontario","Durham","19-08-2020",0,1849
-"Ontario","Durham","20-08-2020",4,1853
-"Ontario","Durham","21-08-2020",4,1857
-"Ontario","Durham","22-08-2020",0,1857
-"Ontario","Durham","23-08-2020",0,1857
-"Ontario","Durham","24-08-2020",10,1867
-"Ontario","Durham","25-08-2020",1,1868
-"Ontario","Durham","26-08-2020",10,1878
-"Ontario","Durham","27-08-2020",1,1879
-"Ontario","Durham","28-08-2020",9,1888
-"Ontario","Durham","29-08-2020",0,1888
-"Ontario","Durham","30-08-2020",0,1888
-"Ontario","Durham","31-08-2020",10,1898
-"Ontario","Durham","01-09-2020",6,1904
-"Ontario","Durham","02-09-2020",3,1907
-"Ontario","Durham","03-09-2020",1,1908
-"Ontario","Durham","04-09-2020",4,1912
-"Ontario","Durham","05-09-2020",0,1912
-"Ontario","Durham","06-09-2020",0,1912
-"Ontario","Durham","07-09-2020",0,1912
-"Ontario","Durham","08-09-2020",16,1928
-"Ontario","Durham","09-09-2020",12,1940
-"Ontario","Durham","10-09-2020",10,1950
-"Ontario","Durham","11-09-2020",6,1956
-"Ontario","Durham","12-09-2020",0,1956
-"Ontario","Durham","13-09-2020",0,1956
-"Ontario","Durham","14-09-2020",27,1983
-"Ontario","Durham","15-09-2020",17,2000
-"Ontario","Durham","16-09-2020",10,2010
-"Ontario","Durham","17-09-2020",2,2012
-"Ontario","Durham","18-09-2020",8,2020
-"Ontario","Durham","19-09-2020",0,2020
-"Ontario","Durham","20-09-2020",0,2020
-"Ontario","Durham","21-09-2020",0,2020
-"Ontario","Durham","22-09-2020",43,2063
-"Ontario","Durham","23-09-2020",9,2072
-"Ontario","Durham","24-09-2020",17,2089
-"Ontario","Durham","25-09-2020",4,2093
-"Ontario","Durham","26-09-2020",11,2104
-"Ontario","Durham","27-09-2020",17,2121
-"Ontario","Durham","28-09-2020",11,2132
-"Ontario","Durham","29-09-2020",25,2157
-"Ontario","Durham","30-09-2020",15,2172
-"Ontario","Durham","01-10-2020",29,2201
-"Ontario","Durham","02-10-2020",13,2214
-"Ontario","Durham","03-10-2020",13,2227
-"Ontario","Durham","04-10-2020",12,2239
-"Ontario","Durham","05-10-2020",11,2250
-"Ontario","Durham","06-10-2020",14,2264
-"Ontario","Durham","07-10-2020",12,2276
-"Ontario","Durham","08-10-2020",33,2309
-"Ontario","Durham","09-10-2020",19,2328
-"Ontario","Durham","10-10-2020",38,2366
-"Ontario","Durham","11-10-2020",10,2376
-"Ontario","Durham","12-10-2020",12,2388
-"Ontario","Durham","13-10-2020",23,2411
-"Ontario","Durham","14-10-2020",42,2453
-"Ontario","Durham","15-10-2020",29,2482
-"Ontario","Durham","16-10-2020",33,2515
-"Ontario","Durham","17-10-2020",34,2549
-"Ontario","Durham","18-10-2020",25,2574
-"Ontario","Durham","19-10-2020",28,2602
-"Ontario","Durham","20-10-2020",41,2643
-"Ontario","Durham","21-10-2020",21,2664
-"Ontario","Durham","22-10-2020",44,2708
-"Ontario","Durham","23-10-2020",52,2760
-"Ontario","Durham","24-10-2020",34,2794
-"Ontario","Durham","25-10-2020",40,2834
-"Ontario","Durham","26-10-2020",47,2881
-"Ontario","Durham","27-10-2020",25,2906
-"Ontario","Durham","28-10-2020",24,2930
-"Ontario","Durham","29-10-2020",31,2961
-"Ontario","Durham","30-10-2020",17,2978
-"Ontario","Durham","31-10-2020",33,3011
-"Ontario","Durham","01-11-2020",25,3036
-"Ontario","Durham","02-11-2020",62,3098
-"Ontario","Durham","03-11-2020",64,3162
-"Ontario","Durham","04-11-2020",25,3187
-"Ontario","Durham","05-11-2020",25,3212
-"Ontario","Durham","06-11-2020",37,3249
-"Ontario","Durham","07-11-2020",42,3291
-"Ontario","Durham","08-11-2020",33,3324
-"Ontario","Durham","09-11-2020",23,3347
-"Ontario","Durham","10-11-2020",52,3399
-"Ontario","Durham","11-11-2020",60,3459
-"Ontario","Durham","12-11-2020",59,3518
-"Ontario","Durham","13-11-2020",49,3567
-"Ontario","Durham","14-11-2020",56,3623
-"Ontario","Durham","15-11-2020",63,3686
-"Ontario","Durham","16-11-2020",42,3728
-"Ontario","Durham","17-11-2020",63,3791
-"Ontario","Durham","18-11-2020",29,3820
-"Ontario","Durham","19-11-2020",84,3904
-"Ontario","Durham","20-11-2020",31,3935
-"Ontario","Durham","21-11-2020",61,3996
-"Ontario","Durham","22-11-2020",35,4031
-"Ontario","Durham","23-11-2020",31,4062
-"Ontario","Durham","24-11-2020",30,4092
-"Ontario","Durham","25-11-2020",34,4126
-"Ontario","Durham","26-11-2020",70,4196
-"Ontario","Durham","27-11-2020",39,4235
-"Ontario","Durham","28-11-2020",72,4307
-"Ontario","Durham","29-11-2020",130,4437
-"Ontario","Durham","30-11-2020",43,4480
-"Ontario","Durham","01-12-2020",95,4575
-"Ontario","Durham","02-12-2020",105,4680
-"Ontario","Durham","03-12-2020",44,4724
-"Ontario","Durham","04-12-2020",103,4827
-"Ontario","Durham","05-12-2020",44,4871
-"Ontario","Durham","06-12-2020",164,5035
-"Ontario","Durham","07-12-2020",84,5119
-"Ontario","Durham","08-12-2020",94,5213
-"Ontario","Durham","09-12-2020",57,5270
-"Ontario","Durham","10-12-2020",72,5342
-"Ontario","Durham","11-12-2020",89,5431
-"Ontario","Durham","12-12-2020",83,5514
-"Ontario","Durham","13-12-2020",76,5590
-"Ontario","Durham","14-12-2020",69,5659
-"Ontario","Durham","15-12-2020",93,5752
-"Ontario","Durham","16-12-2020",119,5871
-"Ontario","Durham","17-12-2020",93,5964
-"Ontario","Durham","18-12-2020",88,6052
-"Ontario","Durham","19-12-2020",107,6159
-"Ontario","Durham","20-12-2020",56,6215
-"Ontario","Durham","21-12-2020",102,6317
-"Ontario","Durham","22-12-2020",123,6440
-"Ontario","Durham","23-12-2020",116,6556
-"Ontario","Durham","24-12-2020",97,6653
-"Ontario","Durham","25-12-2020",0,6653
-"Ontario","Durham","26-12-2020",145,6798
-"Ontario","Durham","27-12-2020",48,6846
-"Ontario","Durham","28-12-2020",73,6919
-"Ontario","Durham","29-12-2020",121,7040
-"Ontario","Durham","30-12-2020",145,7185
-"Ontario","Durham","31-12-2020",140,7325
-"Ontario","Durham","01-01-2021",0,7325
-"Ontario","Durham","02-01-2021",291,7616
-"Ontario","Durham","03-01-2021",175,7791
-"Ontario","Durham","04-01-2021",143,7934
-"Ontario","Durham","05-01-2021",131,8065
-"Ontario","Durham","06-01-2021",140,8205
-"Ontario","Durham","07-01-2021",195,8400
-"Ontario","Durham","08-01-2021",161,8561
-"Ontario","Durham","09-01-2021",204,8765
-"Ontario","Durham","10-01-2021",159,8924
-"Ontario","Durham","11-01-2021",112,9036
-"Ontario","Durham","12-01-2021",108,9144
-"Ontario","Durham","13-01-2021",82,9226
-"Ontario","Durham","14-01-2021",97,9323
-"Ontario","Durham","15-01-2021",157,9480
-"Ontario","Durham","16-01-2021",128,9608
-"Ontario","Durham","17-01-2021",88,9696
-"Ontario","Durham","18-01-2021",83,9779
-"Ontario","Durham","19-01-2021",64,9843
-"Ontario","Durham","20-01-2021",57,9900
-"Ontario","Durham","21-01-2021",124,10024
-"Ontario","Durham","22-01-2021",64,10088
-"Ontario","Durham","23-01-2021",91,10179
-"Ontario","Durham","24-01-2021",55,10234
-"Ontario","Durham","25-01-2021",54,10288
-"Ontario","Durham","26-01-2021",70,10358
-"Ontario","Durham","27-01-2021",53,10411
-"Ontario","Durham","28-01-2021",74,10485
-"Ontario","Durham","29-01-2021",78,10563
-"Ontario","Durham","30-01-2021",85,10648
-"Ontario","Durham","31-01-2021",57,10705
-"Ontario","Durham","01-02-2021",70,10775
-"Ontario","Durham","02-02-2021",49,10824
-"Ontario","Durham","03-02-2021",34,10858
-"Ontario","Durham","04-02-2021",49,10907
-"Ontario","Durham","05-02-2021",40,10947
-"Ontario","Durham","06-02-2021",58,11005
-"Ontario","Durham","07-02-2021",57,11062
-"Ontario","Durham","08-02-2021",36,11098
-"Ontario","Durham","09-02-2021",22,11120
-"Ontario","Durham","10-02-2021",23,11143
-"Ontario","Durham","11-02-2021",47,11190
-"Ontario","Durham","12-02-2021",43,11233
-"Ontario","Durham","13-02-2021",34,11267
-"Ontario","Durham","14-02-2021",40,11307
-"Ontario","Durham","15-02-2021",71,11378
-"Ontario","Durham","16-02-2021",27,11405
-"Ontario","Durham","17-02-2021",25,11430
-"Ontario","Durham","18-02-2021",26,11456
-"Ontario","Durham","19-02-2021",34,11490
-"Ontario","Durham","20-02-2021",63,11553
-"Ontario","Durham","21-02-2021",52,11605
-"Ontario","Durham","22-02-2021",34,11639
-"Ontario","Durham","23-02-2021",33,11672
-"Ontario","Durham","24-02-2021",37,11709
-"Ontario","Durham","25-02-2021",29,11738
-"Ontario","Durham","26-02-2021",38,11776
-"Ontario","Durham","27-02-2021",36,11812
-"Ontario","Durham","28-02-2021",27,11839
-"Ontario","Durham","01-03-2021",27,11866
-"Ontario","Durham","02-03-2021",44,11910
-"Ontario","Durham","03-03-2021",35,11945
-"Ontario","Durham","04-03-2021",41,11986
-"Ontario","Durham","05-03-2021",41,12027
-"Ontario","Durham","06-03-2021",36,12063
-"Ontario","Durham","07-03-2021",55,12118
-"Ontario","Durham","08-03-2021",71,12189
-"Ontario","Durham","09-03-2021",41,12230
-"Ontario","Durham","10-03-2021",27,12257
-"Ontario","Durham","11-03-2021",36,12293
-"Ontario","Durham","12-03-2021",39,12332
-"Ontario","Durham","13-03-2021",42,12374
-"Ontario","Durham","14-03-2021",55,12429
-"Ontario","Durham","15-03-2021",49,12478
-"Ontario","Durham","16-03-2021",35,12513
-"Ontario","Durham","17-03-2021",52,12565
-"Ontario","Durham","18-03-2021",75,12640
-"Ontario","Durham","19-03-2021",101,12741
-"Ontario","Durham","20-03-2021",81,12822
-"Ontario","Durham","21-03-2021",95,12917
-"Ontario","Durham","22-03-2021",88,13005
-"Ontario","Durham","23-03-2021",100,13105
-"Ontario","Durham","24-03-2021",85,13190
-"Ontario","Durham","25-03-2021",101,13291
-"Ontario","Durham","26-03-2021",133,13424
-"Ontario","Durham","27-03-2021",158,13582
-"Ontario","Durham","28-03-2021",174,13756
-"Ontario","Durham","29-03-2021",36,13792
-"Ontario","Durham","30-03-2021",284,14076
-"Ontario","Durham","31-03-2021",106,14182
-"Ontario","Durham","01-04-2021",143,14325
-"Ontario","Durham","02-04-2021",0,14325
-"Ontario","Durham","03-04-2021",207,14532
-"Ontario","Durham","04-04-2021",162,14694
-"Ontario","Durham","05-04-2021",274,14968
-"Ontario","Durham","06-04-2021",149,15117
-"Ontario","Durham","07-04-2021",173,15290
-"Ontario","Durham","08-04-2021",176,15466
-"Ontario","Durham","09-04-2021",260,15726
-"Ontario","Durham","10-04-2021",237,15963
-"Ontario","Durham","11-04-2021",384,16347
-"Ontario","Durham","12-04-2021",227,16574
-"Ontario","Durham","13-04-2021",170,16744
-"Ontario","Durham","14-04-2021",267,17011
-"Ontario","Durham","15-04-2021",236,17247
-"Ontario","Durham","16-04-2021",260,17507
-"Ontario","Durham","17-04-2021",304,17811
-"Ontario","Durham","18-04-2021",214,18025
-"Ontario","Durham","19-04-2021",283,18308
-"Ontario","Durham","20-04-2021",191,18499
-"Ontario","Durham","21-04-2021",199,18698
-"Ontario","Durham","22-04-2021",225,18923
-"Ontario","Durham","23-04-2021",234,19157
-"Ontario","Durham","24-04-2021",198,19355
-"Ontario","Durham","25-04-2021",259,19614
-"Ontario","Durham","26-04-2021",209,19823
-"Ontario","Durham","27-04-2021",178,20001
-"Ontario","Durham","28-04-2021",224,20225
-"Ontario","Durham","29-04-2021",257,20482
-"Ontario","Durham","30-04-2021",165,20647
-"Ontario","Durham","01-05-2021",218,20865
-"Ontario","Durham","02-05-2021",273,21138
-"Ontario","Durham","03-05-2021",153,21291
-"Ontario","Durham","04-05-2021",184,21475
-"Ontario","Durham","05-05-2021",171,21646
-"Ontario","Durham","06-05-2021",152,21798
-"Ontario","Durham","07-05-2021",223,22021
-"Ontario","Durham","08-05-2021",123,22144
-"Ontario","Durham","09-05-2021",201,22345
-"Ontario","Durham","10-05-2021",131,22476
-"Ontario","Durham","11-05-2021",162,22638
-"Ontario","Durham","12-05-2021",138,22776
-"Ontario","Durham","13-05-2021",167,22943
-"Ontario","Durham","14-05-2021",137,23080
-"Ontario","Durham","15-05-2021",159,23239
-"Ontario","Durham","16-05-2021",116,23355
-"Ontario","Durham","17-05-2021",90,23445
-"Ontario","Durham","18-05-2021",99,23544
-"Ontario","Durham","19-05-2021",93,23637
-"Ontario","Durham","20-05-2021",103,23740
-"Ontario","Durham","21-05-2021",89,23829
-"Ontario","Durham","22-05-2021",180,24009
-"Ontario","Durham","23-05-2021",94,24103
-"Ontario","Durham","24-05-2021",0,24103
-"Ontario","Durham","25-05-2021",165,24268
-"Ontario","Durham","26-05-2021",44,24312
-"Ontario","Durham","27-05-2021",38,24350
-"Ontario","Durham","28-05-2021",88,24438
-"Ontario","Durham","29-05-2021",50,24488
-"Ontario","Durham","30-05-2021",71,24559
-"Ontario","Durham","31-05-2021",51,24610
-"Ontario","Durham","01-06-2021",35,24645
-"Ontario","Durham","02-06-2021",49,24694
-"Ontario","Durham","03-06-2021",61,24755
-"Ontario","Durham","04-06-2021",37,24792
-"Ontario","Durham","05-06-2021",35,24827
-"Ontario","Durham","06-06-2021",28,24855
-"Ontario","Durham","07-06-2021",47,24902
-"Ontario","Durham","08-06-2021",11,24913
-"Ontario","Durham","09-06-2021",23,24936
-"Ontario","Durham","10-06-2021",18,24954
-"Ontario","Durham","11-06-2021",43,24997
-"Ontario","Durham","12-06-2021",23,25020
-"Ontario","Durham","13-06-2021",19,25039
-"Ontario","Durham","14-06-2021",19,25058
-"Ontario","Durham","15-06-2021",15,25073
-"Ontario","Durham","16-06-2021",17,25090
-"Ontario","Durham","17-06-2021",11,25101
-"Ontario","Durham","18-06-2021",11,25112
-"Ontario","Durham","19-06-2021",19,25131
-"Ontario","Durham","20-06-2021",16,25147
-"Ontario","Durham","21-06-2021",6,25153
-"Ontario","Durham","22-06-2021",2,25155
-"Ontario","Durham","23-06-2021",8,25163
-"Ontario","Durham","24-06-2021",12,25175
-"Ontario","Durham","25-06-2021",8,25183
-"Ontario","Durham","26-06-2021",12,25195
-"Ontario","Durham","27-06-2021",10,25205
-"Ontario","Durham","28-06-2021",8,25213
-"Ontario","Durham","29-06-2021",10,25223
-"Ontario","Durham","30-06-2021",2,25225
-"Ontario","Durham","01-07-2021",0,25225
-"Ontario","Durham","02-07-2021",12,25237
-"Ontario","Durham","03-07-2021",7,25244
-"Ontario","Durham","04-07-2021",3,25247
-"Ontario","Durham","05-07-2021",6,25253
-"Ontario","Durham","06-07-2021",2,25255
-"Ontario","Durham","07-07-2021",7,25262
-"Ontario","Durham","08-07-2021",10,25272
-"Ontario","Durham","09-07-2021",2,25274
-"Ontario","Durham","10-07-2021",3,25277
-"Ontario","Durham","11-07-2021",1,25278
-"Ontario","Durham","12-07-2021",2,25280
-"Ontario","Durham","13-07-2021",-1,25279
-"Ontario","Durham","14-07-2021",5,25284
-"Ontario","Durham","15-07-2021",5,25289
-"Ontario","Durham","16-07-2021",8,25297
-"Ontario","Durham","17-07-2021",5,25302
-"Ontario","Durham","18-07-2021",8,25310
-"Ontario","Durham","19-07-2021",4,25314
-"Ontario","Durham","20-07-2021",4,25318
-"Ontario","Durham","21-07-2021",16,25334
-"Ontario","Durham","22-07-2021",8,25342
-"Ontario","Durham","23-07-2021",10,25352
-"Ontario","Durham","24-07-2021",8,25360
-"Ontario","Durham","25-07-2021",8,25368
-"Ontario","Durham","26-07-2021",7,25375
-"Ontario","Durham","27-07-2021",7,25382
-"Ontario","Durham","28-07-2021",11,25393
-"Ontario","Durham","29-07-2021",9,25402
-"Ontario","Durham","30-07-2021",14,25416
-"Ontario","Durham","31-07-2021",20,25436
-"Ontario","Durham","01-08-2021",0,25436
-"Ontario","Durham","02-08-2021",0,25436
-"Ontario","Durham","03-08-2021",24,25460
-"Ontario","Durham","04-08-2021",8,25468
-"Ontario","Durham","05-08-2021",10,25478
-"Ontario","Durham","06-08-2021",17,25495
-"Ontario","Durham","07-08-2021",0,25495
-"Ontario","Durham","08-08-2021",0,25495
-"Ontario","Durham","09-08-2021",49,25544
-"Ontario","Durham","10-08-2021",9,25553
-"Ontario","Durham","11-08-2021",29,25582
-"Ontario","Durham","12-08-2021",33,25615
-"Ontario","Durham","13-08-2021",13,25628
-"Ontario","Durham","14-08-2021",0,25628
-"Ontario","Durham","15-08-2021",0,25628
-"Ontario","Durham","16-08-2021",56,25684
-"Ontario","Durham","17-08-2021",18,25702
-"Ontario","Durham","18-08-2021",29,25731
-"Ontario","Durham","19-08-2021",24,25755
-"Ontario","Durham","20-08-2021",30,25785
-"Ontario","Durham","21-08-2021",0,25785
-"Ontario","Durham","22-08-2021",0,25785
-"Ontario","Durham","23-08-2021",89,25874
-"Ontario","Durham","24-08-2021",20,25894
-"Ontario","Durham","25-08-2021",22,25916
-"Ontario","Durham","26-08-2021",55,25971
-"Ontario","Durham","27-08-2021",42,26013
-"Ontario","Durham","28-08-2021",0,26013
-"Ontario","Durham","29-08-2021",0,26013
-"Ontario","Durham","30-08-2021",98,26111
-"Ontario","Durham","31-08-2021",28,26139
-"Ontario","Durham","01-09-2021",30,26169
-"Ontario","Durham","02-09-2021",33,26202
-"Ontario","Durham","03-09-2021",38,26240
-"Ontario","Durham","04-09-2021",0,26240
-"Ontario","Durham","05-09-2021",0,26240
-"Ontario","Durham","06-09-2021",0,26240
-"Ontario","Durham","07-09-2021",119,26359
-"Ontario","Durham","08-09-2021",25,26384
-"Ontario","Durham","09-09-2021",31,26415
-"Ontario","Durham","10-09-2021",41,26456
-"Ontario","Durham","11-09-2021",0,26456
-"Ontario","Durham","12-09-2021",0,26456
-"Ontario","Durham","13-09-2021",82,26538
-"Ontario","Durham","14-09-2021",14,26552
-"Ontario","Durham","15-09-2021",35,26587
-"Ontario","Durham","16-09-2021",31,26618
-"Ontario","Durham","17-09-2021",57,26675
-"Ontario","Durham","18-09-2021",0,26675
-"Ontario","Durham","19-09-2021",0,26675
-"Ontario","Durham","20-09-2021",71,26746
-"Ontario","Durham","21-09-2021",25,26771
-"Ontario","Durham","22-09-2021",22,26793
-"Ontario","Durham","23-09-2021",37,26830
-"Ontario","Durham","24-09-2021",39,26869
-"Ontario","Durham","25-09-2021",0,26869
-"Ontario","Durham","26-09-2021",0,26869
-"Ontario","Durham","27-09-2021",71,26940
-"Ontario","Durham","28-09-2021",23,26963
-"Ontario","Durham","29-09-2021",26,26989
-"Ontario","Durham","30-09-2021",0,26989
-"Ontario","Durham","01-10-2021",66,27055
-"Ontario","Durham","02-10-2021",0,27055
-"Ontario","Durham","03-10-2021",0,27055
-"Ontario","Durham","04-10-2021",59,27114
-"Ontario","Durham","05-10-2021",13,27127
-"Ontario","Durham","06-10-2021",41,27168
-"Ontario","Durham","07-10-2021",10,27178
-"Ontario","Durham","08-10-2021",25,27203
-"Ontario","Durham","09-10-2021",0,27203
-"Ontario","Durham","10-10-2021",0,27203
-"Ontario","Durham","11-10-2021",0,27203
-"Ontario","Durham","12-10-2021",50,27253
-"Ontario","Durham","13-10-2021",8,27261
-"Ontario","Durham","14-10-2021",15,27276
-"Ontario","Durham","15-10-2021",11,27287
-"Ontario","Durham","16-10-2021",0,27287
-"Ontario","Durham","17-10-2021",0,27287
-"Ontario","Durham","18-10-2021",40,27327
-"Ontario","Durham","19-10-2021",5,27332
-"Ontario","Durham","20-10-2021",19,27351
-"Ontario","Durham","21-10-2021",15,27366
-"Ontario","Durham","22-10-2021",21,27387
-"Ontario","Durham","23-10-2021",0,27387
-"Ontario","Durham","24-10-2021",0,27387
-"Ontario","Durham","25-10-2021",28,27415
-"Ontario","Durham","26-10-2021",3,27418
-"Ontario","Durham","27-10-2021",6,27424
-"Ontario","Durham","28-10-2021",10,27434
-"Ontario","Durham","29-10-2021",4,27438
-"Ontario","Durham","30-10-2021",0,27438
-"Ontario","Durham","31-10-2021",0,27438
-"Ontario","Durham","01-11-2021",21,27459
-"Ontario","Durham","02-11-2021",3,27462
-"Ontario","Durham","03-11-2021",7,27469
-"Ontario","Durham","04-11-2021",5,27474
-"Ontario","Durham","05-11-2021",11,27485
-"Ontario","Durham","06-11-2021",0,27485
-"Ontario","Durham","07-11-2021",0,27485
-"Ontario","Durham","08-11-2021",52,27537
-"Ontario","Durham","09-11-2021",19,27556
-"Ontario","Durham","10-11-2021",22,27578
-"Ontario","Durham","11-11-2021",0,27578
-"Ontario","Durham","12-11-2021",67,27645
-"Ontario","Durham","13-11-2021",0,27645
-"Ontario","Durham","14-11-2021",0,27645
-"Ontario","Durham","15-11-2021",63,27708
-"Ontario","Durham","16-11-2021",20,27728
-"Ontario","Durham","17-11-2021",35,27763
-"Ontario","Durham","18-11-2021",31,27794
-"Ontario","Durham","19-11-2021",27,27821
-"Ontario","Durham","20-11-2021",0,27821
-"Ontario","Durham","21-11-2021",0,27821
-"Ontario","Durham","22-11-2021",77,27898
-"Ontario","Durham","23-11-2021",22,27920
-"Ontario","Durham","24-11-2021",28,27948
-"Ontario","Durham","25-11-2021",29,27977
-"Ontario","Durham","26-11-2021",35,28012
-"Ontario","Durham","27-11-2021",0,28012
-"Ontario","Durham","28-11-2021",0,28012
-"Ontario","Durham","29-11-2021",95,28107
-"Ontario","Durham","30-11-2021",21,28128
-"Ontario","Durham","01-12-2021",41,28169
-"Ontario","Durham","02-12-2021",37,28206
-"Ontario","Durham","03-12-2021",35,28241
-"Ontario","Durham","04-12-2021",0,28241
-"Ontario","Durham","05-12-2021",0,28241
-"Ontario","Durham","06-12-2021",78,28319
-"Ontario","Durham","07-12-2021",36,28355
-"Ontario","Durham","08-12-2021",43,28398
-"Ontario","Durham","09-12-2021",77,28475
-"Ontario","Durham","10-12-2021",60,28535
-"Ontario","Durham","11-12-2021",0,28535
-"Ontario","Durham","12-12-2021",0,28535
-"Ontario","Durham","13-12-2021",189,28724
-"Ontario","Durham","14-12-2021",37,28761
-"Ontario","Durham","15-12-2021",91,28852
-"Ontario","Durham","16-12-2021",124,28976
-"Ontario","Durham","17-12-2021",150,29126
-"Ontario","Durham","18-12-2021",0,29126
-"Ontario","Durham","19-12-2021",0,29126
-"Ontario","Durham","20-12-2021",521,29647
-"Ontario","Durham","21-12-2021",206,29853
-"Ontario","Durham","22-12-2021",282,30135
-"Ontario","Durham","23-12-2021",318,30453
-"Ontario","Durham","24-12-2021",474,30927
-"Ontario","Durham","25-12-2021",0,30927
-"Ontario","Durham","26-12-2021",0,30927
-"Ontario","Durham","27-12-2021",0,30927
-"Ontario","Durham","28-12-2021",0,30927
-"Ontario","Durham","29-12-2021",2377,33304
-"Ontario","Durham","30-12-2021",714,34018
-"Ontario","Durham","31-12-2021",794,34812
-"Ontario","Durham","01-01-2022",0,34812
-"Ontario","Durham","02-01-2022",0,34812
-"Ontario","Durham","03-01-2022",0,34812
-"Ontario","Durham","04-01-2022",2843,37655
-"Ontario","Durham","05-01-2022",798,38453
-"Ontario","Durham","06-01-2022",603,39056
-"Ontario","Durham","07-01-2022",598,39654
-"Ontario","Durham","08-01-2022",0,39654
-"Ontario","Durham","09-01-2022",0,39654
-"Ontario","Durham","10-01-2022",1895,41549
-"Ontario","Durham","11-01-2022",724,42273
-"Ontario","Durham","12-01-2022",806,43079
-"Ontario","Durham","13-01-2022",968,44047
-"Ontario","Durham","14-01-2022",934,44981
-"Ontario","Durham","15-01-2022",0,44981
-"Ontario","Durham","16-01-2022",0,44981
-"Ontario","Durham","17-01-2022",1957,46938
-"Ontario","Durham","18-01-2022",296,47234
-"Ontario","Durham","19-01-2022",301,47535
-"Ontario","Durham","20-01-2022",303,47838
-"Ontario","Durham","21-01-2022",392,48230
-"Ontario","Durham","22-01-2022",0,48230
-"Ontario","Durham","23-01-2022",0,48230
-"Ontario","Durham","24-01-2022",615,48845
-"Ontario","Durham","25-01-2022",222,49067
-"Ontario","Durham","26-01-2022",223,49290
-"Ontario","Durham","27-01-2022",279,49569
-"Ontario","Durham","28-01-2022",167,49736
-"Ontario","Durham","29-01-2022",0,49736
-"Ontario","Durham","30-01-2022",0,49736
-"Ontario","Durham","31-01-2022",390,50126
-"Ontario","Durham","01-02-2022",115,50241
-"Ontario","Durham","02-02-2022",189,50430
-"Ontario","Durham","03-02-2022",210,50640
-"Ontario","Durham","04-02-2022",127,50767
-"Ontario","Durham","05-02-2022",0,50767
-"Ontario","Durham","06-02-2022",0,50767
-"Ontario","Durham","07-02-2022",311,51078
-"Ontario","Durham","08-02-2022",120,51198
-"Ontario","Durham","09-02-2022",129,51327
-"Ontario","Durham","10-02-2022",133,51460
-"Ontario","Durham","11-02-2022",89,51549
-"Ontario","Durham","12-02-2022",0,51549
-"Ontario","Durham","13-02-2022",0,51549
-"Ontario","Durham","14-02-2022",270,51819
-"Ontario","Durham","15-02-2022",73,51892
-"Ontario","Durham","16-02-2022",93,51985
-"Ontario","Durham","17-02-2022",128,52113
-"Ontario","Durham","18-02-2022",77,52190
-"Ontario","Durham","19-02-2022",0,52190
-"Ontario","Durham","20-02-2022",0,52190
-"Ontario","Durham","21-02-2022",0,52190
-"Ontario","Durham","22-02-2022",301,52491
-"Ontario","Durham","23-02-2022",77,52568
-"Ontario","Durham","24-02-2022",133,52701
-"Ontario","Durham","25-02-2022",80,52781
-"Ontario","Durham","26-02-2022",0,52781
-"Ontario","Durham","27-02-2022",0,52781
-"Ontario","Durham","28-02-2022",259,53040
-"Ontario","Durham","01-03-2022",77,53117
-"Ontario","Durham","02-03-2022",102,53219
-"Ontario","Durham","03-03-2022",150,53369
-"Ontario","Durham","04-03-2022",71,53440
-"Ontario","Durham","05-03-2022",0,53440
-"Ontario","Durham","06-03-2022",0,53440
-"Ontario","Durham","07-03-2022",197,53637
-"Ontario","Durham","08-03-2022",66,53703
-"Ontario","Durham","09-03-2022",118,53821
-"Ontario","Durham","10-03-2022",126,53947
-"Ontario","Durham","11-03-2022",148,54095
-"Ontario","Durham","12-03-2022",0,54095
-"Ontario","Durham","13-03-2022",0,54095
-"Ontario","Durham","14-03-2022",211,54306
-"Ontario","Durham","15-03-2022",81,54387
-"Ontario","Durham","16-03-2022",91,54478
-"Ontario","Durham","17-03-2022",83,54561
-"Ontario","Durham","18-03-2022",112,54673
-"Ontario","Durham","19-03-2022",0,54673
-"Ontario","Durham","20-03-2022",0,54673
-"Ontario","Durham","21-03-2022",186,54859
-"Ontario","Durham","22-03-2022",84,54943
-"Ontario","Durham","23-03-2022",109,55052
-"Ontario","Durham","24-03-2022",113,55165
-"Ontario","Durham","25-03-2022",129,55294
-"Ontario","Durham","26-03-2022",0,55294
-"Ontario","Durham","27-03-2022",0,55294
-"Ontario","Durham","28-03-2022",256,55550
-"Ontario","Durham","29-03-2022",60,55610
-"Ontario","Durham","30-03-2022",174,55784
-"Ontario","Durham","31-03-2022",159,55943
-"Ontario","Durham","01-04-2022",118,56061
-"Ontario","Durham","02-04-2022",0,56061
-"Ontario","Durham","03-04-2022",0,56061
-"Ontario","Durham","04-04-2022",335,56396
-"Ontario","Durham","05-04-2022",106,56502
-"Ontario","Durham","06-04-2022",237,56739
+"Ontario","Durham","17-08-2020",2,1844
+"Ontario","Durham","18-08-2020",4,1848
+"Ontario","Durham","19-08-2020",1,1849
+"Ontario","Durham","20-08-2020",1,1850
+"Ontario","Durham","21-08-2020",3,1853
+"Ontario","Durham","22-08-2020",7,1860
+"Ontario","Durham","23-08-2020",5,1865
+"Ontario","Durham","24-08-2020",2,1867
+"Ontario","Durham","25-08-2020",0,1867
+"Ontario","Durham","26-08-2020",1,1868
+"Ontario","Durham","27-08-2020",10,1878
+"Ontario","Durham","28-08-2020",4,1882
+"Ontario","Durham","29-08-2020",7,1889
+"Ontario","Durham","30-08-2020",3,1892
+"Ontario","Durham","31-08-2020",5,1897
+"Ontario","Durham","01-09-2020",1,1898
+"Ontario","Durham","02-09-2020",6,1904
+"Ontario","Durham","03-09-2020",4,1908
+"Ontario","Durham","04-09-2020",2,1910
+"Ontario","Durham","05-09-2020",6,1916
+"Ontario","Durham","06-09-2020",4,1920
+"Ontario","Durham","07-09-2020",2,1922
+"Ontario","Durham","08-09-2020",5,1927
+"Ontario","Durham","09-09-2020",4,1931
+"Ontario","Durham","10-09-2020",13,1944
+"Ontario","Durham","11-09-2020",9,1953
+"Ontario","Durham","12-09-2020",10,1963
+"Ontario","Durham","13-09-2020",5,1968
+"Ontario","Durham","14-09-2020",9,1977
+"Ontario","Durham","15-09-2020",7,1984
+"Ontario","Durham","16-09-2020",24,2008
+"Ontario","Durham","17-09-2020",2,2010
+"Ontario","Durham","18-09-2020",8,2018
+"Ontario","Durham","19-09-2020",6,2024
+"Ontario","Durham","20-09-2020",19,2043
+"Ontario","Durham","21-09-2020",14,2057
+"Ontario","Durham","22-09-2020",16,2073
+"Ontario","Durham","23-09-2020",-6,2067
+"Ontario","Durham","24-09-2020",12,2079
+"Ontario","Durham","25-09-2020",12,2091
+"Ontario","Durham","26-09-2020",5,2096
+"Ontario","Durham","27-09-2020",19,2115
+"Ontario","Durham","28-09-2020",7,2122
+"Ontario","Durham","29-09-2020",14,2136
+"Ontario","Durham","30-09-2020",25,2161
+"Ontario","Durham","01-10-2020",14,2175
+"Ontario","Durham","02-10-2020",34,2209
+"Ontario","Durham","03-10-2020",7,2216
+"Ontario","Durham","04-10-2020",13,2229
+"Ontario","Durham","05-10-2020",10,2239
+"Ontario","Durham","06-10-2020",12,2251
+"Ontario","Durham","07-10-2020",12,2263
+"Ontario","Durham","08-10-2020",22,2285
+"Ontario","Durham","09-10-2020",32,2317
+"Ontario","Durham","10-10-2020",25,2342
+"Ontario","Durham","11-10-2020",29,2371
+"Ontario","Durham","12-10-2020",8,2379
+"Ontario","Durham","13-10-2020",17,2396
+"Ontario","Durham","14-10-2020",22,2418
+"Ontario","Durham","15-10-2020",40,2458
+"Ontario","Durham","16-10-2020",27,2485
+"Ontario","Durham","17-10-2020",30,2515
+"Ontario","Durham","18-10-2020",45,2560
+"Ontario","Durham","19-10-2020",16,2576
+"Ontario","Durham","20-10-2020",32,2608
+"Ontario","Durham","21-10-2020",43,2651
+"Ontario","Durham","22-10-2020",29,2680
+"Ontario","Durham","23-10-2020",38,2718
+"Ontario","Durham","24-10-2020",51,2769
+"Ontario","Durham","25-10-2020",52,2821
+"Ontario","Durham","26-10-2020",23,2844
+"Ontario","Durham","27-10-2020",44,2888
+"Ontario","Durham","28-10-2020",26,2914
+"Ontario","Durham","29-10-2020",19,2933
+"Ontario","Durham","30-10-2020",32,2965
+"Ontario","Durham","31-10-2020",23,2988
+"Ontario","Durham","01-11-2020",31,3019
+"Ontario","Durham","02-11-2020",32,3051
+"Ontario","Durham","03-11-2020",57,3108
+"Ontario","Durham","04-11-2020",62,3170
+"Ontario","Durham","05-11-2020",33,3203
+"Ontario","Durham","06-11-2020",24,3227
+"Ontario","Durham","07-11-2020",30,3257
+"Ontario","Durham","08-11-2020",56,3313
+"Ontario","Durham","09-11-2020",14,3327
+"Ontario","Durham","10-11-2020",36,3363
+"Ontario","Durham","11-11-2020",63,3426
+"Ontario","Durham","12-11-2020",61,3487
+"Ontario","Durham","13-11-2020",41,3528
+"Ontario","Durham","14-11-2020",64,3592
+"Ontario","Durham","15-11-2020",62,3654
+"Ontario","Durham","16-11-2020",45,3699
+"Ontario","Durham","17-11-2020",69,3768
+"Ontario","Durham","18-11-2020",40,3808
+"Ontario","Durham","19-11-2020",57,3865
+"Ontario","Durham","20-11-2020",46,3911
+"Ontario","Durham","21-11-2020",56,3967
+"Ontario","Durham","22-11-2020",50,4017
+"Ontario","Durham","23-11-2020",41,4058
+"Ontario","Durham","24-11-2020",16,4074
+"Ontario","Durham","25-11-2020",26,4100
+"Ontario","Durham","26-11-2020",47,4147
+"Ontario","Durham","27-11-2020",65,4212
+"Ontario","Durham","28-11-2020",48,4260
+"Ontario","Durham","29-11-2020",73,4333
+"Ontario","Durham","30-11-2020",108,4441
+"Ontario","Durham","01-12-2020",72,4513
+"Ontario","Durham","02-12-2020",124,4637
+"Ontario","Durham","03-12-2020",57,4694
+"Ontario","Durham","04-12-2020",94,4788
+"Ontario","Durham","05-12-2020",41,4829
+"Ontario","Durham","06-12-2020",104,4933
+"Ontario","Durham","07-12-2020",133,5066
+"Ontario","Durham","08-12-2020",76,5142
+"Ontario","Durham","09-12-2020",75,5217
+"Ontario","Durham","10-12-2020",55,5272
+"Ontario","Durham","11-12-2020",91,5363
+"Ontario","Durham","12-12-2020",80,5443
+"Ontario","Durham","13-12-2020",86,5529
+"Ontario","Durham","14-12-2020",68,5597
+"Ontario","Durham","15-12-2020",92,5689
+"Ontario","Durham","16-12-2020",143,5832
+"Ontario","Durham","17-12-2020",73,5905
+"Ontario","Durham","18-12-2020",89,5994
+"Ontario","Durham","19-12-2020",104,6098
+"Ontario","Durham","20-12-2020",82,6180
+"Ontario","Durham","21-12-2020",91,6271
+"Ontario","Durham","22-12-2020",86,6357
+"Ontario","Durham","23-12-2020",136,6493
+"Ontario","Durham","24-12-2020",92,6585
+"Ontario","Durham","25-12-2020",93,6678
+"Ontario","Durham","26-12-2020",67,6745
+"Ontario","Durham","27-12-2020",71,6816
+"Ontario","Durham","28-12-2020",59,6875
+"Ontario","Durham","29-12-2020",108,6983
+"Ontario","Durham","30-12-2020",158,7141
+"Ontario","Durham","31-12-2020",114,7255
+"Ontario","Durham","01-01-2021",149,7404
+"Ontario","Durham","02-01-2021",115,7519
+"Ontario","Durham","03-01-2021",197,7716
+"Ontario","Durham","04-01-2021",122,7838
+"Ontario","Durham","05-01-2021",172,8010
+"Ontario","Durham","06-01-2021",145,8155
+"Ontario","Durham","07-01-2021",174,8329
+"Ontario","Durham","08-01-2021",170,8499
+"Ontario","Durham","09-01-2021",166,8665
+"Ontario","Durham","10-01-2021",190,8855
+"Ontario","Durham","11-01-2021",143,8998
+"Ontario","Durham","12-01-2021",75,9073
+"Ontario","Durham","13-01-2021",119,9192
+"Ontario","Durham","14-01-2021",93,9285
+"Ontario","Durham","15-01-2021",113,9398
+"Ontario","Durham","16-01-2021",162,9560
+"Ontario","Durham","17-01-2021",97,9657
+"Ontario","Durham","18-01-2021",76,9733
+"Ontario","Durham","19-01-2021",82,9815
+"Ontario","Durham","20-01-2021",70,9885
+"Ontario","Durham","21-01-2021",92,9977
+"Ontario","Durham","22-01-2021",80,10057
+"Ontario","Durham","23-01-2021",68,10125
+"Ontario","Durham","24-01-2021",79,10204
+"Ontario","Durham","25-01-2021",62,10266
+"Ontario","Durham","26-01-2021",51,10317
+"Ontario","Durham","27-01-2021",63,10380
+"Ontario","Durham","28-01-2021",85,10465
+"Ontario","Durham","29-01-2021",59,10524
+"Ontario","Durham","30-01-2021",89,10613
+"Ontario","Durham","31-01-2021",55,10668
+"Ontario","Durham","01-02-2021",90,10758
+"Ontario","Durham","02-02-2021",44,10802
+"Ontario","Durham","03-02-2021",42,10844
+"Ontario","Durham","04-02-2021",34,10878
+"Ontario","Durham","05-02-2021",46,10924
+"Ontario","Durham","06-02-2021",46,10970
+"Ontario","Durham","07-02-2021",50,11020
+"Ontario","Durham","08-02-2021",61,11081
+"Ontario","Durham","09-02-2021",25,11106
+"Ontario","Durham","10-02-2021",21,11127
+"Ontario","Durham","11-02-2021",33,11160
+"Ontario","Durham","12-02-2021",31,11191
+"Ontario","Durham","13-02-2021",47,11238
+"Ontario","Durham","14-02-2021",35,11273
+"Ontario","Durham","15-02-2021",66,11339
+"Ontario","Durham","16-02-2021",37,11376
+"Ontario","Durham","17-02-2021",30,11406
+"Ontario","Durham","18-02-2021",19,11425
+"Ontario","Durham","19-02-2021",41,11466
+"Ontario","Durham","20-02-2021",47,11513
+"Ontario","Durham","21-02-2021",51,11564
+"Ontario","Durham","22-02-2021",45,11609
+"Ontario","Durham","23-02-2021",35,11644
+"Ontario","Durham","24-02-2021",35,11679
+"Ontario","Durham","25-02-2021",28,11707
+"Ontario","Durham","26-02-2021",42,11749
+"Ontario","Durham","27-02-2021",36,11785
+"Ontario","Durham","28-02-2021",23,11808
+"Ontario","Durham","01-03-2021",34,11842
+"Ontario","Durham","02-03-2021",34,11876
+"Ontario","Durham","03-03-2021",41,11917
+"Ontario","Durham","04-03-2021",23,11940
+"Ontario","Durham","05-03-2021",55,11995
+"Ontario","Durham","06-03-2021",32,12027
+"Ontario","Durham","07-03-2021",58,12085
+"Ontario","Durham","08-03-2021",68,12153
+"Ontario","Durham","09-03-2021",25,12178
+"Ontario","Durham","10-03-2021",48,12226
+"Ontario","Durham","11-03-2021",36,12262
+"Ontario","Durham","12-03-2021",35,12297
+"Ontario","Durham","13-03-2021",38,12335
+"Ontario","Durham","14-03-2021",55,12390
+"Ontario","Durham","15-03-2021",53,12443
+"Ontario","Durham","16-03-2021",27,12470
+"Ontario","Durham","17-03-2021",42,12512
+"Ontario","Durham","18-03-2021",85,12597
+"Ontario","Durham","19-03-2021",96,12693
+"Ontario","Durham","20-03-2021",77,12770
+"Ontario","Durham","21-03-2021",106,12876
+"Ontario","Durham","22-03-2021",79,12955
+"Ontario","Durham","23-03-2021",99,13054
+"Ontario","Durham","24-03-2021",86,13140
+"Ontario","Durham","25-03-2021",90,13230
+"Ontario","Durham","26-03-2021",123,13353
+"Ontario","Durham","27-03-2021",139,13492
+"Ontario","Durham","28-03-2021",219,13711
+"Ontario","Durham","29-03-2021",104,13815
+"Ontario","Durham","30-03-2021",194,14009
+"Ontario","Durham","31-03-2021",120,14129
+"Ontario","Durham","01-04-2021",107,14236
+"Ontario","Durham","02-04-2021",210,14446
+"Ontario","Durham","03-04-2021",138,14584
+"Ontario","Durham","04-04-2021",163,14747
+"Ontario","Durham","05-04-2021",140,14887
+"Ontario","Durham","06-04-2021",101,14988
+"Ontario","Durham","07-04-2021",187,15175
+"Ontario","Durham","08-04-2021",165,15340
+"Ontario","Durham","09-04-2021",247,15587
+"Ontario","Durham","10-04-2021",281,15868
+"Ontario","Durham","11-04-2021",329,16197
+"Ontario","Durham","12-04-2021",224,16421
+"Ontario","Durham","13-04-2021",196,16617
+"Ontario","Durham","14-04-2021",248,16865
+"Ontario","Durham","15-04-2021",216,17081
+"Ontario","Durham","16-04-2021",268,17349
+"Ontario","Durham","17-04-2021",301,17650
+"Ontario","Durham","18-04-2021",279,17929
+"Ontario","Durham","19-04-2021",205,18134
+"Ontario","Durham","20-04-2021",256,18390
+"Ontario","Durham","21-04-2021",214,18604
+"Ontario","Durham","22-04-2021",200,18804
+"Ontario","Durham","23-04-2021",224,19028
+"Ontario","Durham","24-04-2021",199,19227
+"Ontario","Durham","25-04-2021",207,19434
+"Ontario","Durham","26-04-2021",244,19678
+"Ontario","Durham","27-04-2021",171,19849
+"Ontario","Durham","28-04-2021",221,20070
+"Ontario","Durham","29-04-2021",292,20362
+"Ontario","Durham","30-04-2021",208,20570
+"Ontario","Durham","01-05-2021",157,20727
+"Ontario","Durham","02-05-2021",232,20959
+"Ontario","Durham","03-05-2021",271,21230
+"Ontario","Durham","04-05-2021",147,21377
+"Ontario","Durham","05-05-2021",171,21548
+"Ontario","Durham","06-05-2021",175,21723
+"Ontario","Durham","07-05-2021",205,21928
+"Ontario","Durham","08-05-2021",125,22053
+"Ontario","Durham","09-05-2021",187,22240
+"Ontario","Durham","10-05-2021",168,22408
+"Ontario","Durham","11-05-2021",144,22552
+"Ontario","Durham","12-05-2021",139,22691
+"Ontario","Durham","13-05-2021",147,22838
+"Ontario","Durham","14-05-2021",148,22986
+"Ontario","Durham","15-05-2021",157,23143
+"Ontario","Durham","16-05-2021",143,23286
+"Ontario","Durham","17-05-2021",120,23406
+"Ontario","Durham","18-05-2021",102,23508
+"Ontario","Durham","19-05-2021",62,23570
+"Ontario","Durham","20-05-2021",110,23680
+"Ontario","Durham","21-05-2021",107,23787
+"Ontario","Durham","22-05-2021",147,23934
+"Ontario","Durham","23-05-2021",96,24030
+"Ontario","Durham","24-05-2021",78,24108
+"Ontario","Durham","25-05-2021",60,24168
+"Ontario","Durham","26-05-2021",123,24291
+"Ontario","Durham","27-05-2021",25,24316
+"Ontario","Durham","28-05-2021",72,24388
+"Ontario","Durham","29-05-2021",54,24442
+"Ontario","Durham","30-05-2021",54,24496
+"Ontario","Durham","31-05-2021",67,24563
+"Ontario","Durham","01-06-2021",50,24613
+"Ontario","Durham","02-06-2021",40,24653
+"Ontario","Durham","03-06-2021",44,24697
+"Ontario","Durham","04-06-2021",69,24766
+"Ontario","Durham","05-06-2021",31,24797
+"Ontario","Durham","06-06-2021",33,24830
+"Ontario","Durham","07-06-2021",40,24870
+"Ontario","Durham","08-06-2021",30,24900
+"Ontario","Durham","09-06-2021",18,24918
+"Ontario","Durham","10-06-2021",21,24939
+"Ontario","Durham","11-06-2021",26,24965
+"Ontario","Durham","12-06-2021",31,24996
+"Ontario","Durham","13-06-2021",21,25017
+"Ontario","Durham","14-06-2021",29,25046
+"Ontario","Durham","15-06-2021",12,25058
+"Ontario","Durham","16-06-2021",15,25073
+"Ontario","Durham","17-06-2021",13,25086
+"Ontario","Durham","18-06-2021",12,25098
+"Ontario","Durham","19-06-2021",16,25114
+"Ontario","Durham","20-06-2021",16,25130
+"Ontario","Durham","21-06-2021",11,25141
+"Ontario","Durham","22-06-2021",1,25142
+"Ontario","Durham","23-06-2021",2,25144
+"Ontario","Durham","24-06-2021",16,25160
+"Ontario","Durham","25-06-2021",7,25167
+"Ontario","Durham","26-06-2021",9,25176
+"Ontario","Durham","27-06-2021",14,25190
+"Ontario","Durham","28-06-2021",10,25200
+"Ontario","Durham","29-06-2021",10,25210
+"Ontario","Durham","30-06-2021",5,25215
+"Ontario","Durham","01-07-2021",7,25222
+"Ontario","Durham","02-07-2021",3,25225
+"Ontario","Durham","03-07-2021",6,25231
+"Ontario","Durham","04-07-2021",6,25237
+"Ontario","Durham","05-07-2021",1,25238
+"Ontario","Durham","06-07-2021",6,25244
+"Ontario","Durham","07-07-2021",6,25250
+"Ontario","Durham","08-07-2021",6,25256
+"Ontario","Durham","09-07-2021",9,25265
+"Ontario","Durham","10-07-2021",3,25268
+"Ontario","Durham","11-07-2021",3,25271
+"Ontario","Durham","12-07-2021",0,25271
+"Ontario","Durham","13-07-2021",2,25273
+"Ontario","Durham","14-07-2021",3,25276
+"Ontario","Durham","15-07-2021",3,25279
+"Ontario","Durham","16-07-2021",8,25287
+"Ontario","Durham","17-07-2021",7,25294
+"Ontario","Durham","18-07-2021",9,25303
+"Ontario","Durham","19-07-2021",4,25307
+"Ontario","Durham","20-07-2021",2,25309
+"Ontario","Durham","21-07-2021",13,25322
+"Ontario","Durham","22-07-2021",11,25333
+"Ontario","Durham","23-07-2021",11,25344
+"Ontario","Durham","24-07-2021",3,25347
+"Ontario","Durham","25-07-2021",11,25358
+"Ontario","Durham","26-07-2021",9,25367
+"Ontario","Durham","27-07-2021",3,25370
+"Ontario","Durham","28-07-2021",13,25383
+"Ontario","Durham","29-07-2021",8,25391
+"Ontario","Durham","30-07-2021",9,25400
+"Ontario","Durham","31-07-2021",22,25422
+"Ontario","Durham","01-08-2021",13,25435
+"Ontario","Durham","02-08-2021",10,25445
+"Ontario","Durham","03-08-2021",4,25449
+"Ontario","Durham","04-08-2021",11,25460
+"Ontario","Durham","05-08-2021",7,25467
+"Ontario","Durham","06-08-2021",13,25480
+"Ontario","Durham","07-08-2021",20,25500
+"Ontario","Durham","08-08-2021",23,25523
+"Ontario","Durham","09-08-2021",14,25537
+"Ontario","Durham","10-08-2021",5,25542
+"Ontario","Durham","11-08-2021",14,25556
+"Ontario","Durham","12-08-2021",44,25600
+"Ontario","Durham","13-08-2021",17,25617
+"Ontario","Durham","14-08-2021",20,25637
+"Ontario","Durham","15-08-2021",17,25654
+"Ontario","Durham","16-08-2021",17,25671
+"Ontario","Durham","17-08-2021",19,25690
+"Ontario","Durham","18-08-2021",16,25706
+"Ontario","Durham","19-08-2021",29,25735
+"Ontario","Durham","20-08-2021",25,25760
+"Ontario","Durham","21-08-2021",36,25796
+"Ontario","Durham","22-08-2021",39,25835
+"Ontario","Durham","23-08-2021",30,25865
+"Ontario","Durham","24-08-2021",6,25871
+"Ontario","Durham","25-08-2021",21,25892
+"Ontario","Durham","26-08-2021",51,25943
+"Ontario","Durham","27-08-2021",40,25983
+"Ontario","Durham","28-08-2021",44,26027
+"Ontario","Durham","29-08-2021",33,26060
+"Ontario","Durham","30-08-2021",38,26098
+"Ontario","Durham","31-08-2021",19,26117
+"Ontario","Durham","01-09-2021",31,26148
+"Ontario","Durham","02-09-2021",22,26170
+"Ontario","Durham","03-09-2021",50,26220
+"Ontario","Durham","04-09-2021",28,26248
+"Ontario","Durham","05-09-2021",46,26294
+"Ontario","Durham","06-09-2021",21,26315
+"Ontario","Durham","07-09-2021",32,26347
+"Ontario","Durham","08-09-2021",25,26372
+"Ontario","Durham","09-09-2021",19,26391
+"Ontario","Durham","10-09-2021",48,26439
+"Ontario","Durham","11-09-2021",29,26468
+"Ontario","Durham","12-09-2021",42,26510
+"Ontario","Durham","13-09-2021",20,26530
+"Ontario","Durham","14-09-2021",13,26543
+"Ontario","Durham","15-09-2021",17,26560
+"Ontario","Durham","16-09-2021",31,26591
+"Ontario","Durham","17-09-2021",60,26651
+"Ontario","Durham","18-09-2021",47,26698
+"Ontario","Durham","19-09-2021",19,26717
+"Ontario","Durham","20-09-2021",24,26741
+"Ontario","Durham","21-09-2021",21,26762
+"Ontario","Durham","22-09-2021",6,26768
+"Ontario","Durham","23-09-2021",39,26807
+"Ontario","Durham","24-09-2021",35,26842
+"Ontario","Durham","25-09-2021",38,26880
+"Ontario","Durham","26-09-2021",28,26908
+"Ontario","Durham","27-09-2021",22,26930
+"Ontario","Durham","28-09-2021",19,26949
+"Ontario","Durham","29-09-2021",10,26959
+"Ontario","Durham","30-09-2021",43,27002
+"Ontario","Durham","01-10-2021",40,27042
+"Ontario","Durham","02-10-2021",14,27056
+"Ontario","Durham","03-10-2021",23,27079
+"Ontario","Durham","04-10-2021",25,27104
+"Ontario","Durham","05-10-2021",13,27117
+"Ontario","Durham","06-10-2021",21,27138
+"Ontario","Durham","07-10-2021",28,27166
+"Ontario","Durham","08-10-2021",20,27186
+"Ontario","Durham","09-10-2021",17,27203
+"Ontario","Durham","10-10-2021",16,27219
+"Ontario","Durham","11-10-2021",18,27237
+"Ontario","Durham","12-10-2021",9,27246
+"Ontario","Durham","13-10-2021",6,27252
+"Ontario","Durham","14-10-2021",14,27266
+"Ontario","Durham","15-10-2021",15,27281
+"Ontario","Durham","16-10-2021",8,27289
+"Ontario","Durham","17-10-2021",18,27307
+"Ontario","Durham","18-10-2021",12,27319
+"Ontario","Durham","19-10-2021",4,27323
+"Ontario","Durham","20-10-2021",15,27338
+"Ontario","Durham","21-10-2021",16,27354
+"Ontario","Durham","22-10-2021",19,27373
+"Ontario","Durham","23-10-2021",21,27394
+"Ontario","Durham","24-10-2021",5,27399
+"Ontario","Durham","25-10-2021",7,27406
+"Ontario","Durham","26-10-2021",4,27410
+"Ontario","Durham","27-10-2021",7,27417
+"Ontario","Durham","28-10-2021",7,27424
+"Ontario","Durham","29-10-2021",6,27430
+"Ontario","Durham","30-10-2021",7,27437
+"Ontario","Durham","31-10-2021",8,27445
+"Ontario","Durham","01-11-2021",6,27451
+"Ontario","Durham","02-11-2021",2,27453
+"Ontario","Durham","03-11-2021",9,27462
+"Ontario","Durham","04-11-2021",4,27466
+"Ontario","Durham","05-11-2021",4,27470
+"Ontario","Durham","06-11-2021",16,27486
+"Ontario","Durham","07-11-2021",26,27512
+"Ontario","Durham","08-11-2021",14,27526
+"Ontario","Durham","09-11-2021",17,27543
+"Ontario","Durham","10-11-2021",11,27554
+"Ontario","Durham","11-11-2021",22,27576
+"Ontario","Durham","12-11-2021",37,27613
+"Ontario","Durham","13-11-2021",35,27648
+"Ontario","Durham","14-11-2021",34,27682
+"Ontario","Durham","15-11-2021",17,27699
+"Ontario","Durham","16-11-2021",17,27716
+"Ontario","Durham","17-11-2021",29,27745
+"Ontario","Durham","18-11-2021",33,27778
+"Ontario","Durham","19-11-2021",25,27803
+"Ontario","Durham","20-11-2021",26,27829
+"Ontario","Durham","21-11-2021",32,27861
+"Ontario","Durham","22-11-2021",24,27885
+"Ontario","Durham","23-11-2021",22,27907
+"Ontario","Durham","24-11-2021",27,27934
+"Ontario","Durham","25-11-2021",25,27959
+"Ontario","Durham","26-11-2021",41,28000
+"Ontario","Durham","27-11-2021",27,28027
+"Ontario","Durham","28-11-2021",42,28069
+"Ontario","Durham","29-11-2021",30,28099
+"Ontario","Durham","30-11-2021",18,28117
+"Ontario","Durham","01-12-2021",37,28154
+"Ontario","Durham","02-12-2021",21,28175
+"Ontario","Durham","03-12-2021",44,28219
+"Ontario","Durham","04-12-2021",29,28248
+"Ontario","Durham","05-12-2021",18,28266
+"Ontario","Durham","06-12-2021",37,28303
+"Ontario","Durham","07-12-2021",32,28335
+"Ontario","Durham","08-12-2021",34,28369
+"Ontario","Durham","09-12-2021",59,28428
+"Ontario","Durham","10-12-2021",76,28504
+"Ontario","Durham","11-12-2021",56,28560
+"Ontario","Durham","12-12-2021",57,28617
+"Ontario","Durham","13-12-2021",56,28673
+"Ontario","Durham","14-12-2021",74,28747
+"Ontario","Durham","15-12-2021",44,28791
+"Ontario","Durham","16-12-2021",97,28888
+"Ontario","Durham","17-12-2021",155,29043
+"Ontario","Durham","18-12-2021",150,29193
+"Ontario","Durham","19-12-2021",240,29433
+"Ontario","Durham","20-12-2021",142,29575
+"Ontario","Durham","21-12-2021",160,29735
+"Ontario","Durham","22-12-2021",238,29973
+"Ontario","Durham","23-12-2021",334,30307
+"Ontario","Durham","24-12-2021",349,30656
+"Ontario","Durham","25-12-2021",572,31228
+"Ontario","Durham","26-12-2021",422,31650
+"Ontario","Durham","27-12-2021",464,32114
+"Ontario","Durham","28-12-2021",389,32503
+"Ontario","Durham","29-12-2021",524,33027
+"Ontario","Durham","30-12-2021",538,33565
+"Ontario","Durham","31-12-2021",766,34331
+"Ontario","Durham","01-01-2022",922,35253
+"Ontario","Durham","02-01-2022",752,36005
+"Ontario","Durham","03-01-2022",714,36719
+"Ontario","Durham","04-01-2022",635,37354
+"Ontario","Durham","05-01-2022",699,38053
+"Ontario","Durham","06-01-2022",772,38825
+"Ontario","Durham","07-01-2022",425,39250
+"Ontario","Durham","08-01-2022",770,40020
+"Ontario","Durham","09-01-2022",641,40661
+"Ontario","Durham","10-01-2022",680,41341
+"Ontario","Durham","11-01-2022",414,41755
+"Ontario","Durham","12-01-2022",819,42574
+"Ontario","Durham","13-01-2022",799,43373
+"Ontario","Durham","14-01-2022",1054,44427
+"Ontario","Durham","15-01-2022",986,45413
+"Ontario","Durham","16-01-2022",699,46112
+"Ontario","Durham","17-01-2022",513,46625
+"Ontario","Durham","18-01-2022",465,47090
+"Ontario","Durham","19-01-2022",202,47292
+"Ontario","Durham","20-01-2022",371,47663
+"Ontario","Durham","21-01-2022",364,48027
+"Ontario","Durham","22-01-2022",290,48317
+"Ontario","Durham","23-01-2022",237,48554
+"Ontario","Durham","24-01-2022",177,48731
+"Ontario","Durham","25-01-2022",164,48895
+"Ontario","Durham","26-01-2022",257,49152
+"Ontario","Durham","27-01-2022",261,49413
+"Ontario","Durham","28-01-2022",225,49638
+"Ontario","Durham","29-01-2022",186,49824
+"Ontario","Durham","30-01-2022",119,49943
+"Ontario","Durham","31-01-2022",119,50062
+"Ontario","Durham","01-02-2022",95,50157
+"Ontario","Durham","02-02-2022",175,50332
+"Ontario","Durham","03-02-2022",189,50521
+"Ontario","Durham","04-02-2022",173,50694
+"Ontario","Durham","05-02-2022",145,50839
+"Ontario","Durham","06-02-2022",111,50950
+"Ontario","Durham","07-02-2022",80,51030
+"Ontario","Durham","08-02-2022",73,51103
+"Ontario","Durham","09-02-2022",146,51249
+"Ontario","Durham","10-02-2022",135,51384
+"Ontario","Durham","11-02-2022",104,51488
+"Ontario","Durham","12-02-2022",104,51592
+"Ontario","Durham","13-02-2022",97,51689
+"Ontario","Durham","14-02-2022",80,51769
+"Ontario","Durham","15-02-2022",56,51825
+"Ontario","Durham","16-02-2022",103,51928
+"Ontario","Durham","17-02-2022",92,52020
+"Ontario","Durham","18-02-2022",109,52129
+"Ontario","Durham","19-02-2022",101,52230
+"Ontario","Durham","20-02-2022",88,52318
+"Ontario","Durham","21-02-2022",54,52372
+"Ontario","Durham","22-02-2022",57,52429
+"Ontario","Durham","23-02-2022",74,52503
+"Ontario","Durham","24-02-2022",107,52610
+"Ontario","Durham","25-02-2022",106,52716
+"Ontario","Durham","26-02-2022",99,52815
+"Ontario","Durham","27-02-2022",88,52903
+"Ontario","Durham","28-02-2022",75,52978
+"Ontario","Durham","01-03-2022",52,53030
+"Ontario","Durham","02-03-2022",113,53143
+"Ontario","Durham","03-03-2022",134,53277
+"Ontario","Durham","04-03-2022",98,53375
+"Ontario","Durham","05-03-2022",89,53464
+"Ontario","Durham","06-03-2022",82,53546
+"Ontario","Durham","07-03-2022",49,53595
+"Ontario","Durham","08-03-2022",43,53638
+"Ontario","Durham","09-03-2022",117,53755
+"Ontario","Durham","10-03-2022",93,53848
+"Ontario","Durham","11-03-2022",135,53983
+"Ontario","Durham","12-03-2022",145,54128
+"Ontario","Durham","13-03-2022",78,54206
+"Ontario","Durham","14-03-2022",38,54244
+"Ontario","Durham","15-03-2022",80,54324
+"Ontario","Durham","16-03-2022",101,54425
+"Ontario","Durham","17-03-2022",86,54511
+"Ontario","Durham","18-03-2022",85,54596
+"Ontario","Durham","19-03-2022",92,54688
+"Ontario","Durham","20-03-2022",76,54764
+"Ontario","Durham","21-03-2022",46,54810
+"Ontario","Durham","22-03-2022",49,54859
+"Ontario","Durham","23-03-2022",129,54988
+"Ontario","Durham","24-03-2022",100,55088
+"Ontario","Durham","25-03-2022",118,55206
+"Ontario","Durham","26-03-2022",122,55328
+"Ontario","Durham","27-03-2022",53,55381
+"Ontario","Durham","28-03-2022",124,55505
+"Ontario","Durham","29-03-2022",45,55550
+"Ontario","Durham","30-03-2022",146,55696
+"Ontario","Durham","31-03-2022",143,55839
+"Ontario","Durham","01-04-2022",151,55990
+"Ontario","Durham","02-04-2022",150,56140
+"Ontario","Durham","03-04-2022",127,56267
+"Ontario","Durham","04-04-2022",81,56348
+"Ontario","Durham","05-04-2022",92,56440
+"Ontario","Durham","06-04-2022",181,56621
+"Ontario","Durham","07-04-2022",191,56812
 "Ontario","Eastern","04-08-2020",0,181
 "Ontario","Eastern","05-08-2020",0,181
 "Ontario","Eastern","06-08-2020",0,181
@@ -26272,6 +26314,7 @@
 "Ontario","Eastern","04-04-2022",27,14429
 "Ontario","Eastern","05-04-2022",12,14441
 "Ontario","Eastern","06-04-2022",28,14469
+"Ontario","Eastern","07-04-2022",71,14540
 "Ontario","Grey Bruce","04-08-2020",0,112
 "Ontario","Grey Bruce","05-08-2020",0,112
 "Ontario","Grey Bruce","06-08-2020",0,112
@@ -26883,6 +26926,7 @@
 "Ontario","Grey Bruce","04-04-2022",30,7241
 "Ontario","Grey Bruce","05-04-2022",18,7259
 "Ontario","Grey Bruce","06-04-2022",52,7311
+"Ontario","Grey Bruce","07-04-2022",58,7369
 "Ontario","Haldimand-Norfolk","04-08-2020",0,450
 "Ontario","Haldimand-Norfolk","05-08-2020",0,450
 "Ontario","Haldimand-Norfolk","06-08-2020",1,451
@@ -27494,6 +27538,7 @@
 "Ontario","Haldimand-Norfolk","04-04-2022",15,7597
 "Ontario","Haldimand-Norfolk","05-04-2022",14,7611
 "Ontario","Haldimand-Norfolk","06-04-2022",55,7666
+"Ontario","Haldimand-Norfolk","07-04-2022",38,7704
 "Ontario","Haliburton Kawartha Pineridge","04-08-2020",0,214
 "Ontario","Haliburton Kawartha Pineridge","05-08-2020",0,214
 "Ontario","Haliburton Kawartha Pineridge","06-08-2020",1,215
@@ -28105,6 +28150,7 @@
 "Ontario","Haliburton Kawartha Pineridge","04-04-2022",28,7784
 "Ontario","Haliburton Kawartha Pineridge","05-04-2022",21,7805
 "Ontario","Haliburton Kawartha Pineridge","06-04-2022",23,7828
+"Ontario","Haliburton Kawartha Pineridge","07-04-2022",60,7888
 "Ontario","Halton","04-08-2020",1,828
 "Ontario","Halton","05-08-2020",2,830
 "Ontario","Halton","06-08-2020",1,831
@@ -28716,6 +28762,7 @@
 "Ontario","Halton","04-04-2022",75,44778
 "Ontario","Halton","05-04-2022",50,44828
 "Ontario","Halton","06-04-2022",122,44950
+"Ontario","Halton","07-04-2022",131,45081
 "Ontario","Hamilton","04-08-2020",8,894
 "Ontario","Hamilton","05-08-2020",0,894
 "Ontario","Hamilton","06-08-2020",2,896
@@ -29327,6 +29374,7 @@
 "Ontario","Hamilton","04-04-2022",416,51879
 "Ontario","Hamilton","05-04-2022",123,52002
 "Ontario","Hamilton","06-04-2022",183,52185
+"Ontario","Hamilton","07-04-2022",212,52397
 "Ontario","Hastings Prince Edward","04-08-2020",0,44
 "Ontario","Hastings Prince Edward","05-08-2020",0,44
 "Ontario","Hastings Prince Edward","06-08-2020",0,44
@@ -29938,6 +29986,7 @@
 "Ontario","Hastings Prince Edward","04-04-2022",157,8170
 "Ontario","Hastings Prince Edward","05-04-2022",0,8170
 "Ontario","Hastings Prince Edward","06-04-2022",191,8361
+"Ontario","Hastings Prince Edward","07-04-2022",0,8361
 "Ontario","Huron Perth","04-08-2020",1,74
 "Ontario","Huron Perth","05-08-2020",0,74
 "Ontario","Huron Perth","06-08-2020",1,75
@@ -30549,6 +30598,7 @@
 "Ontario","Huron Perth","04-04-2022",21,6334
 "Ontario","Huron Perth","05-04-2022",10,6344
 "Ontario","Huron Perth","06-04-2022",22,6366
+"Ontario","Huron Perth","07-04-2022",40,6406
 "Ontario","Kingston Frontenac Lennox & Addington","04-08-2020",0,109
 "Ontario","Kingston Frontenac Lennox & Addington","05-08-2020",0,109
 "Ontario","Kingston Frontenac Lennox & Addington","06-08-2020",0,109
@@ -31160,6 +31210,7 @@
 "Ontario","Kingston Frontenac Lennox & Addington","04-04-2022",309,13170
 "Ontario","Kingston Frontenac Lennox & Addington","05-04-2022",0,13170
 "Ontario","Kingston Frontenac Lennox & Addington","06-04-2022",313,13483
+"Ontario","Kingston Frontenac Lennox & Addington","07-04-2022",0,13483
 "Ontario","Lambton","04-08-2020",3,317
 "Ontario","Lambton","05-08-2020",2,319
 "Ontario","Lambton","06-08-2020",-1,318
@@ -31771,6 +31822,7 @@
 "Ontario","Lambton","04-04-2022",7,10453
 "Ontario","Lambton","05-04-2022",30,10483
 "Ontario","Lambton","06-04-2022",21,10504
+"Ontario","Lambton","07-04-2022",69,10573
 "Ontario","Leeds Grenville and Lanark","04-08-2020",0,355
 "Ontario","Leeds Grenville and Lanark","05-08-2020",0,355
 "Ontario","Leeds Grenville and Lanark","06-08-2020",0,355
@@ -32382,6 +32434,7 @@
 "Ontario","Leeds Grenville and Lanark","04-04-2022",23,7496
 "Ontario","Leeds Grenville and Lanark","05-04-2022",31,7527
 "Ontario","Leeds Grenville and Lanark","06-04-2022",39,7566
+"Ontario","Leeds Grenville and Lanark","07-04-2022",53,7619
 "Ontario","Middlesex-London","04-08-2020",0,679
 "Ontario","Middlesex-London","05-08-2020",1,680
 "Ontario","Middlesex-London","06-08-2020",1,681
@@ -32993,6 +33046,7 @@
 "Ontario","Middlesex-London","04-04-2022",293,34412
 "Ontario","Middlesex-London","05-04-2022",81,34493
 "Ontario","Middlesex-London","06-04-2022",155,34648
+"Ontario","Middlesex-London","07-04-2022",137,34785
 "Ontario","Niagara","04-08-2020",2,869
 "Ontario","Niagara","05-08-2020",8,877
 "Ontario","Niagara","06-08-2020",1,878
@@ -33604,6 +33658,7 @@
 "Ontario","Niagara","04-04-2022",23,36436
 "Ontario","Niagara","05-04-2022",79,36515
 "Ontario","Niagara","06-04-2022",90,36605
+"Ontario","Niagara","07-04-2022",229,36834
 "Ontario","North Bay Parry Sound","04-08-2020",0,35
 "Ontario","North Bay Parry Sound","05-08-2020",0,35
 "Ontario","North Bay Parry Sound","06-08-2020",0,35
@@ -34215,6 +34270,7 @@
 "Ontario","North Bay Parry Sound","04-04-2022",94,4663
 "Ontario","North Bay Parry Sound","05-04-2022",34,4697
 "Ontario","North Bay Parry Sound","06-04-2022",19,4716
+"Ontario","North Bay Parry Sound","07-04-2022",39,4755
 "Ontario","Northwestern","04-08-2020",0,44
 "Ontario","Northwestern","05-08-2020",0,44
 "Ontario","Northwestern","06-08-2020",0,44
@@ -34826,6 +34882,7 @@
 "Ontario","Northwestern","04-04-2022",72,6805
 "Ontario","Northwestern","05-04-2022",0,6805
 "Ontario","Northwestern","06-04-2022",100,6905
+"Ontario","Northwestern","07-04-2022",0,6905
 "Ontario","Not Reported","04-08-2020",0,0
 "Ontario","Not Reported","05-08-2020",0,0
 "Ontario","Not Reported","06-08-2020",0,0
@@ -35437,6 +35494,7 @@
 "Ontario","Not Reported","04-04-2022",0,0
 "Ontario","Not Reported","05-04-2022",0,0
 "Ontario","Not Reported","06-04-2022",0,0
+"Ontario","Not Reported","07-04-2022",0,0
 "Ontario","Ottawa","04-08-2020",1,2560
 "Ontario","Ottawa","05-08-2020",16,2576
 "Ontario","Ottawa","06-08-2020",19,2595
@@ -36048,6 +36106,7 @@
 "Ontario","Ottawa","04-04-2022",501,66896
 "Ontario","Ottawa","05-04-2022",79,66975
 "Ontario","Ottawa","06-04-2022",192,67167
+"Ontario","Ottawa","07-04-2022",234,67401
 "Ontario","Peel","04-08-2020",10,7105
 "Ontario","Peel","05-08-2020",9,7114
 "Ontario","Peel","06-08-2020",13,7127
@@ -36659,6 +36718,7 @@
 "Ontario","Peel","04-04-2022",450,180195
 "Ontario","Peel","05-04-2022",214,180409
 "Ontario","Peel","06-04-2022",257,180666
+"Ontario","Peel","07-04-2022",251,180917
 "Ontario","Peterborough","04-08-2020",0,99
 "Ontario","Peterborough","05-08-2020",0,99
 "Ontario","Peterborough","06-08-2020",0,99
@@ -37270,6 +37330,7 @@
 "Ontario","Peterborough","04-04-2022",52,6269
 "Ontario","Peterborough","05-04-2022",0,6269
 "Ontario","Peterborough","06-04-2022",85,6354
+"Ontario","Peterborough","07-04-2022",0,6354
 "Ontario","Porcupine","04-08-2020",0,71
 "Ontario","Porcupine","05-08-2020",0,71
 "Ontario","Porcupine","06-08-2020",0,71
@@ -37881,6 +37942,7 @@
 "Ontario","Porcupine","04-04-2022",106,6415
 "Ontario","Porcupine","05-04-2022",31,6446
 "Ontario","Porcupine","06-04-2022",26,6472
+"Ontario","Porcupine","07-04-2022",24,6496
 "Ontario","Renfrew","04-08-2020",0,30
 "Ontario","Renfrew","05-08-2020",0,30
 "Ontario","Renfrew","06-08-2020",0,30
@@ -38492,6 +38554,7 @@
 "Ontario","Renfrew","04-04-2022",53,3844
 "Ontario","Renfrew","05-04-2022",9,3853
 "Ontario","Renfrew","06-04-2022",26,3879
+"Ontario","Renfrew","07-04-2022",35,3914
 "Ontario","Simcoe Muskoka","04-08-2020",4,657
 "Ontario","Simcoe Muskoka","05-08-2020",1,658
 "Ontario","Simcoe Muskoka","06-08-2020",2,660
@@ -39103,6 +39166,7 @@
 "Ontario","Simcoe Muskoka","04-04-2022",411,39098
 "Ontario","Simcoe Muskoka","05-04-2022",0,39098
 "Ontario","Simcoe Muskoka","06-04-2022",422,39520
+"Ontario","Simcoe Muskoka","07-04-2022",0,39520
 "Ontario","Southwestern","04-08-2020",12,178
 "Ontario","Southwestern","05-08-2020",2,180
 "Ontario","Southwestern","06-08-2020",6,186
@@ -39714,6 +39778,7 @@
 "Ontario","Southwestern","04-04-2022",107,12167
 "Ontario","Southwestern","05-04-2022",0,12167
 "Ontario","Southwestern","06-04-2022",76,12243
+"Ontario","Southwestern","07-04-2022",0,12243
 "Ontario","Sudbury","04-08-2020",0,89
 "Ontario","Sudbury","05-08-2020",1,90
 "Ontario","Sudbury","06-08-2020",0,90
@@ -40325,6 +40390,7 @@
 "Ontario","Sudbury","04-04-2022",144,13278
 "Ontario","Sudbury","05-04-2022",0,13278
 "Ontario","Sudbury","06-04-2022",135,13413
+"Ontario","Sudbury","07-04-2022",0,13413
 "Ontario","Thunder Bay","04-08-2020",0,98
 "Ontario","Thunder Bay","05-08-2020",0,98
 "Ontario","Thunder Bay","06-08-2020",1,99
@@ -40936,6 +41002,7 @@
 "Ontario","Thunder Bay","04-04-2022",71,9923
 "Ontario","Thunder Bay","05-04-2022",0,9923
 "Ontario","Thunder Bay","06-04-2022",62,9985
+"Ontario","Thunder Bay","07-04-2022",0,9985
 "Ontario","Timiskaming","04-08-2020",0,16
 "Ontario","Timiskaming","05-08-2020",0,16
 "Ontario","Timiskaming","06-08-2020",0,16
@@ -41547,6 +41614,7 @@
 "Ontario","Timiskaming","04-04-2022",30,1481
 "Ontario","Timiskaming","05-04-2022",6,1487
 "Ontario","Timiskaming","06-04-2022",13,1500
+"Ontario","Timiskaming","07-04-2022",15,1515
 "Ontario","Toronto","04-08-2020",12,15432
 "Ontario","Toronto","05-08-2020",19,15451
 "Ontario","Toronto","06-08-2020",21,15472
@@ -42158,6 +42226,7 @@
 "Ontario","Toronto","04-04-2022",1819,303061
 "Ontario","Toronto","05-04-2022",798,303859
 "Ontario","Toronto","06-04-2022",897,304756
+"Ontario","Toronto","07-04-2022",1005,305761
 "Ontario","Waterloo","04-08-2020",1,1394
 "Ontario","Waterloo","05-08-2020",0,1394
 "Ontario","Waterloo","06-08-2020",0,1394
@@ -42769,6 +42838,7 @@
 "Ontario","Waterloo","04-04-2022",260,42680
 "Ontario","Waterloo","05-04-2022",72,42752
 "Ontario","Waterloo","06-04-2022",92,42844
+"Ontario","Waterloo","07-04-2022",196,43040
 "Ontario","Wellington Dufferin Guelph","04-08-2020",1,528
 "Ontario","Wellington Dufferin Guelph","05-08-2020",0,528
 "Ontario","Wellington Dufferin Guelph","06-08-2020",0,528
@@ -43380,6 +43450,7 @@
 "Ontario","Wellington Dufferin Guelph","04-04-2022",165,19872
 "Ontario","Wellington Dufferin Guelph","05-04-2022",41,19913
 "Ontario","Wellington Dufferin Guelph","06-04-2022",72,19985
+"Ontario","Wellington Dufferin Guelph","07-04-2022",110,20095
 "Ontario","Windsor-Essex","04-08-2020",10,2350
 "Ontario","Windsor-Essex","05-08-2020",1,2351
 "Ontario","Windsor-Essex","06-08-2020",5,2356
@@ -43991,6 +44062,7 @@
 "Ontario","Windsor-Essex","04-04-2022",264,40265
 "Ontario","Windsor-Essex","05-04-2022",113,40378
 "Ontario","Windsor-Essex","06-04-2022",157,40535
+"Ontario","Windsor-Essex","07-04-2022",149,40684
 "Ontario","York","04-08-2020",5,3303
 "Ontario","York","05-08-2020",0,3303
 "Ontario","York","06-08-2020",5,3308
@@ -44602,6 +44674,7 @@
 "Ontario","York","04-04-2022",439,102441
 "Ontario","York","05-04-2022",151,102592
 "Ontario","York","06-04-2022",268,102860
+"Ontario","York","07-04-2022",213,103073
 "PEI","Prince Edward Island","04-08-2020",0,36
 "PEI","Prince Edward Island","05-08-2020",0,36
 "PEI","Prince Edward Island","06-08-2020",0,36
@@ -45213,6 +45286,7 @@
 "PEI","Prince Edward Island","04-04-2022",0,25799
 "PEI","Prince Edward Island","05-04-2022",2576,28375
 "PEI","Prince Edward Island","06-04-2022",0,28375
+"PEI","Prince Edward Island","07-04-2022",0,28375
 "Quebec","Abitibi-Témiscamingue","04-08-2020",0,179
 "Quebec","Abitibi-Témiscamingue","05-08-2020",0,179
 "Quebec","Abitibi-Témiscamingue","06-08-2020",0,179
@@ -45824,6 +45898,7 @@
 "Quebec","Abitibi-Témiscamingue","04-04-2022",0,9236
 "Quebec","Abitibi-Témiscamingue","05-04-2022",80,9316
 "Quebec","Abitibi-Témiscamingue","06-04-2022",119,9435
+"Quebec","Abitibi-Témiscamingue","07-04-2022",60,9495
 "Quebec","Bas-Saint-Laurent","04-08-2020",0,70
 "Quebec","Bas-Saint-Laurent","05-08-2020",0,70
 "Quebec","Bas-Saint-Laurent","06-08-2020",0,70
@@ -46435,6 +46510,7 @@
 "Quebec","Bas-Saint-Laurent","04-04-2022",0,17396
 "Quebec","Bas-Saint-Laurent","05-04-2022",218,17614
 "Quebec","Bas-Saint-Laurent","06-04-2022",130,17744
+"Quebec","Bas-Saint-Laurent","07-04-2022",143,17887
 "Quebec","Capitale-Nationale","04-08-2020",0,1959
 "Quebec","Capitale-Nationale","05-08-2020",0,1959
 "Quebec","Capitale-Nationale","06-08-2020",3,1962
@@ -47046,6 +47122,7 @@
 "Quebec","Capitale-Nationale","04-04-2022",0,79879
 "Quebec","Capitale-Nationale","05-04-2022",534,80413
 "Quebec","Capitale-Nationale","06-04-2022",331,80744
+"Quebec","Capitale-Nationale","07-04-2022",411,81155
 "Quebec","Chaudière-Appalaches","04-08-2020",0,570
 "Quebec","Chaudière-Appalaches","05-08-2020",2,572
 "Quebec","Chaudière-Appalaches","06-08-2020",1,573
@@ -47657,6 +47734,7 @@
 "Quebec","Chaudière-Appalaches","04-04-2022",0,56353
 "Quebec","Chaudière-Appalaches","05-04-2022",310,56663
 "Quebec","Chaudière-Appalaches","06-04-2022",240,56903
+"Quebec","Chaudière-Appalaches","07-04-2022",230,57133
 "Quebec","Côte-Nord","04-08-2020",0,124
 "Quebec","Côte-Nord","05-08-2020",0,124
 "Quebec","Côte-Nord","06-08-2020",0,124
@@ -48268,6 +48346,7 @@
 "Quebec","Côte-Nord","04-04-2022",0,6919
 "Quebec","Côte-Nord","05-04-2022",75,6994
 "Quebec","Côte-Nord","06-04-2022",80,7074
+"Quebec","Côte-Nord","07-04-2022",45,7119
 "Quebec","Estrie","04-08-2020",3,1069
 "Quebec","Estrie","05-08-2020",5,1074
 "Quebec","Estrie","06-08-2020",10,1084
@@ -48879,6 +48958,7 @@
 "Quebec","Estrie","04-04-2022",0,44358
 "Quebec","Estrie","05-04-2022",254,44612
 "Quebec","Estrie","06-04-2022",142,44754
+"Quebec","Estrie","07-04-2022",221,44975
 "Quebec","Gaspésie-Îles-de-la-Madeleine","04-08-2020",0,209
 "Quebec","Gaspésie-Îles-de-la-Madeleine","05-08-2020",1,210
 "Quebec","Gaspésie-Îles-de-la-Madeleine","06-08-2020",0,210
@@ -49490,6 +49570,7 @@
 "Quebec","Gaspésie-Îles-de-la-Madeleine","04-04-2022",0,7520
 "Quebec","Gaspésie-Îles-de-la-Madeleine","05-04-2022",128,7648
 "Quebec","Gaspésie-Îles-de-la-Madeleine","06-04-2022",78,7726
+"Quebec","Gaspésie-Îles-de-la-Madeleine","07-04-2022",76,7802
 "Quebec","Lanaudière","04-08-2020",17,4544
 "Quebec","Lanaudière","05-08-2020",18,4562
 "Quebec","Lanaudière","06-08-2020",11,4573
@@ -50101,6 +50182,7 @@
 "Quebec","Lanaudière","04-04-2022",0,64798
 "Quebec","Lanaudière","05-04-2022",239,65037
 "Quebec","Lanaudière","06-04-2022",211,65248
+"Quebec","Lanaudière","07-04-2022",228,65476
 "Quebec","Laurentides","04-08-2020",24,3961
 "Quebec","Laurentides","05-08-2020",29,3990
 "Quebec","Laurentides","06-08-2020",13,4003
@@ -50712,6 +50794,7 @@
 "Quebec","Laurentides","04-04-2022",0,72444
 "Quebec","Laurentides","05-04-2022",356,72800
 "Quebec","Laurentides","06-04-2022",281,73081
+"Quebec","Laurentides","07-04-2022",283,73364
 "Quebec","Laval","04-08-2020",10,6084
 "Quebec","Laval","05-08-2020",7,6091
 "Quebec","Laval","06-08-2020",12,6103
@@ -51323,6 +51406,7 @@
 "Quebec","Laval","04-04-2022",0,67490
 "Quebec","Laval","05-04-2022",209,67699
 "Quebec","Laval","06-04-2022",150,67849
+"Quebec","Laval","07-04-2022",155,68004
 "Quebec","Mauricie","04-08-2020",9,2093
 "Quebec","Mauricie","05-08-2020",3,2096
 "Quebec","Mauricie","06-08-2020",0,2096
@@ -51934,6 +52018,7 @@
 "Quebec","Mauricie","04-04-2022",0,52361
 "Quebec","Mauricie","05-04-2022",347,52708
 "Quebec","Mauricie","06-04-2022",322,53030
+"Quebec","Mauricie","07-04-2022",278,53308
 "Quebec","Montérégie","04-08-2020",20,8882
 "Quebec","Montérégie","05-08-2020",29,8911
 "Quebec","Montérégie","06-08-2020",27,8938
@@ -52545,6 +52630,7 @@
 "Quebec","Montérégie","04-04-2022",0,135256
 "Quebec","Montérégie","05-04-2022",740,135996
 "Quebec","Montérégie","06-04-2022",564,136560
+"Quebec","Montérégie","07-04-2022",569,137129
 "Quebec","Montréal","04-08-2020",40,28989
 "Quebec","Montréal","05-08-2020",58,29047
 "Quebec","Montréal","06-08-2020",50,29097
@@ -53156,6 +53242,7 @@
 "Quebec","Montréal","04-04-2022",0,289993
 "Quebec","Montréal","05-04-2022",1047,291040
 "Quebec","Montréal","06-04-2022",804,291844
+"Quebec","Montréal","07-04-2022",774,292618
 "Quebec","Nord-du-Québec","04-08-2020",0,8
 "Quebec","Nord-du-Québec","05-08-2020",0,8
 "Quebec","Nord-du-Québec","06-08-2020",0,8
@@ -53767,6 +53854,7 @@
 "Quebec","Nord-du-Québec","04-04-2022",0,1200
 "Quebec","Nord-du-Québec","05-04-2022",5,1205
 "Quebec","Nord-du-Québec","06-04-2022",5,1210
+"Quebec","Nord-du-Québec","07-04-2022",6,1216
 "Quebec","Not Reported","04-08-2020",0,27
 "Quebec","Not Reported","05-08-2020",0,27
 "Quebec","Not Reported","06-08-2020",0,27
@@ -54378,6 +54466,7 @@
 "Quebec","Not Reported","04-04-2022",0,2759
 "Quebec","Not Reported","05-04-2022",10,2769
 "Quebec","Not Reported","06-04-2022",3,2772
+"Quebec","Not Reported","07-04-2022",5,2777
 "Quebec","Nunavik","04-08-2020",0,17
 "Quebec","Nunavik","05-08-2020",0,17
 "Quebec","Nunavik","06-08-2020",0,17
@@ -54989,6 +55078,7 @@
 "Quebec","Nunavik","04-04-2022",0,2835
 "Quebec","Nunavik","05-04-2022",7,2842
 "Quebec","Nunavik","06-04-2022",5,2847
+"Quebec","Nunavik","07-04-2022",8,2855
 "Quebec","Outaouais","04-08-2020",0,682
 "Quebec","Outaouais","05-08-2020",3,685
 "Quebec","Outaouais","06-08-2020",6,691
@@ -55600,6 +55690,7 @@
 "Quebec","Outaouais","04-04-2022",0,36755
 "Quebec","Outaouais","05-04-2022",123,36878
 "Quebec","Outaouais","06-04-2022",110,36988
+"Quebec","Outaouais","07-04-2022",99,37087
 "Quebec","Saguenay","04-08-2020",0,368
 "Quebec","Saguenay","05-08-2020",0,368
 "Quebec","Saguenay","06-08-2020",0,368
@@ -56211,6 +56302,7 @@
 "Quebec","Saguenay","04-04-2022",0,26682
 "Quebec","Saguenay","05-04-2022",217,26899
 "Quebec","Saguenay","06-04-2022",160,27059
+"Quebec","Saguenay","07-04-2022",150,27209
 "Quebec","Terres-Cries-de-la-Baie-James","04-08-2020",0,10
 "Quebec","Terres-Cries-de-la-Baie-James","05-08-2020",0,10
 "Quebec","Terres-Cries-de-la-Baie-James","06-08-2020",0,10
@@ -56822,6 +56914,7 @@
 "Quebec","Terres-Cries-de-la-Baie-James","04-04-2022",0,2359
 "Quebec","Terres-Cries-de-la-Baie-James","05-04-2022",47,2406
 "Quebec","Terres-Cries-de-la-Baie-James","06-04-2022",26,2432
+"Quebec","Terres-Cries-de-la-Baie-James","07-04-2022",36,2468
 "Repatriated","Not Reported","04-08-2020",0,13
 "Repatriated","Not Reported","05-08-2020",0,13
 "Repatriated","Not Reported","06-08-2020",0,13
@@ -57433,6 +57526,7 @@
 "Repatriated","Not Reported","04-04-2022",0,13
 "Repatriated","Not Reported","05-04-2022",0,13
 "Repatriated","Not Reported","06-04-2022",0,13
+"Repatriated","Not Reported","07-04-2022",0,13
 "Saskatchewan","Central East","04-08-2020",0,28
 "Saskatchewan","Central East","05-08-2020",0,28
 "Saskatchewan","Central East","06-08-2020",0,28
@@ -65772,3 +65866,4 @@
 "Yukon","Yukon","04-04-2022",32,3876
 "Yukon","Yukon","05-04-2022",7,3883
 "Yukon","Yukon","06-04-2022",19,3902
+"Yukon","Yukon","07-04-2022",24,3926
