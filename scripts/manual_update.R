@@ -172,6 +172,15 @@ if (weekdays(date_today) != "Thursday") {
   copy_cells("testing_timeseries_prov", "E4", "C4")
 }
 
+# New Brunswick
+copy_cells("cases_timeseries_hr", "F20:F27", "D20:D27")
+copy_cells("mortality_timeseries_hr", "F20:F27", "D20:D27")
+copy_cells("recovered_timeseries_prov", "E5", "C5")
+copy_cells("testing_timeseries_prov", "E5", "C5")
+copy_cells("vaccine_administration_timeseries_prov", "E5", "C5")
+copy_cells("vaccine_completion_timeseries_prov", "E5", "C5")
+copy_cells("vaccine_additional_doses_timeseries_prov", "E5", "C5")
+
 # Newfoundland
 copy_cells("cases_timeseries_hr", "F28:F30", "D28:D30")
 if (!weekdays(date_today) %in% c("Monday", "Wednesday", "Friday")) {
@@ -186,6 +195,15 @@ copy_cells("vaccine_additional_doses_timeseries_prov", "E6", "C6")
 
 # Northwest Territories
 copy_cells("testing_timeseries_prov", "E9", "C9")
+
+# Nunavut
+copy_cells("cases_timeseries_hr", "F38", "D38")
+copy_cells("mortality_timeseries_hr", "F38", "D38")
+copy_cells("recovered_timeseries_prov", "E8", "C8")
+copy_cells("testing_timeseries_prov", "E8", "C8")
+copy_cells("vaccine_administration_timeseries_prov", "E8", "C8")
+copy_cells("vaccine_completion_timeseries_prov", "E8", "C8")
+copy_cells("vaccine_additional_doses_timeseries_prov", "E8", "C8")
 
 # Saskatchewan #
 
