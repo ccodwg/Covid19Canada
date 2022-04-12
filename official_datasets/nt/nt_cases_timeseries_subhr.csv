@@ -1,4 +1,4 @@
-"name","province","sub_region_1","sub_region_2","date","value","value_daily"
+"name","region","sub_region_1","sub_region_2","date","value","value_daily"
 "cases_cumulative_nonresidents","NT","Northwest Territories","Beaufort Delta","2021-06-24","1",NA
 "cases_cumulative_residents","NT","Northwest Territories","Beaufort Delta","2021-06-24","4",NA
 "cases_cumulative_nonresidents","NT","Northwest Territories","Dehcho","2021-06-24","0",NA
@@ -4073,3 +4073,17 @@
 "cases_cumulative_residents","NT","Northwest Territories","Tłı̨chǫ","2022-04-10","1200","0"
 "cases_cumulative_nonresidents","NT","Northwest Territories","Yellowknife","2022-04-10","439","0"
 "cases_cumulative_residents","NT","Northwest Territories","Yellowknife","2022-04-10","4893","0"
+"cases_cumulative_nonresidents","NT","Northwest Territories","Beaufort Delta","2022-04-11","26","0"
+"cases_cumulative_residents","NT","Northwest Territories","Beaufort Delta","2022-04-11","2166","3"
+"cases_cumulative_nonresidents","NT","Northwest Territories","Dehcho","2022-04-11","13","0"
+"cases_cumulative_residents","NT","Northwest Territories","Dehcho","2022-04-11","720","2"
+"cases_cumulative_nonresidents","NT","Northwest Territories","Fort Smith","2022-04-11","23","0"
+"cases_cumulative_residents","NT","Northwest Territories","Fort Smith","2022-04-11","725","2"
+"cases_cumulative_nonresidents","NT","Northwest Territories","Hay River","2022-04-11","17","0"
+"cases_cumulative_residents","NT","Northwest Territories","Hay River","2022-04-11","703","32"
+"cases_cumulative_nonresidents","NT","Northwest Territories","Sahtu","2022-04-11","26","0"
+"cases_cumulative_residents","NT","Northwest Territories","Sahtu","2022-04-11","626","4"
+"cases_cumulative_nonresidents","NT","Northwest Territories","Tłı̨chǫ","2022-04-11","4","0"
+"cases_cumulative_residents","NT","Northwest Territories","Tłı̨chǫ","2022-04-11","1212","12"
+"cases_cumulative_nonresidents","NT","Northwest Territories","Yellowknife","2022-04-11","437","-2"
+"cases_cumulative_residents","NT","Northwest Territories","Yellowknife","2022-04-11","4970","77"
