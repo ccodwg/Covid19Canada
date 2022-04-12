@@ -42,19 +42,3 @@ tryCatch(
   update_nt_subhr(date_today),
   error = function(e) {print(e); cat("Error: update_nt_subhr()", fill = TRUE)}
 )
-
-# official Saskatchewan dataset: new health region boundaries
-tryCatch(
-  convert_official_sk_new_hr(),
-  error = function(e) {print(e); cat("Error: convert_official_sk_new_hr()", fill = TRUE)}
-)
-
-# combined dataset: CCODWG dataset & official Saskatchewan dataset
-tryCatch(
-  combine_ccodwg_official_sk_new_hr(stat = 'cases', loc = 'hr'),
-  error = function(e) {print(e); cat("Error: combine_ccodwg_official_sk_new_hr(stat = 'cases', loc = 'hr')", fill = TRUE)}
-)
-tryCatch(
-  combine_ccodwg_official_sk_new_hr(stat = 'mortality', loc = 'hr'),
-  error = function(e) {print(e); cat("Error: combine_ccodwg_official_sk_new_hr(stat = 'mortality', loc = 'hr')", fill = TRUE)}
-)
