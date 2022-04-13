@@ -39,7 +39,6 @@ system2(
            "official_datasets/",
            "timeseries_canada/",
            "timeseries_hr/",
-           "timeseries_hr_sk_new/",
            "timeseries_prov",
            "data_notes.txt",
            "update_time.txt"
