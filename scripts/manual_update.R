@@ -173,9 +173,13 @@ if (weekdays(date_today) != "Thursday") {
 }
 
 # New Brunswick
-copy_cells("cases_timeseries_hr", "F20:F27", "D20:D27")
-copy_cells("mortality_timeseries_hr", "F20:F27", "D20:D27")
-copy_cells("recovered_timeseries_prov", "E5", "C5")
+copy_cells("cases_timeseries_hr", "F20", "D20")
+copy_cells("mortality_timeseries_hr", "F20", "D20")
+if (!weekdays(date_today) == "Tuesday") {
+  copy_cells("cases_timeseries_hr", "F21:F27", "D21:D27")
+  copy_cells("mortality_timeseries_hr", "F21:F27", "D21:D27")
+  copy_cells("recovered_timeseries_prov", "E5", "C5")
+}
 copy_cells("testing_timeseries_prov", "E5", "C5")
 copy_cells("vaccine_administration_timeseries_prov", "E5", "C5")
 copy_cells("vaccine_completion_timeseries_prov", "E5", "C5")
