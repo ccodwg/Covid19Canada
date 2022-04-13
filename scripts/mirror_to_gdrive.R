@@ -19,7 +19,7 @@ library(dplyr)
 
 # define folders
 folders <- c("official_datasets", "other", "timeseries_canada",
-             "timeseries_hr", "timeseries_hr_sk_new", "timeseries_prov")
+             "timeseries_hr", "timeseries_prov")
 
 # list relevant files
 files <- list.files(path = getwd(), pattern = "*.csv|*.txt|*.md|*.MD", full.names = TRUE, recursive = TRUE)
@@ -32,7 +32,6 @@ folder_ids <- c(
   "1nH3Tww7mKWfaYnJjWQlg4Uv2qaZFuwpD",
   "1WT-NT36yZAAjBqv-j9XEUJsvcE6Obojx",
   "12A5jyQ6ELtbc0qFSgxSsMpKebca4mahg",
-  "17C8nL6nT6qJ8GZx4xo3CBEfxERzkdMui",
   "1vkpKlRUMRuMGMlBkubodteTZUdmLp0RU"
 )
 
