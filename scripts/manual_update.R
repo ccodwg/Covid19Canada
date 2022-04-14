@@ -198,6 +198,14 @@ copy_cells("vaccine_completion_timeseries_prov", "E6", "C6")
 copy_cells("vaccine_additional_doses_timeseries_prov", "E6", "C6")
 
 # Northwest Territories
+if (weekdays(date_today) != "Monday") {
+  copy_cells("cases_timeseries_hr", "F39", "D39")
+  copy_cells("mortality_timeseries_hr", "F39", "D39")
+  copy_cells("recovered_timeseries_prov", "E9", "C9")
+  copy_cells("vaccine_administration_timeseries_prov", "E9", "C9")
+  copy_cells("vaccine_completion_timeseries_prov", "E9", "C9")
+  copy_cells("vaccine_additional_doses_timeseries_prov", "E9", "C9")
+}
 copy_cells("testing_timeseries_prov", "E9", "C9")
 
 # Nunavut
