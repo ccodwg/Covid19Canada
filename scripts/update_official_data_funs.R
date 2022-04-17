@@ -109,7 +109,9 @@ convert_phac_testing_prov <- function() {
     ds = ds
   ) %>%
     dplyr::select(-.data$name) %>%
-    dplyr::rename(c("n_tests_completed" = "value")) %>%
+    dplyr::rename(c(
+      "n_tests_completed" = "value"),
+      "province" = "region") %>%
     dplyr::group_by(.data$province) %>%
     dplyr::mutate(n_tests_completed_daily = c(0, diff(.data$n_tests_completed)))
   
