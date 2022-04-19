@@ -55,7 +55,7 @@ copy_cells <- function(read_sheet, read_cells, write_cells, write_sheet = NULL) 
 source_python("scripts/manual_update.py")
 
 # set today's date
-date_today <- as.Date(with_tz(Sys.time(), "America/Toronto"))
+date_today <- lubridate::date(with_tz(Sys.time(), "America/Toronto"))
 
 # Ontario PHUs #
 
