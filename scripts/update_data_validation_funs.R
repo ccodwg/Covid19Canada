@@ -105,8 +105,8 @@ summary_today_overall <- function() {
     
     # fill in summary table
     results[i, "daily"] <- format(daily_today, big.mark = ",", scientific = FALSE)
-    results[i, "comp_avg_7_day"] <- paste0(formatC(comp_to_7day, big.mark = ",", digits = 0, format = "d", flag = "+"), "%")
-    results[i, "avg_7_day"] <- format(daily_7day, digits = 0, big.mark = ",", scientific = FALSE)
+    results[i, "comp_avg_7_day"] <- paste0(formatC(round(comp_to_7day, 0), big.mark = ",", format = "d", flag = "+"), "%")
+    results[i, "avg_7_day"] <- format(round(daily_7day, 0), big.mark = ",", scientific = FALSE)
     results[i, "cumulative"] <- format(cumulative_today, big.mark = ",", scientific = FALSE)
   }
   # print summary table
