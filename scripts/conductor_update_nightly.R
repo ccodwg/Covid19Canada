@@ -18,14 +18,16 @@ if (status == "NO_UPDATE") {
 # authenticate your Google account before running the rest of the script
 library(googledrive) # interface with Google Drive
 library(googlesheets4) # read from Google Sheets
-if (file.exists("/secrets.json")) {
-  # use service account key, if it exists
-  drive_auth(path = "/secrets.json")
-  gs4_auth(path = "/secrets.json")
-} else {
-  # otherwise, prompt for authentication
-  drive_auth()
-  gs4_auth()
+if (!gs4_has_token()) {
+  if (file.exists("/secrets.json")) {
+    # use service account key, if it exists
+    drive_auth(path = "/secrets.json")
+    gs4_auth(path = "/secrets.json")
+  } else {
+    # otherwise, prompt for authentication
+    drive_auth()
+    gs4_auth()
+  }
 }
 
 # load libraries

@@ -11,14 +11,15 @@
 # Authentication: You must authenticate your Google account before running the rest of the script.
 # You may be asked to give "Tidyverse API Packages" read/write access to your Google account.
 
-# authenticate your Google account before running the rest of the script
-library(googlesheets4) # read from Google Sheets
-if (file.exists("/secrets.json")) {
-  # use service account key, if it exists
-  gs4_auth(path = "/secrets.json")
-} else {
-  # otherwise, prompt for authentication
-  gs4_auth()
+# authenticate with Google account (skip if already authenticated)
+if (!googlesheets4::gs4_has_token()) {
+  if (file.exists("/secrets.json")) {
+    # use service account key to authenticate non-interactively, if it exists
+    googlesheets4::gs4_auth(path = "/secrets.json")
+  } else {
+    # otherwise, prompt for authentication
+    googlesheets4::gs4_auth()
+  }
 }
 
 # load libraries
