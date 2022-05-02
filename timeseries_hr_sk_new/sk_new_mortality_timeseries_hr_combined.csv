@@ -4673,6 +4673,42 @@
 "Alberta","Edmonton",2022-04-25,0,1629
 "Alberta","North",2022-04-25,0,512
 "Alberta","Not Reported",2022-04-25,0,0
+"Alberta","South",2022-04-26,0,373
+"Alberta","Calgary",2022-04-26,0,1142
+"Alberta","Central",2022-04-26,0,534
+"Alberta","Edmonton",2022-04-26,0,1629
+"Alberta","North",2022-04-26,0,512
+"Alberta","Not Reported",2022-04-26,0,0
+"Alberta","South",2022-04-27,7,380
+"Alberta","Calgary",2022-04-27,16,1158
+"Alberta","Central",2022-04-27,9,543
+"Alberta","Edmonton",2022-04-27,26,1655
+"Alberta","North",2022-04-27,4,516
+"Alberta","Not Reported",2022-04-27,0,0
+"Alberta","South",2022-04-28,0,380
+"Alberta","Calgary",2022-04-28,0,1158
+"Alberta","Central",2022-04-28,0,543
+"Alberta","Edmonton",2022-04-28,0,1655
+"Alberta","North",2022-04-28,0,516
+"Alberta","Not Reported",2022-04-28,0,0
+"Alberta","South",2022-04-29,0,380
+"Alberta","Calgary",2022-04-29,0,1158
+"Alberta","Central",2022-04-29,0,543
+"Alberta","Edmonton",2022-04-29,0,1655
+"Alberta","North",2022-04-29,0,516
+"Alberta","Not Reported",2022-04-29,0,0
+"Alberta","South",2022-04-30,0,380
+"Alberta","Calgary",2022-04-30,0,1158
+"Alberta","Central",2022-04-30,0,543
+"Alberta","Edmonton",2022-04-30,0,1655
+"Alberta","North",2022-04-30,0,516
+"Alberta","Not Reported",2022-04-30,0,0
+"Alberta","South",2022-05-01,0,380
+"Alberta","Calgary",2022-05-01,0,1158
+"Alberta","Central",2022-05-01,0,543
+"Alberta","Edmonton",2022-05-01,0,1655
+"Alberta","North",2022-05-01,0,516
+"Alberta","Not Reported",2022-05-01,0,0
 "BC","Fraser",2020-03-08,0,0
 "BC","Interior",2020-03-08,0,0
 "BC","Island",2020-03-08,0,0
@@ -8568,6 +8604,36 @@
 "BC","Island",2022-04-25,0,260
 "BC","Northern",2022-04-25,0,334
 "BC","Vancouver Coastal",2022-04-25,0,731
+"BC","Fraser",2022-04-26,0,1364
+"BC","Interior",2022-04-26,0,388
+"BC","Island",2022-04-26,0,260
+"BC","Northern",2022-04-26,0,334
+"BC","Vancouver Coastal",2022-04-26,0,731
+"BC","Fraser",2022-04-27,0,1364
+"BC","Interior",2022-04-27,0,388
+"BC","Island",2022-04-27,0,260
+"BC","Northern",2022-04-27,0,334
+"BC","Vancouver Coastal",2022-04-27,0,731
+"BC","Fraser",2022-04-28,19,1383
+"BC","Interior",2022-04-28,17,405
+"BC","Island",2022-04-28,19,279
+"BC","Northern",2022-04-28,1,335
+"BC","Vancouver Coastal",2022-04-28,14,745
+"BC","Fraser",2022-04-29,0,1383
+"BC","Interior",2022-04-29,0,405
+"BC","Island",2022-04-29,0,279
+"BC","Northern",2022-04-29,0,335
+"BC","Vancouver Coastal",2022-04-29,0,745
+"BC","Fraser",2022-04-30,0,1383
+"BC","Interior",2022-04-30,0,405
+"BC","Island",2022-04-30,0,279
+"BC","Northern",2022-04-30,0,335
+"BC","Vancouver Coastal",2022-04-30,0,745
+"BC","Fraser",2022-05-01,0,1383
+"BC","Interior",2022-05-01,0,405
+"BC","Island",2022-05-01,0,279
+"BC","Northern",2022-05-01,0,335
+"BC","Vancouver Coastal",2022-05-01,0,745
 "Manitoba","Winnipeg",2020-03-14,0,0
 "Manitoba","Prairie Mountain",2020-03-14,0,0
 "Manitoba","Interlake-Eastern",2020-03-14,0,0
@@ -20833,6 +20899,30 @@
 "NL","Central",2022-04-25,0,53
 "NL","Western",2022-04-25,0,23
 "NL","Labrador-Grenfell",2022-04-25,0,2
+"NL","Eastern",2022-04-26,0,79
+"NL","Central",2022-04-26,0,53
+"NL","Western",2022-04-26,0,23
+"NL","Labrador-Grenfell",2022-04-26,0,2
+"NL","Eastern",2022-04-27,3,82
+"NL","Central",2022-04-27,1,54
+"NL","Western",2022-04-27,1,24
+"NL","Labrador-Grenfell",2022-04-27,0,2
+"NL","Eastern",2022-04-28,0,82
+"NL","Central",2022-04-28,0,54
+"NL","Western",2022-04-28,0,24
+"NL","Labrador-Grenfell",2022-04-28,0,2
+"NL","Eastern",2022-04-29,1,83
+"NL","Central",2022-04-29,0,54
+"NL","Western",2022-04-29,1,25
+"NL","Labrador-Grenfell",2022-04-29,0,2
+"NL","Eastern",2022-04-30,0,83
+"NL","Central",2022-04-30,0,54
+"NL","Western",2022-04-30,0,25
+"NL","Labrador-Grenfell",2022-04-30,0,2
+"NL","Eastern",2022-05-01,0,83
+"NL","Central",2022-05-01,0,54
+"NL","Western",2022-05-01,0,25
+"NL","Labrador-Grenfell",2022-05-01,0,2
 "Nova Scotia","Zone 1 - Western",2020-03-08,0,0
 "Nova Scotia","Zone 2 - Northern",2020-03-08,0,0
 "Nova Scotia","Zone 3 - Eastern",2020-03-08,0,0
@@ -25546,6 +25636,7 @@
 "NWT","NWT",2022-04-25,0,22
 "NWT","NWT",2022-04-26,0,22
 "NWT","NWT",2022-04-27,0,22
+"NWT","NWT",2022-04-28,0,22
 "Nunavut","Nunavut",2020-01-31,0,0
 "Nunavut","Nunavut",2020-02-01,0,0
 "Nunavut","Nunavut",2020-02-02,0,0
@@ -26364,6 +26455,7 @@
 "Nunavut","Nunavut",2022-04-25,0,7
 "Nunavut","Nunavut",2022-04-26,0,7
 "Nunavut","Nunavut",2022-04-27,0,7
+"Nunavut","Nunavut",2022-04-28,0,7
 "Ontario","Algoma",2020-03-08,0,0
 "Ontario","Brant",2020-03-08,0,0
 "Ontario","Durham",2020-03-08,0,0
@@ -52952,6 +53044,108 @@
 "Ontario","York",2022-04-28,1,1014
 "Ontario","Southwestern",2022-04-28,0,161
 "Ontario","Toronto",2022-04-28,3,4163
+"Ontario","Algoma",2022-04-29,1,51
+"Ontario","Brant",2022-04-29,0,78
+"Ontario","Durham",2022-04-29,0,473
+"Ontario","Grey Bruce",2022-04-29,0,59
+"Ontario","Haldimand-Norfolk",2022-04-29,0,78
+"Ontario","Haliburton Kawartha Pineridge",2022-04-29,0,103
+"Ontario","Halton",2022-04-29,2,310
+"Ontario","Hamilton",2022-04-29,1,541
+"Ontario","Hastings Prince Edward",2022-04-29,0,53
+"Ontario","Huron Perth",2022-04-29,0,106
+"Ontario","Chatham-Kent",2022-04-29,0,81
+"Ontario","Kingston Frontenac Lennox & Addington",2022-04-29,0,49
+"Ontario","Lambton",2022-04-29,3,141
+"Ontario","Leeds Grenville and Lanark",2022-04-29,0,96
+"Ontario","Middlesex-London",2022-04-29,1,374
+"Ontario","Niagara",2022-04-29,2,530
+"Ontario","North Bay Parry Sound",2022-04-29,0,33
+"Ontario","Northwestern",2022-04-29,0,19
+"Ontario","Ottawa",2022-04-29,0,777
+"Ontario","Peel",2022-04-29,0,1304
+"Ontario","Peterborough",2022-04-29,0,70
+"Ontario","Porcupine",2022-04-29,0,54
+"Ontario","Renfrew",2022-04-29,1,42
+"Ontario","Eastern",2022-04-29,0,213
+"Ontario","Simcoe Muskoka",2022-04-29,1,416
+"Ontario","Sudbury",2022-04-29,0,135
+"Ontario","Thunder Bay",2022-04-29,1,88
+"Ontario","Timiskaming",2022-04-29,1,17
+"Ontario","Waterloo",2022-04-29,2,411
+"Ontario","Wellington Dufferin Guelph",2022-04-29,0,160
+"Ontario","Windsor-Essex",2022-04-29,2,610
+"Ontario","York",2022-04-29,0,1014
+"Ontario","Southwestern",2022-04-29,0,161
+"Ontario","Toronto",2022-04-29,2,4165
+"Ontario","Algoma",2022-04-30,0,51
+"Ontario","Brant",2022-04-30,0,78
+"Ontario","Durham",2022-04-30,0,473
+"Ontario","Grey Bruce",2022-04-30,0,59
+"Ontario","Haldimand-Norfolk",2022-04-30,1,79
+"Ontario","Haliburton Kawartha Pineridge",2022-04-30,2,105
+"Ontario","Halton",2022-04-30,0,310
+"Ontario","Hamilton",2022-04-30,0,541
+"Ontario","Hastings Prince Edward",2022-04-30,1,54
+"Ontario","Huron Perth",2022-04-30,0,106
+"Ontario","Chatham-Kent",2022-04-30,1,82
+"Ontario","Kingston Frontenac Lennox & Addington",2022-04-30,0,49
+"Ontario","Lambton",2022-04-30,0,141
+"Ontario","Leeds Grenville and Lanark",2022-04-30,0,96
+"Ontario","Middlesex-London",2022-04-30,2,376
+"Ontario","Niagara",2022-04-30,0,530
+"Ontario","North Bay Parry Sound",2022-04-30,1,34
+"Ontario","Northwestern",2022-04-30,1,20
+"Ontario","Ottawa",2022-04-30,0,777
+"Ontario","Peel",2022-04-30,2,1306
+"Ontario","Peterborough",2022-04-30,0,70
+"Ontario","Porcupine",2022-04-30,0,54
+"Ontario","Renfrew",2022-04-30,0,42
+"Ontario","Eastern",2022-04-30,0,213
+"Ontario","Simcoe Muskoka",2022-04-30,1,417
+"Ontario","Sudbury",2022-04-30,0,135
+"Ontario","Thunder Bay",2022-04-30,0,88
+"Ontario","Timiskaming",2022-04-30,0,17
+"Ontario","Waterloo",2022-04-30,-1,410
+"Ontario","Wellington Dufferin Guelph",2022-04-30,0,160
+"Ontario","Windsor-Essex",2022-04-30,0,610
+"Ontario","York",2022-04-30,0,1014
+"Ontario","Southwestern",2022-04-30,0,161
+"Ontario","Toronto",2022-04-30,2,4167
+"Ontario","Algoma",2022-05-01,0,51
+"Ontario","Brant",2022-05-01,0,78
+"Ontario","Durham",2022-05-01,0,473
+"Ontario","Grey Bruce",2022-05-01,1,60
+"Ontario","Haldimand-Norfolk",2022-05-01,3,82
+"Ontario","Haliburton Kawartha Pineridge",2022-05-01,0,105
+"Ontario","Halton",2022-05-01,0,310
+"Ontario","Hamilton",2022-05-01,0,541
+"Ontario","Hastings Prince Edward",2022-05-01,0,54
+"Ontario","Huron Perth",2022-05-01,0,106
+"Ontario","Chatham-Kent",2022-05-01,0,82
+"Ontario","Kingston Frontenac Lennox & Addington",2022-05-01,1,50
+"Ontario","Lambton",2022-05-01,0,141
+"Ontario","Leeds Grenville and Lanark",2022-05-01,0,96
+"Ontario","Middlesex-London",2022-05-01,1,377
+"Ontario","Niagara",2022-05-01,1,531
+"Ontario","North Bay Parry Sound",2022-05-01,0,34
+"Ontario","Northwestern",2022-05-01,0,20
+"Ontario","Ottawa",2022-05-01,1,778
+"Ontario","Peel",2022-05-01,1,1307
+"Ontario","Peterborough",2022-05-01,1,71
+"Ontario","Porcupine",2022-05-01,0,54
+"Ontario","Renfrew",2022-05-01,1,43
+"Ontario","Eastern",2022-05-01,0,213
+"Ontario","Simcoe Muskoka",2022-05-01,0,417
+"Ontario","Sudbury",2022-05-01,1,136
+"Ontario","Thunder Bay",2022-05-01,1,89
+"Ontario","Timiskaming",2022-05-01,0,17
+"Ontario","Waterloo",2022-05-01,0,410
+"Ontario","Wellington Dufferin Guelph",2022-05-01,0,160
+"Ontario","Windsor-Essex",2022-05-01,1,611
+"Ontario","York",2022-05-01,2,1016
+"Ontario","Southwestern",2022-05-01,0,161
+"Ontario","Toronto",2022-05-01,1,4168
 "PEI","Prince Edward Island",2020-01-31,0,0
 "PEI","Prince Edward Island",2020-02-01,0,0
 "PEI","Prince Edward Island",2020-02-02,0,0
@@ -53770,6 +53964,7 @@
 "PEI","Prince Edward Island",2022-04-25,0,23
 "PEI","Prince Edward Island",2022-04-26,2,25
 "PEI","Prince Edward Island",2022-04-27,0,25
+"PEI","Prince Edward Island",2022-04-28,0,25
 "Quebec","Bas-Saint-Laurent",2020-01-24,0,0
 "Quebec","Saguenay",2020-01-24,0,0
 "Quebec","Capitale-Nationale",2020-01-24,0,0
@@ -68650,7 +68845,7 @@
 "Quebec","Bas-Saint-Laurent",2022-03-17,0,110
 "Quebec","Saguenay",2022-03-17,0,367
 "Quebec","Capitale-Nationale",2022-03-17,1,1444
-"Quebec","Mauricie",2022-03-17,3,898
+"Quebec","Mauricie",2022-03-17,4,899
 "Quebec","Estrie",2022-03-17,1,542
 "Quebec","Montréal",2022-03-17,0,5331
 "Quebec","Outaouais",2022-03-17,0,281
@@ -68669,7 +68864,7 @@
 "Quebec","Bas-Saint-Laurent",2022-03-18,0,110
 "Quebec","Saguenay",2022-03-18,0,367
 "Quebec","Capitale-Nationale",2022-03-18,3,1447
-"Quebec","Mauricie",2022-03-18,1,899
+"Quebec","Mauricie",2022-03-18,1,900
 "Quebec","Estrie",2022-03-18,0,542
 "Quebec","Montréal",2022-03-18,1,5332
 "Quebec","Outaouais",2022-03-18,1,282
@@ -68688,7 +68883,7 @@
 "Quebec","Bas-Saint-Laurent",2022-03-19,0,110
 "Quebec","Saguenay",2022-03-19,0,367
 "Quebec","Capitale-Nationale",2022-03-19,3,1450
-"Quebec","Mauricie",2022-03-19,5,904
+"Quebec","Mauricie",2022-03-19,5,905
 "Quebec","Estrie",2022-03-19,0,542
 "Quebec","Montréal",2022-03-19,1,5333
 "Quebec","Outaouais",2022-03-19,1,283
@@ -68707,7 +68902,7 @@
 "Quebec","Bas-Saint-Laurent",2022-03-20,0,110
 "Quebec","Saguenay",2022-03-20,1,368
 "Quebec","Capitale-Nationale",2022-03-20,0,1450
-"Quebec","Mauricie",2022-03-20,1,905
+"Quebec","Mauricie",2022-03-20,1,906
 "Quebec","Estrie",2022-03-20,0,542
 "Quebec","Montréal",2022-03-20,0,5333
 "Quebec","Outaouais",2022-03-20,0,283
@@ -68726,7 +68921,7 @@
 "Quebec","Bas-Saint-Laurent",2022-03-21,1,111
 "Quebec","Saguenay",2022-03-21,1,369
 "Quebec","Capitale-Nationale",2022-03-21,1,1451
-"Quebec","Mauricie",2022-03-21,2,907
+"Quebec","Mauricie",2022-03-21,2,908
 "Quebec","Estrie",2022-03-21,1,543
 "Quebec","Montréal",2022-03-21,1,5334
 "Quebec","Outaouais",2022-03-21,0,283
@@ -68745,7 +68940,7 @@
 "Quebec","Bas-Saint-Laurent",2022-03-22,0,111
 "Quebec","Saguenay",2022-03-22,0,369
 "Quebec","Capitale-Nationale",2022-03-22,1,1452
-"Quebec","Mauricie",2022-03-22,1,908
+"Quebec","Mauricie",2022-03-22,1,909
 "Quebec","Estrie",2022-03-22,0,543
 "Quebec","Montréal",2022-03-22,0,5334
 "Quebec","Outaouais",2022-03-22,0,283
@@ -68764,7 +68959,7 @@
 "Quebec","Bas-Saint-Laurent",2022-03-23,0,111
 "Quebec","Saguenay",2022-03-23,0,369
 "Quebec","Capitale-Nationale",2022-03-23,1,1453
-"Quebec","Mauricie",2022-03-23,1,909
+"Quebec","Mauricie",2022-03-23,1,910
 "Quebec","Estrie",2022-03-23,1,544
 "Quebec","Montréal",2022-03-23,1,5335
 "Quebec","Outaouais",2022-03-23,0,283
@@ -68783,7 +68978,7 @@
 "Quebec","Bas-Saint-Laurent",2022-03-24,0,111
 "Quebec","Saguenay",2022-03-24,0,369
 "Quebec","Capitale-Nationale",2022-03-24,1,1454
-"Quebec","Mauricie",2022-03-24,1,910
+"Quebec","Mauricie",2022-03-24,1,911
 "Quebec","Estrie",2022-03-24,0,544
 "Quebec","Montréal",2022-03-24,0,5335
 "Quebec","Outaouais",2022-03-24,0,283
@@ -68802,7 +68997,7 @@
 "Quebec","Bas-Saint-Laurent",2022-03-25,2,113
 "Quebec","Saguenay",2022-03-25,1,370
 "Quebec","Capitale-Nationale",2022-03-25,0,1454
-"Quebec","Mauricie",2022-03-25,0,910
+"Quebec","Mauricie",2022-03-25,0,911
 "Quebec","Estrie",2022-03-25,0,544
 "Quebec","Montréal",2022-03-25,0,5335
 "Quebec","Outaouais",2022-03-25,0,283
@@ -68821,7 +69016,7 @@
 "Quebec","Bas-Saint-Laurent",2022-03-26,2,115
 "Quebec","Saguenay",2022-03-26,0,370
 "Quebec","Capitale-Nationale",2022-03-26,4,1458
-"Quebec","Mauricie",2022-03-26,0,910
+"Quebec","Mauricie",2022-03-26,0,911
 "Quebec","Estrie",2022-03-26,0,544
 "Quebec","Montréal",2022-03-26,1,5336
 "Quebec","Outaouais",2022-03-26,0,283
@@ -68840,7 +69035,7 @@
 "Quebec","Bas-Saint-Laurent",2022-03-27,2,117
 "Quebec","Saguenay",2022-03-27,1,371
 "Quebec","Capitale-Nationale",2022-03-27,1,1459
-"Quebec","Mauricie",2022-03-27,1,911
+"Quebec","Mauricie",2022-03-27,1,912
 "Quebec","Estrie",2022-03-27,0,544
 "Quebec","Montréal",2022-03-27,1,5337
 "Quebec","Outaouais",2022-03-27,0,283
@@ -68859,7 +69054,7 @@
 "Quebec","Bas-Saint-Laurent",2022-03-28,1,118
 "Quebec","Saguenay",2022-03-28,0,371
 "Quebec","Capitale-Nationale",2022-03-28,1,1460
-"Quebec","Mauricie",2022-03-28,2,913
+"Quebec","Mauricie",2022-03-28,2,914
 "Quebec","Estrie",2022-03-28,0,544
 "Quebec","Montréal",2022-03-28,0,5337
 "Quebec","Outaouais",2022-03-28,2,285
@@ -68878,7 +69073,7 @@
 "Quebec","Bas-Saint-Laurent",2022-03-29,0,118
 "Quebec","Saguenay",2022-03-29,1,372
 "Quebec","Capitale-Nationale",2022-03-29,2,1462
-"Quebec","Mauricie",2022-03-29,0,913
+"Quebec","Mauricie",2022-03-29,0,914
 "Quebec","Estrie",2022-03-29,0,544
 "Quebec","Montréal",2022-03-29,1,5338
 "Quebec","Outaouais",2022-03-29,0,285
@@ -68897,7 +69092,7 @@
 "Quebec","Bas-Saint-Laurent",2022-03-30,0,118
 "Quebec","Saguenay",2022-03-30,1,373
 "Quebec","Capitale-Nationale",2022-03-30,1,1463
-"Quebec","Mauricie",2022-03-30,1,914
+"Quebec","Mauricie",2022-03-30,1,915
 "Quebec","Estrie",2022-03-30,0,544
 "Quebec","Montréal",2022-03-30,2,5340
 "Quebec","Outaouais",2022-03-30,0,285
@@ -68916,7 +69111,7 @@
 "Quebec","Bas-Saint-Laurent",2022-03-31,0,118
 "Quebec","Saguenay",2022-03-31,1,374
 "Quebec","Capitale-Nationale",2022-03-31,1,1464
-"Quebec","Mauricie",2022-03-31,3,917
+"Quebec","Mauricie",2022-03-31,3,918
 "Quebec","Estrie",2022-03-31,0,544
 "Quebec","Montréal",2022-03-31,1,5341
 "Quebec","Outaouais",2022-03-31,0,285
@@ -68935,7 +69130,7 @@
 "Quebec","Bas-Saint-Laurent",2022-04-01,2,120
 "Quebec","Saguenay",2022-04-01,1,375
 "Quebec","Capitale-Nationale",2022-04-01,1,1465
-"Quebec","Mauricie",2022-04-01,0,917
+"Quebec","Mauricie",2022-04-01,0,918
 "Quebec","Estrie",2022-04-01,0,544
 "Quebec","Montréal",2022-04-01,2,5343
 "Quebec","Outaouais",2022-04-01,0,285
@@ -68954,7 +69149,7 @@
 "Quebec","Bas-Saint-Laurent",2022-04-02,1,121
 "Quebec","Saguenay",2022-04-02,0,375
 "Quebec","Capitale-Nationale",2022-04-02,0,1465
-"Quebec","Mauricie",2022-04-02,1,918
+"Quebec","Mauricie",2022-04-02,1,919
 "Quebec","Estrie",2022-04-02,1,545
 "Quebec","Montréal",2022-04-02,1,5344
 "Quebec","Outaouais",2022-04-02,0,285
@@ -68972,8 +69167,8 @@
 "Quebec","Not Reported",2022-04-02,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-03,0,121
 "Quebec","Saguenay",2022-04-03,1,376
-"Quebec","Capitale-Nationale",2022-04-03,2,1467
-"Quebec","Mauricie",2022-04-03,2,920
+"Quebec","Capitale-Nationale",2022-04-03,3,1468
+"Quebec","Mauricie",2022-04-03,2,921
 "Quebec","Estrie",2022-04-03,0,545
 "Quebec","Montréal",2022-04-03,1,5345
 "Quebec","Outaouais",2022-04-03,0,285
@@ -68991,8 +69186,8 @@
 "Quebec","Not Reported",2022-04-03,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-04,2,123
 "Quebec","Saguenay",2022-04-04,3,379
-"Quebec","Capitale-Nationale",2022-04-04,2,1469
-"Quebec","Mauricie",2022-04-04,3,923
+"Quebec","Capitale-Nationale",2022-04-04,2,1470
+"Quebec","Mauricie",2022-04-04,3,924
 "Quebec","Estrie",2022-04-04,0,545
 "Quebec","Montréal",2022-04-04,2,5347
 "Quebec","Outaouais",2022-04-04,0,285
@@ -69010,8 +69205,8 @@
 "Quebec","Not Reported",2022-04-04,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-05,1,124
 "Quebec","Saguenay",2022-04-05,2,381
-"Quebec","Capitale-Nationale",2022-04-05,4,1473
-"Quebec","Mauricie",2022-04-05,1,924
+"Quebec","Capitale-Nationale",2022-04-05,4,1474
+"Quebec","Mauricie",2022-04-05,1,925
 "Quebec","Estrie",2022-04-05,0,545
 "Quebec","Montréal",2022-04-05,2,5349
 "Quebec","Outaouais",2022-04-05,1,286
@@ -69029,8 +69224,8 @@
 "Quebec","Not Reported",2022-04-05,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-06,1,125
 "Quebec","Saguenay",2022-04-06,0,381
-"Quebec","Capitale-Nationale",2022-04-06,1,1474
-"Quebec","Mauricie",2022-04-06,0,924
+"Quebec","Capitale-Nationale",2022-04-06,2,1476
+"Quebec","Mauricie",2022-04-06,0,925
 "Quebec","Estrie",2022-04-06,1,546
 "Quebec","Montréal",2022-04-06,3,5352
 "Quebec","Outaouais",2022-04-06,0,286
@@ -69041,15 +69236,15 @@
 "Quebec","Chaudière-Appalaches",2022-04-06,2,583
 "Quebec","Laval",2022-04-06,0,1072
 "Quebec","Lanaudière",2022-04-06,2,727
-"Quebec","Laurentides",2022-04-06,0,719
+"Quebec","Laurentides",2022-04-06,1,720
 "Quebec","Montérégie",2022-04-06,2,2092
 "Quebec","Nunavik",2022-04-06,0,10
 "Quebec","Terres-Cries-de-la-Baie-James",2022-04-06,0,12
 "Quebec","Not Reported",2022-04-06,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-07,1,126
 "Quebec","Saguenay",2022-04-07,2,383
-"Quebec","Capitale-Nationale",2022-04-07,3,1477
-"Quebec","Mauricie",2022-04-07,2,926
+"Quebec","Capitale-Nationale",2022-04-07,4,1480
+"Quebec","Mauricie",2022-04-07,2,927
 "Quebec","Estrie",2022-04-07,2,548
 "Quebec","Montréal",2022-04-07,1,5353
 "Quebec","Outaouais",2022-04-07,0,286
@@ -69060,15 +69255,15 @@
 "Quebec","Chaudière-Appalaches",2022-04-07,2,585
 "Quebec","Laval",2022-04-07,0,1072
 "Quebec","Lanaudière",2022-04-07,0,727
-"Quebec","Laurentides",2022-04-07,0,719
+"Quebec","Laurentides",2022-04-07,0,720
 "Quebec","Montérégie",2022-04-07,2,2094
 "Quebec","Nunavik",2022-04-07,0,10
 "Quebec","Terres-Cries-de-la-Baie-James",2022-04-07,0,12
 "Quebec","Not Reported",2022-04-07,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-08,1,127
 "Quebec","Saguenay",2022-04-08,0,383
-"Quebec","Capitale-Nationale",2022-04-08,0,1477
-"Quebec","Mauricie",2022-04-08,1,927
+"Quebec","Capitale-Nationale",2022-04-08,0,1480
+"Quebec","Mauricie",2022-04-08,1,928
 "Quebec","Estrie",2022-04-08,1,549
 "Quebec","Montréal",2022-04-08,1,5354
 "Quebec","Outaouais",2022-04-08,0,286
@@ -69079,15 +69274,15 @@
 "Quebec","Chaudière-Appalaches",2022-04-08,0,585
 "Quebec","Laval",2022-04-08,0,1072
 "Quebec","Lanaudière",2022-04-08,2,729
-"Quebec","Laurentides",2022-04-08,0,719
+"Quebec","Laurentides",2022-04-08,0,720
 "Quebec","Montérégie",2022-04-08,2,2096
 "Quebec","Nunavik",2022-04-08,0,10
 "Quebec","Terres-Cries-de-la-Baie-James",2022-04-08,0,12
 "Quebec","Not Reported",2022-04-08,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-09,2,129
 "Quebec","Saguenay",2022-04-09,1,384
-"Quebec","Capitale-Nationale",2022-04-09,3,1480
-"Quebec","Mauricie",2022-04-09,3,930
+"Quebec","Capitale-Nationale",2022-04-09,3,1483
+"Quebec","Mauricie",2022-04-09,3,931
 "Quebec","Estrie",2022-04-09,2,551
 "Quebec","Montréal",2022-04-09,5,5359
 "Quebec","Outaouais",2022-04-09,1,287
@@ -69098,15 +69293,15 @@
 "Quebec","Chaudière-Appalaches",2022-04-09,0,585
 "Quebec","Laval",2022-04-09,0,1072
 "Quebec","Lanaudière",2022-04-09,0,729
-"Quebec","Laurentides",2022-04-09,2,721
+"Quebec","Laurentides",2022-04-09,2,722
 "Quebec","Montérégie",2022-04-09,4,2100
 "Quebec","Nunavik",2022-04-09,0,10
 "Quebec","Terres-Cries-de-la-Baie-James",2022-04-09,0,12
 "Quebec","Not Reported",2022-04-09,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-10,0,129
 "Quebec","Saguenay",2022-04-10,0,384
-"Quebec","Capitale-Nationale",2022-04-10,0,1480
-"Quebec","Mauricie",2022-04-10,1,931
+"Quebec","Capitale-Nationale",2022-04-10,0,1483
+"Quebec","Mauricie",2022-04-10,1,932
 "Quebec","Estrie",2022-04-10,1,552
 "Quebec","Montréal",2022-04-10,3,5362
 "Quebec","Outaouais",2022-04-10,1,288
@@ -69117,15 +69312,15 @@
 "Quebec","Chaudière-Appalaches",2022-04-10,2,587
 "Quebec","Laval",2022-04-10,1,1073
 "Quebec","Lanaudière",2022-04-10,2,731
-"Quebec","Laurentides",2022-04-10,0,721
+"Quebec","Laurentides",2022-04-10,0,722
 "Quebec","Montérégie",2022-04-10,4,2104
 "Quebec","Nunavik",2022-04-10,0,10
 "Quebec","Terres-Cries-de-la-Baie-James",2022-04-10,0,12
 "Quebec","Not Reported",2022-04-10,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-11,1,130
 "Quebec","Saguenay",2022-04-11,3,387
-"Quebec","Capitale-Nationale",2022-04-11,0,1480
-"Quebec","Mauricie",2022-04-11,1,932
+"Quebec","Capitale-Nationale",2022-04-11,0,1483
+"Quebec","Mauricie",2022-04-11,1,933
 "Quebec","Estrie",2022-04-11,2,554
 "Quebec","Montréal",2022-04-11,1,5363
 "Quebec","Outaouais",2022-04-11,0,288
@@ -69136,15 +69331,15 @@
 "Quebec","Chaudière-Appalaches",2022-04-11,1,588
 "Quebec","Laval",2022-04-11,2,1075
 "Quebec","Lanaudière",2022-04-11,0,731
-"Quebec","Laurentides",2022-04-11,0,721
+"Quebec","Laurentides",2022-04-11,0,722
 "Quebec","Montérégie",2022-04-11,0,2104
 "Quebec","Nunavik",2022-04-11,0,10
 "Quebec","Terres-Cries-de-la-Baie-James",2022-04-11,0,12
 "Quebec","Not Reported",2022-04-11,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-12,3,133
 "Quebec","Saguenay",2022-04-12,0,387
-"Quebec","Capitale-Nationale",2022-04-12,0,1480
-"Quebec","Mauricie",2022-04-12,1,933
+"Quebec","Capitale-Nationale",2022-04-12,0,1483
+"Quebec","Mauricie",2022-04-12,1,934
 "Quebec","Estrie",2022-04-12,2,556
 "Quebec","Montréal",2022-04-12,2,5365
 "Quebec","Outaouais",2022-04-12,1,289
@@ -69155,15 +69350,15 @@
 "Quebec","Chaudière-Appalaches",2022-04-12,1,589
 "Quebec","Laval",2022-04-12,0,1075
 "Quebec","Lanaudière",2022-04-12,0,731
-"Quebec","Laurentides",2022-04-12,0,721
+"Quebec","Laurentides",2022-04-12,0,722
 "Quebec","Montérégie",2022-04-12,4,2108
 "Quebec","Nunavik",2022-04-12,0,10
 "Quebec","Terres-Cries-de-la-Baie-James",2022-04-12,0,12
 "Quebec","Not Reported",2022-04-12,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-13,2,135
 "Quebec","Saguenay",2022-04-13,4,391
-"Quebec","Capitale-Nationale",2022-04-13,2,1482
-"Quebec","Mauricie",2022-04-13,3,936
+"Quebec","Capitale-Nationale",2022-04-13,2,1485
+"Quebec","Mauricie",2022-04-13,3,937
 "Quebec","Estrie",2022-04-13,1,557
 "Quebec","Montréal",2022-04-13,0,5365
 "Quebec","Outaouais",2022-04-13,1,290
@@ -69174,15 +69369,15 @@
 "Quebec","Chaudière-Appalaches",2022-04-13,1,590
 "Quebec","Laval",2022-04-13,1,1076
 "Quebec","Lanaudière",2022-04-13,2,733
-"Quebec","Laurentides",2022-04-13,1,722
+"Quebec","Laurentides",2022-04-13,1,723
 "Quebec","Montérégie",2022-04-13,2,2110
 "Quebec","Nunavik",2022-04-13,0,10
 "Quebec","Terres-Cries-de-la-Baie-James",2022-04-13,0,12
 "Quebec","Not Reported",2022-04-13,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-14,2,137
 "Quebec","Saguenay",2022-04-14,2,393
-"Quebec","Capitale-Nationale",2022-04-14,4,1486
-"Quebec","Mauricie",2022-04-14,2,938
+"Quebec","Capitale-Nationale",2022-04-14,4,1489
+"Quebec","Mauricie",2022-04-14,2,939
 "Quebec","Estrie",2022-04-14,0,557
 "Quebec","Montréal",2022-04-14,3,5368
 "Quebec","Outaouais",2022-04-14,0,290
@@ -69193,15 +69388,15 @@
 "Quebec","Chaudière-Appalaches",2022-04-14,0,590
 "Quebec","Laval",2022-04-14,1,1077
 "Quebec","Lanaudière",2022-04-14,1,734
-"Quebec","Laurentides",2022-04-14,0,722
-"Quebec","Montérégie",2022-04-14,4,2114
+"Quebec","Laurentides",2022-04-14,0,723
+"Quebec","Montérégie",2022-04-14,5,2115
 "Quebec","Nunavik",2022-04-14,0,10
 "Quebec","Terres-Cries-de-la-Baie-James",2022-04-14,0,12
 "Quebec","Not Reported",2022-04-14,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-15,3,140
 "Quebec","Saguenay",2022-04-15,0,393
-"Quebec","Capitale-Nationale",2022-04-15,5,1491
-"Quebec","Mauricie",2022-04-15,1,939
+"Quebec","Capitale-Nationale",2022-04-15,5,1494
+"Quebec","Mauricie",2022-04-15,1,940
 "Quebec","Estrie",2022-04-15,1,558
 "Quebec","Montréal",2022-04-15,3,5371
 "Quebec","Outaouais",2022-04-15,0,290
@@ -69212,15 +69407,15 @@
 "Quebec","Chaudière-Appalaches",2022-04-15,2,592
 "Quebec","Laval",2022-04-15,2,1079
 "Quebec","Lanaudière",2022-04-15,0,734
-"Quebec","Laurentides",2022-04-15,0,722
-"Quebec","Montérégie",2022-04-15,3,2117
+"Quebec","Laurentides",2022-04-15,0,723
+"Quebec","Montérégie",2022-04-15,3,2118
 "Quebec","Nunavik",2022-04-15,0,10
 "Quebec","Terres-Cries-de-la-Baie-James",2022-04-15,0,12
 "Quebec","Not Reported",2022-04-15,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-16,4,144
 "Quebec","Saguenay",2022-04-16,3,396
-"Quebec","Capitale-Nationale",2022-04-16,1,1492
-"Quebec","Mauricie",2022-04-16,5,944
+"Quebec","Capitale-Nationale",2022-04-16,1,1495
+"Quebec","Mauricie",2022-04-16,5,945
 "Quebec","Estrie",2022-04-16,0,558
 "Quebec","Montréal",2022-04-16,1,5372
 "Quebec","Outaouais",2022-04-16,0,290
@@ -69231,15 +69426,15 @@
 "Quebec","Chaudière-Appalaches",2022-04-16,1,593
 "Quebec","Laval",2022-04-16,1,1080
 "Quebec","Lanaudière",2022-04-16,0,734
-"Quebec","Laurentides",2022-04-16,3,725
-"Quebec","Montérégie",2022-04-16,4,2121
+"Quebec","Laurentides",2022-04-16,3,726
+"Quebec","Montérégie",2022-04-16,4,2122
 "Quebec","Nunavik",2022-04-16,0,10
 "Quebec","Terres-Cries-de-la-Baie-James",2022-04-16,0,12
 "Quebec","Not Reported",2022-04-16,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-17,5,149
 "Quebec","Saguenay",2022-04-17,3,399
-"Quebec","Capitale-Nationale",2022-04-17,0,1492
-"Quebec","Mauricie",2022-04-17,3,947
+"Quebec","Capitale-Nationale",2022-04-17,0,1495
+"Quebec","Mauricie",2022-04-17,3,948
 "Quebec","Estrie",2022-04-17,2,560
 "Quebec","Montréal",2022-04-17,1,5373
 "Quebec","Outaouais",2022-04-17,0,290
@@ -69250,15 +69445,15 @@
 "Quebec","Chaudière-Appalaches",2022-04-17,1,594
 "Quebec","Laval",2022-04-17,1,1081
 "Quebec","Lanaudière",2022-04-17,1,735
-"Quebec","Laurentides",2022-04-17,0,725
-"Quebec","Montérégie",2022-04-17,2,2123
+"Quebec","Laurentides",2022-04-17,0,726
+"Quebec","Montérégie",2022-04-17,2,2124
 "Quebec","Nunavik",2022-04-17,0,10
 "Quebec","Terres-Cries-de-la-Baie-James",2022-04-17,0,12
 "Quebec","Not Reported",2022-04-17,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-18,0,149
 "Quebec","Saguenay",2022-04-18,3,402
-"Quebec","Capitale-Nationale",2022-04-18,2,1494
-"Quebec","Mauricie",2022-04-18,3,950
+"Quebec","Capitale-Nationale",2022-04-18,2,1497
+"Quebec","Mauricie",2022-04-18,3,951
 "Quebec","Estrie",2022-04-18,1,561
 "Quebec","Montréal",2022-04-18,2,5375
 "Quebec","Outaouais",2022-04-18,0,290
@@ -69269,15 +69464,15 @@
 "Quebec","Chaudière-Appalaches",2022-04-18,6,600
 "Quebec","Laval",2022-04-18,1,1082
 "Quebec","Lanaudière",2022-04-18,1,736
-"Quebec","Laurentides",2022-04-18,1,726
-"Quebec","Montérégie",2022-04-18,1,2124
+"Quebec","Laurentides",2022-04-18,2,728
+"Quebec","Montérégie",2022-04-18,1,2125
 "Quebec","Nunavik",2022-04-18,0,10
 "Quebec","Terres-Cries-de-la-Baie-James",2022-04-18,0,12
 "Quebec","Not Reported",2022-04-18,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-19,1,150
 "Quebec","Saguenay",2022-04-19,1,403
-"Quebec","Capitale-Nationale",2022-04-19,3,1497
-"Quebec","Mauricie",2022-04-19,2,952
+"Quebec","Capitale-Nationale",2022-04-19,3,1500
+"Quebec","Mauricie",2022-04-19,2,953
 "Quebec","Estrie",2022-04-19,4,565
 "Quebec","Montréal",2022-04-19,1,5376
 "Quebec","Outaouais",2022-04-19,0,290
@@ -69288,15 +69483,15 @@
 "Quebec","Chaudière-Appalaches",2022-04-19,1,601
 "Quebec","Laval",2022-04-19,0,1082
 "Quebec","Lanaudière",2022-04-19,1,737
-"Quebec","Laurentides",2022-04-19,0,726
-"Quebec","Montérégie",2022-04-19,3,2127
+"Quebec","Laurentides",2022-04-19,1,729
+"Quebec","Montérégie",2022-04-19,3,2128
 "Quebec","Nunavik",2022-04-19,0,10
 "Quebec","Terres-Cries-de-la-Baie-James",2022-04-19,0,12
 "Quebec","Not Reported",2022-04-19,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-20,2,152
 "Quebec","Saguenay",2022-04-20,2,405
-"Quebec","Capitale-Nationale",2022-04-20,3,1500
-"Quebec","Mauricie",2022-04-20,4,956
+"Quebec","Capitale-Nationale",2022-04-20,3,1503
+"Quebec","Mauricie",2022-04-20,4,957
 "Quebec","Estrie",2022-04-20,0,565
 "Quebec","Montréal",2022-04-20,2,5378
 "Quebec","Outaouais",2022-04-20,0,290
@@ -69307,15 +69502,15 @@
 "Quebec","Chaudière-Appalaches",2022-04-20,1,602
 "Quebec","Laval",2022-04-20,3,1085
 "Quebec","Lanaudière",2022-04-20,0,737
-"Quebec","Laurentides",2022-04-20,0,726
-"Quebec","Montérégie",2022-04-20,0,2127
+"Quebec","Laurentides",2022-04-20,1,730
+"Quebec","Montérégie",2022-04-20,0,2128
 "Quebec","Nunavik",2022-04-20,0,10
 "Quebec","Terres-Cries-de-la-Baie-James",2022-04-20,0,12
 "Quebec","Not Reported",2022-04-20,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-21,2,154
 "Quebec","Saguenay",2022-04-21,5,410
-"Quebec","Capitale-Nationale",2022-04-21,2,1502
-"Quebec","Mauricie",2022-04-21,1,957
+"Quebec","Capitale-Nationale",2022-04-21,2,1505
+"Quebec","Mauricie",2022-04-21,1,958
 "Quebec","Estrie",2022-04-21,4,569
 "Quebec","Montréal",2022-04-21,3,5381
 "Quebec","Outaouais",2022-04-21,1,291
@@ -69326,15 +69521,15 @@
 "Quebec","Chaudière-Appalaches",2022-04-21,1,603
 "Quebec","Laval",2022-04-21,0,1085
 "Quebec","Lanaudière",2022-04-21,0,737
-"Quebec","Laurentides",2022-04-21,2,728
-"Quebec","Montérégie",2022-04-21,3,2130
+"Quebec","Laurentides",2022-04-21,2,732
+"Quebec","Montérégie",2022-04-21,3,2131
 "Quebec","Nunavik",2022-04-21,0,10
 "Quebec","Terres-Cries-de-la-Baie-James",2022-04-21,0,12
 "Quebec","Not Reported",2022-04-21,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-22,0,154
 "Quebec","Saguenay",2022-04-22,0,410
-"Quebec","Capitale-Nationale",2022-04-22,0,1502
-"Quebec","Mauricie",2022-04-22,5,962
+"Quebec","Capitale-Nationale",2022-04-22,0,1505
+"Quebec","Mauricie",2022-04-22,5,963
 "Quebec","Estrie",2022-04-22,7,576
 "Quebec","Montréal",2022-04-22,2,5383
 "Quebec","Outaouais",2022-04-22,0,291
@@ -69345,17 +69540,17 @@
 "Quebec","Chaudière-Appalaches",2022-04-22,0,603
 "Quebec","Laval",2022-04-22,0,1085
 "Quebec","Lanaudière",2022-04-22,1,738
-"Quebec","Laurentides",2022-04-22,0,728
-"Quebec","Montérégie",2022-04-22,1,2131
+"Quebec","Laurentides",2022-04-22,0,732
+"Quebec","Montérégie",2022-04-22,1,2132
 "Quebec","Nunavik",2022-04-22,0,10
 "Quebec","Terres-Cries-de-la-Baie-James",2022-04-22,0,12
 "Quebec","Not Reported",2022-04-22,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-23,0,154
 "Quebec","Saguenay",2022-04-23,0,410
-"Quebec","Capitale-Nationale",2022-04-23,2,1504
-"Quebec","Mauricie",2022-04-23,2,964
+"Quebec","Capitale-Nationale",2022-04-23,2,1507
+"Quebec","Mauricie",2022-04-23,2,965
 "Quebec","Estrie",2022-04-23,0,576
-"Quebec","Montréal",2022-04-23,2,5385
+"Quebec","Montréal",2022-04-23,3,5386
 "Quebec","Outaouais",2022-04-23,0,291
 "Quebec","Abitibi-Témiscamingue",2022-04-23,0,106
 "Quebec","Côte-Nord",2022-04-23,0,35
@@ -69364,17 +69559,17 @@
 "Quebec","Chaudière-Appalaches",2022-04-23,3,606
 "Quebec","Laval",2022-04-23,3,1088
 "Quebec","Lanaudière",2022-04-23,2,740
-"Quebec","Laurentides",2022-04-23,0,728
-"Quebec","Montérégie",2022-04-23,0,2131
+"Quebec","Laurentides",2022-04-23,0,732
+"Quebec","Montérégie",2022-04-23,0,2132
 "Quebec","Nunavik",2022-04-23,0,10
 "Quebec","Terres-Cries-de-la-Baie-James",2022-04-23,0,12
 "Quebec","Not Reported",2022-04-23,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-24,1,155
 "Quebec","Saguenay",2022-04-24,2,412
-"Quebec","Capitale-Nationale",2022-04-24,1,1505
-"Quebec","Mauricie",2022-04-24,2,966
+"Quebec","Capitale-Nationale",2022-04-24,1,1508
+"Quebec","Mauricie",2022-04-24,2,967
 "Quebec","Estrie",2022-04-24,2,578
-"Quebec","Montréal",2022-04-24,4,5389
+"Quebec","Montréal",2022-04-24,4,5390
 "Quebec","Outaouais",2022-04-24,0,291
 "Quebec","Abitibi-Témiscamingue",2022-04-24,0,106
 "Quebec","Côte-Nord",2022-04-24,0,35
@@ -69383,17 +69578,17 @@
 "Quebec","Chaudière-Appalaches",2022-04-24,0,606
 "Quebec","Laval",2022-04-24,3,1091
 "Quebec","Lanaudière",2022-04-24,0,740
-"Quebec","Laurentides",2022-04-24,0,728
-"Quebec","Montérégie",2022-04-24,0,2131
+"Quebec","Laurentides",2022-04-24,0,732
+"Quebec","Montérégie",2022-04-24,0,2132
 "Quebec","Nunavik",2022-04-24,0,10
 "Quebec","Terres-Cries-de-la-Baie-James",2022-04-24,0,12
 "Quebec","Not Reported",2022-04-24,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-25,1,156
 "Quebec","Saguenay",2022-04-25,1,413
-"Quebec","Capitale-Nationale",2022-04-25,2,1507
-"Quebec","Mauricie",2022-04-25,1,967
+"Quebec","Capitale-Nationale",2022-04-25,2,1510
+"Quebec","Mauricie",2022-04-25,1,968
 "Quebec","Estrie",2022-04-25,0,578
-"Quebec","Montréal",2022-04-25,4,5393
+"Quebec","Montréal",2022-04-25,4,5394
 "Quebec","Outaouais",2022-04-25,1,292
 "Quebec","Abitibi-Témiscamingue",2022-04-25,1,107
 "Quebec","Côte-Nord",2022-04-25,0,35
@@ -69402,17 +69597,17 @@
 "Quebec","Chaudière-Appalaches",2022-04-25,0,606
 "Quebec","Laval",2022-04-25,0,1091
 "Quebec","Lanaudière",2022-04-25,0,740
-"Quebec","Laurentides",2022-04-25,1,729
-"Quebec","Montérégie",2022-04-25,0,2131
+"Quebec","Laurentides",2022-04-25,1,733
+"Quebec","Montérégie",2022-04-25,0,2132
 "Quebec","Nunavik",2022-04-25,0,10
 "Quebec","Terres-Cries-de-la-Baie-James",2022-04-25,0,12
 "Quebec","Not Reported",2022-04-25,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-26,1,157
 "Quebec","Saguenay",2022-04-26,2,415
-"Quebec","Capitale-Nationale",2022-04-26,0,1507
-"Quebec","Mauricie",2022-04-26,1,968
+"Quebec","Capitale-Nationale",2022-04-26,0,1510
+"Quebec","Mauricie",2022-04-26,1,969
 "Quebec","Estrie",2022-04-26,0,578
-"Quebec","Montréal",2022-04-26,2,5395
+"Quebec","Montréal",2022-04-26,2,5396
 "Quebec","Outaouais",2022-04-26,1,293
 "Quebec","Abitibi-Témiscamingue",2022-04-26,0,107
 "Quebec","Côte-Nord",2022-04-26,0,35
@@ -69421,18 +69616,18 @@
 "Quebec","Chaudière-Appalaches",2022-04-26,3,609
 "Quebec","Laval",2022-04-26,3,1094
 "Quebec","Lanaudière",2022-04-26,0,740
-"Quebec","Laurentides",2022-04-26,0,729
-"Quebec","Montérégie",2022-04-26,0,2131
+"Quebec","Laurentides",2022-04-26,0,733
+"Quebec","Montérégie",2022-04-26,0,2132
 "Quebec","Nunavik",2022-04-26,0,10
 "Quebec","Terres-Cries-de-la-Baie-James",2022-04-26,0,12
 "Quebec","Not Reported",2022-04-26,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-27,1,158
 "Quebec","Saguenay",2022-04-27,2,417
-"Quebec","Capitale-Nationale",2022-04-27,2,1509
-"Quebec","Mauricie",2022-04-27,4,972
+"Quebec","Capitale-Nationale",2022-04-27,2,1512
+"Quebec","Mauricie",2022-04-27,4,973
 "Quebec","Estrie",2022-04-27,0,578
-"Quebec","Montréal",2022-04-27,1,5396
-"Quebec","Outaouais",2022-04-27,0,293
+"Quebec","Montréal",2022-04-27,1,5397
+"Quebec","Outaouais",2022-04-27,1,294
 "Quebec","Abitibi-Témiscamingue",2022-04-27,0,107
 "Quebec","Côte-Nord",2022-04-27,0,35
 "Quebec","Nord-du-Québec",2022-04-27,0,4
@@ -69440,18 +69635,18 @@
 "Quebec","Chaudière-Appalaches",2022-04-27,0,609
 "Quebec","Laval",2022-04-27,1,1095
 "Quebec","Lanaudière",2022-04-27,2,742
-"Quebec","Laurentides",2022-04-27,0,729
-"Quebec","Montérégie",2022-04-27,0,2131
+"Quebec","Laurentides",2022-04-27,2,735
+"Quebec","Montérégie",2022-04-27,0,2132
 "Quebec","Nunavik",2022-04-27,0,10
 "Quebec","Terres-Cries-de-la-Baie-James",2022-04-27,0,12
 "Quebec","Not Reported",2022-04-27,0,0
 "Quebec","Bas-Saint-Laurent",2022-04-28,2,160
-"Quebec","Saguenay",2022-04-28,0,417
-"Quebec","Capitale-Nationale",2022-04-28,0,1509
-"Quebec","Mauricie",2022-04-28,2,974
-"Quebec","Estrie",2022-04-28,2,580
-"Quebec","Montréal",2022-04-28,0,5396
-"Quebec","Outaouais",2022-04-28,0,293
+"Quebec","Saguenay",2022-04-28,1,418
+"Quebec","Capitale-Nationale",2022-04-28,0,1512
+"Quebec","Mauricie",2022-04-28,6,979
+"Quebec","Estrie",2022-04-28,3,581
+"Quebec","Montréal",2022-04-28,0,5397
+"Quebec","Outaouais",2022-04-28,1,295
 "Quebec","Abitibi-Témiscamingue",2022-04-28,1,108
 "Quebec","Côte-Nord",2022-04-28,0,35
 "Quebec","Nord-du-Québec",2022-04-28,0,4
@@ -69459,11 +69654,30 @@
 "Quebec","Chaudière-Appalaches",2022-04-28,1,610
 "Quebec","Laval",2022-04-28,0,1095
 "Quebec","Lanaudière",2022-04-28,1,743
-"Quebec","Laurentides",2022-04-28,0,729
-"Quebec","Montérégie",2022-04-28,0,2131
+"Quebec","Laurentides",2022-04-28,0,735
+"Quebec","Montérégie",2022-04-28,0,2132
 "Quebec","Nunavik",2022-04-28,0,10
 "Quebec","Terres-Cries-de-la-Baie-James",2022-04-28,0,12
 "Quebec","Not Reported",2022-04-28,0,0
+"Quebec","Bas-Saint-Laurent",2022-04-29,1,161
+"Quebec","Saguenay",2022-04-29,0,418
+"Quebec","Capitale-Nationale",2022-04-29,2,1514
+"Quebec","Mauricie",2022-04-29,0,979
+"Quebec","Estrie",2022-04-29,0,581
+"Quebec","Montréal",2022-04-29,1,5398
+"Quebec","Outaouais",2022-04-29,1,296
+"Quebec","Abitibi-Témiscamingue",2022-04-29,0,108
+"Quebec","Côte-Nord",2022-04-29,0,35
+"Quebec","Nord-du-Québec",2022-04-29,0,4
+"Quebec","Gaspésie-Îles-de-la-Madeleine",2022-04-29,0,72
+"Quebec","Chaudière-Appalaches",2022-04-29,0,610
+"Quebec","Laval",2022-04-29,0,1095
+"Quebec","Lanaudière",2022-04-29,2,745
+"Quebec","Laurentides",2022-04-29,0,735
+"Quebec","Montérégie",2022-04-29,0,2132
+"Quebec","Nunavik",2022-04-29,0,10
+"Quebec","Terres-Cries-de-la-Baie-James",2022-04-29,0,12
+"Quebec","Not Reported",2022-04-29,0,0
 "Saskatchewan","Far North West",2020-04-04,0,0
 "Saskatchewan","Far North Central",2020-04-04,0,0
 "Saskatchewan","Far North East",2020-04-04,0,0
@@ -80782,3 +80996,4 @@
 "Yukon","Yukon",2022-04-25,0,24
 "Yukon","Yukon",2022-04-26,0,24
 "Yukon","Yukon",2022-04-27,0,24
+"Yukon","Yukon",2022-04-28,1,25
