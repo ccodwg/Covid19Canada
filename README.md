@@ -1,44 +1,23 @@
+# ⚠️ IMPORTANT NOTICE ⚠️
+
+**THIS DATASET HAS BEEN REPLACED WITH A NEW DATASET: [CovidTimelineCanada](https://github.com/ccodwg/CovidTimelineCanada)**
+
+⚠️ Please use the [new dataset](https://github.com/ccodwg/CovidTimelineCanada) from now on. The dataset in this repository will no longer be updated as of May 4, 2022.
+
+🚨 Vaccine-related datasets (like vaccine coverage and vaccine distribution) will be added the new dataset repository shortly.
+
+❗ To ease the transition to the new dataset, **case and death datasets using the old column names, date format, province/territory names and health region names are being offered for download as CSV files**. These files should be more-or-less drop-in replacements for the old case and death datasets. However, we encourage users to switch to the new dataset format, as this legacy format will not be supported indefinitely. Download links for the CSV files:
+
+- [Cases (health regions)](https://api.opencovid.ca/timeseries?stat=cases&geo=hr&legacy=true&fmt=csv)
+- [Cases (provinces/territories)](https://api.opencovid.ca/timeseries?stat=cases&geo=pt&legacy=true&fmt=csv)
+- [Deaths (health regions)](https://api.opencovid.ca/timeseries?stat=deaths&geo=hr&legacy=true&fmt=csv)
+- [Deaths (provinces/territories)](https://api.opencovid.ca/timeseries?stat=deaths&geo=pt&legacy=true&fmt=csv)
+
 # Epidemiological Data from the COVID-19 Outbreak in Canada
 
 The [**COVID-19 Canada Open Data Working Group**](https://opencovid.ca/) collects daily time series data on COVID-19 cases, deaths, recoveries, testing and vaccinations at the health region and province levels. Data are collected from publicly available sources such as government datasets and news releases. Updates are made nightly at 22:00 ET. See [`data_notes.txt`](https://github.com/ccodwg/Covid19Canada/blob/master/data_notes.txt) for notes regarding the latest data update. Our data collection is mostly automated; see [`Covid19CanadaETL`](https://github.com/ccodwg/Covid19CanadaETL) for details.
 
 Our data dashboard is available at the following URL: [https://art-bd.shinyapps.io/covid19canada/](https://art-bd.shinyapps.io/covid19canada/).
-
-## ANNOUNCEMENT: The COVID-19 Canada Open Data Working Group dataset is changing!
-
--   On **April 30** the current [**Covid19Canada**](https://github.com/ccodwg/Covid19Canada) dataset will be retired and replaced with a new dataset that will be more relevant in the changing landscape of the pandemic in Canada.
-
--   This upgraded dataset, titled [**CovidTimelineCanada**](https://github.com/ccodwg/CovidTimelineCanada), is part of our project to understand and preserve the history of the pandemic, [**What Happened? COVID-19 in Canada**](https://whathappened.coronavirus.icu/).
-
-**Why is our dataset changing?**
-
-- Since 2022, COVID-19 data availability in Canada has changed significantly. We felt it was time to refocus our data offerings to providing timely, actionable metrics for Canadians.
-
-- Our existing dataset contains many quirks and oddities resulting from changes to reporting over the past two years. New datasets are available to help us correct many of these issues.
-
-**What is staying the same?**
-
--   We will continue to provide daily data updates for the foreseeable future. Individual provinces/territories may receive less frequent updates depending on how often they release new COVID-19 data.
-
-**What is changing?**
-
-- Our new dataset is focused on reporting the most relevant metrics: cases, deaths, testing, hospitalizations, ICU admissions and vaccination coverage, including third doses.
-
-- Historical data updates will be more thoroughly incorporated into the daily update process, eliminating data oddities such as negative case numbers.
-
-- Our new dataset will be in a simpler, standardized format (subject to change until April 30).
-
-- We hope to add wastewater monitoring data in the near future, as this metric will be key to tracking population-wide COVID-19 incidence in the absence of widespread PCR testing.
-
-**What else do I need to know?**
-
-- Starting **April 15**, the new [**CovidTimelineCanada**](https://github.com/ccodwg/CovidTimelineCanada) dataset will be regularly updated.
-
-- On **April 30**, the current [**Covid19Canada**](https://github.com/ccodwg/Covid19Canada) dataset will be archived. No further updates will be made after this date.
-
-- On **April 30**, only the new [**CovidTimelineCanada**](https://github.com/ccodwg/CovidTimelineCanada) dataset will be available via our [**API**](https://opencovid.ca/api/).
-
-- Tools will be made available shortly to ease the transition between the two datasets.
 
 Table of contents:
 
@@ -61,10 +40,6 @@ Our datasets are available in three different formats:
 * [Google Drive](https://drive.google.com/drive/folders/1He6mPAbolgh7jtsq1zu6LpLQKz34n_nP)
 
 Note that retired datasets (`retired_datasets`) are only available on GitHub.
-
-## Recent dataset changes
-
-* Beginning 2022-02-07, Saskatchewan will only be reporting a limited set of data once per week on Thursdays. See the [news release](https://www.saskatchewan.ca/government/news-and-media/2022/february/03/living-with-covid-transition-of-public-health-management) for more details. This will affect the quality and timeliness of COVID-19 data updates for Saskatchewan.
 
 ## Datasets
 
