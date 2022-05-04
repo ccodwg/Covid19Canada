@@ -4,7 +4,7 @@
 
 ⚠️ Please use the [new dataset](https://github.com/ccodwg/CovidTimelineCanada) from now on. The dataset in this repository will no longer be updated as of May 4, 2022.
 
-🚨 Vaccine-related datasets (like vaccine coverage and vaccine distribution) will be added the new dataset repository shortly.
+🚨 Vaccine-related datasets (like vaccine coverage and vaccine distribution) will be added to the new dataset repository shortly.
 
 ❗ To ease the transition to the new dataset, **case and death datasets using the old column names, date format, province/territory names and health region names are being offered for download as CSV files**. These files should be more-or-less drop-in replacements for the old case and death datasets. However, we encourage users to switch to the new dataset format, as this legacy format will not be supported indefinitely. Download links for the CSV files:
 
